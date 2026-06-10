@@ -117,6 +117,12 @@ const state = {
   category: "all"
 };
 
+const panSearchData = window.PAN_SEARCH_DATA || {
+  items: [],
+  sources: [],
+  totals: { unique: { total: 0, quark: 0, baidu: 0 } }
+};
+
 function resource(title, description, source, url, sourceClass = "") {
   return { title, description, source, url, sourceClass };
 }
@@ -208,6 +214,157 @@ function renderResources() {
   document.querySelector(".empty-state").style.display = visibleCount ? "none" : "block";
 }
 
+function panSearchNormalize(text) {
+  return String(text || "")
+    .toLocaleLowerCase("zh-CN")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function panSearchTokens(query) {
+  return panSearchNormalize(query).split(/\s+/).filter(Boolean);
+}
+
+function panSearchEscapeHtml(text) {
+  return String(text || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
+function panSearchEscapeRegExp(text) {
+  return text.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function panSearchHighlight(text, queryTokens) {
+  let escaped = panSearchEscapeHtml(text);
+  for (const token of queryTokens) {
+    const safe = panSearchEscapeRegExp(panSearchEscapeHtml(token));
+    escaped = escaped.replace(new RegExp(safe, "gi"), (match) => `<mark>${match}</mark>`);
+  }
+  return escaped;
+}
+
+function panSearchSourceName(item) {
+  const first = item.sources && item.sources[0];
+  if (!first) return "未知来源";
+  return item.sources.length > 1 ? `${first.file} 等 ${item.sources.length} 处` : `${first.file}:${first.line}`;
+}
+
+function panSearchItemMatches(item, queryTokens) {
+  if (!queryTokens.length) return false;
+  const haystack = panSearchNormalize([item.title, item.context, item.section, item.searchText, item.url].join(" "));
+  return queryTokens.every((token) => haystack.includes(token));
+}
+
+function renderPanSearchResults() {
+  const container = document.querySelector("#panSearchResults");
+  if (!container) return;
+
+  const queryTokens = panSearchTokens(state.query);
+  if (!queryTokens.length) {
+    container.hidden = true;
+    container.innerHTML = "";
+    return;
+  }
+
+  const matched = panSearchData.items.filter((item) => panSearchItemMatches(item, queryTokens)).slice(0, 80);
+  const quark = matched.filter((item) => item.platform === "quark");
+  const baidu = matched.filter((item) => item.platform === "baidu");
+  const totals = panSearchData.totals?.unique || {};
+
+  container.hidden = false;
+  container.innerHTML = `
+    <header class="pan-search-header">
+      <div>
+        <span class="panel-label">网盘搜索</span>
+        <h2>“${panSearchEscapeHtml(state.query)}” 的网盘资源</h2>
+        <p>共匹配 ${matched.length} 条，夸克 ${quark.length} 条，百度 ${baidu.length} 条。索引库约 ${totals.total || panSearchData.items.length} 条链接。</p>
+      </div>
+      <button class="pan-clear-button" type="button">清空搜索</button>
+    </header>
+    <div class="pan-result-grid">
+      ${renderPanSearchColumn("夸克网盘", quark, queryTokens)}
+      ${renderPanSearchColumn("百度网盘", baidu, queryTokens)}
+    </div>
+  `;
+
+  container.querySelector(".pan-clear-button").addEventListener("click", () => {
+    const input = document.querySelector("#searchInput");
+    state.query = "";
+    input.value = "";
+    renderResources();
+    renderPanSearchResults();
+  });
+
+  container.querySelectorAll("[data-copy-url]").forEach((button) => {
+    button.addEventListener("click", async () => {
+      const copied = await copyPanSearchText(button.dataset.copyUrl);
+      button.textContent = copied ? "已复制" : "手动复制";
+      window.setTimeout(() => {
+        button.textContent = "复制";
+      }, 1300);
+    });
+  });
+}
+
+function renderPanSearchColumn(title, items, queryTokens) {
+  return `
+    <section class="pan-result-column">
+      <div class="pan-column-heading">
+        <h3>${title}</h3>
+        <span>${items.length}</span>
+      </div>
+      <div class="pan-result-list">
+        ${items.length ? items.map((item) => renderPanSearchItem(item, queryTokens)).join("") : '<div class="pan-empty">没有匹配结果。</div>'}
+      </div>
+    </section>
+  `;
+}
+
+function renderPanSearchItem(item, queryTokens) {
+  const platformName = item.platform === "quark" ? "夸克" : "百度";
+  return `
+    <article class="pan-result-item">
+      <div class="pan-result-topline">
+        <span class="pan-badge ${item.platform}">${platformName}</span>
+        <span>${panSearchEscapeHtml(panSearchSourceName(item))}</span>
+      </div>
+      <h4>${panSearchHighlight(item.title, queryTokens)}</h4>
+      <p>${panSearchHighlight(item.context, queryTokens)}</p>
+      ${item.code ? `<p class="pan-code">提取码：${panSearchEscapeHtml(item.code)}</p>` : ""}
+      <div class="pan-result-actions">
+        <a href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">打开</a>
+        <button type="button" data-copy-url="${panSearchEscapeHtml(item.url)}">复制</button>
+      </div>
+    </article>
+  `;
+}
+
+async function copyPanSearchText(text) {
+  try {
+    if (navigator.clipboard && window.isSecureContext) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+  } catch (_) {
+    // Fall back to a temporary textarea.
+  }
+
+  const input = document.createElement("textarea");
+  input.value = text;
+  input.setAttribute("readonly", "");
+  input.style.position = "fixed";
+  input.style.left = "-9999px";
+  document.body.append(input);
+  input.select();
+  const ok = document.execCommand("copy");
+  input.remove();
+  return ok;
+}
+
 function renderSectionLink(section) {
   const firstLink = section.items[0];
   if (!firstLink?.url) return "";
@@ -242,6 +399,7 @@ function bindEvents() {
   document.querySelector("#searchInput").addEventListener("input", (event) => {
     state.query = event.target.value;
     renderResources();
+    renderPanSearchResults();
   });
 
   document.querySelector("#categoryFilters").addEventListener("click", (event) => {
@@ -257,4 +415,5 @@ renderNav();
 renderFilters();
 renderQuickLinks();
 renderResources();
+renderPanSearchResults();
 bindEvents();
