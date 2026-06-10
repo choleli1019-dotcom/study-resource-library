@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>学习资源库</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" aria-label="资料板块">
+        <a class="brand" href="#top" aria-label="学习资源库首页">
+          <span class="brand-mark">学</span>
+          <span>
+            <strong>学习资源库</strong>
+            <small>备考资料导航</small>
+          </span>
+        </a>
+        <nav id="sectionNav" class="section-nav"></nav>
+        <div class="sidebar-note">
+          <strong>提示</strong>
+          <p>网盘和飞书链接可能会失效，建议打开后及时转存。</p>
+        </div>
+      </aside>
+
+      <main id="top" class="main">
+        <header class="topbar">
+          <div>
+            <span>Resource Navigator</span>
+            <strong>备考资料导航台</strong>
+          </div>
+          <a href="#resourceSections">浏览资料</a>
+        </header>
+
+        <section class="hero">
+          <div class="hero-copy">
+            <p class="eyebrow">公务员 / 事业单位 / 教招 / 法考 / 考研</p>
+            <h1>学习资源库</h1>
+            <p>
+              按 PDF 目录整理的备考资料入口，覆盖笔试、面试、真题、网课、经验、电子书和放松资源。
+            </p>
+            <div class="hero-stats" aria-label="资源库概览">
+              <span><strong>9</strong> 大板块</span>
+              <span><strong>30+</strong> 资料入口</span>
+              <span><strong>持续</strong> 更新</span>
+            </div>
+          </div>
+          <div class="hero-art">
+            <img src="/assets/sky-clouds.jpg" alt="蓝天白云学习资料封面" />
+            <span class="hero-stamp">Sky Study Hub</span>
+          </div>
+        </section>
+
+        <section class="toolbar" aria-label="资源筛选">
+          <label class="search-box">
+            <span>搜索</span>
+            <input id="searchInput" type="search" placeholder="输入关键词，例如 行测、真题、教资" />
+          </label>
+          <div id="categoryFilters" class="filters" role="group" aria-label="分类筛选"></div>
+        </section>
+
+        <section class="quick-panel" aria-label="重要入口">
+          <div>
+            <span class="panel-label">先看这里</span>
+            <h2>新手建议从指南、保存教程、交流群开始</h2>
+          </div>
+          <div id="quickLinks" class="quick-links"></div>
+        </section>
+
+        <section id="resourceSections" class="resource-sections"></section>
+
+        <section class="notice" id="disclaimer">
+          <h2>免责声明</h2>
+          <p>
+            本资源来自互联网收集，仅供学习和交流，请勿用于商业用途。本站不提供文件存储及违规下载，资源链接指向百度云、夸克网盘、飞书等第三方地址。
+          </p>
+          <p>
+            如有侵权或不妥之处，请联系资源维护者并提供版权证明以便删除。下载后请于24小时内删除。请支持正版，尊重版权，任何商业使用后果自负。
+
+          </p>
+        </section>
+      </main>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
