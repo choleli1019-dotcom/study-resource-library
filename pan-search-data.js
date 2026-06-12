@@ -1,17 +1,17 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-06-10T09:02:31.146Z",
-  "sourceDir": "F:\\DeskTop\\Notion笔记",
+  "generatedAt": "2026-06-12T00:36:57.151Z",
+  "sourceDir": "F:\\DeskTop\\Notion笔记; F:\\DeskTop\\f285057c-7df3-4746-ac52-5ce6cb3d754c_ExportBlock-3988e926-b0e0-4adf-b67e-e3c3e1667999\\ExportBlock-3988e926-b0e0-4adf-b67e-e3c3e1667999-Part-1",
   "missingSources": [],
   "totals": {
     "raw": {
-      "quark": 271,
-      "baidu": 72,
-      "total": 343
+      "quark": 301,
+      "baidu": 296,
+      "total": 597
     },
     "unique": {
-      "quark": 261,
-      "baidu": 60,
-      "total": 321
+      "quark": 291,
+      "baidu": 284,
+      "total": 575
     }
   },
   "sources": [
@@ -170,6 +170,12 @@ window.PAN_SEARCH_DATA = {
       "quark": 2,
       "baidu": 2,
       "total": 4
+    },
+    {
+      "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+      "quark": 30,
+      "baidu": 224,
+      "total": 254
     }
   ],
   "items": [
@@ -5739,6 +5745,4324 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "X西部计划 其他类型考试资料（计算机等级，四六级，软考、专四专八...） | X西部计划 | 链接： 其他类型考试资料（计算机等级，四六级，软考、专四专八...）.md"
+    },
+    {
+      "id": "r322",
+      "title": "2027国省考合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/d3794bb15530",
+      "code": "",
+      "section": "网盘：",
+      "context": "2027国省考合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 6,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2027国省考合集 网盘： 2027国省考合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r323",
+      "title": "【言语】大懒猫言语合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/1858de7ba773",
+      "code": "",
+      "section": "网盘：",
+      "context": "【言语】大懒猫言语合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 9,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【言语】大懒猫言语合集 网盘： 【言语】大懒猫言语合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r324",
+      "title": "言语】郭熙合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/7619e1f9eeb5",
+      "code": "",
+      "section": "网盘：",
+      "context": "言语】郭熙合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 12,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "言语】郭熙合集 网盘： 言语】郭熙合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r325",
+      "title": "雨菲（上岸村）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/7b85dbda48b8",
+      "code": "",
+      "section": "网盘：",
+      "context": "雨菲（上岸村）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 15,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "雨菲（上岸村） 网盘： 雨菲（上岸村） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r326",
+      "title": "2027欣说言语刷题集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/c6f7674b3655",
+      "code": "",
+      "section": "网盘：",
+      "context": "2027欣说言语刷题集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 18,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2027欣说言语刷题集 网盘： 2027欣说言语刷题集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r327",
+      "title": "🍉2027上岸村合集🌻",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/3cb1a2cc61f3",
+      "code": "",
+      "section": "网盘：",
+      "context": "🍉2027上岸村合集🌻",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 21,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "🍉2027上岸村合集🌻 网盘： 🍉2027上岸村合集🌻 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r328",
+      "title": "🍀花生十三合集🥜",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/5233d44a8178",
+      "code": "",
+      "section": "网盘：",
+      "context": "🍀花生十三合集🥜",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 24,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "🍀花生十三合集🥜 网盘： 🍀花生十三合集🥜 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r329",
+      "title": "🌻超格合集🧨",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/09449bbd2720",
+      "code": "",
+      "section": "网盘：",
+      "context": "🌻超格合集🧨",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 27,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "🌻超格合集🧨 网盘： 🌻超格合集🧨 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r330",
+      "title": "粉笔合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/745dc68a3c33",
+      "code": "",
+      "section": "网盘：",
+      "context": "粉笔合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 30,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "粉笔合集 网盘： 粉笔合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r331",
+      "title": "【行测】行测王山东分王",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/335da2c618a9",
+      "code": "",
+      "section": "网盘：",
+      "context": "【行测】行测王山东分王",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 33,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【行测】行测王山东分王 网盘： 【行测】行测王山东分王 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r332",
+      "title": "申论+面试 袁东合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/9dffa62a0e45",
+      "code": "",
+      "section": "网盘：",
+      "context": "申论+面试 袁东合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 36,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "申论+面试 袁东合集 网盘： 申论+面试 袁东合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r333",
+      "title": "【政治+常识+公基+时政】小黑合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6aaed26c7e15",
+      "code": "",
+      "section": "网盘：",
+      "context": "【政治+常识+公基+时政】小黑合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 39,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【政治+常识+公基+时政】小黑合集 网盘： 【政治+常识+公基+时政】小黑合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r334",
+      "title": "「2026年F家全国公基系统班",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/996ccf2ea6d6",
+      "code": "",
+      "section": "网盘：",
+      "context": "「2026年F家全国公基系统班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 42,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "「2026年F家全国公基系统班 网盘： 「2026年F家全国公基系统班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r335",
+      "title": "2027四海拾伊数量基础理论课",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/5217655311b1",
+      "code": "",
+      "section": "网盘：",
+      "context": "2027四海拾伊数量基础理论课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 45,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2027四海拾伊数量基础理论课 网盘： 2027四海拾伊数量基础理论课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r336",
+      "title": "2027齐麟数资刷题组",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/07d5ffb0807d",
+      "code": "",
+      "section": "网盘：",
+      "context": "2027齐麟数资刷题组",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 48,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2027齐麟数资刷题组 网盘： 2027齐麟数资刷题组 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r337",
+      "title": "🌻2027资料分析、数量关系合集💯",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/1de710c0486a",
+      "code": "",
+      "section": "网盘：",
+      "context": "🌻2027资料分析、数量关系合集💯",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 51,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "🌻2027资料分析、数量关系合集💯 网盘： 🌻2027资料分析、数量关系合集💯 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r338",
+      "title": "🍀2027判断推理合集✅",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/4f7afea8d41f",
+      "code": "",
+      "section": "网盘：",
+      "context": "🍀2027判断推理合集✅",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 54,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "🍀2027判断推理合集✅ 网盘： 🍀2027判断推理合集✅ 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r339",
+      "title": "🌻2027笔记、刷题本、真题合集📕",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/9c27cbe9fddc",
+      "code": "",
+      "section": "网盘：",
+      "context": "🌻2027笔记、刷题本、真题合集📕",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 57,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "🌻2027笔记、刷题本、真题合集📕 网盘： 🌻2027笔记、刷题本、真题合集📕 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r340",
+      "title": "26模考复盘合集（红领巾✨、陈怀安等）🍑",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/717c819efe63",
+      "code": "",
+      "section": "网盘：",
+      "context": "26模考复盘合集（红领巾✨、陈怀安等）🍑",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 60,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "26模考复盘合集（红领巾✨、陈怀安等）🍑 网盘： 26模考复盘合集（红领巾✨、陈怀安等）🍑 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r341",
+      "title": "26行测P神",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/c7c63e133fee",
+      "code": "",
+      "section": "网盘：",
+      "context": "26行测P神",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 63,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "26行测P神 网盘： 26行测P神 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r342",
+      "title": "【行测申论】刘文超&威猛公考（阿里木江）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/205c3d2f81f7",
+      "code": "",
+      "section": "网盘：",
+      "context": "【行测申论】刘文超&威猛公考（阿里木江）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 66,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【行测申论】刘文超&威猛公考（阿里木江） 网盘： 【行测申论】刘文超&威猛公考（阿里木江） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r343",
+      "title": "【模考复盘】陈怀安",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/c48aa7fc57fa",
+      "code": "",
+      "section": "网盘：",
+      "context": "【模考复盘】陈怀安",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 69,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【模考复盘】陈怀安 网盘： 【模考复盘】陈怀安 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r344",
+      "title": "【行测】陈八十",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/dc7d74aa0502",
+      "code": "",
+      "section": "网盘：",
+      "context": "【行测】陈八十",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 72,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【行测】陈八十 网盘： 【行测】陈八十 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r345",
+      "title": "【行测】公考正道是沧桑",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/657782fe80a9",
+      "code": "",
+      "section": "网盘：",
+      "context": "【行测】公考正道是沧桑",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 75,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【行测】公考正道是沧桑 网盘： 【行测】公考正道是沧桑 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r346",
+      "title": "【行测】2026国省考上岸村行测全科全家桶",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/2606af594359",
+      "code": "",
+      "section": "网盘：",
+      "context": "【行测】2026国省考上岸村行测全科全家桶",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 78,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【行测】2026国省考上岸村行测全科全家桶 网盘： 【行测】2026国省考上岸村行测全科全家桶 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r347",
+      "title": "【图推+成语】AJ-GK合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/51e4742abb36",
+      "code": "",
+      "section": "网盘：",
+      "context": "【图推+成语】AJ-GK合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 81,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【图推+成语】AJ-GK合集 网盘： 【图推+成语】AJ-GK合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r348",
+      "title": "判断】龙飞合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/3218df3dbef8",
+      "code": "",
+      "section": "网盘：",
+      "context": "判断】龙飞合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 84,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "判断】龙飞合集 网盘： 判断】龙飞合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r349",
+      "title": "☕白鹭合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/c6aa85aaff6a",
+      "code": "",
+      "section": "网盘：",
+      "context": "☕白鹭合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 87,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "☕白鹭合集 网盘： ☕白鹭合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r350",
+      "title": "26隔壁班王老师",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/7139145a6d14",
+      "code": "",
+      "section": "网盘：",
+      "context": "26隔壁班王老师",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 90,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "26隔壁班王老师 网盘： 26隔壁班王老师 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r351",
+      "title": "申论+面试 半月谈合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/ef165c26ffbc",
+      "code": "",
+      "section": "网盘：",
+      "context": "申论+面试 半月谈合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 93,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "申论+面试 半月谈合集 网盘： 申论+面试 半月谈合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r352",
+      "title": "2026公考合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1HShIR9EJ7UsLbj0agrIRzg?pwd=57yg",
+      "code": "57yg",
+      "section": "网盘：",
+      "context": "2026公考合集 | 提取码: 57yg",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 98,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026公考合集 网盘： 2026公考合集 | 提取码: 57yg 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r353",
+      "title": "2026国省考名师课程",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ioocPJpbQE-6_gJRFEIlpg?pwd=snap",
+      "code": "snap",
+      "section": "网盘：",
+      "context": "2026国省考名师课程 | 提取码: snap",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 101,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026国省考名师课程 网盘： 2026国省考名师课程 | 提取码: snap 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r354",
+      "title": "2026年天晓申论套卷批改班【10期】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1XBDiHK4SFUerlaQJ7HqArg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026年天晓申论套卷批改班【10期】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 104,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026年天晓申论套卷批改班【10期】 网盘： 2026年天晓申论套卷批改班【10期】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r355",
+      "title": "【027】2026岳飞资料每日跟刷题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1FILegIMx2k196Ej2RN5uIg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【027】2026岳飞资料每日跟刷题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 108,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【027】2026岳飞资料每日跟刷题 网盘： 【027】2026岳飞资料每日跟刷题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r356",
+      "title": "【077】2026年四海拾伊15天速算训练营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1VMbAjqkDtrjAfCRL9MDCaw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【077】2026年四海拾伊15天速算训练营",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 112,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【077】2026年四海拾伊15天速算训练营 网盘： 【077】2026年四海拾伊15天速算训练营 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r357",
+      "title": "【100】小新公考",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1h7Mmh0912XVAYm-dloywpw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【100】小新公考",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 116,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【100】小新公考 网盘： 【100】小新公考 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r358",
+      "title": "26省考，平面推理",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1FFhfLEcFhPkbX0MzjmxtZA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "26省考，平面推理",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 120,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "26省考，平面推理 网盘： 26省考，平面推理 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r359",
+      "title": "【超级会员V4】通过百度网盘分享的文件：【037】2026年大懒猫言语专项600题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1K78lhdHBtkxta5r2maoX6A?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【超级会员V4】通过百度网盘分享的文件：【037】2026年大懒猫言语专项600题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 124,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【超级会员V4】通过百度网盘分享的文件：【037】2026年大懒猫言语专项600题 网盘： 【超级会员V4】通过百度网盘分享的文件：【037】2026年大懒猫言语专项600题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r360",
+      "title": "2026年省考飞扬申论大作文题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1saNlpMFOviWKLJHUzW92Ng?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026年省考飞扬申论大作文题早课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 128,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026年省考飞扬申论大作文题早课 网盘： 2026年省考飞扬申论大作文题早课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r361",
+      "title": "2026资料是个圆（理论课+刷题课）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1W5VU-LrSSZ3ROVWhdppc-A?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026资料是个圆（理论课+刷题课）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 132,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026资料是个圆（理论课+刷题课） 网盘： 2026资料是个圆（理论课+刷题课） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r362",
+      "title": "26刘益超山西省考系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1h1rSIVlxM_wk8WR8xTbCQw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "26刘益超山西省考系统课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 136,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "26刘益超山西省考系统课 网盘： 26刘益超山西省考系统课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r363",
+      "title": "【112】2026年为民公考国考真题精讲提升冲刺班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1SgmbUl8dEdJ5ypkEwWFmqg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【112】2026年为民公考国考真题精讲提升冲刺班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 140,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【112】2026年为民公考国考真题精讲提升冲刺班 网盘： 【112】2026年为民公考国考真题精讲提升冲刺班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r364",
+      "title": "【05】李铁公基12000题刷题课（近五年最新公基真题）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1tLTnibjlhtU3bNNDljp3OA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【05】李铁公基12000题刷题课（近五年最新公基真题）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 144,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【05】李铁公基12000题刷题课（近五年最新公基真题） 网盘： 【05】李铁公基12000题刷题课（近五年最新公基真题） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r365",
+      "title": "【177】2026年省考袁东申论领跑营理论刷题班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1VN8YPa77Yefv-uH5E-DImw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【177】2026年省考袁东申论领跑营理论刷题班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 148,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【177】2026年省考袁东申论领跑营理论刷题班 网盘： 【177】2026年省考袁东申论领跑营理论刷题班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r366",
+      "title": "2026天晓申论套卷批改班【10期】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1GHvyjpfN9phueU7AfdMrXw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026天晓申论套卷批改班【10期】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 152,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026天晓申论套卷批改班【10期】 网盘： 2026天晓申论套卷批改班【10期】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r367",
+      "title": "【145】2026年申论系统课：手把手教你零基础到高分【未雨】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1D6FfO68X6Jpe-eYFK_NqSw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【145】2026年申论系统课：手把手教你零基础到高分【未雨】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 156,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【145】2026年申论系统课：手把手教你零基础到高分【未雨】 网盘： 【145】2026年申论系统课：手把手教你零基础到高分【未雨】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r368",
+      "title": "【公考行测-数量关系】2026国考省考通用，朱曦老师精讲，独创体系147个命题思维题型技巧思维总结",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1XSqFt_ilA9T_F-h-RCq7dA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【公考行测-数量关系】2026国考省考通用，朱曦老师精讲，独创体系147个命题思维题型技巧思维总结",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 160,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【公考行测-数量关系】2026国考省考通用，朱曦老师精讲，独创体系147个命题思维题型技巧思维总结 网盘： 【公考行测-数量关系】2026国考省考通用，朱曦老师精讲，独创体系147个命题思维题型技巧思维总结 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r369",
+      "title": "【019】白鹭26申论扎马步+易行",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1WiirW_eno67IObV6M9ab5A?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【019】白鹭26申论扎马步+易行",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 164,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【019】白鹭26申论扎马步+易行 网盘： 【019】白鹭26申论扎马步+易行 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r370",
+      "title": "【言语】2026省考雨菲言语速解36计",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1pRORlrcK2sLNsmmUGSuLBQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【言语】2026省考雨菲言语速解36计",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 168,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【言语】2026省考雨菲言语速解36计 网盘： 【言语】2026省考雨菲言语速解36计 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r371",
+      "title": "【116】2026年飞扬申论公文题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1nw4aavtfsVVQMKVjkj_0dQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【116】2026年飞扬申论公文题早课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 172,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【116】2026年飞扬申论公文题早课 网盘： 【116】2026年飞扬申论公文题早课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r372",
+      "title": "【007】2026年逻辑不楠判断推理理论课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1rZ3ABh0UaJbx10IosB69oA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【007】2026年逻辑不楠判断推理理论课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 176,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【007】2026年逻辑不楠判断推理理论课 网盘： 【007】2026年逻辑不楠判断推理理论课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r373",
+      "title": "【086】2026爱打篮球的公考人资料分析800题（160篇）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1UWk9tPgERWcK9hXYqaHQNA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【086】2026爱打篮球的公考人资料分析800题（160篇）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 180,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【086】2026爱打篮球的公考人资料分析800题（160篇） 网盘： 【086】2026爱打篮球的公考人资料分析800题（160篇） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r374",
+      "title": "【044】合并套题版：数量最新五年国省联选（59套）【叽叽喳喳的公考】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1La4X5XVnqVDI6c86K7lkKQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【044】合并套题版：数量最新五年国省联选（59套）【叽叽喳喳的公考】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 184,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【044】合并套题版：数量最新五年国省联选（59套）【叽叽喳喳的公考】 网盘： 【044】合并套题版：数量最新五年国省联选（59套）【叽叽喳喳的公考】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r375",
+      "title": "【066】2026年杨攀行测政治理论一课通",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/13cOvltLZwkPylX_EIaR3Nw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【066】2026年杨攀行测政治理论一课通",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 188,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【066】2026年杨攀行测政治理论一课通 网盘： 【066】2026年杨攀行测政治理论一课通 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r376",
+      "title": "2026年多省联考数资常三合一冲刺刷题课【小Y在日记】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1EjtpbDOn8jTPI5XX7cJCRw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026年多省联考数资常三合一冲刺刷题课【小Y在日记】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 192,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026年多省联考数资常三合一冲刺刷题课【小Y在日记】 网盘： 2026年多省联考数资常三合一冲刺刷题课【小Y在日记】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r377",
+      "title": "【075】2026年国考&广东省考程日升图形推理600题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1RJB_ttX74_EH-PyGHvKfBw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【075】2026年国考&广东省考程日升图形推理600题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 196,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【075】2026年国考&广东省考程日升图形推理600题 网盘： 【075】2026年国考&广东省考程日升图形推理600题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r378",
+      "title": "2026多省联考苏金朋行测冲刺总结课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1OOsTMXbook5AgMDnfk5ifA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026多省联考苏金朋行测冲刺总结课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 200,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026多省联考苏金朋行测冲刺总结课 网盘： 2026多省联考苏金朋行测冲刺总结课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r379",
+      "title": "【014】2026年叽叽喳喳数量精讲快解50套题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1dwwSAYHBF64f5l2WO60Yeg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【014】2026年叽叽喳喳数量精讲快解50套题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 204,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【014】2026年叽叽喳喳数量精讲快解50套题 网盘： 【014】2026年叽叽喳喳数量精讲快解50套题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r380",
+      "title": "【143】2026年天津市考冀小锋申论考前冲刺",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1bbEta3zE8uW-TMGTx-J-aQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【143】2026年天津市考冀小锋申论考前冲刺",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 208,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【143】2026年天津市考冀小锋申论考前冲刺 网盘： 【143】2026年天津市考冀小锋申论考前冲刺 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r381",
+      "title": "【117】2026忧郁牛牛考前冲刺押题全家桶（国考+小联考）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Ywb2VZuNB577EGcYovctyA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【117】2026忧郁牛牛考前冲刺押题全家桶（国考+小联考）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 212,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【117】2026忧郁牛牛考前冲刺押题全家桶（国考+小联考） 网盘： 【117】2026忧郁牛牛考前冲刺押题全家桶（国考+小联考） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r382",
+      "title": "【015】2026年国考大懒猫言语理解理论课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1A9ZbPqVXADkP-AVlEpHrow?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【015】2026年国考大懒猫言语理解理论课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 216,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【015】2026年国考大懒猫言语理解理论课 网盘： 【015】2026年国考大懒猫言语理解理论课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r383",
+      "title": "【104】2026年时政是条线冲刺课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1HSS7hqMDJBF_SylvmT46WQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【104】2026年时政是条线冲刺课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 220,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【104】2026年时政是条线冲刺课 网盘： 【104】2026年时政是条线冲刺课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r384",
+      "title": "【011】26爱打篮球的公考人资料分析加速度（速算＋理论+专项刷题）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1JfMde_AHqHBbbClYteGr1Q?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【011】26爱打篮球的公考人资料分析加速度（速算＋理论+专项刷题）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 224,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【011】26爱打篮球的公考人资料分析加速度（速算＋理论+专项刷题） 网盘： 【011】26爱打篮球的公考人资料分析加速度（速算＋理论+专项刷题） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r385",
+      "title": "【058】苏金鹏2026数量关系通关课（理论+拔高刷题）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1cCg_OSO_L3OTkuhbgAvhGQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【058】苏金鹏2026数量关系通关课（理论+拔高刷题）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 228,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【058】苏金鹏2026数量关系通关课（理论+拔高刷题） 网盘： 【058】苏金鹏2026数量关系通关课（理论+拔高刷题） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r386",
+      "title": "【033】2026年CG（五合一）行测+申论夸夸刷",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1c1ZwlNLM0N8OczYj178KAA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【033】2026年CG（五合一）行测+申论夸夸刷",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 232,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【033】2026年CG（五合一）行测+申论夸夸刷 网盘： 【033】2026年CG（五合一）行测+申论夸夸刷 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r387",
+      "title": "【76】2026小驴申论笔试系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1xl_NOkAge_Ofw_nlSQeOpA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【76】2026小驴申论笔试系统课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 236,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【76】2026小驴申论笔试系统课 网盘： 【76】2026小驴申论笔试系统课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r388",
+      "title": "2026顾斐宝藏成语800词精讲",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1SER9YpCS_iFnCXFVZdHhZA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026顾斐宝藏成语800词精讲",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 240,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026顾斐宝藏成语800词精讲 网盘： 2026顾斐宝藏成语800词精讲 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r389",
+      "title": "2026年省考花生十三飞扬套题班1期",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1IQVEVbhHB1EAmz_uxVASbQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026年省考花生十三飞扬套题班1期",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 244,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026年省考花生十三飞扬套题班1期 网盘： 2026年省考花生十三飞扬套题班1期 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r390",
+      "title": "【05】超好运小bud",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1E8CGoBnBkN97Q9HCvqslaQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【05】超好运小bud",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 248,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【05】超好运小bud 网盘： 【05】超好运小bud 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r391",
+      "title": "【047】2026年白鹭申论破题阵突破营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1JbUI7Eyv4TCd9CTK2zPZEQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【047】2026年白鹭申论破题阵突破营",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 252,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【047】2026年白鹭申论破题阵突破营 网盘： 【047】2026年白鹭申论破题阵突破营 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r392",
+      "title": "2026省考袁东申论大作文专项冲刺班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1KMhkmf0oHgrypc0C69Uwcw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026省考袁东申论大作文专项冲刺班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 256,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026省考袁东申论大作文专项冲刺班 网盘： 2026省考袁东申论大作文专项冲刺班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r393",
+      "title": "【002】2026年国省事三考大姨夫三合一全家桶",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1SzR2YbIu89O4UxIjotJnbQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【002】2026年国省事三考大姨夫三合一全家桶",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 260,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【002】2026年国省事三考大姨夫三合一全家桶 网盘： 【002】2026年国省事三考大姨夫三合一全家桶 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r394",
+      "title": "2026年省考飞扬申论分析理解题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1EOH24XXt_upw0X7kchX5Dg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026年省考飞扬申论分析理解题早课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 264,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026年省考飞扬申论分析理解题早课 网盘： 2026年省考飞扬申论分析理解题早课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r395",
+      "title": "2026年超小马省考笔试冲刺加油站",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1-RZ_NCav6yQ7qEdPXajl_A?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026年超小马省考笔试冲刺加油站",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 268,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026年超小马省考笔试冲刺加油站 网盘： 2026年超小马省考笔试冲刺加油站 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r396",
+      "title": "【152】2026年天晓申论套卷刷题课（11套卷）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1bJ2ZGMrd8stbQJszv_Hoiw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【152】2026年天晓申论套卷刷题课（11套卷）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 272,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【152】2026年天晓申论套卷刷题课（11套卷） 网盘： 【152】2026年天晓申论套卷刷题课（11套卷） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r397",
+      "title": "【006】2026年超格行测申论（六合一）理论实战班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1RHf849WpX3VCB47f_f6ptQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【006】2026年超格行测申论（六合一）理论实战班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 276,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【006】2026年超格行测申论（六合一）理论实战班 网盘： 【006】2026年超格行测申论（六合一）理论实战班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r398",
+      "title": "【001】2026年国省考小黑政治理论+常识判断系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1kEIVrEwnVeQj3EQNdW-jiA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【001】2026年国省考小黑政治理论+常识判断系统班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 280,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【001】2026年国省考小黑政治理论+常识判断系统班 网盘： 【001】2026年国省考小黑政治理论+常识判断系统班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r399",
+      "title": "2026多省联考大宝小宝言语新春焕新刷题班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1g5DSBPm9zXM4GkyNvYzk8Q?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026多省联考大宝小宝言语新春焕新刷题班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 284,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026多省联考大宝小宝言语新春焕新刷题班 网盘： 2026多省联考大宝小宝言语新春焕新刷题班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r400",
+      "title": "【055】2026小张申论系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/12fKJSdcJkrC7l5TUIAOwXg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【055】2026小张申论系统课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 288,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【055】2026小张申论系统课 网盘： 【055】2026小张申论系统课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r401",
+      "title": "【080】2026年超哥政治理论背诵手册",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/13PXphpO7wr1ZrxvKE3S4_A?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【080】2026年超哥政治理论背诵手册",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 292,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【080】2026年超哥政治理论背诵手册 网盘： 【080】2026年超哥政治理论背诵手册 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r402",
+      "title": "【013】2026晨宇言语大神思维体系课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1nandqQ2eViSJP1aSFt1DlQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【013】2026晨宇言语大神思维体系课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 296,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【013】2026晨宇言语大神思维体系课 网盘： 【013】2026晨宇言语大神思维体系课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r403",
+      "title": "【174】2026年申论系统课：手把手教你零基础到高分【未雨】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1BGHGBg-K2OV0g45oK40mVQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【174】2026年申论系统课：手把手教你零基础到高分【未雨】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 300,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【174】2026年申论系统课：手把手教你零基础到高分【未雨】 网盘： 【174】2026年申论系统课：手把手教你零基础到高分【未雨】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r404",
+      "title": "2026多省联考大宝小宝言语冲刺绝杀十套卷",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1vqVfVo2j3nuypthR6exlug?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026多省联考大宝小宝言语冲刺绝杀十套卷",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 304,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026多省联考大宝小宝言语冲刺绝杀十套卷 网盘： 2026多省联考大宝小宝言语冲刺绝杀十套卷 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r405",
+      "title": "【039】2026年阿里木江言语系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1yJOSmr6g5GbHGLguucLetA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【039】2026年阿里木江言语系统班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 308,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【039】2026年阿里木江言语系统班 网盘： 【039】2026年阿里木江言语系统班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r406",
+      "title": "【046】2026年柳岩逻辑填空必刷300题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1IvXwoolGB6As3XI5-BX66g?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【046】2026年柳岩逻辑填空必刷300题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 312,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【046】2026年柳岩逻辑填空必刷300题 网盘： 【046】2026年柳岩逻辑填空必刷300题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r407",
+      "title": "2026省考龙飞判断试题精讲定义判断",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1nY3gIAeIruzLZ39OeuTYEw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026省考龙飞判断试题精讲定义判断",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 316,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026省考龙飞判断试题精讲定义判断 网盘： 2026省考龙飞判断试题精讲定义判断 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r408",
+      "title": "【098】2026年广东省考政治理论（考点速通）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1UGgsudIWLZqfKH4xknGnRA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【098】2026年广东省考政治理论（考点速通）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 320,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【098】2026年广东省考政治理论（考点速通） 网盘： 【098】2026年广东省考政治理论（考点速通） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r409",
+      "title": "【045】资料估算拔高9讲+1000道最新五年真题【叽叽喳喳的公考】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Wf7VWLc6Wl25LM1GL3tZ0Q?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【045】资料估算拔高9讲+1000道最新五年真题【叽叽喳喳的公考】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 324,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【045】资料估算拔高9讲+1000道最新五年真题【叽叽喳喳的公考】 网盘： 【045】资料估算拔高9讲+1000道最新五年真题【叽叽喳喳的公考】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r410",
+      "title": "2026山东省考备考资料",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1uergdTGI6xuxhIFo5icDIg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026山东省考备考资料",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 328,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026山东省考备考资料 网盘： 2026山东省考备考资料 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r411",
+      "title": "2026申论系统课 贺冲",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1KQyT52an3zWfpnQ_4MXgAw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026申论系统课 贺冲",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 332,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026申论系统课 贺冲 网盘： 2026申论系统课 贺冲 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r412",
+      "title": "【018】2026年花生十三全科争议题专项解析班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1UAlmSgJlu0wVQz3whPa_gA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【018】2026年花生十三全科争议题专项解析班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 336,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【018】2026年花生十三全科争议题专项解析班 网盘： 【018】2026年花生十三全科争议题专项解析班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r413",
+      "title": "【062】2026年国省考王军涛常识判断理论课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1btPd9Zke97qWGzmlDYwSjw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【062】2026年国省考王军涛常识判断理论课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 340,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【062】2026年国省考王军涛常识判断理论课 网盘： 【062】2026年国省考王军涛常识判断理论课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r414",
+      "title": "【0001】2026袁东（初心公考）合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1jHIx6BYoTJt7LuyMTqZ8WQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【0001】2026袁东（初心公考）合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 344,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【0001】2026袁东（初心公考）合集 网盘： 【0001】2026袁东（初心公考）合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r415",
+      "title": "2026李铁314多省联考政治理论",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1JODGJPT2iIPPO6xBok4mJg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026李铁314多省联考政治理论",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 348,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026李铁314多省联考政治理论 网盘： 2026李铁314多省联考政治理论 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r416",
+      "title": "146】2026年天晓申论理论课（新大纲）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1KWjsFtb4ztw63GFU2FM-PQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "146】2026年天晓申论理论课（新大纲）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 352,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "146】2026年天晓申论理论课（新大纲） 网盘： 146】2026年天晓申论理论课（新大纲） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r417",
+      "title": "106】2026四海逻辑判断600题刷题精讲班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1geLus9LusLcejNeW_3oDMw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "106】2026四海逻辑判断600题刷题精讲班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 356,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "106】2026四海逻辑判断600题刷题精讲班 网盘： 106】2026四海逻辑判断600题刷题精讲班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r418",
+      "title": "【087】2026年龙飞立体图推理论刷题班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ws6oHT9_AhUtaa9VNeBIAw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【087】2026年龙飞立体图推理论刷题班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 360,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【087】2026年龙飞立体图推理论刷题班 网盘： 【087】2026年龙飞立体图推理论刷题班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r419",
+      "title": "【095】2026年花生十三飞扬行测申论套题二期",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1P34buhDfQQyOqa3ZlCvrTA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【095】2026年花生十三飞扬行测申论套题二期",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 364,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【095】2026年花生十三飞扬行测申论套题二期 网盘： 【095】2026年花生十三飞扬行测申论套题二期 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r420",
+      "title": "【124】2026年超哥政治理论冲刺大盘点",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Z3Uc8ps6RpQUOSLmCll7pg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【124】2026年超哥政治理论冲刺大盘点",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 368,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【124】2026年超哥政治理论冲刺大盘点 网盘： 【124】2026年超哥政治理论冲刺大盘点 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r421",
+      "title": "【031】2026年青菜白玉汤判断推理体系课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1P5-XPkAujyjdU883XLSGYA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【031】2026年青菜白玉汤判断推理体系课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 372,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【031】2026年青菜白玉汤判断推理体系课 网盘： 【031】2026年青菜白玉汤判断推理体系课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r422",
+      "title": "2026年省考飞扬申论提出对策题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Oft6DhqU2PKVSA79vlWljA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026年省考飞扬申论提出对策题早课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 376,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026年省考飞扬申论提出对策题早课 网盘： 2026年省考飞扬申论提出对策题早课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r423",
+      "title": "【105】2026年超哥政治理论考前200题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1gBF5qoR7fBn-4MzY5Pj2eQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【105】2026年超哥政治理论考前200题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 380,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【105】2026年超哥政治理论考前200题 网盘： 【105】2026年超哥政治理论考前200题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r424",
+      "title": "【017】2026年国考陈八十行测全程无忧学",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/161gGmr8vWAVjOCkplEDMiQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【017】2026年国考陈八十行测全程无忧学",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 384,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【017】2026年国考陈八十行测全程无忧学 网盘： 【017】2026年国考陈八十行测全程无忧学 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r425",
+      "title": "【003】2026龙飞平面图形推理筑基先行班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/115rLqxQjV_oFeFolJCx_mg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【003】2026龙飞平面图形推理筑基先行班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 388,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【003】2026龙飞平面图形推理筑基先行班 网盘： 【003】2026龙飞平面图形推理筑基先行班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r426",
+      "title": "【054】2026年CG（五合一）行测+申论超大杯",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ng4Ppr0T03f8aTCR0Fm8VQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【054】2026年CG（五合一）行测+申论超大杯",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 392,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【054】2026年CG（五合一）行测+申论超大杯 网盘： 【054】2026年CG（五合一）行测+申论超大杯 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r427",
+      "title": "【068】2026年晨宇言语理解刷题课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1cMYHSQ8aZDwGpZ3XZi8MhA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【068】2026年晨宇言语理解刷题课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 396,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【068】2026年晨宇言语理解刷题课 网盘： 【068】2026年晨宇言语理解刷题课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r428",
+      "title": "2026年四诗风雅颂言语",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1bBl6qs6c6-rVnTBkR2nJbQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026年四诗风雅颂言语",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 400,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026年四诗风雅颂言语 网盘： 2026年四诗风雅颂言语 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r429",
+      "title": "【012】2026年国考过了暖冬笔试系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ZP4P8ofOeybnewQf0w7JAA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【012】2026年国考过了暖冬笔试系统班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 404,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【012】2026年国考过了暖冬笔试系统班 网盘： 【012】2026年国考过了暖冬笔试系统班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r430",
+      "title": "【016】2026年上岸村国省考行测申论一卡通",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/15u8aZ60vZu8AmAV1X5WAHA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【016】2026年上岸村国省考行测申论一卡通",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 408,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【016】2026年上岸村国省考行测申论一卡通 网盘： 【016】2026年上岸村国省考行测申论一卡通 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r431",
+      "title": "2026江苏省考申论通关班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1wOw2sZYV1HwoxKltccqOMw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026江苏省考申论通关班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 412,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026江苏省考申论通关班 网盘： 2026江苏省考申论通关班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r432",
+      "title": "【052】2026年老闻言语百日攻坚",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1LUwlJvRGY50-25zHafj74w?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【052】2026年老闻言语百日攻坚",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 416,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【052】2026年老闻言语百日攻坚 网盘： 【052】2026年老闻言语百日攻坚 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r433",
+      "title": "2026年省考初心行测领跑营理论刷题班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1gZ3MKHdSqNHNEfDBT7FZWQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026年省考初心行测领跑营理论刷题班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 420,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026年省考初心行测领跑营理论刷题班 网盘： 2026年省考初心行测领跑营理论刷题班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r434",
+      "title": "2026笨鸟国考省考政治理论全家桶",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1vtEW9FWv0EOeTcuMoNaVjQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026笨鸟国考省考政治理论全家桶",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 424,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026笨鸟国考省考政治理论全家桶 网盘： 2026笨鸟国考省考政治理论全家桶 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r435",
+      "title": "2026厂长资料数量提升班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ELyJya76n5lfzOLzTP49qQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026厂长资料数量提升班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 428,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026厂长资料数量提升班 网盘： 2026厂长资料数量提升班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r436",
+      "title": "【078】2026年国考李铁政治理论冲刺课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1QCRkU8fdg32dEyRVhjyH6w?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【078】2026年国考李铁政治理论冲刺课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 432,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【078】2026年国考李铁政治理论冲刺课 网盘： 【078】2026年国考李铁政治理论冲刺课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r437",
+      "title": "【025】2026年老夫子申论公文素养课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1IGWOUJPZOdCqfV9x4Ko9Fw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【025】2026年老夫子申论公文素养课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 436,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【025】2026年老夫子申论公文素养课 网盘： 【025】2026年老夫子申论公文素养课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r438",
+      "title": "【121】2026年江苏省考考前行测模考课【启禾】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1LESknxZJ1NODrCYX1B1TKw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【121】2026年江苏省考考前行测模考课【启禾】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 440,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【121】2026年江苏省考考前行测模考课【启禾】 网盘： 【121】2026年江苏省考考前行测模考课【启禾】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r439",
+      "title": "【101】2026年章晓铭硬核图推600题【上岸村】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1rGora9GAKgSz0jh-Dym_WA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【101】2026年章晓铭硬核图推600题【上岸村】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 444,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【101】2026年章晓铭硬核图推600题【上岸村】 网盘： 【101】2026年章晓铭硬核图推600题【上岸村】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r440",
+      "title": "【套题班】2026年省考套卷实战班（10套卷）+冲刺点睛课程",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1siL39jBTx6h0scJ4_cxnUQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【套题班】2026年省考套卷实战班（10套卷）+冲刺点睛课程",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 448,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【套题班】2026年省考套卷实战班（10套卷）+冲刺点睛课程 网盘： 【套题班】2026年省考套卷实战班（10套卷）+冲刺点睛课程 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r441",
+      "title": "【003】广东省考名师专属",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1j81A3Xu5OtWbDXgpVkxjew?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【003】广东省考名师专属",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 452,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【003】广东省考名师专属 网盘： 【003】广东省考名师专属 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r442",
+      "title": "2026鸿哥数量旗舰班带刷题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1qNUCF6grBh7cuA3mQYYaow?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026鸿哥数量旗舰班带刷题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 456,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026鸿哥数量旗舰班带刷题 网盘： 2026鸿哥数量旗舰班带刷题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r443",
+      "title": "【083】2026年飞扬申论大作文早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1F8DF1NN-OpVG0NxLgADtVA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【083】2026年飞扬申论大作文早课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 460,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【083】2026年飞扬申论大作文早课 网盘： 【083】2026年飞扬申论大作文早课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r444",
+      "title": "安徽省公务员考试财会视频课程",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1kPhzTEDnorscGQXr0HdiQQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "安徽省公务员考试财会视频课程",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 464,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "安徽省公务员考试财会视频课程 网盘： 安徽省公务员考试财会视频课程 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r445",
+      "title": "【135】2026年省考CG行测申论超大杯刷题营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/18E1ggsDt30ErV1zTTX5T1Q?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【135】2026年省考CG行测申论超大杯刷题营",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 468,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【135】2026年省考CG行测申论超大杯刷题营 网盘： 【135】2026年省考CG行测申论超大杯刷题营 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r446",
+      "title": "【言语】2026省考柳岩逻辑填空刷题7天抢分计划",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1LrDlDvE-jcnT0L4UMsYt5A?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【言语】2026省考柳岩逻辑填空刷题7天抢分计划",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 472,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【言语】2026省考柳岩逻辑填空刷题7天抢分计划 网盘： 【言语】2026省考柳岩逻辑填空刷题7天抢分计划 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r447",
+      "title": "【127】2026年国考飞扬申论热点梳理",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/14w5YU1YNWCpo_R0MhBzNLA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【127】2026年国考飞扬申论热点梳理",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 476,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【127】2026年国考飞扬申论热点梳理 网盘： 【127】2026年国考飞扬申论热点梳理 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r448",
+      "title": "【010】2026年国考珂佩申论基础班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1xt__7wIeRvayrkrgJ02Epg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【010】2026年国考珂佩申论基础班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 480,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【010】2026年国考珂佩申论基础班 网盘： 【010】2026年国考珂佩申论基础班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r449",
+      "title": "【032】2026年龙飞平面图推500题刷题精讲班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1E3WoMdS7stHz6oKx0hG-qA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【032】2026年龙飞平面图推500题刷题精讲班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 484,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【032】2026年龙飞平面图推500题刷题精讲班 网盘： 【032】2026年龙飞平面图推500题刷题精讲班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r450",
+      "title": "【言语】2026省考柳岩逻辑填空1000高频词闭环突破",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/13TMB0pimR_EYz-2D1c0pzw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【言语】2026省考柳岩逻辑填空1000高频词闭环突破",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 488,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【言语】2026省考柳岩逻辑填空1000高频词闭环突破 网盘： 【言语】2026省考柳岩逻辑填空1000高频词闭环突破 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r451",
+      "title": "2026天晓申论套卷批改班【11期】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1b8Y19JTZFNYC3GVwJVaxzw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026天晓申论套卷批改班【11期】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 492,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026天晓申论套卷批改班【11期】 网盘： 2026天晓申论套卷批改班【11期】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r452",
+      "title": "【041】数量关系系统理论课【叽叽喳喳的公考】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Qxa5G7TwVTQQkOwpvVKXlA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【041】数量关系系统理论课【叽叽喳喳的公考】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 496,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【041】数量关系系统理论课【叽叽喳喳的公考】 网盘： 【041】数量关系系统理论课【叽叽喳喳的公考】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r453",
+      "title": "【009】2026年金标尺四川定向乡镇公务员高端班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/18rzwJ58_6QZVo50lCrzBsQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【009】2026年金标尺四川定向乡镇公务员高端班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 500,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【009】2026年金标尺四川定向乡镇公务员高端班 网盘： 【009】2026年金标尺四川定向乡镇公务员高端班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r454",
+      "title": "2026省考飞扬申论热点梳理",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1C8ohIeRS0klgPEZ4eTdpxg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026省考飞扬申论热点梳理",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 504,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026省考飞扬申论热点梳理 网盘： 2026省考飞扬申论热点梳理 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r455",
+      "title": "【118】2026年飞扬申论综合题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1aJ0E63nESmyZPw49N5dTHA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【118】2026年飞扬申论综合题早课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 508,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【118】2026年飞扬申论综合题早课 网盘： 【118】2026年飞扬申论综合题早课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r456",
+      "title": "【063】2026年上岸村王炎数量关系·讲练大满贯",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1tQDOSyrl82OK3-dKFA7KOQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【063】2026年上岸村王炎数量关系·讲练大满贯",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 512,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【063】2026年上岸村王炎数量关系·讲练大满贯 网盘： 【063】2026年上岸村王炎数量关系·讲练大满贯 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r457",
+      "title": "【039】【政治理论】2026公考大姨夫军涛政治理论系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1EJa328edEIbfvK9oc3IfYg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【039】【政治理论】2026公考大姨夫军涛政治理论系统班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 516,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【039】【政治理论】2026公考大姨夫军涛政治理论系统班 网盘： 【039】【政治理论】2026公考大姨夫军涛政治理论系统班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r458",
+      "title": "【言语】2026省考&事业编雨菲言语冲刺预测班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1j357BxnBcO33dSqHIhGg2w?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【言语】2026省考&事业编雨菲言语冲刺预测班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 520,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【言语】2026省考&事业编雨菲言语冲刺预测班 网盘： 【言语】2026省考&事业编雨菲言语冲刺预测班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r459",
+      "title": "【067】2026国考大宝小宝言语刷题答疑课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/18r1GOY0i_tbdfwUbEcZNOg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【067】2026国考大宝小宝言语刷题答疑课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 524,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【067】2026国考大宝小宝言语刷题答疑课 网盘： 【067】2026国考大宝小宝言语刷题答疑课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r460",
+      "title": "【144】2026年四海拾伊资料分析600题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1l92KAbPbcVhL9c4KsgXgbg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【144】2026年四海拾伊资料分析600题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 528,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【144】2026年四海拾伊资料分析600题 网盘： 【144】2026年四海拾伊资料分析600题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r461",
+      "title": "【021】2026年江牧云申论十全大补抢分课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1zNl-hHCaRsHA3Zn_OJiQUg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【021】2026年江牧云申论十全大补抢分课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 532,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【021】2026年江牧云申论十全大补抢分课 网盘： 【021】2026年江牧云申论十全大补抢分课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r462",
+      "title": "【18】忧郁牛牛数量刷题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/19oFPko4tfjncaOjc20_CPw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【18】忧郁牛牛数量刷题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 536,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【18】忧郁牛牛数量刷题 网盘： 【18】忧郁牛牛数量刷题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r463",
+      "title": "【061】2026年陈老司国考申论基础强化",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1uGWqEfMckQ9YnXzLjZTphg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【061】2026年陈老司国考申论基础强化",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 540,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【061】2026年陈老司国考申论基础强化 网盘： 【061】2026年陈老司国考申论基础强化 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r464",
+      "title": "2026张远山国省考行政执法申论",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ZtZzBzJbsrpNjBVa1Otzrw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026张远山国省考行政执法申论",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 544,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026张远山国省考行政执法申论 网盘： 2026张远山国省考行政执法申论 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r465",
+      "title": "wmdn【053】2026年老闻言语高频成语300词",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/13d_SyvXvzifCd2rWotK3MQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "wmdn【053】2026年老闻言语高频成语300词",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 546,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "wmdn【053】2026年老闻言语高频成语300词 网盘： wmdn【053】2026年老闻言语高频成语300词 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r466",
+      "title": "【超级会员V4】通过百度网盘分享的文件：【155】2026省考大懒猫言语拔高刷题营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1LbDg-W1r5zkhK4vZ92ST8g?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【超级会员V4】通过百度网盘分享的文件：【155】2026省考大懒猫言语拔高刷题营",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 550,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【超级会员V4】通过百度网盘分享的文件：【155】2026省考大懒猫言语拔高刷题营 网盘： 【超级会员V4】通过百度网盘分享的文件：【155】2026省考大懒猫言语拔高刷题营 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r467",
+      "title": "【027-1】岳飞课程",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/167sDonJJdwBpj0nF44JRIg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【027-1】岳飞课程",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 554,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【027-1】岳飞课程 网盘： 【027-1】岳飞课程 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r468",
+      "title": "【公考冲刺上大分】数量关系冲刺课2026国考省考-叽叽喳喳",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Q4g_J2jhTuouQzfJLxJaxw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【公考冲刺上大分】数量关系冲刺课2026国考省考-叽叽喳喳",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 558,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【公考冲刺上大分】数量关系冲刺课2026国考省考-叽叽喳喳 网盘： 【公考冲刺上大分】数量关系冲刺课2026国考省考-叽叽喳喳 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r469",
+      "title": "2026国省考忠政申论批改班（1-80期）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1D00KDYvhLHsy8G3qxBAYnQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026国省考忠政申论批改班（1-80期）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 562,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026国省考忠政申论批改班（1-80期） 网盘： 2026国省考忠政申论批改班（1-80期） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r470",
+      "title": "【077】2026年四海拾伊15天速算训练营【61&62&63】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1LLBNmw3sgayXN2ZlEMHo-A?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【077】2026年四海拾伊15天速算训练营【61&62&63】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 566,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【077】2026年四海拾伊15天速算训练营【61&62&63】 网盘： 【077】2026年四海拾伊15天速算训练营【61&62&63】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r471",
+      "title": "2026年省考花生十三飞扬套题班2期",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1kzkuMlu_yspMZO0F2D5cqA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026年省考花生十三飞扬套题班2期",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 570,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026年省考花生十三飞扬套题班2期 网盘： 2026年省考花生十三飞扬套题班2期 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r472",
+      "title": "【141】2026年程日升广东省考判断推理终极大预测",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1KkiN9Rz2yZEokWx-Qj1Vyg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【141】2026年程日升广东省考判断推理终极大预测",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 574,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【141】2026年程日升广东省考判断推理终极大预测 网盘： 【141】2026年程日升广东省考判断推理终极大预测 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r473",
+      "title": "【029】 2026年鸿哥数量关系旗舰班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1y6X95BoGkv7g5mUG9Eyvug?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【029】 2026年鸿哥数量关系旗舰班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 578,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【029】 2026年鸿哥数量关系旗舰班 网盘： 【029】 2026年鸿哥数量关系旗舰班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r474",
+      "title": "【020】2026年上岸村雨菲言语全新黄金九讲",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1gmIMlfpj1XYngrdu0CjzIA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【020】2026年上岸村雨菲言语全新黄金九讲",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 582,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【020】2026年上岸村雨菲言语全新黄金九讲 网盘： 【020】2026年上岸村雨菲言语全新黄金九讲 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r475",
+      "title": "2026省考大懒猫言语冲刺营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1X6V72HZvC1np3ywR97QKdA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026省考大懒猫言语冲刺营",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 586,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026省考大懒猫言语冲刺营 网盘： 2026省考大懒猫言语冲刺营 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r476",
+      "title": "【054】2026年宋捏捏数量关系一本通",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1HHjxybpWFBhYxAzynq1Pdw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【054】2026年宋捏捏数量关系一本通",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 590,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【054】2026年宋捏捏数量关系一本通 网盘： 【054】2026年宋捏捏数量关系一本通 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r477",
+      "title": "【008】2026大宝小宝言语降维体系课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/17KiG4pvV070VNF85d_DBWQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【008】2026大宝小宝言语降维体系课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 594,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【008】2026大宝小宝言语降维体系课 网盘： 【008】2026大宝小宝言语降维体系课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r478",
+      "title": "【116】2026柳岩",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1a2CZcZu8qLvCw8s2QNlCxQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【116】2026柳岩",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 598,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【116】2026柳岩 网盘： 【116】2026柳岩 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r479",
+      "title": "【071】2026年飞扬申论归纳概括题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1_bcsdK_eeZSqM0PtpXr7Mg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【071】2026年飞扬申论归纳概括题早课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 602,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【071】2026年飞扬申论归纳概括题早课 网盘： 【071】2026年飞扬申论归纳概括题早课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r480",
+      "title": "【069】2026上岸智路白天61节理论课99元全套",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1eJaRPhjO-f4u8jYAWOlTEA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【069】2026上岸智路白天61节理论课99元全套",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 606,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【069】2026上岸智路白天61节理论课99元全套 网盘： 【069】2026上岸智路白天61节理论课99元全套 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r481",
+      "title": "【027】2026年宋捏捏资料分析一本通",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1I0LjJcEfT3SYPp6EKWILTQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【027】2026年宋捏捏资料分析一本通",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 610,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【027】2026年宋捏捏资料分析一本通 网盘： 【027】2026年宋捏捏资料分析一本通 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r482",
+      "title": "江苏省考资料包",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1aN2_fEr-Rbczvtvs6HQsGw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "江苏省考资料包",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 614,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "江苏省考资料包 网盘： 江苏省考资料包 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r483",
+      "title": "【097】2026年小张申论系统课【第22期】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1eQQ5Dvx9FpE5WbNqoYhi4A?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【097】2026年小张申论系统课【第22期】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 618,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【097】2026年小张申论系统课【第22期】 网盘： 【097】2026年小张申论系统课【第22期】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r484",
+      "title": "【065】2026年雨菲言语百题斩刷题课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1T5tRq6OEJIjR9E28jMArIw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【065】2026年雨菲言语百题斩刷题课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 622,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【065】2026年雨菲言语百题斩刷题课 网盘： 【065】2026年雨菲言语百题斩刷题课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r485",
+      "title": "【036】2026年老牟深算之速算大练兵",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1q4CjT6y6bCtHwYtqxiFdwg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【036】2026年老牟深算之速算大练兵",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 626,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【036】2026年老牟深算之速算大练兵 网盘： 【036】2026年老牟深算之速算大练兵 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r486",
+      "title": "【072】2026AJGK图推视频解析",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1kWxOnTtzzWo4u2kWb19ZyA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【072】2026AJGK图推视频解析",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 630,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【072】2026AJGK图推视频解析 网盘： 【072】2026AJGK图推视频解析 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r487",
+      "title": "【超级会员V4】通过百度网盘分享的文件：【114】2026年广东省考申论理论课【登科七月】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1kjCry2LGJvLFGSr7iUE7pQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【超级会员V4】通过百度网盘分享的文件：【114】2026年广东省考申论理论课【登科七月】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 634,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【超级会员V4】通过百度网盘分享的文件：【114】2026年广东省考申论理论课【登科七月】 网盘： 【超级会员V4】通过百度网盘分享的文件：【114】2026年广东省考申论理论课【登科七月】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r488",
+      "title": "【043】合并模块版：数量真题刷题课（800道）【叽叽喳喳的公考】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1VKDJrBvogedE7_g7INBe4g?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【043】合并模块版：数量真题刷题课（800道）【叽叽喳喳的公考】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 638,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【043】合并模块版：数量真题刷题课（800道）【叽叽喳喳的公考】 网盘： 【043】合并模块版：数量真题刷题课（800道）【叽叽喳喳的公考】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r489",
+      "title": "【137】2026年跃跃公考广东行测1：1套题班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1e75PtlrgNHxht3tUmna2Wg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【137】2026年跃跃公考广东行测1：1套题班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 642,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【137】2026年跃跃公考广东行测1：1套题班 网盘： 【137】2026年跃跃公考广东行测1：1套题班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r490",
+      "title": "【030】2026年为民公考刘大师申论系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1G9r7UyV71_b-kt13ihRPQw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【030】2026年为民公考刘大师申论系统班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 646,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【030】2026年为民公考刘大师申论系统班 网盘： 【030】2026年为民公考刘大师申论系统班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r491",
+      "title": "2026国考省考鸿哥资料分析考点技巧班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1pttGyOwfWIUjFQZw9As57g?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026国考省考鸿哥资料分析考点技巧班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 650,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026国考省考鸿哥资料分析考点技巧班 网盘： 2026国考省考鸿哥资料分析考点技巧班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r492",
+      "title": "2026年省考忠政申论批改班（88-90期）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/11K21knHq0DMNckNY-XDtGg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026年省考忠政申论批改班（88-90期）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 654,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026年省考忠政申论批改班（88-90期） 网盘： 2026年省考忠政申论批改班（88-90期） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r493",
+      "title": "2026上岸村36技系统冲刺班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1yfw9rGPVsK0svMBd3SJaLQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026上岸村36技系统冲刺班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 658,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026上岸村36技系统冲刺班 网盘： 2026上岸村36技系统冲刺班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r494",
+      "title": "2026天晓申论理论课（新大纲）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1HpfO9YIC_4cyqnDGRYuW3g?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026天晓申论理论课（新大纲）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 662,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026天晓申论理论课（新大纲） 网盘： 2026天晓申论理论课（新大纲） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r495",
+      "title": "【076】2026年言语考前必做100题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/11AMGyhDLZQCJB0Q6of6ApA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【076】2026年言语考前必做100题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 666,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【076】2026年言语考前必做100题 网盘： 【076】2026年言语考前必做100题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r496",
+      "title": "【048】2026年忧郁牛牛行测训练营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1bHQ8eBTXbOjKPmZTSwu7Rw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【048】2026年忧郁牛牛行测训练营",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 670,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【048】2026年忧郁牛牛行测训练营 网盘： 【048】2026年忧郁牛牛行测训练营 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r497",
+      "title": "【090】2026年国考大懒猫言语魔鬼冲刺营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1llVfu5nUe1kJh9d_EdFkEQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【090】2026年国考大懒猫言语魔鬼冲刺营",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 674,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【090】2026年国考大懒猫言语魔鬼冲刺营 网盘： 【090】2026年国考大懒猫言语魔鬼冲刺营 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r498",
+      "title": "2026江牧云最全56招",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/170YPW0Ody4Svk9u7b93Pag?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026江牧云最全56招",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 678,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026江牧云最全56招 网盘： 2026江牧云最全56招 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r499",
+      "title": "2026厂长资料分析全家桶",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1OI3dlZyvPBXFTsh51NpKuA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026厂长资料分析全家桶",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 682,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026厂长资料分析全家桶 网盘： 2026厂长资料分析全家桶 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r500",
+      "title": "【042】速算基础+资料分析系统基础课+70道手把手速算例题 【叽叽喳喳的公考】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1kyOQQrY7tqoyK9VK61Bnwg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【042】速算基础+资料分析系统基础课+70道手把手速算例题 【叽叽喳喳的公考】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 686,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【042】速算基础+资料分析系统基础课+70道手把手速算例题 【叽叽喳喳的公考】 网盘： 【042】速算基础+资料分析系统基础课+70道手把手速算例题 【叽叽喳喳的公考】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r501",
+      "title": "【088】2026年导氮申论基础理论批改班+批改提升班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1nIB3Lh5ekZFAuY0e7ZthDg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【088】2026年导氮申论基础理论批改班+批改提升班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 690,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【088】2026年导氮申论基础理论批改班+批改提升班 网盘： 【088】2026年导氮申论基础理论批改班+批改提升班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r502",
+      "title": "【027-2】岳飞课程 2026模考复盘-岳飞",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1STydYUd5uZIiLdyD-N95fg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【027-2】岳飞课程 2026模考复盘-岳飞",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 694,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【027-2】岳飞课程 2026模考复盘-岳飞 网盘： 【027-2】岳飞课程 2026模考复盘-岳飞 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r503",
+      "title": "【19】26科小推车科推推理",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1P9fAMrhaYbTUnh9xtXdCWQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【19】26科小推车科推推理",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 698,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【19】26科小推车科推推理 网盘： 【19】26科小推车科推推理 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r504",
+      "title": "【073】2026年义恒图形推理700题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1yvIvXb5TcGmEEsmusPjxqQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【073】2026年义恒图形推理700题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 702,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【073】2026年义恒图形推理700题 网盘： 【073】2026年义恒图形推理700题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r505",
+      "title": "【099】2026年贺冲申论系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/12Rg6lvD6F_GHt50wvKKyMw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【099】2026年贺冲申论系统课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 706,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【099】2026年贺冲申论系统课 网盘： 【099】2026年贺冲申论系统课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r506",
+      "title": "【113】2026年国考飞扬申论考前冲刺课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/11gfIija0vjZ3EQ4ujUfaWQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【113】2026年国考飞扬申论考前冲刺课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 710,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【113】2026年国考飞扬申论考前冲刺课 网盘： 【113】2026年国考飞扬申论考前冲刺课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r507",
+      "title": "2026陈八十行测刷刷刷言语判断刷题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1K4VVXYEYHwJIvntdwqD9OA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026陈八十行测刷刷刷言语判断刷题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 714,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026陈八十行测刷刷刷言语判断刷题 网盘： 2026陈八十行测刷刷刷言语判断刷题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r508",
+      "title": "【022】2026年小P公考数资判系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1lxjHLh8BDuExsG4w1bnoyA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【022】2026年小P公考数资判系统班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 718,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【022】2026年小P公考数资判系统班 网盘： 【022】2026年小P公考数资判系统班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r509",
+      "title": "【103】2026年时政是条线",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1b-XF4qfi_YQahforRs3FlA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【103】2026年时政是条线",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 722,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【103】2026年时政是条线 网盘： 【103】2026年时政是条线 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r510",
+      "title": "2026小张申论多省联考刷题冲刺班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1u5CxmQzPPaHL_zTj1DfZ5A?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026小张申论多省联考刷题冲刺班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 726,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026小张申论多省联考刷题冲刺班 网盘： 2026小张申论多省联考刷题冲刺班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r511",
+      "title": "上岸村26省考张弓言语十二箭",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1SDJUGig1rVwzDZnTyYNAlA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "上岸村26省考张弓言语十二箭",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 730,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "上岸村26省考张弓言语十二箭 网盘： 上岸村26省考张弓言语十二箭 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r512",
+      "title": "【060】2026年国省考忠政申论小巨人班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1o05hQ-A4eP-sYz1bSB93Zg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【060】2026年国省考忠政申论小巨人班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 734,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【060】2026年国省考忠政申论小巨人班 网盘： 【060】2026年国省考忠政申论小巨人班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r513",
+      "title": "【091】2026年广东省考行政执法申论专项",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1wnQ0qCelNmzR7J2GP4cDYA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【091】2026年广东省考行政执法申论专项",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 738,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【091】2026年广东省考行政执法申论专项 网盘： 【091】2026年广东省考行政执法申论专项 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r514",
+      "title": "【0005】2026苏金朋旗舰班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/18ocCEpYxfNgR3200C0b7EA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【0005】2026苏金朋旗舰班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 742,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【0005】2026苏金朋旗舰班 网盘： 【0005】2026苏金朋旗舰班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r515",
+      "title": "wmdn2026导氮快申论基础理论批改班+批改提升班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1lMWI4rwIIUtlFHEQ-qe01w?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "wmdn2026导氮快申论基础理论批改班+批改提升班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 744,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "wmdn2026导氮快申论基础理论批改班+批改提升班 网盘： wmdn2026导氮快申论基础理论批改班+批改提升班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r516",
+      "title": "❤️2026国考&省考资料包【模拟&预测&押题】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1DkIFPj_fa8fBMvXiTVnadg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "❤️2026国考&省考资料包【模拟&预测&押题】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 748,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "❤️2026国考&省考资料包【模拟&预测&押题】 网盘： ❤️2026国考&省考资料包【模拟&预测&押题】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r517",
+      "title": "【123】2026年公考硬算哥资料分析",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/17YOsOzR5WtGbbkSBr-Hb2A?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【123】2026年公考硬算哥资料分析",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 752,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【123】2026年公考硬算哥资料分析 网盘： 【123】2026年公考硬算哥资料分析 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r518",
+      "title": "【093】2026年广东省考行政执法专业科目必刷1000题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/14Xt_GP9LnUKveKR5eYgFrA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【093】2026年广东省考行政执法专业科目必刷1000题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 756,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【093】2026年广东省考行政执法专业科目必刷1000题 网盘： 【093】2026年广东省考行政执法专业科目必刷1000题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r519",
+      "title": "【085】2026国考白天行测申论高分超车班（含行测176绝技）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1PdlZflKFsYBjg-aAYxgtVQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【085】2026国考白天行测申论高分超车班（含行测176绝技）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 760,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【085】2026国考白天行测申论高分超车班（含行测176绝技） 网盘： 【085】2026国考白天行测申论高分超车班（含行测176绝技） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r520",
+      "title": "【092】2026年国考李铁政治理论冲刺课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1qIyCUEcQeYaW6t4p5XkdIg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【092】2026年国考李铁政治理论冲刺课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 764,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【092】2026年国考李铁政治理论冲刺课 网盘： 【092】2026年国考李铁政治理论冲刺课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r521",
+      "title": "【129】2026年国考小黑5套金卷【黑五】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1PsyLEregCiZN3Ma6X83mCA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【129】2026年国考小黑5套金卷【黑五】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 768,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【129】2026年国考小黑5套金卷【黑五】 网盘： 【129】2026年国考小黑5套金卷【黑五】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r522",
+      "title": "2026省考白鹭申论大决战联考冲刺营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1CUMW17iV_LMkJ2JRxZR9Qw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026省考白鹭申论大决战联考冲刺营",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 772,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026省考白鹭申论大决战联考冲刺营 网盘： 2026省考白鹭申论大决战联考冲刺营 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r523",
+      "title": "人民日报经典素材",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1WKBRYUdrsT3XxeAPkar05A?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "人民日报经典素材",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 776,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "人民日报经典素材 网盘： 人民日报经典素材 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r524",
+      "title": "2026毛娃儿数量关系系统刷题课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1bnFtHAbtjOMg0EswV040eA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026毛娃儿数量关系系统刷题课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 780,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026毛娃儿数量关系系统刷题课 网盘： 2026毛娃儿数量关系系统刷题课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r525",
+      "title": "【006】小p资料分析刷题150套",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/16CKN_yHdx_MjxaugMAPgEw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【006】小p资料分析刷题150套",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 784,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【006】小p资料分析刷题150套 网盘： 【006】小p资料分析刷题150套 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r526",
+      "title": "【140】2026年高照数字推理460题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1hmJwdVPUPd6qLuUqqG1ubA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【140】2026年高照数字推理460题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 788,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【140】2026年高照数字推理460题 网盘： 【140】2026年高照数字推理460题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r527",
+      "title": "【024】2026年花生十三飞扬笔试系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1j0GvLforF7dg0ayf2IQ57w?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【024】2026年花生十三飞扬笔试系统班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 792,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【024】2026年花生十三飞扬笔试系统班 网盘： 【024】2026年花生十三飞扬笔试系统班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r528",
+      "title": "【139】2026年省考四海行测2000题海海刷",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1vovQMQT5t8cTf7vRgmrSlA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【139】2026年省考四海行测2000题海海刷",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 796,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【139】2026年省考四海行测2000题海海刷 网盘： 【139】2026年省考四海行测2000题海海刷 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r529",
+      "title": "【056】2026年花生十三飞扬行测申论套题一期",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1E2el4OgRVhIaiIkW42aIyg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【056】2026年花生十三飞扬行测申论套题一期",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 800,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【056】2026年花生十三飞扬行测申论套题一期 网盘： 【056】2026年花生十三飞扬行测申论套题一期 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r530",
+      "title": "【074】2026年飞扬申论提出对策题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1FQtotad5tAPt1xzNoUVZ5Q?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【074】2026年飞扬申论提出对策题早课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 804,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【074】2026年飞扬申论提出对策题早课 网盘： 【074】2026年飞扬申论提出对策题早课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r531",
+      "title": "【145】2026年国省考忠政申论批改班（1-80期）【个别无视频介意勿看】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Lxv8a1y6Rkim3--LhymM2Q?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【145】2026年国省考忠政申论批改班（1-80期）【个别无视频介意勿看】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 808,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【145】2026年国省考忠政申论批改班（1-80期）【个别无视频介意勿看】 网盘： 【145】2026年国省考忠政申论批改班（1-80期）【个别无视频介意勿看】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r532",
+      "title": "2026上岸村张弓言语200题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1I9gdprAdyf9whXlTmHSMFQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026上岸村张弓言语200题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 812,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026上岸村张弓言语200题 网盘： 2026上岸村张弓言语200题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r533",
+      "title": "2026年省考飞扬申论归纳概括题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/13KbfjjFLf9VsDfEzO1L4Pg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026年省考飞扬申论归纳概括题早课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 816,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026年省考飞扬申论归纳概括题早课 网盘： 2026年省考飞扬申论归纳概括题早课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r534",
+      "title": "李梦娇《政治理论》专项班＋时政",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1H99g0U9N1M4C6d3MJm0rfw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "李梦娇《政治理论》专项班＋时政",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 820,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "李梦娇《政治理论》专项班＋时政 网盘： 李梦娇《政治理论》专项班＋时政 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r535",
+      "title": "2026白鹭申论点将台实战营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1hX5xtE6y1nJzyY9EXtZycA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026白鹭申论点将台实战营",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 824,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026白鹭申论点将台实战营 网盘： 2026白鹭申论点将台实战营 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r536",
+      "title": "【079】2026年乘风行测全程班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/144DuYcQgLjMpq8uPMh-NCw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【079】2026年乘风行测全程班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 828,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【079】2026年乘风行测全程班 网盘： 【079】2026年乘风行测全程班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r537",
+      "title": "【常识】2026超格伯洁常识判断冲刺早自习（3月省考版）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1PueI1e-bt-YXynUH-H3f4A?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【常识】2026超格伯洁常识判断冲刺早自习（3月省考版）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 832,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【常识】2026超格伯洁常识判断冲刺早自习（3月省考版） 网盘： 【常识】2026超格伯洁常识判断冲刺早自习（3月省考版） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r538",
+      "title": "【094】2026年广东省考申论理论课【登科七月】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ecu3ml9NZtINNJDrND5Umg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【094】2026年广东省考申论理论课【登科七月】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 836,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【094】2026年广东省考申论理论课【登科七月】 网盘： 【094】2026年广东省考申论理论课【登科七月】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r539",
+      "title": "2026小黑-政治理论&常识冲刺班（12月&3月国省考）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1DYQIgia6AHLYcxGa7525Sg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026小黑-政治理论&常识冲刺班（12月&3月国省考）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 840,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026小黑-政治理论&常识冲刺班（12月&3月国省考） 网盘： 2026小黑-政治理论&常识冲刺班（12月&3月国省考） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r540",
+      "title": "【051】2026年飞扬申论早课分析理解题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/17KMypWqp0JL2QRdjb_V6AA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【051】2026年飞扬申论早课分析理解题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 844,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【051】2026年飞扬申论早课分析理解题 网盘： 【051】2026年飞扬申论早课分析理解题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r541",
+      "title": "【082】2026年CG套卷实战班（10套卷）+冲刺点睛课程",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1cs4iI-dICEs5_zI4ErrXGQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【082】2026年CG套卷实战班（10套卷）+冲刺点睛课程",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 848,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【082】2026年CG套卷实战班（10套卷）+冲刺点睛课程 网盘： 【082】2026年CG套卷实战班（10套卷）+冲刺点睛课程 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r542",
+      "title": "2026李梦娇常识速记口诀88条11.0",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1SxGBQ1oE7adIJJGPsZNEcg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026李梦娇常识速记口诀88条11.0",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 852,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026李梦娇常识速记口诀88条11.0 网盘： 2026李梦娇常识速记口诀88条11.0 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r543",
+      "title": "【107-109】2026王山东分王",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1McoE1gdo5rLZYxhXNmzCKA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【107-109】2026王山东分王",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 856,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【107-109】2026王山东分王 网盘： 【107-109】2026王山东分王 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r544",
+      "title": "2026上岸村套卷强化班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/119ABePJRb2I9fuzvKmkMuQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026上岸村套卷强化班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 860,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026上岸村套卷强化班 网盘： 2026上岸村套卷强化班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r545",
+      "title": "【050】2026年宋捏捏数量关系",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1WVhLCV5QHUpao58zF9lVIg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【050】2026年宋捏捏数量关系",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 864,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【050】2026年宋捏捏数量关系 网盘： 【050】2026年宋捏捏数量关系 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r546",
+      "title": "【国考一拖五】系统课精讲",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1FU-79XDHYZItqZjqsxu-hA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【国考一拖五】系统课精讲",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 868,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【国考一拖五】系统课精讲 网盘： 【国考一拖五】系统课精讲 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r547",
+      "title": "【政治理论】2026年省联考忧郁牛牛政治理论押题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1k8fitOQB8uYkYMVI5g4zpw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【政治理论】2026年省联考忧郁牛牛政治理论押题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 872,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【政治理论】2026年省联考忧郁牛牛政治理论押题 网盘： 【政治理论】2026年省联考忧郁牛牛政治理论押题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r548",
+      "title": "【0002】2026相丽君合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/11dRpC0zvM5XAzvRHy8iH2Q?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【0002】2026相丽君合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 876,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【0002】2026相丽君合集 网盘： 【0002】2026相丽君合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r549",
+      "title": "【147】2026年省考暖冬、严谨行测申论全程班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1NPvdY6Gh32wYGkUyB8rNgg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【147】2026年省考暖冬、严谨行测申论全程班",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 880,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【147】2026年省考暖冬、严谨行测申论全程班 网盘： 【147】2026年省考暖冬、严谨行测申论全程班 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r550",
+      "title": "【028】2026李卜常识政治理论开天斧",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1GM_p3CP_CIcIPxhDK5ZkgQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【028】2026李卜常识政治理论开天斧",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 884,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【028】2026李卜常识政治理论开天斧 网盘： 【028】2026李卜常识政治理论开天斧 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r551",
+      "title": "【009】26青菜白玉汤判断推理体系课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1qfLSmmduFqcJFevEPZyxsw?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【009】26青菜白玉汤判断推理体系课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 888,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【009】26青菜白玉汤判断推理体系课 网盘： 【009】26青菜白玉汤判断推理体系课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r552",
+      "title": "【004】2026站长申论",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1wtOCagnE0Ab9U3Hz6672kg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【004】2026站长申论",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 892,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【004】2026站长申论 网盘： 【004】2026站长申论 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r553",
+      "title": "2026超哥联考政治理论专项刷题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1IwqUkCDcUsSKye8U7Py3fg?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026超哥联考政治理论专项刷题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 896,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026超哥联考政治理论专项刷题 网盘： 2026超哥联考政治理论专项刷题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r554",
+      "title": "wmdnY 羊圈圈（羊村）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1GI1dHR4dMHEexBGI4h0QCA?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "wmdnY 羊圈圈（羊村）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 898,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "wmdnY 羊圈圈（羊村） 网盘： wmdnY 羊圈圈（羊村） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r555",
+      "title": "【128】2026年小黑国省考政治理论考前必刷50题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1MNOwZk0VDv9jm2IyrOV7KQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【128】2026年小黑国省考政治理论考前必刷50题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 902,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【128】2026年小黑国省考政治理论考前必刷50题 网盘： 【128】2026年小黑国省考政治理论考前必刷50题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r556",
+      "title": "2026上岸村王炎数量关系200题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1axLz8PhXV5OP2ZrXJme6SQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "2026上岸村王炎数量关系200题",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 906,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "2026上岸村王炎数量关系200题 网盘： 2026上岸村王炎数量关系200题 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r557",
+      "title": "【070】2026上岸智路白天行测3900元强化课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Ii5V_an4vQ_9EX9xpaMj5Q?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【070】2026上岸智路白天行测3900元强化课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 910,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【070】2026上岸智路白天行测3900元强化课 网盘： 【070】2026上岸智路白天行测3900元强化课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r558",
+      "title": "【142】2026年国省考马克政治理论冲刺",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1QT3s_1k3X3CCQSHJNLQqTQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【142】2026年国省考马克政治理论冲刺",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 914,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【142】2026年国省考马克政治理论冲刺 网盘： 【142】2026年国省考马克政治理论冲刺 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r559",
+      "title": "【096】2026年李梦娇常识速记口诀88条【11.0版】",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1G8y3VwKj93FaotISVvb62Q?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【096】2026年李梦娇常识速记口诀88条【11.0版】",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 918,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【096】2026年李梦娇常识速记口诀88条【11.0版】 网盘： 【096】2026年李梦娇常识速记口诀88条【11.0版】 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r560",
+      "title": "【013】2026年千寻申论系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1jRggAe2wkXj6wfK7DpNYvQ?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【013】2026年千寻申论系统课",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 922,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【013】2026年千寻申论系统课 网盘： 【013】2026年千寻申论系统课 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r561",
+      "title": "【022】2026国考李小北申论系统班（包含基础+专项阶段）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1mLrqQ11XfH6tlW7XlQ5iog?pwd=wmdn",
+      "code": "wmdn",
+      "section": "网盘：",
+      "context": "【022】2026国考李小北申论系统班（包含基础+专项阶段）",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 926,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "【022】2026国考李小北申论系统班（包含基础+专项阶段） 网盘： 【022】2026国考李小北申论系统班（包含基础+专项阶段） 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r562",
+      "title": "27资料分析、数量关系",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/14b0DZsVS6rD41uNVlvU64g?pwd=kdsb",
+      "code": "kdsb",
+      "section": "网盘：",
+      "context": "27资料分析、数量关系",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 930,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "27资料分析、数量关系 网盘： 27资料分析、数量关系 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r563",
+      "title": "27判断推理",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1G2A3FVMsDfdwJvgpY4Pl7A?pwd=kdsb",
+      "code": "kdsb",
+      "section": "网盘：",
+      "context": "27判断推理",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 934,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "27判断推理 网盘： 27判断推理 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r564",
+      "title": "27言语合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1oeaHsAqvmORdG7AC-j2ScQ?pwd=kdsb",
+      "code": "kdsb",
+      "section": "网盘：",
+      "context": "27言语合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 938,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "27言语合集 网盘： 27言语合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r565",
+      "title": "27留言资料单独更新",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/13nf3ykmAesKr3ZjhGWQiVg?pwd=kdsb",
+      "code": "kdsb",
+      "section": "网盘：",
+      "context": "27留言资料单独更新",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 942,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "27留言资料单独更新 网盘： 27留言资料单独更新 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r566",
+      "title": "27公基常识政治",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1dluox9J4lc8f6nNsvvKC-g?pwd=kdsb",
+      "code": "kdsb",
+      "section": "网盘：",
+      "context": "27公基常识政治",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 946,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "27公基常识政治 网盘： 27公基常识政治 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r567",
+      "title": "27行测、机构合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1saEh2G3Lg0ze75G48LKaZA?pwd=kdsb",
+      "code": "kdsb",
+      "section": "网盘：",
+      "context": "27行测、机构合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 950,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "27行测、机构合集 网盘： 27行测、机构合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r568",
+      "title": "kdsb27申论合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1CHpCH5BytXQ2gaqB1SSI6w?pwd=kdsb",
+      "code": "kdsb",
+      "section": "网盘：",
+      "context": "kdsb27申论合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 952,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "kdsb27申论合集 网盘： kdsb27申论合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r569",
+      "title": "27国省考名师课程",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Zq_bogzezvUijBo5H3fzQQ?pwd=kdsb",
+      "code": "kdsb",
+      "section": "网盘：",
+      "context": "27国省考名师课程",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 956,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "27国省考名师课程 网盘： 27国省考名师课程 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r570",
+      "title": "27超格合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ZV8h-6txdH4MTwCkyXm8LQ?pwd=aibj",
+      "code": "aibj",
+      "section": "网盘：",
+      "context": "27超格合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 960,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "27超格合集 网盘： 27超格合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r571",
+      "title": "27花生十三合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1hrcZczRCvimv0LP9Eo15uA?pwd=aibj",
+      "code": "aibj",
+      "section": "网盘：",
+      "context": "27花生十三合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 964,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "27花生十三合集 网盘： 27花生十三合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r572",
+      "title": "27FB合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1oUdzT4PRo7S5pBrseMd73w?pwd=aibj",
+      "code": "aibj",
+      "section": "网盘：",
+      "context": "27FB合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 968,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "27FB合集 网盘： 27FB合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r573",
+      "title": "27上岸村合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1UigHc5qOpCJIqA5Xyk-UFg?pwd=aibj",
+      "code": "aibj",
+      "section": "网盘：",
+      "context": "27上岸村合集",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 972,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "27上岸村合集 网盘： 27上岸村合集 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r574",
+      "title": "27国省考名师课程",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/16hIfJAHbm3SY5Wf4-Na7mg?pwd=8jye",
+      "code": "8jye",
+      "section": "网盘：",
+      "context": "27国省考名师课程 | 提取码: 8jye",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 976,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "27国省考名师课程 网盘： 27国省考名师课程 | 提取码: 8jye 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
+    },
+    {
+      "id": "r575",
+      "title": "27考公资料包（笔记题本真题）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1tYJcwcDoER_ZRGQ6mY-_hA?pwd=35jh",
+      "code": "35jh",
+      "section": "网盘：",
+      "context": "27考公资料包（笔记题本真题） | 提取码: 35jh",
+      "sources": [
+        {
+          "file": "考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md",
+          "line": 980,
+          "section": "网盘："
+        }
+      ],
+      "searchText": "27考公资料包（笔记题本真题） 网盘： 27考公资料包（笔记题本真题） | 提取码: 35jh 考公资料网盘链接 37c68aec7cb080e68d47f67d7c7264e4.md"
     }
   ]
 };
