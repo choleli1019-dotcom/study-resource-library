@@ -882,6 +882,160 @@ h1 {
   display: none;
 }
 
+.search-welcome-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 20;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(14, 37, 56, 0.44);
+  backdrop-filter: blur(16px);
+}
+
+.search-welcome-modal.is-hidden {
+  display: none;
+}
+
+.search-welcome-card {
+  position: relative;
+  width: min(620px, 100%);
+  padding: 28px;
+  border: 1px solid rgba(143, 210, 255, 0.78);
+  border-radius: 8px;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(230, 246, 255, 0.96)),
+    #ffffff;
+  box-shadow: 0 30px 90px rgba(14, 69, 109, 0.32);
+}
+
+.search-welcome-close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  display: grid;
+  width: 36px;
+  height: 36px;
+  place-items: center;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.86);
+  color: var(--muted);
+  cursor: pointer;
+  font: inherit;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.search-welcome-kicker {
+  display: inline-flex;
+  align-items: center;
+  min-height: 30px;
+  padding: 0 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: rgba(230, 246, 255, 0.92);
+  color: var(--sky-700);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.search-welcome-card h2 {
+  margin: 16px 46px 10px 0;
+  color: #123a5b;
+  font-size: 32px;
+  line-height: 1.18;
+}
+
+.search-welcome-card p {
+  margin-bottom: 22px;
+  color: var(--muted);
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.search-welcome-input {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 12px;
+  align-items: center;
+  min-height: 64px;
+  padding: 0 16px;
+  border: 2px solid rgba(47, 148, 216, 0.78);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow:
+    0 14px 34px rgba(47, 148, 216, 0.2),
+    0 0 0 5px rgba(47, 148, 216, 0.1);
+}
+
+.search-welcome-input:focus-within {
+  border-color: #147ec2;
+  box-shadow:
+    0 18px 42px rgba(47, 148, 216, 0.28),
+    0 0 0 6px rgba(47, 148, 216, 0.16);
+}
+
+.search-welcome-input span {
+  display: inline-flex;
+  align-items: center;
+  min-height: 34px;
+  padding: 0 10px;
+  border-radius: 7px;
+  background: linear-gradient(180deg, #43adf2, var(--sky-500));
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.search-welcome-input input {
+  width: 100%;
+  min-width: 0;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  color: var(--ink);
+  font: inherit;
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.search-welcome-input input::placeholder {
+  color: #55748d;
+  opacity: 1;
+}
+
+.search-welcome-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.search-welcome-primary,
+.search-welcome-secondary {
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 900;
+}
+
+.search-welcome-primary {
+  border: 1px solid var(--sky-500);
+  background: var(--sky-500);
+  color: #ffffff;
+  box-shadow: 0 12px 26px rgba(47, 148, 216, 0.24);
+}
+
+.search-welcome-secondary {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.88);
+  color: var(--sky-700);
+}
+
 @media (max-width: 1000px) {
   .app-shell {
     grid-template-columns: 1fr;
@@ -959,5 +1113,32 @@ h1 {
 
   .resource-grid {
     grid-template-columns: 1fr;
+  }
+
+  .search-welcome-card {
+    padding: 22px;
+  }
+
+  .search-welcome-card h2 {
+    font-size: 26px;
+  }
+
+  .search-welcome-input {
+    grid-template-columns: 1fr;
+    gap: 8px;
+    padding: 12px;
+  }
+
+  .search-welcome-input span {
+    width: fit-content;
+  }
+
+  .search-welcome-actions {
+    justify-content: stretch;
+  }
+
+  .search-welcome-primary,
+  .search-welcome-secondary {
+    flex: 1 1 150px;
   }
 }

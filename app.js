@@ -395,6 +395,52 @@ function renderCard(item) {
   `;
 }
 
+function closeSearchWelcomeModal() {
+  document.querySelector("#searchWelcomeModal")?.classList.add("is-hidden");
+}
+
+function submitWelcomeSearch() {
+  const modalInput = document.querySelector("#welcomeSearchInput");
+  const mainInput = document.querySelector("#searchInput");
+  const query = modalInput?.value.trim() || "";
+
+  if (!query) {
+    modalInput?.focus();
+    return;
+  }
+
+  mainInput.value = query;
+  state.query = query;
+  renderResources();
+  renderPanSearchResults();
+  closeSearchWelcomeModal();
+  document.querySelector(".toolbar")?.scrollIntoView({ behavior: "smooth", block: "center" });
+  mainInput.focus();
+}
+
+function bindSearchWelcomeModal() {
+  const modal = document.querySelector("#searchWelcomeModal");
+  if (!modal) return;
+
+  const modalInput = document.querySelector("#welcomeSearchInput");
+  document.querySelector("#welcomeSearchSubmit")?.addEventListener("click", submitWelcomeSearch);
+  document.querySelector("#welcomeSearchSkip")?.addEventListener("click", closeSearchWelcomeModal);
+  document.querySelector(".search-welcome-close")?.addEventListener("click", closeSearchWelcomeModal);
+  modalInput?.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+      event.preventDefault();
+      submitWelcomeSearch();
+    }
+  });
+  modal.addEventListener("click", (event) => {
+    if (event.target === modal) closeSearchWelcomeModal();
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeSearchWelcomeModal();
+  });
+  window.setTimeout(() => modalInput?.focus(), 120);
+}
+
 function bindEvents() {
   document.querySelector("#searchInput").addEventListener("input", (event) => {
     state.query = event.target.value;
@@ -417,3 +463,4 @@ renderQuickLinks();
 renderResources();
 renderPanSearchResults();
 bindEvents();
+bindSearchWelcomeModal();
