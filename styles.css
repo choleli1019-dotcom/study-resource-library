@@ -1142,3 +1142,315 @@ h1 {
     flex: 1 1 150px;
   }
 }
+
+/* iOS glass skin */
+:root {
+  --ios-ink: #f4fbff;
+  --ios-muted: rgba(221, 237, 244, 0.74);
+  --ios-soft: rgba(232, 249, 255, 0.1);
+  --ios-glass: rgba(29, 47, 48, 0.72);
+  --ios-glass-strong: rgba(37, 58, 60, 0.86);
+  --ios-line: rgba(222, 247, 255, 0.24);
+  --ios-line-strong: rgba(151, 224, 255, 0.48);
+  --ios-cyan: #82d8ff;
+  --ios-blue: #5d8dff;
+  --ios-mint: #c8ffdc;
+  --ios-shadow: 0 28px 80px rgba(0, 0, 0, 0.36);
+}
+
+body {
+  color: var(--ios-ink);
+  background:
+    linear-gradient(90deg, rgba(5, 10, 10, 0.9), rgba(10, 17, 19, 0.7)),
+    linear-gradient(180deg, rgba(4, 9, 10, 0.74), rgba(4, 10, 11, 0.94)),
+    url("assets/my-cover.jpg") center / cover fixed;
+}
+
+body::before {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.08), transparent 140px),
+    radial-gradient(circle at 72% 13%, rgba(200, 255, 220, 0.18), transparent 190px),
+    radial-gradient(circle at 18% 28%, rgba(130, 216, 255, 0.12), transparent 220px);
+}
+
+.main {
+  max-width: 1520px;
+}
+
+.sidebar,
+.topbar,
+.hero,
+.toolbar,
+.quick-panel,
+.notice,
+.section-block,
+.pan-search-results,
+.search-welcome-card {
+  border: 1px solid var(--ios-line);
+  background:
+    linear-gradient(135deg, rgba(75, 98, 100, 0.76), rgba(26, 45, 45, 0.7)),
+    var(--ios-glass);
+  box-shadow: var(--ios-shadow);
+  backdrop-filter: blur(24px) saturate(130%);
+}
+
+.sidebar {
+  background:
+    linear-gradient(180deg, rgba(46, 71, 74, 0.84), rgba(14, 25, 26, 0.78)),
+    var(--ios-glass);
+}
+
+.brand,
+.nav-link:hover,
+.nav-link.active,
+.sidebar-note,
+.eyebrow,
+.hero-stats span,
+.filter-btn,
+.pan-result-column,
+.pan-result-item,
+.pan-empty,
+.resource-card,
+.search-welcome-close,
+.search-welcome-secondary {
+  border-color: var(--ios-line);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--ios-muted);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08);
+}
+
+.brand-mark {
+  background: linear-gradient(180deg, rgba(130, 216, 255, 0.95), rgba(93, 141, 255, 0.8));
+  color: #071314;
+}
+
+.brand strong,
+.topbar strong,
+h1,
+.hero-stats strong,
+.quick-panel h2,
+.notice h2,
+.section-header h2,
+.resource-card h3,
+.pan-search-header h2,
+.pan-column-heading h3,
+.pan-result-item h4,
+.search-welcome-card h2 {
+  color: var(--ios-ink);
+  text-shadow: 0 12px 32px rgba(0, 0, 0, 0.28);
+}
+
+.brand small,
+.topbar span,
+.hero p:last-of-type,
+.section-header p,
+.resource-card p,
+.pan-search-header p,
+.pan-result-item p,
+.pan-empty,
+.notice p,
+.sidebar-note p,
+.nav-link {
+  color: var(--ios-muted);
+}
+
+.nav-link span:first-child,
+.section-icon {
+  background: rgba(130, 216, 255, 0.12);
+  color: var(--ios-cyan);
+}
+
+.topbar {
+  position: sticky;
+  top: 22px;
+  z-index: 6;
+  margin-bottom: 22px;
+}
+
+.topbar a,
+.quick-link,
+.open-link,
+.section-link,
+.filter-btn.active,
+.pan-result-actions a,
+.search-welcome-primary {
+  border: 1px solid rgba(130, 216, 255, 0.68);
+  background: linear-gradient(135deg, rgba(130, 216, 255, 0.9), rgba(93, 141, 255, 0.82));
+  color: #071314;
+  box-shadow:
+    0 16px 34px rgba(93, 141, 255, 0.28),
+    inset 0 1px 0 rgba(255, 255, 255, 0.28);
+}
+
+.hero {
+  min-height: 430px;
+}
+
+.eyebrow,
+.panel-label,
+.tag,
+.pan-badge,
+.search-welcome-kicker {
+  background: rgba(200, 255, 220, 0.16);
+  color: var(--ios-mint);
+  border-color: rgba(200, 255, 220, 0.34);
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 82px;
+  letter-spacing: 0;
+}
+
+.hero-art {
+  border-color: var(--ios-line);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.32);
+}
+
+.hero-art img {
+  filter: saturate(1.05) contrast(1.04);
+}
+
+.hero-stamp {
+  border-color: rgba(255, 255, 255, 0.2);
+  background: rgba(15, 26, 27, 0.72);
+  color: var(--ios-cyan);
+}
+
+.toolbar {
+  grid-template-columns: minmax(420px, 680px) 1fr;
+  top: 96px;
+  z-index: 5;
+  background:
+    linear-gradient(135deg, rgba(70, 95, 98, 0.82), rgba(16, 30, 31, 0.78)),
+    var(--ios-glass);
+}
+
+.search-box,
+.search-welcome-input {
+  border-color: var(--ios-line-strong);
+  background: rgba(4, 11, 12, 0.44);
+  box-shadow:
+    0 18px 52px rgba(0, 0, 0, 0.34),
+    0 0 0 5px rgba(130, 216, 255, 0.1),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.search-box:focus-within,
+.search-welcome-input:focus-within {
+  border-color: var(--ios-cyan);
+  box-shadow:
+    0 22px 58px rgba(0, 0, 0, 0.4),
+    0 0 0 6px rgba(130, 216, 255, 0.16);
+}
+
+.search-box span,
+.search-welcome-input span,
+.pan-column-heading span {
+  background: linear-gradient(135deg, rgba(130, 216, 255, 0.94), rgba(93, 141, 255, 0.84));
+  color: #071314;
+}
+
+.search-box input,
+.search-welcome-input input {
+  color: #ffffff;
+}
+
+.search-box input::placeholder,
+.search-welcome-input input::placeholder {
+  color: rgba(229, 243, 249, 0.72);
+}
+
+.filter-btn {
+  min-height: 40px;
+}
+
+.filter-btn:hover {
+  border-color: var(--ios-line-strong);
+  color: #ffffff;
+}
+
+.quick-panel,
+.section-block,
+.pan-search-results {
+  margin-bottom: 22px;
+}
+
+.section-header,
+.pan-column-heading {
+  background: rgba(255, 255, 255, 0.08);
+  border-color: var(--ios-line);
+}
+
+.resource-card::before {
+  background: linear-gradient(90deg, var(--ios-cyan), var(--ios-blue));
+}
+
+.resource-card:hover {
+  transform: translateY(-3px);
+  border-color: var(--ios-line-strong);
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.34);
+}
+
+.pan-result-actions button {
+  border-color: var(--ios-line);
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--ios-cyan);
+}
+
+.pan-result-item mark {
+  background: rgba(200, 255, 220, 0.22);
+  color: var(--ios-mint);
+}
+
+.pan-code {
+  color: var(--ios-mint) !important;
+}
+
+.search-welcome-modal {
+  background:
+    linear-gradient(180deg, rgba(2, 8, 9, 0.38), rgba(2, 8, 9, 0.72)),
+    rgba(0, 0, 0, 0.42);
+}
+
+.search-welcome-card {
+  background:
+    linear-gradient(135deg, rgba(78, 101, 103, 0.88), rgba(22, 37, 38, 0.92)),
+    var(--ios-glass-strong);
+}
+
+.search-welcome-card p {
+  color: var(--ios-muted);
+}
+
+@media (max-width: 1000px) {
+  .topbar {
+    position: static;
+  }
+
+  .toolbar {
+    top: 0;
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  body {
+    background:
+      linear-gradient(180deg, rgba(5, 10, 10, 0.92), rgba(5, 10, 10, 0.9)),
+      url("assets/my-cover.jpg") center / cover fixed;
+  }
+
+  h1 {
+    font-size: 50px;
+  }
+
+  .hero,
+  .toolbar,
+  .quick-panel,
+  .section-block,
+  .pan-search-results {
+    box-shadow: 0 18px 46px rgba(0, 0, 0, 0.34);
+  }
+}
