@@ -441,6 +441,27 @@ function bindSearchWelcomeModal() {
   window.setTimeout(() => modalInput?.focus(), 120);
 }
 
+function applyTheme(theme) {
+  const isLight = theme === "light";
+  document.body.classList.toggle("theme-light", isLight);
+
+  const toggle = document.querySelector("#themeToggle");
+  const text = document.querySelector(".theme-toggle-text");
+  if (toggle) toggle.setAttribute("aria-pressed", String(isLight));
+  if (text) text.textContent = isLight ? "浅色" : "深色";
+}
+
+function bindThemeToggle() {
+  const savedTheme = localStorage.getItem("studyResourceTheme") || "dark";
+  applyTheme(savedTheme);
+
+  document.querySelector("#themeToggle")?.addEventListener("click", () => {
+    const nextTheme = document.body.classList.contains("theme-light") ? "dark" : "light";
+    localStorage.setItem("studyResourceTheme", nextTheme);
+    applyTheme(nextTheme);
+  });
+}
+
 function bindEvents() {
   document.querySelector("#searchInput").addEventListener("input", (event) => {
     state.query = event.target.value;
@@ -463,4 +484,5 @@ renderQuickLinks();
 renderResources();
 renderPanSearchResults();
 bindEvents();
+bindThemeToggle();
 bindSearchWelcomeModal();
