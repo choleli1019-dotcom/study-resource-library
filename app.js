@@ -117,6 +117,9 @@ const state = {
   category: "all"
 };
 
+let searchTrackTimer = 0;
+let lastTrackedSearch = "";
+
 const panSearchData = window.PAN_SEARCH_DATA || {
   items: [],
   sources: [],
@@ -125,6 +128,58 @@ const panSearchData = window.PAN_SEARCH_DATA || {
 
 function resource(title, description, source, url, sourceClass = "") {
   return { title, description, source, url, sourceClass };
+}
+
+function trackBaiduEvent(category, action, label, value = 1) {
+  if (!window._hmt || !label) return;
+  window._hmt.push(["_trackEvent", category, action, String(label).slice(0, 120), value]);
+}
+
+function scheduleSearchTracking(query) {
+  const keyword = query.trim();
+  window.clearTimeout(searchTrackTimer);
+  if (keyword.length < 2) return;
+
+  searchTrackTimer = window.setTimeout(() => {
+    if (keyword === lastTrackedSearch) return;
+    lastTrackedSearch = keyword;
+    trackBaiduEvent("site_search", "keyword", keyword);
+  }, 900);
+}
+
+function getTrackedResourceLabel(link) {
+  const panItem = link.closest(".pan-result-item");
+  if (panItem) {
+    const title = panItem.querySelector("h4")?.textContent?.trim();
+    return title ? `网盘搜索｜${title}` : "";
+  }
+
+  const card = link.closest(".resource-card");
+  if (card) {
+    const title = card.querySelector("h3")?.textContent?.trim();
+    return title ? `资料卡片｜${title}` : "";
+  }
+
+  const section = link.closest(".section-block");
+  if (section) {
+    const title = section.querySelector(".section-header h2")?.textContent?.trim();
+    return title ? `板块入口｜${title}` : "";
+  }
+
+  if (link.classList.contains("quick-link")) {
+    return `快捷入口｜${link.textContent.trim()}`;
+  }
+
+  return "";
+}
+
+function trackResourceClick(event) {
+  const link = event.target.closest("a[href]");
+  if (!link) return;
+  if (!link.matches(".open-link, .section-link, .quick-link, .pan-result-actions a")) return;
+
+  const label = getTrackedResourceLabel(link);
+  trackBaiduEvent("resource_click", link.className || "open", label);
 }
 
 function renderNav() {
@@ -413,6 +468,7 @@ function submitWelcomeSearch() {
   state.query = query;
   renderResources();
   renderPanSearchResults();
+  trackBaiduEvent("site_search", "welcome_keyword", query);
   closeSearchWelcomeModal();
   document.querySelector(".toolbar")?.scrollIntoView({ behavior: "smooth", block: "center" });
   mainInput.focus();
@@ -467,6 +523,7 @@ function bindEvents() {
     state.query = event.target.value;
     renderResources();
     renderPanSearchResults();
+    scheduleSearchTracking(state.query);
   });
 
   document.querySelector("#categoryFilters").addEventListener("click", (event) => {
@@ -475,7 +532,10 @@ function bindEvents() {
     state.category = button.dataset.filter;
     renderFilters();
     renderResources();
+    trackBaiduEvent("category_filter", "click", button.textContent.trim());
   });
+
+  document.addEventListener("click", trackResourceClick);
 }
 
 renderNav();
