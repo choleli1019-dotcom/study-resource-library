@@ -581,7 +581,10 @@ function bindSearchWelcomeModal() {
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") closeSearchWelcomeModal();
   });
-  window.setTimeout(() => modalInput?.focus(), 120);
+  window.setTimeout(() => {
+    modal.classList.remove("is-hidden");
+    modalInput?.focus();
+  }, 180);
 }
 
 function applyTheme(theme) {
