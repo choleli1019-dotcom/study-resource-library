@@ -2758,6 +2758,58 @@ body.theme-light .theme-toggle-knob {
   background: linear-gradient(180deg, #ffd76a, #ffb340);
 }
 
+/* Desktop overflow repair: prevent the hero artwork from widening the page. */
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.app-shell,
+.main,
+.hero,
+.hero-copy,
+.hero-art,
+.toolbar,
+.search-panel,
+.featured-panel,
+.section-block {
+  min-width: 0;
+}
+
+.main {
+  overflow-x: clip;
+}
+
+.hero {
+  grid-template-columns: minmax(0, 1fr) minmax(280px, min(40%, 560px));
+}
+
+.hero-art {
+  justify-self: end;
+  width: 100%;
+  max-width: 560px;
+  min-width: 0;
+}
+
+.hero-art img {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+}
+
+@media (max-width: 1180px) {
+  .hero,
+  body.theme-light .hero {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .hero-art {
+    justify-self: stretch;
+    max-width: 100%;
+  }
+}
+
 /* Mobile repair: keep the hero readable after the Apple-style desktop rules. */
 @media (max-width: 900px) {
   .app-shell {
