@@ -384,6 +384,49 @@ function renderResourceOverview() {
   `;
 }
 
+function openSectionModal(sectionId) {
+  const section = resources.find((item) => item.id === sectionId);
+  if (!section) return;
+
+  let modal = document.querySelector("#sectionModal");
+  if (!modal) {
+    modal = document.createElement("div");
+    modal.id = "sectionModal";
+    modal.className = "section-modal is-hidden";
+    modal.setAttribute("role", "dialog");
+    modal.setAttribute("aria-modal", "true");
+    document.body.append(modal);
+  }
+
+  modal.innerHTML = `
+    <div class="section-modal-card">
+      <button class="section-modal-close" type="button" data-section-modal-close aria-label="关闭分类资料">×</button>
+      <header class="section-modal-header">
+        <div class="section-title">
+          <span class="section-icon">${section.icon}</span>
+          <div>
+            <h2>${section.title}</h2>
+            <p>${section.description}</p>
+          </div>
+        </div>
+        <span class="resource-count">${section.items.length} 个入口</span>
+      </header>
+      <div class="section-modal-grid">
+        ${section.items.map(renderCard).join("")}
+      </div>
+    </div>
+  `;
+
+  modal.classList.remove("is-hidden");
+  document.body.classList.add("modal-open");
+  trackBaiduEvent("category_modal", "open", section.title);
+}
+
+function closeSectionModal() {
+  document.querySelector("#sectionModal")?.classList.add("is-hidden");
+  document.body.classList.remove("modal-open");
+}
+
 function panSearchNormalize(text) {
   return String(text || "")
     .toLocaleLowerCase("zh-CN")
@@ -669,6 +712,13 @@ function bindEvents() {
   document.querySelector("#categoryFilters").addEventListener("click", (event) => {
     const button = event.target.closest("[data-filter]");
     if (!button) return;
+
+    if (!state.query.trim() && button.dataset.filter !== "all") {
+      openSectionModal(button.dataset.filter);
+      trackBaiduEvent("category_filter", "modal", button.textContent.trim());
+      return;
+    }
+
     state.category = button.dataset.filter;
     renderFilters();
     renderResources();
@@ -684,11 +734,20 @@ function bindEvents() {
   document.addEventListener("click", (event) => {
     const button = event.target.closest("[data-overview-filter]");
     if (!button) return;
-    state.category = button.dataset.overviewFilter;
-    renderFilters();
-    renderResources();
-    trackBaiduEvent("category_overview", "open", button.textContent.trim());
-    document.querySelector("#resourceSections")?.scrollIntoView({ behavior: "smooth", block: "start" });
+    openSectionModal(button.dataset.overviewFilter);
+  });
+
+  document.addEventListener("click", (event) => {
+    if (event.target.closest("[data-section-modal-close]")) {
+      closeSectionModal();
+      return;
+    }
+
+    if (event.target.id === "sectionModal") closeSectionModal();
+  });
+
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") closeSectionModal();
   });
 
   document.addEventListener("click", trackResourceClick);
