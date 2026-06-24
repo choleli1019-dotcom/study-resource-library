@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>学习资源库</title>
-    <link rel="stylesheet" href="styles.css?v=20260624-apple-ios" />
+    <link rel="stylesheet" href="styles.css?v=20260624-useful-flow" />
   </head>
   <body>
     <div class="app-shell">
@@ -68,11 +68,13 @@
               <span>搜索</span>
               <input id="searchInput" type="search" placeholder="名师名字/课程名称/关键词/资源名称" />
             </label>
+            <div id="hotSearches" class="hot-searches" aria-label="热门搜索"></div>
           </div>
           <div id="categoryFilters" class="filters" role="group" aria-label="分类筛选"></div>
         </section>
 
         <section id="panSearchResults" class="pan-search-results" aria-live="polite" hidden></section>
+        <section id="featuredResources" class="featured-panel" aria-label="高频资料入口"></section>
 
         <section class="quick-panel" aria-label="重要入口">
           <div>
@@ -124,6 +126,6 @@
       })();
     </script>
     <script src="pan-search-data.js?v=20260624-1616"></script>
-    <script src="app.js?v=20260624-feishu-root"></script>
+    <script src="app.js?v=20260624-useful-flow"></script>
   </body>
 </html>

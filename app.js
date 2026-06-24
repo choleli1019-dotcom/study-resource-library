@@ -106,6 +106,8 @@ const resources = [
 ];
 
 const quickNames = ["飞书总目录", "学习资料使用指南", "资料保存教程演示", "学习交流群", "资料需求留言板"];
+const hotSearchTerms = ["超格", "花生十三", "上岸村", "申论", "面试", "事业单位", "教资", "小黑", "袁东", "粉笔"];
+const featuredNames = ["飞书总目录", "公考类资料大合集", "2027名师 行测、职测、申论模块分类", "2026名师 行测、职测、申论模块分类", "事业单位", "公考面试", "教师招聘、教师资格 特岗 教师面试", "资料保存教程演示"];
 const guideLink = resource(
   "学习资料使用指南",
   "PDF 中提示的必看说明和重要声明。",
@@ -224,6 +226,57 @@ function renderQuickLinks() {
     .join("");
 }
 
+function findResourceByTitle(title) {
+  for (const section of resources) {
+    const item = section.items.find((resourceItem) => resourceItem.title === title);
+    if (item) return { section, item };
+  }
+  return null;
+}
+
+function renderHotSearches() {
+  const container = document.querySelector("#hotSearches");
+  if (!container) return;
+
+  container.innerHTML = `
+    <span>热门搜索</span>
+    ${hotSearchTerms
+      .map(
+        (term) => `
+          <button type="button" data-hot-search="${term}">${term}</button>
+        `
+      )
+      .join("")}
+  `;
+}
+
+function renderFeaturedResources() {
+  const container = document.querySelector("#featuredResources");
+  if (!container) return;
+
+  const items = featuredNames.map(findResourceByTitle).filter(Boolean);
+  container.innerHTML = `
+    <div class="featured-copy">
+      <span class="panel-label">高频入口</span>
+      <h2>多数人会先找这些资料</h2>
+      <p>先从总目录、国省考、事业单位、面试和教招教资开始；想找具体老师或课程，直接用上方搜索。</p>
+    </div>
+    <div class="featured-list">
+      ${items
+        .map(
+          ({ section, item }) => `
+            <a class="featured-item" href="${item.url}" target="_blank" rel="noopener noreferrer">
+              <span>${section.title}</span>
+              <strong>${item.title}</strong>
+              <em>${getActionLabel(item)}</em>
+            </a>
+          `
+        )
+        .join("")}
+    </div>
+  `;
+}
+
 function renderResources() {
   const container = document.querySelector("#resourceSections");
   const query = state.query.trim().toLowerCase();
@@ -265,9 +318,20 @@ function renderResources() {
 
   const empty = document.querySelector(".empty-state");
   if (!empty) {
-    container.insertAdjacentHTML("afterend", '<div class="empty-state">没有找到匹配的资料入口</div>');
+    container.insertAdjacentHTML("afterend", '<div class="empty-state"></div>');
   }
-  document.querySelector(".empty-state").style.display = visibleCount ? "none" : "block";
+  const emptyState = document.querySelector(".empty-state");
+  emptyState.innerHTML = `
+    <h3>没有找到匹配的资料入口</h3>
+    <p>可以换个关键词试试老师简称、机构名或模块名，也可以去留言板反馈缺失资料。</p>
+    <div class="empty-actions">
+      ${["申论", "面试", "事业单位", "教资"]
+        .map((term) => `<button type="button" data-hot-search="${term}">${term}</button>`)
+        .join("")}
+      <a href="https://di0occkvoyb.feishu.cn/wiki/Id1JwO5fZibz9skPcpgcJoxqnOb" target="_blank" rel="noopener noreferrer">去留言板</a>
+    </div>
+  `;
+  emptyState.style.display = visibleCount ? "none" : "block";
 }
 
 function panSearchNormalize(text) {
@@ -374,7 +438,7 @@ function renderPanSearchColumn(title, items, queryTokens) {
         <span>${items.length}</span>
       </div>
       <div class="pan-result-list">
-        ${items.length ? items.map((item) => renderPanSearchItem(item, queryTokens)).join("") : '<div class="pan-empty">没有匹配结果。</div>'}
+        ${items.length ? items.map((item) => renderPanSearchItem(item, queryTokens)).join("") : '<div class="pan-empty">没有匹配结果，可以换老师简称或课程模块再搜。</div>'}
       </div>
     </section>
   `;
@@ -392,7 +456,7 @@ function renderPanSearchItem(item, queryTokens) {
       <p>${panSearchHighlight(item.context, queryTokens)}</p>
       ${item.code ? `<p class="pan-code">提取码：${panSearchEscapeHtml(item.code)}</p>` : ""}
       <div class="pan-result-actions">
-        <a href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">打开</a>
+        <a href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">打开网盘</a>
         <button type="button" data-copy-url="${panSearchEscapeHtml(item.url)}">复制</button>
       </div>
     </article>
@@ -425,7 +489,7 @@ function renderSectionLink(section) {
   const firstLink = section.items[0];
   if (!firstLink?.url) return "";
 
-  const label = firstLink.source === "飞书" ? "进入飞书板块" : `进入${firstLink.source}资料`;
+  const label = firstLink.source === "飞书" ? "进入目录" : `进入${firstLink.source}资料`;
   const className = firstLink.sourceClass ? ` ${firstLink.sourceClass}` : "";
 
   return `
@@ -445,10 +509,32 @@ function renderCard(item) {
       </div>
       <div class="card-meta">
         <span class="tag">${item.source}</span>
-        <a class="open-link${className}" href="${item.url}" target="_blank" rel="noopener noreferrer">打开</a>
+        <a class="open-link${className}" href="${item.url}" target="_blank" rel="noopener noreferrer">${getActionLabel(item)}</a>
       </div>
     </article>
   `;
+}
+
+function getActionLabel(item) {
+  if (item.source === "夸克" || item.source === "百度") return "打开网盘";
+  if (item.source === "网站") return "访问网站";
+  if (item.title.includes("留言")) return "反馈需求";
+  if (item.title.includes("交流群")) return "加入群聊";
+  if (item.title.includes("教程") || item.title.includes("使用指南")) return "查看教程";
+  if (item.title.includes("总目录") || item.title.includes("合集") || item.title.includes("目录")) return "进入目录";
+  if (item.source === "飞书") return "进入飞书";
+  return "打开";
+}
+
+function applySearchTerm(term) {
+  const input = document.querySelector("#searchInput");
+  state.query = term;
+  input.value = term;
+  renderResources();
+  renderPanSearchResults();
+  scheduleSearchTracking(term);
+  trackBaiduEvent("site_search", "hot_keyword", term);
+  document.querySelector("#panSearchResults")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function closeSearchWelcomeModal() {
@@ -536,12 +622,20 @@ function bindEvents() {
     trackBaiduEvent("category_filter", "click", button.textContent.trim());
   });
 
+  document.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-hot-search]");
+    if (!button) return;
+    applySearchTerm(button.dataset.hotSearch);
+  });
+
   document.addEventListener("click", trackResourceClick);
 }
 
 renderNav();
 renderFilters();
+renderHotSearches();
 renderQuickLinks();
+renderFeaturedResources();
 renderResources();
 renderPanSearchResults();
 bindEvents();
