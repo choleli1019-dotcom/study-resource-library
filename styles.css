@@ -1666,7 +1666,8 @@ h1 {
 }
 
 .search-welcome-card p {
-  color: var(--ios-muted);
+  color: rgba(226, 242, 255, 0.88);
+  text-shadow: 0 1px 14px rgba(0, 0, 0, 0.2);
 }
 
 @media (max-width: 1000px) {
@@ -1730,6 +1731,11 @@ body.theme-light .search-welcome-card {
   background: rgba(255, 255, 255, 0.84);
   box-shadow: var(--shadow);
   backdrop-filter: blur(16px);
+}
+
+body.theme-light .search-welcome-card p {
+  color: rgba(76, 101, 124, 0.92);
+  text-shadow: none;
 }
 
 body.theme-light .sidebar {
