@@ -64,7 +64,7 @@ const resources = [
     title: "电子书",
     description: "电子书合集，适合找教材、讲义和拓展阅读。",
     items: [
-      resource("电子书合集", "各类电子书资源入口。", "飞书", "https://di0occkvoyb.feishu.cn/wiki/VaZxwPNC7iahEokJE0QcfoXqnSz")
+      resource("电子书合集", "电子书检索、分类浏览和阅读资源入口。", "网站", "https://ningyan1228.github.io/ebook-library/")
     ]
   },
   {
