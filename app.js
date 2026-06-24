@@ -5,6 +5,7 @@ const resources = [
     title: "资料目录",
     description: "从更新、留言、教程、工具和学习顺序开始，适合第一次进入资源库的人。",
     items: [
+      resource("飞书总目录", "所有资料的飞书根目录，适合从总索引进入全部内容。", "飞书", "https://di0occkvoyb.feishu.cn/wiki/MNt9w7LfeiXi5Xkvj0gcOo8Cnfs"),
       resource("27新增资料", "查看近期新增和维护记录。", "飞书", "https://di0occkvoyb.feishu.cn/wiki/AIDVwc4LUig2lZkQJiuc2OUdnhc"),
       resource("资料需求留言板", "缺少资料或链接失效时，在这里反馈需求。", "飞书", "https://di0occkvoyb.feishu.cn/wiki/Id1JwO5fZibz9skPcpgcJoxqnOb"),
       resource("资料保存教程演示", "学习如何转存、打开和保存网盘资料。", "飞书", "https://di0occkvoyb.feishu.cn/wiki/I3pPwFBLIiiFdOkLL9dcH18jntd"),
@@ -104,7 +105,7 @@ const resources = [
   }
 ];
 
-const quickNames = ["学习资料使用指南", "资料保存教程演示", "学习交流群", "资料需求留言板"];
+const quickNames = ["飞书总目录", "学习资料使用指南", "资料保存教程演示", "学习交流群", "资料需求留言板"];
 const guideLink = resource(
   "学习资料使用指南",
   "PDF 中提示的必看说明和重要声明。",
