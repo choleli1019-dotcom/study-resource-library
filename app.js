@@ -282,6 +282,13 @@ function renderResources() {
   const query = state.query.trim().toLowerCase();
   let visibleCount = 0;
 
+  if (!query && state.category === "all") {
+    container.innerHTML = renderResourceOverview();
+    const emptyState = document.querySelector(".empty-state");
+    if (emptyState) emptyState.style.display = "none";
+    return;
+  }
+
   container.innerHTML = resources
     .map((section) => {
       const categoryVisible = state.category === "all" || state.category === section.id;
@@ -332,6 +339,49 @@ function renderResources() {
     </div>
   `;
   emptyState.style.display = visibleCount ? "none" : "block";
+}
+
+function renderResourceOverview() {
+  const totalItems = resources.reduce((sum, section) => sum + section.items.length, 0);
+
+  return `
+    <section class="section-block overview-block" id="overview" data-section="overview">
+      <header class="section-header overview-header">
+        <div class="section-title">
+          <span class="section-icon">↳</span>
+          <div>
+            <h2>资料控制台</h2>
+            <p>先搜索老师、课程或关键词；不确定找什么，就从下面的分类入口进入。</p>
+          </div>
+        </div>
+        <div class="section-actions">
+          <span class="resource-count">${resources.length} 类 / ${totalItems} 个入口</span>
+        </div>
+      </header>
+      <div class="overview-grid">
+        ${resources
+          .map((section) => {
+            const sampleItems = section.items.slice(0, 3).map((item) => `<span>${item.title}</span>`).join("");
+            return `
+              <article class="overview-card">
+                <div class="overview-card-head">
+                  <span class="section-icon">${section.icon}</span>
+                  <div>
+                    <h3>${section.title}</h3>
+                    <p>${section.items.length} 个入口</p>
+                  </div>
+                </div>
+                <div class="overview-samples">${sampleItems}</div>
+                <button class="section-open-button" type="button" data-overview-filter="${section.id}">
+                  查看这一类
+                </button>
+              </article>
+            `;
+          })
+          .join("")}
+      </div>
+    </section>
+  `;
 }
 
 function panSearchNormalize(text) {
@@ -629,6 +679,16 @@ function bindEvents() {
     const button = event.target.closest("[data-hot-search]");
     if (!button) return;
     applySearchTerm(button.dataset.hotSearch);
+  });
+
+  document.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-overview-filter]");
+    if (!button) return;
+    state.category = button.dataset.overviewFilter;
+    renderFilters();
+    renderResources();
+    trackBaiduEvent("category_overview", "open", button.textContent.trim());
+    document.querySelector("#resourceSections")?.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 
   document.addEventListener("click", trackResourceClick);
