@@ -2550,3 +2550,210 @@ body:not(.theme-light) .filter-btn.active {
     grid-template-columns: 1fr;
   }
 }
+
+/* Apple China clean direction */
+body.theme-light {
+  color: #1d1d1f;
+  background: #f5f5f7;
+}
+
+body.theme-light::before {
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.82), transparent 280px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.42), transparent 36%, rgba(255, 255, 255, 0.34));
+}
+
+body.theme-light .main {
+  max-width: 1460px;
+}
+
+body.theme-light .sidebar {
+  background: rgba(245, 245, 247, 0.88);
+  border-right-color: rgba(0, 0, 0, 0.06);
+  box-shadow: none;
+}
+
+body.theme-light .topbar,
+body.theme-light .hero,
+body.theme-light .toolbar,
+body.theme-light .featured-panel,
+body.theme-light .quick-panel,
+body.theme-light .section-block,
+body.theme-light .pan-search-results,
+body.theme-light .notice {
+  border-color: rgba(0, 0, 0, 0.06);
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 22px 60px rgba(0, 0, 0, 0.06);
+  backdrop-filter: blur(22px) saturate(150%);
+}
+
+body.theme-light .brand,
+body.theme-light .nav-link:hover,
+body.theme-light .nav-link.active,
+body.theme-light .sidebar-note,
+body.theme-light .resource-card,
+body.theme-light .featured-item,
+body.theme-light .filter-btn,
+body.theme-light .hot-searches button,
+body.theme-light .empty-actions button,
+body.theme-light .pan-result-item,
+body.theme-light .pan-result-column {
+  border-color: rgba(0, 0, 0, 0.06);
+  background: #ffffff;
+  box-shadow: none;
+}
+
+body.theme-light .brand {
+  background: rgba(255, 255, 255, 0.92);
+}
+
+body.theme-light .brand-mark {
+  background: linear-gradient(180deg, #ffd76a, #ffb340);
+  color: #1d1d1f;
+}
+
+body.theme-light .topbar {
+  min-height: 58px;
+  padding: 10px 16px;
+}
+
+body.theme-light .topbar span,
+body.theme-light .brand small,
+body.theme-light .nav-link,
+body.theme-light .sidebar-note p,
+body.theme-light .hero p:last-of-type,
+body.theme-light .section-header p,
+body.theme-light .featured-copy p,
+body.theme-light .resource-card p {
+  color: #6e6e73;
+}
+
+body.theme-light .topbar strong,
+body.theme-light .brand strong,
+body.theme-light h1,
+body.theme-light .quick-panel h2,
+body.theme-light .featured-copy h2,
+body.theme-light .section-header h2,
+body.theme-light .resource-card h3,
+body.theme-light .featured-item strong,
+body.theme-light .search-panel-head span {
+  color: #1d1d1f;
+  text-shadow: none;
+}
+
+body.theme-light h1 {
+  font-size: clamp(64px, 6.6vw, 96px);
+  line-height: 1;
+}
+
+body.theme-light .hero {
+  min-height: 470px;
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.96), rgba(255, 255, 255, 0.78)),
+    #ffffff;
+}
+
+body.theme-light .hero p:last-of-type {
+  max-width: 720px;
+  font-size: 21px;
+}
+
+body.theme-light .eyebrow,
+body.theme-light .panel-label,
+body.theme-light .tag,
+body.theme-light .pan-badge,
+body.theme-light .search-welcome-kicker {
+  border-color: rgba(0, 0, 0, 0.06);
+  background: #f5f5f7;
+  color: #0071e3;
+}
+
+body.theme-light .hero-stats span {
+  border-color: rgba(0, 0, 0, 0.06);
+  background: #f5f5f7;
+  color: #424245;
+  box-shadow: none;
+}
+
+body.theme-light .hero-stats strong {
+  color: #0071e3;
+}
+
+body.theme-light .hero-art {
+  border-color: rgba(0, 0, 0, 0.06);
+  background: #f5f5f7;
+  box-shadow: 0 24px 70px rgba(0, 0, 0, 0.1);
+}
+
+body.theme-light .toolbar {
+  background: rgba(255, 255, 255, 0.94);
+}
+
+body.theme-light .search-panel {
+  border-color: rgba(0, 0, 0, 0.06);
+  background: #fbfbfd;
+  box-shadow: none;
+}
+
+body.theme-light .search-panel::before {
+  opacity: 0;
+}
+
+body.theme-light .search-box,
+body.theme-light .search-welcome-input {
+  border-color: rgba(0, 113, 227, 0.42);
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(0, 113, 227, 0.08);
+}
+
+body.theme-light .search-box span,
+body.theme-light .search-welcome-input span,
+body.theme-light .topbar a,
+body.theme-light .quick-link,
+body.theme-light .open-link,
+body.theme-light .section-link,
+body.theme-light .filter-btn.active,
+body.theme-light .empty-actions a,
+body.theme-light .pan-result-actions a,
+body.theme-light .search-welcome-primary {
+  border-color: #0071e3;
+  background: #0071e3;
+  color: #ffffff;
+  box-shadow: none;
+}
+
+body.theme-light .filter-btn:not(.active),
+body.theme-light .hot-searches button,
+body.theme-light .empty-actions button {
+  color: #1d1d1f;
+}
+
+body.theme-light .topbar a:hover,
+body.theme-light .quick-link:hover,
+body.theme-light .open-link:hover,
+body.theme-light .section-link:hover,
+body.theme-light .featured-item:hover,
+body.theme-light .resource-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 20px 46px rgba(0, 0, 0, 0.1);
+}
+
+body.theme-light .section-header,
+body.theme-light .pan-column-heading {
+  border-color: rgba(0, 0, 0, 0.06);
+  background: #fbfbfd;
+}
+
+body.theme-light .resource-card::before {
+  background: #0071e3;
+}
+
+body.theme-light .theme-toggle {
+  border-color: rgba(0, 0, 0, 0.08);
+  background: #ffffff;
+  color: #424245;
+}
+
+body.theme-light .theme-toggle-knob {
+  background: linear-gradient(180deg, #ffd76a, #ffb340);
+}

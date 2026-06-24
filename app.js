@@ -106,7 +106,7 @@ const resources = [
 ];
 
 const quickNames = ["飞书总目录", "学习资料使用指南", "资料保存教程演示", "学习交流群", "资料需求留言板"];
-const hotSearchTerms = ["超格", "花生十三", "上岸村", "申论", "面试", "事业单位", "教资", "小黑", "袁东", "粉笔"];
+const hotSearchTerms = ["超格", "花生十三", "上岸村", "申论", "面试", "事业单位", "教资", "小黑", "袁东"];
 const featuredNames = ["飞书总目录", "公考类资料大合集", "2027名师 行测、职测、申论模块分类", "2026名师 行测、职测、申论模块分类", "事业单位", "公考面试", "教师招聘、教师资格 特岗 教师面试", "资料保存教程演示"];
 const guideLink = resource(
   "学习资料使用指南",
@@ -595,7 +595,7 @@ function applyTheme(theme) {
 }
 
 function bindThemeToggle() {
-  const savedTheme = localStorage.getItem("studyResourceTheme") || "dark";
+  const savedTheme = localStorage.getItem("studyResourceTheme") || "light";
   applyTheme(savedTheme);
 
   document.querySelector("#themeToggle")?.addEventListener("click", () => {
