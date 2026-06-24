@@ -2757,3 +2757,177 @@ body.theme-light .theme-toggle {
 body.theme-light .theme-toggle-knob {
   background: linear-gradient(180deg, #ffd76a, #ffb340);
 }
+
+/* Mobile repair: keep the hero readable after the Apple-style desktop rules. */
+@media (max-width: 900px) {
+  .app-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .main {
+    max-width: 100%;
+    padding: 12px;
+    overflow: hidden;
+  }
+
+  .topbar {
+    position: static;
+    display: grid;
+    gap: 12px;
+    min-height: auto;
+  }
+
+  .topbar-actions {
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 8px;
+    width: 100%;
+  }
+
+  .topbar a,
+  .theme-toggle {
+    width: 100%;
+    justify-content: center;
+    padding-inline: 10px;
+    white-space: nowrap;
+  }
+
+  .hero,
+  body.theme-light .hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 22px;
+    min-height: auto;
+    padding: 24px 18px;
+    overflow: hidden;
+  }
+
+  .hero-copy {
+    min-width: 0;
+    width: 100%;
+  }
+
+  h1,
+  body.theme-light h1 {
+    max-width: 100%;
+    margin: 12px 0;
+    font-size: clamp(46px, 17vw, 64px);
+    line-height: 1.03;
+    word-break: keep-all;
+    overflow-wrap: normal;
+  }
+
+  .hero p:last-of-type,
+  body.theme-light .hero p:last-of-type {
+    max-width: 100%;
+    font-size: 17px;
+    line-height: 1.75;
+    word-break: normal;
+    overflow-wrap: break-word;
+  }
+
+  .eyebrow {
+    width: fit-content;
+    max-width: 100%;
+    line-height: 1.6;
+    white-space: normal;
+  }
+
+  .hero-stats {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 8px;
+  }
+
+  .hero-stats span {
+    min-width: 0;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .hero-art {
+    width: 100%;
+    max-width: 100%;
+    max-height: none;
+    aspect-ratio: 16 / 9;
+  }
+
+  .hero-art img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .toolbar,
+  body.theme-light .toolbar {
+    position: static;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 14px;
+    padding: 14px;
+  }
+
+  .search-panel {
+    min-width: 0;
+    padding: 12px;
+  }
+
+  .search-box {
+    grid-template-columns: auto minmax(0, 1fr);
+    min-height: 58px;
+    padding: 0 10px;
+  }
+
+  .search-box input {
+    min-width: 0;
+    font-size: 15px;
+  }
+
+  .hot-searches,
+  .filters {
+    gap: 7px;
+  }
+
+  .filter-btn,
+  .hot-searches button {
+    min-height: 34px;
+    padding-inline: 10px;
+    font-size: 13px;
+  }
+
+  .featured-panel,
+  .quick-panel,
+  body.theme-light .featured-panel,
+  body.theme-light .quick-panel {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .topbar-actions {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .theme-toggle {
+    grid-column: span 2;
+  }
+
+  h1,
+  body.theme-light h1 {
+    font-size: clamp(42px, 16vw, 56px);
+  }
+
+  .hero-stats {
+    grid-template-columns: 1fr;
+  }
+
+  .search-box span {
+    min-height: 36px;
+    padding-inline: 10px;
+    font-size: 13px;
+  }
+
+  .search-box input {
+    font-size: 14px;
+  }
+}
