@@ -1747,9 +1747,9 @@ body:not(.theme-light) .section-modal-card {
   position: relative !important;
   display: flex !important;
   flex-direction: column !important;
-  justify-content: space-between !important;
+  justify-content: flex-start !important;
   height: auto !important;
-  min-height: 176px !important;
+  min-height: 224px !important;
   overflow: hidden !important;
 }
 
@@ -1769,7 +1769,8 @@ body:not(.theme-light) .section-modal-card {
   align-items: center !important;
   justify-content: space-between !important;
   gap: 12px !important;
-  margin-top: 16px !important;
+  margin-top: auto !important;
+  padding-top: 18px !important;
 }
 
 .section-modal-grid .tag,
@@ -1843,6 +1844,7 @@ body:not(.theme-light) .section-modal-card {
   .section-modal-grid .card-meta,
   .section-modal-grid .modal-resource-actions {
     margin-top: 14px !important;
+    padding-top: 0 !important;
   }
 
   .section-modal-grid .tag {
