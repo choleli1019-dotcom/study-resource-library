@@ -1180,6 +1180,64 @@ body:not(.theme-light) .section-modal-card {
   min-height: 176px;
 }
 
+.modal-resource-card {
+  display: grid;
+  grid-template-rows: minmax(0, 1fr) auto;
+  gap: 16px;
+  min-height: 178px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--surface-strong);
+  box-shadow: 0 10px 28px rgba(28, 70, 110, 0.06);
+}
+
+.modal-resource-card::before {
+  content: "";
+  display: block;
+  height: 4px;
+  margin: -18px -18px 0;
+  border-radius: 18px 18px 0 0;
+  background: linear-gradient(90deg, var(--accent), var(--accent-2));
+}
+
+.modal-resource-copy {
+  min-width: 0;
+}
+
+.modal-resource-card h3 {
+  margin: 0;
+  color: var(--text);
+  font-size: 20px;
+  line-height: 1.35;
+}
+
+.modal-resource-card p {
+  margin: 10px 0 0;
+  color: var(--muted);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.modal-resource-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  min-width: 0;
+}
+
+.modal-resource-actions .tag {
+  margin: 0;
+  flex: 0 0 auto;
+}
+
+.modal-resource-actions .open-link {
+  min-height: 40px;
+  padding: 0 16px;
+  flex: 0 0 auto;
+}
+
 @media (min-width: 1280px) {
   .app-shell {
     grid-template-columns: 270px minmax(0, 1fr);
@@ -1430,36 +1488,38 @@ body:not(.theme-light) .section-modal-card {
     padding: 12px;
   }
 
-  .section-modal-grid .resource-card {
-    display: flex;
+  .modal-resource-card {
+    display: grid;
     min-height: 0;
-    padding: 16px;
-    overflow: visible;
-    flex-direction: column;
     gap: 12px;
+    padding: 14px;
   }
 
-  .section-modal-grid .resource-card h3 {
-    font-size: 22px;
+  .modal-resource-card::before {
+    height: 3px;
+    margin: -14px -14px 0;
+  }
+
+  .modal-resource-card h3 {
+    font-size: 19px;
     line-height: 1.32;
   }
 
-  .section-modal-grid .resource-card p {
+  .modal-resource-card p {
     margin-top: 8px;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 1.55;
   }
 
-  .section-modal-grid .card-meta {
-    align-self: stretch;
-    margin-top: 4px;
+  .modal-resource-actions {
+    align-items: center;
   }
 
-  .section-modal-grid .tag {
+  .modal-resource-actions .tag {
     min-height: 36px;
   }
 
-  .section-modal-grid .open-link {
+  .modal-resource-actions .open-link {
     min-height: 42px;
     padding: 0 16px;
     flex: 0 0 auto;

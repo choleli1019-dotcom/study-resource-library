@@ -412,7 +412,7 @@ function openSectionModal(sectionId) {
         <span class="resource-count">${section.items.length} 个入口</span>
       </header>
       <div class="section-modal-grid">
-        ${section.items.map(renderCard).join("")}
+        ${section.items.map(renderSectionModalItem).join("")}
       </div>
     </div>
   `;
@@ -425,6 +425,23 @@ function openSectionModal(sectionId) {
 function closeSectionModal() {
   document.querySelector("#sectionModal")?.classList.add("is-hidden");
   document.body.classList.remove("modal-open");
+}
+
+function renderSectionModalItem(item) {
+  const className = item.sourceClass ? ` ${item.sourceClass}` : "";
+
+  return `
+    <article class="modal-resource-card">
+      <div class="modal-resource-copy">
+        <h3>${item.title}</h3>
+        <p>${item.description}</p>
+      </div>
+      <div class="modal-resource-actions">
+        <span class="tag">${item.source}</span>
+        <a class="open-link${className}" href="${item.url}" target="_blank" rel="noopener noreferrer">${getActionLabel(item)}</a>
+      </div>
+    </article>
+  `;
 }
 
 function panSearchNormalize(text) {
