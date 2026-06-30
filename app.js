@@ -619,7 +619,7 @@ function renderPanSearchResults() {
       };
       sendServerEvent("broken_link", payload);
       trackBaiduEvent("resource_feedback", "broken_link", payload.title || payload.url);
-      showSiteToast("已收到失效反馈");
+      showSiteToast("已收到反馈，感谢提醒");
     });
   });
 }
@@ -652,7 +652,7 @@ function renderPanSearchItem(item, queryTokens) {
       <div class="pan-result-actions">
         <a href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">打开网盘</a>
         <button type="button" data-copy-url="${panSearchEscapeHtml(item.url)}">复制</button>
-        <button class="pan-report-button" type="button" data-report-broken="${panSearchEscapeHtml(item.url)}" data-report-title="${panSearchEscapeHtml(item.title)}" data-report-platform="${panSearchEscapeHtml(item.platform)}">链接失效</button>
+        <button class="pan-report-button" type="button" data-report-broken="${panSearchEscapeHtml(item.url)}" data-report-title="${panSearchEscapeHtml(item.title)}" data-report-platform="${panSearchEscapeHtml(item.platform)}" title="如果打不开，可点这里反馈给维护者">反馈失效</button>
       </div>
     </article>
   `;

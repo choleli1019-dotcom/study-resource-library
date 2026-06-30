@@ -1861,14 +1861,20 @@ body:not(.theme-light) .section-modal-card {
 }
 
 .pan-result-actions .pan-report-button {
-  color: #64748b;
-  background: rgba(148, 163, 184, 0.12);
+  min-height: 34px;
+  padding: 0 11px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 800;
+  background: transparent;
+  opacity: 0.78;
 }
 
 .pan-result-actions .pan-report-button:hover {
   color: #ef4444;
-  border-color: rgba(239, 68, 68, 0.35);
-  background: rgba(254, 226, 226, 0.75);
+  border-color: rgba(239, 68, 68, 0.28);
+  background: rgba(254, 226, 226, 0.52);
+  opacity: 1;
 }
 
 .site-toast {
