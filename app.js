@@ -572,7 +572,7 @@ function renderTodayModalItem(item) {
   const context = item.context || title;
 
   return `
-    <article class="modal-resource-card">
+    <article class="modal-resource-card today-update-resource-card">
       <div class="modal-resource-copy">
         <h3>${panSearchEscapeHtml(title)}</h3>
         <p>${panSearchEscapeHtml(context)}</p>
@@ -599,7 +599,7 @@ function openTodayUpdateModal() {
   }
 
   modal.innerHTML = `
-    <div class="section-modal-card">
+    <div class="section-modal-card today-update-modal-card">
       <button class="section-modal-close" type="button" data-section-modal-close aria-label="关闭今日更新">×</button>
       <header class="section-modal-header">
         <div class="section-title">
@@ -611,7 +611,7 @@ function openTodayUpdateModal() {
         </div>
         <span class="resource-count">${items.length} 个入口</span>
       </header>
-      <div class="section-modal-grid">
+      <div class="section-modal-grid today-update-modal-grid">
         ${items.length
           ? items.map(renderTodayModalItem).join("")
           : `<article class="modal-resource-card modal-empty-card"><div class="modal-resource-copy"><h3>暂无今日更新</h3><p>后台今天还没有新增资料。</p></div></article>`}

@@ -806,6 +806,66 @@ body:not(.theme-light) .overview-card-update {
 .modal-empty-card {
   min-height: 160px !important;
 }
+
+/* 今日更新专用：避免电脑端弹窗按钮和样本文字溢出，不影响其他分类弹窗。 */
+.overview-card-update .overview-samples {
+  display: grid;
+  grid-template-columns: 1fr;
+  align-content: start;
+  min-width: 0;
+}
+
+.overview-card-update .overview-samples span {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.today-update-modal-grid .today-update-resource-card {
+  overflow: visible !important;
+}
+
+.today-update-modal-grid .modal-resource-copy h3,
+.today-update-modal-grid .modal-resource-copy p {
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+.today-update-modal-grid .modal-resource-actions {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center !important;
+  gap: 10px !important;
+  min-width: 0;
+}
+
+.today-update-modal-grid .modal-resource-actions .tag {
+  min-width: 0 !important;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.today-update-modal-grid .modal-resource-actions .open-link {
+  min-width: 104px;
+  max-width: 100%;
+  padding: 0 14px !important;
+  white-space: nowrap;
+}
+
+@media (max-width: 1180px) {
+  .today-update-modal-grid .modal-resource-actions {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .today-update-modal-grid .modal-resource-actions .tag {
+    grid-column: 1 / -1;
+  }
+}
 .overview-card:hover {
   border-color: var(--line-strong);
   transform: translateY(-2px);
@@ -2020,5 +2080,39 @@ body.theme-dark .search-suggest-item:focus-visible {
     width: auto !important;
     max-height: 280px;
     border-radius: 16px;
+  }
+}
+/* 今日更新弹窗最终兜底：只处理电脑/平板宽屏，防止后面的通用弹窗规则再次覆盖。 */
+@media (min-width: 761px) {
+  .today-update-modal-grid .today-update-resource-card {
+    overflow: visible !important;
+    min-width: 0 !important;
+  }
+
+  .today-update-modal-grid .modal-resource-actions {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) auto auto !important;
+    align-items: center !important;
+    justify-content: stretch !important;
+    gap: 10px !important;
+    width: 100% !important;
+    min-width: 0 !important;
+  }
+
+  .today-update-modal-grid .modal-resource-actions .tag {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+  }
+
+  .today-update-modal-grid .modal-resource-actions .open-link {
+    min-width: 96px !important;
+    max-width: 128px !important;
+    padding: 0 12px !important;
+    overflow: hidden !important;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
   }
 }
