@@ -130,6 +130,8 @@ const panSearchData = window.PAN_SEARCH_DATA || {
 };
 
 const serverApiBase = String(window.STUDY_RESOURCE_API_BASE || "").replace(/\/$/, "");
+let serverPanLinksLoaded = false;
+let searchSuggestHideTimer = 0;
 
 function sendServerEvent(type, payload = {}) {
   if (!serverApiBase || !type) return false;
@@ -558,6 +560,57 @@ function panSearchItemMatches(item, queryTokens) {
   return queryTokens.every((token) => haystack.includes(token));
 }
 
+async function loadServerPanLinks() {
+  if (!serverApiBase || serverPanLinksLoaded) return;
+  serverPanLinksLoaded = true;
+
+  try {
+    const response = await fetch(`${serverApiBase}/api/pan-links`, {
+      headers: { Accept: "application/json" }
+    });
+    if (!response.ok) return;
+
+    const data = await response.json();
+    const items = Array.isArray(data.items) ? data.items : [];
+    if (!items.length) return;
+
+    const existingUrls = new Set(panSearchData.items.map((item) => item.url));
+    let added = 0;
+
+    items.forEach((item) => {
+      if (!item || !item.url || existingUrls.has(item.url)) return;
+      const platform = item.platform === "baidu" ? "baidu" : "quark";
+      const title = item.title || "未命名资料";
+      const section = item.section || "后台新增";
+      const context = item.context || title;
+
+      panSearchData.items.unshift({
+        title,
+        url: item.url,
+        platform,
+        section,
+        context,
+        code: item.code || "",
+        searchText: item.searchText || [title, section, context, item.code || "", platform].filter(Boolean).join(" "),
+        sources: item.sources || [{ file: "server-admin", line: 1 }]
+      });
+      existingUrls.add(item.url);
+      added += 1;
+    });
+
+    if (!added) return;
+    panSearchData.totals = panSearchData.totals || {};
+    panSearchData.totals.unique = panSearchData.totals.unique || {};
+    panSearchData.totals.unique.total = panSearchData.items.length;
+    panSearchData.totals.unique.quark = panSearchData.items.filter((item) => item.platform === "quark").length;
+    panSearchData.totals.unique.baidu = panSearchData.items.filter((item) => item.platform === "baidu").length;
+
+    renderSearchSuggestions();
+    if (state.query.trim()) renderPanSearchResults();
+  } catch (_) {
+    // The static site should still work when the small API is temporarily unavailable.
+  }
+}
 function renderPanSearchResults() {
   const container = document.querySelector("#panSearchResults");
   if (!container) return;
@@ -823,6 +876,110 @@ function renderSearchSuggestions() {
     .map((value) => `<option value="${panSearchEscapeHtml(value)}"></option>`)
     .join("");
 }
+
+function getSearchSuggestionItems(query) {
+  const normalizedQuery = panSearchNormalize(query);
+  const seen = new Set();
+  const suggestions = [];
+
+  function push(value, type) {
+    const text = String(value || "").trim();
+    const key = panSearchNormalize(text);
+    if (!text || seen.has(key)) return;
+    if (normalizedQuery && !key.includes(normalizedQuery)) return;
+    seen.add(key);
+    suggestions.push({ text, type });
+  }
+
+  hotSearchTerms.forEach((term) => push(term, "热门"));
+  resources.forEach((section) => {
+    push(section.title, "分类");
+    section.items.forEach((item) => push(item.title, "入口"));
+  });
+  panSearchData.items.forEach((item) => {
+    push(item.title, item.platform === "baidu" ? "百度" : "夸克");
+  });
+
+  return suggestions.slice(0, 8);
+}
+
+function ensureSearchSuggestBox() {
+  let box = document.querySelector("#searchSuggestBox");
+  if (box) return box;
+
+  box = document.createElement("div");
+  box.id = "searchSuggestBox";
+  box.className = "search-suggest-box";
+  box.hidden = true;
+  document.body.append(box);
+  return box;
+}
+
+function hideSearchSuggestBox() {
+  const box = document.querySelector("#searchSuggestBox");
+  if (!box) return;
+  box.hidden = true;
+  box.innerHTML = "";
+}
+
+function showSearchSuggestBox(input) {
+  if (!input) return;
+  const suggestions = getSearchSuggestionItems(input.value);
+  const box = ensureSearchSuggestBox();
+
+  if (!suggestions.length) {
+    hideSearchSuggestBox();
+    return;
+  }
+
+  const rect = input.getBoundingClientRect();
+  box.style.left = `${Math.max(12, rect.left)}px`;
+  box.style.top = `${rect.bottom + 8}px`;
+  box.style.width = `${Math.min(rect.width, window.innerWidth - 24)}px`;
+  box.innerHTML = suggestions.map((item) => `
+    <button type="button" class="search-suggest-item" data-suggest="${panSearchEscapeHtml(item.text)}">
+      <strong>${panSearchEscapeHtml(item.text)}</strong>
+      <span>${panSearchEscapeHtml(item.type)}</span>
+    </button>
+  `).join("");
+  box.hidden = false;
+}
+
+function bindSearchSuggestBox() {
+  const inputs = [document.querySelector("#searchInput"), document.querySelector("#welcomeSearchInput")].filter(Boolean);
+
+  inputs.forEach((input) => {
+    input.addEventListener("input", () => showSearchSuggestBox(input));
+    input.addEventListener("focus", () => showSearchSuggestBox(input));
+    input.addEventListener("blur", () => {
+      window.clearTimeout(searchSuggestHideTimer);
+      searchSuggestHideTimer = window.setTimeout(hideSearchSuggestBox, 160);
+    });
+  });
+
+  document.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-suggest]");
+    if (!button) {
+      if (!event.target.closest("#searchSuggestBox") && !event.target.closest("#searchInput") && !event.target.closest("#welcomeSearchInput")) {
+        hideSearchSuggestBox();
+      }
+      return;
+    }
+
+    const term = button.dataset.suggest || "";
+    const welcomeModal = document.querySelector("#searchWelcomeModal");
+    const welcomeVisible = welcomeModal && !welcomeModal.classList.contains("is-hidden");
+    const welcomeInput = document.querySelector("#welcomeSearchInput");
+    if (welcomeVisible && welcomeInput) welcomeInput.value = term;
+
+    applySearchTerm(term);
+    closeSearchWelcomeModal();
+    hideSearchSuggestBox();
+  });
+
+  window.addEventListener("resize", hideSearchSuggestBox);
+  window.addEventListener("scroll", hideSearchSuggestBox, true);
+}
 function bindEvents() {
   document.querySelector("#searchInput").addEventListener("input", (event) => {
     state.query = event.target.value;
@@ -885,3 +1042,5 @@ renderPanSearchResults();
 bindEvents();
 bindThemeToggle();
 bindSearchWelcomeModal();
+bindSearchSuggestBox();
+loadServerPanLinks();
