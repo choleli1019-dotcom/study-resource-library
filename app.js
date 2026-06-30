@@ -358,55 +358,43 @@ function isSameLocalDate(value, date = new Date()) {
     && target.getDate() === date.getDate();
 }
 
-function getTodayServerLinks() {
-  return serverPanLinks
+function getTodayServerLinks(limit) {
+  const items = serverPanLinks
     .filter((item) => isSameLocalDate(item.createdAt || item.updatedAt || item.ts))
     .slice()
-    .reverse()
-    .slice(0, 6);
+    .reverse();
+
+  return Number.isFinite(limit) ? items.slice(0, limit) : items;
 }
 
-function renderTodayNewResources() {
-  const container = document.querySelector("#todayNewResources");
-  if (!container) return;
+function getTodayPlatformName(item) {
+  return item.platform === "baidu" ? "百度" : "夸克";
+}
 
+function getTodayOpenLabel(item) {
+  return item.platform === "baidu" ? "打开百度" : "打开夸克";
+}
+
+function renderTodayOverviewCard() {
   const items = getTodayServerLinks();
-  if (!items.length) {
-    container.hidden = true;
-    container.innerHTML = "";
-    return;
-  }
+  const sampleItems = items.length
+    ? items.slice(0, 3).map((item) => `<span>${panSearchEscapeHtml(item.title || "未命名资料")}</span>`).join("")
+    : "<span>暂无今日更新</span>";
 
-  container.hidden = false;
-  container.innerHTML = `
-    <div class="today-new-head">
-      <div>
-        <span class="panel-label">今日新增</span>
-        <h2>今天刚补进来的网盘资料</h2>
-        <p>来自后台表单新增，保存后会立刻出现在搜索里；攒一批后再手动同步到 GitHub 大库。</p>
+  return `
+    <article class="overview-card overview-card-update">
+      <div class="overview-card-head">
+        <span class="section-icon">更</span>
+        <div>
+          <h3>今日更新</h3>
+          <p>${items.length} 个入口</p>
+        </div>
       </div>
-      <button type="button" data-today-search="">查看全部新增</button>
-    </div>
-    <div class="today-new-grid">
-      ${items.map((item) => {
-        const title = item.title || "未命名资料";
-        const platform = item.platform === "baidu" ? "百度" : "夸克";
-        const action = item.platform === "baidu" ? "打开百度" : "打开夸克";
-        return `
-          <article class="today-new-card">
-            <div>
-              <span>${panSearchEscapeHtml(platform)} · ${panSearchEscapeHtml(item.section || "后台新增")}</span>
-              <h3>${panSearchEscapeHtml(title)}</h3>
-              ${item.context ? `<p>${panSearchEscapeHtml(item.context).slice(0, 80)}</p>` : ""}
-            </div>
-            <div class="today-new-actions">
-              <button type="button" data-today-search="${panSearchEscapeHtml(title)}">搜索这个</button>
-              <a href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${action}</a>
-            </div>
-          </article>
-        `;
-      }).join("")}
-    </div>
+      <div class="overview-samples">${sampleItems}</div>
+      <button class="section-open-button" type="button" data-today-modal>
+        查看今日更新
+      </button>
+    </article>
   `;
 }
 function renderResources() {
@@ -491,6 +479,7 @@ function renderResourceOverview() {
         </div>
       </header>
       <div class="overview-grid">
+        ${renderTodayOverviewCard()}
         ${resources
           .map((section) => {
             const sampleItems = section.items.slice(0, 3).map((item) => `<span>${item.title}</span>`).join("");
@@ -576,6 +565,64 @@ function renderSectionModalItem(item) {
   `;
 }
 
+function renderTodayModalItem(item) {
+  const title = item.title || "未命名资料";
+  const platform = getTodayPlatformName(item);
+  const section = item.section || "后台新增";
+  const context = item.context || title;
+
+  return `
+    <article class="modal-resource-card">
+      <div class="modal-resource-copy">
+        <h3>${panSearchEscapeHtml(title)}</h3>
+        <p>${panSearchEscapeHtml(context)}</p>
+      </div>
+      <div class="modal-resource-actions">
+        <span class="tag">${panSearchEscapeHtml(platform)} · ${panSearchEscapeHtml(section)}</span>
+        <button class="open-link secondary-link" type="button" data-today-search="${panSearchEscapeHtml(title)}">搜索这个</button>
+        <a class="open-link" href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${getTodayOpenLabel(item)}</a>
+      </div>
+    </article>
+  `;
+}
+
+function openTodayUpdateModal() {
+  const items = getTodayServerLinks();
+  let modal = document.querySelector("#sectionModal");
+  if (!modal) {
+    modal = document.createElement("div");
+    modal.id = "sectionModal";
+    modal.className = "section-modal is-hidden";
+    modal.setAttribute("role", "dialog");
+    modal.setAttribute("aria-modal", "true");
+    document.body.append(modal);
+  }
+
+  modal.innerHTML = `
+    <div class="section-modal-card">
+      <button class="section-modal-close" type="button" data-section-modal-close aria-label="关闭今日更新">×</button>
+      <header class="section-modal-header">
+        <div class="section-title">
+          <span class="section-icon">更</span>
+          <div>
+            <h2>今日更新</h2>
+            <p>今天新增的网盘资料。</p>
+          </div>
+        </div>
+        <span class="resource-count">${items.length} 个入口</span>
+      </header>
+      <div class="section-modal-grid">
+        ${items.length
+          ? items.map(renderTodayModalItem).join("")
+          : `<article class="modal-resource-card modal-empty-card"><div class="modal-resource-copy"><h3>暂无今日更新</h3><p>后台今天还没有新增资料。</p></div></article>`}
+      </div>
+    </div>
+  `;
+
+  modal.classList.remove("is-hidden");
+  document.body.classList.add("modal-open");
+  trackBaiduEvent("category_modal", "open", "今日更新");
+}
 function panSearchNormalize(text) {
   return String(text || "")
     .toLocaleLowerCase("zh-CN")
@@ -634,7 +681,7 @@ async function loadServerPanLinks() {
     const data = await response.json();
     const items = Array.isArray(data.items) ? data.items : [];
     serverPanLinks = items;
-    renderTodayNewResources();
+    if (!state.query.trim() && state.category === "all") renderResources();
     if (!items.length) return;
 
     const existingUrls = new Set(panSearchData.items.map((item) => item.url));
@@ -1072,12 +1119,18 @@ function bindEvents() {
     if (!button) return;
     applySearchTerm(button.dataset.hotSearch);
   });
+  document.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-today-modal]");
+    if (!button) return;
+    openTodayUpdateModal();
+  });
 
 
   document.addEventListener("click", (event) => {
     const button = event.target.closest("[data-today-search]");
     if (!button) return;
-    const term = button.dataset.todaySearch || "后台新增";
+    const term = button.dataset.todaySearch || "";
+    if (!term) return;
     applySearchTerm(term);
   });
   document.addEventListener("click", (event) => {
@@ -1107,7 +1160,6 @@ renderFilters();
 renderHotSearches();
 renderQuickLinks();
 renderFeaturedResources();
-renderTodayNewResources();
 renderResources();
 renderPanSearchResults();
 bindEvents();
