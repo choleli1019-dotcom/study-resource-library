@@ -129,6 +129,66 @@ const panSearchData = window.PAN_SEARCH_DATA || {
   totals: { unique: { total: 0, quark: 0, baidu: 0 } }
 };
 
+const serverApiBase = String(window.STUDY_RESOURCE_API_BASE || "").replace(/\/$/, "");
+
+function sendServerEvent(type, payload = {}) {
+  if (!serverApiBase || !type) return false;
+
+  const body = JSON.stringify({
+    type,
+    payload,
+    page: window.location.href,
+    referrer: document.referrer || "",
+    userAgent: navigator.userAgent,
+    ts: Date.now()
+  });
+
+  try {
+    fetch(`${serverApiBase}/api/events`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body,
+      keepalive: body.length < 60000
+    }).catch(() => {});
+    return true;
+  } catch (_) {
+    return false;
+  }
+}
+
+function getPanSearchStats(keyword) {
+  const queryTokens = panSearchTokens(keyword);
+  if (!queryTokens.length) {
+    return { matched: 0, quark: 0, baidu: 0, noResult: false };
+  }
+
+  const matched = panSearchData.items.filter((item) => panSearchItemMatches(item, queryTokens));
+  return {
+    matched: matched.length,
+    quark: matched.filter((item) => item.platform === "quark").length,
+    baidu: matched.filter((item) => item.platform === "baidu").length,
+    noResult: matched.length === 0
+  };
+}
+
+function showSiteToast(message) {
+  let toast = document.querySelector("#siteToast");
+  if (!toast) {
+    toast = document.createElement("div");
+    toast.id = "siteToast";
+    toast.className = "site-toast";
+    toast.setAttribute("role", "status");
+    document.body.append(toast);
+  }
+
+  toast.textContent = message;
+  toast.classList.add("is-visible");
+  window.clearTimeout(showSiteToast.timer);
+  showSiteToast.timer = window.setTimeout(() => {
+    toast.classList.remove("is-visible");
+  }, 2200);
+}
+
 function resource(title, description, source, url, sourceClass = "") {
   return { title, description, source, url, sourceClass };
 }
@@ -146,7 +206,9 @@ function scheduleSearchTracking(query) {
   searchTrackTimer = window.setTimeout(() => {
     if (keyword === lastTrackedSearch) return;
     lastTrackedSearch = keyword;
-    trackBaiduEvent("site_search", "keyword", keyword);
+    const stats = getPanSearchStats(keyword);
+    trackBaiduEvent("site_search", stats.noResult ? "no_result" : "keyword", keyword);
+    sendServerEvent("search", { keyword, ...stats });
   }, 900);
 }
 
@@ -183,6 +245,13 @@ function trackResourceClick(event) {
 
   const label = getTrackedResourceLabel(link);
   trackBaiduEvent("resource_click", link.className || "open", label);
+  sendServerEvent("resource_click", {
+    label,
+    href: link.href,
+    text: link.textContent.trim(),
+    className: link.className || "",
+    query: state.query.trim()
+  });
 }
 
 function renderNav() {
@@ -532,10 +601,25 @@ function renderPanSearchResults() {
   container.querySelectorAll("[data-copy-url]").forEach((button) => {
     button.addEventListener("click", async () => {
       const copied = await copyPanSearchText(button.dataset.copyUrl);
+      sendServerEvent("copy_link", { url: button.dataset.copyUrl, query: state.query.trim() });
       button.textContent = copied ? "已复制" : "手动复制";
       window.setTimeout(() => {
         button.textContent = "复制";
       }, 1300);
+    });
+  });
+
+  container.querySelectorAll("[data-report-broken]").forEach((button) => {
+    button.addEventListener("click", () => {
+      const payload = {
+        title: button.dataset.reportTitle || "",
+        url: button.dataset.reportBroken || "",
+        platform: button.dataset.reportPlatform || "",
+        query: state.query.trim()
+      };
+      sendServerEvent("broken_link", payload);
+      trackBaiduEvent("resource_feedback", "broken_link", payload.title || payload.url);
+      showSiteToast("已收到失效反馈");
     });
   });
 }
@@ -568,6 +652,7 @@ function renderPanSearchItem(item, queryTokens) {
       <div class="pan-result-actions">
         <a href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">打开网盘</a>
         <button type="button" data-copy-url="${panSearchEscapeHtml(item.url)}">复制</button>
+        <button class="pan-report-button" type="button" data-report-broken="${panSearchEscapeHtml(item.url)}" data-report-title="${panSearchEscapeHtml(item.title)}" data-report-platform="${panSearchEscapeHtml(item.platform)}">链接失效</button>
       </div>
     </article>
   `;
@@ -718,6 +803,26 @@ function bindThemeToggle() {
   });
 }
 
+function renderSearchSuggestions() {
+  const datalist = document.querySelector("#searchSuggestions");
+  if (!datalist) return;
+
+  const suggestions = new Set();
+  hotSearchTerms.forEach((term) => suggestions.add(term));
+  resources.forEach((section) => {
+    suggestions.add(section.title);
+    section.items.forEach((item) => suggestions.add(item.title));
+  });
+  panSearchData.items.slice(0, 260).forEach((item) => {
+    if (item.title && item.title.length <= 42) suggestions.add(item.title);
+  });
+
+  datalist.innerHTML = Array.from(suggestions)
+    .filter(Boolean)
+    .slice(0, 160)
+    .map((value) => `<option value="${panSearchEscapeHtml(value)}"></option>`)
+    .join("");
+}
 function bindEvents() {
   document.querySelector("#searchInput").addEventListener("input", (event) => {
     state.query = event.target.value;
