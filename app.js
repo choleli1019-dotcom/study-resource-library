@@ -131,6 +131,7 @@ const panSearchData = window.PAN_SEARCH_DATA || {
 
 const serverApiBase = String(window.STUDY_RESOURCE_API_BASE || "").replace(/\/$/, "");
 let serverPanLinksLoaded = false;
+let serverPanLinks = [];
 let searchSuggestHideTimer = 0;
 
 function sendServerEvent(type, payload = {}) {
@@ -348,6 +349,66 @@ function renderFeaturedResources() {
   `;
 }
 
+function isSameLocalDate(value, date = new Date()) {
+  if (!value) return false;
+  const target = new Date(value);
+  if (Number.isNaN(target.getTime())) return false;
+  return target.getFullYear() === date.getFullYear()
+    && target.getMonth() === date.getMonth()
+    && target.getDate() === date.getDate();
+}
+
+function getTodayServerLinks() {
+  return serverPanLinks
+    .filter((item) => isSameLocalDate(item.createdAt || item.updatedAt || item.ts))
+    .slice()
+    .reverse()
+    .slice(0, 6);
+}
+
+function renderTodayNewResources() {
+  const container = document.querySelector("#todayNewResources");
+  if (!container) return;
+
+  const items = getTodayServerLinks();
+  if (!items.length) {
+    container.hidden = true;
+    container.innerHTML = "";
+    return;
+  }
+
+  container.hidden = false;
+  container.innerHTML = `
+    <div class="today-new-head">
+      <div>
+        <span class="panel-label">今日新增</span>
+        <h2>今天刚补进来的网盘资料</h2>
+        <p>来自后台表单新增，保存后会立刻出现在搜索里；攒一批后再手动同步到 GitHub 大库。</p>
+      </div>
+      <button type="button" data-today-search="">查看全部新增</button>
+    </div>
+    <div class="today-new-grid">
+      ${items.map((item) => {
+        const title = item.title || "未命名资料";
+        const platform = item.platform === "baidu" ? "百度" : "夸克";
+        const action = item.platform === "baidu" ? "打开百度" : "打开夸克";
+        return `
+          <article class="today-new-card">
+            <div>
+              <span>${panSearchEscapeHtml(platform)} · ${panSearchEscapeHtml(item.section || "后台新增")}</span>
+              <h3>${panSearchEscapeHtml(title)}</h3>
+              ${item.context ? `<p>${panSearchEscapeHtml(item.context).slice(0, 80)}</p>` : ""}
+            </div>
+            <div class="today-new-actions">
+              <button type="button" data-today-search="${panSearchEscapeHtml(title)}">搜索这个</button>
+              <a href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${action}</a>
+            </div>
+          </article>
+        `;
+      }).join("")}
+    </div>
+  `;
+}
 function renderResources() {
   const container = document.querySelector("#resourceSections");
   const query = state.query.trim().toLowerCase();
@@ -572,6 +633,8 @@ async function loadServerPanLinks() {
 
     const data = await response.json();
     const items = Array.isArray(data.items) ? data.items : [];
+    serverPanLinks = items;
+    renderTodayNewResources();
     if (!items.length) return;
 
     const existingUrls = new Set(panSearchData.items.map((item) => item.url));
@@ -1010,6 +1073,13 @@ function bindEvents() {
     applySearchTerm(button.dataset.hotSearch);
   });
 
+
+  document.addEventListener("click", (event) => {
+    const button = event.target.closest("[data-today-search]");
+    if (!button) return;
+    const term = button.dataset.todaySearch || "后台新增";
+    applySearchTerm(term);
+  });
   document.addEventListener("click", (event) => {
     const button = event.target.closest("[data-overview-filter]");
     if (!button) return;
@@ -1037,6 +1107,7 @@ renderFilters();
 renderHotSearches();
 renderQuickLinks();
 renderFeaturedResources();
+renderTodayNewResources();
 renderResources();
 renderPanSearchResults();
 bindEvents();
