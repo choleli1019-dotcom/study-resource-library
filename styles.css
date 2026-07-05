@@ -2477,3 +2477,16 @@ body:not(.theme-light) .search-suggestions-panel {
     min-height: 112px !important;
   }
 }
+
+/* Keep category browsing in the top iOS nav; avoid repeating the same buttons in search. */
+.toolbar {
+  grid-template-columns: minmax(0, 1fr) !important;
+}
+
+#categoryFilters {
+  display: none !important;
+}
+
+.search-panel {
+  width: 100%;
+}
