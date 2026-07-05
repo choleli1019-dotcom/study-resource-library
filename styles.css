@@ -2416,3 +2416,64 @@ body:not(.theme-light) .search-suggestions-panel {
     border-radius: 20px;
   }
 }
+
+/* Final guard for the featured entry panel after the iOS refresh. */
+.featured-panel {
+  display: grid !important;
+  grid-template-columns: minmax(260px, 0.62fr) minmax(0, 1.38fr) !important;
+  align-items: center !important;
+  overflow: hidden !important;
+}
+
+.featured-copy,
+.featured-list,
+.featured-item {
+  min-width: 0 !important;
+}
+
+.featured-list {
+  display: grid !important;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)) !important;
+  gap: 12px !important;
+}
+
+.featured-item {
+  width: 100% !important;
+  min-height: 142px !important;
+  padding: 16px !important;
+  white-space: normal !important;
+}
+
+.featured-item strong,
+.featured-item span,
+.featured-item em {
+  max-width: 100% !important;
+  overflow-wrap: anywhere !important;
+  word-break: normal !important;
+}
+
+@media (max-width: 900px) {
+  .featured-panel {
+    grid-template-columns: 1fr !important;
+    align-items: stretch !important;
+  }
+
+  .featured-list {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  }
+}
+
+@media (max-width: 560px) {
+  .featured-panel {
+    padding: 18px !important;
+    overflow: hidden !important;
+  }
+
+  .featured-list {
+    grid-template-columns: 1fr !important;
+  }
+
+  .featured-item {
+    min-height: 112px !important;
+  }
+}
