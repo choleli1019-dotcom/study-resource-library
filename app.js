@@ -105,9 +105,36 @@ const resources = [
   }
 ];
 
-const quickNames = ["飞书总目录", "学习资料使用指南", "资料保存教程演示", "学习交流群", "资料需求留言板"];
+const quickNames = ["学习资料使用指南", "资料保存教程演示"];
 const hotSearchTerms = ["超格", "花生十三", "上岸村", "申论", "面试", "事业单位", "教资", "小黑", "袁东"];
 const featuredNames = ["飞书总目录", "公考类资料大合集", "2027名师 行测、职测、申论模块分类", "2026名师 行测、职测、申论模块分类", "事业单位", "公考面试", "教师招聘、教师资格 特岗 教师面试", "资料保存教程演示"];
+const quickEntryTitles = ["飞书总目录", "公考类资料大合集", "教师招聘、教师资格 特岗 教师面试", "资料保存教程演示"];
+const quickEntryCopy = {
+  "飞书总目录": {
+    label: "打开目录",
+    summary: "浏览全部资源目录",
+    tone: "blue",
+    icon: "folder"
+  },
+  "公考类资料大合集": {
+    label: "查看资料",
+    summary: "行测、申论、面试及事业单位资料",
+    tone: "green",
+    icon: "layers"
+  },
+  "教师招聘、教师资格 特岗 教师面试": {
+    label: "查看资料",
+    summary: "教师招聘、教师资格和教师面试",
+    tone: "orange",
+    icon: "book"
+  },
+  "资料保存教程演示": {
+    label: "查看教程",
+    summary: "查看资料转存和保存方法",
+    tone: "blue",
+    icon: "bookmark"
+  }
+};
 const guideLink = resource(
   "学习资料使用指南",
   "PDF 中提示的必看说明和重要声明。",
@@ -259,16 +286,49 @@ function trackResourceClick(event) {
 
 function renderNav() {
   const nav = document.querySelector("#sectionNav");
-  nav.innerHTML = resources
-    .map(
-      (section) => `
-        <a class="nav-link" href="#${section.id}">
-          <span>${section.icon}</span>
-          <span>${section.title}</span>
-        </a>
-      `
-    )
-    .join("");
+  const primaryIds = ["start", "civil", "teacher"];
+  const primary = resources.filter((section) => primaryIds.includes(section.id));
+  const more = resources.filter((section) => !primaryIds.includes(section.id));
+  const titleMap = {
+    start: "资料目录",
+    civil: "公考资料",
+    teacher: "教招教资"
+  };
+
+  nav.innerHTML = `
+    <a class="nav-link active" href="#top">
+      <span>⌂</span>
+      <span>首页</span>
+    </a>
+    ${primary
+      .map(
+        (section) => `
+          <a class="nav-link" href="#${section.id}">
+            <span>${section.icon}</span>
+            <span>${titleMap[section.id] || section.title}</span>
+          </a>
+        `
+      )
+      .join("")}
+    <details class="more-nav">
+      <summary class="nav-link">
+        <span>•••</span>
+        <span>更多分类</span>
+      </summary>
+      <div class="more-nav-menu">
+        ${more
+          .map(
+            (section) => `
+              <a class="more-nav-item" href="#${section.id}">
+                <span>${section.icon}</span>
+                <strong>${section.title}</strong>
+              </a>
+            `
+          )
+          .join("")}
+      </div>
+    </details>
+  `;
 }
 
 function renderFilters() {
@@ -296,6 +356,17 @@ function renderQuickLinks() {
       `
     )
     .join("");
+}
+
+function renderLineIcon(name) {
+  const icons = {
+    folder: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.5 7.5a2 2 0 0 1 2-2h4.2l2 2H18.5a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-13a2 2 0 0 1-2-2v-9Z"/><path d="M3.5 10h17"/></svg>',
+    layers: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 4 8 4.2-8 4.2-8-4.2L12 4Z"/><path d="m5 12 7 3.7 7-3.7"/><path d="m5 16 7 3.7 7-3.7"/></svg>',
+    book: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 5.8A2.8 2.8 0 0 1 7.8 3H20v15H8.2A3.2 3.2 0 0 0 5 21.2V5.8Z"/><path d="M5 18.2A3.2 3.2 0 0 1 8.2 15H20"/></svg>',
+    bookmark: '<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4.5A1.5 1.5 0 0 1 8.5 3h7A1.5 1.5 0 0 1 17 4.5V21l-5-3-5 3V4.5Z"/></svg>'
+  };
+
+  return icons[name] || icons.folder;
 }
 
 function findResourceByTitle(title) {
@@ -326,23 +397,27 @@ function renderFeaturedResources() {
   const container = document.querySelector("#featuredResources");
   if (!container) return;
 
-  const items = featuredNames.map(findResourceByTitle).filter(Boolean);
+  const items = quickEntryTitles.map(findResourceByTitle).filter(Boolean);
   container.innerHTML = `
     <div class="featured-copy">
-      <span class="panel-label">高频入口</span>
-      <h2>多数人会先找这些资料</h2>
-      <p>先从总目录、国省考、事业单位、面试和教招教资开始；想找具体老师或课程，直接用上方搜索。</p>
+      <span class="panel-label">常用入口</span>
+      <h2>从最常使用的资料和教程开始。</h2>
+      <p>保留最高频的四个入口，其余内容统一放到“全部分类”里，减少重复判断。</p>
     </div>
     <div class="featured-list">
       ${items
         .map(
-          ({ section, item }) => `
-            <a class="featured-item" href="${item.url}" target="_blank" rel="noopener noreferrer">
-              <span>${section.title}</span>
+          ({ item }) => {
+            const meta = quickEntryCopy[item.title] || {};
+            return `
+            <a class="featured-item tone-${meta.tone || "blue"}" href="${item.url}" target="_blank" rel="noopener noreferrer">
+              <span class="quick-entry-icon">${renderLineIcon(meta.icon)}</span>
               <strong>${item.title}</strong>
-              <em>${getActionLabel(item)}</em>
+              <span>${meta.summary || item.description}</span>
+              <em>${meta.label || getActionLabel(item)} ›</em>
             </a>
-          `
+          `;
+          }
         )
         .join("")}
     </div>
@@ -377,24 +452,12 @@ function getTodayOpenLabel(item) {
 
 function renderTodayOverviewCard() {
   const items = getTodayServerLinks();
-  const sampleItems = items.length
-    ? items.slice(0, 3).map((item) => `<span>${panSearchEscapeHtml(item.title || "未命名资料")}</span>`).join("")
-    : "<span>暂无今日更新</span>";
 
   return `
-    <article class="overview-card overview-card-update">
-      <div class="overview-card-head">
-        <span class="section-icon">更</span>
-        <div>
-          <h3>今日更新</h3>
-          <p>${items.length} 个入口</p>
-        </div>
-      </div>
-      <div class="overview-samples">${sampleItems}</div>
-      <button class="section-open-button" type="button" data-today-modal>
-        查看今日更新
-      </button>
-    </article>
+    <div class="today-strip">
+      <span>${items.length ? `今日新增 ${items.length} 项资料` : "今日暂无新增资料"}</span>
+      <button class="section-open-button" type="button" data-today-modal>${items.length ? "查看更新" : "更新记录"} ›</button>
+    </div>
   `;
 }
 function renderResources() {
@@ -468,23 +531,24 @@ function renderResourceOverview() {
     <section class="section-block overview-block" id="overview" data-section="overview">
       <header class="section-header overview-header">
         <div class="section-title">
-          <span class="section-icon">↳</span>
+          <span class="section-icon">目</span>
           <div>
-            <h2>资料控制台</h2>
-            <p>先搜索老师、课程或关键词；不确定找什么，就从下面的分类入口进入。</p>
+            <h2>全部分类</h2>
+            <p>按考试类型和资源类型浏览。</p>
           </div>
         </div>
         <div class="section-actions">
-          <span class="resource-count">${resources.length} 类 / ${totalItems} 个入口</span>
+          <span class="resource-count">${resources.length} 个分类 · ${totalItems} 个入口</span>
         </div>
       </header>
+      ${renderTodayOverviewCard()}
       <div class="overview-grid">
-        ${renderTodayOverviewCard()}
         ${resources
           .map((section) => {
-            const sampleItems = section.items.slice(0, 3).map((item) => `<span>${item.title}</span>`).join("");
+            const sampleItems = section.items.slice(0, 4).map((item) => `<span>${item.title}</span>`).join("");
+            const important = section.id === "civil" || section.id === "start" ? " important" : "";
             return `
-              <article class="overview-card">
+              <article class="overview-card${important}">
                 <div class="overview-card-head">
                   <span class="section-icon">${section.icon}</span>
                   <div>
@@ -494,7 +558,7 @@ function renderResourceOverview() {
                 </div>
                 <div class="overview-samples">${sampleItems}</div>
                 <button class="section-open-button" type="button" data-overview-filter="${section.id}">
-                  查看这一类
+                  查看全部 ›
                 </button>
               </article>
             `;
@@ -1096,6 +1160,15 @@ function bindEvents() {
     renderResources();
     renderPanSearchResults();
     scheduleSearchTracking(state.query);
+  });
+
+  document.querySelector("#heroSearchButton")?.addEventListener("click", () => {
+    const input = document.querySelector("#searchInput");
+    if (!input.value.trim()) {
+      input.focus();
+      return;
+    }
+    applySearchTerm(input.value);
   });
 
   document.querySelector("#categoryFilters").addEventListener("click", (event) => {
