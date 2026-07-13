@@ -3563,6 +3563,102 @@ summary:focus-visible {
   }
 }
 
+/* Footer readability bump. */
+.notice h2 {
+  font-size: 18px !important;
+}
+
+.notice p {
+  max-width: 920px !important;
+  font-size: 15px !important;
+  line-height: 1.9 !important;
+}
+
+@media (max-width: 767px) {
+  .notice h2 {
+    font-size: 17px !important;
+  }
+
+  .notice p {
+    font-size: 13px !important;
+    line-height: 1.8 !important;
+  }
+}
+
+/* Search icon cleanup: use a real magnifier instead of the unreadable text glyph. */
+.search-box .search-icon,
+.search-welcome-input .search-icon {
+  display: grid !important;
+  width: 32px !important;
+  height: 32px !important;
+  min-width: 32px !important;
+  min-height: 32px !important;
+  place-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--ios-muted) !important;
+  font-size: 0 !important;
+  line-height: 1 !important;
+}
+
+.search-box .search-icon svg,
+.search-welcome-input .search-icon svg {
+  display: block !important;
+  width: 20px !important;
+  height: 20px !important;
+  fill: none !important;
+  stroke: currentColor !important;
+  stroke-width: 2 !important;
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
+}
+
+/* Final guard: make the wallpaper clearer while preserving text contrast. */
+body::before {
+  background:
+    linear-gradient(180deg, rgba(245, 245, 247, 0.58), rgba(245, 245, 247, 0.78)),
+    url("assets/ios-running-bg.png") center top / cover no-repeat !important;
+  opacity: 0.78 !important;
+}
+
+body:not(.theme-light)::before {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.72)),
+    url("assets/ios-running-bg.png") center top / cover no-repeat !important;
+  opacity: 0.62 !important;
+}
+
+.hero {
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.78) 54%, rgba(255, 255, 255, 0.34) 100%),
+    url("assets/ios-running-bg.png") center center / cover no-repeat !important;
+}
+
+body:not(.theme-light) .hero {
+  background:
+    linear-gradient(90deg, rgba(28, 28, 30, 0.9) 0%, rgba(28, 28, 30, 0.78) 54%, rgba(28, 28, 30, 0.42) 100%),
+    url("assets/ios-running-bg.png") center center / cover no-repeat !important;
+}
+
+@media (max-width: 767px) {
+  body::before {
+    background:
+      linear-gradient(180deg, rgba(245, 245, 247, 0.66), rgba(245, 245, 247, 0.84)),
+      url("assets/ios-running-bg.png") center top / cover no-repeat !important;
+    opacity: 0.7 !important;
+  }
+
+  .hero {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.76)),
+      url("assets/ios-running-bg.png") center center / cover no-repeat !important;
+  }
+}
+
 /* Gentle wallpaper layer requested by the user. */
 body {
   position: relative !important;
@@ -4884,4 +4980,36 @@ body:not(.theme-light) .sidebar {
   .notice p {
     font-size: 12px !important;
   }
+}
+
+/* Final guard: search magnifier must never render as a blue text block. */
+.search-box .search-icon,
+.search-welcome-input .search-icon {
+  display: grid !important;
+  width: 32px !important;
+  height: 32px !important;
+  min-width: 32px !important;
+  min-height: 32px !important;
+  place-items: center !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: var(--ios-muted) !important;
+  font-size: 0 !important;
+  line-height: 1 !important;
+}
+
+.search-box .search-icon svg,
+.search-welcome-input .search-icon svg {
+  display: block !important;
+  width: 20px !important;
+  height: 20px !important;
+  fill: none !important;
+  stroke: currentColor !important;
+  stroke-width: 2 !important;
+  stroke-linecap: round !important;
+  stroke-linejoin: round !important;
 }
