@@ -5357,3 +5357,78 @@ body.theme-light .notice {
     padding-right: 26px !important;
   }
 }
+
+/* Final rebuilt disclaimer card: centered, balanced, and readable. */
+#disclaimer.notice {
+  display: block !important;
+  box-sizing: border-box !important;
+  width: min(1120px, calc(100% - 96px)) !important;
+  max-width: 1120px !important;
+  margin: 72px auto 56px !important;
+  padding: 36px 48px 38px !important;
+  border-radius: 22px !important;
+  border: 1px solid rgba(255, 255, 255, 0.62) !important;
+  background: rgba(255, 255, 255, 0.72) !important;
+  box-shadow: 0 16px 44px rgba(28, 70, 42, 0.14) !important;
+  color: rgba(17, 24, 39, 0.94) !important;
+  text-align: left !important;
+  -webkit-backdrop-filter: saturate(170%) blur(24px) !important;
+  backdrop-filter: saturate(170%) blur(24px) !important;
+}
+
+#disclaimer.notice h2 {
+  margin: 0 0 16px !important;
+  padding: 0 !important;
+  max-width: none !important;
+  font-size: 21px !important;
+  line-height: 1.35 !important;
+  font-weight: 900 !important;
+  color: rgba(17, 24, 39, 0.98) !important;
+}
+
+#disclaimer.notice p {
+  width: 100% !important;
+  max-width: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-size: 15px !important;
+  line-height: 1.85 !important;
+  font-weight: 600 !important;
+  color: rgba(31, 41, 55, 0.88) !important;
+}
+
+#disclaimer.notice p + p {
+  margin-top: 18px !important;
+}
+
+body:not(.theme-light) #disclaimer.notice {
+  border-color: rgba(255, 255, 255, 0.16) !important;
+  background: rgba(28, 28, 30, 0.76) !important;
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+body:not(.theme-light) #disclaimer.notice h2 {
+  color: rgba(255, 255, 255, 0.96) !important;
+}
+
+body:not(.theme-light) #disclaimer.notice p {
+  color: rgba(255, 255, 255, 0.76) !important;
+}
+
+@media (max-width: 767px) {
+  #disclaimer.notice {
+    width: calc(100% - 32px) !important;
+    margin: 42px auto 30px !important;
+    padding: 24px 22px 28px !important;
+    border-radius: 20px !important;
+  }
+
+  #disclaimer.notice h2 {
+    font-size: 19px !important;
+  }
+
+  #disclaimer.notice p {
+    font-size: 14px !important;
+    line-height: 1.8 !important;
+  }
+}
