@@ -5344,3 +5344,16 @@ body.theme-light .notice {
     background: rgba(255, 255, 255, 0.74) !important;
   }
 }
+
+/* True final override: disclaimer text must not hug the glass edge. */
+#disclaimer.notice {
+  padding-left: clamp(56px, 6vw, 112px) !important;
+  padding-right: clamp(56px, 6vw, 112px) !important;
+}
+
+@media (max-width: 767px) {
+  #disclaimer.notice {
+    padding-left: 26px !important;
+    padding-right: 26px !important;
+  }
+}
