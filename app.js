@@ -288,7 +288,7 @@ function renderNav() {
   const nav = document.querySelector("#sectionNav");
   const primaryIds = ["start", "civil", "teacher"];
   const primary = resources.filter((section) => primaryIds.includes(section.id));
-  const more = resources.filter((section) => !primaryIds.includes(section.id));
+  const more = resources;
   const titleMap = {
     start: "资料目录",
     civil: "公考资料",
@@ -319,7 +319,7 @@ function renderNav() {
         ${more
           .map(
             (section) => `
-              <a class="more-nav-item" href="#${section.id}">
+              <a class="more-nav-item" href="#${section.id}" data-menu-section="${section.id}">
                 <span>${section.icon}</span>
                 <strong>${section.title}</strong>
               </a>
@@ -546,9 +546,8 @@ function renderResourceOverview() {
         ${resources
           .map((section) => {
             const sampleItems = section.items.slice(0, 4).map((item) => `<span>${item.title}</span>`).join("");
-            const important = section.id === "civil" || section.id === "start" ? " important" : "";
             return `
-              <article class="overview-card${important}">
+              <article class="overview-card">
                 <div class="overview-card-head">
                   <span class="section-icon">${section.icon}</span>
                   <div>
@@ -979,7 +978,7 @@ function submitWelcomeSearch() {
   renderPanSearchResults();
   trackBaiduEvent("site_search", "welcome_keyword", query);
   closeSearchWelcomeModal();
-  document.querySelector(".toolbar")?.scrollIntoView({ behavior: "smooth", block: "center" });
+  document.querySelector(".hero-search")?.scrollIntoView({ behavior: "smooth", block: "center" });
   mainInput.focus();
 }
 
