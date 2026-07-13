@@ -3703,6 +3703,74 @@ body.theme-light .notice {
   }
 }
 
+/* Final guard: disclaimer stays readable over the wallpaper. */
+.notice {
+  max-width: 1160px !important;
+  margin: 72px auto 32px !important;
+  padding: 28px 32px !important;
+  border-radius: 24px !important;
+  border: 1px solid rgba(255, 255, 255, 0.42) !important;
+  -webkit-backdrop-filter: saturate(170%) blur(24px) !important;
+  backdrop-filter: saturate(170%) blur(24px) !important;
+}
+
+.notice h2 {
+  margin-bottom: 14px !important;
+  font-size: 22px !important;
+  line-height: 1.25 !important;
+  font-weight: 900 !important;
+}
+
+.notice p {
+  max-width: 980px !important;
+  font-size: 16px !important;
+  line-height: 1.85 !important;
+  font-weight: 600 !important;
+}
+
+body.theme-light .notice {
+  background: rgba(255, 255, 255, 0.62) !important;
+  border-color: rgba(255, 255, 255, 0.72) !important;
+  box-shadow: 0 18px 54px rgba(28, 70, 42, 0.12) !important;
+  color: rgba(17, 24, 39, 0.92) !important;
+  text-shadow: 0 1px 8px rgba(255, 255, 255, 0.72) !important;
+}
+
+body.theme-light .notice h2 {
+  color: rgba(17, 24, 39, 0.98) !important;
+}
+
+body.theme-light .notice p {
+  color: rgba(31, 41, 55, 0.88) !important;
+}
+
+body:not(.theme-light) .notice {
+  background: rgba(28, 28, 30, 0.72) !important;
+  border-color: rgba(255, 255, 255, 0.16) !important;
+  color: rgba(255, 255, 255, 0.92) !important;
+}
+
+body:not(.theme-light) .notice p {
+  color: rgba(255, 255, 255, 0.76) !important;
+}
+
+@media (max-width: 767px) {
+  .notice {
+    margin: 42px auto 24px !important;
+    padding: 22px 18px !important;
+    border-radius: 22px !important;
+  }
+
+  .notice h2 {
+    font-size: 20px !important;
+  }
+
+  .notice p {
+    font-size: 15px !important;
+    line-height: 1.8 !important;
+  }
+}
+
 /* Light mode macOS glass: clearer wallpaper, readable frosted panels. */
 body.theme-light::before {
   background:
