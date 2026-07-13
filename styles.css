@@ -3617,6 +3617,178 @@ summary:focus-visible {
   stroke-linejoin: round !important;
 }
 
+/* Light mode macOS glass: clearer wallpaper, readable frosted panels. */
+body.theme-light::before {
+  background:
+    linear-gradient(180deg, rgba(245, 245, 247, 0.2), rgba(245, 245, 247, 0.46)),
+    url("assets/ios-running-bg.png") center top / cover no-repeat !important;
+  opacity: 0.98 !important;
+  filter: saturate(1.08) contrast(1.02) !important;
+}
+
+body.theme-light .sidebar {
+  background: rgba(255, 255, 255, 0.58) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.5) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(26px) !important;
+  backdrop-filter: saturate(180%) blur(26px) !important;
+}
+
+body.theme-light .hero {
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.78) 0%, rgba(255, 255, 255, 0.58) 52%, rgba(255, 255, 255, 0.2) 100%),
+    url("assets/ios-running-bg.png") center center / cover no-repeat !important;
+  border-color: rgba(255, 255, 255, 0.68) !important;
+  box-shadow: 0 18px 54px rgba(28, 70, 42, 0.12) !important;
+  -webkit-backdrop-filter: saturate(170%) blur(18px) !important;
+  backdrop-filter: saturate(170%) blur(18px) !important;
+}
+
+body.theme-light .featured-item,
+body.theme-light .overview-card,
+body.theme-light .resource-card,
+body.theme-light .pan-search-results,
+body.theme-light .search-welcome-card,
+body.theme-light .section-modal-card {
+  background: rgba(255, 255, 255, 0.66) !important;
+  border-color: rgba(255, 255, 255, 0.64) !important;
+  box-shadow: 0 10px 34px rgba(28, 70, 42, 0.1) !important;
+  -webkit-backdrop-filter: saturate(170%) blur(24px) !important;
+  backdrop-filter: saturate(170%) blur(24px) !important;
+}
+
+body.theme-light .quick-panel {
+  background: rgba(224, 241, 255, 0.62) !important;
+  border: 1px solid rgba(255, 255, 255, 0.52) !important;
+  -webkit-backdrop-filter: saturate(170%) blur(22px) !important;
+  backdrop-filter: saturate(170%) blur(22px) !important;
+}
+
+body.theme-light .search-box,
+body.theme-light .search-welcome-input,
+body.theme-light .overview-samples span,
+body.theme-light .hot-searches button,
+body.theme-light .hero-stats span,
+body.theme-light .resource-count,
+body.theme-light .today-strip {
+  background: rgba(242, 242, 247, 0.72) !important;
+  -webkit-backdrop-filter: saturate(160%) blur(16px) !important;
+  backdrop-filter: saturate(160%) blur(16px) !important;
+}
+
+body.theme-light .hero-copy,
+body.theme-light .featured-copy,
+body.theme-light .section-header,
+body.theme-light .notice {
+  text-shadow: 0 1px 10px rgba(255, 255, 255, 0.65) !important;
+}
+
+@media (max-width: 767px) {
+  body.theme-light::before {
+    background:
+      linear-gradient(180deg, rgba(245, 245, 247, 0.28), rgba(245, 245, 247, 0.58)),
+      url("assets/ios-running-bg.png") center top / cover no-repeat !important;
+    opacity: 0.92 !important;
+  }
+
+  body.theme-light .hero {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.62)),
+      url("assets/ios-running-bg.png") center center / cover no-repeat !important;
+  }
+
+  body.theme-light .featured-item,
+  body.theme-light .overview-card,
+  body.theme-light .resource-card {
+    background: rgba(255, 255, 255, 0.74) !important;
+  }
+}
+
+/* Light mode macOS glass: clearer wallpaper, readable frosted panels. */
+body.theme-light::before {
+  background:
+    linear-gradient(180deg, rgba(245, 245, 247, 0.2), rgba(245, 245, 247, 0.46)),
+    url("assets/ios-running-bg.png") center top / cover no-repeat !important;
+  opacity: 0.98 !important;
+  filter: saturate(1.08) contrast(1.02) !important;
+}
+
+body.theme-light .sidebar {
+  background: rgba(255, 255, 255, 0.58) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.5) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(26px) !important;
+  backdrop-filter: saturate(180%) blur(26px) !important;
+}
+
+body.theme-light .hero {
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.78) 0%, rgba(255, 255, 255, 0.58) 52%, rgba(255, 255, 255, 0.2) 100%),
+    url("assets/ios-running-bg.png") center center / cover no-repeat !important;
+  border-color: rgba(255, 255, 255, 0.68) !important;
+  box-shadow: 0 18px 54px rgba(28, 70, 42, 0.12) !important;
+  -webkit-backdrop-filter: saturate(170%) blur(18px) !important;
+  backdrop-filter: saturate(170%) blur(18px) !important;
+}
+
+body.theme-light .featured-item,
+body.theme-light .overview-card,
+body.theme-light .resource-card,
+body.theme-light .pan-search-results,
+body.theme-light .search-welcome-card,
+body.theme-light .section-modal-card {
+  background: rgba(255, 255, 255, 0.66) !important;
+  border-color: rgba(255, 255, 255, 0.64) !important;
+  box-shadow: 0 10px 34px rgba(28, 70, 42, 0.1) !important;
+  -webkit-backdrop-filter: saturate(170%) blur(24px) !important;
+  backdrop-filter: saturate(170%) blur(24px) !important;
+}
+
+body.theme-light .quick-panel {
+  background: rgba(224, 241, 255, 0.62) !important;
+  border: 1px solid rgba(255, 255, 255, 0.52) !important;
+  -webkit-backdrop-filter: saturate(170%) blur(22px) !important;
+  backdrop-filter: saturate(170%) blur(22px) !important;
+}
+
+body.theme-light .search-box,
+body.theme-light .search-welcome-input,
+body.theme-light .overview-samples span,
+body.theme-light .hot-searches button,
+body.theme-light .hero-stats span,
+body.theme-light .resource-count,
+body.theme-light .today-strip {
+  background: rgba(242, 242, 247, 0.72) !important;
+  -webkit-backdrop-filter: saturate(160%) blur(16px) !important;
+  backdrop-filter: saturate(160%) blur(16px) !important;
+}
+
+body.theme-light .hero-copy,
+body.theme-light .featured-copy,
+body.theme-light .section-header,
+body.theme-light .notice {
+  text-shadow: 0 1px 10px rgba(255, 255, 255, 0.65) !important;
+}
+
+@media (max-width: 767px) {
+  body.theme-light::before {
+    background:
+      linear-gradient(180deg, rgba(245, 245, 247, 0.28), rgba(245, 245, 247, 0.58)),
+      url("assets/ios-running-bg.png") center top / cover no-repeat !important;
+    opacity: 0.92 !important;
+  }
+
+  body.theme-light .hero {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.62)),
+      url("assets/ios-running-bg.png") center center / cover no-repeat !important;
+  }
+
+  body.theme-light .featured-item,
+  body.theme-light .overview-card,
+  body.theme-light .resource-card {
+    background: rgba(255, 255, 255, 0.74) !important;
+  }
+}
+
 /* Final guard: make the wallpaper clearer while preserving text contrast. */
 body::before {
   background:
@@ -5012,4 +5184,90 @@ body:not(.theme-light) .sidebar {
   stroke-width: 2 !important;
   stroke-linecap: round !important;
   stroke-linejoin: round !important;
+}
+
+/* Light mode macOS glass: clearer wallpaper, readable frosted panels. */
+body.theme-light::before {
+  background:
+    linear-gradient(180deg, rgba(245, 245, 247, 0.2), rgba(245, 245, 247, 0.46)),
+    url("assets/ios-running-bg.png") center top / cover no-repeat !important;
+  opacity: 0.98 !important;
+  filter: saturate(1.08) contrast(1.02) !important;
+}
+
+body.theme-light .sidebar {
+  background: rgba(255, 255, 255, 0.58) !important;
+  border-bottom-color: rgba(255, 255, 255, 0.5) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(26px) !important;
+  backdrop-filter: saturate(180%) blur(26px) !important;
+}
+
+body.theme-light .hero {
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.78) 0%, rgba(255, 255, 255, 0.58) 52%, rgba(255, 255, 255, 0.2) 100%),
+    url("assets/ios-running-bg.png") center center / cover no-repeat !important;
+  border-color: rgba(255, 255, 255, 0.68) !important;
+  box-shadow: 0 18px 54px rgba(28, 70, 42, 0.12) !important;
+  -webkit-backdrop-filter: saturate(170%) blur(18px) !important;
+  backdrop-filter: saturate(170%) blur(18px) !important;
+}
+
+body.theme-light .featured-item,
+body.theme-light .overview-card,
+body.theme-light .resource-card,
+body.theme-light .pan-search-results,
+body.theme-light .search-welcome-card,
+body.theme-light .section-modal-card {
+  background: rgba(255, 255, 255, 0.66) !important;
+  border-color: rgba(255, 255, 255, 0.64) !important;
+  box-shadow: 0 10px 34px rgba(28, 70, 42, 0.1) !important;
+  -webkit-backdrop-filter: saturate(170%) blur(24px) !important;
+  backdrop-filter: saturate(170%) blur(24px) !important;
+}
+
+body.theme-light .quick-panel {
+  background: rgba(224, 241, 255, 0.62) !important;
+  border: 1px solid rgba(255, 255, 255, 0.52) !important;
+  -webkit-backdrop-filter: saturate(170%) blur(22px) !important;
+  backdrop-filter: saturate(170%) blur(22px) !important;
+}
+
+body.theme-light .search-box,
+body.theme-light .search-welcome-input,
+body.theme-light .overview-samples span,
+body.theme-light .hot-searches button,
+body.theme-light .hero-stats span,
+body.theme-light .resource-count,
+body.theme-light .today-strip {
+  background: rgba(242, 242, 247, 0.72) !important;
+  -webkit-backdrop-filter: saturate(160%) blur(16px) !important;
+  backdrop-filter: saturate(160%) blur(16px) !important;
+}
+
+body.theme-light .hero-copy,
+body.theme-light .featured-copy,
+body.theme-light .section-header,
+body.theme-light .notice {
+  text-shadow: 0 1px 10px rgba(255, 255, 255, 0.65) !important;
+}
+
+@media (max-width: 767px) {
+  body.theme-light::before {
+    background:
+      linear-gradient(180deg, rgba(245, 245, 247, 0.28), rgba(245, 245, 247, 0.58)),
+      url("assets/ios-running-bg.png") center top / cover no-repeat !important;
+    opacity: 0.92 !important;
+  }
+
+  body.theme-light .hero {
+    background:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.62)),
+      url("assets/ios-running-bg.png") center center / cover no-repeat !important;
+  }
+
+  body.theme-light .featured-item,
+  body.theme-light .overview-card,
+  body.theme-light .resource-card {
+    background: rgba(255, 255, 255, 0.74) !important;
+  }
 }
