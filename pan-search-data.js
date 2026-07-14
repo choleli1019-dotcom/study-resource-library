@@ -1,17 +1,17 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-06-24T06:57:29.389Z",
+  "generatedAt": "2026-07-14T14:00:08.994Z",
   "sourceDir": "F:\\DeskTop\\Notion笔记; F:\\DeskTop\\f285057c-7df3-4746-ac52-5ce6cb3d754c_ExportBlock-3988e926-b0e0-4adf-b67e-e3c3e1667999\\ExportBlock-3988e926-b0e0-4adf-b67e-e3c3e1667999-Part-1; F:\\DeskTop\\026cce3e-1710-42f7-ae1e-eac3c6ad4ef9_ExportBlock-f5143292-e5b8-40c4-8de9-e28f8d361443\\ExportBlock-f5143292-e5b8-40c4-8de9-e28f8d361443-Part-1",
   "missingSources": [],
   "totals": {
     "raw": {
-      "quark": 1074,
-      "baidu": 577,
-      "total": 1651
+      "quark": 1083,
+      "baidu": 582,
+      "total": 1665
     },
     "unique": {
-      "quark": 1051,
-      "baidu": 565,
-      "total": 1616
+      "quark": 1060,
+      "baidu": 570,
+      "total": 1630
     }
   },
   "sources": [
@@ -27855,6 +27855,244 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "2026教师面试题本+历年真题 2026-06-24 追加百度资料 2 2026教师面试题本+历年真题 链接：https://pan.baidu.com/s/1Dhbqr__hAyqSiqzcnEkVvA?pwd=mdh3 manual-pan-links-20260624-baidu-part2.md"
+    },
+    {
+      "id": "r1617",
+      "title": "2027年国省考相丽君申论解题思维趣学营",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/9261a94a08cc",
+      "code": "",
+      "section": "申论",
+      "context": "2027年国省考相丽君申论解题思维趣学营",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "申论"
+        }
+      ],
+      "searchText": "2027年国省考相丽君申论解题思维趣学营 申论 2027年国省考相丽君申论解题思维趣学营 server/data/extra-links.json"
+    },
+    {
+      "id": "r1618",
+      "title": "2027年国省考相丽君申论解题思维趣学营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1jFUIptqDaqTTeTrLga5kaA?pwd=m19g",
+      "code": "m19g",
+      "section": "后台新增",
+      "context": "2027年国省考相丽君申论解题思维趣学营",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "后台新增"
+        }
+      ],
+      "searchText": "2027年国省考相丽君申论解题思维趣学营 后台新增 2027年国省考相丽君申论解题思维趣学营 m19g server/data/extra-links.json"
+    },
+    {
+      "id": "r1619",
+      "title": "2027kiwi申论全程班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1caGAJJqyb5Okhec_R74cYw?pwd=m19g",
+      "code": "m19g",
+      "section": "申论",
+      "context": "2027kiwi申论全程班",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "申论"
+        }
+      ],
+      "searchText": "2027kiwi申论全程班 申论 2027kiwi申论全程班 m19g server/data/extra-links.json"
+    },
+    {
+      "id": "r1620",
+      "title": "27袁东合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/10kzwEkcbxMjacEBJy-DSWA?pwd=m19g",
+      "code": "m19g",
+      "section": "申论",
+      "context": "27袁东合集",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "申论"
+        }
+      ],
+      "searchText": "27袁东合集 申论 27袁东合集 m19g server/data/extra-links.json"
+    },
+    {
+      "id": "r1621",
+      "title": "2027陈怀安行测圣经资料分析系统课",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/62e088ec05c0",
+      "code": "",
+      "section": "资料分析",
+      "context": "2027陈怀安行测圣经资料分析系统课",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "资料分析"
+        }
+      ],
+      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 server/data/extra-links.json"
+    },
+    {
+      "id": "r1622",
+      "title": "2027陈怀安行测圣经资料分析系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/17jeLoOhixc6vVjbC_JieCA?pwd=7hja",
+      "code": "7hja",
+      "section": "资料分析",
+      "context": "2027陈怀安行测圣经资料分析系统课",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "资料分析"
+        }
+      ],
+      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 7hja server/data/extra-links.json"
+    },
+    {
+      "id": "r1623",
+      "title": "类比",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/c7d286355ae2",
+      "code": "",
+      "section": "行测",
+      "context": "类比聂加",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "行测"
+        }
+      ],
+      "searchText": "类比 行测 类比聂加 server/data/extra-links.json"
+    },
+    {
+      "id": "r1624",
+      "title": "类比",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1g5yWuMbVoKj-VOFvbub29w?pwd=5e9f",
+      "code": "5e9f",
+      "section": "后台新增",
+      "context": "聂加类比",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "后台新增"
+        }
+      ],
+      "searchText": "类比 后台新增 聂加类比 5e9f server/data/extra-links.json"
+    },
+    {
+      "id": "r1625",
+      "title": "🔥2027年国省考季袁东申论方法实战班（新增！）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/110775cb502c",
+      "code": "",
+      "section": "申论",
+      "context": "🔥2027年国省考季袁东申论方法实战班（新增！）",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "申论"
+        }
+      ],
+      "searchText": "🔥2027年国省考季袁东申论方法实战班（新增！） 申论 🔥2027年国省考季袁东申论方法实战班（新增！） server/data/extra-links.json"
+    },
+    {
+      "id": "r1626",
+      "title": "🔥2027年国省考季袁东申论方法实战班（新增！）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/2c43b78bfffa",
+      "code": "",
+      "section": "申论",
+      "context": "🔥2027年国省考季袁东申论方法实战班（新增！）",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "申论"
+        }
+      ],
+      "searchText": "🔥2027年国省考季袁东申论方法实战班（新增！） 申论 🔥2027年国省考季袁东申论方法实战班（新增！） server/data/extra-links.json"
+    },
+    {
+      "id": "r1627",
+      "title": "【行测申论】2027超格行测+申论（五合一）夸夸刷刷题营",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/5519b896cf0b",
+      "code": "",
+      "section": "行测",
+      "context": "【行测申论】2027超格行测+申论（五合一）夸夸刷刷题营",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "行测"
+        }
+      ],
+      "searchText": "【行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 行测 【行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 server/data/extra-links.json"
+    },
+    {
+      "id": "r1628",
+      "title": "【数量】2027上岸村王炎数量关系·讲练大满贯",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/a4985d215863",
+      "code": "",
+      "section": "行测",
+      "context": "【数量】2027上岸村王炎数量关系·讲练大满贯",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "行测"
+        }
+      ],
+      "searchText": "【数量】2027上岸村王炎数量关系·讲练大满贯 行测 【数量】2027上岸村王炎数量关系·讲练大满贯 server/data/extra-links.json"
+    },
+    {
+      "id": "r1629",
+      "title": "天晓",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/59df3f2897af",
+      "code": "",
+      "section": "申论",
+      "context": "天晓",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "申论"
+        }
+      ],
+      "searchText": "天晓 申论 天晓 server/data/extra-links.json"
+    },
+    {
+      "id": "r1630",
+      "title": "小p公考（P神）2027",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/9813ead8aeb6",
+      "code": "",
+      "section": "后台新增",
+      "context": "小p公考（P神）2027",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "后台新增"
+        }
+      ],
+      "searchText": "小p公考（P神）2027 后台新增 小p公考（P神）2027 server/data/extra-links.json"
     }
   ]
 };
