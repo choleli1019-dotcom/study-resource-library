@@ -1,17 +1,17 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-07-15T14:38:30.628Z",
+  "generatedAt": "2026-07-22T01:19:35.222Z",
   "sourceDir": "F:\\DeskTop\\Notion笔记; F:\\DeskTop\\f285057c-7df3-4746-ac52-5ce6cb3d754c_ExportBlock-3988e926-b0e0-4adf-b67e-e3c3e1667999\\ExportBlock-3988e926-b0e0-4adf-b67e-e3c3e1667999-Part-1; F:\\DeskTop\\026cce3e-1710-42f7-ae1e-eac3c6ad4ef9_ExportBlock-f5143292-e5b8-40c4-8de9-e28f8d361443\\ExportBlock-f5143292-e5b8-40c4-8de9-e28f8d361443-Part-1",
   "missingSources": [],
   "totals": {
     "raw": {
-      "quark": 1094,
+      "quark": 1095,
       "baidu": 582,
-      "total": 1676
+      "total": 1677
     },
     "unique": {
-      "quark": 1071,
+      "quark": 1072,
       "baidu": 570,
-      "total": 1641
+      "total": 1642
     }
   },
   "sources": [
@@ -28280,6 +28280,23 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "2027超哥政治理论时政热点小锦囊 后台新增 2027超哥政治理论时政热点小锦囊 server/data/extra-links.json"
+    },
+    {
+      "id": "r1642",
+      "title": "【言语】2027雨菲言语图文带背800词",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/35313ccdf067",
+      "code": "",
+      "section": "言语",
+      "context": "【言语】2027雨菲言语图文带背800词",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "言语"
+        }
+      ],
+      "searchText": "【言语】2027雨菲言语图文带背800词 言语 【言语】2027雨菲言语图文带背800词 server/data/extra-links.json"
     }
   ]
 };
