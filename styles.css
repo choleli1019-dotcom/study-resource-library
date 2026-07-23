@@ -5432,3 +5432,156 @@ body:not(.theme-light) #disclaimer.notice p {
     line-height: 1.8 !important;
   }
 }
+
+/* 2026-07-23 final readability and hero art polish. */
+body.theme-light {
+  --ios-muted: #405064;
+  --ios-green: #05694f;
+  --ios-green-soft: rgba(12, 126, 90, 0.2);
+}
+
+body.theme-light .hero-copy > p:not(.eyebrow),
+body.theme-light .featured-copy p,
+body.theme-light .section-header p,
+body.theme-light .overview-card p,
+body.theme-light .resource-card p,
+body.theme-light .featured-item span:not(.quick-entry-icon),
+body.theme-light .notice p,
+body.theme-light .brand small,
+body.theme-light .search-panel-head strong {
+  color: #35465a !important;
+}
+
+body.theme-light .eyebrow,
+body.theme-light .panel-label,
+body.theme-light .tag,
+body.theme-light .pan-badge,
+body.theme-light .search-welcome-kicker {
+  border-color: rgba(5, 105, 79, 0.34) !important;
+  background: rgba(16, 128, 91, 0.2) !important;
+  color: #045b45 !important;
+}
+
+body.theme-light .search-box,
+body.theme-light .search-welcome-input {
+  border: 1.5px solid rgba(28, 58, 83, 0.34) !important;
+  background: rgba(255, 255, 255, 0.96) !important;
+  box-shadow:
+    0 12px 30px rgba(20, 70, 85, 0.11),
+    inset 0 1px 0 rgba(255, 255, 255, 0.9) !important;
+}
+
+body.theme-light .search-box:focus-within,
+body.theme-light .search-welcome-input:focus-within {
+  border-color: rgba(0, 122, 255, 0.72) !important;
+  outline: 3px solid rgba(0, 122, 255, 0.18) !important;
+  box-shadow:
+    0 0 0 1px rgba(0, 122, 255, 0.26),
+    0 16px 36px rgba(0, 84, 180, 0.14) !important;
+}
+
+body.theme-light .search-box input::placeholder,
+body.theme-light .search-welcome-input input::placeholder {
+  color: #637487 !important;
+  opacity: 1 !important;
+}
+
+body.theme-light .search-box .search-icon,
+body.theme-light .search-welcome-input .search-icon {
+  color: #516477 !important;
+}
+
+body.theme-light .overview-samples span,
+body.theme-light .hero-stats span,
+body.theme-light .resource-count,
+body.theme-light .hot-searches button,
+body.theme-light .today-strip {
+  border: 1px solid rgba(26, 58, 78, 0.2) !important;
+  background: rgba(255, 255, 255, 0.88) !important;
+  color: #38495c !important;
+  box-shadow: 0 6px 18px rgba(24, 64, 78, 0.07) !important;
+}
+
+body.theme-light .overview-card,
+body.theme-light .featured-item,
+body.theme-light .resource-card {
+  border-color: rgba(255, 255, 255, 0.72) !important;
+  background: rgba(246, 252, 244, 0.62) !important;
+}
+
+.hero-art {
+  width: min(28vw, 350px) !important;
+  max-width: 350px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(223, 242, 219, 0.68) !important;
+  border-radius: 20px !important;
+  background: rgba(196, 226, 197, 0.5) !important;
+  box-shadow: 0 16px 34px rgba(21, 73, 50, 0.16) !important;
+}
+
+.hero-art img {
+  width: 100% !important;
+  height: 100% !important;
+  aspect-ratio: 16 / 9 !important;
+  border-radius: inherit !important;
+  object-fit: cover !important;
+  object-position: center 45% !important;
+  filter: saturate(0.56) contrast(0.92) brightness(1.04) hue-rotate(8deg) !important;
+  transform: scale(1.03) !important;
+}
+
+.hero-art::before {
+  content: "" !important;
+  position: absolute !important;
+  inset: 0 !important;
+  z-index: 1 !important;
+  border-radius: inherit !important;
+  background:
+    linear-gradient(135deg, rgba(50, 135, 88, 0.32), rgba(209, 236, 200, 0.16) 54%, rgba(32, 105, 74, 0.22)),
+    radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 0.16), transparent 34%) !important;
+  mix-blend-mode: multiply !important;
+  pointer-events: none !important;
+}
+
+.hero-art::after {
+  content: "" !important;
+  position: absolute !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  z-index: 2 !important;
+  width: 52% !important;
+  height: 30% !important;
+  border-top-left-radius: 18px !important;
+  background: linear-gradient(135deg, rgba(208, 232, 202, 0.9), rgba(157, 205, 171, 0.78)) !important;
+  -webkit-backdrop-filter: blur(10px) saturate(140%) !important;
+  backdrop-filter: blur(10px) saturate(140%) !important;
+  pointer-events: none !important;
+}
+
+.hero-stamp {
+  display: none !important;
+}
+
+body:not(.theme-light) .hero-art {
+  border-color: rgba(255, 255, 255, 0.16) !important;
+  background: rgba(35, 55, 42, 0.44) !important;
+  box-shadow: 0 16px 34px rgba(0, 0, 0, 0.24) !important;
+}
+
+body:not(.theme-light) .hero-art::after {
+  background: linear-gradient(135deg, rgba(22, 42, 31, 0.78), rgba(38, 77, 54, 0.64)) !important;
+}
+
+@media (max-width: 900px) {
+  .hero-art {
+    width: min(100%, 310px) !important;
+    justify-self: start !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-art {
+    display: none !important;
+  }
+}
