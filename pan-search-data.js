@@ -1,17 +1,17 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-07-23T03:09:41.692Z",
-  "sourceDir": "F:/DeskTop/网盘链接.txt",
+  "generatedAt": "2026-07-23T03:34:18.286Z",
+  "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt",
   "missingSources": [],
   "totals": {
     "raw": {
-      "quark": 751,
+      "quark": 851,
       "baidu": 0,
-      "total": 751
+      "total": 851
     },
     "unique": {
-      "quark": 751,
+      "quark": 851,
       "baidu": 0,
-      "total": 751
+      "total": 851
     },
     "duplicate": {
       "quark": 0,
@@ -38,6 +38,15 @@ window.PAN_SEARCH_DATA = {
         "电子书": 4,
         "考研": 4,
         "法考": 1
+      }
+    },
+    {
+      "file": "pasted-text.txt",
+      "quark": 100,
+      "baidu": 0,
+      "total": 100,
+      "sections": {
+        "电子书": 100
       }
     }
   ],
@@ -12808,6 +12817,1706 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "教资笔试】中小学幼儿园教资真题（2011-2024） 教招教资 教资笔试】中小学幼儿园教资真题（2011-2024） 链接：https://pan.quark.cn/s/d569f9fe03ee 夸克 网盘 网盘链接.txt"
+    },
+    {
+      "id": "r752",
+      "title": "2025下半年",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/2319f6a1d00c",
+      "code": "",
+      "section": "电子书",
+      "context": "2025下半年 链接：https://pan.quark.cn/s/2319f6a1d00c",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 1,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "2025下半年 电子书 2025下半年 链接：https://pan.quark.cn/s/2319f6a1d00c 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r753",
+      "title": "计算机",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/d38ac051c3b5",
+      "code": "",
+      "section": "电子书",
+      "context": "计算机 链接：https://pan.quark.cn/s/d38ac051c3b5",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 4,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "计算机 电子书 计算机 链接：https://pan.quark.cn/s/d38ac051c3b5 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r754",
+      "title": "思维导图",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/38a46ffa2ef0",
+      "code": "",
+      "section": "电子书",
+      "context": "思维导图 链接：https://pan.quark.cn/s/38a46ffa2ef0",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 7,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "思维导图 电子书 思维导图 链接：https://pan.quark.cn/s/38a46ffa2ef0 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r755",
+      "title": "2025",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/a95217a36efb",
+      "code": "",
+      "section": "电子书",
+      "context": "2025 链接：https://pan.quark.cn/s/a95217a36efb",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 10,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "2025 电子书 2025 链接：https://pan.quark.cn/s/a95217a36efb 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r756",
+      "title": "毛泽东读书集成",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/3aec707de4bf",
+      "code": "",
+      "section": "电子书",
+      "context": "毛泽东读书集成 链接：https://pan.quark.cn/s/3aec707de4bf",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 13,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "毛泽东读书集成 电子书 毛泽东读书集成 链接：https://pan.quark.cn/s/3aec707de4bf 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r757",
+      "title": "躲在蚊子后面的大象 = In jeder Mücke steckt ein Elefant Gute Gründe, sich über Kleinigkeiten aufzuregen ... .....",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/4b7a575ad859",
+      "code": "",
+      "section": "电子书",
+      "context": "躲在蚊子后面的大象 = In jeder Mücke steckt ein Elefant Gute Gründe, sich über Kleinigkeiten aufzuregen ... ..... 链接：https://pan.quark.cn/s/4b7a575ad859",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 16,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "躲在蚊子后面的大象 = In jeder Mücke steckt ein Elefant Gute Gründe, sich über Kleinigkeiten aufzuregen ... ..... 电子书 躲在蚊子后面的大象 = In jeder Mücke steckt ein Elefant Gute Gründe, sich über Kleinigkeiten aufzuregen ... ..... 链接：https://pan.quark.cn/s/4b7a575ad859 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r758",
+      "title": "世界观 现代人必须要懂的科学哲学和科学史 (Richard DeWitt)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/a2e7a839bf0a",
+      "code": "",
+      "section": "电子书",
+      "context": "世界观 现代人必须要懂的科学哲学和科学史 (Richard DeWitt) 链接：https://pan.quark.cn/s/a2e7a839bf0a",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 19,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "世界观 现代人必须要懂的科学哲学和科学史 (Richard DeWitt) 电子书 世界观 现代人必须要懂的科学哲学和科学史 (Richard DeWitt) 链接：https://pan.quark.cn/s/a2e7a839bf0a 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r759",
+      "title": "二次成长：成人人格修补手册 (王瑞)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/e305cf1ad27a",
+      "code": "",
+      "section": "电子书",
+      "context": "二次成长：成人人格修补手册 (王瑞) 链接：https://pan.quark.cn/s/e305cf1ad27a",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 22,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "二次成长：成人人格修补手册 (王瑞) 电子书 二次成长：成人人格修补手册 (王瑞) 链接：https://pan.quark.cn/s/e305cf1ad27a 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r760",
+      "title": "快速改善课堂纪律的75个方法(白金版) (常青藤•好老师教学策略系列) ( etc.)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6f2a4d9df203",
+      "code": "",
+      "section": "电子书",
+      "context": "快速改善课堂纪律的75个方法(白金版) (常青藤•好老师教学策略系列) ( etc.) 链接：https://pan.quark.cn/s/6f2a4d9df203",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 25,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "快速改善课堂纪律的75个方法(白金版) (常青藤•好老师教学策略系列) ( etc.) 电子书 快速改善课堂纪律的75个方法(白金版) (常青藤•好老师教学策略系列) ( etc.) 链接：https://pan.quark.cn/s/6f2a4d9df203 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r761",
+      "title": "班级管理智慧案例精选 (熊华生 李慧)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/abcb2c877a16",
+      "code": "",
+      "section": "电子书",
+      "context": "班级管理智慧案例精选 (熊华生 李慧) 链接：https://pan.quark.cn/s/abcb2c877a16",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 28,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "班级管理智慧案例精选 (熊华生 李慧) 电子书 班级管理智慧案例精选 (熊华生 李慧) 链接：https://pan.quark.cn/s/abcb2c877a16 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r762",
+      "title": "给教师的建议 ([苏]B.A.苏霍姆林斯基)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/e0e2fd8b9dcc",
+      "code": "",
+      "section": "电子书",
+      "context": "给教师的建议 ([苏]B.A.苏霍姆林斯基) 链接：https://pan.quark.cn/s/e0e2fd8b9dcc",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 31,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "给教师的建议 ([苏]B.A.苏霍姆林斯基) 电子书 给教师的建议 ([苏]B.A.苏霍姆林斯基) 链接：https://pan.quark.cn/s/e0e2fd8b9dcc 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r763",
+      "title": "闯关东 (高满堂， 孙建业)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/a839460365f6",
+      "code": "",
+      "section": "电子书",
+      "context": "闯关东 (高满堂， 孙建业) 链接：https://pan.quark.cn/s/a839460365f6",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 34,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "闯关东 (高满堂， 孙建业) 电子书 闯关东 (高满堂， 孙建业) 链接：https://pan.quark.cn/s/a839460365f6 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r764",
+      "title": "亮剑 (都梁)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/eb5eceb03f1e",
+      "code": "",
+      "section": "电子书",
+      "context": "亮剑 (都梁) 链接：https://pan.quark.cn/s/eb5eceb03f1e",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 37,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "亮剑 (都梁) 电子书 亮剑 (都梁) 链接：https://pan.quark.cn/s/eb5eceb03f1e 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r765",
+      "title": "汉译世界学术名著丛书（120册精选大合集） (黑格尔 卢梭 尼采 凯恩斯 熊彼特 等) (1)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/10ddafe0a709",
+      "code": "",
+      "section": "电子书",
+      "context": "汉译世界学术名著丛书（120册精选大合集） (黑格尔 卢梭 尼采 凯恩斯 熊彼特 等) (1) 链接：https://pan.quark.cn/s/10ddafe0a709",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 40,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "汉译世界学术名著丛书（120册精选大合集） (黑格尔 卢梭 尼采 凯恩斯 熊彼特 等) (1) 电子书 汉译世界学术名著丛书（120册精选大合集） (黑格尔 卢梭 尼采 凯恩斯 熊彼特 等) (1) 链接：https://pan.quark.cn/s/10ddafe0a709 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r766",
+      "title": "精排】哈利·波特全集 (J.K.罗琳,马爱农,马爱新)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6cc8d9d88d56",
+      "code": "",
+      "section": "电子书",
+      "context": "精排】哈利·波特全集 (J.K.罗琳,马爱农,马爱新) 链接：https://pan.quark.cn/s/6cc8d9d88d56",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 43,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "精排】哈利·波特全集 (J.K.罗琳,马爱农,马爱新) 电子书 精排】哈利·波特全集 (J.K.罗琳,马爱农,马爱新) 链接：https://pan.quark.cn/s/6cc8d9d88d56 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r767",
+      "title": "中国古典文学名家选集（全17册） (王维)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/c10519db5f4e",
+      "code": "",
+      "section": "电子书",
+      "context": "中国古典文学名家选集（全17册） (王维) 链接：https://pan.quark.cn/s/c10519db5f4e",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 46,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "中国古典文学名家选集（全17册） (王维) 电子书 中国古典文学名家选集（全17册） (王维) 链接：https://pan.quark.cn/s/c10519db5f4e 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r768",
+      "title": "民国大师周作人作品大全集（套装七十八册）【一生作品悉数囊括！包括自编集38册和译文作品40册！感受一代文学大师周作人一生智慧和精神！鲁迅... (z-library.sk, 1lib.sk, z-li...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/a3eff6fde095",
+      "code": "",
+      "section": "电子书",
+      "context": "民国大师周作人作品大全集（套装七十八册）【一生作品悉数囊括！包括自编集38册和译文作品40册！感受一代文学大师周作人一生智慧和精神！鲁迅... (z-library.sk, 1lib.sk, z-li... 链接：https://pan.quark.cn/s/a3eff6fde095",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 49,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "民国大师周作人作品大全集（套装七十八册）【一生作品悉数囊括！包括自编集38册和译文作品40册！感受一代文学大师周作人一生智慧和精神！鲁迅... (z-library.sk, 1lib.sk, z-li... 电子书 民国大师周作人作品大全集（套装七十八册）【一生作品悉数囊括！包括自编集38册和译文作品40册！感受一代文学大师周作人一生智慧和精神！鲁迅... (z-library.sk, 1lib.sk, z-li... 链接：https://pan.quark.cn/s/a3eff6fde095 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r769",
+      "title": "外国文学名著丛书.第一辑：全39种44册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） ( etc.) (z-library.sk, 1lib.sk, z-lib.s...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/f94baff3ed02",
+      "code": "",
+      "section": "电子书",
+      "context": "外国文学名著丛书.第一辑：全39种44册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） ( etc.) (z-library.sk, 1lib.sk, z-lib.s... 链接：https://pan.quark.cn/s/f94baff3ed02",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 52,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "外国文学名著丛书.第一辑：全39种44册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） ( etc.) (z-library.sk, 1lib.sk, z-lib.s... 电子书 外国文学名著丛书.第一辑：全39种44册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） ( etc.) (z-library.sk, 1lib.sk, z-lib.s... 链接：https://pan.quark.cn/s/f94baff3ed02 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r770",
+      "title": "人人都在说谎赤裸裸的数据真相 = Everybody Lies Big Data, New Data, and What the Internet Can Tell Us About Who We R...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/791c81396f54",
+      "code": "",
+      "section": "电子书",
+      "context": "人人都在说谎赤裸裸的数据真相 = Everybody Lies Big Data, New Data, and What the Internet Can Tell Us About Who We R... 链接：https://pan.quark.cn/s/791c81396f54",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 55,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "人人都在说谎赤裸裸的数据真相 = Everybody Lies Big Data, New Data, and What the Internet Can Tell Us About Who We R... 电子书 人人都在说谎赤裸裸的数据真相 = Everybody Lies Big Data, New Data, and What the Internet Can Tell Us About Who We R... 链接：https://pan.quark.cn/s/791c81396f54 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r771",
+      "title": "外国文学名著丛书.第三辑·全44种55册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） (名著) ....",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/3436326bf389",
+      "code": "",
+      "section": "电子书",
+      "context": "外国文学名著丛书.第三辑·全44种55册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） (名著) .... 链接：https://pan.quark.cn/s/3436326bf389",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 58,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "外国文学名著丛书.第三辑·全44种55册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） (名著) .... 电子书 外国文学名著丛书.第三辑·全44种55册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） (名著) .... 链接：https://pan.quark.cn/s/3436326bf389 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r772",
+      "title": "外国文学名著丛书.第二辑：全53种61册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） (托尔斯泰，屠格涅... (z-library.sk, 1lib.sk, z-...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/1b322f10be54",
+      "code": "",
+      "section": "电子书",
+      "context": "外国文学名著丛书.第二辑：全53种61册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） (托尔斯泰，屠格涅... (z-library.sk, 1lib.sk, z-... 链接：https://pan.quark.cn/s/1b322f10be54",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 61,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "外国文学名著丛书.第二辑：全53种61册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） (托尔斯泰，屠格涅... (z-library.sk, 1lib.sk, z-... 电子书 外国文学名著丛书.第二辑：全53种61册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） (托尔斯泰，屠格涅... (z-library.sk, 1lib.sk, z-... 链接：https://pan.quark.cn/s/1b322f10be54 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r773",
+      "title": "外国文学名著丛书.第一辑：全39种44册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） ( etc.) (z-library.sk, 1lib.sk, z-lib.s...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6351db221531",
+      "code": "",
+      "section": "电子书",
+      "context": "外国文学名著丛书.第一辑：全39种44册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） ( etc.) (z-library.sk, 1lib.sk, z-lib.s... 链接：https://pan.quark.cn/s/6351db221531",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 64,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "外国文学名著丛书.第一辑：全39种44册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） ( etc.) (z-library.sk, 1lib.sk, z-lib.s... 电子书 外国文学名著丛书.第一辑：全39种44册（经典网格本再问世；新中国首套系统介绍外国文学作品的大型丛书；历时四十余年完成） ( etc.) (z-library.sk, 1lib.sk, z-lib.s... 链接：https://pan.quark.cn/s/6351db221531 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r774",
+      "title": "风吹哪页读哪页 (飞扬文室)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/22f932b28933",
+      "code": "",
+      "section": "电子书",
+      "context": "风吹哪页读哪页 (飞扬文室) 链接：https://pan.quark.cn/s/22f932b28933",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 67,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "风吹哪页读哪页 (飞扬文室) 电子书 风吹哪页读哪页 (飞扬文室) 链接：https://pan.quark.cn/s/22f932b28933 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r775",
+      "title": "向上生长 = Grow Up (九边)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/36d13ccf95c6",
+      "code": "",
+      "section": "电子书",
+      "context": "向上生长 = Grow Up (九边) 链接：https://pan.quark.cn/s/36d13ccf95c6",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 70,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "向上生长 = Grow Up (九边) 电子书 向上生长 = Grow Up (九边) 链接：https://pan.quark.cn/s/36d13ccf95c6 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r776",
+      "title": "何以中国 (葛剑雄)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/4256cbb2f104",
+      "code": "",
+      "section": "电子书",
+      "context": "何以中国 (葛剑雄) 链接：https://pan.quark.cn/s/4256cbb2f104",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 73,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "何以中国 (葛剑雄) 电子书 何以中国 (葛剑雄) 链接：https://pan.quark.cn/s/4256cbb2f104 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r777",
+      "title": "AI时代, 成为强者 金钱、社交、学习力全方位破局 (李尚龙)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/0e964797bc02",
+      "code": "",
+      "section": "电子书",
+      "context": "AI时代, 成为强者 金钱、社交、学习力全方位破局 (李尚龙) 链接：https://pan.quark.cn/s/0e964797bc02",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 76,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "AI时代, 成为强者 金钱、社交、学习力全方位破局 (李尚龙) 电子书 AI时代, 成为强者 金钱、社交、学习力全方位破局 (李尚龙) 链接：https://pan.quark.cn/s/0e964797bc02 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r778",
+      "title": "红与黑 (司汤达)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/8d9c9fe73e73",
+      "code": "",
+      "section": "电子书",
+      "context": "红与黑 (司汤达) 链接：https://pan.quark.cn/s/8d9c9fe73e73",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 79,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "红与黑 (司汤达) 电子书 红与黑 (司汤达) 链接：https://pan.quark.cn/s/8d9c9fe73e73 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r779",
+      "title": "心安即是归处：季羡林的百年生命智 (季羡林)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/7a68b2bad158",
+      "code": "",
+      "section": "电子书",
+      "context": "心安即是归处：季羡林的百年生命智 (季羡林) 链接：https://pan.quark.cn/s/7a68b2bad158",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 82,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "心安即是归处：季羡林的百年生命智 (季羡林) 电子书 心安即是归处：季羡林的百年生命智 (季羡林) 链接：https://pan.quark.cn/s/7a68b2bad158 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r780",
+      "title": "飘·下册(梅静译本,精排) (玛格丽特·米切尔)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/a7cb25186cee",
+      "code": "",
+      "section": "电子书",
+      "context": "飘·下册(梅静译本,精排) (玛格丽特·米切尔) 链接：https://pan.quark.cn/s/a7cb25186cee",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 85,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "飘·下册(梅静译本,精排) (玛格丽特·米切尔) 电子书 飘·下册(梅静译本,精排) (玛格丽特·米切尔) 链接：https://pan.quark.cn/s/a7cb25186cee 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r781",
+      "title": "世界尽头的咖啡馆(16周年纪念版) (约翰·史崔勒基, 万洁)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/f3b7da8afa35",
+      "code": "",
+      "section": "电子书",
+      "context": "世界尽头的咖啡馆(16周年纪念版) (约翰·史崔勒基, 万洁) 链接：https://pan.quark.cn/s/f3b7da8afa35",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 88,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "世界尽头的咖啡馆(16周年纪念版) (约翰·史崔勒基, 万洁) 电子书 世界尽头的咖啡馆(16周年纪念版) (约翰·史崔勒基, 万洁) 链接：https://pan.quark.cn/s/f3b7da8afa35 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r782",
+      "title": "里程碑书系 (吉姆·贝尔 [吉姆·贝尔])",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/98ac68fef50b",
+      "code": "",
+      "section": "电子书",
+      "context": "里程碑书系 (吉姆·贝尔 [吉姆·贝尔]) 链接：https://pan.quark.cn/s/98ac68fef50b",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 91,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "里程碑书系 (吉姆·贝尔 [吉姆·贝尔]) 电子书 里程碑书系 (吉姆·贝尔 [吉姆·贝尔]) 链接：https://pan.quark.cn/s/98ac68fef50b 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r783",
+      "title": "前沿趋势预测系列（共9册） (安东尼·范·阿格塔米尔, 弗雷德·巴克, 布雷特·金, 比约恩·布劳卿, 拉斯·拉克 etc.) .ep...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/85820c2b8dd1",
+      "code": "",
+      "section": "电子书",
+      "context": "前沿趋势预测系列（共9册） (安东尼·范·阿格塔米尔, 弗雷德·巴克, 布雷特·金, 比约恩·布劳卿, 拉斯·拉克 etc.) .ep... 链接：https://pan.quark.cn/s/85820c2b8dd1",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 94,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "前沿趋势预测系列（共9册） (安东尼·范·阿格塔米尔, 弗雷德·巴克, 布雷特·金, 比约恩·布劳卿, 拉斯·拉克 etc.) .ep... 电子书 前沿趋势预测系列（共9册） (安东尼·范·阿格塔米尔, 弗雷德·巴克, 布雷特·金, 比约恩·布劳卿, 拉斯·拉克 etc.) .ep... 链接：https://pan.quark.cn/s/85820c2b8dd1 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r784",
+      "title": "诺贝尔经济学奖获得者丛书•大师经典（套装共10册） (藤田昌久, 保罗·R·克鲁格曼, 默顿·米勒, 托马斯·C·谢林, 阿马蒂亚·森 etc.) (z-library.sk, 1lib.sk, z-...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/1ffe8772e08b",
+      "code": "",
+      "section": "电子书",
+      "context": "诺贝尔经济学奖获得者丛书•大师经典（套装共10册） (藤田昌久, 保罗·R·克鲁格曼, 默顿·米勒, 托马斯·C·谢林, 阿马蒂亚·森 etc.) (z-library.sk, 1lib.sk, z-... 链接：https://pan.quark.cn/s/1ffe8772e08b",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 97,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "诺贝尔经济学奖获得者丛书•大师经典（套装共10册） (藤田昌久, 保罗·R·克鲁格曼, 默顿·米勒, 托马斯·C·谢林, 阿马蒂亚·森 etc.) (z-library.sk, 1lib.sk, z-... 电子书 诺贝尔经济学奖获得者丛书•大师经典（套装共10册） (藤田昌久, 保罗·R·克鲁格曼, 默顿·米勒, 托马斯·C·谢林, 阿马蒂亚·森 etc.) (z-library.sk, 1lib.sk, z-... 链接：https://pan.quark.cn/s/1ffe8772e08b 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r785",
+      "title": "世界的逻辑：如何让我们生活的世界更理性、更可控 = The Ways of the World ([美] 大卫 · 哈维 (David Harvey) 著 周大昕 译) (z-library.sk,...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/e450c2c616b9",
+      "code": "",
+      "section": "电子书",
+      "context": "世界的逻辑：如何让我们生活的世界更理性、更可控 = The Ways of the World ([美] 大卫 · 哈维 (David Harvey) 著 周大昕 译) (z-library.sk,... 链接：https://pan.quark.cn/s/e450c2c616b9",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 100,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "世界的逻辑：如何让我们生活的世界更理性、更可控 = The Ways of the World ([美] 大卫 · 哈维 (David Harvey) 著 周大昕 译) (z-library.sk,... 电子书 世界的逻辑：如何让我们生活的世界更理性、更可控 = The Ways of the World ([美] 大卫 · 哈维 (David Harvey) 著 周大昕 译) (z-library.sk,... 链接：https://pan.quark.cn/s/e450c2c616b9 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r786",
+      "title": "如何快速了解一个行业 (肖璟)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/306325096569",
+      "code": "",
+      "section": "电子书",
+      "context": "如何快速了解一个行业 (肖璟) 链接：https://pan.quark.cn/s/306325096569",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 103,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "如何快速了解一个行业 (肖璟) 电子书 如何快速了解一个行业 (肖璟) 链接：https://pan.quark.cn/s/306325096569 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r787",
+      "title": "思辨与立场：生活中无处不在的批判性思维工具 = Critical Thinking Tools for Taking Charge of Your Learning and Your Life ( e...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/c3c40e1d832a",
+      "code": "",
+      "section": "电子书",
+      "context": "思辨与立场：生活中无处不在的批判性思维工具 = Critical Thinking Tools for Taking Charge of Your Learning and Your Life ( e... 链接：https://pan.quark.cn/s/c3c40e1d832a",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 106,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "思辨与立场：生活中无处不在的批判性思维工具 = Critical Thinking Tools for Taking Charge of Your Learning and Your Life ( e... 电子书 思辨与立场：生活中无处不在的批判性思维工具 = Critical Thinking Tools for Taking Charge of Your Learning and Your Life ( e... 链接：https://pan.quark.cn/s/c3c40e1d832a 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r788",
+      "title": "天才在左,疯子在右(完整版) (高铭)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/ff964c338a0e",
+      "code": "",
+      "section": "电子书",
+      "context": "天才在左,疯子在右(完整版) (高铭) 链接：https://pan.quark.cn/s/ff964c338a0e",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 109,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "天才在左,疯子在右(完整版) (高铭) 电子书 天才在左,疯子在右(完整版) (高铭) 链接：https://pan.quark.cn/s/ff964c338a0e 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r789",
+      "title": "病隙碎笔(修订版) (史铁生)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/1d586b61618e",
+      "code": "",
+      "section": "电子书",
+      "context": "病隙碎笔(修订版) (史铁生) 链接：https://pan.quark.cn/s/1d586b61618e",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 112,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "病隙碎笔(修订版) (史铁生) 电子书 病隙碎笔(修订版) (史铁生) 链接：https://pan.quark.cn/s/1d586b61618e 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r790",
+      "title": "磨铁经典第4辑飘 (全2册).梅静译 (玛格丽特·米切尔)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/75e9d385b75c",
+      "code": "",
+      "section": "电子书",
+      "context": "磨铁经典第4辑飘 (全2册).梅静译 (玛格丽特·米切尔) 链接：https://pan.quark.cn/s/75e9d385b75c",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 115,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "磨铁经典第4辑飘 (全2册).梅静译 (玛格丽特·米切尔) 电子书 磨铁经典第4辑飘 (全2册).梅静译 (玛格丽特·米切尔) 链接：https://pan.quark.cn/s/75e9d385b75c 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r791",
+      "title": "傲慢与偏见·精排·STK (简·奥斯丁)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/541a4fb7b19b",
+      "code": "",
+      "section": "电子书",
+      "context": "傲慢与偏见·精排·STK (简·奥斯丁) 链接：https://pan.quark.cn/s/541a4fb7b19b",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 118,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "傲慢与偏见·精排·STK (简·奥斯丁) 电子书 傲慢与偏见·精排·STK (简·奥斯丁) 链接：https://pan.quark.cn/s/541a4fb7b19b 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r792",
+      "title": "鲁迅传(精排·STK) (朱正)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/8bfe46d07b28",
+      "code": "",
+      "section": "电子书",
+      "context": "鲁迅传(精排·STK) (朱正) 链接：https://pan.quark.cn/s/8bfe46d07b28",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 121,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "鲁迅传(精排·STK) (朱正) 电子书 鲁迅传(精排·STK) (朱正) 链接：https://pan.quark.cn/s/8bfe46d07b28 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r793",
+      "title": "黑天鹅：如何应对不可预知的未来 = The Black Swan The Impact of the Highly Improbable ( etc.) (z-library.sk, 1lib.sk,...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/9d9f7e2fbed6",
+      "code": "",
+      "section": "电子书",
+      "context": "黑天鹅：如何应对不可预知的未来 = The Black Swan The Impact of the Highly Improbable ( etc.) (z-library.sk, 1lib.sk,... 链接：https://pan.quark.cn/s/9d9f7e2fbed6",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 124,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "黑天鹅：如何应对不可预知的未来 = The Black Swan The Impact of the Highly Improbable ( etc.) (z-library.sk, 1lib.sk,... 电子书 黑天鹅：如何应对不可预知的未来 = The Black Swan The Impact of the Highly Improbable ( etc.) (z-library.sk, 1lib.sk,... 链接：https://pan.quark.cn/s/9d9f7e2fbed6 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r794",
+      "title": "许三观卖血记 (余华)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6eb63cc1031b",
+      "code": "",
+      "section": "电子书",
+      "context": "许三观卖血记 (余华) 链接：https://pan.quark.cn/s/6eb63cc1031b",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 127,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "许三观卖血记 (余华) 电子书 许三观卖血记 (余华) 链接：https://pan.quark.cn/s/6eb63cc1031b 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r795",
+      "title": "沟通的艺术（插图修订第12版） (The art of communication Look into people inside. to see people outside (illustrati...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/661c1ea03d15",
+      "code": "",
+      "section": "电子书",
+      "context": "沟通的艺术（插图修订第12版） (The art of communication Look into people inside. to see people outside (illustrati... 链接：https://pan.quark.cn/s/661c1ea03d15",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 130,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "沟通的艺术（插图修订第12版） (The art of communication Look into people inside. to see people outside (illustrati... 电子书 沟通的艺术（插图修订第12版） (The art of communication Look into people inside. to see people outside (illustrati... 链接：https://pan.quark.cn/s/661c1ea03d15 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r796",
+      "title": "呼啸山庄：插图珍藏本 (【英】艾米莉·勃朗特（Emily Bronte）方平译)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/49e3b33f4c45",
+      "code": "",
+      "section": "电子书",
+      "context": "呼啸山庄：插图珍藏本 (【英】艾米莉·勃朗特（Emily Bronte）方平译) 链接：https://pan.quark.cn/s/49e3b33f4c45",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 133,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "呼啸山庄：插图珍藏本 (【英】艾米莉·勃朗特（Emily Bronte）方平译) 电子书 呼啸山庄：插图珍藏本 (【英】艾米莉·勃朗特（Emily Bronte）方平译) 链接：https://pan.quark.cn/s/49e3b33f4c45 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r797",
+      "title": "呼啸山庄 (译文名著典藏) (艾米莉·勃朗特(Emily Bronte))",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/2095bcb64ad7",
+      "code": "",
+      "section": "电子书",
+      "context": "呼啸山庄 (译文名著典藏) (艾米莉·勃朗特(Emily Bronte)) 链接：https://pan.quark.cn/s/2095bcb64ad7",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 136,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "呼啸山庄 (译文名著典藏) (艾米莉·勃朗特(Emily Bronte)) 电子书 呼啸山庄 (译文名著典藏) (艾米莉·勃朗特(Emily Bronte)) 链接：https://pan.quark.cn/s/2095bcb64ad7 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r798",
+      "title": "梁实秋精选散文集（套装3册） (梁实秋)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/60c59ba7561d",
+      "code": "",
+      "section": "电子书",
+      "context": "梁实秋精选散文集（套装3册） (梁实秋) 链接：https://pan.quark.cn/s/60c59ba7561d",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 139,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "梁实秋精选散文集（套装3册） (梁实秋) 电子书 梁实秋精选散文集（套装3册） (梁实秋) 链接：https://pan.quark.cn/s/60c59ba7561d 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r799",
+      "title": "穷查理宝典 = Poor Charlie’s Almanack The Wit and Wisdom of Charlie T. Munger ( etc.) (z-library.sk, 1lib....",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/5b02088278af",
+      "code": "",
+      "section": "电子书",
+      "context": "穷查理宝典 = Poor Charlie’s Almanack The Wit and Wisdom of Charlie T. Munger ( etc.) (z-library.sk, 1lib.... 链接：https://pan.quark.cn/s/5b02088278af",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 142,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "穷查理宝典 = Poor Charlie’s Almanack The Wit and Wisdom of Charlie T. Munger ( etc.) (z-library.sk, 1lib.... 电子书 穷查理宝典 = Poor Charlie’s Almanack The Wit and Wisdom of Charlie T. Munger ( etc.) (z-library.sk, 1lib.... 链接：https://pan.quark.cn/s/5b02088278af 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r800",
+      "title": "人类群星闪耀时：十四篇历史特写 = Sternstunden der Menschheit：Vierzehn historische Miniaturen ([奧] 斯蒂芬 · 茨威格 (Stefan...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/211ab92aa67e",
+      "code": "",
+      "section": "电子书",
+      "context": "人类群星闪耀时：十四篇历史特写 = Sternstunden der Menschheit：Vierzehn historische Miniaturen ([奧] 斯蒂芬 · 茨威格 (Stefan... 链接：https://pan.quark.cn/s/211ab92aa67e",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 145,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "人类群星闪耀时：十四篇历史特写 = Sternstunden der Menschheit：Vierzehn historische Miniaturen ([奧] 斯蒂芬 · 茨威格 (Stefan... 电子书 人类群星闪耀时：十四篇历史特写 = Sternstunden der Menschheit：Vierzehn historische Miniaturen ([奧] 斯蒂芬 · 茨威格 (Stefan... 链接：https://pan.quark.cn/s/211ab92aa67e 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r801",
+      "title": "十八岁出门远行 (余华)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/e64e59925b65",
+      "code": "",
+      "section": "电子书",
+      "context": "十八岁出门远行 (余华) 链接：https://pan.quark.cn/s/e64e59925b65",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 148,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "十八岁出门远行 (余华) 电子书 十八岁出门远行 (余华) 链接：https://pan.quark.cn/s/e64e59925b65 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r802",
+      "title": "菩提十书(全10册) 你心柔软，却有力量 人生最美是清欢（套装共12册） (林清玄 [林清玄])",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/521025fa0cfc",
+      "code": "",
+      "section": "电子书",
+      "context": "菩提十书(全10册) 你心柔软，却有力量 人生最美是清欢（套装共12册） (林清玄 [林清玄]) 链接：https://pan.quark.cn/s/521025fa0cfc",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 151,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "菩提十书(全10册) 你心柔软，却有力量 人生最美是清欢（套装共12册） (林清玄 [林清玄]) 电子书 菩提十书(全10册) 你心柔软，却有力量 人生最美是清欢（套装共12册） (林清玄 [林清玄]) 链接：https://pan.quark.cn/s/521025fa0cfc 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r803",
+      "title": "Chinese Culture collection 中国文化合集(套装共36本 Set of 36 Books in total) Chinese-English Edition ( etc.) (...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/fad4d5ab747f",
+      "code": "",
+      "section": "电子书",
+      "context": "Chinese Culture collection 中国文化合集(套装共36本 Set of 36 Books in total) Chinese-English Edition ( etc.) (... 链接：https://pan.quark.cn/s/fad4d5ab747f",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 154,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "Chinese Culture collection 中国文化合集(套装共36本 Set of 36 Books in total) Chinese-English Edition ( etc.) (... 电子书 Chinese Culture collection 中国文化合集(套装共36本 Set of 36 Books in total) Chinese-English Edition ( etc.) (... 链接：https://pan.quark.cn/s/fad4d5ab747f 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r804",
+      "title": "飘(套装上下册) (经典译林) (玛格丽特·米切尔)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/5501f79843dd",
+      "code": "",
+      "section": "电子书",
+      "context": "飘(套装上下册) (经典译林) (玛格丽特·米切尔) 链接：https://pan.quark.cn/s/5501f79843dd",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 157,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "飘(套装上下册) (经典译林) (玛格丽特·米切尔) 电子书 飘(套装上下册) (经典译林) (玛格丽特·米切尔) 链接：https://pan.quark.cn/s/5501f79843dd 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r805",
+      "title": "中华好诗词 唐宋诗词名家精品类编 (陈祖美 主编)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/f1024049c2bd",
+      "code": "",
+      "section": "电子书",
+      "context": "中华好诗词 唐宋诗词名家精品类编 (陈祖美 主编) 链接：https://pan.quark.cn/s/f1024049c2bd",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 160,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "中华好诗词 唐宋诗词名家精品类编 (陈祖美 主编) 电子书 中华好诗词 唐宋诗词名家精品类编 (陈祖美 主编) 链接：https://pan.quark.cn/s/f1024049c2bd 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r806",
+      "title": "《晚熟的人》a late bloomer (莫言 [莫言])",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/13be381e979d",
+      "code": "",
+      "section": "电子书",
+      "context": "《晚熟的人》a late bloomer (莫言 [莫言]) 链接：https://pan.quark.cn/s/13be381e979d",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 163,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "《晚熟的人》a late bloomer (莫言 [莫言]) 电子书 《晚熟的人》a late bloomer (莫言 [莫言]) 链接：https://pan.quark.cn/s/13be381e979d 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r807",
+      "title": "文城 (余华)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/a08145d6de35",
+      "code": "",
+      "section": "电子书",
+      "context": "文城 (余华) 链接：https://pan.quark.cn/s/a08145d6de35",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 166,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "文城 (余华) 电子书 文城 (余华) 链接：https://pan.quark.cn/s/a08145d6de35 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r808",
+      "title": "别想太多啦 在复杂的世界里, 做一个简单的人 = 気にしない練習 不安,怒り, 煩悩を放念するヒント ([日] 名取芳彦 著 范宏涛 译) (z-library.sk, 1lib.sk, z-l...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/86e1be03bef3",
+      "code": "",
+      "section": "电子书",
+      "context": "别想太多啦 在复杂的世界里, 做一个简单的人 = 気にしない練習 不安,怒り, 煩悩を放念するヒント ([日] 名取芳彦 著 范宏涛 译) (z-library.sk, 1lib.sk, z-l... 链接：https://pan.quark.cn/s/86e1be03bef3",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 169,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "别想太多啦 在复杂的世界里, 做一个简单的人 = 気にしない練習 不安,怒り, 煩悩を放念するヒント ([日] 名取芳彦 著 范宏涛 译) (z-library.sk, 1lib.sk, z-l... 电子书 别想太多啦 在复杂的世界里, 做一个简单的人 = 気にしない練習 不安,怒り, 煩悩を放念するヒント ([日] 名取芳彦 著 范宏涛 译) (z-library.sk, 1lib.sk, z-l... 链接：https://pan.quark.cn/s/86e1be03bef3 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r809",
+      "title": "反乌托邦小说三部曲（《美丽新世界》《1984》《我们》） ( etc.)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/5dba7973e98d",
+      "code": "",
+      "section": "电子书",
+      "context": "反乌托邦小说三部曲（《美丽新世界》《1984》《我们》） ( etc.) 链接：https://pan.quark.cn/s/5dba7973e98d",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 172,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "反乌托邦小说三部曲（《美丽新世界》《1984》《我们》） ( etc.) 电子书 反乌托邦小说三部曲（《美丽新世界》《1984》《我们》） ( etc.) 链接：https://pan.quark.cn/s/5dba7973e98d 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r810",
+      "title": "麦家作品精选集 (麦家 [麦家])",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/783b208a113a",
+      "code": "",
+      "section": "电子书",
+      "context": "麦家作品精选集 (麦家 [麦家]) 链接：https://pan.quark.cn/s/783b208a113a",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 175,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "麦家作品精选集 (麦家 [麦家]) 电子书 麦家作品精选集 (麦家 [麦家]) 链接：https://pan.quark.cn/s/783b208a113a 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r811",
+      "title": "麦家作品套装：解密、暗算、风声（火热新书《人生海海》作者代表作，被译成英法德等三十多种语言，在海外刮起“麦旋风",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/c7c97df4837e",
+      "code": "",
+      "section": "电子书",
+      "context": "麦家作品套装：解密、暗算、风声（火热新书《人生海海》作者代表作，被译成英法德等三十多种语言，在海外刮起“麦旋风 链接：https://pan.quark.cn/s/c7c97df4837e",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 178,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "麦家作品套装：解密、暗算、风声（火热新书《人生海海》作者代表作，被译成英法德等三十多种语言，在海外刮起“麦旋风 电子书 麦家作品套装：解密、暗算、风声（火热新书《人生海海》作者代表作，被译成英法德等三十多种语言，在海外刮起“麦旋风 链接：https://pan.quark.cn/s/c7c97df4837e 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r812",
+      "title": "美丽新世界 (奥尔德斯•赫胥黎（Aldous Huxley))",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/02e3ee45a48d",
+      "code": "",
+      "section": "电子书",
+      "context": "美丽新世界 (奥尔德斯•赫胥黎（Aldous Huxley)) 链接：https://pan.quark.cn/s/02e3ee45a48d",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 181,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "美丽新世界 (奥尔德斯•赫胥黎（Aldous Huxley)) 电子书 美丽新世界 (奥尔德斯•赫胥黎（Aldous Huxley)) 链接：https://pan.quark.cn/s/02e3ee45a48d 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r813",
+      "title": "愤怒的葡萄 ([美] 约翰·斯坦贝克 (John Steinbeck)著, 王一凡译)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/f2ea3d9ad96c",
+      "code": "",
+      "section": "电子书",
+      "context": "愤怒的葡萄 ([美] 约翰·斯坦贝克 (John Steinbeck)著, 王一凡译) 链接：https://pan.quark.cn/s/f2ea3d9ad96c",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 184,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "愤怒的葡萄 ([美] 约翰·斯坦贝克 (John Steinbeck)著, 王一凡译) 电子书 愤怒的葡萄 ([美] 约翰·斯坦贝克 (John Steinbeck)著, 王一凡译) 链接：https://pan.quark.cn/s/f2ea3d9ad96c 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r814",
+      "title": "快乐的知识 (【德】尼采)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/ed8cb4acb82a",
+      "code": "",
+      "section": "电子书",
+      "context": "快乐的知识 (【德】尼采) 链接：https://pan.quark.cn/s/ed8cb4acb82a",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 187,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "快乐的知识 (【德】尼采) 电子书 快乐的知识 (【德】尼采) 链接：https://pan.quark.cn/s/ed8cb4acb82a 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r815",
+      "title": "半小时漫画大套装 (共16册) (陈磊 · 半小时漫画团队)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/2328730d2963",
+      "code": "",
+      "section": "电子书",
+      "context": "半小时漫画大套装 (共16册) (陈磊 · 半小时漫画团队) 链接：https://pan.quark.cn/s/2328730d2963",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 190,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "半小时漫画大套装 (共16册) (陈磊 · 半小时漫画团队) 电子书 半小时漫画大套装 (共16册) (陈磊 · 半小时漫画团队) 链接：https://pan.quark.cn/s/2328730d2963 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r816",
+      "title": "思考致富 (【美】希尔(Hill,N. ))",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/21b4eb61609f",
+      "code": "",
+      "section": "电子书",
+      "context": "思考致富 (【美】希尔(Hill,N. )) 链接：https://pan.quark.cn/s/21b4eb61609f",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 193,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "思考致富 (【美】希尔(Hill,N. )) 电子书 思考致富 (【美】希尔(Hill,N. )) 链接：https://pan.quark.cn/s/21b4eb61609f 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r817",
+      "title": "麦田里的守望者",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/a176ef7e6f91",
+      "code": "",
+      "section": "电子书",
+      "context": "麦田里的守望者 链接：https://pan.quark.cn/s/a176ef7e6f91",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 196,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "麦田里的守望者 电子书 麦田里的守望者 链接：https://pan.quark.cn/s/a176ef7e6f91 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r818",
+      "title": "红与黑 (译文名著典藏) (司汤达(Stendhal))",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/916bf715c763",
+      "code": "",
+      "section": "电子书",
+      "context": "红与黑 (译文名著典藏) (司汤达(Stendhal)) 链接：https://pan.quark.cn/s/916bf715c763",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 199,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "红与黑 (译文名著典藏) (司汤达(Stendhal)) 电子书 红与黑 (译文名著典藏) (司汤达(Stendhal)) 链接：https://pan.quark.cn/s/916bf715c763 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r819",
+      "title": "不被大风吹倒 (莫言)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/e8d8e2c403e2",
+      "code": "",
+      "section": "电子书",
+      "context": "不被大风吹倒 (莫言) 链接：https://pan.quark.cn/s/e8d8e2c403e2",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 202,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "不被大风吹倒 (莫言) 电子书 不被大风吹倒 (莫言) 链接：https://pan.quark.cn/s/e8d8e2c403e2 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r820",
+      "title": "哲学家们都干了些什么 (林欣浩)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/30a5ca680d21",
+      "code": "",
+      "section": "电子书",
+      "context": "哲学家们都干了些什么 (林欣浩) 链接：https://pan.quark.cn/s/30a5ca680d21",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 205,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "哲学家们都干了些什么 (林欣浩) 电子书 哲学家们都干了些什么 (林欣浩) 链接：https://pan.quark.cn/s/30a5ca680d21 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r821",
+      "title": "半小时漫画历史系列（共7册）（中国史1-5+世界史1-2。看半小时漫画，通古今中外历史！） (陈磊·半小时漫画团队)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/89de1cc23656",
+      "code": "",
+      "section": "电子书",
+      "context": "半小时漫画历史系列（共7册）（中国史1-5+世界史1-2。看半小时漫画，通古今中外历史！） (陈磊·半小时漫画团队) 链接：https://pan.quark.cn/s/89de1cc23656",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 208,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "半小时漫画历史系列（共7册）（中国史1-5+世界史1-2。看半小时漫画，通古今中外历史！） (陈磊·半小时漫画团队) 电子书 半小时漫画历史系列（共7册）（中国史1-5+世界史1-2。看半小时漫画，通古今中外历史！） (陈磊·半小时漫画团队) 链接：https://pan.quark.cn/s/89de1cc23656 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r822",
+      "title": "不原谅也没关系：复杂性创伤后压力综合征自我疗愈圣经 = Complex PTSD From Surviving to Thriving ([美] 皮特 · 沃克 (Pete Walker) 著 严菲...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/9510777b385e",
+      "code": "",
+      "section": "电子书",
+      "context": "不原谅也没关系：复杂性创伤后压力综合征自我疗愈圣经 = Complex PTSD From Surviving to Thriving ([美] 皮特 · 沃克 (Pete Walker) 著 严菲... 链接：https://pan.quark.cn/s/9510777b385e",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 211,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "不原谅也没关系：复杂性创伤后压力综合征自我疗愈圣经 = Complex PTSD From Surviving to Thriving ([美] 皮特 · 沃克 (Pete Walker) 著 严菲... 电子书 不原谅也没关系：复杂性创伤后压力综合征自我疗愈圣经 = Complex PTSD From Surviving to Thriving ([美] 皮特 · 沃克 (Pete Walker) 著 严菲... 链接：https://pan.quark.cn/s/9510777b385e 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r823",
+      "title": "自私的基因40周年增订版 = The Extended Selfish Gene (Richard Dawkins (理查德 · 道金斯)) (z-library.sk, 1lib.sk, z-lib...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/95e59663bf11",
+      "code": "",
+      "section": "电子书",
+      "context": "自私的基因40周年增订版 = The Extended Selfish Gene (Richard Dawkins (理查德 · 道金斯)) (z-library.sk, 1lib.sk, z-lib... 链接：https://pan.quark.cn/s/95e59663bf11",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 214,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "自私的基因40周年增订版 = The Extended Selfish Gene (Richard Dawkins (理查德 · 道金斯)) (z-library.sk, 1lib.sk, z-lib... 电子书 自私的基因40周年增订版 = The Extended Selfish Gene (Richard Dawkins (理查德 · 道金斯)) (z-library.sk, 1lib.sk, z-lib... 链接：https://pan.quark.cn/s/95e59663bf11 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r824",
+      "title": "精排】南京大屠杀 (张纯如 [张纯如])",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/00ef906d4fdd",
+      "code": "",
+      "section": "电子书",
+      "context": "精排】南京大屠杀 (张纯如 [张纯如]) 链接：https://pan.quark.cn/s/00ef906d4fdd",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 217,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "精排】南京大屠杀 (张纯如 [张纯如]) 电子书 精排】南京大屠杀 (张纯如 [张纯如]) 链接：https://pan.quark.cn/s/00ef906d4fdd 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r825",
+      "title": "人情、面子与权力的再生产(第二版) Face, Favor and Reproduction of Power (翟学伟)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/78ff7ffdbf07",
+      "code": "",
+      "section": "电子书",
+      "context": "人情、面子与权力的再生产(第二版) Face, Favor and Reproduction of Power (翟学伟) 链接：https://pan.quark.cn/s/78ff7ffdbf07",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 220,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "人情、面子与权力的再生产(第二版) Face, Favor and Reproduction of Power (翟学伟) 电子书 人情、面子与权力的再生产(第二版) Face, Favor and Reproduction of Power (翟学伟) 链接：https://pan.quark.cn/s/78ff7ffdbf07 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r826",
+      "title": "撒哈拉的故事 (三毛)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6cc9d47880e1",
+      "code": "",
+      "section": "电子书",
+      "context": "撒哈拉的故事 (三毛) 链接：https://pan.quark.cn/s/6cc9d47880e1",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 223,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "撒哈拉的故事 (三毛) 电子书 撒哈拉的故事 (三毛) 链接：https://pan.quark.cn/s/6cc9d47880e1 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r827",
+      "title": "长安十二时辰（全2册） (马伯庸)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/65b7a39daf89",
+      "code": "",
+      "section": "电子书",
+      "context": "长安十二时辰（全2册） (马伯庸) 链接：https://pan.quark.cn/s/65b7a39daf89",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 226,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "长安十二时辰（全2册） (马伯庸) 电子书 长安十二时辰（全2册） (马伯庸) 链接：https://pan.quark.cn/s/65b7a39daf89 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r828",
+      "title": "辛弃疾新传 (辛更儒)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/75765312f872",
+      "code": "",
+      "section": "电子书",
+      "context": "辛弃疾新传 (辛更儒) 链接：https://pan.quark.cn/s/75765312f872",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 229,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "辛弃疾新传 (辛更儒) 电子书 辛弃疾新传 (辛更儒) 链接：https://pan.quark.cn/s/75765312f872 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r829",
+      "title": "筚路维艰 (萧冬连)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/30174968a65e",
+      "code": "",
+      "section": "电子书",
+      "context": "筚路维艰 (萧冬连) 链接：https://pan.quark.cn/s/30174968a65e",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 232,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "筚路维艰 (萧冬连) 电子书 筚路维艰 (萧冬连) 链接：https://pan.quark.cn/s/30174968a65e 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r830",
+      "title": "小镇喧嚣一个乡镇政治运作的演绎与阐释 (吴毅)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/4db5b6f03fc6",
+      "code": "",
+      "section": "电子书",
+      "context": "小镇喧嚣一个乡镇政治运作的演绎与阐释 (吴毅) 链接：https://pan.quark.cn/s/4db5b6f03fc6",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 235,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "小镇喧嚣一个乡镇政治运作的演绎与阐释 (吴毅) 电子书 小镇喧嚣一个乡镇政治运作的演绎与阐释 (吴毅) 链接：https://pan.quark.cn/s/4db5b6f03fc6 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r831",
+      "title": "丝绸之路大历史：当古代中国遭遇世界 (郭建龙)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/d5aafef35efb",
+      "code": "",
+      "section": "电子书",
+      "context": "丝绸之路大历史：当古代中国遭遇世界 (郭建龙) 链接：https://pan.quark.cn/s/d5aafef35efb",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 238,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "丝绸之路大历史：当古代中国遭遇世界 (郭建龙) 电子书 丝绸之路大历史：当古代中国遭遇世界 (郭建龙) 链接：https://pan.quark.cn/s/d5aafef35efb 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r832",
+      "title": "魏晋之际的政治权力与家族网络 (仇鹿鸣)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/22df7cff84f0",
+      "code": "",
+      "section": "电子书",
+      "context": "魏晋之际的政治权力与家族网络 (仇鹿鸣) 链接：https://pan.quark.cn/s/22df7cff84f0",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 241,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "魏晋之际的政治权力与家族网络 (仇鹿鸣) 电子书 魏晋之际的政治权力与家族网络 (仇鹿鸣) 链接：https://pan.quark.cn/s/22df7cff84f0 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r833",
+      "title": "县乡中国 县域治理现代化 (杨华)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/283c04079329",
+      "code": "",
+      "section": "电子书",
+      "context": "县乡中国 县域治理现代化 (杨华) 链接：https://pan.quark.cn/s/283c04079329",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 244,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "县乡中国 县域治理现代化 (杨华) 电子书 县乡中国 县域治理现代化 (杨华) 链接：https://pan.quark.cn/s/283c04079329 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r834",
+      "title": "十日终焉 (杀虫队队员)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/0380d348ccd9",
+      "code": "",
+      "section": "电子书",
+      "context": "十日终焉 (杀虫队队员) 链接：https://pan.quark.cn/s/0380d348ccd9",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 247,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "十日终焉 (杀虫队队员) 电子书 十日终焉 (杀虫队队员) 链接：https://pan.quark.cn/s/0380d348ccd9 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r835",
+      "title": "辛弃疾词选（萃取辛弃疾富有代表性的作品；附有深入浅出的解读；人民文学出版社倾力打造，经典名著，口碑版本） (古典文学大字本) (辛弃疾,刘... (z-library.sk, 1lib.sk, z-l...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/40eacd27546f",
+      "code": "",
+      "section": "电子书",
+      "context": "辛弃疾词选（萃取辛弃疾富有代表性的作品；附有深入浅出的解读；人民文学出版社倾力打造，经典名著，口碑版本） (古典文学大字本) (辛弃疾,刘... (z-library.sk, 1lib.sk, z-l... 链接：https://pan.quark.cn/s/40eacd27546f",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 250,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "辛弃疾词选（萃取辛弃疾富有代表性的作品；附有深入浅出的解读；人民文学出版社倾力打造，经典名著，口碑版本） (古典文学大字本) (辛弃疾,刘... (z-library.sk, 1lib.sk, z-l... 电子书 辛弃疾词选（萃取辛弃疾富有代表性的作品；附有深入浅出的解读；人民文学出版社倾力打造，经典名著，口碑版本） (古典文学大字本) (辛弃疾,刘... (z-library.sk, 1lib.sk, z-l... 链接：https://pan.quark.cn/s/40eacd27546f 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r836",
+      "title": "人生 (路遥)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/8212be133f52",
+      "code": "",
+      "section": "电子书",
+      "context": "人生 (路遥) 链接：https://pan.quark.cn/s/8212be133f52",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 253,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "人生 (路遥) 电子书 人生 (路遥) 链接：https://pan.quark.cn/s/8212be133f52 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r837",
+      "title": "大明王朝1566（全二册） (刘和平)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/c96be02a2708",
+      "code": "",
+      "section": "电子书",
+      "context": "大明王朝1566（全二册） (刘和平) 链接：https://pan.quark.cn/s/c96be02a2708",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 256,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "大明王朝1566（全二册） (刘和平) 电子书 大明王朝1566（全二册） (刘和平) 链接：https://pan.quark.cn/s/c96be02a2708 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r838",
+      "title": "南明史 (顾诚)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/02b983751dd8",
+      "code": "",
+      "section": "电子书",
+      "context": "南明史 (顾诚) 链接：https://pan.quark.cn/s/02b983751dd8",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 259,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "南明史 (顾诚) 电子书 南明史 (顾诚) 链接：https://pan.quark.cn/s/02b983751dd8 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r839",
+      "title": "戴建业精读世说新语 (戴建业)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/98d3f3d1dad3",
+      "code": "",
+      "section": "电子书",
+      "context": "戴建业精读世说新语 (戴建业) 链接：https://pan.quark.cn/s/98d3f3d1dad3",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 262,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "戴建业精读世说新语 (戴建业) 电子书 戴建业精读世说新语 (戴建业) 链接：https://pan.quark.cn/s/98d3f3d1dad3 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r840",
+      "title": "诗经（全二册）--中华经典名著全本全注全译 (中华经典名著全本全注全译丛书) (王秀梅译注)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/8c958ebd221f",
+      "code": "",
+      "section": "电子书",
+      "context": "诗经（全二册）--中华经典名著全本全注全译 (中华经典名著全本全注全译丛书) (王秀梅译注) 链接：https://pan.quark.cn/s/8c958ebd221f",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 265,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "诗经（全二册）--中华经典名著全本全注全译 (中华经典名著全本全注全译丛书) (王秀梅译注) 电子书 诗经（全二册）--中华经典名著全本全注全译 (中华经典名著全本全注全译丛书) (王秀梅译注) 链接：https://pan.quark.cn/s/8c958ebd221f 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r841",
+      "title": "毛泽东诗词全编鉴赏 (毛泽东 [毛泽东])",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/488ad5ea35ef",
+      "code": "",
+      "section": "电子书",
+      "context": "毛泽东诗词全编鉴赏 (毛泽东 [毛泽东]) 链接：https://pan.quark.cn/s/488ad5ea35ef",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 268,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "毛泽东诗词全编鉴赏 (毛泽东 [毛泽东]) 电子书 毛泽东诗词全编鉴赏 (毛泽东 [毛泽东]) 链接：https://pan.quark.cn/s/488ad5ea35ef 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r842",
+      "title": "历史的温度1-5（套装共5册） (张玮)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6ecdd43c1c28",
+      "code": "",
+      "section": "电子书",
+      "context": "历史的温度1-5（套装共5册） (张玮) 链接：https://pan.quark.cn/s/6ecdd43c1c28",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 271,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "历史的温度1-5（套装共5册） (张玮) 电子书 历史的温度1-5（套装共5册） (张玮) 链接：https://pan.quark.cn/s/6ecdd43c1c28 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r843",
+      "title": "唐诗鉴赏辞典(新一版) (上海辞书出版社文学鉴赏辞典编纂中心)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/4b7d1d1dc3e2",
+      "code": "",
+      "section": "电子书",
+      "context": "唐诗鉴赏辞典(新一版) (上海辞书出版社文学鉴赏辞典编纂中心) 链接：https://pan.quark.cn/s/4b7d1d1dc3e2",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 274,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "唐诗鉴赏辞典(新一版) (上海辞书出版社文学鉴赏辞典编纂中心) 电子书 唐诗鉴赏辞典(新一版) (上海辞书出版社文学鉴赏辞典编纂中心) 链接：https://pan.quark.cn/s/4b7d1d1dc3e2 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r844",
+      "title": "中国文史哲大辞典(套装共6册)(一部中国文化的百科全书，一部中国人案头必备的鸿篇巨制) (上海辞书出品) (郑天挺 谭其骧 钱仲联 章培恒 傅璇琮... (z-library.sk, 1lib...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/1f1663f7ecaa",
+      "code": "",
+      "section": "电子书",
+      "context": "中国文史哲大辞典(套装共6册)(一部中国文化的百科全书，一部中国人案头必备的鸿篇巨制) (上海辞书出品) (郑天挺 谭其骧 钱仲联 章培恒 傅璇琮... (z-library.sk, 1lib... 链接：https://pan.quark.cn/s/1f1663f7ecaa",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 277,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "中国文史哲大辞典(套装共6册)(一部中国文化的百科全书，一部中国人案头必备的鸿篇巨制) (上海辞书出品) (郑天挺 谭其骧 钱仲联 章培恒 傅璇琮... (z-library.sk, 1lib... 电子书 中国文史哲大辞典(套装共6册)(一部中国文化的百科全书，一部中国人案头必备的鸿篇巨制) (上海辞书出品) (郑天挺 谭其骧 钱仲联 章培恒 傅璇琮... (z-library.sk, 1lib... 链接：https://pan.quark.cn/s/1f1663f7ecaa 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r845",
+      "title": "帝师教科书张居正直解经典合集（共8册，明代两朝帝师、首府张居正为万历皇帝量身定做的宫内首选教科书，《论语》《大学》《中庸》《资治通鉴... (z-library.sk, 1lib.sk, z-lib....",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/81482db5f2fc",
+      "code": "",
+      "section": "电子书",
+      "context": "帝师教科书张居正直解经典合集（共8册，明代两朝帝师、首府张居正为万历皇帝量身定做的宫内首选教科书，《论语》《大学》《中庸》《资治通鉴... (z-library.sk, 1lib.sk, z-lib.... 链接：https://pan.quark.cn/s/81482db5f2fc",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 280,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "帝师教科书张居正直解经典合集（共8册，明代两朝帝师、首府张居正为万历皇帝量身定做的宫内首选教科书，《论语》《大学》《中庸》《资治通鉴... (z-library.sk, 1lib.sk, z-lib.... 电子书 帝师教科书张居正直解经典合集（共8册，明代两朝帝师、首府张居正为万历皇帝量身定做的宫内首选教科书，《论语》《大学》《中庸》《资治通鉴... (z-library.sk, 1lib.sk, z-lib.... 链接：https://pan.quark.cn/s/81482db5f2fc 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r846",
+      "title": "欧·亨利短篇小说选 (欧·亨利)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/67a3bf6df80d",
+      "code": "",
+      "section": "电子书",
+      "context": "欧·亨利短篇小说选 (欧·亨利) 链接：https://pan.quark.cn/s/67a3bf6df80d",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 283,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "欧·亨利短篇小说选 (欧·亨利) 电子书 欧·亨利短篇小说选 (欧·亨利) 链接：https://pan.quark.cn/s/67a3bf6df80d 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r847",
+      "title": "世界名著名译文库第四辑第五辑合集(套装共51册) (陀思妥耶夫斯基集+泰戈尔集+契诃夫集+巴尔扎克集+哈代集+歌德集+纪德集+冈察洛夫集+莱蒙托夫集+... (z-library.sk, 1lib.s...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/bcbd8b88b128",
+      "code": "",
+      "section": "电子书",
+      "context": "世界名著名译文库第四辑第五辑合集(套装共51册) (陀思妥耶夫斯基集+泰戈尔集+契诃夫集+巴尔扎克集+哈代集+歌德集+纪德集+冈察洛夫集+莱蒙托夫集+... (z-library.sk, 1lib.s... 链接：https://pan.quark.cn/s/bcbd8b88b128",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 286,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "世界名著名译文库第四辑第五辑合集(套装共51册) (陀思妥耶夫斯基集+泰戈尔集+契诃夫集+巴尔扎克集+哈代集+歌德集+纪德集+冈察洛夫集+莱蒙托夫集+... (z-library.sk, 1lib.s... 电子书 世界名著名译文库第四辑第五辑合集(套装共51册) (陀思妥耶夫斯基集+泰戈尔集+契诃夫集+巴尔扎克集+哈代集+歌德集+纪德集+冈察洛夫集+莱蒙托夫集+... (z-library.sk, 1lib.s... 链接：https://pan.quark.cn/s/bcbd8b88b128 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r848",
+      "title": "资治通鉴 (中华经典普及文库) (司马光)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/2dd048b7f67f",
+      "code": "",
+      "section": "电子书",
+      "context": "资治通鉴 (中华经典普及文库) (司马光) 链接：https://pan.quark.cn/s/2dd048b7f67f",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 289,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "资治通鉴 (中华经典普及文库) (司马光) 电子书 资治通鉴 (中华经典普及文库) (司马光) 链接：https://pan.quark.cn/s/2dd048b7f67f 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r849",
+      "title": "资治通鉴 ([宋] 司马光 著 胡三省 注)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/ede4edff8f81",
+      "code": "",
+      "section": "电子书",
+      "context": "资治通鉴 ([宋] 司马光 著 胡三省 注) 链接：https://pan.quark.cn/s/ede4edff8f81",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 292,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "资治通鉴 ([宋] 司马光 著 胡三省 注) 电子书 资治通鉴 ([宋] 司马光 著 胡三省 注) 链接：https://pan.quark.cn/s/ede4edff8f81 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r850",
+      "title": "历史从未走远 (王立群)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/d18d84fd3195",
+      "code": "",
+      "section": "电子书",
+      "context": "历史从未走远 (王立群) 链接：https://pan.quark.cn/s/d18d84fd3195",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 295,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "历史从未走远 (王立群) 电子书 历史从未走远 (王立群) 链接：https://pan.quark.cn/s/d18d84fd3195 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r851",
+      "title": "译文名著精选·第二辑（套装共28册）【上海译文出品！打造中文电子书市场一套完整的世界文学阅读体系！你口袋里的终身文学阅读计划！从简·奥... (z-library.sk, 1lib.sk, z-lib...",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/efd5cf84e6e5",
+      "code": "",
+      "section": "电子书",
+      "context": "译文名著精选·第二辑（套装共28册）【上海译文出品！打造中文电子书市场一套完整的世界文学阅读体系！你口袋里的终身文学阅读计划！从简·奥... (z-library.sk, 1lib.sk, z-lib... 链接：https://pan.quark.cn/s/efd5cf84e6e5",
+      "sources": [
+        {
+          "file": "pasted-text.txt",
+          "line": 298,
+          "section": "电子书"
+        }
+      ],
+      "searchText": "译文名著精选·第二辑（套装共28册）【上海译文出品！打造中文电子书市场一套完整的世界文学阅读体系！你口袋里的终身文学阅读计划！从简·奥... (z-library.sk, 1lib.sk, z-lib... 电子书 译文名著精选·第二辑（套装共28册）【上海译文出品！打造中文电子书市场一套完整的世界文学阅读体系！你口袋里的终身文学阅读计划！从简·奥... (z-library.sk, 1lib.sk, z-lib... 链接：https://pan.quark.cn/s/efd5cf84e6e5 夸克 网盘 电子书 pasted-text.txt"
     }
   ]
 };
