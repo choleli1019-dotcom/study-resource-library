@@ -1,22 +1,22 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-07-23T03:34:18.286Z",
-  "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt",
+  "generatedAt": "2026-07-23T03:43:48.117Z",
+  "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
     "raw": {
       "quark": 851,
-      "baidu": 0,
-      "total": 851
+      "baidu": 333,
+      "total": 1184
     },
     "unique": {
       "quark": 851,
-      "baidu": 0,
-      "total": 851
+      "baidu": 318,
+      "total": 1169
     },
     "duplicate": {
       "quark": 0,
-      "baidu": 0,
-      "total": 0
+      "baidu": 15,
+      "total": 15
     }
   },
   "sources": [
@@ -47,6 +47,24 @@ window.PAN_SEARCH_DATA = {
       "total": 100,
       "sections": {
         "电子书": 100
+      }
+    },
+    {
+      "file": "百度网盘链接.txt",
+      "quark": 0,
+      "baidu": 318,
+      "total": 318,
+      "raw": 333,
+      "duplicate": 15,
+      "sections": {
+        "公考类": 240,
+        "其他类别考试": 45,
+        "事业单位": 21,
+        "教招教资": 5,
+        "面试": 4,
+        "公安、公专": 1,
+        "三支一扶": 1,
+        "选调遴选": 1
       }
     }
   ],
@@ -14517,6 +14535,5412 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "译文名著精选·第二辑（套装共28册）【上海译文出品！打造中文电子书市场一套完整的世界文学阅读体系！你口袋里的终身文学阅读计划！从简·奥... (z-library.sk, 1lib.sk, z-lib... 电子书 译文名著精选·第二辑（套装共28册）【上海译文出品！打造中文电子书市场一套完整的世界文学阅读体系！你口袋里的终身文学阅读计划！从简·奥... (z-library.sk, 1lib.sk, z-lib... 链接：https://pan.quark.cn/s/efd5cf84e6e5 夸克 网盘 电子书 pasted-text.txt"
+    },
+    {
+      "id": "r852",
+      "title": "财会类",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1MVAl2hqq7_StId7XZKV0mA?pwd=v87c",
+      "code": "v87c",
+      "section": "其他类别考试",
+      "context": "财会类 链接：https://pan.baidu.com/s/1MVAl2hqq7_StId7XZKV0mA?pwd=v87c 提取码：v87c",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "财会类 其他类别考试 财会类 链接：https://pan.baidu.com/s/1MVAl2hqq7_StId7XZKV0mA?pwd=v87c 提取码：v87c v87c 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r853",
+      "title": "1、国省考名师、模块分类",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1SZ0xw_QfjLS1a-4kiSvR4Q?pwd=v87c",
+      "code": "v87c",
+      "section": "公考类",
+      "context": "1、国省考名师、模块分类 链接：https://pan.baidu.com/s/1SZ0xw_QfjLS1a-4kiSvR4Q?pwd=v87c 提取码：v87c",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 5,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "1、国省考名师、模块分类 公考类 1、国省考名师、模块分类 链接：https://pan.baidu.com/s/1SZ0xw_QfjLS1a-4kiSvR4Q?pwd=v87c 提取码：v87c v87c 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r854",
+      "title": "6、教资教招",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Wcz0lweSZkBqrsRf5-R09A?pwd=v87c",
+      "code": "v87c",
+      "section": "教招教资",
+      "context": "6、教资教招 链接：https://pan.baidu.com/s/1Wcz0lweSZkBqrsRf5-R09A?pwd=v87c 提取码：v87c",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 9,
+          "section": "教招教资"
+        }
+      ],
+      "searchText": "6、教资教招 教招教资 6、教资教招 链接：https://pan.baidu.com/s/1Wcz0lweSZkBqrsRf5-R09A?pwd=v87c 提取码：v87c v87c 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r855",
+      "title": "2、事业单位合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1c6oERNogZkxeRoI3JE0FiA?pwd=v87c",
+      "code": "v87c",
+      "section": "事业单位",
+      "context": "2、事业单位合集 链接：https://pan.baidu.com/s/1c6oERNogZkxeRoI3JE0FiA?pwd=v87c 提取码：v87c",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 13,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "2、事业单位合集 事业单位 2、事业单位合集 链接：https://pan.baidu.com/s/1c6oERNogZkxeRoI3JE0FiA?pwd=v87c 提取码：v87c v87c 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r856",
+      "title": "4、公安、公专",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1NKda0LtmXnixmt_Ow9yJhQ?pwd=v87c",
+      "code": "v87c",
+      "section": "公安、公专",
+      "context": "4、公安、公专 链接：https://pan.baidu.com/s/1NKda0LtmXnixmt_Ow9yJhQ?pwd=v87c 提取码：v87c",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 17,
+          "section": "公安、公专"
+        }
+      ],
+      "searchText": "4、公安、公专 公安、公专 4、公安、公专 链接：https://pan.baidu.com/s/1NKda0LtmXnixmt_Ow9yJhQ?pwd=v87c 提取码：v87c v87c 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r857",
+      "title": "3、三扶一支",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1wzWRkP4VxxijoPwHo0G3tg?pwd=v87c",
+      "code": "v87c",
+      "section": "三支一扶",
+      "context": "3、三扶一支 链接：https://pan.baidu.com/s/1wzWRkP4VxxijoPwHo0G3tg?pwd=v87c 提取码：v87c",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 21,
+          "section": "三支一扶"
+        }
+      ],
+      "searchText": "3、三扶一支 三支一扶 3、三扶一支 链接：https://pan.baidu.com/s/1wzWRkP4VxxijoPwHo0G3tg?pwd=v87c 提取码：v87c v87c 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r858",
+      "title": "5、面试",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1UPQgrkucZ9KFfJvaZDM8wA?pwd=v87c",
+      "code": "v87c",
+      "section": "面试",
+      "context": "5、面试 链接：https://pan.baidu.com/s/1UPQgrkucZ9KFfJvaZDM8wA?pwd=v87c 提取码：v87c",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 25,
+          "section": "面试"
+        }
+      ],
+      "searchText": "5、面试 面试 5、面试 链接：https://pan.baidu.com/s/1UPQgrkucZ9KFfJvaZDM8wA?pwd=v87c 提取码：v87c v87c 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r859",
+      "title": "军队文职",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1GcRCEO7Yylr6HrbdvuwheA?pwd=v87c",
+      "code": "v87c",
+      "section": "其他类别考试",
+      "context": "军队文职 链接：https://pan.baidu.com/s/1GcRCEO7Yylr6HrbdvuwheA?pwd=v87c 提取码：v87c",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 29,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "军队文职 其他类别考试 军队文职 链接：https://pan.baidu.com/s/1GcRCEO7Yylr6HrbdvuwheA?pwd=v87c 提取码：v87c v87c 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r860",
+      "title": "2026社会工作者（初中高级）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1yNr5pqwQ5zX6BAHYC78ELg?pwd=v87c",
+      "code": "v87c",
+      "section": "其他类别考试",
+      "context": "2026社会工作者（初中高级） 链接：https://pan.baidu.com/s/1yNr5pqwQ5zX6BAHYC78ELg?pwd=v87c 提取码：v87c",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 33,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "2026社会工作者（初中高级） 其他类别考试 2026社会工作者（初中高级） 链接：https://pan.baidu.com/s/1yNr5pqwQ5zX6BAHYC78ELg?pwd=v87c 提取码：v87c v87c 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r861",
+      "title": "D、成语积累晨读资料",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1NoiJ2amXAISH0ntFuA28_g?pwd=gqbe",
+      "code": "gqbe",
+      "section": "其他类别考试",
+      "context": "D、成语积累晨读资料 链接：https://pan.baidu.com/s/1NoiJ2amXAISH0ntFuA28_g?pwd=gqbe 提取码：gqbe",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 73,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "D、成语积累晨读资料 其他类别考试 D、成语积累晨读资料 链接：https://pan.baidu.com/s/1NoiJ2amXAISH0ntFuA28_g?pwd=gqbe 提取码：gqbe gqbe 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r862",
+      "title": "A、2027公考合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1lVFmVPjXDP2INg97HEJ7gA?pwd=gqbe",
+      "code": "gqbe",
+      "section": "公考类",
+      "context": "A、2027公考合集 链接：https://pan.baidu.com/s/1lVFmVPjXDP2INg97HEJ7gA?pwd=gqbe 提取码：gqbe",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 77,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "A、2027公考合集 公考类 A、2027公考合集 链接：https://pan.baidu.com/s/1lVFmVPjXDP2INg97HEJ7gA?pwd=gqbe 提取码：gqbe gqbe 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r863",
+      "title": "C、考公资料包（笔记题本真题）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1XD111AArfNXu0qDlsAqxzw?pwd=gqbe",
+      "code": "gqbe",
+      "section": "公考类",
+      "context": "C、考公资料包（笔记题本真题） 链接：https://pan.baidu.com/s/1XD111AArfNXu0qDlsAqxzw?pwd=gqbe 提取码：gqbe",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 81,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "C、考公资料包（笔记题本真题） 公考类 C、考公资料包（笔记题本真题） 链接：https://pan.baidu.com/s/1XD111AArfNXu0qDlsAqxzw?pwd=gqbe 提取码：gqbe gqbe 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r864",
+      "title": "B、2026公考合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1EVniw-HBUj96Zmcyv2A_Mw?pwd=gqbe",
+      "code": "gqbe",
+      "section": "公考类",
+      "context": "B、2026公考合集 链接：https://pan.baidu.com/s/1EVniw-HBUj96Zmcyv2A_Mw?pwd=gqbe 提取码：gqbe",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 85,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "B、2026公考合集 公考类 B、2026公考合集 链接：https://pan.baidu.com/s/1EVniw-HBUj96Zmcyv2A_Mw?pwd=gqbe 提取码：gqbe gqbe 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r865",
+      "title": "27资料分析、数量关系",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1BH9oEV3uV-hoqzYfR0YGQw?pwd=jd61",
+      "code": "jd61",
+      "section": "公考类",
+      "context": "27资料分析、数量关系 链接：https://pan.baidu.com/s/1BH9oEV3uV-hoqzYfR0YGQw?pwd=jd61 提取码：jd61",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 89,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "27资料分析、数量关系 公考类 27资料分析、数量关系 链接：https://pan.baidu.com/s/1BH9oEV3uV-hoqzYfR0YGQw?pwd=jd61 提取码：jd61 jd61 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r866",
+      "title": "27判断推理",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1edmUqvqHZlaMfPJGj_jnRQ?pwd=jd61",
+      "code": "jd61",
+      "section": "公考类",
+      "context": "27判断推理 链接：https://pan.baidu.com/s/1edmUqvqHZlaMfPJGj_jnRQ?pwd=jd61 提取码：jd61",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 93,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "27判断推理 公考类 27判断推理 链接：https://pan.baidu.com/s/1edmUqvqHZlaMfPJGj_jnRQ?pwd=jd61 提取码：jd61 jd61 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r867",
+      "title": "27言语合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1QG7RWh0_t_PINdE1PE0VpQ?pwd=jd61",
+      "code": "jd61",
+      "section": "公考类",
+      "context": "27言语合集 链接：https://pan.baidu.com/s/1QG7RWh0_t_PINdE1PE0VpQ?pwd=jd61 提取码：jd61",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 97,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "27言语合集 公考类 27言语合集 链接：https://pan.baidu.com/s/1QG7RWh0_t_PINdE1PE0VpQ?pwd=jd61 提取码：jd61 jd61 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r868",
+      "title": "27留言资料单独更新",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1mIiz_C5Xwhph_PGTEq5uCg?pwd=jd61",
+      "code": "jd61",
+      "section": "其他类别考试",
+      "context": "27留言资料单独更新 链接：https://pan.baidu.com/s/1mIiz_C5Xwhph_PGTEq5uCg?pwd=jd61 提取码：jd61",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 101,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "27留言资料单独更新 其他类别考试 27留言资料单独更新 链接：https://pan.baidu.com/s/1mIiz_C5Xwhph_PGTEq5uCg?pwd=jd61 提取码：jd61 jd61 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r869",
+      "title": "27公基常识时政",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1WU-3_ykPZFGV8uyGd7oYuw?pwd=jd61",
+      "code": "jd61",
+      "section": "公考类",
+      "context": "27公基常识时政 链接：https://pan.baidu.com/s/1WU-3_ykPZFGV8uyGd7oYuw?pwd=jd61 提取码：jd61",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 105,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "27公基常识时政 公考类 27公基常识时政 链接：https://pan.baidu.com/s/1WU-3_ykPZFGV8uyGd7oYuw?pwd=jd61 提取码：jd61 jd61 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r870",
+      "title": "27行测、机构合集（花生、超格、上岸村）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1orGyIgCzdvO_vc-baGyd6A?pwd=jd61",
+      "code": "jd61",
+      "section": "公考类",
+      "context": "27行测、机构合集（花生、超格、上岸村） 链接：https://pan.baidu.com/s/1orGyIgCzdvO_vc-baGyd6A?pwd=jd61 提取码：jd61",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 109,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "27行测、机构合集（花生、超格、上岸村） 公考类 27行测、机构合集（花生、超格、上岸村） 链接：https://pan.baidu.com/s/1orGyIgCzdvO_vc-baGyd6A?pwd=jd61 提取码：jd61 jd61 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r871",
+      "title": "27申论合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1wk-jNZlZDgG_Vn-T9qNLUQ?pwd=jd61",
+      "code": "jd61",
+      "section": "公考类",
+      "context": "27申论合集 链接：https://pan.baidu.com/s/1wk-jNZlZDgG_Vn-T9qNLUQ?pwd=jd61 提取码：jd61",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 113,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "27申论合集 公考类 27申论合集 链接：https://pan.baidu.com/s/1wk-jNZlZDgG_Vn-T9qNLUQ?pwd=jd61 提取码：jd61 jd61 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r872",
+      "title": "27国省考名师课程",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1cY4Dzq5niXUNichz90k4Uw?pwd=jd61",
+      "code": "jd61",
+      "section": "公考类",
+      "context": "27国省考名师课程 链接：https://pan.baidu.com/s/1cY4Dzq5niXUNichz90k4Uw?pwd=jd61 提取码：jd61",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 117,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "27国省考名师课程 公考类 27国省考名师课程 链接：https://pan.baidu.com/s/1cY4Dzq5niXUNichz90k4Uw?pwd=jd61 提取码：jd61 jd61 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r873",
+      "title": "2027年刘文超小马哥行测申论360全程班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1KttKUDC6dfohWi8z2oz59Q?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027年刘文超小马哥行测申论360全程班 链接：https://pan.baidu.com/s/1KttKUDC6dfohWi8z2oz59Q?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 121,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027年刘文超小马哥行测申论360全程班 公考类 2027年刘文超小马哥行测申论360全程班 链接：https://pan.baidu.com/s/1KttKUDC6dfohWi8z2oz59Q?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r874",
+      "title": "2027花生十三资料分析600题精讲课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/102k4o6h-oxHFG2_HrNmhKw?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027花生十三资料分析600题精讲课 链接：https://pan.baidu.com/s/102k4o6h-oxHFG2_HrNmhKw?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 125,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027花生十三资料分析600题精讲课 公考类 2027花生十三资料分析600题精讲课 链接：https://pan.baidu.com/s/102k4o6h-oxHFG2_HrNmhKw?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r875",
+      "title": "Z 朱曦",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1uNp3e0NH0_-LkG-t4b3Iww?pwd=hu86",
+      "code": "hu86",
+      "section": "其他类别考试",
+      "context": "Z 朱曦 链接：https://pan.baidu.com/s/1uNp3e0NH0_-LkG-t4b3Iww?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 129,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "Z 朱曦 其他类别考试 Z 朱曦 链接：https://pan.baidu.com/s/1uNp3e0NH0_-LkG-t4b3Iww?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r876",
+      "title": "2027小马哥申论理论+刷题全程班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/15YZ2-ec9fWNAdQ_AcbBYLw?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/15YZ2-ec9fWNAdQ_AcbBYLw?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 133,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027小马哥申论理论+刷题全程班 公考类 2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/15YZ2-ec9fWNAdQ_AcbBYLw?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r877",
+      "title": "鹤峰常识判断磨耳朵",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1542zrmOPATHVu4LHYO3e1A?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "鹤峰常识判断磨耳朵 链接：https://pan.baidu.com/s/1542zrmOPATHVu4LHYO3e1A?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 137,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "鹤峰常识判断磨耳朵 公考类 鹤峰常识判断磨耳朵 链接：https://pan.baidu.com/s/1542zrmOPATHVu4LHYO3e1A?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r878",
+      "title": "2027国省考季花生十三飞扬系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/13T16NTbHi-GOo4oLD4Hv5w?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027国省考季花生十三飞扬系统班 链接：https://pan.baidu.com/s/13T16NTbHi-GOo4oLD4Hv5w?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 141,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027国省考季花生十三飞扬系统班 公考类 2027国省考季花生十三飞扬系统班 链接：https://pan.baidu.com/s/13T16NTbHi-GOo4oLD4Hv5w?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r879",
+      "title": "27年刘义恒刘义恒理论实战课后思维导图",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1BiuHZ2YejSQzCBec8uJjbA?pwd=hu86",
+      "code": "hu86",
+      "section": "其他类别考试",
+      "context": "27年刘义恒刘义恒理论实战课后思维导图 链接：https://pan.baidu.com/s/1BiuHZ2YejSQzCBec8uJjbA?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 145,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "27年刘义恒刘义恒理论实战课后思维导图 其他类别考试 27年刘义恒刘义恒理论实战课后思维导图 链接：https://pan.baidu.com/s/1BiuHZ2YejSQzCBec8uJjbA?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r880",
+      "title": "2027国考齐麟晚自习",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1PxZbaVIqjVuzuhhaUNO3Aw?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027国考齐麟晚自习 链接：https://pan.baidu.com/s/1PxZbaVIqjVuzuhhaUNO3Aw?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 149,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027国考齐麟晚自习 公考类 2027国考齐麟晚自习 链接：https://pan.baidu.com/s/1PxZbaVIqjVuzuhhaUNO3Aw?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r881",
+      "title": "行测申论】2027超格行测+申论全家桶课程（实战桶）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ahWwaQBxtP7lUX5s87bymg?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "行测申论】2027超格行测+申论全家桶课程（实战桶） 链接：https://pan.baidu.com/s/1ahWwaQBxtP7lUX5s87bymg?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 153,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "行测申论】2027超格行测+申论全家桶课程（实战桶） 公考类 行测申论】2027超格行测+申论全家桶课程（实战桶） 链接：https://pan.baidu.com/s/1ahWwaQBxtP7lUX5s87bymg?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r882",
+      "title": "2027国省考大懒猫言语理论课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1gGGA1ksW_EJmyHlHFqgJlQ?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027国省考大懒猫言语理论课 链接：https://pan.baidu.com/s/1gGGA1ksW_EJmyHlHFqgJlQ?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 157,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027国省考大懒猫言语理论课 公考类 2027国省考大懒猫言语理论课 链接：https://pan.baidu.com/s/1gGGA1ksW_EJmyHlHFqgJlQ?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r883",
+      "title": "2027年国省考相丽君申论解题思维趣学营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/15dNqqg1bqqIaT8kKzXY_rg?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027年国省考相丽君申论解题思维趣学营 链接：https://pan.baidu.com/s/15dNqqg1bqqIaT8kKzXY_rg?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 161,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027年国省考相丽君申论解题思维趣学营 公考类 2027年国省考相丽君申论解题思维趣学营 链接：https://pan.baidu.com/s/15dNqqg1bqqIaT8kKzXY_rg?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r884",
+      "title": "政治理论】2027超哥国省考政治理论刷题课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1mEmWjcuHhgOHy6a8uD0Qnw?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "政治理论】2027超哥国省考政治理论刷题课 链接：https://pan.baidu.com/s/1mEmWjcuHhgOHy6a8uD0Qnw?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 165,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "政治理论】2027超哥国省考政治理论刷题课 公考类 政治理论】2027超哥国省考政治理论刷题课 链接：https://pan.baidu.com/s/1mEmWjcuHhgOHy6a8uD0Qnw?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r885",
+      "title": "2026年钩不了沉大作文专项班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1l_VrV8GBSukXCUdosU91Xg?pwd=hu86",
+      "code": "hu86",
+      "section": "其他类别考试",
+      "context": "2026年钩不了沉大作文专项班 链接：https://pan.baidu.com/s/1l_VrV8GBSukXCUdosU91Xg?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 169,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "2026年钩不了沉大作文专项班 其他类别考试 2026年钩不了沉大作文专项班 链接：https://pan.baidu.com/s/1l_VrV8GBSukXCUdosU91Xg?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r886",
+      "title": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/10WvWUolH55bGE1jnvAZopA?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 链接：https://pan.baidu.com/s/10WvWUolH55bGE1jnvAZopA?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 173,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 公考类 行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 链接：https://pan.baidu.com/s/10WvWUolH55bGE1jnvAZopA?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r887",
+      "title": "半月谈＂四节课＂搞定申论",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1TOLSrsFmrvObi8sf6XaHGA?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "半月谈＂四节课＂搞定申论 链接：https://pan.baidu.com/s/1TOLSrsFmrvObi8sf6XaHGA?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 177,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "半月谈＂四节课＂搞定申论 公考类 半月谈＂四节课＂搞定申论 链接：https://pan.baidu.com/s/1TOLSrsFmrvObi8sf6XaHGA?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r888",
+      "title": "2027年国省考、选调笔试基础通关课【JS",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1NOgAqWUQekt6w4fMH3993g?pwd=hu86",
+      "code": "hu86",
+      "section": "选调遴选",
+      "context": "2027年国省考、选调笔试基础通关课【JS 链接：https://pan.baidu.com/s/1NOgAqWUQekt6w4fMH3993g?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 181,
+          "section": "选调遴选"
+        }
+      ],
+      "searchText": "2027年国省考、选调笔试基础通关课【JS 选调遴选 2027年国省考、选调笔试基础通关课【JS 链接：https://pan.baidu.com/s/1NOgAqWUQekt6w4fMH3993g?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r889",
+      "title": "2026年钩不了沉大作文刷题班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1AaOnNWuQumSTwxZtevoMIQ?pwd=hu86",
+      "code": "hu86",
+      "section": "其他类别考试",
+      "context": "2026年钩不了沉大作文刷题班 链接：https://pan.baidu.com/s/1AaOnNWuQumSTwxZtevoMIQ?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 185,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "2026年钩不了沉大作文刷题班 其他类别考试 2026年钩不了沉大作文刷题班 链接：https://pan.baidu.com/s/1AaOnNWuQumSTwxZtevoMIQ?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r890",
+      "title": "2027考季大懒猫言语刷刷刷直播课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1xXhmT_0nt6nCrfLfEYtGMQ?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027考季大懒猫言语刷刷刷直播课 链接：https://pan.baidu.com/s/1xXhmT_0nt6nCrfLfEYtGMQ?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 189,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027考季大懒猫言语刷刷刷直播课 公考类 2027考季大懒猫言语刷刷刷直播课 链接：https://pan.baidu.com/s/1xXhmT_0nt6nCrfLfEYtGMQ?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r891",
+      "title": "024】2027小P公考国省考数资判系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/17HQZgPEkZhWJjxfkP0qX1A?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "024】2027小P公考国省考数资判系统班 链接：https://pan.baidu.com/s/17HQZgPEkZhWJjxfkP0qX1A?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 193,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "024】2027小P公考国省考数资判系统班 公考类 024】2027小P公考国省考数资判系统班 链接：https://pan.baidu.com/s/17HQZgPEkZhWJjxfkP0qX1A?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r892",
+      "title": "政治理论】2027超哥政治理论时政热点小锦囊",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1LHR0vMycq_wB3NIQb8kNBg?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "政治理论】2027超哥政治理论时政热点小锦囊 链接：https://pan.baidu.com/s/1LHR0vMycq_wB3NIQb8kNBg?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 197,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "政治理论】2027超哥政治理论时政热点小锦囊 公考类 政治理论】2027超哥政治理论时政热点小锦囊 链接：https://pan.baidu.com/s/1LHR0vMycq_wB3NIQb8kNBg?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r893",
+      "title": "2027李焕国省事考逻辑判断系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1D6l5eQBqFhZevKQZboNUYg?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027李焕国省事考逻辑判断系统课 链接：https://pan.baidu.com/s/1D6l5eQBqFhZevKQZboNUYg?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 201,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027李焕国省事考逻辑判断系统课 公考类 2027李焕国省事考逻辑判断系统课 链接：https://pan.baidu.com/s/1D6l5eQBqFhZevKQZboNUYg?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r894",
+      "title": "言语】2027雨菲言语图文带背800词",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1A_WR0Oi5-rt71yzlDVlChw?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "言语】2027雨菲言语图文带背800词 链接：https://pan.baidu.com/s/1A_WR0Oi5-rt71yzlDVlChw?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 205,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "言语】2027雨菲言语图文带背800词 公考类 言语】2027雨菲言语图文带背800词 链接：https://pan.baidu.com/s/1A_WR0Oi5-rt71yzlDVlChw?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r895",
+      "title": "言语】2027雨菲言语选词填空大满贯",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1eWp9oiGJlPbGVl9uZocfRA?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "言语】2027雨菲言语选词填空大满贯 链接：https://pan.baidu.com/s/1eWp9oiGJlPbGVl9uZocfRA?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 209,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "言语】2027雨菲言语选词填空大满贯 公考类 言语】2027雨菲言语选词填空大满贯 链接：https://pan.baidu.com/s/1eWp9oiGJlPbGVl9uZocfRA?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r896",
+      "title": "X 薛睿（MBA大师）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ahC1-SUY2JQ_bFpkxNFgSw?pwd=hu86",
+      "code": "hu86",
+      "section": "其他类别考试",
+      "context": "X 薛睿（MBA大师） 链接：https://pan.baidu.com/s/1ahC1-SUY2JQ_bFpkxNFgSw?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 213,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "X 薛睿（MBA大师） 其他类别考试 X 薛睿（MBA大师） 链接：https://pan.baidu.com/s/1ahC1-SUY2JQ_bFpkxNFgSw?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r897",
+      "title": "2027郭熙言语高分“十二技",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1OrjVWb4Mje6o3Zy10wy8mg?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027郭熙言语高分“十二技 链接：https://pan.baidu.com/s/1OrjVWb4Mje6o3Zy10wy8mg?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 217,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027郭熙言语高分“十二技 公考类 2027郭熙言语高分“十二技 链接：https://pan.baidu.com/s/1OrjVWb4Mje6o3Zy10wy8mg?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r898",
+      "title": "2027年国省考季袁东申论方法实战班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1_6u74KC_ETAMnUhjF_o9sw?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027年国省考季袁东申论方法实战班 链接：https://pan.baidu.com/s/1_6u74KC_ETAMnUhjF_o9sw?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 221,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027年国省考季袁东申论方法实战班 公考类 2027年国省考季袁东申论方法实战班 链接：https://pan.baidu.com/s/1_6u74KC_ETAMnUhjF_o9sw?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r899",
+      "title": "2027薛睿国省事考图形推理24决",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1aI4mcruwI8_4gu-GZd632g?pwd=hu86",
+      "code": "hu86",
+      "section": "其他类别考试",
+      "context": "2027薛睿国省事考图形推理24决 链接：https://pan.baidu.com/s/1aI4mcruwI8_4gu-GZd632g?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 225,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "2027薛睿国省事考图形推理24决 其他类别考试 2027薛睿国省事考图形推理24决 链接：https://pan.baidu.com/s/1aI4mcruwI8_4gu-GZd632g?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r900",
+      "title": "2027天琦申论高分的规则",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1xC_TR9VETdaOivc570fSmw?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027天琦申论高分的规则 链接：https://pan.baidu.com/s/1xC_TR9VETdaOivc570fSmw?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 229,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027天琦申论高分的规则 公考类 2027天琦申论高分的规则 链接：https://pan.baidu.com/s/1xC_TR9VETdaOivc570fSmw?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r901",
+      "title": "2027刘义恒行测判断推理-理论实战",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Y0Ljf9akx00iYbvMRrwNIQ?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027刘义恒行测判断推理-理论实战 链接：https://pan.baidu.com/s/1Y0Ljf9akx00iYbvMRrwNIQ?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 233,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027刘义恒行测判断推理-理论实战 公考类 2027刘义恒行测判断推理-理论实战 链接：https://pan.baidu.com/s/1Y0Ljf9akx00iYbvMRrwNIQ?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r902",
+      "title": "2027上岸村兰亭论道综A理论筑基",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/17ij5Wzh6QcUY8RA6JbneOg?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027上岸村兰亭论道综A理论筑基 链接：https://pan.baidu.com/s/17ij5Wzh6QcUY8RA6JbneOg?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 237,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027上岸村兰亭论道综A理论筑基 公考类 2027上岸村兰亭论道综A理论筑基 链接：https://pan.baidu.com/s/17ij5Wzh6QcUY8RA6JbneOg?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r903",
+      "title": "2027上岸村王炎数量关系·讲练大满贯",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1VgkBcnoOaJJJzvnA9I5vWA?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027上岸村王炎数量关系·讲练大满贯 链接：https://pan.baidu.com/s/1VgkBcnoOaJJJzvnA9I5vWA?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 241,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027上岸村王炎数量关系·讲练大满贯 公考类 2027上岸村王炎数量关系·讲练大满贯 链接：https://pan.baidu.com/s/1VgkBcnoOaJJJzvnA9I5vWA?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r904",
+      "title": "2027陈怀安行测圣经资料分析系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1EjC6N9FX3Yeqv9Cx6f4qFg?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027陈怀安行测圣经资料分析系统课 链接：https://pan.baidu.com/s/1EjC6N9FX3Yeqv9Cx6f4qFg?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 245,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027陈怀安行测圣经资料分析系统课 公考类 2027陈怀安行测圣经资料分析系统课 链接：https://pan.baidu.com/s/1EjC6N9FX3Yeqv9Cx6f4qFg?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r905",
+      "title": "政治常识】2027国省事考小黑政治理论常识全家桶",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/14G6ccjlj7_b1B4BwBcLoSQ?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "政治常识】2027国省事考小黑政治理论常识全家桶 链接：https://pan.baidu.com/s/14G6ccjlj7_b1B4BwBcLoSQ?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 249,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "政治常识】2027国省事考小黑政治理论常识全家桶 公考类 政治常识】2027国省事考小黑政治理论常识全家桶 链接：https://pan.baidu.com/s/14G6ccjlj7_b1B4BwBcLoSQ?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r906",
+      "title": "H 海绵公考",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1WBoLCCyeSaQOCeY1vV5Ocw?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "H 海绵公考 链接：https://pan.baidu.com/s/1WBoLCCyeSaQOCeY1vV5Ocw?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 253,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "H 海绵公考 公考类 H 海绵公考 链接：https://pan.baidu.com/s/1WBoLCCyeSaQOCeY1vV5Ocw?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r907",
+      "title": "2027唐宋算经九章算术数量关系夯基",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1FXdjcaTH0ScEVEG6tDLSEQ?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027唐宋算经九章算术数量关系夯基 链接：https://pan.baidu.com/s/1FXdjcaTH0ScEVEG6tDLSEQ?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 257,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027唐宋算经九章算术数量关系夯基 公考类 2027唐宋算经九章算术数量关系夯基 链接：https://pan.baidu.com/s/1FXdjcaTH0ScEVEG6tDLSEQ?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r908",
+      "title": "2027国省考上岸村天琦申论母题爆破班（100题）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Dc2lOIJ9kTbvKGTt-1U0iw?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027国省考上岸村天琦申论母题爆破班（100题） 链接：https://pan.baidu.com/s/1Dc2lOIJ9kTbvKGTt-1U0iw?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 261,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027国省考上岸村天琦申论母题爆破班（100题） 公考类 2027国省考上岸村天琦申论母题爆破班（100题） 链接：https://pan.baidu.com/s/1Dc2lOIJ9kTbvKGTt-1U0iw?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r909",
+      "title": "2027上岸村林凡资料分析筑基11层",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1_27Q2aZm2R3MiuALR_oUIQ?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027上岸村林凡资料分析筑基11层 链接：https://pan.baidu.com/s/1_27Q2aZm2R3MiuALR_oUIQ?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 265,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027上岸村林凡资料分析筑基11层 公考类 2027上岸村林凡资料分析筑基11层 链接：https://pan.baidu.com/s/1_27Q2aZm2R3MiuALR_oUIQ?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r910",
+      "title": "2027四海拾伊数量基础理论课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1bzE4yHqL026TTWlbyfhD7A?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027四海拾伊数量基础理论课 链接：https://pan.baidu.com/s/1bzE4yHqL026TTWlbyfhD7A?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 269,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027四海拾伊数量基础理论课 公考类 2027四海拾伊数量基础理论课 链接：https://pan.baidu.com/s/1bzE4yHqL026TTWlbyfhD7A?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r911",
+      "title": "2027年国省考袁东申论大作文领跑营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1_RIjLBJBABhAOwc1Nx2CLw?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027年国省考袁东申论大作文领跑营 链接：https://pan.baidu.com/s/1_RIjLBJBABhAOwc1Nx2CLw?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 273,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027年国省考袁东申论大作文领跑营 公考类 2027年国省考袁东申论大作文领跑营 链接：https://pan.baidu.com/s/1_RIjLBJBABhAOwc1Nx2CLw?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r912",
+      "title": "2027花生十三逻辑判断600题精讲课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1rVofoaCeKa09889SO3DKxw?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027花生十三逻辑判断600题精讲课 链接：https://pan.baidu.com/s/1rVofoaCeKa09889SO3DKxw?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 277,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027花生十三逻辑判断600题精讲课 公考类 2027花生十三逻辑判断600题精讲课 链接：https://pan.baidu.com/s/1rVofoaCeKa09889SO3DKxw?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r913",
+      "title": "图推】2027刘义恒图推以练代背",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/11UOko6fW_VXOVcYdWkJKnw?pwd=hu86",
+      "code": "hu86",
+      "section": "其他类别考试",
+      "context": "图推】2027刘义恒图推以练代背 链接：https://pan.baidu.com/s/11UOko6fW_VXOVcYdWkJKnw?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 281,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "图推】2027刘义恒图推以练代背 其他类别考试 图推】2027刘义恒图推以练代背 链接：https://pan.baidu.com/s/11UOko6fW_VXOVcYdWkJKnw?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r914",
+      "title": "2026半月谈抄出申论80+第三季",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/10yaNdpPIaAN4IilTGRQjzQ?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2026半月谈抄出申论80+第三季 链接：https://pan.baidu.com/s/10yaNdpPIaAN4IilTGRQjzQ?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 285,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026半月谈抄出申论80+第三季 公考类 2026半月谈抄出申论80+第三季 链接：https://pan.baidu.com/s/10yaNdpPIaAN4IilTGRQjzQ?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r915",
+      "title": "2027上岸村王永恒资料分析母题研究",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1mElSJwZGeBkZ2ba4njs4lg?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027上岸村王永恒资料分析母题研究 链接：https://pan.baidu.com/s/1mElSJwZGeBkZ2ba4njs4lg?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 289,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027上岸村王永恒资料分析母题研究 公考类 2027上岸村王永恒资料分析母题研究 链接：https://pan.baidu.com/s/1mElSJwZGeBkZ2ba4njs4lg?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r916",
+      "title": "上岸村忠政·申论真题规范词（10组）.pdf",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1oAoH5zb68mvDFN5_yv01_Q?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "上岸村忠政·申论真题规范词（10组）.pdf 链接：https://pan.baidu.com/s/1oAoH5zb68mvDFN5_yv01_Q?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 293,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "上岸村忠政·申论真题规范词（10组）.pdf 公考类 上岸村忠政·申论真题规范词（10组）.pdf 链接：https://pan.baidu.com/s/1oAoH5zb68mvDFN5_yv01_Q?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r917",
+      "title": "数资】2027牟立志数资夜生活",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1F3w8ye2p3rL7IaewBaEOlA?pwd=hu86",
+      "code": "hu86",
+      "section": "其他类别考试",
+      "context": "数资】2027牟立志数资夜生活 链接：https://pan.baidu.com/s/1F3w8ye2p3rL7IaewBaEOlA?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 297,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "数资】2027牟立志数资夜生活 其他类别考试 数资】2027牟立志数资夜生活 链接：https://pan.baidu.com/s/1F3w8ye2p3rL7IaewBaEOlA?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r918",
+      "title": "2027王永恒资料分析三合一理论体系课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1HsDZ0Fu3Wq6C6IVvTEhOng?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027王永恒资料分析三合一理论体系课 链接：https://pan.baidu.com/s/1HsDZ0Fu3Wq6C6IVvTEhOng?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 301,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027王永恒资料分析三合一理论体系课 公考类 2027王永恒资料分析三合一理论体系课 链接：https://pan.baidu.com/s/1HsDZ0Fu3Wq6C6IVvTEhOng?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r919",
+      "title": "2027国省事考花生十三行测600题精讲课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1gShd7vR_ubUpfb-lp1fFUA?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027国省事考花生十三行测600题精讲课 链接：https://pan.baidu.com/s/1gShd7vR_ubUpfb-lp1fFUA?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 305,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027国省事考花生十三行测600题精讲课 公考类 2027国省事考花生十三行测600题精讲课 链接：https://pan.baidu.com/s/1gShd7vR_ubUpfb-lp1fFUA?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r920",
+      "title": "2027唐宋算经速算思维课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1O9VONceYQorP1wM8O8OKqQ?pwd=hu86",
+      "code": "hu86",
+      "section": "其他类别考试",
+      "context": "2027唐宋算经速算思维课 链接：https://pan.baidu.com/s/1O9VONceYQorP1wM8O8OKqQ?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 309,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "2027唐宋算经速算思维课 其他类别考试 2027唐宋算经速算思维课 链接：https://pan.baidu.com/s/1O9VONceYQorP1wM8O8OKqQ?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r921",
+      "title": "海绵公考】省考十日速通，李焕&楚香凝&韩超&刘亚男",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1fwpv3BQmAW_HZkYidYcrzw?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "海绵公考】省考十日速通，李焕&楚香凝&韩超&刘亚男 链接：https://pan.baidu.com/s/1fwpv3BQmAW_HZkYidYcrzw?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 313,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "海绵公考】省考十日速通，李焕&楚香凝&韩超&刘亚男 公考类 海绵公考】省考十日速通，李焕&楚香凝&韩超&刘亚男 链接：https://pan.baidu.com/s/1fwpv3BQmAW_HZkYidYcrzw?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r922",
+      "title": "行测申论】2027超格行测+申论全家桶课程（精讲桶）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1xh1NNGARxe4imrz4peeTig?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "行测申论】2027超格行测+申论全家桶课程（精讲桶） 链接：https://pan.baidu.com/s/1xh1NNGARxe4imrz4peeTig?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 317,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "行测申论】2027超格行测+申论全家桶课程（精讲桶） 公考类 行测申论】2027超格行测+申论全家桶课程（精讲桶） 链接：https://pan.baidu.com/s/1xh1NNGARxe4imrz4peeTig?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r923",
+      "title": "2027国省考上岸村行测&申论全家桶",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1eXxkcDRYqlLET8EOqrItHA?pwd=hu86",
+      "code": "hu86",
+      "section": "公考类",
+      "context": "2027国省考上岸村行测&申论全家桶 链接：https://pan.baidu.com/s/1eXxkcDRYqlLET8EOqrItHA?pwd=hu86 提取码：hu86",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 321,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027国省考上岸村行测&申论全家桶 公考类 2027国省考上岸村行测&申论全家桶 链接：https://pan.baidu.com/s/1eXxkcDRYqlLET8EOqrItHA?pwd=hu86 提取码：hu86 hu86 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r924",
+      "title": "留言单独更新",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1eb3YsyAG5e-oqos6NUnwTg?pwd=s1ya",
+      "code": "s1ya",
+      "section": "其他类别考试",
+      "context": "留言单独更新 链接：https://pan.baidu.com/s/1eb3YsyAG5e-oqos6NUnwTg?pwd=s1ya 提取码：s1ya",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 325,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "留言单独更新 其他类别考试 留言单独更新 链接：https://pan.baidu.com/s/1eb3YsyAG5e-oqos6NUnwTg?pwd=s1ya 提取码：s1ya s1ya 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r925",
+      "title": "申论合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1n_7_nd09W4v-rKl51AoNrw?pwd=s1ya",
+      "code": "s1ya",
+      "section": "公考类",
+      "context": "申论合集 链接：https://pan.baidu.com/s/1n_7_nd09W4v-rKl51AoNrw?pwd=s1ya 提取码：s1ya",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 329,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "申论合集 公考类 申论合集 链接：https://pan.baidu.com/s/1n_7_nd09W4v-rKl51AoNrw?pwd=s1ya 提取码：s1ya s1ya 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r926",
+      "title": "资料分析、数量关系",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/13s6lERkIcnmhihJKvqlyhg?pwd=s1ya",
+      "code": "s1ya",
+      "section": "公考类",
+      "context": "资料分析、数量关系 链接：https://pan.baidu.com/s/13s6lERkIcnmhihJKvqlyhg?pwd=s1ya 提取码：s1ya",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 333,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "资料分析、数量关系 公考类 资料分析、数量关系 链接：https://pan.baidu.com/s/13s6lERkIcnmhihJKvqlyhg?pwd=s1ya 提取码：s1ya s1ya 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r927",
+      "title": "1、2026国省考名师课程",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1W2BrqNJqHsjXPMLRjx-yGA?pwd=s1ya",
+      "code": "s1ya",
+      "section": "公考类",
+      "context": "1、2026国省考名师课程 链接：https://pan.baidu.com/s/1W2BrqNJqHsjXPMLRjx-yGA?pwd=s1ya 提取码：s1ya",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 337,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "1、2026国省考名师课程 公考类 1、2026国省考名师课程 链接：https://pan.baidu.com/s/1W2BrqNJqHsjXPMLRjx-yGA?pwd=s1ya 提取码：s1ya s1ya 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r928",
+      "title": "判断推理",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/11J9hAeiHWlhT7j1KRHJjVA?pwd=s1ya",
+      "code": "s1ya",
+      "section": "公考类",
+      "context": "判断推理 链接：https://pan.baidu.com/s/11J9hAeiHWlhT7j1KRHJjVA?pwd=s1ya 提取码：s1ya",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 341,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "判断推理 公考类 判断推理 链接：https://pan.baidu.com/s/11J9hAeiHWlhT7j1KRHJjVA?pwd=s1ya 提取码：s1ya s1ya 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r929",
+      "title": "行测、公基 机构合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1hBWLuGF5iWlGjRp2GzyCYA?pwd=s1ya",
+      "code": "s1ya",
+      "section": "公考类",
+      "context": "行测、公基 机构合集 链接：https://pan.baidu.com/s/1hBWLuGF5iWlGjRp2GzyCYA?pwd=s1ya 提取码：s1ya",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 345,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "行测、公基 机构合集 公考类 行测、公基 机构合集 链接：https://pan.baidu.com/s/1hBWLuGF5iWlGjRp2GzyCYA?pwd=s1ya 提取码：s1ya s1ya 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r930",
+      "title": "常识政治",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/19mJlouOY1XOtsrGc20eXjQ?pwd=s1ya",
+      "code": "s1ya",
+      "section": "公考类",
+      "context": "常识政治 链接：https://pan.baidu.com/s/19mJlouOY1XOtsrGc20eXjQ?pwd=s1ya 提取码：s1ya",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 349,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "常识政治 公考类 常识政治 链接：https://pan.baidu.com/s/19mJlouOY1XOtsrGc20eXjQ?pwd=s1ya 提取码：s1ya s1ya 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r931",
+      "title": "言语合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1EaZUK7I_K94OqWFxcBQajQ?pwd=s1ya",
+      "code": "s1ya",
+      "section": "公考类",
+      "context": "言语合集 链接：https://pan.baidu.com/s/1EaZUK7I_K94OqWFxcBQajQ?pwd=s1ya 提取码：s1ya",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 353,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "言语合集 公考类 言语合集 链接：https://pan.baidu.com/s/1EaZUK7I_K94OqWFxcBQajQ?pwd=s1ya 提取码：s1ya s1ya 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r932",
+      "title": "2026年天晓申论套卷批改班【10期",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1MEu9Hpjl70mSGURCJXb45A?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026年天晓申论套卷批改班【10期 链接：https://pan.baidu.com/s/1MEu9Hpjl70mSGURCJXb45A?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 357,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026年天晓申论套卷批改班【10期 公考类 2026年天晓申论套卷批改班【10期 链接：https://pan.baidu.com/s/1MEu9Hpjl70mSGURCJXb45A?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r933",
+      "title": "027】2026岳飞资料每日跟刷题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1hhMd8smLTaVRaRtaae0RKw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "027】2026岳飞资料每日跟刷题 链接：https://pan.baidu.com/s/1hhMd8smLTaVRaRtaae0RKw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 361,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "027】2026岳飞资料每日跟刷题 其他类别考试 027】2026岳飞资料每日跟刷题 链接：https://pan.baidu.com/s/1hhMd8smLTaVRaRtaae0RKw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r934",
+      "title": "077】2026年四海拾伊15天速算训练营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1jemKs6PXm8LZ3M2ksPYfCg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "077】2026年四海拾伊15天速算训练营 链接：https://pan.baidu.com/s/1jemKs6PXm8LZ3M2ksPYfCg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 365,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "077】2026年四海拾伊15天速算训练营 公考类 077】2026年四海拾伊15天速算训练营 链接：https://pan.baidu.com/s/1jemKs6PXm8LZ3M2ksPYfCg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r935",
+      "title": "100】小新公考",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/15v5JZ6-yEEp9hfkFneRDnA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "100】小新公考 链接：https://pan.baidu.com/s/15v5JZ6-yEEp9hfkFneRDnA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 369,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "100】小新公考 公考类 100】小新公考 链接：https://pan.baidu.com/s/15v5JZ6-yEEp9hfkFneRDnA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r936",
+      "title": "26省考，平面推理",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1FdOqw8khZp7AQjLjsc5KBA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "26省考，平面推理 链接：https://pan.baidu.com/s/1FdOqw8khZp7AQjLjsc5KBA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 373,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "26省考，平面推理 公考类 26省考，平面推理 链接：https://pan.baidu.com/s/1FdOqw8khZp7AQjLjsc5KBA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r937",
+      "title": "037】2026年大懒猫言语专项600题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1q4MMd_KCuG33p55abQGSyg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "037】2026年大懒猫言语专项600题 链接：https://pan.baidu.com/s/1q4MMd_KCuG33p55abQGSyg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 377,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "037】2026年大懒猫言语专项600题 公考类 037】2026年大懒猫言语专项600题 链接：https://pan.baidu.com/s/1q4MMd_KCuG33p55abQGSyg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r938",
+      "title": "2026年省考飞扬申论大作文题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/10dkVP6O5whbZONh4W6qxcA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026年省考飞扬申论大作文题早课 链接：https://pan.baidu.com/s/10dkVP6O5whbZONh4W6qxcA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 381,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026年省考飞扬申论大作文题早课 公考类 2026年省考飞扬申论大作文题早课 链接：https://pan.baidu.com/s/10dkVP6O5whbZONh4W6qxcA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r939",
+      "title": "2026资料是个圆（理论课+刷题课）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/12qnVjAfhJXO3Ld-ax5rcyQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "2026资料是个圆（理论课+刷题课） 链接：https://pan.baidu.com/s/12qnVjAfhJXO3Ld-ax5rcyQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 385,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "2026资料是个圆（理论课+刷题课） 其他类别考试 2026资料是个圆（理论课+刷题课） 链接：https://pan.baidu.com/s/12qnVjAfhJXO3Ld-ax5rcyQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r940",
+      "title": "26刘益超山西省考系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1DMmJGWlblrjwBo_RYDVPTg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "26刘益超山西省考系统课 链接：https://pan.baidu.com/s/1DMmJGWlblrjwBo_RYDVPTg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 389,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "26刘益超山西省考系统课 公考类 26刘益超山西省考系统课 链接：https://pan.baidu.com/s/1DMmJGWlblrjwBo_RYDVPTg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r941",
+      "title": "112】2026年为民公考国考真题精讲提升冲刺班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ccD2CLPlSNf0NKAW6FWKkg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "112】2026年为民公考国考真题精讲提升冲刺班 链接：https://pan.baidu.com/s/1ccD2CLPlSNf0NKAW6FWKkg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 393,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "112】2026年为民公考国考真题精讲提升冲刺班 公考类 112】2026年为民公考国考真题精讲提升冲刺班 链接：https://pan.baidu.com/s/1ccD2CLPlSNf0NKAW6FWKkg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r942",
+      "title": "05】李铁公基12000题刷题课（近五年最新公基真题）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1pL1eDeMuBjsdKDmChr0DEQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "05】李铁公基12000题刷题课（近五年最新公基真题） 链接：https://pan.baidu.com/s/1pL1eDeMuBjsdKDmChr0DEQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 397,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "05】李铁公基12000题刷题课（近五年最新公基真题） 公考类 05】李铁公基12000题刷题课（近五年最新公基真题） 链接：https://pan.baidu.com/s/1pL1eDeMuBjsdKDmChr0DEQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r943",
+      "title": "177】2026年省考袁东申论领跑营理论刷题班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1WIZLtatXd8SJSghvpNqMmQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "177】2026年省考袁东申论领跑营理论刷题班 链接：https://pan.baidu.com/s/1WIZLtatXd8SJSghvpNqMmQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 401,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "177】2026年省考袁东申论领跑营理论刷题班 公考类 177】2026年省考袁东申论领跑营理论刷题班 链接：https://pan.baidu.com/s/1WIZLtatXd8SJSghvpNqMmQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r944",
+      "title": "2026天晓申论套卷批改班【10期",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/19XjwiH9TTkGi_S4PShsVlQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026天晓申论套卷批改班【10期 链接：https://pan.baidu.com/s/19XjwiH9TTkGi_S4PShsVlQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 405,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026天晓申论套卷批改班【10期 公考类 2026天晓申论套卷批改班【10期 链接：https://pan.baidu.com/s/19XjwiH9TTkGi_S4PShsVlQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r945",
+      "title": "145】2026年申论系统课：手把手教你零基础到高分【未雨",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1hUP2FbPj-C46gZ__3AcHLA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "145】2026年申论系统课：手把手教你零基础到高分【未雨 链接：https://pan.baidu.com/s/1hUP2FbPj-C46gZ__3AcHLA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 409,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "145】2026年申论系统课：手把手教你零基础到高分【未雨 公考类 145】2026年申论系统课：手把手教你零基础到高分【未雨 链接：https://pan.baidu.com/s/1hUP2FbPj-C46gZ__3AcHLA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r946",
+      "title": "公考行测-数量关系】2026国考省考通用，朱曦老师精讲，独创体系147个命题思维题型技巧思维总结",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/13YPswYAf6VVa4OhViwghXg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "公考行测-数量关系】2026国考省考通用，朱曦老师精讲，独创体系147个命题思维题型技巧思维总结 链接：https://pan.baidu.com/s/13YPswYAf6VVa4OhViwghXg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 413,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "公考行测-数量关系】2026国考省考通用，朱曦老师精讲，独创体系147个命题思维题型技巧思维总结 公考类 公考行测-数量关系】2026国考省考通用，朱曦老师精讲，独创体系147个命题思维题型技巧思维总结 链接：https://pan.baidu.com/s/13YPswYAf6VVa4OhViwghXg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r947",
+      "title": "019】白鹭26申论扎马步+易行",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1crJcp8l5bhUtrl4cTknn1A?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "019】白鹭26申论扎马步+易行 链接：https://pan.baidu.com/s/1crJcp8l5bhUtrl4cTknn1A?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 417,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "019】白鹭26申论扎马步+易行 公考类 019】白鹭26申论扎马步+易行 链接：https://pan.baidu.com/s/1crJcp8l5bhUtrl4cTknn1A?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r948",
+      "title": "言语】2026省考雨菲言语速解36计",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1RWZZZuu3reqA5XgxtWyoZg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "言语】2026省考雨菲言语速解36计 链接：https://pan.baidu.com/s/1RWZZZuu3reqA5XgxtWyoZg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 421,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "言语】2026省考雨菲言语速解36计 公考类 言语】2026省考雨菲言语速解36计 链接：https://pan.baidu.com/s/1RWZZZuu3reqA5XgxtWyoZg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r949",
+      "title": "116】2026年飞扬申论公文题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1xsgdMdgnFwTS1y7ude5H3w?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "116】2026年飞扬申论公文题早课 链接：https://pan.baidu.com/s/1xsgdMdgnFwTS1y7ude5H3w?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 425,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "116】2026年飞扬申论公文题早课 公考类 116】2026年飞扬申论公文题早课 链接：https://pan.baidu.com/s/1xsgdMdgnFwTS1y7ude5H3w?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r950",
+      "title": "007】2026年逻辑不楠判断推理理论课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1AlSOsahMvi6lwgCDrAfNrw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "007】2026年逻辑不楠判断推理理论课 链接：https://pan.baidu.com/s/1AlSOsahMvi6lwgCDrAfNrw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 429,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "007】2026年逻辑不楠判断推理理论课 公考类 007】2026年逻辑不楠判断推理理论课 链接：https://pan.baidu.com/s/1AlSOsahMvi6lwgCDrAfNrw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r951",
+      "title": "086】2026爱打篮球的公考人资料分析800题（160篇）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/16JaLuhCVXMA0OePHFiraFA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "086】2026爱打篮球的公考人资料分析800题（160篇） 链接：https://pan.baidu.com/s/16JaLuhCVXMA0OePHFiraFA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 433,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "086】2026爱打篮球的公考人资料分析800题（160篇） 公考类 086】2026爱打篮球的公考人资料分析800题（160篇） 链接：https://pan.baidu.com/s/16JaLuhCVXMA0OePHFiraFA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r952",
+      "title": "044】合并套题版：数量最新五年国省联选（59套）【叽叽喳喳的公考",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1WYM-1mGqASkslCQ9_b0fhA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "044】合并套题版：数量最新五年国省联选（59套）【叽叽喳喳的公考 链接：https://pan.baidu.com/s/1WYM-1mGqASkslCQ9_b0fhA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 437,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "044】合并套题版：数量最新五年国省联选（59套）【叽叽喳喳的公考 公考类 044】合并套题版：数量最新五年国省联选（59套）【叽叽喳喳的公考 链接：https://pan.baidu.com/s/1WYM-1mGqASkslCQ9_b0fhA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r953",
+      "title": "066】2026年杨攀行测政治理论一课通",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Ge0W7Hv6AmhEy0HkuLaVjQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "066】2026年杨攀行测政治理论一课通 链接：https://pan.baidu.com/s/1Ge0W7Hv6AmhEy0HkuLaVjQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 441,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "066】2026年杨攀行测政治理论一课通 公考类 066】2026年杨攀行测政治理论一课通 链接：https://pan.baidu.com/s/1Ge0W7Hv6AmhEy0HkuLaVjQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r954",
+      "title": "2026年多省联考数资常三合一冲刺刷题课【小Y在日记",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/164Fp1ABe-EBKR4T3IOMAuQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "事业单位",
+      "context": "2026年多省联考数资常三合一冲刺刷题课【小Y在日记 链接：https://pan.baidu.com/s/164Fp1ABe-EBKR4T3IOMAuQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 445,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "2026年多省联考数资常三合一冲刺刷题课【小Y在日记 事业单位 2026年多省联考数资常三合一冲刺刷题课【小Y在日记 链接：https://pan.baidu.com/s/164Fp1ABe-EBKR4T3IOMAuQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r955",
+      "title": "075】2026年国考&广东省考程日升图形推理600题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/16H5EvW8i7eaHIKON4SrJBg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "075】2026年国考&广东省考程日升图形推理600题 链接：https://pan.baidu.com/s/16H5EvW8i7eaHIKON4SrJBg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 449,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "075】2026年国考&广东省考程日升图形推理600题 公考类 075】2026年国考&广东省考程日升图形推理600题 链接：https://pan.baidu.com/s/16H5EvW8i7eaHIKON4SrJBg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r956",
+      "title": "2026多省联考苏金朋行测冲刺总结课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1wFUEIepmlqx-d4NCB9AFBg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "事业单位",
+      "context": "2026多省联考苏金朋行测冲刺总结课 链接：https://pan.baidu.com/s/1wFUEIepmlqx-d4NCB9AFBg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 453,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "2026多省联考苏金朋行测冲刺总结课 事业单位 2026多省联考苏金朋行测冲刺总结课 链接：https://pan.baidu.com/s/1wFUEIepmlqx-d4NCB9AFBg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r957",
+      "title": "014】2026年叽叽喳喳数量精讲快解50套题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Eb4kqE2pPSiEburqN3rvBA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "014】2026年叽叽喳喳数量精讲快解50套题 链接：https://pan.baidu.com/s/1Eb4kqE2pPSiEburqN3rvBA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 457,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "014】2026年叽叽喳喳数量精讲快解50套题 公考类 014】2026年叽叽喳喳数量精讲快解50套题 链接：https://pan.baidu.com/s/1Eb4kqE2pPSiEburqN3rvBA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r958",
+      "title": "143】2026年天津市考冀小锋申论考前冲刺",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1UanNPdCa0R_vEI1WwLCnLg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "143】2026年天津市考冀小锋申论考前冲刺 链接：https://pan.baidu.com/s/1UanNPdCa0R_vEI1WwLCnLg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 461,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "143】2026年天津市考冀小锋申论考前冲刺 公考类 143】2026年天津市考冀小锋申论考前冲刺 链接：https://pan.baidu.com/s/1UanNPdCa0R_vEI1WwLCnLg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r959",
+      "title": "117】2026忧郁牛牛考前冲刺押题全家桶（国考+小联考）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1CGxAhnTYiwJz4SOxmi4RMA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "事业单位",
+      "context": "117】2026忧郁牛牛考前冲刺押题全家桶（国考+小联考） 链接：https://pan.baidu.com/s/1CGxAhnTYiwJz4SOxmi4RMA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 465,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "117】2026忧郁牛牛考前冲刺押题全家桶（国考+小联考） 事业单位 117】2026忧郁牛牛考前冲刺押题全家桶（国考+小联考） 链接：https://pan.baidu.com/s/1CGxAhnTYiwJz4SOxmi4RMA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r960",
+      "title": "015】2026年国考大懒猫言语理解理论课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ap0-LBiRrlaO8PzidkcdVw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "015】2026年国考大懒猫言语理解理论课 链接：https://pan.baidu.com/s/1ap0-LBiRrlaO8PzidkcdVw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 469,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "015】2026年国考大懒猫言语理解理论课 公考类 015】2026年国考大懒猫言语理解理论课 链接：https://pan.baidu.com/s/1ap0-LBiRrlaO8PzidkcdVw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r961",
+      "title": "104】2026年时政是条线冲刺课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1GzzD6quWDHickKCCAJbiMw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "104】2026年时政是条线冲刺课 链接：https://pan.baidu.com/s/1GzzD6quWDHickKCCAJbiMw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 473,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "104】2026年时政是条线冲刺课 公考类 104】2026年时政是条线冲刺课 链接：https://pan.baidu.com/s/1GzzD6quWDHickKCCAJbiMw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r962",
+      "title": "011】26爱打篮球的公考人资料分析加速度（速算＋理论+专项刷题）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/19c2oWoA5bBq2KbMHgZLU-w?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "011】26爱打篮球的公考人资料分析加速度（速算＋理论+专项刷题） 链接：https://pan.baidu.com/s/19c2oWoA5bBq2KbMHgZLU-w?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 477,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "011】26爱打篮球的公考人资料分析加速度（速算＋理论+专项刷题） 公考类 011】26爱打篮球的公考人资料分析加速度（速算＋理论+专项刷题） 链接：https://pan.baidu.com/s/19c2oWoA5bBq2KbMHgZLU-w?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r963",
+      "title": "058】苏金鹏2026数量关系通关课（理论+拔高刷题）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1E4kW_SMCXl_INNL5HRG1ZA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "058】苏金鹏2026数量关系通关课（理论+拔高刷题） 链接：https://pan.baidu.com/s/1E4kW_SMCXl_INNL5HRG1ZA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 481,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "058】苏金鹏2026数量关系通关课（理论+拔高刷题） 公考类 058】苏金鹏2026数量关系通关课（理论+拔高刷题） 链接：https://pan.baidu.com/s/1E4kW_SMCXl_INNL5HRG1ZA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r964",
+      "title": "033】2026年CG（五合一）行测+申论夸夸刷",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1gVEPeG3kDGqpYt30YUkHTg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "033】2026年CG（五合一）行测+申论夸夸刷 链接：https://pan.baidu.com/s/1gVEPeG3kDGqpYt30YUkHTg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 485,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "033】2026年CG（五合一）行测+申论夸夸刷 公考类 033】2026年CG（五合一）行测+申论夸夸刷 链接：https://pan.baidu.com/s/1gVEPeG3kDGqpYt30YUkHTg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r965",
+      "title": "76】2026小驴申论笔试系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Z3oH_fTIilb3xSNDFBzJ1Q?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "76】2026小驴申论笔试系统课 链接：https://pan.baidu.com/s/1Z3oH_fTIilb3xSNDFBzJ1Q?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 489,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "76】2026小驴申论笔试系统课 公考类 76】2026小驴申论笔试系统课 链接：https://pan.baidu.com/s/1Z3oH_fTIilb3xSNDFBzJ1Q?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r966",
+      "title": "2026顾斐宝藏成语800词精讲",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1NtSnqnYLfxDSSaUZTMEVBA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "2026顾斐宝藏成语800词精讲 链接：https://pan.baidu.com/s/1NtSnqnYLfxDSSaUZTMEVBA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 493,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "2026顾斐宝藏成语800词精讲 其他类别考试 2026顾斐宝藏成语800词精讲 链接：https://pan.baidu.com/s/1NtSnqnYLfxDSSaUZTMEVBA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r967",
+      "title": "2026年省考花生十三飞扬套题班1期",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1taqSk1zVYuKEVFzdc18T-w?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026年省考花生十三飞扬套题班1期 链接：https://pan.baidu.com/s/1taqSk1zVYuKEVFzdc18T-w?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 497,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026年省考花生十三飞扬套题班1期 公考类 2026年省考花生十三飞扬套题班1期 链接：https://pan.baidu.com/s/1taqSk1zVYuKEVFzdc18T-w?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r968",
+      "title": "05】超好运小bud",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1bfQliYhFKXBSie7uL9Xufg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "05】超好运小bud 链接：https://pan.baidu.com/s/1bfQliYhFKXBSie7uL9Xufg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 501,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "05】超好运小bud 其他类别考试 05】超好运小bud 链接：https://pan.baidu.com/s/1bfQliYhFKXBSie7uL9Xufg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r969",
+      "title": "047】2026年白鹭申论破题阵突破营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1wPYsHum0E96zJ1OtwnWKrQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "047】2026年白鹭申论破题阵突破营 链接：https://pan.baidu.com/s/1wPYsHum0E96zJ1OtwnWKrQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 505,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "047】2026年白鹭申论破题阵突破营 公考类 047】2026年白鹭申论破题阵突破营 链接：https://pan.baidu.com/s/1wPYsHum0E96zJ1OtwnWKrQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r970",
+      "title": "2026省考袁东申论大作文专项冲刺班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1XS5jsHe24DQcaCPHb8-Zxg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026省考袁东申论大作文专项冲刺班 链接：https://pan.baidu.com/s/1XS5jsHe24DQcaCPHb8-Zxg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 509,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026省考袁东申论大作文专项冲刺班 公考类 2026省考袁东申论大作文专项冲刺班 链接：https://pan.baidu.com/s/1XS5jsHe24DQcaCPHb8-Zxg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r971",
+      "title": "002】2026年国省事三考大姨夫三合一全家桶",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1_gm4f764qgT6wkTjzZZyvQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "002】2026年国省事三考大姨夫三合一全家桶 链接：https://pan.baidu.com/s/1_gm4f764qgT6wkTjzZZyvQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 513,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "002】2026年国省事三考大姨夫三合一全家桶 其他类别考试 002】2026年国省事三考大姨夫三合一全家桶 链接：https://pan.baidu.com/s/1_gm4f764qgT6wkTjzZZyvQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r972",
+      "title": "2026年省考飞扬申论分析理解题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1WaZU5gkRdFtT4SR35vmDwQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026年省考飞扬申论分析理解题早课 链接：https://pan.baidu.com/s/1WaZU5gkRdFtT4SR35vmDwQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 517,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026年省考飞扬申论分析理解题早课 公考类 2026年省考飞扬申论分析理解题早课 链接：https://pan.baidu.com/s/1WaZU5gkRdFtT4SR35vmDwQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r973",
+      "title": "2026年超小马省考笔试冲刺加油站",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1m_6XX4d16QcomWxQrIN0Rw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026年超小马省考笔试冲刺加油站 链接：https://pan.baidu.com/s/1m_6XX4d16QcomWxQrIN0Rw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 521,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026年超小马省考笔试冲刺加油站 公考类 2026年超小马省考笔试冲刺加油站 链接：https://pan.baidu.com/s/1m_6XX4d16QcomWxQrIN0Rw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r974",
+      "title": "152】2026年天晓申论套卷刷题课（11套卷）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1sdRARvagXXjbaD8ud3Fakg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "152】2026年天晓申论套卷刷题课（11套卷） 链接：https://pan.baidu.com/s/1sdRARvagXXjbaD8ud3Fakg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 525,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "152】2026年天晓申论套卷刷题课（11套卷） 公考类 152】2026年天晓申论套卷刷题课（11套卷） 链接：https://pan.baidu.com/s/1sdRARvagXXjbaD8ud3Fakg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r975",
+      "title": "006】2026年超格行测申论（六合一）理论实战班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1_0h2wPGATQAsGGek5mTHFQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "006】2026年超格行测申论（六合一）理论实战班 链接：https://pan.baidu.com/s/1_0h2wPGATQAsGGek5mTHFQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 529,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "006】2026年超格行测申论（六合一）理论实战班 公考类 006】2026年超格行测申论（六合一）理论实战班 链接：https://pan.baidu.com/s/1_0h2wPGATQAsGGek5mTHFQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r976",
+      "title": "扫码即可订阅，实时更新笔记.jpg",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/18zfSSU0jbOjIvGnObB6fDQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "扫码即可订阅，实时更新笔记.jpg 链接：https://pan.baidu.com/s/18zfSSU0jbOjIvGnObB6fDQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 533,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "扫码即可订阅，实时更新笔记.jpg 公考类 扫码即可订阅，实时更新笔记.jpg 链接：https://pan.baidu.com/s/18zfSSU0jbOjIvGnObB6fDQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r977",
+      "title": "001】2026年国省考小黑政治理论+常识判断系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1cxQNvXCa5KARMNUmjL-5mw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "001】2026年国省考小黑政治理论+常识判断系统班 链接：https://pan.baidu.com/s/1cxQNvXCa5KARMNUmjL-5mw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 537,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "001】2026年国省考小黑政治理论+常识判断系统班 公考类 001】2026年国省考小黑政治理论+常识判断系统班 链接：https://pan.baidu.com/s/1cxQNvXCa5KARMNUmjL-5mw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r978",
+      "title": "2026多省联考大宝小宝言语新春焕新刷题班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1I_Mg8hXB4eOnFUtmT1tXSg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "事业单位",
+      "context": "2026多省联考大宝小宝言语新春焕新刷题班 链接：https://pan.baidu.com/s/1I_Mg8hXB4eOnFUtmT1tXSg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 541,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "2026多省联考大宝小宝言语新春焕新刷题班 事业单位 2026多省联考大宝小宝言语新春焕新刷题班 链接：https://pan.baidu.com/s/1I_Mg8hXB4eOnFUtmT1tXSg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r979",
+      "title": "055】2026小张申论系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ka-ljSOT0UjBini292GbTw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "055】2026小张申论系统课 链接：https://pan.baidu.com/s/1ka-ljSOT0UjBini292GbTw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 545,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "055】2026小张申论系统课 公考类 055】2026小张申论系统课 链接：https://pan.baidu.com/s/1ka-ljSOT0UjBini292GbTw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r980",
+      "title": "080】2026年超哥政治理论背诵手册",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1GesYXfL0U7x5NUSnC1Al7A?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "080】2026年超哥政治理论背诵手册 链接：https://pan.baidu.com/s/1GesYXfL0U7x5NUSnC1Al7A?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 549,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "080】2026年超哥政治理论背诵手册 其他类别考试 080】2026年超哥政治理论背诵手册 链接：https://pan.baidu.com/s/1GesYXfL0U7x5NUSnC1Al7A?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r981",
+      "title": "013】2026晨宇言语大神思维体系课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Lt5wj0JaBsD803v2okddvA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "013】2026晨宇言语大神思维体系课 链接：https://pan.baidu.com/s/1Lt5wj0JaBsD803v2okddvA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 553,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "013】2026晨宇言语大神思维体系课 公考类 013】2026晨宇言语大神思维体系课 链接：https://pan.baidu.com/s/1Lt5wj0JaBsD803v2okddvA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r982",
+      "title": "174】2026年申论系统课：手把手教你零基础到高分【未雨",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1MItIpOaN3H9Ir_QOrwr86Q?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "174】2026年申论系统课：手把手教你零基础到高分【未雨 链接：https://pan.baidu.com/s/1MItIpOaN3H9Ir_QOrwr86Q?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 557,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "174】2026年申论系统课：手把手教你零基础到高分【未雨 公考类 174】2026年申论系统课：手把手教你零基础到高分【未雨 链接：https://pan.baidu.com/s/1MItIpOaN3H9Ir_QOrwr86Q?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r983",
+      "title": "2026多省联考大宝小宝言语冲刺绝杀十套卷",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1GRQQAGUS_VZWpitn67oQ4A?pwd=pg8z",
+      "code": "pg8z",
+      "section": "事业单位",
+      "context": "2026多省联考大宝小宝言语冲刺绝杀十套卷 链接：https://pan.baidu.com/s/1GRQQAGUS_VZWpitn67oQ4A?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 561,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "2026多省联考大宝小宝言语冲刺绝杀十套卷 事业单位 2026多省联考大宝小宝言语冲刺绝杀十套卷 链接：https://pan.baidu.com/s/1GRQQAGUS_VZWpitn67oQ4A?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r984",
+      "title": "039】2026年阿里木江言语系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1_wZSPzK3_CqzoW5PXkeXNA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "039】2026年阿里木江言语系统班 链接：https://pan.baidu.com/s/1_wZSPzK3_CqzoW5PXkeXNA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 565,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "039】2026年阿里木江言语系统班 公考类 039】2026年阿里木江言语系统班 链接：https://pan.baidu.com/s/1_wZSPzK3_CqzoW5PXkeXNA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r985",
+      "title": "046】2026年柳岩逻辑填空必刷300题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1LdFK3CGglSMuhQWh6NSMOg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "046】2026年柳岩逻辑填空必刷300题 链接：https://pan.baidu.com/s/1LdFK3CGglSMuhQWh6NSMOg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 569,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "046】2026年柳岩逻辑填空必刷300题 其他类别考试 046】2026年柳岩逻辑填空必刷300题 链接：https://pan.baidu.com/s/1LdFK3CGglSMuhQWh6NSMOg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r986",
+      "title": "2026省考龙飞判断试题精讲定义判断",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1CKm8iCQo6BrxZxXKv8sIBQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026省考龙飞判断试题精讲定义判断 链接：https://pan.baidu.com/s/1CKm8iCQo6BrxZxXKv8sIBQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 573,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026省考龙飞判断试题精讲定义判断 公考类 2026省考龙飞判断试题精讲定义判断 链接：https://pan.baidu.com/s/1CKm8iCQo6BrxZxXKv8sIBQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r987",
+      "title": "098】2026年广东省考政治理论（考点速通）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1OBgsGmakvljq5uRv_BzP5w?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "098】2026年广东省考政治理论（考点速通） 链接：https://pan.baidu.com/s/1OBgsGmakvljq5uRv_BzP5w?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 577,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "098】2026年广东省考政治理论（考点速通） 公考类 098】2026年广东省考政治理论（考点速通） 链接：https://pan.baidu.com/s/1OBgsGmakvljq5uRv_BzP5w?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r988",
+      "title": "045】资料估算拔高9讲+1000道最新五年真题【叽叽喳喳的公考",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1L3YuurPMLsB0ztxFR7u5-A?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "045】资料估算拔高9讲+1000道最新五年真题【叽叽喳喳的公考 链接：https://pan.baidu.com/s/1L3YuurPMLsB0ztxFR7u5-A?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 581,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "045】资料估算拔高9讲+1000道最新五年真题【叽叽喳喳的公考 公考类 045】资料估算拔高9讲+1000道最新五年真题【叽叽喳喳的公考 链接：https://pan.baidu.com/s/1L3YuurPMLsB0ztxFR7u5-A?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r989",
+      "title": "2026山东省考备考资料",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1_JzngVLpKqg5eokRTGiIUQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026山东省考备考资料 链接：https://pan.baidu.com/s/1_JzngVLpKqg5eokRTGiIUQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 585,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026山东省考备考资料 公考类 2026山东省考备考资料 链接：https://pan.baidu.com/s/1_JzngVLpKqg5eokRTGiIUQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r990",
+      "title": "2026申论系统课 贺冲",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1u6N8mzTUgdoWktlcb-5lsQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026申论系统课 贺冲 链接：https://pan.baidu.com/s/1u6N8mzTUgdoWktlcb-5lsQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 589,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026申论系统课 贺冲 公考类 2026申论系统课 贺冲 链接：https://pan.baidu.com/s/1u6N8mzTUgdoWktlcb-5lsQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r991",
+      "title": "018】2026年花生十三全科争议题专项解析班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1m29hJBWYPMJ2X6-sdqFMVg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "018】2026年花生十三全科争议题专项解析班 链接：https://pan.baidu.com/s/1m29hJBWYPMJ2X6-sdqFMVg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 593,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "018】2026年花生十三全科争议题专项解析班 公考类 018】2026年花生十三全科争议题专项解析班 链接：https://pan.baidu.com/s/1m29hJBWYPMJ2X6-sdqFMVg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r992",
+      "title": "062】2026年国省考王军涛常识判断理论课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ZMbe-Sf1er-KAy-WCWBh4A?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "062】2026年国省考王军涛常识判断理论课 链接：https://pan.baidu.com/s/1ZMbe-Sf1er-KAy-WCWBh4A?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 597,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "062】2026年国省考王军涛常识判断理论课 公考类 062】2026年国省考王军涛常识判断理论课 链接：https://pan.baidu.com/s/1ZMbe-Sf1er-KAy-WCWBh4A?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r993",
+      "title": "0001】2026袁东（初心公考）合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/15LhgYfjkdFAxwqyxtQUdHA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "0001】2026袁东（初心公考）合集 链接：https://pan.baidu.com/s/15LhgYfjkdFAxwqyxtQUdHA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 601,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "0001】2026袁东（初心公考）合集 公考类 0001】2026袁东（初心公考）合集 链接：https://pan.baidu.com/s/15LhgYfjkdFAxwqyxtQUdHA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r994",
+      "title": "2026李铁314多省联考政治理论",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1BDLFSWZTM8OitCpf92mgPA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "事业单位",
+      "context": "2026李铁314多省联考政治理论 链接：https://pan.baidu.com/s/1BDLFSWZTM8OitCpf92mgPA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 605,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "2026李铁314多省联考政治理论 事业单位 2026李铁314多省联考政治理论 链接：https://pan.baidu.com/s/1BDLFSWZTM8OitCpf92mgPA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r995",
+      "title": "146】2026年天晓申论理论课（新大纲）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1o2benOoUXqSyjuBrZ1pbJw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "146】2026年天晓申论理论课（新大纲） 链接：https://pan.baidu.com/s/1o2benOoUXqSyjuBrZ1pbJw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 609,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "146】2026年天晓申论理论课（新大纲） 公考类 146】2026年天晓申论理论课（新大纲） 链接：https://pan.baidu.com/s/1o2benOoUXqSyjuBrZ1pbJw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r996",
+      "title": "106】2026四海逻辑判断600题刷题精讲班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1oEGfQuv-gndOP5Ns0slhNw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "106】2026四海逻辑判断600题刷题精讲班 链接：https://pan.baidu.com/s/1oEGfQuv-gndOP5Ns0slhNw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 613,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "106】2026四海逻辑判断600题刷题精讲班 公考类 106】2026四海逻辑判断600题刷题精讲班 链接：https://pan.baidu.com/s/1oEGfQuv-gndOP5Ns0slhNw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r997",
+      "title": "087】2026年龙飞立体图推理论刷题班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1hWnHB3_AN1JIQ3G0Jp-CBQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "087】2026年龙飞立体图推理论刷题班 链接：https://pan.baidu.com/s/1hWnHB3_AN1JIQ3G0Jp-CBQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 617,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "087】2026年龙飞立体图推理论刷题班 其他类别考试 087】2026年龙飞立体图推理论刷题班 链接：https://pan.baidu.com/s/1hWnHB3_AN1JIQ3G0Jp-CBQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r998",
+      "title": "095】2026年花生十三飞扬行测申论套题二期",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/12Vm2On6lcrkEajxJSQYDWw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "095】2026年花生十三飞扬行测申论套题二期 链接：https://pan.baidu.com/s/12Vm2On6lcrkEajxJSQYDWw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 621,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "095】2026年花生十三飞扬行测申论套题二期 公考类 095】2026年花生十三飞扬行测申论套题二期 链接：https://pan.baidu.com/s/12Vm2On6lcrkEajxJSQYDWw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r999",
+      "title": "124】2026年超哥政治理论冲刺大盘点",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1530aPftdLgEF2pIDGuOr_g?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "124】2026年超哥政治理论冲刺大盘点 链接：https://pan.baidu.com/s/1530aPftdLgEF2pIDGuOr_g?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 625,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "124】2026年超哥政治理论冲刺大盘点 其他类别考试 124】2026年超哥政治理论冲刺大盘点 链接：https://pan.baidu.com/s/1530aPftdLgEF2pIDGuOr_g?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1000",
+      "title": "031】2026年青菜白玉汤判断推理体系课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1LecrwNT2ObpoyrpxsS7r-g?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "031】2026年青菜白玉汤判断推理体系课 链接：https://pan.baidu.com/s/1LecrwNT2ObpoyrpxsS7r-g?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 629,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "031】2026年青菜白玉汤判断推理体系课 公考类 031】2026年青菜白玉汤判断推理体系课 链接：https://pan.baidu.com/s/1LecrwNT2ObpoyrpxsS7r-g?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1001",
+      "title": "2026年省考飞扬申论提出对策题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1K-YxORziUIzlGievy2ByeA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026年省考飞扬申论提出对策题早课 链接：https://pan.baidu.com/s/1K-YxORziUIzlGievy2ByeA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 633,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026年省考飞扬申论提出对策题早课 公考类 2026年省考飞扬申论提出对策题早课 链接：https://pan.baidu.com/s/1K-YxORziUIzlGievy2ByeA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1002",
+      "title": "105】2026年超哥政治理论考前200题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1QsIWl_l4FfwI5gURlHWedA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "105】2026年超哥政治理论考前200题 链接：https://pan.baidu.com/s/1QsIWl_l4FfwI5gURlHWedA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 637,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "105】2026年超哥政治理论考前200题 其他类别考试 105】2026年超哥政治理论考前200题 链接：https://pan.baidu.com/s/1QsIWl_l4FfwI5gURlHWedA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1003",
+      "title": "017】2026年国考陈八十行测全程无忧学",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1NIcD07a77-j4uZMgWJE9Mw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "017】2026年国考陈八十行测全程无忧学 链接：https://pan.baidu.com/s/1NIcD07a77-j4uZMgWJE9Mw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 641,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "017】2026年国考陈八十行测全程无忧学 公考类 017】2026年国考陈八十行测全程无忧学 链接：https://pan.baidu.com/s/1NIcD07a77-j4uZMgWJE9Mw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1004",
+      "title": "003】2026龙飞平面图形推理筑基先行班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1LTMBRy3cTjItIVLsBwnm1g?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "003】2026龙飞平面图形推理筑基先行班 链接：https://pan.baidu.com/s/1LTMBRy3cTjItIVLsBwnm1g?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 645,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "003】2026龙飞平面图形推理筑基先行班 其他类别考试 003】2026龙飞平面图形推理筑基先行班 链接：https://pan.baidu.com/s/1LTMBRy3cTjItIVLsBwnm1g?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1005",
+      "title": "054】2026年CG（五合一）行测+申论超大杯",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1MXCQh0-ZuYvvN54L44jpag?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "054】2026年CG（五合一）行测+申论超大杯 链接：https://pan.baidu.com/s/1MXCQh0-ZuYvvN54L44jpag?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 649,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "054】2026年CG（五合一）行测+申论超大杯 公考类 054】2026年CG（五合一）行测+申论超大杯 链接：https://pan.baidu.com/s/1MXCQh0-ZuYvvN54L44jpag?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1006",
+      "title": "068】2026年晨宇言语理解刷题课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Jk0eRGNYdlHGx9ErvdalGw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "068】2026年晨宇言语理解刷题课 链接：https://pan.baidu.com/s/1Jk0eRGNYdlHGx9ErvdalGw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 653,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "068】2026年晨宇言语理解刷题课 公考类 068】2026年晨宇言语理解刷题课 链接：https://pan.baidu.com/s/1Jk0eRGNYdlHGx9ErvdalGw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1007",
+      "title": "2026年四诗风雅颂言语",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/16BbmYDNLtAjoD0f8MU0eZQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026年四诗风雅颂言语 链接：https://pan.baidu.com/s/16BbmYDNLtAjoD0f8MU0eZQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 657,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026年四诗风雅颂言语 公考类 2026年四诗风雅颂言语 链接：https://pan.baidu.com/s/16BbmYDNLtAjoD0f8MU0eZQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1008",
+      "title": "012】2026年国考过了暖冬笔试系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1aQgjXvhfRBnV2ma3izr6Dg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "012】2026年国考过了暖冬笔试系统班 链接：https://pan.baidu.com/s/1aQgjXvhfRBnV2ma3izr6Dg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 661,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "012】2026年国考过了暖冬笔试系统班 公考类 012】2026年国考过了暖冬笔试系统班 链接：https://pan.baidu.com/s/1aQgjXvhfRBnV2ma3izr6Dg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1009",
+      "title": "016】2026年上岸村国省考行测申论一卡通",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1KJoy6RYtayHuPQeJMXnCkg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "016】2026年上岸村国省考行测申论一卡通 链接：https://pan.baidu.com/s/1KJoy6RYtayHuPQeJMXnCkg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 665,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "016】2026年上岸村国省考行测申论一卡通 公考类 016】2026年上岸村国省考行测申论一卡通 链接：https://pan.baidu.com/s/1KJoy6RYtayHuPQeJMXnCkg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1010",
+      "title": "2026江苏省考申论通关班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/11ZiBn8eSsQDFx4weZPXM8w?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026江苏省考申论通关班 链接：https://pan.baidu.com/s/11ZiBn8eSsQDFx4weZPXM8w?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 669,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026江苏省考申论通关班 公考类 2026江苏省考申论通关班 链接：https://pan.baidu.com/s/11ZiBn8eSsQDFx4weZPXM8w?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1011",
+      "title": "052】2026年老闻言语百日攻坚",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1n5lrp75F4STrn8XLpIKDrA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "052】2026年老闻言语百日攻坚 链接：https://pan.baidu.com/s/1n5lrp75F4STrn8XLpIKDrA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 673,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "052】2026年老闻言语百日攻坚 公考类 052】2026年老闻言语百日攻坚 链接：https://pan.baidu.com/s/1n5lrp75F4STrn8XLpIKDrA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1012",
+      "title": "2026年省考初心行测领跑营理论刷题班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1IcalPD-RIBGFmqGmvzPIDw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026年省考初心行测领跑营理论刷题班 链接：https://pan.baidu.com/s/1IcalPD-RIBGFmqGmvzPIDw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 677,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026年省考初心行测领跑营理论刷题班 公考类 2026年省考初心行测领跑营理论刷题班 链接：https://pan.baidu.com/s/1IcalPD-RIBGFmqGmvzPIDw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1013",
+      "title": "2026笨鸟国考省考政治理论全家桶",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/119KUy3soGUFHCeGqVATLkA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026笨鸟国考省考政治理论全家桶 链接：https://pan.baidu.com/s/119KUy3soGUFHCeGqVATLkA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 681,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026笨鸟国考省考政治理论全家桶 公考类 2026笨鸟国考省考政治理论全家桶 链接：https://pan.baidu.com/s/119KUy3soGUFHCeGqVATLkA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1014",
+      "title": "2026厂长资料数量提升班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1IOKiTw-5fDm7gZu1RXHdRQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026厂长资料数量提升班 链接：https://pan.baidu.com/s/1IOKiTw-5fDm7gZu1RXHdRQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 685,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026厂长资料数量提升班 公考类 2026厂长资料数量提升班 链接：https://pan.baidu.com/s/1IOKiTw-5fDm7gZu1RXHdRQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1015",
+      "title": "078】2026年国考李铁政治理论冲刺课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1QHwia1KfZkWUaZX9O9j3UA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "078】2026年国考李铁政治理论冲刺课 链接：https://pan.baidu.com/s/1QHwia1KfZkWUaZX9O9j3UA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 689,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "078】2026年国考李铁政治理论冲刺课 公考类 078】2026年国考李铁政治理论冲刺课 链接：https://pan.baidu.com/s/1QHwia1KfZkWUaZX9O9j3UA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1016",
+      "title": "025】2026年老夫子申论公文素养课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Xlt-vbJhPQIHGspSsuMQQw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "025】2026年老夫子申论公文素养课 链接：https://pan.baidu.com/s/1Xlt-vbJhPQIHGspSsuMQQw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 693,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "025】2026年老夫子申论公文素养课 公考类 025】2026年老夫子申论公文素养课 链接：https://pan.baidu.com/s/1Xlt-vbJhPQIHGspSsuMQQw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1017",
+      "title": "121】2026年江苏省考考前行测模考课【启禾",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1tYy4LOpcVwLcgiVdchIH8w?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "121】2026年江苏省考考前行测模考课【启禾 链接：https://pan.baidu.com/s/1tYy4LOpcVwLcgiVdchIH8w?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 697,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "121】2026年江苏省考考前行测模考课【启禾 公考类 121】2026年江苏省考考前行测模考课【启禾 链接：https://pan.baidu.com/s/1tYy4LOpcVwLcgiVdchIH8w?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1018",
+      "title": "101】2026年章晓铭硬核图推600题【上岸村",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1AuEjbd3NG-WOsZdCYtrvxQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "101】2026年章晓铭硬核图推600题【上岸村 链接：https://pan.baidu.com/s/1AuEjbd3NG-WOsZdCYtrvxQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 701,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "101】2026年章晓铭硬核图推600题【上岸村 公考类 101】2026年章晓铭硬核图推600题【上岸村 链接：https://pan.baidu.com/s/1AuEjbd3NG-WOsZdCYtrvxQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1019",
+      "title": "套题班】2026年省考套卷实战班（10套卷）+冲刺点睛课程",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1-27oKA2tIfcIIAOxhO_nwA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "套题班】2026年省考套卷实战班（10套卷）+冲刺点睛课程 链接：https://pan.baidu.com/s/1-27oKA2tIfcIIAOxhO_nwA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 705,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "套题班】2026年省考套卷实战班（10套卷）+冲刺点睛课程 公考类 套题班】2026年省考套卷实战班（10套卷）+冲刺点睛课程 链接：https://pan.baidu.com/s/1-27oKA2tIfcIIAOxhO_nwA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1020",
+      "title": "003】广东省考名师专属",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/120QSyZ3OroK4Ld1XPwHfQA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "003】广东省考名师专属 链接：https://pan.baidu.com/s/120QSyZ3OroK4Ld1XPwHfQA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 709,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "003】广东省考名师专属 公考类 003】广东省考名师专属 链接：https://pan.baidu.com/s/120QSyZ3OroK4Ld1XPwHfQA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1021",
+      "title": "2026鸿哥数量旗舰班带刷题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1glQ_gc_el6O5dRXfXdDpBw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026鸿哥数量旗舰班带刷题 链接：https://pan.baidu.com/s/1glQ_gc_el6O5dRXfXdDpBw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 713,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026鸿哥数量旗舰班带刷题 公考类 2026鸿哥数量旗舰班带刷题 链接：https://pan.baidu.com/s/1glQ_gc_el6O5dRXfXdDpBw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1022",
+      "title": "083】2026年飞扬申论大作文早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1MgAUnxJYD4DHcZFwgpZVFQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "083】2026年飞扬申论大作文早课 链接：https://pan.baidu.com/s/1MgAUnxJYD4DHcZFwgpZVFQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 717,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "083】2026年飞扬申论大作文早课 公考类 083】2026年飞扬申论大作文早课 链接：https://pan.baidu.com/s/1MgAUnxJYD4DHcZFwgpZVFQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1023",
+      "title": "安徽省公务员考试财会视频课程",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1pGXIyPHC_Pr_BA34Q3J2Ig?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "安徽省公务员考试财会视频课程 链接：https://pan.baidu.com/s/1pGXIyPHC_Pr_BA34Q3J2Ig?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 721,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "安徽省公务员考试财会视频课程 公考类 安徽省公务员考试财会视频课程 链接：https://pan.baidu.com/s/1pGXIyPHC_Pr_BA34Q3J2Ig?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1024",
+      "title": "135】2026年省考CG行测申论超大杯刷题营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/12-F-xFKSvUTiMU3TokrJuQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "135】2026年省考CG行测申论超大杯刷题营 链接：https://pan.baidu.com/s/12-F-xFKSvUTiMU3TokrJuQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 725,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "135】2026年省考CG行测申论超大杯刷题营 公考类 135】2026年省考CG行测申论超大杯刷题营 链接：https://pan.baidu.com/s/12-F-xFKSvUTiMU3TokrJuQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1025",
+      "title": "言语】2026省考柳岩逻辑填空刷题7天抢分计划",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1TktwPuF4JNn9S7awcTcIaQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "言语】2026省考柳岩逻辑填空刷题7天抢分计划 链接：https://pan.baidu.com/s/1TktwPuF4JNn9S7awcTcIaQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 729,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "言语】2026省考柳岩逻辑填空刷题7天抢分计划 公考类 言语】2026省考柳岩逻辑填空刷题7天抢分计划 链接：https://pan.baidu.com/s/1TktwPuF4JNn9S7awcTcIaQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1026",
+      "title": "127】2026年国考飞扬申论热点梳理",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1-lcediPD3QY4pJyVwOCPeA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "127】2026年国考飞扬申论热点梳理 链接：https://pan.baidu.com/s/1-lcediPD3QY4pJyVwOCPeA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 733,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "127】2026年国考飞扬申论热点梳理 公考类 127】2026年国考飞扬申论热点梳理 链接：https://pan.baidu.com/s/1-lcediPD3QY4pJyVwOCPeA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1027",
+      "title": "010】2026年国考珂佩申论基础班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1J7MNAS5UwtLdmO20FK0BJw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "010】2026年国考珂佩申论基础班 链接：https://pan.baidu.com/s/1J7MNAS5UwtLdmO20FK0BJw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 737,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "010】2026年国考珂佩申论基础班 公考类 010】2026年国考珂佩申论基础班 链接：https://pan.baidu.com/s/1J7MNAS5UwtLdmO20FK0BJw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1028",
+      "title": "032】2026年龙飞平面图推500题刷题精讲班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1SxKnLqmNQY9j4NPF45cudg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "032】2026年龙飞平面图推500题刷题精讲班 链接：https://pan.baidu.com/s/1SxKnLqmNQY9j4NPF45cudg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 741,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "032】2026年龙飞平面图推500题刷题精讲班 其他类别考试 032】2026年龙飞平面图推500题刷题精讲班 链接：https://pan.baidu.com/s/1SxKnLqmNQY9j4NPF45cudg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1029",
+      "title": "言语】2026省考柳岩逻辑填空1000高频词闭环突破",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1f3Aj-vWtV0r1YyyJ1HUSaw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "言语】2026省考柳岩逻辑填空1000高频词闭环突破 链接：https://pan.baidu.com/s/1f3Aj-vWtV0r1YyyJ1HUSaw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 745,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "言语】2026省考柳岩逻辑填空1000高频词闭环突破 公考类 言语】2026省考柳岩逻辑填空1000高频词闭环突破 链接：https://pan.baidu.com/s/1f3Aj-vWtV0r1YyyJ1HUSaw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1030",
+      "title": "2026天晓申论套卷批改班【11期",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1_3hyaICpvQC09aHWsydbEw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026天晓申论套卷批改班【11期 链接：https://pan.baidu.com/s/1_3hyaICpvQC09aHWsydbEw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 749,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026天晓申论套卷批改班【11期 公考类 2026天晓申论套卷批改班【11期 链接：https://pan.baidu.com/s/1_3hyaICpvQC09aHWsydbEw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1031",
+      "title": "041】数量关系系统理论课【叽叽喳喳的公考",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1S27d5ctNlHOuG2TfxWqXSA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "041】数量关系系统理论课【叽叽喳喳的公考 链接：https://pan.baidu.com/s/1S27d5ctNlHOuG2TfxWqXSA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 753,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "041】数量关系系统理论课【叽叽喳喳的公考 公考类 041】数量关系系统理论课【叽叽喳喳的公考 链接：https://pan.baidu.com/s/1S27d5ctNlHOuG2TfxWqXSA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1032",
+      "title": "009】2026年金标尺四川定向乡镇公务员高端班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1BW_NGJAphSqhX2hWcc-cgQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "009】2026年金标尺四川定向乡镇公务员高端班 链接：https://pan.baidu.com/s/1BW_NGJAphSqhX2hWcc-cgQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 757,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "009】2026年金标尺四川定向乡镇公务员高端班 公考类 009】2026年金标尺四川定向乡镇公务员高端班 链接：https://pan.baidu.com/s/1BW_NGJAphSqhX2hWcc-cgQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1033",
+      "title": "新建文件夹",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1rII85Kwi5FwtVVBYvY0XZg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "新建文件夹 链接：https://pan.baidu.com/s/1rII85Kwi5FwtVVBYvY0XZg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 761,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "新建文件夹 其他类别考试 新建文件夹 链接：https://pan.baidu.com/s/1rII85Kwi5FwtVVBYvY0XZg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1034",
+      "title": "2026省考飞扬申论热点梳理",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/12UmRaFpT2mGGdOS0jFbvKw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026省考飞扬申论热点梳理 链接：https://pan.baidu.com/s/12UmRaFpT2mGGdOS0jFbvKw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 765,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026省考飞扬申论热点梳理 公考类 2026省考飞扬申论热点梳理 链接：https://pan.baidu.com/s/12UmRaFpT2mGGdOS0jFbvKw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1035",
+      "title": "118】2026年飞扬申论综合题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1eIInkTeQBUPB_wd5L1euBg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "118】2026年飞扬申论综合题早课 链接：https://pan.baidu.com/s/1eIInkTeQBUPB_wd5L1euBg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 769,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "118】2026年飞扬申论综合题早课 公考类 118】2026年飞扬申论综合题早课 链接：https://pan.baidu.com/s/1eIInkTeQBUPB_wd5L1euBg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1036",
+      "title": "063】2026年上岸村王炎数量关系·讲练大满贯",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1zXOuOH9xwHn7SENR5F9hJA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "063】2026年上岸村王炎数量关系·讲练大满贯 链接：https://pan.baidu.com/s/1zXOuOH9xwHn7SENR5F9hJA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 773,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "063】2026年上岸村王炎数量关系·讲练大满贯 公考类 063】2026年上岸村王炎数量关系·讲练大满贯 链接：https://pan.baidu.com/s/1zXOuOH9xwHn7SENR5F9hJA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1037",
+      "title": "039】【政治理论】2026公考大姨夫军涛政治理论系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1mi0c19g2lm7wKNBajfbaLQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "039】【政治理论】2026公考大姨夫军涛政治理论系统班 链接：https://pan.baidu.com/s/1mi0c19g2lm7wKNBajfbaLQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 777,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "039】【政治理论】2026公考大姨夫军涛政治理论系统班 公考类 039】【政治理论】2026公考大姨夫军涛政治理论系统班 链接：https://pan.baidu.com/s/1mi0c19g2lm7wKNBajfbaLQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1038",
+      "title": "言语】2026省考&事业编雨菲言语冲刺预测班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1wdIpxe_YlxRarAbuXbArFw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "事业单位",
+      "context": "言语】2026省考&事业编雨菲言语冲刺预测班 链接：https://pan.baidu.com/s/1wdIpxe_YlxRarAbuXbArFw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 781,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "言语】2026省考&事业编雨菲言语冲刺预测班 事业单位 言语】2026省考&事业编雨菲言语冲刺预测班 链接：https://pan.baidu.com/s/1wdIpxe_YlxRarAbuXbArFw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1039",
+      "title": "067】2026国考大宝小宝言语刷题答疑课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1FgTSPF8Szw4Oc5eWXkTiKg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "067】2026国考大宝小宝言语刷题答疑课 链接：https://pan.baidu.com/s/1FgTSPF8Szw4Oc5eWXkTiKg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 785,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "067】2026国考大宝小宝言语刷题答疑课 公考类 067】2026国考大宝小宝言语刷题答疑课 链接：https://pan.baidu.com/s/1FgTSPF8Szw4Oc5eWXkTiKg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1040",
+      "title": "144】2026年四海拾伊资料分析600题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1RJngJbV3zaR_KDPA045nXw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "144】2026年四海拾伊资料分析600题 链接：https://pan.baidu.com/s/1RJngJbV3zaR_KDPA045nXw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 789,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "144】2026年四海拾伊资料分析600题 公考类 144】2026年四海拾伊资料分析600题 链接：https://pan.baidu.com/s/1RJngJbV3zaR_KDPA045nXw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1041",
+      "title": "021】2026年江牧云申论十全大补抢分课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/16NpSmetgcpQ6EGUefPiiYg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "021】2026年江牧云申论十全大补抢分课 链接：https://pan.baidu.com/s/16NpSmetgcpQ6EGUefPiiYg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 793,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "021】2026年江牧云申论十全大补抢分课 公考类 021】2026年江牧云申论十全大补抢分课 链接：https://pan.baidu.com/s/16NpSmetgcpQ6EGUefPiiYg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1042",
+      "title": "整理资料",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1TkaKlFfrfA5QFWd5A048qw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "整理资料 链接：https://pan.baidu.com/s/1TkaKlFfrfA5QFWd5A048qw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 797,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "整理资料 其他类别考试 整理资料 链接：https://pan.baidu.com/s/1TkaKlFfrfA5QFWd5A048qw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1043",
+      "title": "18】忧郁牛牛数量刷题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1_IV55cmRQgRd8ZQIMH8SYw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "18】忧郁牛牛数量刷题 链接：https://pan.baidu.com/s/1_IV55cmRQgRd8ZQIMH8SYw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 801,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "18】忧郁牛牛数量刷题 公考类 18】忧郁牛牛数量刷题 链接：https://pan.baidu.com/s/1_IV55cmRQgRd8ZQIMH8SYw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1044",
+      "title": "038】2026年小黑政治理论常识全家桶",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1N0_FRXG9enypSahuh3DDHQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "038】2026年小黑政治理论常识全家桶 链接：https://pan.baidu.com/s/1N0_FRXG9enypSahuh3DDHQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 805,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "038】2026年小黑政治理论常识全家桶 公考类 038】2026年小黑政治理论常识全家桶 链接：https://pan.baidu.com/s/1N0_FRXG9enypSahuh3DDHQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1045",
+      "title": "061】2026年陈老司国考申论基础强化",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1OteHij1gOBcD3npmN1Os8g?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "061】2026年陈老司国考申论基础强化 链接：https://pan.baidu.com/s/1OteHij1gOBcD3npmN1Os8g?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 809,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "061】2026年陈老司国考申论基础强化 公考类 061】2026年陈老司国考申论基础强化 链接：https://pan.baidu.com/s/1OteHij1gOBcD3npmN1Os8g?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1046",
+      "title": "2026张远山国省考行政执法申论",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1VoL5n2MR5NwYAygFhjh11Q?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026张远山国省考行政执法申论 链接：https://pan.baidu.com/s/1VoL5n2MR5NwYAygFhjh11Q?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 813,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026张远山国省考行政执法申论 公考类 2026张远山国省考行政执法申论 链接：https://pan.baidu.com/s/1VoL5n2MR5NwYAygFhjh11Q?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1047",
+      "title": "053】2026年老闻言语高频成语300词",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1s2-B9uYThFPYEwdYyWngRQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "053】2026年老闻言语高频成语300词 链接：https://pan.baidu.com/s/1s2-B9uYThFPYEwdYyWngRQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 817,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "053】2026年老闻言语高频成语300词 公考类 053】2026年老闻言语高频成语300词 链接：https://pan.baidu.com/s/1s2-B9uYThFPYEwdYyWngRQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1048",
+      "title": "155】2026省考大懒猫言语拔高刷题营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1_CUUs_EOjf_PRhgA5ySpxA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "155】2026省考大懒猫言语拔高刷题营 链接：https://pan.baidu.com/s/1_CUUs_EOjf_PRhgA5ySpxA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 821,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "155】2026省考大懒猫言语拔高刷题营 公考类 155】2026省考大懒猫言语拔高刷题营 链接：https://pan.baidu.com/s/1_CUUs_EOjf_PRhgA5ySpxA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1049",
+      "title": "027-1】岳飞课程",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1tObAJ2jeTHJkoMUZn_Sltg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "027-1】岳飞课程 链接：https://pan.baidu.com/s/1tObAJ2jeTHJkoMUZn_Sltg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 825,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "027-1】岳飞课程 其他类别考试 027-1】岳飞课程 链接：https://pan.baidu.com/s/1tObAJ2jeTHJkoMUZn_Sltg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1050",
+      "title": "公考冲刺上大分】数量关系冲刺课2026国考省考-叽叽喳喳",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1EqabZR1Ntl5M0ak3fd8p8g?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "公考冲刺上大分】数量关系冲刺课2026国考省考-叽叽喳喳 链接：https://pan.baidu.com/s/1EqabZR1Ntl5M0ak3fd8p8g?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 829,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "公考冲刺上大分】数量关系冲刺课2026国考省考-叽叽喳喳 公考类 公考冲刺上大分】数量关系冲刺课2026国考省考-叽叽喳喳 链接：https://pan.baidu.com/s/1EqabZR1Ntl5M0ak3fd8p8g?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1051",
+      "title": "2026国省考忠政申论批改班（1-80期）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Uo6JcELDD9jg3JGhP-esMg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026国省考忠政申论批改班（1-80期） 链接：https://pan.baidu.com/s/1Uo6JcELDD9jg3JGhP-esMg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 833,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026国省考忠政申论批改班（1-80期） 公考类 2026国省考忠政申论批改班（1-80期） 链接：https://pan.baidu.com/s/1Uo6JcELDD9jg3JGhP-esMg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1052",
+      "title": "077】2026年四海拾伊15天速算训练营【61&62&63",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/14Php1CecdFACzX1tLvW3IA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "077】2026年四海拾伊15天速算训练营【61&62&63 链接：https://pan.baidu.com/s/14Php1CecdFACzX1tLvW3IA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 837,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "077】2026年四海拾伊15天速算训练营【61&62&63 公考类 077】2026年四海拾伊15天速算训练营【61&62&63 链接：https://pan.baidu.com/s/14Php1CecdFACzX1tLvW3IA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1053",
+      "title": "2026年省考花生十三飞扬套题班2期",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1xR5FjfuKZqR7-fkKDfhKhA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026年省考花生十三飞扬套题班2期 链接：https://pan.baidu.com/s/1xR5FjfuKZqR7-fkKDfhKhA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 841,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026年省考花生十三飞扬套题班2期 公考类 2026年省考花生十三飞扬套题班2期 链接：https://pan.baidu.com/s/1xR5FjfuKZqR7-fkKDfhKhA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1054",
+      "title": "141】2026年程日升广东省考判断推理终极大预测",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1KaUjjhcGvpMt5PJsiCB2pw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "141】2026年程日升广东省考判断推理终极大预测 链接：https://pan.baidu.com/s/1KaUjjhcGvpMt5PJsiCB2pw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 845,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "141】2026年程日升广东省考判断推理终极大预测 公考类 141】2026年程日升广东省考判断推理终极大预测 链接：https://pan.baidu.com/s/1KaUjjhcGvpMt5PJsiCB2pw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1055",
+      "title": "029】 2026年鸿哥数量关系旗舰班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1mwd8-PSjBTUMW9K4pO89Tw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "029】 2026年鸿哥数量关系旗舰班 链接：https://pan.baidu.com/s/1mwd8-PSjBTUMW9K4pO89Tw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 849,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "029】 2026年鸿哥数量关系旗舰班 公考类 029】 2026年鸿哥数量关系旗舰班 链接：https://pan.baidu.com/s/1mwd8-PSjBTUMW9K4pO89Tw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1056",
+      "title": "020】2026年上岸村雨菲言语全新黄金九讲",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1omYcvj3qqwBl-Z6jHxLlZQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "020】2026年上岸村雨菲言语全新黄金九讲 链接：https://pan.baidu.com/s/1omYcvj3qqwBl-Z6jHxLlZQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 853,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "020】2026年上岸村雨菲言语全新黄金九讲 公考类 020】2026年上岸村雨菲言语全新黄金九讲 链接：https://pan.baidu.com/s/1omYcvj3qqwBl-Z6jHxLlZQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1057",
+      "title": "2026省考大懒猫言语冲刺营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1IOhOYVR_ZxyLyujPd7T2Fw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026省考大懒猫言语冲刺营 链接：https://pan.baidu.com/s/1IOhOYVR_ZxyLyujPd7T2Fw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 857,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026省考大懒猫言语冲刺营 公考类 2026省考大懒猫言语冲刺营 链接：https://pan.baidu.com/s/1IOhOYVR_ZxyLyujPd7T2Fw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1058",
+      "title": "054】2026年宋捏捏数量关系一本通",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/15aSV0cpbzpDRYTBXkwjbHA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "054】2026年宋捏捏数量关系一本通 链接：https://pan.baidu.com/s/15aSV0cpbzpDRYTBXkwjbHA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 861,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "054】2026年宋捏捏数量关系一本通 公考类 054】2026年宋捏捏数量关系一本通 链接：https://pan.baidu.com/s/15aSV0cpbzpDRYTBXkwjbHA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1059",
+      "title": "008】2026大宝小宝言语降维体系课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1RtMFb23S8TNabHmW0Yhjfg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "008】2026大宝小宝言语降维体系课 链接：https://pan.baidu.com/s/1RtMFb23S8TNabHmW0Yhjfg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 865,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "008】2026大宝小宝言语降维体系课 公考类 008】2026大宝小宝言语降维体系课 链接：https://pan.baidu.com/s/1RtMFb23S8TNabHmW0Yhjfg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1060",
+      "title": "116】2026柳岩",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1L3klVJpvr-iA6bLEvHDAtQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "116】2026柳岩 链接：https://pan.baidu.com/s/1L3klVJpvr-iA6bLEvHDAtQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 869,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "116】2026柳岩 其他类别考试 116】2026柳岩 链接：https://pan.baidu.com/s/1L3klVJpvr-iA6bLEvHDAtQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1061",
+      "title": "071】2026年飞扬申论归纳概括题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/19iWICa1rA_rjqYIbRGHYnQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "071】2026年飞扬申论归纳概括题早课 链接：https://pan.baidu.com/s/19iWICa1rA_rjqYIbRGHYnQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 873,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "071】2026年飞扬申论归纳概括题早课 公考类 071】2026年飞扬申论归纳概括题早课 链接：https://pan.baidu.com/s/19iWICa1rA_rjqYIbRGHYnQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1062",
+      "title": "069】2026上岸智路白天61节理论课99元全套",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1OkvdM-9fm2tw7lgqdvqJrQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "069】2026上岸智路白天61节理论课99元全套 链接：https://pan.baidu.com/s/1OkvdM-9fm2tw7lgqdvqJrQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 877,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "069】2026上岸智路白天61节理论课99元全套 其他类别考试 069】2026上岸智路白天61节理论课99元全套 链接：https://pan.baidu.com/s/1OkvdM-9fm2tw7lgqdvqJrQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1063",
+      "title": "027】2026年宋捏捏资料分析一本通",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1AxIznQ9fDahyjhtJfTj7Iw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "027】2026年宋捏捏资料分析一本通 链接：https://pan.baidu.com/s/1AxIznQ9fDahyjhtJfTj7Iw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 881,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "027】2026年宋捏捏资料分析一本通 公考类 027】2026年宋捏捏资料分析一本通 链接：https://pan.baidu.com/s/1AxIznQ9fDahyjhtJfTj7Iw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1064",
+      "title": "江苏省考资料包",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/147V4Xoa73TI28hsQW4U2fw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "江苏省考资料包 链接：https://pan.baidu.com/s/147V4Xoa73TI28hsQW4U2fw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 885,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "江苏省考资料包 公考类 江苏省考资料包 链接：https://pan.baidu.com/s/147V4Xoa73TI28hsQW4U2fw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1065",
+      "title": "097】2026年小张申论系统课【第22期",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1pTqpV0p7su8PXCKuQMEf8A?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "097】2026年小张申论系统课【第22期 链接：https://pan.baidu.com/s/1pTqpV0p7su8PXCKuQMEf8A?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 889,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "097】2026年小张申论系统课【第22期 公考类 097】2026年小张申论系统课【第22期 链接：https://pan.baidu.com/s/1pTqpV0p7su8PXCKuQMEf8A?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1066",
+      "title": "065】2026年雨菲言语百题斩刷题课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Xoo-e_wqWV7BnlK8B_mckg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "065】2026年雨菲言语百题斩刷题课 链接：https://pan.baidu.com/s/1Xoo-e_wqWV7BnlK8B_mckg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 893,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "065】2026年雨菲言语百题斩刷题课 公考类 065】2026年雨菲言语百题斩刷题课 链接：https://pan.baidu.com/s/1Xoo-e_wqWV7BnlK8B_mckg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1067",
+      "title": "036】2026年老牟深算之速算大练兵",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1wW3FPQk5C061380u9FezCg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "036】2026年老牟深算之速算大练兵 链接：https://pan.baidu.com/s/1wW3FPQk5C061380u9FezCg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 897,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "036】2026年老牟深算之速算大练兵 其他类别考试 036】2026年老牟深算之速算大练兵 链接：https://pan.baidu.com/s/1wW3FPQk5C061380u9FezCg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1068",
+      "title": "072】2026AJGK图推视频解析",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1XEjWnnRtlQ1WAOqNq90tgA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "072】2026AJGK图推视频解析 链接：https://pan.baidu.com/s/1XEjWnnRtlQ1WAOqNq90tgA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 901,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "072】2026AJGK图推视频解析 其他类别考试 072】2026AJGK图推视频解析 链接：https://pan.baidu.com/s/1XEjWnnRtlQ1WAOqNq90tgA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1069",
+      "title": "114】2026年广东省考申论理论课【登科七月",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/15vtHjs6sQejnzVkthih03A?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "114】2026年广东省考申论理论课【登科七月 链接：https://pan.baidu.com/s/15vtHjs6sQejnzVkthih03A?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 905,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "114】2026年广东省考申论理论课【登科七月 公考类 114】2026年广东省考申论理论课【登科七月 链接：https://pan.baidu.com/s/15vtHjs6sQejnzVkthih03A?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1070",
+      "title": "043】合并模块版：数量真题刷题课（800道）【叽叽喳喳的公考",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1agpXGYSKeN4tgsEoWS4euw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "043】合并模块版：数量真题刷题课（800道）【叽叽喳喳的公考 链接：https://pan.baidu.com/s/1agpXGYSKeN4tgsEoWS4euw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 909,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "043】合并模块版：数量真题刷题课（800道）【叽叽喳喳的公考 公考类 043】合并模块版：数量真题刷题课（800道）【叽叽喳喳的公考 链接：https://pan.baidu.com/s/1agpXGYSKeN4tgsEoWS4euw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1071",
+      "title": "137】2026年跃跃公考广东行测1：1套题班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1CBTLsrVIKgE8mM2FUDssXQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "137】2026年跃跃公考广东行测1：1套题班 链接：https://pan.baidu.com/s/1CBTLsrVIKgE8mM2FUDssXQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 913,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "137】2026年跃跃公考广东行测1：1套题班 公考类 137】2026年跃跃公考广东行测1：1套题班 链接：https://pan.baidu.com/s/1CBTLsrVIKgE8mM2FUDssXQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1072",
+      "title": "030】2026年为民公考刘大师申论系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1LV6LOIrIQNeYmDD5j1Pktg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "030】2026年为民公考刘大师申论系统班 链接：https://pan.baidu.com/s/1LV6LOIrIQNeYmDD5j1Pktg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 917,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "030】2026年为民公考刘大师申论系统班 公考类 030】2026年为民公考刘大师申论系统班 链接：https://pan.baidu.com/s/1LV6LOIrIQNeYmDD5j1Pktg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1073",
+      "title": "2026国考省考鸿哥资料分析考点技巧班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1McUUi52mYdyQ7tYNhBxJ4A?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026国考省考鸿哥资料分析考点技巧班 链接：https://pan.baidu.com/s/1McUUi52mYdyQ7tYNhBxJ4A?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 921,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026国考省考鸿哥资料分析考点技巧班 公考类 2026国考省考鸿哥资料分析考点技巧班 链接：https://pan.baidu.com/s/1McUUi52mYdyQ7tYNhBxJ4A?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1074",
+      "title": "2026年省考忠政申论批改班（88-90期）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/13PK19MEBmXNiIxnPPrQl5w?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026年省考忠政申论批改班（88-90期） 链接：https://pan.baidu.com/s/13PK19MEBmXNiIxnPPrQl5w?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 925,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026年省考忠政申论批改班（88-90期） 公考类 2026年省考忠政申论批改班（88-90期） 链接：https://pan.baidu.com/s/13PK19MEBmXNiIxnPPrQl5w?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1075",
+      "title": "2026上岸村36技系统冲刺班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/16tC85gxeg-vVT8cAr_PWXw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026上岸村36技系统冲刺班 链接：https://pan.baidu.com/s/16tC85gxeg-vVT8cAr_PWXw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 929,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026上岸村36技系统冲刺班 公考类 2026上岸村36技系统冲刺班 链接：https://pan.baidu.com/s/16tC85gxeg-vVT8cAr_PWXw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1076",
+      "title": "2026天晓申论理论课（新大纲）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1lKiKKzYbcFyn8dBT003Elw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026天晓申论理论课（新大纲） 链接：https://pan.baidu.com/s/1lKiKKzYbcFyn8dBT003Elw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 933,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026天晓申论理论课（新大纲） 公考类 2026天晓申论理论课（新大纲） 链接：https://pan.baidu.com/s/1lKiKKzYbcFyn8dBT003Elw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1077",
+      "title": "076】2026年言语考前必做100题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1LBMhSY42zQ6h1NbZkrmukg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "076】2026年言语考前必做100题 链接：https://pan.baidu.com/s/1LBMhSY42zQ6h1NbZkrmukg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 937,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "076】2026年言语考前必做100题 公考类 076】2026年言语考前必做100题 链接：https://pan.baidu.com/s/1LBMhSY42zQ6h1NbZkrmukg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1078",
+      "title": "048】2026年忧郁牛牛行测训练营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1cOm3l35JUSspRxEUA1M4mA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "048】2026年忧郁牛牛行测训练营 链接：https://pan.baidu.com/s/1cOm3l35JUSspRxEUA1M4mA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 941,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "048】2026年忧郁牛牛行测训练营 公考类 048】2026年忧郁牛牛行测训练营 链接：https://pan.baidu.com/s/1cOm3l35JUSspRxEUA1M4mA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1079",
+      "title": "090】2026年国考大懒猫言语魔鬼冲刺营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1PXwmgkbG-Iay2ik_zbVIWg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "090】2026年国考大懒猫言语魔鬼冲刺营 链接：https://pan.baidu.com/s/1PXwmgkbG-Iay2ik_zbVIWg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 945,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "090】2026年国考大懒猫言语魔鬼冲刺营 公考类 090】2026年国考大懒猫言语魔鬼冲刺营 链接：https://pan.baidu.com/s/1PXwmgkbG-Iay2ik_zbVIWg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1080",
+      "title": "2026江牧云最全56招",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1yxazW2xtuNr_L3lJ2_e1cA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "2026江牧云最全56招 链接：https://pan.baidu.com/s/1yxazW2xtuNr_L3lJ2_e1cA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 949,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "2026江牧云最全56招 其他类别考试 2026江牧云最全56招 链接：https://pan.baidu.com/s/1yxazW2xtuNr_L3lJ2_e1cA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1081",
+      "title": "2026厂长资料分析全家桶",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1bpvu2Kf3tGSzXhYym0wGAQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026厂长资料分析全家桶 链接：https://pan.baidu.com/s/1bpvu2Kf3tGSzXhYym0wGAQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 953,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026厂长资料分析全家桶 公考类 2026厂长资料分析全家桶 链接：https://pan.baidu.com/s/1bpvu2Kf3tGSzXhYym0wGAQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1082",
+      "title": "042】速算基础+资料分析系统基础课+70道手把手速算例题 【叽叽喳喳的公考",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/15OP-qsFOjJiwckpy8RCZ1A?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "042】速算基础+资料分析系统基础课+70道手把手速算例题 【叽叽喳喳的公考 链接：https://pan.baidu.com/s/15OP-qsFOjJiwckpy8RCZ1A?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 957,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "042】速算基础+资料分析系统基础课+70道手把手速算例题 【叽叽喳喳的公考 公考类 042】速算基础+资料分析系统基础课+70道手把手速算例题 【叽叽喳喳的公考 链接：https://pan.baidu.com/s/15OP-qsFOjJiwckpy8RCZ1A?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1083",
+      "title": "088】2026年导氮申论基础理论批改班+批改提升班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1rMeIxVmvNnJauD_1cQZ1qw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "088】2026年导氮申论基础理论批改班+批改提升班 链接：https://pan.baidu.com/s/1rMeIxVmvNnJauD_1cQZ1qw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 961,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "088】2026年导氮申论基础理论批改班+批改提升班 公考类 088】2026年导氮申论基础理论批改班+批改提升班 链接：https://pan.baidu.com/s/1rMeIxVmvNnJauD_1cQZ1qw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1084",
+      "title": "027-2】岳飞课程 2026模考复盘-岳飞",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1IGTPPzBtY3UGg56Q0cgkrA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "027-2】岳飞课程 2026模考复盘-岳飞 链接：https://pan.baidu.com/s/1IGTPPzBtY3UGg56Q0cgkrA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 965,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "027-2】岳飞课程 2026模考复盘-岳飞 公考类 027-2】岳飞课程 2026模考复盘-岳飞 链接：https://pan.baidu.com/s/1IGTPPzBtY3UGg56Q0cgkrA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1085",
+      "title": "19】26科小推车科推推理",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1YXep668h2UC9bHDwZNnR_g?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "19】26科小推车科推推理 链接：https://pan.baidu.com/s/1YXep668h2UC9bHDwZNnR_g?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 969,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "19】26科小推车科推推理 其他类别考试 19】26科小推车科推推理 链接：https://pan.baidu.com/s/1YXep668h2UC9bHDwZNnR_g?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1086",
+      "title": "073】2026年义恒图形推理700题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1DoogH-Gz4yxAF0Sn1KePIg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "073】2026年义恒图形推理700题 链接：https://pan.baidu.com/s/1DoogH-Gz4yxAF0Sn1KePIg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 973,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "073】2026年义恒图形推理700题 其他类别考试 073】2026年义恒图形推理700题 链接：https://pan.baidu.com/s/1DoogH-Gz4yxAF0Sn1KePIg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1087",
+      "title": "099】2026年贺冲申论系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/184tz71RpMAn2LuiRN0RkZQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "099】2026年贺冲申论系统课 链接：https://pan.baidu.com/s/184tz71RpMAn2LuiRN0RkZQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 977,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "099】2026年贺冲申论系统课 公考类 099】2026年贺冲申论系统课 链接：https://pan.baidu.com/s/184tz71RpMAn2LuiRN0RkZQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1088",
+      "title": "113】2026年国考飞扬申论考前冲刺课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1gcCdYjhrpjBMmZcl6Tp3Jg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "113】2026年国考飞扬申论考前冲刺课 链接：https://pan.baidu.com/s/1gcCdYjhrpjBMmZcl6Tp3Jg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 981,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "113】2026年国考飞扬申论考前冲刺课 公考类 113】2026年国考飞扬申论考前冲刺课 链接：https://pan.baidu.com/s/1gcCdYjhrpjBMmZcl6Tp3Jg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1089",
+      "title": "2026陈八十行测刷刷刷言语判断刷题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1y9DfZuVz4gPKBLlowPSVEQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026陈八十行测刷刷刷言语判断刷题 链接：https://pan.baidu.com/s/1y9DfZuVz4gPKBLlowPSVEQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 985,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026陈八十行测刷刷刷言语判断刷题 公考类 2026陈八十行测刷刷刷言语判断刷题 链接：https://pan.baidu.com/s/1y9DfZuVz4gPKBLlowPSVEQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1090",
+      "title": "022】2026年小P公考数资判系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1UIPms5XrXqtmtV7GXc8OIw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "022】2026年小P公考数资判系统班 链接：https://pan.baidu.com/s/1UIPms5XrXqtmtV7GXc8OIw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 989,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "022】2026年小P公考数资判系统班 公考类 022】2026年小P公考数资判系统班 链接：https://pan.baidu.com/s/1UIPms5XrXqtmtV7GXc8OIw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1091",
+      "title": "103】2026年时政是条线",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1hMOGq16H3zCs2QqRnEoPHg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "103】2026年时政是条线 链接：https://pan.baidu.com/s/1hMOGq16H3zCs2QqRnEoPHg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 993,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "103】2026年时政是条线 公考类 103】2026年时政是条线 链接：https://pan.baidu.com/s/1hMOGq16H3zCs2QqRnEoPHg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1092",
+      "title": "2026小张申论多省联考刷题冲刺班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1BvABeCz3-xSl-vr_6HIA1w?pwd=pg8z",
+      "code": "pg8z",
+      "section": "事业单位",
+      "context": "2026小张申论多省联考刷题冲刺班 链接：https://pan.baidu.com/s/1BvABeCz3-xSl-vr_6HIA1w?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 997,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "2026小张申论多省联考刷题冲刺班 事业单位 2026小张申论多省联考刷题冲刺班 链接：https://pan.baidu.com/s/1BvABeCz3-xSl-vr_6HIA1w?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1093",
+      "title": "上岸村26省考张弓言语十二箭",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Y0IaKV_aiQRQLLWfI-K_aA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "上岸村26省考张弓言语十二箭 链接：https://pan.baidu.com/s/1Y0IaKV_aiQRQLLWfI-K_aA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1001,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "上岸村26省考张弓言语十二箭 公考类 上岸村26省考张弓言语十二箭 链接：https://pan.baidu.com/s/1Y0IaKV_aiQRQLLWfI-K_aA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1094",
+      "title": "060】2026年国省考忠政申论小巨人班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1W25sEPt0TRkRB-YxY4CXpg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "060】2026年国省考忠政申论小巨人班 链接：https://pan.baidu.com/s/1W25sEPt0TRkRB-YxY4CXpg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1005,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "060】2026年国省考忠政申论小巨人班 公考类 060】2026年国省考忠政申论小巨人班 链接：https://pan.baidu.com/s/1W25sEPt0TRkRB-YxY4CXpg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1095",
+      "title": "091】2026年广东省考行政执法申论专项",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1G-WG9NCPtHckESgIUz3d5w?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "091】2026年广东省考行政执法申论专项 链接：https://pan.baidu.com/s/1G-WG9NCPtHckESgIUz3d5w?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1009,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "091】2026年广东省考行政执法申论专项 公考类 091】2026年广东省考行政执法申论专项 链接：https://pan.baidu.com/s/1G-WG9NCPtHckESgIUz3d5w?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1096",
+      "title": "0005】2026苏金朋旗舰班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/19VFr7i213B7n9omlXNY7sQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "0005】2026苏金朋旗舰班 链接：https://pan.baidu.com/s/19VFr7i213B7n9omlXNY7sQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1013,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "0005】2026苏金朋旗舰班 其他类别考试 0005】2026苏金朋旗舰班 链接：https://pan.baidu.com/s/19VFr7i213B7n9omlXNY7sQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1097",
+      "title": "2026导氮快申论基础理论批改班+批改提升班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1AZA6_qhGtzE14lEYjXOfyQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026导氮快申论基础理论批改班+批改提升班 链接：https://pan.baidu.com/s/1AZA6_qhGtzE14lEYjXOfyQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1017,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026导氮快申论基础理论批改班+批改提升班 公考类 2026导氮快申论基础理论批改班+批改提升班 链接：https://pan.baidu.com/s/1AZA6_qhGtzE14lEYjXOfyQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1098",
+      "title": "❤️2026国考&省考资料包【模拟&预测&押题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1MAUiztvbZ0VMM8Ot6MTvlQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "❤️2026国考&省考资料包【模拟&预测&押题 链接：https://pan.baidu.com/s/1MAUiztvbZ0VMM8Ot6MTvlQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1021,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "❤️2026国考&省考资料包【模拟&预测&押题 公考类 ❤️2026国考&省考资料包【模拟&预测&押题 链接：https://pan.baidu.com/s/1MAUiztvbZ0VMM8Ot6MTvlQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1099",
+      "title": "056】花生十三线下绝版课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1WRhHrxUok9JV6gk5yu4HcA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "056】花生十三线下绝版课 链接：https://pan.baidu.com/s/1WRhHrxUok9JV6gk5yu4HcA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1025,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "056】花生十三线下绝版课 公考类 056】花生十三线下绝版课 链接：https://pan.baidu.com/s/1WRhHrxUok9JV6gk5yu4HcA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1100",
+      "title": "123】2026年公考硬算哥资料分析",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1MhMphEwWNoltQgjWCy_WiQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "123】2026年公考硬算哥资料分析 链接：https://pan.baidu.com/s/1MhMphEwWNoltQgjWCy_WiQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1029,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "123】2026年公考硬算哥资料分析 公考类 123】2026年公考硬算哥资料分析 链接：https://pan.baidu.com/s/1MhMphEwWNoltQgjWCy_WiQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1101",
+      "title": "093】2026年广东省考行政执法专业科目必刷1000题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1oPyOgDDut9Gb3PavNybYLA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "093】2026年广东省考行政执法专业科目必刷1000题 链接：https://pan.baidu.com/s/1oPyOgDDut9Gb3PavNybYLA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1033,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "093】2026年广东省考行政执法专业科目必刷1000题 公考类 093】2026年广东省考行政执法专业科目必刷1000题 链接：https://pan.baidu.com/s/1oPyOgDDut9Gb3PavNybYLA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1102",
+      "title": "085】2026国考白天行测申论高分超车班（含行测176绝技）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1fFBzLWdjfVCxabwATWMWgg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "085】2026国考白天行测申论高分超车班（含行测176绝技） 链接：https://pan.baidu.com/s/1fFBzLWdjfVCxabwATWMWgg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1037,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "085】2026国考白天行测申论高分超车班（含行测176绝技） 公考类 085】2026国考白天行测申论高分超车班（含行测176绝技） 链接：https://pan.baidu.com/s/1fFBzLWdjfVCxabwATWMWgg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1103",
+      "title": "092】2026年国考李铁政治理论冲刺课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1jM_-mP6i4vADZAqwUoHepg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "092】2026年国考李铁政治理论冲刺课 链接：https://pan.baidu.com/s/1jM_-mP6i4vADZAqwUoHepg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1041,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "092】2026年国考李铁政治理论冲刺课 公考类 092】2026年国考李铁政治理论冲刺课 链接：https://pan.baidu.com/s/1jM_-mP6i4vADZAqwUoHepg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1104",
+      "title": "129】2026年国考小黑5套金卷【黑五",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1AKW79qE5CkEvaLi85rrI9g?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "129】2026年国考小黑5套金卷【黑五 链接：https://pan.baidu.com/s/1AKW79qE5CkEvaLi85rrI9g?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1045,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "129】2026年国考小黑5套金卷【黑五 公考类 129】2026年国考小黑5套金卷【黑五 链接：https://pan.baidu.com/s/1AKW79qE5CkEvaLi85rrI9g?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1105",
+      "title": "2026省考白鹭申论大决战联考冲刺营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1YH8KZq6O8LYyewod9OmC3Q?pwd=pg8z",
+      "code": "pg8z",
+      "section": "事业单位",
+      "context": "2026省考白鹭申论大决战联考冲刺营 链接：https://pan.baidu.com/s/1YH8KZq6O8LYyewod9OmC3Q?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1049,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "2026省考白鹭申论大决战联考冲刺营 事业单位 2026省考白鹭申论大决战联考冲刺营 链接：https://pan.baidu.com/s/1YH8KZq6O8LYyewod9OmC3Q?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1106",
+      "title": "人民日报经典素材",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1w1HbSxaoMxzYUp8olGY6_w?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "人民日报经典素材 链接：https://pan.baidu.com/s/1w1HbSxaoMxzYUp8olGY6_w?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1053,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "人民日报经典素材 其他类别考试 人民日报经典素材 链接：https://pan.baidu.com/s/1w1HbSxaoMxzYUp8olGY6_w?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1107",
+      "title": "2026毛娃儿数量关系系统刷题课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1YWi5U9NVhX1QYfDwB16uhQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026毛娃儿数量关系系统刷题课 链接：https://pan.baidu.com/s/1YWi5U9NVhX1QYfDwB16uhQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1057,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026毛娃儿数量关系系统刷题课 公考类 2026毛娃儿数量关系系统刷题课 链接：https://pan.baidu.com/s/1YWi5U9NVhX1QYfDwB16uhQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1108",
+      "title": "006】小p资料分析刷题150套",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1xljiek_y3yoOZ4EfDTKrGA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "006】小p资料分析刷题150套 链接：https://pan.baidu.com/s/1xljiek_y3yoOZ4EfDTKrGA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1061,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "006】小p资料分析刷题150套 公考类 006】小p资料分析刷题150套 链接：https://pan.baidu.com/s/1xljiek_y3yoOZ4EfDTKrGA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1109",
+      "title": "140】2026年高照数字推理460题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1KUlauLOpht_PwHSKiO5RJA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "140】2026年高照数字推理460题 链接：https://pan.baidu.com/s/1KUlauLOpht_PwHSKiO5RJA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1065,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "140】2026年高照数字推理460题 其他类别考试 140】2026年高照数字推理460题 链接：https://pan.baidu.com/s/1KUlauLOpht_PwHSKiO5RJA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1110",
+      "title": "024】2026年花生十三飞扬笔试系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1KgzfWK6VqXAldpDZ_s5DDQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "024】2026年花生十三飞扬笔试系统班 链接：https://pan.baidu.com/s/1KgzfWK6VqXAldpDZ_s5DDQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1069,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "024】2026年花生十三飞扬笔试系统班 公考类 024】2026年花生十三飞扬笔试系统班 链接：https://pan.baidu.com/s/1KgzfWK6VqXAldpDZ_s5DDQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1111",
+      "title": "139】2026年省考四海行测2000题海海刷",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ncluS8wcLm732IXrz8aiRg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "139】2026年省考四海行测2000题海海刷 链接：https://pan.baidu.com/s/1ncluS8wcLm732IXrz8aiRg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1073,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "139】2026年省考四海行测2000题海海刷 公考类 139】2026年省考四海行测2000题海海刷 链接：https://pan.baidu.com/s/1ncluS8wcLm732IXrz8aiRg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1112",
+      "title": "056】2026年花生十三飞扬行测申论套题一期",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1QS3Td5EQXC6FEEEL1MVunA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "056】2026年花生十三飞扬行测申论套题一期 链接：https://pan.baidu.com/s/1QS3Td5EQXC6FEEEL1MVunA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1077,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "056】2026年花生十三飞扬行测申论套题一期 公考类 056】2026年花生十三飞扬行测申论套题一期 链接：https://pan.baidu.com/s/1QS3Td5EQXC6FEEEL1MVunA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1113",
+      "title": "074】2026年飞扬申论提出对策题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Czmy15xzAixmFGEQgJQ4Yg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "074】2026年飞扬申论提出对策题早课 链接：https://pan.baidu.com/s/1Czmy15xzAixmFGEQgJQ4Yg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1081,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "074】2026年飞扬申论提出对策题早课 公考类 074】2026年飞扬申论提出对策题早课 链接：https://pan.baidu.com/s/1Czmy15xzAixmFGEQgJQ4Yg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1114",
+      "title": "145】2026年国省考忠政申论批改班（1-80期）【个别无视频介意勿看",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1rdqenTL8QXYOMXkGDSKr5A?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "145】2026年国省考忠政申论批改班（1-80期）【个别无视频介意勿看 链接：https://pan.baidu.com/s/1rdqenTL8QXYOMXkGDSKr5A?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1085,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "145】2026年国省考忠政申论批改班（1-80期）【个别无视频介意勿看 公考类 145】2026年国省考忠政申论批改班（1-80期）【个别无视频介意勿看 链接：https://pan.baidu.com/s/1rdqenTL8QXYOMXkGDSKr5A?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1115",
+      "title": "2026上岸村张弓言语200题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1aCASYvxaEssPaQ_RjaovGw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026上岸村张弓言语200题 链接：https://pan.baidu.com/s/1aCASYvxaEssPaQ_RjaovGw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1089,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026上岸村张弓言语200题 公考类 2026上岸村张弓言语200题 链接：https://pan.baidu.com/s/1aCASYvxaEssPaQ_RjaovGw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1116",
+      "title": "2026年省考飞扬申论归纳概括题早课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1RgIyc6ii_o9edX783Wamtw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026年省考飞扬申论归纳概括题早课 链接：https://pan.baidu.com/s/1RgIyc6ii_o9edX783Wamtw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1093,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026年省考飞扬申论归纳概括题早课 公考类 2026年省考飞扬申论归纳概括题早课 链接：https://pan.baidu.com/s/1RgIyc6ii_o9edX783Wamtw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1117",
+      "title": "李梦娇《政治理论》专项班＋时政",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/17WO7vCgIGMU4be3s10XBKg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "李梦娇《政治理论》专项班＋时政 链接：https://pan.baidu.com/s/17WO7vCgIGMU4be3s10XBKg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1097,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "李梦娇《政治理论》专项班＋时政 公考类 李梦娇《政治理论》专项班＋时政 链接：https://pan.baidu.com/s/17WO7vCgIGMU4be3s10XBKg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1118",
+      "title": "2026白鹭申论点将台实战营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ZnQpQpN8Sq3lC42Tkv_Txw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026白鹭申论点将台实战营 链接：https://pan.baidu.com/s/1ZnQpQpN8Sq3lC42Tkv_Txw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1101,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026白鹭申论点将台实战营 公考类 2026白鹭申论点将台实战营 链接：https://pan.baidu.com/s/1ZnQpQpN8Sq3lC42Tkv_Txw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1119",
+      "title": "079】2026年乘风行测全程班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1sMFQmpksk_9gr-ed9Obh5w?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "079】2026年乘风行测全程班 链接：https://pan.baidu.com/s/1sMFQmpksk_9gr-ed9Obh5w?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1105,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "079】2026年乘风行测全程班 公考类 079】2026年乘风行测全程班 链接：https://pan.baidu.com/s/1sMFQmpksk_9gr-ed9Obh5w?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1120",
+      "title": "常识】2026超格伯洁常识判断冲刺早自习（3月省考版）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1lHFTZJdUS5Y9dl4KpAeQRQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "常识】2026超格伯洁常识判断冲刺早自习（3月省考版） 链接：https://pan.baidu.com/s/1lHFTZJdUS5Y9dl4KpAeQRQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1109,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "常识】2026超格伯洁常识判断冲刺早自习（3月省考版） 公考类 常识】2026超格伯洁常识判断冲刺早自习（3月省考版） 链接：https://pan.baidu.com/s/1lHFTZJdUS5Y9dl4KpAeQRQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1121",
+      "title": "094】2026年广东省考申论理论课【登科七月",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1YiXxB3UT2APFRqN5ByUfiQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "094】2026年广东省考申论理论课【登科七月 链接：https://pan.baidu.com/s/1YiXxB3UT2APFRqN5ByUfiQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1113,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "094】2026年广东省考申论理论课【登科七月 公考类 094】2026年广东省考申论理论课【登科七月 链接：https://pan.baidu.com/s/1YiXxB3UT2APFRqN5ByUfiQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1122",
+      "title": "2026小黑-政治理论&常识冲刺班（12月&3月国省考）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/16igiK7c4LPvnYL5BszsCfQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026小黑-政治理论&常识冲刺班（12月&3月国省考） 链接：https://pan.baidu.com/s/16igiK7c4LPvnYL5BszsCfQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1117,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026小黑-政治理论&常识冲刺班（12月&3月国省考） 公考类 2026小黑-政治理论&常识冲刺班（12月&3月国省考） 链接：https://pan.baidu.com/s/16igiK7c4LPvnYL5BszsCfQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1123",
+      "title": "051】2026年飞扬申论早课分析理解题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1vzSZwJBFm_sCVaHw3nkObw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "051】2026年飞扬申论早课分析理解题 链接：https://pan.baidu.com/s/1vzSZwJBFm_sCVaHw3nkObw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1121,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "051】2026年飞扬申论早课分析理解题 公考类 051】2026年飞扬申论早课分析理解题 链接：https://pan.baidu.com/s/1vzSZwJBFm_sCVaHw3nkObw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1124",
+      "title": "082】2026年CG套卷实战班（10套卷）+冲刺点睛课程",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/10QlREDVB4rVEnvYXMzsFbQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "082】2026年CG套卷实战班（10套卷）+冲刺点睛课程 链接：https://pan.baidu.com/s/10QlREDVB4rVEnvYXMzsFbQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1125,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "082】2026年CG套卷实战班（10套卷）+冲刺点睛课程 其他类别考试 082】2026年CG套卷实战班（10套卷）+冲刺点睛课程 链接：https://pan.baidu.com/s/10QlREDVB4rVEnvYXMzsFbQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1125",
+      "title": "2026李梦娇常识速记口诀88条11.0",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/11-3tZlrvQwYe17FIzF6qLQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026李梦娇常识速记口诀88条11.0 链接：https://pan.baidu.com/s/11-3tZlrvQwYe17FIzF6qLQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1129,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026李梦娇常识速记口诀88条11.0 公考类 2026李梦娇常识速记口诀88条11.0 链接：https://pan.baidu.com/s/11-3tZlrvQwYe17FIzF6qLQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1126",
+      "title": "107-109】2026王山东分王",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1neTb19XI_kphebhtMQ7ioQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "107-109】2026王山东分王 链接：https://pan.baidu.com/s/1neTb19XI_kphebhtMQ7ioQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1133,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "107-109】2026王山东分王 其他类别考试 107-109】2026王山东分王 链接：https://pan.baidu.com/s/1neTb19XI_kphebhtMQ7ioQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1127",
+      "title": "2026上岸村套卷强化班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1rkT08tehLz_BieawzLEHcQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026上岸村套卷强化班 链接：https://pan.baidu.com/s/1rkT08tehLz_BieawzLEHcQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1137,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026上岸村套卷强化班 公考类 2026上岸村套卷强化班 链接：https://pan.baidu.com/s/1rkT08tehLz_BieawzLEHcQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1128",
+      "title": "050】2026年宋捏捏数量关系",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1rPWRwlkPGMgLww_8hMWwKg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "050】2026年宋捏捏数量关系 链接：https://pan.baidu.com/s/1rPWRwlkPGMgLww_8hMWwKg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1141,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "050】2026年宋捏捏数量关系 公考类 050】2026年宋捏捏数量关系 链接：https://pan.baidu.com/s/1rPWRwlkPGMgLww_8hMWwKg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1129",
+      "title": "国考一拖五】系统课精讲",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/19_GVRYG99z8E_BbM7w23-Q?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "国考一拖五】系统课精讲 链接：https://pan.baidu.com/s/19_GVRYG99z8E_BbM7w23-Q?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1145,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "国考一拖五】系统课精讲 公考类 国考一拖五】系统课精讲 链接：https://pan.baidu.com/s/19_GVRYG99z8E_BbM7w23-Q?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1130",
+      "title": "政治理论】2026年省联考忧郁牛牛政治理论押题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1_aS-TyyoEtrWxS6uu8uUig?pwd=pg8z",
+      "code": "pg8z",
+      "section": "事业单位",
+      "context": "政治理论】2026年省联考忧郁牛牛政治理论押题 链接：https://pan.baidu.com/s/1_aS-TyyoEtrWxS6uu8uUig?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1149,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "政治理论】2026年省联考忧郁牛牛政治理论押题 事业单位 政治理论】2026年省联考忧郁牛牛政治理论押题 链接：https://pan.baidu.com/s/1_aS-TyyoEtrWxS6uu8uUig?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1131",
+      "title": "0002】2026相丽君合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1V5N003g0Uh3B85nEZNTz2A?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "0002】2026相丽君合集 链接：https://pan.baidu.com/s/1V5N003g0Uh3B85nEZNTz2A?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1153,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "0002】2026相丽君合集 其他类别考试 0002】2026相丽君合集 链接：https://pan.baidu.com/s/1V5N003g0Uh3B85nEZNTz2A?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1132",
+      "title": "147】2026年省考暖冬、严谨行测申论全程班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Xh_q8NlVXJ2YCO9caKyyhw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "147】2026年省考暖冬、严谨行测申论全程班 链接：https://pan.baidu.com/s/1Xh_q8NlVXJ2YCO9caKyyhw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1157,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "147】2026年省考暖冬、严谨行测申论全程班 公考类 147】2026年省考暖冬、严谨行测申论全程班 链接：https://pan.baidu.com/s/1Xh_q8NlVXJ2YCO9caKyyhw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1133",
+      "title": "028】2026李卜常识政治理论开天斧",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1OVdikotllFL1_Kudf6zwrA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "028】2026李卜常识政治理论开天斧 链接：https://pan.baidu.com/s/1OVdikotllFL1_Kudf6zwrA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1161,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "028】2026李卜常识政治理论开天斧 公考类 028】2026李卜常识政治理论开天斧 链接：https://pan.baidu.com/s/1OVdikotllFL1_Kudf6zwrA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1134",
+      "title": "009】26青菜白玉汤判断推理体系课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/11oCFY2l1w4BvgF4-SLkyzw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "009】26青菜白玉汤判断推理体系课 链接：https://pan.baidu.com/s/11oCFY2l1w4BvgF4-SLkyzw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1165,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "009】26青菜白玉汤判断推理体系课 公考类 009】26青菜白玉汤判断推理体系课 链接：https://pan.baidu.com/s/11oCFY2l1w4BvgF4-SLkyzw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1135",
+      "title": "004】2026站长申论",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1dt9CUvNpZ6FmETpMyUTGCg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "004】2026站长申论 链接：https://pan.baidu.com/s/1dt9CUvNpZ6FmETpMyUTGCg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1169,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "004】2026站长申论 公考类 004】2026站长申论 链接：https://pan.baidu.com/s/1dt9CUvNpZ6FmETpMyUTGCg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1136",
+      "title": "2026超哥联考政治理论专项刷题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/15DgWwwDN_mV5OJNjpAu2NA?pwd=pg8z",
+      "code": "pg8z",
+      "section": "事业单位",
+      "context": "2026超哥联考政治理论专项刷题 链接：https://pan.baidu.com/s/15DgWwwDN_mV5OJNjpAu2NA?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1173,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "2026超哥联考政治理论专项刷题 事业单位 2026超哥联考政治理论专项刷题 链接：https://pan.baidu.com/s/15DgWwwDN_mV5OJNjpAu2NA?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1137",
+      "title": "Y 羊圈圈（羊村）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ZW5Q2XVbNaPnk005E7v31Q?pwd=pg8z",
+      "code": "pg8z",
+      "section": "其他类别考试",
+      "context": "Y 羊圈圈（羊村） 链接：https://pan.baidu.com/s/1ZW5Q2XVbNaPnk005E7v31Q?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1177,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "Y 羊圈圈（羊村） 其他类别考试 Y 羊圈圈（羊村） 链接：https://pan.baidu.com/s/1ZW5Q2XVbNaPnk005E7v31Q?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1138",
+      "title": "128】2026年小黑国省考政治理论考前必刷50题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1iUAkicxkCJ6ZHWDCE2OXQw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "128】2026年小黑国省考政治理论考前必刷50题 链接：https://pan.baidu.com/s/1iUAkicxkCJ6ZHWDCE2OXQw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1181,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "128】2026年小黑国省考政治理论考前必刷50题 公考类 128】2026年小黑国省考政治理论考前必刷50题 链接：https://pan.baidu.com/s/1iUAkicxkCJ6ZHWDCE2OXQw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1139",
+      "title": "2026上岸村王炎数量关系200题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1_LI1ASLQXzQMp1SwBHfHkw?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "2026上岸村王炎数量关系200题 链接：https://pan.baidu.com/s/1_LI1ASLQXzQMp1SwBHfHkw?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1185,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2026上岸村王炎数量关系200题 公考类 2026上岸村王炎数量关系200题 链接：https://pan.baidu.com/s/1_LI1ASLQXzQMp1SwBHfHkw?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1140",
+      "title": "070】2026上岸智路白天行测3900元强化课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Tuq6qjkyGDDe-24LSg_fcQ?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "070】2026上岸智路白天行测3900元强化课 链接：https://pan.baidu.com/s/1Tuq6qjkyGDDe-24LSg_fcQ?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1189,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "070】2026上岸智路白天行测3900元强化课 公考类 070】2026上岸智路白天行测3900元强化课 链接：https://pan.baidu.com/s/1Tuq6qjkyGDDe-24LSg_fcQ?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1141",
+      "title": "142】2026年国省考马克政治理论冲刺",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ErowE5sFH9Vy_-Ah1TJdtg?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "142】2026年国省考马克政治理论冲刺 链接：https://pan.baidu.com/s/1ErowE5sFH9Vy_-Ah1TJdtg?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1193,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "142】2026年国省考马克政治理论冲刺 公考类 142】2026年国省考马克政治理论冲刺 链接：https://pan.baidu.com/s/1ErowE5sFH9Vy_-Ah1TJdtg?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1142",
+      "title": "096】2026年李梦娇常识速记口诀88条【11.0版",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1bAi-J2_nVptdMwWHbreL_A?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "096】2026年李梦娇常识速记口诀88条【11.0版 链接：https://pan.baidu.com/s/1bAi-J2_nVptdMwWHbreL_A?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1197,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "096】2026年李梦娇常识速记口诀88条【11.0版 公考类 096】2026年李梦娇常识速记口诀88条【11.0版 链接：https://pan.baidu.com/s/1bAi-J2_nVptdMwWHbreL_A?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1143",
+      "title": "013】2026年千寻申论系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1DnWtHOcoToZqx9ASUiAv6w?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "013】2026年千寻申论系统课 链接：https://pan.baidu.com/s/1DnWtHOcoToZqx9ASUiAv6w?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1201,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "013】2026年千寻申论系统课 公考类 013】2026年千寻申论系统课 链接：https://pan.baidu.com/s/1DnWtHOcoToZqx9ASUiAv6w?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1144",
+      "title": "022】2026国考李小北申论系统班（包含基础+专项阶段）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/12WdR5Oy25UJkMuwxg5ad6w?pwd=pg8z",
+      "code": "pg8z",
+      "section": "公考类",
+      "context": "022】2026国考李小北申论系统班（包含基础+专项阶段） 链接：https://pan.baidu.com/s/12WdR5Oy25UJkMuwxg5ad6w?pwd=pg8z 提取码：pg8z",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1205,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "022】2026国考李小北申论系统班（包含基础+专项阶段） 公考类 022】2026国考李小北申论系统班（包含基础+专项阶段） 链接：https://pan.baidu.com/s/12WdR5Oy25UJkMuwxg5ad6w?pwd=pg8z 提取码：pg8z pg8z 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1145",
+      "title": "2027小马哥申论理论+刷题全程班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1IhfuJrGy8SonDQY5ZJQhfA?pwd=he9r",
+      "code": "he9r",
+      "section": "公考类",
+      "context": "2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/1IhfuJrGy8SonDQY5ZJQhfA?pwd=he9r 提取码：he9r",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1209,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027小马哥申论理论+刷题全程班 公考类 2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/1IhfuJrGy8SonDQY5ZJQhfA?pwd=he9r 提取码：he9r he9r 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1146",
+      "title": "2027超格合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/18xJUI3eLUYbu6kLKUBKtYQ?pwd=he9r",
+      "code": "he9r",
+      "section": "公考类",
+      "context": "2027超格合集 链接：https://pan.baidu.com/s/18xJUI3eLUYbu6kLKUBKtYQ?pwd=he9r 提取码：he9r",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1213,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027超格合集 公考类 2027超格合集 链接：https://pan.baidu.com/s/18xJUI3eLUYbu6kLKUBKtYQ?pwd=he9r 提取码：he9r he9r 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1147",
+      "title": "2027花生十三合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1lM-8JkMAuXmrDJjTZWd48w?pwd=he9r",
+      "code": "he9r",
+      "section": "公考类",
+      "context": "2027花生十三合集 链接：https://pan.baidu.com/s/1lM-8JkMAuXmrDJjTZWd48w?pwd=he9r 提取码：he9r",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1217,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027花生十三合集 公考类 2027花生十三合集 链接：https://pan.baidu.com/s/1lM-8JkMAuXmrDJjTZWd48w?pwd=he9r 提取码：he9r he9r 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1148",
+      "title": "FB合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1OHWvdjjsXTuBLKA-U42bxA?pwd=he9r",
+      "code": "he9r",
+      "section": "其他类别考试",
+      "context": "FB合集 链接：https://pan.baidu.com/s/1OHWvdjjsXTuBLKA-U42bxA?pwd=he9r 提取码：he9r",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1221,
+          "section": "其他类别考试"
+        }
+      ],
+      "searchText": "FB合集 其他类别考试 FB合集 链接：https://pan.baidu.com/s/1OHWvdjjsXTuBLKA-U42bxA?pwd=he9r 提取码：he9r he9r 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1149",
+      "title": "2027年刘文超小马哥行测申论360全程班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Wqsvu_sVkrZSPYbkRg0gUQ?pwd=he9r",
+      "code": "he9r",
+      "section": "公考类",
+      "context": "2027年刘文超小马哥行测申论360全程班 链接：https://pan.baidu.com/s/1Wqsvu_sVkrZSPYbkRg0gUQ?pwd=he9r 提取码：he9r",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1225,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027年刘文超小马哥行测申论360全程班 公考类 2027年刘文超小马哥行测申论360全程班 链接：https://pan.baidu.com/s/1Wqsvu_sVkrZSPYbkRg0gUQ?pwd=he9r 提取码：he9r he9r 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1150",
+      "title": "2027上岸村合集",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1CDzby3xDgbSQZuK1GH9qAA?pwd=he9r",
+      "code": "he9r",
+      "section": "公考类",
+      "context": "2027上岸村合集 链接：https://pan.baidu.com/s/1CDzby3xDgbSQZuK1GH9qAA?pwd=he9r 提取码：he9r",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1229,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2027上岸村合集 公考类 2027上岸村合集 链接：https://pan.baidu.com/s/1CDzby3xDgbSQZuK1GH9qAA?pwd=he9r 提取码：he9r he9r 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1151",
+      "title": "李铁公基12000题刷题课（近五年最新公基真题）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1HVCEloEe12jw6F7UnGdFUQ?pwd=ryaw",
+      "code": "ryaw",
+      "section": "公考类",
+      "context": "李铁公基12000题刷题课（近五年最新公基真题） 链接：https://pan.baidu.com/s/1HVCEloEe12jw6F7UnGdFUQ?pwd=ryaw 提取码：ryaw",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1257,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "李铁公基12000题刷题课（近五年最新公基真题） 公考类 李铁公基12000题刷题课（近五年最新公基真题） 链接：https://pan.baidu.com/s/1HVCEloEe12jw6F7UnGdFUQ?pwd=ryaw 提取码：ryaw ryaw 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1152",
+      "title": "2025马克公基常识系统班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1eF_6YonE-bcaDtpe-otk-A?pwd=ryaw",
+      "code": "ryaw",
+      "section": "公考类",
+      "context": "2025马克公基常识系统班 链接：https://pan.baidu.com/s/1eF_6YonE-bcaDtpe-otk-A?pwd=ryaw 提取码：ryaw",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1261,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "2025马克公基常识系统班 公考类 2025马克公基常识系统班 链接：https://pan.baidu.com/s/1eF_6YonE-bcaDtpe-otk-A?pwd=ryaw 提取码：ryaw ryaw 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1153",
+      "title": "04】2026事业单位",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1rWMxBzMkIS-TpgEKkCBlDw?pwd=ryaw",
+      "code": "ryaw",
+      "section": "事业单位",
+      "context": "04】2026事业单位 链接：https://pan.baidu.com/s/1rWMxBzMkIS-TpgEKkCBlDw?pwd=ryaw 提取码：ryaw",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1265,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "04】2026事业单位 事业单位 04】2026事业单位 链接：https://pan.baidu.com/s/1rWMxBzMkIS-TpgEKkCBlDw?pwd=ryaw 提取码：ryaw ryaw 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1154",
+      "title": "2027事业单位",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Ms67Q1tUDKXXG5DUcsOFFg?pwd=ryaw",
+      "code": "ryaw",
+      "section": "事业单位",
+      "context": "2027事业单位 链接：https://pan.baidu.com/s/1Ms67Q1tUDKXXG5DUcsOFFg?pwd=ryaw 提取码：ryaw",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1269,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "2027事业单位 事业单位 2027事业单位 链接：https://pan.baidu.com/s/1Ms67Q1tUDKXXG5DUcsOFFg?pwd=ryaw 提取码：ryaw ryaw 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1155",
+      "title": "2026超格全国通用事业单位职测（快学版）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Rva8ImOrqjJiQSUJNqT07Q?pwd=ryaw",
+      "code": "ryaw",
+      "section": "事业单位",
+      "context": "2026超格全国通用事业单位职测（快学版） 链接：https://pan.baidu.com/s/1Rva8ImOrqjJiQSUJNqT07Q?pwd=ryaw 提取码：ryaw",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1273,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "2026超格全国通用事业单位职测（快学版） 事业单位 2026超格全国通用事业单位职测（快学版） 链接：https://pan.baidu.com/s/1Rva8ImOrqjJiQSUJNqT07Q?pwd=ryaw 提取码：ryaw ryaw 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1156",
+      "title": "政治常识】2026上岸村小黑政治理论&常识判断全家桶",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1W_HONUyHu_N78zFf9Cx8AA?pwd=ryaw",
+      "code": "ryaw",
+      "section": "公考类",
+      "context": "政治常识】2026上岸村小黑政治理论&常识判断全家桶 链接：https://pan.baidu.com/s/1W_HONUyHu_N78zFf9Cx8AA?pwd=ryaw 提取码：ryaw",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1277,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "政治常识】2026上岸村小黑政治理论&常识判断全家桶 公考类 政治常识】2026上岸村小黑政治理论&常识判断全家桶 链接：https://pan.baidu.com/s/1W_HONUyHu_N78zFf9Cx8AA?pwd=ryaw 提取码：ryaw ryaw 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1157",
+      "title": "综应A】2026袁东事业单位综应A考前急救包",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1aX1wsodnH-9CKUCpSSwWUw?pwd=ryaw",
+      "code": "ryaw",
+      "section": "事业单位",
+      "context": "综应A】2026袁东事业单位综应A考前急救包 链接：https://pan.baidu.com/s/1aX1wsodnH-9CKUCpSSwWUw?pwd=ryaw 提取码：ryaw",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1281,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "综应A】2026袁东事业单位综应A考前急救包 事业单位 综应A】2026袁东事业单位综应A考前急救包 链接：https://pan.baidu.com/s/1aX1wsodnH-9CKUCpSSwWUw?pwd=ryaw 提取码：ryaw ryaw 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1158",
+      "title": "2026事业单位",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1SNHmpo94ek_vnM-fajGdbg?pwd=ryaw",
+      "code": "ryaw",
+      "section": "事业单位",
+      "context": "2026事业单位 链接：https://pan.baidu.com/s/1SNHmpo94ek_vnM-fajGdbg?pwd=ryaw 提取码：ryaw",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1285,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "2026事业单位 事业单位 2026事业单位 链接：https://pan.baidu.com/s/1SNHmpo94ek_vnM-fajGdbg?pwd=ryaw 提取码：ryaw ryaw 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1159",
+      "title": "❤️联考真题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ywfW9nejPDSgawE2J8UanA?pwd=ryaw",
+      "code": "ryaw",
+      "section": "事业单位",
+      "context": "❤️联考真题 链接：https://pan.baidu.com/s/1ywfW9nejPDSgawE2J8UanA?pwd=ryaw 提取码：ryaw",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1289,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "❤️联考真题 事业单位 ❤️联考真题 链接：https://pan.baidu.com/s/1ywfW9nejPDSgawE2J8UanA?pwd=ryaw 提取码：ryaw ryaw 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1160",
+      "title": "综应A】2026袁东事业单位综应A类三合一【方法&刷题&冲刺",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1Ez4xcurjKalYHrGF9fBBjQ?pwd=ryaw",
+      "code": "ryaw",
+      "section": "事业单位",
+      "context": "综应A】2026袁东事业单位综应A类三合一【方法&刷题&冲刺 链接：https://pan.baidu.com/s/1Ez4xcurjKalYHrGF9fBBjQ?pwd=ryaw 提取码：ryaw",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1293,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "综应A】2026袁东事业单位综应A类三合一【方法&刷题&冲刺 事业单位 综应A】2026袁东事业单位综应A类三合一【方法&刷题&冲刺 链接：https://pan.baidu.com/s/1Ez4xcurjKalYHrGF9fBBjQ?pwd=ryaw 提取码：ryaw ryaw 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1161",
+      "title": "2026超格全国通用事业单位职测",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1pj4GHtOV5VLPI91-viiccQ?pwd=ryaw",
+      "code": "ryaw",
+      "section": "事业单位",
+      "context": "2026超格全国通用事业单位职测 链接：https://pan.baidu.com/s/1pj4GHtOV5VLPI91-viiccQ?pwd=ryaw 提取码：ryaw",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1297,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "2026超格全国通用事业单位职测 事业单位 2026超格全国通用事业单位职测 链接：https://pan.baidu.com/s/1pj4GHtOV5VLPI91-viiccQ?pwd=ryaw 提取码：ryaw ryaw 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1162",
+      "title": "教资面试】25下教资",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1DtUKEYhhME-bXDFX59cstA?pwd=vgf6",
+      "code": "vgf6",
+      "section": "教招教资",
+      "context": "教资面试】25下教资 链接：https://pan.baidu.com/s/1DtUKEYhhME-bXDFX59cstA?pwd=vgf6 提取码：vgf6",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1301,
+          "section": "教招教资"
+        }
+      ],
+      "searchText": "教资面试】25下教资 教招教资 教资面试】25下教资 链接：https://pan.baidu.com/s/1DtUKEYhhME-bXDFX59cstA?pwd=vgf6 提取码：vgf6 vgf6 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1163",
+      "title": "2026教招各省份",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/14J4LoZgZDO6oMw7T_gqtYg?pwd=vgf6",
+      "code": "vgf6",
+      "section": "教招教资",
+      "context": "2026教招各省份 链接：https://pan.baidu.com/s/14J4LoZgZDO6oMw7T_gqtYg?pwd=vgf6 提取码：vgf6",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1305,
+          "section": "教招教资"
+        }
+      ],
+      "searchText": "2026教招各省份 教招教资 2026教招各省份 链接：https://pan.baidu.com/s/14J4LoZgZDO6oMw7T_gqtYg?pwd=vgf6 提取码：vgf6 vgf6 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1164",
+      "title": "教资面试】26上教资",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/18GoR9dzhDWOtdztApHv4TQ?pwd=vgf6",
+      "code": "vgf6",
+      "section": "教招教资",
+      "context": "教资面试】26上教资 链接：https://pan.baidu.com/s/18GoR9dzhDWOtdztApHv4TQ?pwd=vgf6 提取码：vgf6",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1309,
+          "section": "教招教资"
+        }
+      ],
+      "searchText": "教资面试】26上教资 教招教资 教资面试】26上教资 链接：https://pan.baidu.com/s/18GoR9dzhDWOtdztApHv4TQ?pwd=vgf6 提取码：vgf6 vgf6 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1165",
+      "title": "2026教师面试题本+历年真题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/125TgwNsFjLYx1w_odyXgkg?pwd=vgf6",
+      "code": "vgf6",
+      "section": "教招教资",
+      "context": "2026教师面试题本+历年真题 链接：https://pan.baidu.com/s/125TgwNsFjLYx1w_odyXgkg?pwd=vgf6 提取码：vgf6",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1313,
+          "section": "教招教资"
+        }
+      ],
+      "searchText": "2026教师面试题本+历年真题 教招教资 2026教师面试题本+历年真题 链接：https://pan.baidu.com/s/125TgwNsFjLYx1w_odyXgkg?pwd=vgf6 提取码：vgf6 vgf6 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1166",
+      "title": "事业单位面试真题合集（更新至2024年）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1-nZOWN_54JvB6j4D1H2LZg?pwd=zth8",
+      "code": "zth8",
+      "section": "事业单位",
+      "context": "事业单位面试真题合集（更新至2024年） 链接：https://pan.baidu.com/s/1-nZOWN_54JvB6j4D1H2LZg?pwd=zth8 提取码：zth8",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1317,
+          "section": "事业单位"
+        }
+      ],
+      "searchText": "事业单位面试真题合集（更新至2024年） 事业单位 事业单位面试真题合集（更新至2024年） 链接：https://pan.baidu.com/s/1-nZOWN_54JvB6j4D1H2LZg?pwd=zth8 提取码：zth8 zth8 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1167",
+      "title": "国考面试真题合集（更新至2025年）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1ITEl9sd2OnaIQ4-iH75xuQ?pwd=zth8",
+      "code": "zth8",
+      "section": "面试",
+      "context": "国考面试真题合集（更新至2025年） 链接：https://pan.baidu.com/s/1ITEl9sd2OnaIQ4-iH75xuQ?pwd=zth8 提取码：zth8",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1321,
+          "section": "面试"
+        }
+      ],
+      "searchText": "国考面试真题合集（更新至2025年） 面试 国考面试真题合集（更新至2025年） 链接：https://pan.baidu.com/s/1ITEl9sd2OnaIQ4-iH75xuQ?pwd=zth8 提取码：zth8 zth8 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1168",
+      "title": "省考面试真题合集（更新至2025年）",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1amLXs8Ebh6_Pz2RuH-8OXQ?pwd=zth8",
+      "code": "zth8",
+      "section": "面试",
+      "context": "省考面试真题合集（更新至2025年） 链接：https://pan.baidu.com/s/1amLXs8Ebh6_Pz2RuH-8OXQ?pwd=zth8 提取码：zth8",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1325,
+          "section": "面试"
+        }
+      ],
+      "searchText": "省考面试真题合集（更新至2025年） 面试 省考面试真题合集（更新至2025年） 链接：https://pan.baidu.com/s/1amLXs8Ebh6_Pz2RuH-8OXQ?pwd=zth8 提取码：zth8 zth8 百度 网盘 百度网盘链接.txt"
+    },
+    {
+      "id": "r1169",
+      "title": "2026面试",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1OymFr2yLFHw9JoH-CmRZTg?pwd=zth8",
+      "code": "zth8",
+      "section": "面试",
+      "context": "2026面试 链接：https://pan.baidu.com/s/1OymFr2yLFHw9JoH-CmRZTg?pwd=zth8 提取码：zth8",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 1329,
+          "section": "面试"
+        }
+      ],
+      "searchText": "2026面试 面试 2026面试 链接：https://pan.baidu.com/s/1OymFr2yLFHw9JoH-CmRZTg?pwd=zth8 提取码：zth8 zth8 百度 网盘 百度网盘链接.txt"
     }
   ]
 };
