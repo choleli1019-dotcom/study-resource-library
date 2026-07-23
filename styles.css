@@ -5585,3 +5585,109 @@ body:not(.theme-light) .hero-art::after {
     display: none !important;
   }
 }
+
+/* 2026-07-23 hero art blank-block hotfix. */
+.hero-art {
+  aspect-ratio: 16 / 9 !important;
+  line-height: 0 !important;
+}
+
+.hero-art img {
+  display: block !important;
+  height: 100% !important;
+  aspect-ratio: auto !important;
+}
+
+.hero-stamp,
+.hero-stamp::before,
+.hero-stamp::after,
+.hero-art::after,
+body:not(.theme-light) .hero-art::after {
+  display: none !important;
+  content: none !important;
+  width: 0 !important;
+  height: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+
+/* 2026-07-23 dark mode glass depth. */
+body:not(.theme-light) .overview-card,
+body:not(.theme-light) .featured-item,
+body:not(.theme-light) .resource-card,
+body:not(.theme-light) .pan-search-results,
+body:not(.theme-light) .section-modal-card,
+body:not(.theme-light) .search-welcome-card {
+  border: 1px solid rgba(255, 255, 255, 0.18) !important;
+  background:
+    linear-gradient(135deg, rgba(36, 39, 43, 0.68), rgba(23, 28, 26, 0.52)),
+    rgba(28, 28, 30, 0.5) !important;
+  box-shadow:
+    0 18px 46px rgba(0, 0, 0, 0.32),
+    inset 0 1px 0 rgba(255, 255, 255, 0.12) !important;
+  -webkit-backdrop-filter: saturate(190%) blur(28px) !important;
+  backdrop-filter: saturate(190%) blur(28px) !important;
+}
+
+body:not(.theme-light) .overview-card h3,
+body:not(.theme-light) .featured-item strong,
+body:not(.theme-light) .resource-card h3,
+body:not(.theme-light) .section-header h2 {
+  color: rgba(255, 255, 255, 0.96) !important;
+}
+
+body:not(.theme-light) .overview-card p,
+body:not(.theme-light) .featured-item span:not(.quick-entry-icon),
+body:not(.theme-light) .resource-card p,
+body:not(.theme-light) .section-header p,
+body:not(.theme-light) .hero-copy > p:not(.eyebrow) {
+  color: rgba(255, 255, 255, 0.74) !important;
+}
+
+body:not(.theme-light) .overview-samples span,
+body:not(.theme-light) .hero-stats span,
+body:not(.theme-light) .resource-count,
+body:not(.theme-light) .hot-searches button,
+body:not(.theme-light) .today-strip,
+body:not(.theme-light) .search-box,
+body:not(.theme-light) .search-welcome-input {
+  border: 1px solid rgba(255, 255, 255, 0.14) !important;
+  background: rgba(255, 255, 255, 0.1) !important;
+  color: rgba(255, 255, 255, 0.82) !important;
+  box-shadow:
+    0 8px 22px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(20px) !important;
+  backdrop-filter: saturate(180%) blur(20px) !important;
+}
+
+body:not(.theme-light) .section-open-button,
+body:not(.theme-light) .secondary-action,
+body:not(.theme-light) .quick-link,
+body:not(.theme-light) .pan-clear-button,
+body:not(.theme-light) .pan-result-actions button,
+body:not(.theme-light) .search-welcome-secondary,
+body:not(.theme-light) .empty-actions button {
+  border: 1px solid rgba(0, 122, 255, 0.2) !important;
+  background: rgba(0, 122, 255, 0.16) !important;
+  color: #58a6ff !important;
+  box-shadow:
+    0 8px 20px rgba(0, 0, 0, 0.2),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08) !important;
+  -webkit-backdrop-filter: saturate(180%) blur(18px) !important;
+  backdrop-filter: saturate(180%) blur(18px) !important;
+}
+
+body:not(.theme-light) .primary-action,
+body:not(.theme-light) .open-link,
+body:not(.theme-light) .section-link,
+body:not(.theme-light) .pan-result-actions a,
+body:not(.theme-light) .search-welcome-primary,
+body:not(.theme-light) .search-box button {
+  background: rgba(0, 122, 255, 0.9) !important;
+  color: #ffffff !important;
+  box-shadow: 0 10px 24px rgba(0, 74, 180, 0.34) !important;
+}
