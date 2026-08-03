@@ -1,17 +1,17 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-03T10:59:07.387Z",
+  "generatedAt": "2026-08-03T10:59:17.569Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
     "raw": {
-      "quark": 873,
-      "baidu": 341,
-      "total": 1214
+      "quark": 875,
+      "baidu": 344,
+      "total": 1219
     },
     "unique": {
-      "quark": 876,
-      "baidu": 387,
-      "total": 1263
+      "quark": 878,
+      "baidu": 390,
+      "total": 1268
     },
     "duplicate": {
       "quark": 0,
@@ -21539,6 +21539,91 @@ window.PAN_SEARCH_DATA = {
       ],
       "searchText": "图推】2027刘义恒图推大拖把 夸克批量新增 夸https://pan.quark.cn/s/da31ef581aa0克https://pan.quark.cn/s/da31ef581aa0网https://pan.quark.cn/s/da31ef581aa0盘https://pan.quark.cn/s/da31ef581aa0批https://pan.quark.cn/s/da31ef581aa0量https://pan.quark.cn/s/da31ef581aa0导https://pan.quark.cn/s/da31ef581aa0入https://pan.quark.cn/s/da31ef581aa0：https://pan.quark.cn/s/da31ef581aa0图https://pan.quark.cn/s/da31ef581aa0推https://pan.quark.cn/s/da31ef581aa0】https://pan.quark.cn/s/da31ef581aa02https://pan.quark.cn/s/da31ef581aa00https://pan.quark.cn/s/da31ef581aa02https://pan.quark.cn/s/da31ef581aa07https://pan.quark.cn/s/da31ef581aa0刘https://pan.quark.cn/s/da31ef581aa0义https://pan.quark.cn/s/da31ef581aa0恒https://pan.quark.cn/s/da31ef581aa0图https://pan.quark.cn/s/da31ef581aa0推https://pan.quark.cn/s/da31ef581aa0大https://pan.quark.cn/s/da31ef581aa0拖https://pan.quark.cn/s/da31ef581aa0把 quark https://pan.quark.cn/s/da31ef581aa0",
       "url": "https://pan.quark.cn/s/da31ef581aa0"
+    },
+    {
+      "id": "r1264",
+      "title": "2027年国省考相丽君申论解题思维趣学营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1jFUIptqDaqTTeTrLga5kaA?pwd=m19g",
+      "code": "m19g",
+      "section": "后台新增",
+      "context": "2027年国省考相丽君申论解题思维趣学营",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "后台新增"
+        }
+      ],
+      "searchText": "2027年国省考相丽君申论解题思维趣学营 后台新增 2027年国省考相丽君申论解题思维趣学营 m19g server/data/extra-links.json"
+    },
+    {
+      "id": "r1265",
+      "title": "2027kiwi申论全程班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1caGAJJqyb5Okhec_R74cYw?pwd=m19g",
+      "code": "m19g",
+      "section": "申论",
+      "context": "2027kiwi申论全程班",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "申论"
+        }
+      ],
+      "searchText": "2027kiwi申论全程班 申论 2027kiwi申论全程班 m19g server/data/extra-links.json"
+    },
+    {
+      "id": "r1266",
+      "title": "2027陈怀安行测圣经资料分析系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/17jeLoOhixc6vVjbC_JieCA?pwd=7hja",
+      "code": "7hja",
+      "section": "资料分析",
+      "context": "2027陈怀安行测圣经资料分析系统课",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "资料分析"
+        }
+      ],
+      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 7hja server/data/extra-links.json"
+    },
+    {
+      "id": "r1267",
+      "title": "【行测申论】2027超格行测+申论（五合一）夸夸刷刷题营",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/aedb5107a123",
+      "code": "",
+      "section": "行测",
+      "context": "【行测申论】2027超格行测+申论（五合一）夸夸刷刷题营",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "行测"
+        }
+      ],
+      "searchText": "【行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 行测 【行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 server/data/extra-links.json"
+    },
+    {
+      "id": "r1268",
+      "title": "时政】2027超哥事业编三支考前时政最后50题",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6ed02fe76d1b",
+      "code": "",
+      "section": "事业编",
+      "context": "时政】2027超哥事业编三支考前时政最后50题",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "事业编"
+        }
+      ],
+      "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业编 时政】2027超哥事业编三支考前时政最后50题 server/data/extra-links.json"
     }
   ]
 };
