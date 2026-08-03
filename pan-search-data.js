@@ -1,17 +1,17 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-03T22:25:10.590Z",
+  "generatedAt": "2026-08-03T22:25:17.642Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
     "raw": {
-      "quark": 875,
+      "quark": 877,
       "baidu": 344,
-      "total": 1219
+      "total": 1221
     },
     "unique": {
-      "quark": 878,
+      "quark": 880,
       "baidu": 390,
-      "total": 1268
+      "total": 1270
     },
     "duplicate": {
       "quark": 0,
@@ -21624,6 +21624,40 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业编 夸克网盘批量导入：时政】2027超哥事业编三支考前时政最后50题 quark https://pan.quark.cn/s/ec1e035aad77"
+    },
+    {
+      "id": "r1269",
+      "title": "【行测申论】2027超格行测+申论（五合一）夸夸刷刷题营",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/aedb5107a123",
+      "code": "",
+      "section": "行测",
+      "context": "【行测申论】2027超格行测+申论（五合一）夸夸刷刷题营",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "行测"
+        }
+      ],
+      "searchText": "【行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 行测 【行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 server/data/extra-links.json"
+    },
+    {
+      "id": "r1270",
+      "title": "时政】2027超哥事业编三支考前时政最后50题",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6ed02fe76d1b",
+      "code": "",
+      "section": "事业编",
+      "context": "时政】2027超哥事业编三支考前时政最后50题",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "事业编"
+        }
+      ],
+      "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业编 时政】2027超哥事业编三支考前时政最后50题 server/data/extra-links.json"
     }
   ]
 };
