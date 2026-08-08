@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-08T12:08:33.677Z",
+  "generatedAt": "2026-08-08T12:09:27.661Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -2249,10 +2249,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r129",
       "title": "2027国省考上岸村行测&申论全家桶",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/d11edc91132a",
+      "url": "https://pan.quark.cn/s/6ae7a928f911",
       "code": "",
       "section": "公考类",
-      "context": "2027国省考上岸村行测&申论全家桶 链接：https://pan.quark.cn/s/d11edc91132a",
+      "context": "2027国省考上岸村行测&申论全家桶 链接：https://pan.quark.cn/s/6ae7a928f911",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2260,16 +2260,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省考上岸村行测&申论全家桶 公考类 2027国省考上岸村行测&申论全家桶 链接：https://pan.quark.cn/s/d11edc91132a 夸克 网盘 网盘链接.txt"
+      "searchText": "2027国省考上岸村行测&申论全家桶 公考类 2027国省考上岸村行测&申论全家桶 链接：https://pan.quark.cn/s/6ae7a928f911 quark https://pan.quark.cn/s/6ae7a928f911"
     },
     {
       "id": "r130",
       "title": "2027上岸村兰亭论道综A理论筑基",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/eea56d777e6f",
+      "url": "https://pan.quark.cn/s/27230a773c93",
       "code": "",
       "section": "公考类",
-      "context": "2027上岸村兰亭论道综A理论筑基 链接：https://pan.quark.cn/s/eea56d777e6f",
+      "context": "2027上岸村兰亭论道综A理论筑基 链接：https://pan.quark.cn/s/27230a773c93",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2277,7 +2277,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027上岸村兰亭论道综A理论筑基 公考类 2027上岸村兰亭论道综A理论筑基 链接：https://pan.quark.cn/s/eea56d777e6f 夸克 网盘 网盘链接.txt"
+      "searchText": "2027上岸村兰亭论道综A理论筑基 公考类 2027上岸村兰亭论道综A理论筑基 链接：https://pan.quark.cn/s/27230a773c93 quark https://pan.quark.cn/s/27230a773c93"
     },
     {
       "id": "r131",
