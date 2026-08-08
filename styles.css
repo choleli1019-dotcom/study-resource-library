@@ -6289,3 +6289,20 @@ body.theme-light .overview-samples span:hover {
     display: none !important;
   }
 }
+/* Some Android WebViews hide negative z-index canvas layers behind the page paint. Keep the movie inside the page stacking context. */
+body.has-ambient-video {
+  background: transparent !important;
+}
+
+body.has-ambient-video::before {
+  display: none !important;
+}
+
+body.has-ambient-video .site-background-canvas {
+  z-index: 0 !important;
+}
+
+body.has-ambient-video .app-shell {
+  position: relative !important;
+  z-index: 1 !important;
+}
