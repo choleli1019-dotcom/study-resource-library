@@ -1252,11 +1252,6 @@ function initAmbientBackgroundVideo() {
 
   const isTouchDevice = window.matchMedia("(hover: none), (pointer: coarse)").matches
     || navigator.maxTouchPoints > 0;
-  if (isTouchDevice) {
-    video.remove();
-    canvas.remove();
-    return;
-  }
   video.muted = true;
   video.defaultMuted = true;
   video.setAttribute("muted", "");
@@ -1339,13 +1334,12 @@ function initAmbientBackgroundVideo() {
     window.cancelAnimationFrame(frameId);
     document.body.classList.remove("has-ambient-video");
   }, { once: true });
-  video.addEventListener("canplay", activateVideo, { once: true });
-  video.load();
   if (isTouchDevice) {
-    window.setTimeout(() => {
-      if (!document.body.classList.contains("has-ambient-video")) showStartButton();
-    }, 1800);
+    showStartButton();
+  } else {
+    video.addEventListener("canplay", activateVideo, { once: true });
   }
+  video.load();
 }
 initAmbientBackgroundVideo();
 renderFeaturedResources();
