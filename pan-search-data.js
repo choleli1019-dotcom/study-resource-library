@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-08T12:02:30.241Z",
+  "generatedAt": "2026-08-08T12:04:51.500Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -753,10 +753,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r41",
       "title": "2027四海拾伊数量基础理论课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/b432c9f377c4",
+      "url": "https://pan.quark.cn/s/86a0c2d40344",
       "code": "",
       "section": "公考类",
-      "context": "2027四海拾伊数量基础理论课 链接：https://pan.quark.cn/s/b432c9f377c4",
+      "context": "2027四海拾伊数量基础理论课 链接：https://pan.quark.cn/s/86a0c2d40344",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -764,7 +764,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027四海拾伊数量基础理论课 公考类 2027四海拾伊数量基础理论课 链接：https://pan.quark.cn/s/b432c9f377c4 夸克 网盘 网盘链接.txt"
+      "searchText": "2027四海拾伊数量基础理论课 公考类 2027四海拾伊数量基础理论课 链接：https://pan.quark.cn/s/86a0c2d40344 quark https://pan.quark.cn/s/86a0c2d40344"
     },
     {
       "id": "r42",
@@ -1892,10 +1892,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r108",
       "title": "速算】2026年四海拾伊15天速算训练营【61&62&63期",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/c2a845ea8dc7",
+      "url": "https://pan.quark.cn/s/f0f6a69aceb0",
       "code": "",
       "section": "公考类",
-      "context": "速算】2026年四海拾伊15天速算训练营【61&62&63期 链接：https://pan.quark.cn/s/c2a845ea8dc7",
+      "context": "速算】2026年四海拾伊15天速算训练营【61&62&63期 链接：https://pan.quark.cn/s/f0f6a69aceb0",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1903,7 +1903,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "速算】2026年四海拾伊15天速算训练营【61&62&63期 公考类 速算】2026年四海拾伊15天速算训练营【61&62&63期 链接：https://pan.quark.cn/s/c2a845ea8dc7 quark https://pan.quark.cn/s/c2a845ea8dc7"
+      "searchText": "速算】2026年四海拾伊15天速算训练营【61&62&63期 公考类 速算】2026年四海拾伊15天速算训练营【61&62&63期 链接：https://pan.quark.cn/s/f0f6a69aceb0 quark https://pan.quark.cn/s/f0f6a69aceb0"
     },
     {
       "id": "r109",
