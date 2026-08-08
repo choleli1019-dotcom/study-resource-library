@@ -1336,6 +1336,11 @@ function initAmbientBackgroundVideo() {
     resizeCanvas();
     video.play()
       .then(() => {
+        if (isTouchDevice) {
+          document.body.classList.add("has-ambient-video");
+          hideStartButton();
+          return;
+        }
         if (!frameId) frameId = window.requestAnimationFrame(paintFrame);
       })
       .catch(() => { if (isTouchDevice) showStartButton(); });
@@ -1364,11 +1369,7 @@ function initAmbientBackgroundVideo() {
     window.cancelAnimationFrame(frameId);
     document.body.classList.remove("has-ambient-video");
   }, { once: true });
-  if (isTouchDevice) {
-    showStartButton();
-  } else {
-    video.addEventListener("canplay", activateVideo, { once: true });
-  }
+  video.addEventListener("canplay", activateVideo, { once: true });
   video.load();
 }
 initAmbientBackgroundVideo();
