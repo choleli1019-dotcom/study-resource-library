@@ -452,11 +452,13 @@ function getTodayOpenLabel(item) {
 
 function renderTodayOverviewCard() {
   const items = getTodayServerLinks();
+  const summary = items.length ? `今日新增 ${items.length} 项资料` : "今日暂无新增资料";
+  const action = items.length ? "查看更新" : "更新记录";
 
   return `
-    <div class="today-strip">
-      <span>${items.length ? `今日新增 ${items.length} 项资料` : "今日暂无新增资料"}</span>
-      <button class="section-open-button" type="button" data-today-modal>${items.length ? "查看更新" : "更新记录"} ›</button>
+    <div class="overview-update">
+      <span class="overview-update-copy"><i aria-hidden="true"></i>${summary}</span>
+      <button class="overview-update-action" type="button" data-today-modal>${action} <span aria-hidden="true">›</span></button>
     </div>
   `;
 }
@@ -539,9 +541,9 @@ function renderResourceOverview() {
         </div>
         <div class="section-actions">
           <span class="resource-count">${resources.length} 个分类 · ${totalItems} 个入口</span>
+          ${renderTodayOverviewCard()}
         </div>
       </header>
-      ${renderTodayOverviewCard()}
       <div class="overview-grid">
         ${resources
           .map((section) => {
