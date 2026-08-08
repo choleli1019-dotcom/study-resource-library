@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-08T12:07:31.591Z",
+  "generatedAt": "2026-08-08T12:08:05.906Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -2164,10 +2164,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r124",
       "title": "2027】上岸村合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/524a86dc3d09",
+      "url": "https://pan.quark.cn/s/9747f1ea1ef7",
       "code": "",
       "section": "公考类",
-      "context": "2027】上岸村合集 链接：https://pan.quark.cn/s/524a86dc3d09",
+      "context": "2027】上岸村合集 链接：https://pan.quark.cn/s/9747f1ea1ef7",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2175,16 +2175,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027】上岸村合集 公考类 2027】上岸村合集 链接：https://pan.quark.cn/s/524a86dc3d09 夸克 网盘 网盘链接.txt"
+      "searchText": "2027】上岸村合集 公考类 2027】上岸村合集 链接：https://pan.quark.cn/s/9747f1ea1ef7 quark https://pan.quark.cn/s/9747f1ea1ef7"
     },
     {
       "id": "r125",
       "title": "2025】上岸村合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/913e608851fd",
+      "url": "https://pan.quark.cn/s/02adee275df8",
       "code": "",
       "section": "公考类",
-      "context": "2025】上岸村合集 链接：https://pan.quark.cn/s/913e608851fd",
+      "context": "2025】上岸村合集 链接：https://pan.quark.cn/s/02adee275df8",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2192,16 +2192,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2025】上岸村合集 公考类 2025】上岸村合集 链接：https://pan.quark.cn/s/913e608851fd 夸克 网盘 网盘链接.txt"
+      "searchText": "2025】上岸村合集 公考类 2025】上岸村合集 链接：https://pan.quark.cn/s/02adee275df8 quark https://pan.quark.cn/s/02adee275df8"
     },
     {
       "id": "r126",
       "title": "2026】上岸村合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/9207c6d1e02b",
+      "url": "https://pan.quark.cn/s/940146e08e57",
       "code": "",
       "section": "公考类",
-      "context": "2026】上岸村合集 链接：https://pan.quark.cn/s/9207c6d1e02b",
+      "context": "2026】上岸村合集 链接：https://pan.quark.cn/s/940146e08e57",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2209,16 +2209,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026】上岸村合集 公考类 2026】上岸村合集 链接：https://pan.quark.cn/s/9207c6d1e02b 夸克 网盘 网盘链接.txt"
+      "searchText": "2026】上岸村合集 公考类 2026】上岸村合集 链接：https://pan.quark.cn/s/940146e08e57 quark https://pan.quark.cn/s/940146e08e57"
     },
     {
       "id": "r127",
       "title": "公安】上岸村合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/ac26bbf68063",
+      "url": "https://pan.quark.cn/s/d3ca3a53592a",
       "code": "",
       "section": "公安、公专",
-      "context": "公安】上岸村合集 链接：https://pan.quark.cn/s/ac26bbf68063",
+      "context": "公安】上岸村合集 链接：https://pan.quark.cn/s/d3ca3a53592a",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2226,16 +2226,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公安、公专"
         }
       ],
-      "searchText": "公安】上岸村合集 公安、公专 公安】上岸村合集 链接：https://pan.quark.cn/s/ac26bbf68063 夸克 网盘 网盘链接.txt"
+      "searchText": "公安】上岸村合集 公安、公专 公安】上岸村合集 链接：https://pan.quark.cn/s/d3ca3a53592a quark https://pan.quark.cn/s/d3ca3a53592a"
     },
     {
       "id": "r128",
       "title": "面试】上岸村合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/eb333e5ce867",
+      "url": "https://pan.quark.cn/s/f95c3fda9857",
       "code": "",
       "section": "面试",
-      "context": "面试】上岸村合集 链接：https://pan.quark.cn/s/eb333e5ce867",
+      "context": "面试】上岸村合集 链接：https://pan.quark.cn/s/f95c3fda9857",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2243,7 +2243,7 @@ window.PAN_SEARCH_DATA = {
           "section": "面试"
         }
       ],
-      "searchText": "面试】上岸村合集 面试 面试】上岸村合集 链接：https://pan.quark.cn/s/eb333e5ce867 夸克 网盘 网盘链接.txt"
+      "searchText": "面试】上岸村合集 面试 面试】上岸村合集 链接：https://pan.quark.cn/s/f95c3fda9857 quark https://pan.quark.cn/s/f95c3fda9857"
     },
     {
       "id": "r129",
