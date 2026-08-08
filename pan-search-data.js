@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-06T03:18:17.350Z",
+  "generatedAt": "2026-08-08T10:18:29.940Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -9,9 +9,9 @@ window.PAN_SEARCH_DATA = {
       "total": 1221
     },
     "unique": {
-      "quark": 880,
+      "quark": 884,
       "baidu": 390,
-      "total": 1270
+      "total": 1274
     },
     "duplicate": {
       "quark": 0,
@@ -1144,10 +1144,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r64",
       "title": "2027】花生十三（飞扬）合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/2c51eb8af664",
+      "url": "https://pan.quark.cn/s/66cd661fbebe",
       "code": "",
       "section": "公考类",
-      "context": "2027】花生十三（飞扬）合集 链接：https://pan.quark.cn/s/2c51eb8af664",
+      "context": "2027】花生十三（飞扬）合集 链接：https://pan.quark.cn/s/66cd661fbebe",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1155,16 +1155,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027】花生十三（飞扬）合集 公考类 2027】花生十三（飞扬）合集 链接：https://pan.quark.cn/s/2c51eb8af664 夸克 网盘 网盘链接.txt"
+      "searchText": "2027】花生十三（飞扬）合集 公考类 2027】花生十三（飞扬）合集 链接：https://pan.quark.cn/s/66cd661fbebe quark https://pan.quark.cn/s/66cd661fbebe"
     },
     {
       "id": "r65",
       "title": "刷题】花生十三刷题合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/07af4ef6cfeb",
+      "url": "https://pan.quark.cn/s/fc0f2afeeb2b",
       "code": "",
       "section": "公考类",
-      "context": "刷题】花生十三刷题合集 链接：https://pan.quark.cn/s/07af4ef6cfeb",
+      "context": "刷题】花生十三刷题合集 链接：https://pan.quark.cn/s/fc0f2afeeb2b",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1172,7 +1172,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "刷题】花生十三刷题合集 公考类 刷题】花生十三刷题合集 链接：https://pan.quark.cn/s/07af4ef6cfeb 夸克 网盘 网盘链接.txt"
+      "searchText": "刷题】花生十三刷题合集 公考类 刷题】花生十三刷题合集 链接：https://pan.quark.cn/s/fc0f2afeeb2b quark https://pan.quark.cn/s/fc0f2afeeb2b"
     },
     {
       "id": "r66",
@@ -1195,10 +1195,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r67",
       "title": "成语】花生十三成语合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/e7e5565a8a84",
+      "url": "https://pan.quark.cn/s/520d79af501a",
       "code": "",
       "section": "公考类",
-      "context": "成语】花生十三成语合集 链接：https://pan.quark.cn/s/e7e5565a8a84",
+      "context": "成语】花生十三成语合集 链接：https://pan.quark.cn/s/520d79af501a",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1206,16 +1206,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "成语】花生十三成语合集 公考类 成语】花生十三成语合集 链接：https://pan.quark.cn/s/e7e5565a8a84 夸克 网盘 网盘链接.txt"
+      "searchText": "成语】花生十三成语合集 公考类 成语】花生十三成语合集 链接：https://pan.quark.cn/s/520d79af501a quark https://pan.quark.cn/s/520d79af501a"
     },
     {
       "id": "r68",
       "title": "2021】花生十三（黑白画风精炼版）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/6b3484857e51",
+      "url": "https://pan.quark.cn/s/56e6bd44eb74",
       "code": "",
       "section": "公考类",
-      "context": "2021】花生十三（黑白画风精炼版） 链接：https://pan.quark.cn/s/6b3484857e51",
+      "context": "2021】花生十三（黑白画风精炼版） 链接：https://pan.quark.cn/s/56e6bd44eb74",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1223,7 +1223,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2021】花生十三（黑白画风精炼版） 公考类 2021】花生十三（黑白画风精炼版） 链接：https://pan.quark.cn/s/6b3484857e51 夸克 网盘 网盘链接.txt"
+      "searchText": "2021】花生十三（黑白画风精炼版） 公考类 2021】花生十三（黑白画风精炼版） 链接：https://pan.quark.cn/s/56e6bd44eb74 quark https://pan.quark.cn/s/56e6bd44eb74"
     },
     {
       "id": "r69",
@@ -1280,10 +1280,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r72",
       "title": "线下绝版】花生十三线下绝版课(必看)",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/ea3e502a4eb8",
+      "url": "https://pan.quark.cn/s/15d6a43da3c9",
       "code": "",
       "section": "公考类",
-      "context": "线下绝版】花生十三线下绝版课(必看) 链接：https://pan.quark.cn/s/ea3e502a4eb8",
+      "context": "线下绝版】花生十三线下绝版课(必看) 链接：https://pan.quark.cn/s/15d6a43da3c9",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1291,7 +1291,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "线下绝版】花生十三线下绝版课(必看) 公考类 线下绝版】花生十三线下绝版课(必看) 链接：https://pan.quark.cn/s/ea3e502a4eb8 夸克 网盘 网盘链接.txt"
+      "searchText": "线下绝版】花生十三线下绝版课(必看) 公考类 线下绝版】花生十三线下绝版课(必看) 链接：https://pan.quark.cn/s/15d6a43da3c9 quark https://pan.quark.cn/s/15d6a43da3c9"
     },
     {
       "id": "r73",
@@ -1620,10 +1620,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r92",
       "title": "成语】花生十三成语合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/00c3e32ef3f7",
+      "url": "https://pan.quark.cn/s/520d79af501a",
       "code": "",
       "section": "公考类",
-      "context": "成语】花生十三成语合集 链接：https://pan.quark.cn/s/00c3e32ef3f7",
+      "context": "成语】花生十三成语合集 链接：https://pan.quark.cn/s/520d79af501a",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1631,7 +1631,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "成语】花生十三成语合集 公考类 成语】花生十三成语合集 链接：https://pan.quark.cn/s/00c3e32ef3f7 夸克 网盘 网盘链接.txt"
+      "searchText": "成语】花生十三成语合集 公考类 成语】花生十三成语合集 链接：https://pan.quark.cn/s/520d79af501a quark https://pan.quark.cn/s/520d79af501a"
     },
     {
       "id": "r93",
@@ -21658,6 +21658,74 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业编 时政】2027超哥事业编三支考前时政最后50题 server/data/extra-links.json"
+    },
+    {
+      "id": "r1271",
+      "title": "2024+2023】花生十三（飞扬）合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/11b545ffba6a",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：2024+2023】花生十三（飞扬）合集",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 5,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "2024+2023】花生十三（飞扬）合集 夸克批量新增 夸克网盘批量导入：2024+2023】花生十三（飞扬）合集 quark https://pan.quark.cn/s/11b545ffba6a"
+    },
+    {
+      "id": "r1272",
+      "title": "2025】花生十三（飞扬）合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6653eb422d3c",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：2025】花生十三（飞扬）合集",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 8,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "2025】花生十三（飞扬）合集 夸克批量新增 夸克网盘批量导入：2025】花生十三（飞扬）合集 quark https://pan.quark.cn/s/6653eb422d3c"
+    },
+    {
+      "id": "r1273",
+      "title": "2026】花生十三（飞扬）合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/8cecec166f88",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：2026】花生十三（飞扬）合集",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 11,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "2026】花生十三（飞扬）合集 夸克批量新增 夸克网盘批量导入：2026】花生十三（飞扬）合集 quark https://pan.quark.cn/s/8cecec166f88"
+    },
+    {
+      "id": "r1274",
+      "title": "速算】花生十三速算",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/a9752d07a65a",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：速算】花生十三速算",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 20,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "速算】花生十三速算 夸克批量新增 夸克网盘批量导入：速算】花生十三速算 quark https://pan.quark.cn/s/a9752d07a65a"
     }
   ]
 };
