@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-08T12:00:43.532Z",
+  "generatedAt": "2026-08-08T12:02:30.241Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -9,9 +9,9 @@ window.PAN_SEARCH_DATA = {
       "total": 1222
     },
     "unique": {
-      "quark": 886,
+      "quark": 890,
       "baidu": 390,
-      "total": 1276
+      "total": 1280
     },
     "duplicate": {
       "quark": 0,
@@ -21760,6 +21760,74 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "刷题】2026四海逻辑判断600题刷题精讲班 夸克批量新增 夸克网盘批量导入：刷题】2026四海逻辑判断600题刷题精讲班 quark https://pan.quark.cn/s/8a7f74c72b01"
+    },
+    {
+      "id": "r1277",
+      "title": "成语】2025花生十三高频成语700词（含解析+磨耳朵）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/f82133454e60",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：成语】2025花生十三高频成语700词（含解析+磨耳朵）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 2,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "成语】2025花生十三高频成语700词（含解析+磨耳朵） 夸克批量新增 夸克网盘批量导入：成语】2025花生十三高频成语700词（含解析+磨耳朵） quark https://pan.quark.cn/s/f82133454e60"
+    },
+    {
+      "id": "r1278",
+      "title": "成语】2026花生十三高频成语+高频实词800词（含解析）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/fc72d9233e67",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：成语】2026花生十三高频成语+高频实词800词（含解析）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 5,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "成语】2026花生十三高频成语+高频实词800词（含解析） 夸克批量新增 夸克网盘批量导入：成语】2026花生十三高频成语+高频实词800词（含解析） quark https://pan.quark.cn/s/fc72d9233e67"
+    },
+    {
+      "id": "r1279",
+      "title": "成语】国考近五年成语汇总（2020-2024）—花生十三",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/d4c0726fdedf",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：成语】国考近五年成语汇总（2020-2024）—花生十三",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 8,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "成语】国考近五年成语汇总（2020-2024）—花生十三 夸克批量新增 夸克网盘批量导入：成语】国考近五年成语汇总（2020-2024）—花生十三 quark https://pan.quark.cn/s/d4c0726fdedf"
+    },
+    {
+      "id": "r1280",
+      "title": "实词】2025国省考言语热词考前积累",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/e4c2c434b6ff",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：实词】2025国省考言语热词考前积累",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 11,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "实词】2025国省考言语热词考前积累 夸克批量新增 夸克网盘批量导入：实词】2025国省考言语热词考前积累 quark https://pan.quark.cn/s/e4c2c434b6ff"
     }
   ]
 };
