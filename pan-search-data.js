@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-08T12:10:09.682Z",
+  "generatedAt": "2026-08-08T12:10:39.949Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -702,10 +702,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r38",
       "title": "数量】2027上岸村王炎数量关系·讲练大满贯",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/2eb79862e360",
+      "url": "https://pan.quark.cn/s/0bcd8e331f85",
       "code": "",
       "section": "公考类",
-      "context": "数量】2027上岸村王炎数量关系·讲练大满贯 链接：https://pan.quark.cn/s/2eb79862e360",
+      "context": "数量】2027上岸村王炎数量关系·讲练大满贯 链接：https://pan.quark.cn/s/0bcd8e331f85",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -713,16 +713,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "数量】2027上岸村王炎数量关系·讲练大满贯 公考类 数量】2027上岸村王炎数量关系·讲练大满贯 链接：https://pan.quark.cn/s/2eb79862e360 夸克 网盘 网盘链接.txt"
+      "searchText": "数量】2027上岸村王炎数量关系·讲练大满贯 公考类 数量】2027上岸村王炎数量关系·讲练大满贯 链接：https://pan.quark.cn/s/0bcd8e331f85 quark https://pan.quark.cn/s/0bcd8e331f85"
     },
     {
       "id": "r39",
       "title": "2027王永恒资料分析三合一理论体系课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/bfd793b1ddd8",
+      "url": "https://pan.quark.cn/s/9d5765aebafe",
       "code": "",
       "section": "公考类",
-      "context": "2027王永恒资料分析三合一理论体系课 链接：https://pan.quark.cn/s/bfd793b1ddd8",
+      "context": "2027王永恒资料分析三合一理论体系课 链接：https://pan.quark.cn/s/9d5765aebafe",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -730,16 +730,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027王永恒资料分析三合一理论体系课 公考类 2027王永恒资料分析三合一理论体系课 链接：https://pan.quark.cn/s/bfd793b1ddd8 夸克 网盘 网盘链接.txt"
+      "searchText": "2027王永恒资料分析三合一理论体系课 公考类 2027王永恒资料分析三合一理论体系课 链接：https://pan.quark.cn/s/9d5765aebafe quark https://pan.quark.cn/s/9d5765aebafe"
     },
     {
       "id": "r40",
       "title": "2027陈怀安行测圣经资料分析系统课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/bff6c075bdc7",
+      "url": "https://pan.quark.cn/s/fe068a322ffa",
       "code": "",
       "section": "公考类",
-      "context": "2027陈怀安行测圣经资料分析系统课 链接：https://pan.quark.cn/s/bff6c075bdc7",
+      "context": "2027陈怀安行测圣经资料分析系统课 链接：https://pan.quark.cn/s/fe068a322ffa",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -747,16 +747,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027陈怀安行测圣经资料分析系统课 公考类 2027陈怀安行测圣经资料分析系统课 链接：https://pan.quark.cn/s/bff6c075bdc7 夸克 网盘 网盘链接.txt"
+      "searchText": "2027陈怀安行测圣经资料分析系统课 公考类 2027陈怀安行测圣经资料分析系统课 链接：https://pan.quark.cn/s/fe068a322ffa quark https://pan.quark.cn/s/fe068a322ffa"
     },
     {
       "id": "r41",
       "title": "2027四海拾伊数量基础理论课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/86a0c2d40344",
+      "url": "https://pan.quark.cn/s/ffa4c5d50504",
       "code": "",
       "section": "公考类",
-      "context": "2027四海拾伊数量基础理论课 链接：https://pan.quark.cn/s/86a0c2d40344",
+      "context": "2027四海拾伊数量基础理论课 链接：https://pan.quark.cn/s/ffa4c5d50504",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -764,16 +764,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027四海拾伊数量基础理论课 公考类 2027四海拾伊数量基础理论课 链接：https://pan.quark.cn/s/86a0c2d40344 quark https://pan.quark.cn/s/86a0c2d40344"
+      "searchText": "2027四海拾伊数量基础理论课 公考类 2027四海拾伊数量基础理论课 链接：https://pan.quark.cn/s/ffa4c5d50504 quark https://pan.quark.cn/s/ffa4c5d50504"
     },
     {
       "id": "r42",
       "title": "2027齐麟数资刷题组",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/9926ee35490c",
+      "url": "https://pan.quark.cn/s/34338cbe560e",
       "code": "",
       "section": "其他类别考试",
-      "context": "2027齐麟数资刷题组 链接：https://pan.quark.cn/s/9926ee35490c",
+      "context": "2027齐麟数资刷题组 链接：https://pan.quark.cn/s/34338cbe560e",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -781,7 +781,7 @@ window.PAN_SEARCH_DATA = {
           "section": "其他类别考试"
         }
       ],
-      "searchText": "2027齐麟数资刷题组 其他类别考试 2027齐麟数资刷题组 链接：https://pan.quark.cn/s/9926ee35490c 夸克 网盘 网盘链接.txt"
+      "searchText": "2027齐麟数资刷题组 其他类别考试 2027齐麟数资刷题组 链接：https://pan.quark.cn/s/34338cbe560e quark https://pan.quark.cn/s/34338cbe560e"
     },
     {
       "id": "r43",
@@ -20014,7 +20014,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1174",
       "title": "2027陈怀安行测圣经资料分析系统课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/62e088ec05c0",
+      "url": "https://pan.quark.cn/s/fe068a322ffa",
       "code": "",
       "section": "资料分析",
       "context": "2027陈怀安行测圣经资料分析系统课",
@@ -20025,7 +20025,7 @@ window.PAN_SEARCH_DATA = {
           "section": "资料分析"
         }
       ],
-      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 server/data/extra-links.json"
+      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 quark https://pan.quark.cn/s/fe068a322ffa"
     },
     {
       "id": "r1175",
@@ -20133,7 +20133,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1181",
       "title": "【数量】2027上岸村王炎数量关系·讲练大满贯",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/a4985d215863",
+      "url": "https://pan.quark.cn/s/0bcd8e331f85",
       "code": "",
       "section": "行测",
       "context": "【数量】2027上岸村王炎数量关系·讲练大满贯",
@@ -20144,7 +20144,7 @@ window.PAN_SEARCH_DATA = {
           "section": "行测"
         }
       ],
-      "searchText": "【数量】2027上岸村王炎数量关系·讲练大满贯 行测 【数量】2027上岸村王炎数量关系·讲练大满贯 server/data/extra-links.json"
+      "searchText": "【数量】2027上岸村王炎数量关系·讲练大满贯 行测 【数量】2027上岸村王炎数量关系·讲练大满贯 quark https://pan.quark.cn/s/0bcd8e331f85"
     },
     {
       "id": "r1182",
