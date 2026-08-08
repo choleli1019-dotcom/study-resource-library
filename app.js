@@ -1252,6 +1252,11 @@ function initAmbientBackgroundVideo() {
 
   const isTouchDevice = window.matchMedia("(hover: none), (pointer: coarse)").matches
     || navigator.maxTouchPoints > 0;
+  if (isTouchDevice) {
+    video.remove();
+    canvas.remove();
+    return;
+  }
   video.muted = true;
   video.defaultMuted = true;
   video.setAttribute("muted", "");
