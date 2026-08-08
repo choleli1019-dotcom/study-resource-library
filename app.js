@@ -1336,14 +1336,20 @@ function initAmbientBackgroundVideo() {
     resizeCanvas();
     video.play()
       .then(() => {
-        if (isTouchDevice) {
-          document.body.classList.add("has-ambient-video");
-          hideStartButton();
-          return;
-        }
         if (!frameId) frameId = window.requestAnimationFrame(paintFrame);
+        if (isTouchDevice) {
+          window.setTimeout(() => {
+            if (!hasPaintedFrame) {
+              document.body.classList.remove("has-ambient-video");
+              showStartButton();
+            }
+          }, 1800);
+        }
       })
-      .catch(() => { if (isTouchDevice) showStartButton(); });
+      .catch(() => {
+        document.body.classList.remove("has-ambient-video");
+        if (isTouchDevice) showStartButton();
+      });
   };
 
   const showStartButton = () => {
