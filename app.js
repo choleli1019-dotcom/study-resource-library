@@ -1237,9 +1237,16 @@ function initAmbientBackgroundVideo() {
   const video = document.querySelector("#ambientBackgroundVideo");
   if (!video) return;
 
-  const canUseVideo = window.matchMedia("(min-width: 768px)").matches
-    && !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  if (!canUseVideo) return;
+  const isTouchDevice = window.matchMedia("(hover: none), (pointer: coarse)").matches
+    || navigator.maxTouchPoints > 0;
+  const canUseVideo = window.matchMedia("(min-width: 1024px)").matches
+    && !isTouchDevice
+    && !window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    && !window.matchMedia("(prefers-reduced-data: reduce)").matches;
+  if (!canUseVideo) {
+    video.remove();
+    return;
+  }
 
   const source = video.querySelector("source[data-src]");
   if (!source) return;
