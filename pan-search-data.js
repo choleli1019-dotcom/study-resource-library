@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-08T12:12:09.610Z",
+  "generatedAt": "2026-08-08T12:12:50.214Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -9,9 +9,9 @@ window.PAN_SEARCH_DATA = {
       "total": 1222
     },
     "unique": {
-      "quark": 903,
+      "quark": 909,
       "baidu": 390,
-      "total": 1293
+      "total": 1299
     },
     "duplicate": {
       "quark": 0,
@@ -22049,6 +22049,108 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "2027杨攀政治理论基础课 夸克批量新增 夸克网盘批量导入：2027杨攀政治理论基础课 quark https://pan.quark.cn/s/f4f8b165b8a7"
+    },
+    {
+      "id": "r1294",
+      "title": "速算】高照抖音速算直播课",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/b67ab4c5899c",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：速算】高照抖音速算直播课",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 2,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "速算】高照抖音速算直播课 夸克批量新增 夸克网盘批量导入：速算】高照抖音速算直播课 quark https://pan.quark.cn/s/b67ab4c5899c"
+    },
+    {
+      "id": "r1295",
+      "title": "资料分析】高照合集⭐⭐⭐",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/86f8e13a7003",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：资料分析】高照合集⭐⭐⭐",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 5,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "资料分析】高照合集⭐⭐⭐ 夸克批量新增 夸克网盘批量导入：资料分析】高照合集⭐⭐⭐ quark https://pan.quark.cn/s/86f8e13a7003"
+    },
+    {
+      "id": "r1296",
+      "title": "冲刺课】省考+事业单位数资冲刺",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/ed4fc5c7a9d9",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：冲刺课】省考+事业单位数资冲刺",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 8,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "冲刺课】省考+事业单位数资冲刺 夸克批量新增 夸克网盘批量导入：冲刺课】省考+事业单位数资冲刺 quark https://pan.quark.cn/s/ed4fc5c7a9d9"
+    },
+    {
+      "id": "r1297",
+      "title": "数量关系】高照合集⭐⭐⭐",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/5d0d851f7ea2",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：数量关系】高照合集⭐⭐⭐",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 11,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "数量关系】高照合集⭐⭐⭐ 夸克批量新增 夸克网盘批量导入：数量关系】高照合集⭐⭐⭐ quark https://pan.quark.cn/s/5d0d851f7ea2"
+    },
+    {
+      "id": "r1298",
+      "title": "速算】高照资料分析速算大练兵",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/5eae373ed12a",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：速算】高照资料分析速算大练兵",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 14,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "速算】高照资料分析速算大练兵 夸克批量新增 夸克网盘批量导入：速算】高照资料分析速算大练兵 quark https://pan.quark.cn/s/5eae373ed12a"
+    },
+    {
+      "id": "r1299",
+      "title": "刷题讲义合集】高照数量资料刷题讲义",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/0039d99dc2e3",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：刷题讲义合集】高照数量资料刷题讲义",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 17,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "刷题讲义合集】高照数量资料刷题讲义 夸克批量新增 夸克网盘批量导入：刷题讲义合集】高照数量资料刷题讲义 quark https://pan.quark.cn/s/0039d99dc2e3"
     }
   ]
 };
