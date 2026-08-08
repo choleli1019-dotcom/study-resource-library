@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-08T12:05:31.334Z",
+  "generatedAt": "2026-08-08T12:06:15.065Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -1144,10 +1144,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r64",
       "title": "2027】花生十三（飞扬）合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/66cd661fbebe",
+      "url": "https://pan.quark.cn/s/b2a997de1abf",
       "code": "",
       "section": "公考类",
-      "context": "2027】花生十三（飞扬）合集 链接：https://pan.quark.cn/s/66cd661fbebe",
+      "context": "2027】花生十三（飞扬）合集 链接：https://pan.quark.cn/s/b2a997de1abf",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1155,16 +1155,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027】花生十三（飞扬）合集 公考类 2027】花生十三（飞扬）合集 链接：https://pan.quark.cn/s/66cd661fbebe quark https://pan.quark.cn/s/66cd661fbebe"
+      "searchText": "2027】花生十三（飞扬）合集 公考类 2027】花生十三（飞扬）合集 链接：https://pan.quark.cn/s/b2a997de1abf quark https://pan.quark.cn/s/b2a997de1abf"
     },
     {
       "id": "r65",
       "title": "刷题】花生十三刷题合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/fc0f2afeeb2b",
+      "url": "https://pan.quark.cn/s/137df38238bb",
       "code": "",
       "section": "公考类",
-      "context": "刷题】花生十三刷题合集 链接：https://pan.quark.cn/s/fc0f2afeeb2b",
+      "context": "刷题】花生十三刷题合集 链接：https://pan.quark.cn/s/137df38238bb",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1172,7 +1172,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "刷题】花生十三刷题合集 公考类 刷题】花生十三刷题合集 链接：https://pan.quark.cn/s/fc0f2afeeb2b quark https://pan.quark.cn/s/fc0f2afeeb2b"
+      "searchText": "刷题】花生十三刷题合集 公考类 刷题】花生十三刷题合集 链接：https://pan.quark.cn/s/137df38238bb quark https://pan.quark.cn/s/137df38238bb"
     },
     {
       "id": "r66",
@@ -1195,10 +1195,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r67",
       "title": "成语】花生十三成语合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/520d79af501a",
+      "url": "https://pan.quark.cn/s/23ac123afaf7",
       "code": "",
       "section": "公考类",
-      "context": "成语】花生十三成语合集 链接：https://pan.quark.cn/s/520d79af501a",
+      "context": "成语】花生十三成语合集 链接：https://pan.quark.cn/s/23ac123afaf7",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1206,16 +1206,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "成语】花生十三成语合集 公考类 成语】花生十三成语合集 链接：https://pan.quark.cn/s/520d79af501a quark https://pan.quark.cn/s/520d79af501a"
+      "searchText": "成语】花生十三成语合集 公考类 成语】花生十三成语合集 链接：https://pan.quark.cn/s/23ac123afaf7 quark https://pan.quark.cn/s/23ac123afaf7"
     },
     {
       "id": "r68",
       "title": "2021】花生十三（黑白画风精炼版）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/56e6bd44eb74",
+      "url": "https://pan.quark.cn/s/7934b87acb31",
       "code": "",
       "section": "公考类",
-      "context": "2021】花生十三（黑白画风精炼版） 链接：https://pan.quark.cn/s/56e6bd44eb74",
+      "context": "2021】花生十三（黑白画风精炼版） 链接：https://pan.quark.cn/s/7934b87acb31",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1223,7 +1223,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2021】花生十三（黑白画风精炼版） 公考类 2021】花生十三（黑白画风精炼版） 链接：https://pan.quark.cn/s/56e6bd44eb74 quark https://pan.quark.cn/s/56e6bd44eb74"
+      "searchText": "2021】花生十三（黑白画风精炼版） 公考类 2021】花生十三（黑白画风精炼版） 链接：https://pan.quark.cn/s/7934b87acb31 quark https://pan.quark.cn/s/7934b87acb31"
     },
     {
       "id": "r69",
@@ -1280,10 +1280,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r72",
       "title": "线下绝版】花生十三线下绝版课(必看)",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/15d6a43da3c9",
+      "url": "https://pan.quark.cn/s/55e62f461a8a",
       "code": "",
       "section": "公考类",
-      "context": "线下绝版】花生十三线下绝版课(必看) 链接：https://pan.quark.cn/s/15d6a43da3c9",
+      "context": "线下绝版】花生十三线下绝版课(必看) 链接：https://pan.quark.cn/s/55e62f461a8a",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1291,7 +1291,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "线下绝版】花生十三线下绝版课(必看) 公考类 线下绝版】花生十三线下绝版课(必看) 链接：https://pan.quark.cn/s/15d6a43da3c9 quark https://pan.quark.cn/s/15d6a43da3c9"
+      "searchText": "线下绝版】花生十三线下绝版课(必看) 公考类 线下绝版】花生十三线下绝版课(必看) 链接：https://pan.quark.cn/s/55e62f461a8a quark https://pan.quark.cn/s/55e62f461a8a"
     },
     {
       "id": "r73",
@@ -1620,10 +1620,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r92",
       "title": "成语】花生十三成语合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/520d79af501a",
+      "url": "https://pan.quark.cn/s/23ac123afaf7",
       "code": "",
       "section": "公考类",
-      "context": "成语】花生十三成语合集 链接：https://pan.quark.cn/s/520d79af501a",
+      "context": "成语】花生十三成语合集 链接：https://pan.quark.cn/s/23ac123afaf7",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1631,7 +1631,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "成语】花生十三成语合集 公考类 成语】花生十三成语合集 链接：https://pan.quark.cn/s/520d79af501a quark https://pan.quark.cn/s/520d79af501a"
+      "searchText": "成语】花生十三成语合集 公考类 成语】花生十三成语合集 链接：https://pan.quark.cn/s/23ac123afaf7 quark https://pan.quark.cn/s/23ac123afaf7"
     },
     {
       "id": "r93",
@@ -21663,7 +21663,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1271",
       "title": "2024+2023】花生十三（飞扬）合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/11b545ffba6a",
+      "url": "https://pan.quark.cn/s/b6260e858f50",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：2024+2023】花生十三（飞扬）合集",
@@ -21674,13 +21674,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "2024+2023】花生十三（飞扬）合集 夸克批量新增 夸克网盘批量导入：2024+2023】花生十三（飞扬）合集 quark https://pan.quark.cn/s/11b545ffba6a"
+      "searchText": "2024+2023】花生十三（飞扬）合集 夸克批量新增 夸克网盘批量导入：2024+2023】花生十三（飞扬）合集 quark https://pan.quark.cn/s/b6260e858f50"
     },
     {
       "id": "r1272",
       "title": "2025】花生十三（飞扬）合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/6653eb422d3c",
+      "url": "https://pan.quark.cn/s/6e6117e014e7",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：2025】花生十三（飞扬）合集",
@@ -21691,13 +21691,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "2025】花生十三（飞扬）合集 夸克批量新增 夸克网盘批量导入：2025】花生十三（飞扬）合集 quark https://pan.quark.cn/s/6653eb422d3c"
+      "searchText": "2025】花生十三（飞扬）合集 夸克批量新增 夸克网盘批量导入：2025】花生十三（飞扬）合集 quark https://pan.quark.cn/s/6e6117e014e7"
     },
     {
       "id": "r1273",
       "title": "2026】花生十三（飞扬）合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/8cecec166f88",
+      "url": "https://pan.quark.cn/s/691f21da20ae",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：2026】花生十三（飞扬）合集",
@@ -21708,13 +21708,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "2026】花生十三（飞扬）合集 夸克批量新增 夸克网盘批量导入：2026】花生十三（飞扬）合集 quark https://pan.quark.cn/s/8cecec166f88"
+      "searchText": "2026】花生十三（飞扬）合集 夸克批量新增 夸克网盘批量导入：2026】花生十三（飞扬）合集 quark https://pan.quark.cn/s/691f21da20ae"
     },
     {
       "id": "r1274",
       "title": "速算】花生十三速算",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/a9752d07a65a",
+      "url": "https://pan.quark.cn/s/716af4e151f8",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：速算】花生十三速算",
@@ -21725,7 +21725,7 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "速算】花生十三速算 夸克批量新增 夸克网盘批量导入：速算】花生十三速算 quark https://pan.quark.cn/s/a9752d07a65a"
+      "searchText": "速算】花生十三速算 夸克批量新增 夸克网盘批量导入：速算】花生十三速算 quark https://pan.quark.cn/s/716af4e151f8"
     },
     {
       "id": "r1275",
