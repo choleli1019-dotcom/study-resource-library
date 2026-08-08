@@ -6420,3 +6420,11 @@ body.has-animated-background .app-shell {
   position: relative !important;
   z-index: 1 !important;
 }
+/* Portrait phones use a dedicated 9:16 crop so the character is not lost to horizontal-video cropping. */
+@media (max-width: 767px) and (orientation: portrait) {
+  body.has-animated-background .site-animated-background {
+    background-image: url("assets/bus-girl-background-mobile.webp");
+    background-position: center center;
+    background-size: cover;
+  }
+}
