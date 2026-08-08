@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-08T12:06:55.660Z",
+  "generatedAt": "2026-08-08T12:07:31.591Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -9,9 +9,9 @@ window.PAN_SEARCH_DATA = {
       "total": 1222
     },
     "unique": {
-      "quark": 890,
+      "quark": 901,
       "baidu": 390,
-      "total": 1280
+      "total": 1291
     },
     "duplicate": {
       "quark": 0,
@@ -21828,6 +21828,193 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "实词】2025国省考言语热词考前积累 夸克批量新增 夸克网盘批量导入：实词】2025国省考言语热词考前积累 quark https://pan.quark.cn/s/e4c2c434b6ff"
+    },
+    {
+      "id": "r1281",
+      "title": "刷题】2024省考花生套题冲刺无水印",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/5ebc6f705416",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：刷题】2024省考花生套题冲刺无水印",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 2,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "刷题】2024省考花生套题冲刺无水印 夸克批量新增 夸克网盘批量导入：刷题】2024省考花生套题冲刺无水印 quark https://pan.quark.cn/s/5ebc6f705416"
+    },
+    {
+      "id": "r1282",
+      "title": "事业单位】2024花生飞扬事业单位综应A考前套题冲刺",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/45aedca14b3f",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：事业单位】2024花生飞扬事业单位综应A考前套题冲刺",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 5,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "事业单位】2024花生飞扬事业单位综应A考前套题冲刺 夸克批量新增 夸克网盘批量导入：事业单位】2024花生飞扬事业单位综应A考前套题冲刺 quark https://pan.quark.cn/s/45aedca14b3f"
+    },
+    {
+      "id": "r1283",
+      "title": "事业单位】2024花生十三事业单位职测能力套题冲刺",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/b19ff0e1221a",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：事业单位】2024花生十三事业单位职测能力套题冲刺",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 8,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "事业单位】2024花生十三事业单位职测能力套题冲刺 夸克批量新增 夸克网盘批量导入：事业单位】2024花生十三事业单位职测能力套题冲刺 quark https://pan.quark.cn/s/b19ff0e1221a"
+    },
+    {
+      "id": "r1284",
+      "title": "事业单位】2024花生十三事业单位职测套题预测（无水印版本）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/28d64844699c",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：事业单位】2024花生十三事业单位职测套题预测（无水印版本）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 11,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "事业单位】2024花生十三事业单位职测套题预测（无水印版本） 夸克批量新增 夸克网盘批量导入：事业单位】2024花生十三事业单位职测套题预测（无水印版本） quark https://pan.quark.cn/s/28d64844699c"
+    },
+    {
+      "id": "r1285",
+      "title": "套题班】2023下半年花生十三套题班",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/2868aaf80d60",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：套题班】2023下半年花生十三套题班",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 14,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "套题班】2023下半年花生十三套题班 夸克批量新增 夸克网盘批量导入：套题班】2023下半年花生十三套题班 quark https://pan.quark.cn/s/2868aaf80d60"
+    },
+    {
+      "id": "r1286",
+      "title": "套题班】2024花生三省套题冲刺班（江苏、浙江、山东）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/8d39736af210",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：套题班】2024花生三省套题冲刺班（江苏、浙江、山东）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 17,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "套题班】2024花生三省套题冲刺班（江苏、浙江、山东） 夸克批量新增 夸克网盘批量导入：套题班】2024花生三省套题冲刺班（江苏、浙江、山东） quark https://pan.quark.cn/s/8d39736af210"
+    },
+    {
+      "id": "r1287",
+      "title": "套题班】2024花生、飞扬套题班1期",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/96aa9d1af0bf",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：套题班】2024花生、飞扬套题班1期",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 20,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "套题班】2024花生、飞扬套题班1期 夸克批量新增 夸克网盘批量导入：套题班】2024花生、飞扬套题班1期 quark https://pan.quark.cn/s/96aa9d1af0bf"
+    },
+    {
+      "id": "r1288",
+      "title": "套题班】2024花生、飞扬套题班2期",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/80808dc5bb61",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：套题班】2024花生、飞扬套题班2期",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 23,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "套题班】2024花生、飞扬套题班2期 夸克批量新增 夸克网盘批量导入：套题班】2024花生、飞扬套题班2期 quark https://pan.quark.cn/s/80808dc5bb61"
+    },
+    {
+      "id": "r1289",
+      "title": "套题班】2024上半年花生飞扬省考套题冲刺班",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6a8822635df5",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：套题班】2024上半年花生飞扬省考套题冲刺班",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 26,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "套题班】2024上半年花生飞扬省考套题冲刺班 夸克批量新增 夸克网盘批量导入：套题班】2024上半年花生飞扬省考套题冲刺班 quark https://pan.quark.cn/s/6a8822635df5"
+    },
+    {
+      "id": "r1290",
+      "title": "系统班】2023上半年省考花生十三行测系统班100讲",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/ea07548aba69",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：系统班】2023上半年省考花生十三行测系统班100讲",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 29,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "系统班】2023上半年省考花生十三行测系统班100讲 夸克批量新增 夸克网盘批量导入：系统班】2023上半年省考花生十三行测系统班100讲 quark https://pan.quark.cn/s/ea07548aba69"
+    },
+    {
+      "id": "r1291",
+      "title": "系统班】2024上半年四海花生公考笔试系统班（含速算训练营）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/170d6b8eb33c",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：系统班】2024上半年四海花生公考笔试系统班（含速算训练营）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 32,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "系统班】2024上半年四海花生公考笔试系统班（含速算训练营） 夸克批量新增 夸克网盘批量导入：系统班】2024上半年四海花生公考笔试系统班（含速算训练营） quark https://pan.quark.cn/s/170d6b8eb33c"
     }
   ]
 };
