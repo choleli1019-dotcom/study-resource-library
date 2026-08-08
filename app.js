@@ -159,6 +159,8 @@ const panSearchData = window.PAN_SEARCH_DATA || {
 const serverApiBase = String(window.STUDY_RESOURCE_API_BASE || "").replace(/\/$/, "");
 let serverPanLinksLoaded = false;
 let serverPanLinks = [];
+let hiddenPanUrls = new Set();
+let linkHealthLoaded = false;
 let searchSuggestHideTimer = 0;
 
 function sendServerEvent(type, payload = {}) {
@@ -733,6 +735,34 @@ function panSearchItemMatches(item, queryTokens) {
   return queryTokens.every((token) => haystack.includes(token));
 }
 
+function refreshPanSearchTotals() {
+  panSearchData.totals = panSearchData.totals || {};
+  panSearchData.totals.unique = panSearchData.totals.unique || {};
+  panSearchData.totals.unique.total = panSearchData.items.length;
+  panSearchData.totals.unique.quark = panSearchData.items.filter((item) => item.platform === "quark").length;
+  panSearchData.totals.unique.baidu = panSearchData.items.filter((item) => item.platform === "baidu").length;
+}
+
+async function loadLinkHealth() {
+  if (!serverApiBase || linkHealthLoaded) return;
+  linkHealthLoaded = true;
+  try {
+    const response = await fetch(`${serverApiBase}/api/link-health`, {
+      headers: { Accept: "application/json" }
+    });
+    if (!response.ok) return;
+    const data = await response.json();
+    hiddenPanUrls = new Set(Array.isArray(data.hiddenUrls) ? data.hiddenUrls : []);
+    if (!hiddenPanUrls.size) return;
+    panSearchData.items = panSearchData.items.filter((item) => !hiddenPanUrls.has(item?.url));
+    serverPanLinks = serverPanLinks.filter((item) => !hiddenPanUrls.has(item?.url));
+    refreshPanSearchTotals();
+    renderSearchSuggestions();
+    if (state.query.trim()) renderPanSearchResults();
+  } catch (_) {
+    // Keep search usable when the health service is temporarily unavailable.
+  }
+}
 async function loadServerPanLinks() {
   if (!serverApiBase || serverPanLinksLoaded) return;
   serverPanLinksLoaded = true;
@@ -753,7 +783,7 @@ async function loadServerPanLinks() {
     let added = 0;
 
     items.forEach((item) => {
-      if (!item || !item.url || existingUrls.has(item.url)) return;
+      if (!item || !item.url || hiddenPanUrls.has(item.url) || existingUrls.has(item.url)) return;
       const platform = item.platform === "baidu" ? "baidu" : "quark";
       const title = item.title || "未命名资料";
       const section = item.section || "后台新增";
@@ -1349,4 +1379,5 @@ bindEvents();
 bindThemeToggle();
 bindSearchWelcomeModal();
 bindSearchSuggestBox();
+loadLinkHealth();
 loadServerPanLinks();
