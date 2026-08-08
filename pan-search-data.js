@@ -1,17 +1,17 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-08T10:18:29.940Z",
+  "generatedAt": "2026-08-08T10:20:54.771Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
     "raw": {
-      "quark": 877,
+      "quark": 878,
       "baidu": 344,
-      "total": 1221
+      "total": 1222
     },
     "unique": {
-      "quark": 884,
+      "quark": 885,
       "baidu": 390,
-      "total": 1274
+      "total": 1275
     },
     "duplicate": {
       "quark": 0,
@@ -21726,6 +21726,23 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "速算】花生十三速算 夸克批量新增 夸克网盘批量导入：速算】花生十三速算 quark https://pan.quark.cn/s/a9752d07a65a"
+    },
+    {
+      "id": "r1275",
+      "title": "花生十三合集(含飞扬申论)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/ddafd2a51aa5",
+      "code": "",
+      "section": "后台新增",
+      "context": "花生十三合集(含飞扬申论)",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "后台新增"
+        }
+      ],
+      "searchText": "花生十三合集(含飞扬申论) 后台新增 花生十三合集(含飞扬申论) server/data/extra-links.json"
     }
   ]
 };
