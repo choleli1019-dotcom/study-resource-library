@@ -1233,6 +1233,29 @@ renderNav();
 renderFilters();
 renderHotSearches();
 renderQuickLinks();
+function initAmbientBackgroundVideo() {
+  const video = document.querySelector("#ambientBackgroundVideo");
+  if (!video) return;
+
+  const canUseVideo = window.matchMedia("(min-width: 768px)").matches
+    && !window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  if (!canUseVideo) return;
+
+  const source = video.querySelector("source[data-src]");
+  if (!source) return;
+  source.src = source.dataset.src;
+  video.load();
+
+  const activateVideo = () => {
+    video.play()
+      .then(() => document.body.classList.add("has-ambient-video"))
+      .catch(() => {});
+  };
+
+  video.addEventListener("canplay", activateVideo, { once: true });
+  video.addEventListener("error", () => document.body.classList.remove("has-ambient-video"), { once: true });
+}
+initAmbientBackgroundVideo();
 renderFeaturedResources();
 renderResources();
 renderPanSearchResults();

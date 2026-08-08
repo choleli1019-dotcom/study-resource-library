@@ -3621,7 +3621,7 @@ summary:focus-visible {
 body.theme-light::before {
   background:
     linear-gradient(180deg, rgba(245, 245, 247, 0.2), rgba(245, 245, 247, 0.46)),
-    url("assets/summer-field-bg.png") center top / cover no-repeat !important;
+    url("assets/ios-running-bg.png") center top / cover no-repeat !important;
   opacity: 0.98 !important;
   filter: saturate(1.08) contrast(1.02) !important;
 }
@@ -3636,7 +3636,7 @@ body.theme-light .sidebar {
 body.theme-light .hero {
   background:
     linear-gradient(90deg, rgba(255, 255, 255, 0.78) 0%, rgba(255, 255, 255, 0.58) 52%, rgba(255, 255, 255, 0.2) 100%),
-    url("assets/summer-field-bg.png") center center / cover no-repeat !important;
+    url("assets/ios-running-bg.png") center center / cover no-repeat !important;
   border-color: rgba(255, 255, 255, 0.68) !important;
   box-shadow: 0 18px 54px rgba(28, 70, 42, 0.12) !important;
   -webkit-backdrop-filter: saturate(170%) blur(18px) !important;
@@ -3686,14 +3686,14 @@ body.theme-light .notice {
   body.theme-light::before {
     background:
       linear-gradient(180deg, rgba(245, 245, 247, 0.28), rgba(245, 245, 247, 0.58)),
-      url("assets/summer-field-bg.png") center top / cover no-repeat !important;
+      url("assets/ios-running-bg.png") center top / cover no-repeat !important;
     opacity: 0.92 !important;
   }
 
   body.theme-light .hero {
     background:
       linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.62)),
-      url("assets/summer-field-bg.png") center center / cover no-repeat !important;
+      url("assets/ios-running-bg.png") center center / cover no-repeat !important;
   }
 
   body.theme-light .featured-item,
@@ -3780,7 +3780,7 @@ body:not(.theme-light) .notice p {
 body.theme-light::before {
   background:
     linear-gradient(180deg, rgba(245, 245, 247, 0.2), rgba(245, 245, 247, 0.46)),
-    url("assets/summer-field-bg.png") center top / cover no-repeat !important;
+    url("assets/ios-running-bg.png") center top / cover no-repeat !important;
   opacity: 0.98 !important;
   filter: saturate(1.08) contrast(1.02) !important;
 }
@@ -3795,7 +3795,7 @@ body.theme-light .sidebar {
 body.theme-light .hero {
   background:
     linear-gradient(90deg, rgba(255, 255, 255, 0.78) 0%, rgba(255, 255, 255, 0.58) 52%, rgba(255, 255, 255, 0.2) 100%),
-    url("assets/summer-field-bg.png") center center / cover no-repeat !important;
+    url("assets/ios-running-bg.png") center center / cover no-repeat !important;
   border-color: rgba(255, 255, 255, 0.68) !important;
   box-shadow: 0 18px 54px rgba(28, 70, 42, 0.12) !important;
   -webkit-backdrop-filter: saturate(170%) blur(18px) !important;
@@ -3845,14 +3845,14 @@ body.theme-light .notice {
   body.theme-light::before {
     background:
       linear-gradient(180deg, rgba(245, 245, 247, 0.28), rgba(245, 245, 247, 0.58)),
-      url("assets/summer-field-bg.png") center top / cover no-repeat !important;
+      url("assets/ios-running-bg.png") center top / cover no-repeat !important;
     opacity: 0.92 !important;
   }
 
   body.theme-light .hero {
     background:
       linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.62)),
-      url("assets/summer-field-bg.png") center center / cover no-repeat !important;
+      url("assets/ios-running-bg.png") center center / cover no-repeat !important;
   }
 
   body.theme-light .featured-item,
@@ -3866,41 +3866,41 @@ body.theme-light .notice {
 body::before {
   background:
     linear-gradient(180deg, rgba(245, 245, 247, 0.58), rgba(245, 245, 247, 0.78)),
-    url("assets/summer-field-bg.png") center top / cover no-repeat !important;
+    url("assets/ios-running-bg.png") center top / cover no-repeat !important;
   opacity: 0.78 !important;
 }
 
 body:not(.theme-light)::before {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.46), rgba(0, 0, 0, 0.72)),
-    url("assets/summer-field-bg.png") center top / cover no-repeat !important;
+    url("assets/ios-running-bg.png") center top / cover no-repeat !important;
   opacity: 0.62 !important;
 }
 
 .hero {
   background:
     linear-gradient(90deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.78) 54%, rgba(255, 255, 255, 0.34) 100%),
-    url("assets/summer-field-bg.png") center center / cover no-repeat !important;
+    url("assets/ios-running-bg.png") center center / cover no-repeat !important;
 }
 
 body:not(.theme-light) .hero {
   background:
     linear-gradient(90deg, rgba(28, 28, 30, 0.9) 0%, rgba(28, 28, 30, 0.78) 54%, rgba(28, 28, 30, 0.42) 100%),
-    url("assets/summer-field-bg.png") center center / cover no-repeat !important;
+    url("assets/ios-running-bg.png") center center / cover no-repeat !important;
 }
 
 @media (max-width: 767px) {
   body::before {
     background:
       linear-gradient(180deg, rgba(245, 245, 247, 0.66), rgba(245, 245, 247, 0.84)),
-      url("assets/summer-field-bg.png") center top / cover no-repeat !important;
+      url("assets/ios-running-bg.png") center top / cover no-repeat !important;
     opacity: 0.7 !important;
   }
 
   .hero {
     background:
       linear-gradient(180deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.76)),
-      url("assets/summer-field-bg.png") center center / cover no-repeat !important;
+      url("assets/ios-running-bg.png") center center / cover no-repeat !important;
   }
 }
 
@@ -3917,7 +3917,7 @@ body::before {
   z-index: -1 !important;
   background:
     linear-gradient(180deg, rgba(245, 245, 247, 0.88), rgba(245, 245, 247, 0.96)),
-    url("assets/summer-field-bg.png") center top / cover no-repeat !important;
+    url("assets/ios-running-bg.png") center top / cover no-repeat !important;
   opacity: 0.38 !important;
   pointer-events: none !important;
 }
@@ -3925,7 +3925,7 @@ body::before {
 body:not(.theme-light)::before {
   background:
     linear-gradient(180deg, rgba(0, 0, 0, 0.72), rgba(0, 0, 0, 0.88)),
-    url("assets/summer-field-bg.png") center top / cover no-repeat !important;
+    url("assets/ios-running-bg.png") center top / cover no-repeat !important;
   opacity: 0.32 !important;
 }
 
@@ -3934,13 +3934,13 @@ body:not(.theme-light)::before {
   overflow: hidden !important;
   background:
     linear-gradient(90deg, rgba(255, 255, 255, 0.96) 0%, rgba(255, 255, 255, 0.9) 52%, rgba(255, 255, 255, 0.62) 100%),
-    url("assets/summer-field-bg.png") center center / cover no-repeat !important;
+    url("assets/ios-running-bg.png") center center / cover no-repeat !important;
 }
 
 body:not(.theme-light) .hero {
   background:
     linear-gradient(90deg, rgba(28, 28, 30, 0.96) 0%, rgba(28, 28, 30, 0.9) 54%, rgba(28, 28, 30, 0.62) 100%),
-    url("assets/summer-field-bg.png") center center / cover no-repeat !important;
+    url("assets/ios-running-bg.png") center center / cover no-repeat !important;
 }
 
 .hero > * {
@@ -3952,14 +3952,14 @@ body:not(.theme-light) .hero {
   body::before {
     background:
       linear-gradient(180deg, rgba(245, 245, 247, 0.93), rgba(245, 245, 247, 0.98)),
-      url("assets/summer-field-bg.png") center top / cover no-repeat !important;
+      url("assets/ios-running-bg.png") center top / cover no-repeat !important;
     opacity: 0.32 !important;
   }
 
   .hero {
     background:
       linear-gradient(180deg, rgba(255, 255, 255, 0.95), rgba(255, 255, 255, 0.9)),
-      url("assets/summer-field-bg.png") center center / cover no-repeat !important;
+      url("assets/ios-running-bg.png") center center / cover no-repeat !important;
   }
 }
 
@@ -5263,7 +5263,7 @@ body:not(.theme-light) .sidebar {
 body.theme-light::before {
   background:
     linear-gradient(180deg, rgba(245, 245, 247, 0.2), rgba(245, 245, 247, 0.46)),
-    url("assets/summer-field-bg.png") center top / cover no-repeat !important;
+    url("assets/ios-running-bg.png") center top / cover no-repeat !important;
   opacity: 0.98 !important;
   filter: saturate(1.08) contrast(1.02) !important;
 }
@@ -5278,7 +5278,7 @@ body.theme-light .sidebar {
 body.theme-light .hero {
   background:
     linear-gradient(90deg, rgba(255, 255, 255, 0.78) 0%, rgba(255, 255, 255, 0.58) 52%, rgba(255, 255, 255, 0.2) 100%),
-    url("assets/summer-field-bg.png") center center / cover no-repeat !important;
+    url("assets/ios-running-bg.png") center center / cover no-repeat !important;
   border-color: rgba(255, 255, 255, 0.68) !important;
   box-shadow: 0 18px 54px rgba(28, 70, 42, 0.12) !important;
   -webkit-backdrop-filter: saturate(170%) blur(18px) !important;
@@ -5328,14 +5328,14 @@ body.theme-light .notice {
   body.theme-light::before {
     background:
       linear-gradient(180deg, rgba(245, 245, 247, 0.28), rgba(245, 245, 247, 0.58)),
-      url("assets/summer-field-bg.png") center top / cover no-repeat !important;
+      url("assets/ios-running-bg.png") center top / cover no-repeat !important;
     opacity: 0.92 !important;
   }
 
   body.theme-light .hero {
     background:
       linear-gradient(180deg, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.62)),
-      url("assets/summer-field-bg.png") center center / cover no-repeat !important;
+      url("assets/ios-running-bg.png") center center / cover no-repeat !important;
   }
 
   body.theme-light .featured-item,
@@ -5900,10 +5900,63 @@ body:not(.theme-light) .overview-samples span {
 body.theme-light::before {
   background:
     linear-gradient(180deg, rgba(232, 246, 255, 0.16), rgba(241, 250, 239, 0.5)),
-    url("assets/summer-field-bg.png") center center / cover no-repeat !important;
+    url("assets/ios-running-bg.png") center center / cover no-repeat !important;
   filter: saturate(1.02) contrast(0.98) brightness(1.03) !important;
 }
 
 body.theme-light .overview-card {
   background: rgba(255, 255, 255, 0.5) !important;
+}
+/* 2026-08 calm background correction: keep the illustration atmospheric, not dominant. */
+body.theme-light::before {
+  background:
+    linear-gradient(180deg, rgba(240, 246, 239, 0.3), rgba(239, 246, 237, 0.64)),
+    url("assets/ios-running-bg.png") center top / cover no-repeat !important;
+  opacity: 0.96 !important;
+  filter: saturate(0.86) contrast(0.96) brightness(0.97) !important;
+}
+
+body.theme-light .hero {
+  background:
+    linear-gradient(90deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.66) 53%, rgba(246, 250, 244, 0.42) 100%),
+    url("assets/ios-running-bg.png") center center / cover no-repeat !important;
+}
+/* Ambient video background: desktop only, with the static illustration as the fallback. */
+.site-background-video {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: -2 !important;
+  display: block !important;
+  width: 100vw !important;
+  max-width: none !important;
+  height: 100vh !important;
+  min-height: 100dvh !important;
+  object-fit: cover !important;
+  object-position: center center !important;
+  pointer-events: none !important;
+  opacity: 0 !important;
+  filter: saturate(0.8) contrast(0.94) brightness(0.78) !important;
+  transition: opacity 900ms ease;
+}
+
+body.has-ambient-video .site-background-video {
+  opacity: 1 !important;
+}
+
+body.theme-light.has-ambient-video::before {
+  background: linear-gradient(180deg, rgba(242, 248, 246, 0.58), rgba(239, 247, 238, 0.78)) !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+body:not(.theme-light).has-ambient-video::before {
+  background: linear-gradient(180deg, rgba(3, 12, 16, 0.6), rgba(3, 12, 16, 0.82)) !important;
+  opacity: 1 !important;
+  filter: none !important;
+}
+
+@media (max-width: 767px), (prefers-reduced-motion: reduce), (prefers-reduced-data: reduce) {
+  .site-background-video {
+    display: none !important;
+  }
 }

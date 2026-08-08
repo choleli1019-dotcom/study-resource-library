@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>学习资源库</title>
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=20260713-icon1" />
-    <link rel="stylesheet" href="styles.css?v=20260808-overview-field" />
+    <link rel="stylesheet" href="styles.css?v=20260808-ambient-video" />
   </head>
   <body class="theme-light">
+    <video id="ambientBackgroundVideo" class="site-background-video" muted loop playsinline preload="metadata" aria-hidden="true" poster="assets/ios-running-bg.png">
+      <source data-src="assets/bus-girl-background.mp4" type="video/mp4" />
+    </video>
     <div class="app-shell">
       <aside class="sidebar" aria-label="资料板块">
         <a class="brand" href="#top" aria-label="学习资源库首页">
@@ -144,6 +147,6 @@
       })();
     </script>
     <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20260808-overview-field"></script>
+    <script src="app.js?v=20260808-ambient-video"></script>
   </body>
 </html>
