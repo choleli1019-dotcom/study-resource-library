@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-08T12:06:15.065Z",
+  "generatedAt": "2026-08-08T12:06:55.660Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -1960,10 +1960,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r112",
       "title": "2025省考花生十三考前心理辅导+考场心得",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/f920e183425c",
+      "url": "https://pan.quark.cn/s/65544512b8bb",
       "code": "",
       "section": "公考类",
-      "context": "2025省考花生十三考前心理辅导+考场心得 链接：https://pan.quark.cn/s/f920e183425c",
+      "context": "2025省考花生十三考前心理辅导+考场心得 链接：https://pan.quark.cn/s/65544512b8bb",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1971,16 +1971,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2025省考花生十三考前心理辅导+考场心得 公考类 2025省考花生十三考前心理辅导+考场心得 链接：https://pan.quark.cn/s/f920e183425c 夸克 网盘 网盘链接.txt"
+      "searchText": "2025省考花生十三考前心理辅导+考场心得 公考类 2025省考花生十三考前心理辅导+考场心得 链接：https://pan.quark.cn/s/65544512b8bb quark https://pan.quark.cn/s/65544512b8bb"
     },
     {
       "id": "r113",
       "title": "旗舰班-国考】2025（24下半年）花生十三旗舰班（花生行测+飞扬申论）⭐⭐⭐",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/0beeab24b420",
+      "url": "https://pan.quark.cn/s/bf444a220610",
       "code": "",
       "section": "公考类",
-      "context": "旗舰班-国考】2025（24下半年）花生十三旗舰班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/0beeab24b420",
+      "context": "旗舰班-国考】2025（24下半年）花生十三旗舰班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/bf444a220610",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1988,16 +1988,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "旗舰班-国考】2025（24下半年）花生十三旗舰班（花生行测+飞扬申论）⭐⭐⭐ 公考类 旗舰班-国考】2025（24下半年）花生十三旗舰班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/0beeab24b420 夸克 网盘 网盘链接.txt"
+      "searchText": "旗舰班-国考】2025（24下半年）花生十三旗舰班（花生行测+飞扬申论）⭐⭐⭐ 公考类 旗舰班-国考】2025（24下半年）花生十三旗舰班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/bf444a220610 quark https://pan.quark.cn/s/bf444a220610"
     },
     {
       "id": "r114",
       "title": "旗舰班-省考】2025花生十三省考系统班（花生行测+飞扬申论）⭐⭐⭐",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/d249b810f746",
+      "url": "https://pan.quark.cn/s/3922df80d873",
       "code": "",
       "section": "公考类",
-      "context": "旗舰班-省考】2025花生十三省考系统班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/d249b810f746",
+      "context": "旗舰班-省考】2025花生十三省考系统班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/3922df80d873",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2005,16 +2005,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "旗舰班-省考】2025花生十三省考系统班（花生行测+飞扬申论）⭐⭐⭐ 公考类 旗舰班-省考】2025花生十三省考系统班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/d249b810f746 夸克 网盘 网盘链接.txt"
+      "searchText": "旗舰班-省考】2025花生十三省考系统班（花生行测+飞扬申论）⭐⭐⭐ 公考类 旗舰班-省考】2025花生十三省考系统班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/3922df80d873 quark https://pan.quark.cn/s/3922df80d873"
     },
     {
       "id": "r115",
       "title": "申论全勤全返、速算训练营、数量刷题营",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/faf7d196bcd7",
+      "url": "https://pan.quark.cn/s/d230627f57e5",
       "code": "",
       "section": "公考类",
-      "context": "申论全勤全返、速算训练营、数量刷题营 链接：https://pan.quark.cn/s/faf7d196bcd7",
+      "context": "申论全勤全返、速算训练营、数量刷题营 链接：https://pan.quark.cn/s/d230627f57e5",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2022,16 +2022,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "申论全勤全返、速算训练营、数量刷题营 公考类 申论全勤全返、速算训练营、数量刷题营 链接：https://pan.quark.cn/s/faf7d196bcd7 夸克 网盘 网盘链接.txt"
+      "searchText": "申论全勤全返、速算训练营、数量刷题营 公考类 申论全勤全返、速算训练营、数量刷题营 链接：https://pan.quark.cn/s/d230627f57e5 quark https://pan.quark.cn/s/d230627f57e5"
     },
     {
       "id": "r116",
       "title": "套题班-国考】2025花生行测+飞扬申论套题⭐⭐⭐",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/7f4dbb420906",
+      "url": "https://pan.quark.cn/s/f8a7fc336229",
       "code": "",
       "section": "公考类",
-      "context": "套题班-国考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/7f4dbb420906",
+      "context": "套题班-国考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/f8a7fc336229",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2039,16 +2039,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "套题班-国考】2025花生行测+飞扬申论套题⭐⭐⭐ 公考类 套题班-国考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/7f4dbb420906 夸克 网盘 网盘链接.txt"
+      "searchText": "套题班-国考】2025花生行测+飞扬申论套题⭐⭐⭐ 公考类 套题班-国考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/f8a7fc336229 quark https://pan.quark.cn/s/f8a7fc336229"
     },
     {
       "id": "r117",
       "title": "套题班-省考】2025花生行测+飞扬申论套题⭐⭐⭐",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/51fcb8642b6c",
+      "url": "https://pan.quark.cn/s/2ec25405f5d2",
       "code": "",
       "section": "公考类",
-      "context": "套题班-省考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/51fcb8642b6c",
+      "context": "套题班-省考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/2ec25405f5d2",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2056,16 +2056,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "套题班-省考】2025花生行测+飞扬申论套题⭐⭐⭐ 公考类 套题班-省考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/51fcb8642b6c 夸克 网盘 网盘链接.txt"
+      "searchText": "套题班-省考】2025花生行测+飞扬申论套题⭐⭐⭐ 公考类 套题班-省考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/2ec25405f5d2 quark https://pan.quark.cn/s/2ec25405f5d2"
     },
     {
       "id": "r118",
       "title": "职测】2025上半年花生十三职测A类套题冲刺班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/c17035316fc8",
+      "url": "https://pan.quark.cn/s/df5274b4a031",
       "code": "",
       "section": "事业单位",
-      "context": "职测】2025上半年花生十三职测A类套题冲刺班 链接：https://pan.quark.cn/s/c17035316fc8",
+      "context": "职测】2025上半年花生十三职测A类套题冲刺班 链接：https://pan.quark.cn/s/df5274b4a031",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2073,16 +2073,16 @@ window.PAN_SEARCH_DATA = {
           "section": "事业单位"
         }
       ],
-      "searchText": "职测】2025上半年花生十三职测A类套题冲刺班 事业单位 职测】2025上半年花生十三职测A类套题冲刺班 链接：https://pan.quark.cn/s/c17035316fc8 夸克 网盘 网盘链接.txt"
+      "searchText": "职测】2025上半年花生十三职测A类套题冲刺班 事业单位 职测】2025上半年花生十三职测A类套题冲刺班 链接：https://pan.quark.cn/s/df5274b4a031 quark https://pan.quark.cn/s/df5274b4a031"
     },
     {
       "id": "r119",
       "title": "综应A】2025上半年飞扬综应A类套题冲刺班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/44111d6cc897",
+      "url": "https://pan.quark.cn/s/21ceb62b43b8",
       "code": "",
       "section": "事业单位",
-      "context": "综应A】2025上半年飞扬综应A类套题冲刺班 链接：https://pan.quark.cn/s/44111d6cc897",
+      "context": "综应A】2025上半年飞扬综应A类套题冲刺班 链接：https://pan.quark.cn/s/21ceb62b43b8",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2090,16 +2090,16 @@ window.PAN_SEARCH_DATA = {
           "section": "事业单位"
         }
       ],
-      "searchText": "综应A】2025上半年飞扬综应A类套题冲刺班 事业单位 综应A】2025上半年飞扬综应A类套题冲刺班 链接：https://pan.quark.cn/s/44111d6cc897 夸克 网盘 网盘链接.txt"
+      "searchText": "综应A】2025上半年飞扬综应A类套题冲刺班 事业单位 综应A】2025上半年飞扬综应A类套题冲刺班 链接：https://pan.quark.cn/s/21ceb62b43b8 quark https://pan.quark.cn/s/21ceb62b43b8"
     },
     {
       "id": "r120",
       "title": "政治理论】2025花生十三政治理论冲刺",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/f64e042385e6",
+      "url": "https://pan.quark.cn/s/643abc95b9dd",
       "code": "",
       "section": "公考类",
-      "context": "政治理论】2025花生十三政治理论冲刺 链接：https://pan.quark.cn/s/f64e042385e6",
+      "context": "政治理论】2025花生十三政治理论冲刺 链接：https://pan.quark.cn/s/643abc95b9dd",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2107,16 +2107,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "政治理论】2025花生十三政治理论冲刺 公考类 政治理论】2025花生十三政治理论冲刺 链接：https://pan.quark.cn/s/f64e042385e6 夸克 网盘 网盘链接.txt"
+      "searchText": "政治理论】2025花生十三政治理论冲刺 公考类 政治理论】2025花生十三政治理论冲刺 链接：https://pan.quark.cn/s/643abc95b9dd quark https://pan.quark.cn/s/643abc95b9dd"
     },
     {
       "id": "r121",
       "title": "政治理论】2025年省考四海早间政治理论班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/b42a4dc95cac",
+      "url": "https://pan.quark.cn/s/06717b4c947b",
       "code": "",
       "section": "公考类",
-      "context": "政治理论】2025年省考四海早间政治理论班 链接：https://pan.quark.cn/s/b42a4dc95cac",
+      "context": "政治理论】2025年省考四海早间政治理论班 链接：https://pan.quark.cn/s/06717b4c947b",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2124,7 +2124,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "政治理论】2025年省考四海早间政治理论班 公考类 政治理论】2025年省考四海早间政治理论班 链接：https://pan.quark.cn/s/b42a4dc95cac 夸克 网盘 网盘链接.txt"
+      "searchText": "政治理论】2025年省考四海早间政治理论班 公考类 政治理论】2025年省考四海早间政治理论班 链接：https://pan.quark.cn/s/06717b4c947b quark https://pan.quark.cn/s/06717b4c947b"
     },
     {
       "id": "r122",
