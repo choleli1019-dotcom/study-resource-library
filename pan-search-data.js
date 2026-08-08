@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-08T10:20:54.771Z",
+  "generatedAt": "2026-08-08T10:21:46.063Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -1297,10 +1297,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r73",
       "title": "2027国省考季花生十三飞扬系统班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/6a0f6c837671",
+      "url": "https://pan.quark.cn/s/c779a2f61234",
       "code": "",
       "section": "公考类",
-      "context": "2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/6a0f6c837671",
+      "context": "2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/c779a2f61234",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1308,16 +1308,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省考季花生十三飞扬系统班 公考类 2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/6a0f6c837671 夸克 网盘 网盘链接.txt"
+      "searchText": "2027国省考季花生十三飞扬系统班 公考类 2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/c779a2f61234 quark https://pan.quark.cn/s/c779a2f61234"
     },
     {
       "id": "r74",
       "title": "2027国省事考花生十三行测600题精讲课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/d7754b9ea452",
+      "url": "https://pan.quark.cn/s/d0262be8f608",
       "code": "",
       "section": "公考类",
-      "context": "2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/d7754b9ea452",
+      "context": "2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/d0262be8f608",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1325,7 +1325,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省事考花生十三行测600题精讲课 公考类 2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/d7754b9ea452 夸克 网盘 网盘链接.txt"
+      "searchText": "2027国省事考花生十三行测600题精讲课 公考类 2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/d0262be8f608 quark https://pan.quark.cn/s/d0262be8f608"
     },
     {
       "id": "r75",
