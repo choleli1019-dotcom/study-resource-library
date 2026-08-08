@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-08T12:09:27.661Z",
+  "generatedAt": "2026-08-08T12:10:09.682Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -9,9 +9,9 @@ window.PAN_SEARCH_DATA = {
       "total": 1222
     },
     "unique": {
-      "quark": 901,
+      "quark": 903,
       "baidu": 390,
-      "total": 1291
+      "total": 1293
     },
     "duplicate": {
       "quark": 0,
@@ -1025,10 +1025,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r57",
       "title": "政治+常识+公基+时政】小黑合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/7c2271c87eaf",
+      "url": "https://pan.quark.cn/s/91d80f1788ab",
       "code": "",
       "section": "公考类",
-      "context": "政治+常识+公基+时政】小黑合集 链接：https://pan.quark.cn/s/7c2271c87eaf",
+      "context": "政治+常识+公基+时政】小黑合集 链接：https://pan.quark.cn/s/91d80f1788ab",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1036,16 +1036,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "政治+常识+公基+时政】小黑合集 公考类 政治+常识+公基+时政】小黑合集 链接：https://pan.quark.cn/s/7c2271c87eaf 夸克 网盘 网盘链接.txt"
+      "searchText": "政治+常识+公基+时政】小黑合集 公考类 政治+常识+公基+时政】小黑合集 链接：https://pan.quark.cn/s/91d80f1788ab quark https://pan.quark.cn/s/91d80f1788ab"
     },
     {
       "id": "r58",
       "title": "2026年F家全国公基系统班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/d1d9295a3ef0",
+      "url": "https://pan.quark.cn/s/f72d282f5110",
       "code": "",
       "section": "公考类",
-      "context": "2026年F家全国公基系统班 链接：https://pan.quark.cn/s/d1d9295a3ef0",
+      "context": "2026年F家全国公基系统班 链接：https://pan.quark.cn/s/f72d282f5110",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1053,16 +1053,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026年F家全国公基系统班 公考类 2026年F家全国公基系统班 链接：https://pan.quark.cn/s/d1d9295a3ef0 夸克 网盘 网盘链接.txt"
+      "searchText": "2026年F家全国公基系统班 公考类 2026年F家全国公基系统班 链接：https://pan.quark.cn/s/f72d282f5110 quark https://pan.quark.cn/s/f72d282f5110"
     },
     {
       "id": "r59",
       "title": "超哥课程在超格合集！",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/db6a37c14542",
+      "url": "https://pan.quark.cn/s/aa3992b6e64f",
       "code": "",
       "section": "公考类",
-      "context": "超哥课程在超格合集！ 链接：https://pan.quark.cn/s/db6a37c14542",
+      "context": "超哥课程在超格合集！ 链接：https://pan.quark.cn/s/aa3992b6e64f",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1070,7 +1070,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "超哥课程在超格合集！ 公考类 超哥课程在超格合集！ 链接：https://pan.quark.cn/s/db6a37c14542 夸克 网盘 网盘链接.txt"
+      "searchText": "超哥课程在超格合集！ 公考类 超哥课程在超格合集！ 链接：https://pan.quark.cn/s/aa3992b6e64f quark https://pan.quark.cn/s/aa3992b6e64f"
     },
     {
       "id": "r60",
@@ -22015,6 +22015,40 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "系统班】2024上半年四海花生公考笔试系统班（含速算训练营） 夸克批量新增 夸克网盘批量导入：系统班】2024上半年四海花生公考笔试系统班（含速算训练营） quark https://pan.quark.cn/s/170d6b8eb33c"
+    },
+    {
+      "id": "r1292",
+      "title": "2027杨攀政治理论素养课-精读《求是》",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/a5a0c7c5c340",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：2027杨攀政治理论素养课-精读《求是》",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 5,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "2027杨攀政治理论素养课-精读《求是》 夸克批量新增 夸克网盘批量导入：2027杨攀政治理论素养课-精读《求是》 quark https://pan.quark.cn/s/a5a0c7c5c340"
+    },
+    {
+      "id": "r1293",
+      "title": "2027杨攀政治理论基础课",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/f4f8b165b8a7",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：2027杨攀政治理论基础课",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 8,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "2027杨攀政治理论基础课 夸克批量新增 夸克网盘批量导入：2027杨攀政治理论基础课 quark https://pan.quark.cn/s/f4f8b165b8a7"
     }
   ]
 };
