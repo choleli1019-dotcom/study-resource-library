@@ -1304,9 +1304,7 @@ function initAmbientBackgroundVideo() {
         hideStartButton();
         if (!frameId) frameId = window.requestAnimationFrame(paintFrame);
       })
-      .catch(() => {
-        if (isTouchDevice) document.body.classList.add("ambient-video-needs-start");
-      });
+      .catch(() => { if (isTouchDevice) showStartButton(); });
   };
 
   const showStartButton = () => {
@@ -1332,12 +1330,12 @@ function initAmbientBackgroundVideo() {
     window.cancelAnimationFrame(frameId);
     document.body.classList.remove("has-ambient-video");
   }, { once: true });
+  video.addEventListener("canplay", activateVideo, { once: true });
   video.load();
-
   if (isTouchDevice) {
-    showStartButton();
-  } else {
-    video.addEventListener("canplay", activateVideo, { once: true });
+    window.setTimeout(() => {
+      if (!document.body.classList.contains("has-ambient-video")) showStartButton();
+    }, 1800);
   }
 }
 initAmbientBackgroundVideo();
