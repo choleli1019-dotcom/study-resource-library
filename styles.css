@@ -6347,3 +6347,51 @@ body.theme-light.has-ambient-video .featured-copy .panel-label {
     border-radius: 15px !important;
   }
 }
+/* Keep category cards in the same continuous frosted-glass language as the featured cards. */
+body.theme-light.has-ambient-video .overview-card,
+body.theme-light.has-ambient-video .overview-card:nth-child(n),
+body.theme-light.has-ambient-video .overview-card.important {
+  border-color: rgba(255, 255, 255, 0.52) !important;
+  background: linear-gradient(145deg, rgba(230, 244, 244, 0.6), rgba(216, 232, 236, 0.42)) !important;
+  box-shadow: 0 14px 34px rgba(8, 34, 49, 0.2), inset 0 1px 0 rgba(255, 255, 255, 0.36) !important;
+  -webkit-backdrop-filter: blur(28px) saturate(145%) !important;
+  backdrop-filter: blur(28px) saturate(145%) !important;
+}
+
+body.theme-light.has-ambient-video .overview-card:hover {
+  background: linear-gradient(145deg, rgba(239, 250, 250, 0.69), rgba(218, 238, 242, 0.5)) !important;
+  box-shadow: 0 20px 42px rgba(8, 34, 49, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.48) !important;
+}
+
+body.theme-light.has-ambient-video .overview-card-head .section-icon {
+  background: rgba(255, 255, 255, 0.38) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.52) !important;
+}
+
+body.theme-light.has-ambient-video .overview-samples {
+  margin: 0 15px !important;
+  border-top: 1px solid rgba(255, 255, 255, 0.3) !important;
+  border-bottom: 1px solid rgba(12, 44, 61, 0.16) !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+body.theme-light.has-ambient-video .overview-samples span,
+body.theme-light.has-ambient-video .overview-samples span:hover {
+  background: transparent !important;
+  border-bottom-color: rgba(255, 255, 255, 0.28) !important;
+  color: #263e50 !important;
+}
+
+body.theme-light.has-ambient-video .overview-samples span:hover {
+  color: #006fdc !important;
+}
+
+body.theme-light.has-ambient-video .section-open-button {
+  border: 1px solid rgba(255, 255, 255, 0.25) !important;
+  background: rgba(0, 122, 255, 0.14) !important;
+  color: #006ed8 !important;
+  -webkit-backdrop-filter: blur(10px) !important;
+  backdrop-filter: blur(10px) !important;
+}
