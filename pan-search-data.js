@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-08T12:08:05.906Z",
+  "generatedAt": "2026-08-08T12:08:33.677Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -2402,10 +2402,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r138",
       "title": "2026国考&小省考上岸村行测预测卷【3套",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/d1be306ed7b4",
+      "url": "https://pan.quark.cn/s/9674b6e2d152",
       "code": "",
       "section": "公考类",
-      "context": "2026国考&小省考上岸村行测预测卷【3套 链接：https://pan.quark.cn/s/d1be306ed7b4",
+      "context": "2026国考&小省考上岸村行测预测卷【3套 链接：https://pan.quark.cn/s/9674b6e2d152",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2413,16 +2413,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026国考&小省考上岸村行测预测卷【3套 公考类 2026国考&小省考上岸村行测预测卷【3套 链接：https://pan.quark.cn/s/d1be306ed7b4 夸克 网盘 网盘链接.txt"
+      "searchText": "2026国考&小省考上岸村行测预测卷【3套 公考类 2026国考&小省考上岸村行测预测卷【3套 链接：https://pan.quark.cn/s/9674b6e2d152 quark https://pan.quark.cn/s/9674b6e2d152"
     },
     {
       "id": "r139",
       "title": "2026国省考上岸村行测全科全家桶",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/4f6cec769b0b",
+      "url": "https://pan.quark.cn/s/9aae6acbfb0c",
       "code": "",
       "section": "公考类",
-      "context": "2026国省考上岸村行测全科全家桶 链接：https://pan.quark.cn/s/4f6cec769b0b",
+      "context": "2026国省考上岸村行测全科全家桶 链接：https://pan.quark.cn/s/9aae6acbfb0c",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2430,16 +2430,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026国省考上岸村行测全科全家桶 公考类 2026国省考上岸村行测全科全家桶 链接：https://pan.quark.cn/s/4f6cec769b0b 夸克 网盘 网盘链接.txt"
+      "searchText": "2026国省考上岸村行测全科全家桶 公考类 2026国省考上岸村行测全科全家桶 链接：https://pan.quark.cn/s/9aae6acbfb0c quark https://pan.quark.cn/s/9aae6acbfb0c"
     },
     {
       "id": "r140",
       "title": "2026上岸村36技系统冲刺班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/431c5aeeb1f9",
+      "url": "https://pan.quark.cn/s/e70e0ecf114e",
       "code": "",
       "section": "公考类",
-      "context": "2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/431c5aeeb1f9",
+      "context": "2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/e70e0ecf114e",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2447,16 +2447,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026上岸村36技系统冲刺班 公考类 2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/431c5aeeb1f9 夸克 网盘 网盘链接.txt"
+      "searchText": "2026上岸村36技系统冲刺班 公考类 2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/e70e0ecf114e quark https://pan.quark.cn/s/e70e0ecf114e"
     },
     {
       "id": "r141",
       "title": "2026上岸村多省联考密押冲刺班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/c3f37b9db333",
+      "url": "https://pan.quark.cn/s/69746e5cf8c1",
       "code": "",
       "section": "事业单位",
-      "context": "2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/c3f37b9db333",
+      "context": "2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/69746e5cf8c1",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2464,16 +2464,16 @@ window.PAN_SEARCH_DATA = {
           "section": "事业单位"
         }
       ],
-      "searchText": "2026上岸村多省联考密押冲刺班 事业单位 2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/c3f37b9db333 夸克 网盘 网盘链接.txt"
+      "searchText": "2026上岸村多省联考密押冲刺班 事业单位 2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/69746e5cf8c1 quark https://pan.quark.cn/s/69746e5cf8c1"
     },
     {
       "id": "r142",
       "title": "2026上岸村广东本土面试考情详解（19页）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/ebd90cd2c884",
+      "url": "https://pan.quark.cn/s/2d38850b574f",
       "code": "",
       "section": "面试",
-      "context": "2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/ebd90cd2c884",
+      "context": "2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/2d38850b574f",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2481,16 +2481,16 @@ window.PAN_SEARCH_DATA = {
           "section": "面试"
         }
       ],
-      "searchText": "2026上岸村广东本土面试考情详解（19页） 面试 2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/ebd90cd2c884 夸克 网盘 网盘链接.txt"
+      "searchText": "2026上岸村广东本土面试考情详解（19页） 面试 2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/2d38850b574f quark https://pan.quark.cn/s/2d38850b574f"
     },
     {
       "id": "r143",
       "title": "2026上岸村国省考行测申论一卡通",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/93c468e805d7",
+      "url": "https://pan.quark.cn/s/5b9b13fddf3f",
       "code": "",
       "section": "公考类",
-      "context": "2026上岸村国省考行测申论一卡通 链接：https://pan.quark.cn/s/93c468e805d7",
+      "context": "2026上岸村国省考行测申论一卡通 链接：https://pan.quark.cn/s/5b9b13fddf3f",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2498,16 +2498,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026上岸村国省考行测申论一卡通 公考类 2026上岸村国省考行测申论一卡通 链接：https://pan.quark.cn/s/93c468e805d7 夸克 网盘 网盘链接.txt"
+      "searchText": "2026上岸村国省考行测申论一卡通 公考类 2026上岸村国省考行测申论一卡通 链接：https://pan.quark.cn/s/5b9b13fddf3f quark https://pan.quark.cn/s/5b9b13fddf3f"
     },
     {
       "id": "r144",
       "title": "2026上岸村套卷强化班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/be9191807294",
+      "url": "https://pan.quark.cn/s/c57084f4aed6",
       "code": "",
       "section": "公考类",
-      "context": "2026上岸村套卷强化班 链接：https://pan.quark.cn/s/be9191807294",
+      "context": "2026上岸村套卷强化班 链接：https://pan.quark.cn/s/c57084f4aed6",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2515,7 +2515,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026上岸村套卷强化班 公考类 2026上岸村套卷强化班 链接：https://pan.quark.cn/s/be9191807294 夸克 网盘 网盘链接.txt"
+      "searchText": "2026上岸村套卷强化班 公考类 2026上岸村套卷强化班 链接：https://pan.quark.cn/s/c57084f4aed6 quark https://pan.quark.cn/s/c57084f4aed6"
     },
     {
       "id": "r145",
@@ -6363,10 +6363,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r371",
       "title": "2026上岸村多省联考密押冲刺班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/8aa17d982912",
+      "url": "https://pan.quark.cn/s/69746e5cf8c1",
       "code": "",
       "section": "事业单位",
-      "context": "2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/8aa17d982912",
+      "context": "2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/69746e5cf8c1",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -6374,7 +6374,7 @@ window.PAN_SEARCH_DATA = {
           "section": "事业单位"
         }
       ],
-      "searchText": "2026上岸村多省联考密押冲刺班 事业单位 2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/8aa17d982912 夸克 网盘 网盘链接.txt"
+      "searchText": "2026上岸村多省联考密押冲刺班 事业单位 2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/69746e5cf8c1 quark https://pan.quark.cn/s/69746e5cf8c1"
     },
     {
       "id": "r372",
@@ -6414,10 +6414,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r374",
       "title": "2026上岸村广东本土面试考情详解（19页）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/87c5225e9da8",
+      "url": "https://pan.quark.cn/s/2d38850b574f",
       "code": "",
       "section": "面试",
-      "context": "2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/87c5225e9da8",
+      "context": "2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/2d38850b574f",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -6425,16 +6425,16 @@ window.PAN_SEARCH_DATA = {
           "section": "面试"
         }
       ],
-      "searchText": "2026上岸村广东本土面试考情详解（19页） 面试 2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/87c5225e9da8 夸克 网盘 网盘链接.txt"
+      "searchText": "2026上岸村广东本土面试考情详解（19页） 面试 2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/2d38850b574f quark https://pan.quark.cn/s/2d38850b574f"
     },
     {
       "id": "r375",
       "title": "2026上岸村36技系统冲刺班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/6810e05ce12e",
+      "url": "https://pan.quark.cn/s/e70e0ecf114e",
       "code": "",
       "section": "公考类",
-      "context": "2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/6810e05ce12e",
+      "context": "2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/e70e0ecf114e",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -6442,7 +6442,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026上岸村36技系统冲刺班 公考类 2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/6810e05ce12e 夸克 网盘 网盘链接.txt"
+      "searchText": "2026上岸村36技系统冲刺班 公考类 2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/e70e0ecf114e quark https://pan.quark.cn/s/e70e0ecf114e"
     },
     {
       "id": "r376",
@@ -6465,10 +6465,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r377",
       "title": "2026上岸村套卷强化班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/3c15a581fb53",
+      "url": "https://pan.quark.cn/s/c57084f4aed6",
       "code": "",
       "section": "公考类",
-      "context": "2026上岸村套卷强化班 链接：https://pan.quark.cn/s/3c15a581fb53",
+      "context": "2026上岸村套卷强化班 链接：https://pan.quark.cn/s/c57084f4aed6",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -6476,7 +6476,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026上岸村套卷强化班 公考类 2026上岸村套卷强化班 链接：https://pan.quark.cn/s/3c15a581fb53 夸克 网盘 网盘链接.txt"
+      "searchText": "2026上岸村套卷强化班 公考类 2026上岸村套卷强化班 链接：https://pan.quark.cn/s/c57084f4aed6 quark https://pan.quark.cn/s/c57084f4aed6"
     },
     {
       "id": "r378",
