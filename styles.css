@@ -6095,3 +6095,45 @@ body.theme-light .overview-samples span:hover {
     border-radius: 18px !important;
   }
 }
+/* Render the movie through canvas: touch browsers keep the ambient animation without handing the video to their native player. */
+.site-background-video {
+  display: block !important;
+  position: fixed !important;
+  top: -2px !important;
+  left: -2px !important;
+  z-index: -3 !important;
+  width: 1px !important;
+  height: 1px !important;
+  min-height: 1px !important;
+  max-width: 1px !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+.site-background-canvas {
+  position: fixed !important;
+  inset: 0 !important;
+  z-index: -2 !important;
+  display: block !important;
+  width: 100vw !important;
+  max-width: none !important;
+  height: 100vh !important;
+  min-height: 100dvh !important;
+  pointer-events: none !important;
+  opacity: 0 !important;
+  object-fit: cover !important;
+  filter: saturate(0.8) contrast(0.94) brightness(0.78) !important;
+  transition: opacity 900ms ease;
+}
+
+body.has-ambient-video .site-background-canvas {
+  opacity: 1 !important;
+}
+/* Keep the moving background legible: the cards supply the glass, not a heavy page-wide haze. */
+body.theme-light.has-ambient-video::before {
+  background: linear-gradient(180deg, rgba(242, 248, 246, 0.34), rgba(239, 247, 238, 0.56)) !important;
+}
+
+.site-background-canvas {
+  filter: saturate(0.95) contrast(1.03) brightness(0.9) !important;
+}

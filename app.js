@@ -1235,32 +1235,85 @@ renderHotSearches();
 renderQuickLinks();
 function initAmbientBackgroundVideo() {
   const video = document.querySelector("#ambientBackgroundVideo");
-  if (!video) return;
+  const canvas = document.querySelector("#ambientBackgroundCanvas");
+  if (!video || !canvas) return;
 
-  const isTouchDevice = window.matchMedia("(hover: none), (pointer: coarse)").matches
-    || navigator.maxTouchPoints > 0;
-  const canUseVideo = window.matchMedia("(min-width: 1024px)").matches
-    && !isTouchDevice
-    && !window.matchMedia("(prefers-reduced-motion: reduce)").matches
-    && !window.matchMedia("(prefers-reduced-data: reduce)").matches;
-  if (!canUseVideo) {
+  const disableForPreference = window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    || window.matchMedia("(prefers-reduced-data: reduce)").matches;
+  if (disableForPreference) {
     video.remove();
+    canvas.remove();
     return;
   }
 
   const source = video.querySelector("source[data-src]");
-  if (!source) return;
-  source.src = source.dataset.src;
-  video.load();
+  const context = canvas.getContext("2d", { alpha: false });
+  if (!source || !context) return;
 
-  const activateVideo = () => {
-    video.play()
-      .then(() => document.body.classList.add("has-ambient-video"))
-      .catch(() => {});
+  video.muted = true;
+  video.defaultMuted = true;
+  video.setAttribute("muted", "");
+  video.setAttribute("playsinline", "");
+  video.setAttribute("webkit-playsinline", "");
+  source.src = source.dataset.src;
+
+  let frameId = 0;
+  let lastFrameAt = 0;
+  const resizeCanvas = () => {
+    const density = Math.min(window.devicePixelRatio || 1, 1.35);
+    canvas.width = Math.max(1, Math.round(window.innerWidth * density));
+    canvas.height = Math.max(1, Math.round(window.innerHeight * density));
   };
 
+  const paintFrame = (now) => {
+    if (now - lastFrameAt >= 42 && video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA && video.videoWidth && video.videoHeight) {
+      const canvasRatio = canvas.width / canvas.height;
+      const videoRatio = video.videoWidth / video.videoHeight;
+      let sourceX = 0;
+      let sourceY = 0;
+      let sourceWidth = video.videoWidth;
+      let sourceHeight = video.videoHeight;
+
+      if (videoRatio > canvasRatio) {
+        sourceWidth = Math.round(video.videoHeight * canvasRatio);
+        sourceX = Math.round((video.videoWidth - sourceWidth) / 2);
+      } else {
+        sourceHeight = Math.round(video.videoWidth / canvasRatio);
+        sourceY = Math.round((video.videoHeight - sourceHeight) / 2);
+      }
+
+      context.drawImage(video, sourceX, sourceY, sourceWidth, sourceHeight, 0, 0, canvas.width, canvas.height);
+      lastFrameAt = now;
+    }
+    frameId = window.requestAnimationFrame(paintFrame);
+  };
+
+  const activateVideo = () => {
+    resizeCanvas();
+    video.play()
+      .then(() => {
+        document.body.classList.add("has-ambient-video");
+        if (!frameId) frameId = window.requestAnimationFrame(paintFrame);
+      })
+      .catch(() => {
+        document.body.classList.remove("has-ambient-video");
+      });
+  };
+
+  window.addEventListener("resize", resizeCanvas, { passive: true });
+  document.addEventListener("visibilitychange", () => {
+    if (document.hidden) {
+      video.pause();
+      return;
+    }
+    activateVideo();
+  });
   video.addEventListener("canplay", activateVideo, { once: true });
-  video.addEventListener("error", () => document.body.classList.remove("has-ambient-video"), { once: true });
+  video.addEventListener("error", () => {
+    window.cancelAnimationFrame(frameId);
+    document.body.classList.remove("has-ambient-video");
+  }, { once: true });
+  video.load();
 }
 initAmbientBackgroundVideo();
 renderFeaturedResources();
