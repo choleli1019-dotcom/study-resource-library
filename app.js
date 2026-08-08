@@ -1376,10 +1376,12 @@ function initAmbientBackgroundVideo() {
     document.body.classList.remove("has-ambient-video");
   }, { once: true });
   if (isTouchDevice) {
-    showStartButton();
-  } else {
-    video.addEventListener("canplay", activateVideo, { once: true });
+    // Xiaomi and other Android browsers may hand a <video> element to their native player
+    // or block drawing video frames to canvas. Use the same clip as an animated WebP instead.
+    document.body.classList.add("has-ambient-video", "has-animated-background");
+    return;
   }
+  video.addEventListener("canplay", activateVideo, { once: true });
   video.load();
 }
 initAmbientBackgroundVideo();
