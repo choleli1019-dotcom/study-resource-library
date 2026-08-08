@@ -1369,7 +1369,11 @@ function initAmbientBackgroundVideo() {
     window.cancelAnimationFrame(frameId);
     document.body.classList.remove("has-ambient-video");
   }, { once: true });
-  video.addEventListener("canplay", activateVideo, { once: true });
+  if (isTouchDevice) {
+    showStartButton();
+  } else {
+    video.addEventListener("canplay", activateVideo, { once: true });
+  }
   video.load();
 }
 initAmbientBackgroundVideo();

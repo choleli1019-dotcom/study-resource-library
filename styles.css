@@ -6395,26 +6395,3 @@ body.theme-light.has-ambient-video .section-open-button {
   -webkit-backdrop-filter: blur(10px) !important;
   backdrop-filter: blur(10px) !important;
 }
-
-/* Touch devices use the native inline video surface: it is more reliable than copying frames to canvas in mobile browsers. */
-@media (hover: none), (pointer: coarse) {
-  .site-background-video {
-    display: block !important;
-    position: fixed !important;
-    inset: 0 !important;
-    z-index: 0 !important;
-    width: 100vw !important;
-    max-width: none !important;
-    height: 100dvh !important;
-    min-height: 100vh !important;
-    opacity: 0 !important;
-    object-fit: cover !important;
-    object-position: center !important;
-    pointer-events: none !important;
-    filter: saturate(.95) contrast(1.03) brightness(.9) !important;
-    transition: opacity 500ms ease !important;
-  }
-
-  body.has-ambient-video .site-background-video { opacity: 1 !important; }
-  body.has-ambient-video .site-background-canvas { display: none !important; }
-}
