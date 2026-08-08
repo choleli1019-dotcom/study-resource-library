@@ -1250,6 +1250,8 @@ function initAmbientBackgroundVideo() {
   const context = canvas.getContext("2d", { alpha: false });
   if (!source || !context) return;
 
+  const isTouchDevice = window.matchMedia("(hover: none), (pointer: coarse)").matches
+    || navigator.maxTouchPoints > 0;
   video.muted = true;
   video.defaultMuted = true;
   video.setAttribute("muted", "");
@@ -1259,6 +1261,7 @@ function initAmbientBackgroundVideo() {
 
   let frameId = 0;
   let lastFrameAt = 0;
+  let startButton = null;
   const resizeCanvas = () => {
     const density = Math.min(window.devicePixelRatio || 1, 1.35);
     canvas.width = Math.max(1, Math.round(window.innerWidth * density));
@@ -1288,16 +1291,33 @@ function initAmbientBackgroundVideo() {
     frameId = window.requestAnimationFrame(paintFrame);
   };
 
+  const hideStartButton = () => {
+    startButton?.remove();
+    startButton = null;
+  };
+
   const activateVideo = () => {
     resizeCanvas();
     video.play()
       .then(() => {
         document.body.classList.add("has-ambient-video");
+        hideStartButton();
         if (!frameId) frameId = window.requestAnimationFrame(paintFrame);
       })
       .catch(() => {
-        document.body.classList.remove("has-ambient-video");
+        if (isTouchDevice) document.body.classList.add("ambient-video-needs-start");
       });
+  };
+
+  const showStartButton = () => {
+    if (startButton || document.body.classList.contains("has-ambient-video")) return;
+    startButton = document.createElement("button");
+    startButton.type = "button";
+    startButton.className = "ambient-video-toggle";
+    startButton.innerHTML = '<span aria-hidden="true">▶</span> 开启动态背景';
+    startButton.addEventListener("click", activateVideo);
+    document.body.append(startButton);
+    document.body.classList.add("ambient-video-needs-start");
   };
 
   window.addEventListener("resize", resizeCanvas, { passive: true });
@@ -1306,14 +1326,19 @@ function initAmbientBackgroundVideo() {
       video.pause();
       return;
     }
-    activateVideo();
+    if (!isTouchDevice) activateVideo();
   });
-  video.addEventListener("canplay", activateVideo, { once: true });
   video.addEventListener("error", () => {
     window.cancelAnimationFrame(frameId);
     document.body.classList.remove("has-ambient-video");
   }, { once: true });
   video.load();
+
+  if (isTouchDevice) {
+    showStartButton();
+  } else {
+    video.addEventListener("canplay", activateVideo, { once: true });
+  }
 }
 initAmbientBackgroundVideo();
 renderFeaturedResources();

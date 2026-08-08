@@ -6252,3 +6252,40 @@ body.theme-light .overview-samples span:hover {
     border-radius: 17px !important;
   }
 }
+/* Mobile browsers require a user gesture before a background movie may start. */
+.ambient-video-toggle {
+  position: fixed;
+  right: max(14px, env(safe-area-inset-right));
+  bottom: max(18px, env(safe-area-inset-bottom));
+  z-index: 30;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 36px;
+  padding: 0 13px;
+  border: 1px solid rgba(255, 255, 255, 0.68);
+  border-radius: 999px;
+  background: rgba(25, 29, 36, 0.7);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+  color: #fff;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 700;
+  -webkit-backdrop-filter: blur(16px) saturate(150%);
+  backdrop-filter: blur(16px) saturate(150%);
+  cursor: pointer;
+}
+
+.ambient-video-toggle span {
+  font-size: 11px;
+}
+
+.ambient-video-toggle:active {
+  transform: scale(0.97);
+}
+
+@media (min-width: 1024px) and (hover: hover) and (pointer: fine) {
+  .ambient-video-toggle {
+    display: none !important;
+  }
+}
