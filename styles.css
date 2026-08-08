@@ -6306,3 +6306,7 @@ body.has-ambient-video .app-shell {
   position: relative !important;
   z-index: 1 !important;
 }
+/* Do not reveal the canvas until JavaScript has painted a real video frame. */
+.site-background-canvas {
+  background: transparent !important;
+}

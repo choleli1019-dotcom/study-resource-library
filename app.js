@@ -1247,7 +1247,7 @@ function initAmbientBackgroundVideo() {
   }
 
   const source = video.querySelector("source[data-src]");
-  const context = canvas.getContext("2d", { alpha: false });
+  const context = canvas.getContext("2d", { alpha: true });
   if (!source || !context) return;
 
   const isTouchDevice = window.matchMedia("(hover: none), (pointer: coarse)").matches
@@ -1261,6 +1261,7 @@ function initAmbientBackgroundVideo() {
 
   let frameId = 0;
   let lastFrameAt = 0;
+  let hasPaintedFrame = false;
   let startButton = null;
   const resizeCanvas = () => {
     const density = Math.min(window.devicePixelRatio || 1, 1.35);
@@ -1286,6 +1287,11 @@ function initAmbientBackgroundVideo() {
       }
 
       context.drawImage(video, sourceX, sourceY, sourceWidth, sourceHeight, 0, 0, canvas.width, canvas.height);
+      if (!hasPaintedFrame) {
+        hasPaintedFrame = true;
+        document.body.classList.add("has-ambient-video");
+        hideStartButton();
+      }
       lastFrameAt = now;
     }
     frameId = window.requestAnimationFrame(paintFrame);
@@ -1300,8 +1306,6 @@ function initAmbientBackgroundVideo() {
     resizeCanvas();
     video.play()
       .then(() => {
-        document.body.classList.add("has-ambient-video");
-        hideStartButton();
         if (!frameId) frameId = window.requestAnimationFrame(paintFrame);
       })
       .catch(() => { if (isTouchDevice) showStartButton(); });
