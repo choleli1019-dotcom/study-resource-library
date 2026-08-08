@@ -6310,3 +6310,40 @@ body.has-ambient-video .app-shell {
 .site-background-canvas {
   background: transparent !important;
 }
+/* Desktop video needs an explicit reading surface for section titles. */
+body.theme-light.has-ambient-video .featured-copy,
+body.theme-light.has-ambient-video .overview-header .section-title {
+  padding: 14px 18px !important;
+  border: 1px solid rgba(255, 255, 255, 0.22) !important;
+  border-radius: 18px !important;
+  background: linear-gradient(135deg, rgba(8, 21, 34, 0.66), rgba(10, 28, 43, 0.34)) !important;
+  box-shadow: 0 12px 30px rgba(4, 15, 25, 0.22), inset 0 1px 0 rgba(255, 255, 255, 0.12) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(130%) !important;
+  backdrop-filter: blur(14px) saturate(130%) !important;
+}
+
+body.theme-light.has-ambient-video .featured-copy h2,
+body.theme-light.has-ambient-video .overview-header .section-title h2 {
+  color: #fff !important;
+  text-shadow: 0 2px 12px rgba(0, 0, 0, 0.45) !important;
+}
+
+body.theme-light.has-ambient-video .featured-copy p,
+body.theme-light.has-ambient-video .overview-header .section-title p {
+  color: rgba(255, 255, 255, 0.84) !important;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.38) !important;
+}
+
+body.theme-light.has-ambient-video .featured-copy .panel-label {
+  border-color: rgba(129, 240, 195, 0.54) !important;
+  background: rgba(14, 130, 96, 0.48) !important;
+  color: #e4fff1 !important;
+}
+
+@media (max-width: 767px) {
+  body.theme-light.has-ambient-video .featured-copy,
+  body.theme-light.has-ambient-video .overview-header .section-title {
+    padding: 12px 14px !important;
+    border-radius: 15px !important;
+  }
+}
