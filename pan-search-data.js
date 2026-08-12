@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-12T04:36:13.203Z",
+  "generatedAt": "2026-08-12T04:40:58.544Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -22434,7 +22434,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1317",
       "title": "2027瞪哥院长私人定制上岸班",
       "platform": "baidu",
-      "code": "",
+      "code": "uh2c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027瞪哥院长私人定制上岸班",
       "sources": [
@@ -22444,13 +22444,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027瞪哥院长私人定制上岸班 百度批量新增 百度网盘批量导入：2027瞪哥院长私人定制上岸班 baidu"
+      "searchText": "2027瞪哥院长私人定制上岸班 百度批量新增 百度网盘批量导入：2027瞪哥院长私人定制上岸班 uh2c baidu https://pan.baidu.com/s/1-ISjxOpKDFh-jHZC1G5n4g?pwd=uh2c",
+      "url": "https://pan.baidu.com/s/1-ISjxOpKDFh-jHZC1G5n4g?pwd=uh2c"
     },
     {
       "id": "r1318",
       "title": "2027杨攀政治理论基础课",
       "platform": "baidu",
-      "code": "",
+      "code": "uh2c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027杨攀政治理论基础课",
       "sources": [
@@ -22460,13 +22461,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027杨攀政治理论基础课 百度批量新增 百度网盘批量导入：2027杨攀政治理论基础课 baidu"
+      "searchText": "2027杨攀政治理论基础课 百度批量新增 百度网盘批量导入：2027杨攀政治理论基础课 uh2c baidu https://pan.baidu.com/s/18pUPPSQqpTA5bRdDkmCV6w?pwd=uh2c",
+      "url": "https://pan.baidu.com/s/18pUPPSQqpTA5bRdDkmCV6w?pwd=uh2c"
     },
     {
       "id": "r1319",
       "title": "2027薛睿公考逻辑必刷678题库",
       "platform": "baidu",
-      "code": "",
+      "code": "uh2c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027薛睿公考逻辑必刷678题库",
       "sources": [
@@ -22476,13 +22478,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027薛睿公考逻辑必刷678题库 百度批量新增 百度网盘批量导入：2027薛睿公考逻辑必刷678题库 baidu"
+      "searchText": "2027薛睿公考逻辑必刷678题库 百度批量新增 百度网盘批量导入：2027薛睿公考逻辑必刷678题库 uh2c baidu https://pan.baidu.com/s/1772XSuEwZYindmEsT8-c4w?pwd=uh2c",
+      "url": "https://pan.baidu.com/s/1772XSuEwZYindmEsT8-c4w?pwd=uh2c"
     },
     {
       "id": "r1320",
       "title": "2027杨攀政治理论素养课-精读《求是》",
       "platform": "baidu",
-      "code": "",
+      "code": "uh2c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027杨攀政治理论素养课-精读《求是》",
       "sources": [
@@ -22492,7 +22495,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027杨攀政治理论素养课-精读《求是》 百度批量新增 百度网盘批量导入：2027杨攀政治理论素养课-精读《求是》 baidu"
+      "searchText": "2027杨攀政治理论素养课-精读《求是》 百度批量新增 百度网盘批量导入：2027杨攀政治理论素养课-精读《求是》 uh2c baidu https://pan.baidu.com/s/1IGhYunrgi_vhlkHCjyfCyg?pwd=uh2c",
+      "url": "https://pan.baidu.com/s/1IGhYunrgi_vhlkHCjyfCyg?pwd=uh2c"
     }
   ]
 };
