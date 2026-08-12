@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-12T04:45:44.266Z",
+  "generatedAt": "2026-08-12T08:26:22.574Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -1331,10 +1331,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r75",
       "title": "2027花生十三逻辑判断600题精讲课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/b4e512bcd553",
+      "url": "https://pan.quark.cn/s/5439bf3d9f88",
       "code": "",
       "section": "公考类",
-      "context": "2027花生十三逻辑判断600题精讲课 链接：https://pan.quark.cn/s/b4e512bcd553",
+      "context": "2027花生十三逻辑判断600题精讲课 链接：https://pan.quark.cn/s/5439bf3d9f88",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1342,7 +1342,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027花生十三逻辑判断600题精讲课 公考类 2027花生十三逻辑判断600题精讲课 链接：https://pan.quark.cn/s/b4e512bcd553 夸克 网盘 网盘链接.txt"
+      "searchText": "2027花生十三逻辑判断600题精讲课 公考类 2027花生十三逻辑判断600题精讲课 链接：https://pan.quark.cn/s/5439bf3d9f88 quark https://pan.quark.cn/s/5439bf3d9f88"
     },
     {
       "id": "r76",
