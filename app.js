@@ -869,15 +869,18 @@ function renderPanSearchResults() {
 
   container.querySelectorAll("[data-report-broken]").forEach((button) => {
     button.addEventListener("click", () => {
+      const accepted = window.confirm("请只在你已打开网盘、且亲眼看到“分享失效、文件已删除或链接不存在”提示时确认。确认后将加入待补链列表。\n\n要提交这条失效反馈吗？");
+      if (!accepted) return;
       const payload = {
         title: button.dataset.reportTitle || "",
         url: button.dataset.reportBroken || "",
         platform: button.dataset.reportPlatform || "",
-        query: state.query.trim()
+        query: state.query.trim(),
+        source: "user-confirmed"
       };
       sendServerEvent("broken_link", payload);
       trackBaiduEvent("resource_feedback", "broken_link", payload.title || payload.url);
-      showSiteToast("已收到反馈，感谢提醒");
+      showSiteToast("已记录为“用户确认失效”，会进入待补链列表");
     });
   });
 }
@@ -910,7 +913,7 @@ function renderPanSearchItem(item, queryTokens) {
       <div class="pan-result-actions">
         <a href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">打开网盘</a>
         <button type="button" data-copy-url="${panSearchEscapeHtml(item.url)}">复制</button>
-        <button class="pan-report-button" type="button" data-report-broken="${panSearchEscapeHtml(item.url)}" data-report-title="${panSearchEscapeHtml(item.title)}" data-report-platform="${panSearchEscapeHtml(item.platform)}" title="如果打不开，可点这里反馈给维护者">反馈失效</button>
+        <button class="pan-report-button" type="button" data-report-broken="${panSearchEscapeHtml(item.url)}" data-report-title="${panSearchEscapeHtml(item.title)}" data-report-platform="${panSearchEscapeHtml(item.platform)}" title="仅在打开后看到官方失效或删除提示时提交">确认失效</button>
       </div>
     </article>
   `;
