@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-08T12:12:50.214Z",
+  "generatedAt": "2026-08-12T04:34:28.344Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -10,8 +10,8 @@ window.PAN_SEARCH_DATA = {
     },
     "unique": {
       "quark": 909,
-      "baidu": 390,
-      "total": 1299
+      "baidu": 407,
+      "total": 1316
     },
     "duplicate": {
       "quark": 0,
@@ -14931,10 +14931,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r875",
       "title": "Z 朱曦",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1JjomV-p22HYPaoTRh_jDpg?pwd=r35g",
-      "code": "r35g",
+      "url": "https://pan.baidu.com/s/1sto9GjW_Z8HlzAjsnVmZ8g?pwd=8eyb",
+      "code": "8eyb",
       "section": "其他类别考试",
-      "context": "Z 朱曦 链接：https://pan.baidu.com/s/1JjomV-p22HYPaoTRh_jDpg?pwd=r35g 提取码：r35g",
+      "context": "Z 朱曦 链接：https://pan.baidu.com/s/1sto9GjW_Z8HlzAjsnVmZ8g?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -14942,16 +14942,16 @@ window.PAN_SEARCH_DATA = {
           "section": "其他类别考试"
         }
       ],
-      "searchText": "Z 朱曦 其他类别考试 Z 朱曦 链接：https://pan.baidu.com/s/1JjomV-p22HYPaoTRh_jDpg?pwd=r35g 提取码：r35g r35g baidu https://pan.baidu.com/s/1JjomV-p22HYPaoTRh_jDpg?pwd=r35g"
+      "searchText": "Z 朱曦 其他类别考试 Z 朱曦 链接：https://pan.baidu.com/s/1sto9GjW_Z8HlzAjsnVmZ8g?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1sto9GjW_Z8HlzAjsnVmZ8g?pwd=8eyb"
     },
     {
       "id": "r876",
       "title": "2027小马哥申论理论+刷题全程班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1wnWZ5a7wWUHI02rneimVRg?pwd=bqvv",
-      "code": "bqvv",
+      "url": "https://pan.baidu.com/s/15gIPpWBj-8fydN-x1AU6Zw?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/1wnWZ5a7wWUHI02rneimVRg?pwd=bqvv 提取码：bqvv",
+      "context": "2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/15gIPpWBj-8fydN-x1AU6Zw?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -14959,7 +14959,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027小马哥申论理论+刷题全程班 公考类 2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/1wnWZ5a7wWUHI02rneimVRg?pwd=bqvv 提取码：bqvv bqvv baidu https://pan.baidu.com/s/1wnWZ5a7wWUHI02rneimVRg?pwd=bqvv"
+      "searchText": "2027小马哥申论理论+刷题全程班 公考类 2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/15gIPpWBj-8fydN-x1AU6Zw?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/15gIPpWBj-8fydN-x1AU6Zw?pwd=8eyb"
     },
     {
       "id": "r877",
@@ -14982,10 +14982,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r878",
       "title": "2027国省考季花生十三飞扬系统班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1FFE1dKRB0w_3ByiiL2j2mg?pwd=bnvc",
-      "code": "bnvc",
+      "url": "https://pan.baidu.com/s/1SHNpl3VcZhxcZuX-XqO2xA?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "2027国省考季花生十三飞扬系统班 链接：https://pan.baidu.com/s/1FFE1dKRB0w_3ByiiL2j2mg?pwd=bnvc 提取码：bnvc",
+      "context": "2027国省考季花生十三飞扬系统班 链接：https://pan.baidu.com/s/1SHNpl3VcZhxcZuX-XqO2xA?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -14993,7 +14993,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省考季花生十三飞扬系统班 公考类 2027国省考季花生十三飞扬系统班 链接：https://pan.baidu.com/s/1FFE1dKRB0w_3ByiiL2j2mg?pwd=bnvc 提取码：bnvc bnvc baidu https://pan.baidu.com/s/1FFE1dKRB0w_3ByiiL2j2mg?pwd=bnvc"
+      "searchText": "2027国省考季花生十三飞扬系统班 公考类 2027国省考季花生十三飞扬系统班 链接：https://pan.baidu.com/s/1SHNpl3VcZhxcZuX-XqO2xA?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1SHNpl3VcZhxcZuX-XqO2xA?pwd=8eyb"
     },
     {
       "id": "r879",
@@ -15033,10 +15033,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r881",
       "title": "行测申论】2027超格行测+申论全家桶课程（实战桶）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1mQ5FFibcWeo1JETJl87c6g?pwd=wtn7",
-      "code": "wtn7",
+      "url": "https://pan.baidu.com/s/1ouQ1JacIaB1nAArAW1qkMQ?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "行测申论】2027超格行测+申论全家桶课程（实战桶） 链接：https://pan.baidu.com/s/1mQ5FFibcWeo1JETJl87c6g?pwd=wtn7 提取码：wtn7",
+      "context": "行测申论】2027超格行测+申论全家桶课程（实战桶） 链接：https://pan.baidu.com/s/1ouQ1JacIaB1nAArAW1qkMQ?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15044,16 +15044,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论全家桶课程（实战桶） 公考类 行测申论】2027超格行测+申论全家桶课程（实战桶） 链接：https://pan.baidu.com/s/1mQ5FFibcWeo1JETJl87c6g?pwd=wtn7 提取码：wtn7 wtn7 baidu https://pan.baidu.com/s/1mQ5FFibcWeo1JETJl87c6g?pwd=wtn7"
+      "searchText": "行测申论】2027超格行测+申论全家桶课程（实战桶） 公考类 行测申论】2027超格行测+申论全家桶课程（实战桶） 链接：https://pan.baidu.com/s/1ouQ1JacIaB1nAArAW1qkMQ?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1ouQ1JacIaB1nAArAW1qkMQ?pwd=8eyb"
     },
     {
       "id": "r882",
       "title": "2027国省考大懒猫言语理论课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1C-ZLohL88lSn3WNOP6Wm3Q?pwd=wk1x",
-      "code": "wk1x",
+      "url": "https://pan.baidu.com/s/1ZC1XpPY7FouyWJ6z_dev9A?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "2027国省考大懒猫言语理论课 链接：https://pan.baidu.com/s/1C-ZLohL88lSn3WNOP6Wm3Q?pwd=wk1x 提取码：wk1x",
+      "context": "2027国省考大懒猫言语理论课 链接：https://pan.baidu.com/s/1ZC1XpPY7FouyWJ6z_dev9A?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15061,7 +15061,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省考大懒猫言语理论课 公考类 2027国省考大懒猫言语理论课 链接：https://pan.baidu.com/s/1C-ZLohL88lSn3WNOP6Wm3Q?pwd=wk1x 提取码：wk1x wk1x baidu https://pan.baidu.com/s/1C-ZLohL88lSn3WNOP6Wm3Q?pwd=wk1x"
+      "searchText": "2027国省考大懒猫言语理论课 公考类 2027国省考大懒猫言语理论课 链接：https://pan.baidu.com/s/1ZC1XpPY7FouyWJ6z_dev9A?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1ZC1XpPY7FouyWJ6z_dev9A?pwd=8eyb"
     },
     {
       "id": "r883",
@@ -15084,10 +15084,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r884",
       "title": "政治理论】2027超哥国省考政治理论刷题课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1bPh-ezCzjWNOn2EN252aVQ?pwd=wtn7",
-      "code": "wtn7",
+      "url": "https://pan.baidu.com/s/1tONisyfwG57Tc9hGC7tDkw?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "政治理论】2027超哥国省考政治理论刷题课 链接：https://pan.baidu.com/s/1bPh-ezCzjWNOn2EN252aVQ?pwd=wtn7 提取码：wtn7",
+      "context": "政治理论】2027超哥国省考政治理论刷题课 链接：https://pan.baidu.com/s/1tONisyfwG57Tc9hGC7tDkw?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15095,7 +15095,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "政治理论】2027超哥国省考政治理论刷题课 公考类 政治理论】2027超哥国省考政治理论刷题课 链接：https://pan.baidu.com/s/1bPh-ezCzjWNOn2EN252aVQ?pwd=wtn7 提取码：wtn7 wtn7 baidu https://pan.baidu.com/s/1bPh-ezCzjWNOn2EN252aVQ?pwd=wtn7"
+      "searchText": "政治理论】2027超哥国省考政治理论刷题课 公考类 政治理论】2027超哥国省考政治理论刷题课 链接：https://pan.baidu.com/s/1tONisyfwG57Tc9hGC7tDkw?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1tONisyfwG57Tc9hGC7tDkw?pwd=8eyb"
     },
     {
       "id": "r885",
@@ -15118,10 +15118,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r886",
       "title": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1w34CUh62RDgFOSt5CgkBCw?pwd=wtn7",
-      "code": "wtn7",
+      "url": "https://pan.baidu.com/s/1vyX6d7kR5E7ZMIW9Vr8iNQ?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 链接：https://pan.baidu.com/s/1w34CUh62RDgFOSt5CgkBCw?pwd=wtn7 提取码：wtn7",
+      "context": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 链接：https://pan.baidu.com/s/1vyX6d7kR5E7ZMIW9Vr8iNQ?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15129,7 +15129,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 公考类 行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 链接：https://pan.baidu.com/s/1w34CUh62RDgFOSt5CgkBCw?pwd=wtn7 提取码：wtn7 wtn7 baidu https://pan.baidu.com/s/1w34CUh62RDgFOSt5CgkBCw?pwd=wtn7"
+      "searchText": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 公考类 行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 链接：https://pan.baidu.com/s/1vyX6d7kR5E7ZMIW9Vr8iNQ?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1vyX6d7kR5E7ZMIW9Vr8iNQ?pwd=8eyb"
     },
     {
       "id": "r887",
@@ -15186,10 +15186,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r890",
       "title": "2027考季大懒猫言语刷刷刷直播课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1Rqp6ZAwIp2EbOpxKjh16IA?pwd=wk1x",
-      "code": "wk1x",
+      "url": "https://pan.baidu.com/s/1JwVY3kpgfRmDaPvi2PyEyg?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "2027考季大懒猫言语刷刷刷直播课 链接：https://pan.baidu.com/s/1Rqp6ZAwIp2EbOpxKjh16IA?pwd=wk1x 提取码：wk1x",
+      "context": "2027考季大懒猫言语刷刷刷直播课 链接：https://pan.baidu.com/s/1JwVY3kpgfRmDaPvi2PyEyg?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15197,7 +15197,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027考季大懒猫言语刷刷刷直播课 公考类 2027考季大懒猫言语刷刷刷直播课 链接：https://pan.baidu.com/s/1Rqp6ZAwIp2EbOpxKjh16IA?pwd=wk1x 提取码：wk1x wk1x baidu https://pan.baidu.com/s/1Rqp6ZAwIp2EbOpxKjh16IA?pwd=wk1x"
+      "searchText": "2027考季大懒猫言语刷刷刷直播课 公考类 2027考季大懒猫言语刷刷刷直播课 链接：https://pan.baidu.com/s/1JwVY3kpgfRmDaPvi2PyEyg?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1JwVY3kpgfRmDaPvi2PyEyg?pwd=8eyb"
     },
     {
       "id": "r891",
@@ -15220,10 +15220,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r892",
       "title": "政治理论】2027超哥政治理论时政热点小锦囊",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1eEygpAWbMbKdfu8YCo7LuQ?pwd=wtn7",
-      "code": "wtn7",
+      "url": "https://pan.baidu.com/s/1Qdlnz8pCfeOuA8w9OdrMEg?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "政治理论】2027超哥政治理论时政热点小锦囊 链接：https://pan.baidu.com/s/1eEygpAWbMbKdfu8YCo7LuQ?pwd=wtn7 提取码：wtn7",
+      "context": "政治理论】2027超哥政治理论时政热点小锦囊 链接：https://pan.baidu.com/s/1Qdlnz8pCfeOuA8w9OdrMEg?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15231,7 +15231,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "政治理论】2027超哥政治理论时政热点小锦囊 公考类 政治理论】2027超哥政治理论时政热点小锦囊 链接：https://pan.baidu.com/s/1eEygpAWbMbKdfu8YCo7LuQ?pwd=wtn7 提取码：wtn7 wtn7 baidu https://pan.baidu.com/s/1eEygpAWbMbKdfu8YCo7LuQ?pwd=wtn7"
+      "searchText": "政治理论】2027超哥政治理论时政热点小锦囊 公考类 政治理论】2027超哥政治理论时政热点小锦囊 链接：https://pan.baidu.com/s/1Qdlnz8pCfeOuA8w9OdrMEg?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1Qdlnz8pCfeOuA8w9OdrMEg?pwd=8eyb"
     },
     {
       "id": "r893",
@@ -15254,10 +15254,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r894",
       "title": "言语】2027雨菲言语图文带背800词",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1JpZpDo_ME1Pmkh5qFPU9wA?pwd=r35g",
-      "code": "r35g",
+      "url": "https://pan.baidu.com/s/1GYKUc_oqmr1lmhr4pBPbbQ?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "言语】2027雨菲言语图文带背800词 链接：https://pan.baidu.com/s/1JpZpDo_ME1Pmkh5qFPU9wA?pwd=r35g 提取码：r35g",
+      "context": "言语】2027雨菲言语图文带背800词 链接：https://pan.baidu.com/s/1GYKUc_oqmr1lmhr4pBPbbQ?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15265,16 +15265,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "言语】2027雨菲言语图文带背800词 公考类 言语】2027雨菲言语图文带背800词 链接：https://pan.baidu.com/s/1JpZpDo_ME1Pmkh5qFPU9wA?pwd=r35g 提取码：r35g r35g baidu https://pan.baidu.com/s/1JpZpDo_ME1Pmkh5qFPU9wA?pwd=r35g"
+      "searchText": "言语】2027雨菲言语图文带背800词 公考类 言语】2027雨菲言语图文带背800词 链接：https://pan.baidu.com/s/1GYKUc_oqmr1lmhr4pBPbbQ?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1GYKUc_oqmr1lmhr4pBPbbQ?pwd=8eyb"
     },
     {
       "id": "r895",
       "title": "言语】2027雨菲言语选词填空大满贯",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1VZ7c_l4bbD9hMHa7tvJNng?pwd=wk1x",
-      "code": "wk1x",
+      "url": "https://pan.baidu.com/s/1u3WT1_Go4I4W8Q3XOHO0kg?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "言语】2027雨菲言语选词填空大满贯 链接：https://pan.baidu.com/s/1VZ7c_l4bbD9hMHa7tvJNng?pwd=wk1x 提取码：wk1x",
+      "context": "言语】2027雨菲言语选词填空大满贯 链接：https://pan.baidu.com/s/1u3WT1_Go4I4W8Q3XOHO0kg?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15282,7 +15282,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "言语】2027雨菲言语选词填空大满贯 公考类 言语】2027雨菲言语选词填空大满贯 链接：https://pan.baidu.com/s/1VZ7c_l4bbD9hMHa7tvJNng?pwd=wk1x 提取码：wk1x wk1x baidu https://pan.baidu.com/s/1VZ7c_l4bbD9hMHa7tvJNng?pwd=wk1x"
+      "searchText": "言语】2027雨菲言语选词填空大满贯 公考类 言语】2027雨菲言语选词填空大满贯 链接：https://pan.baidu.com/s/1u3WT1_Go4I4W8Q3XOHO0kg?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1u3WT1_Go4I4W8Q3XOHO0kg?pwd=8eyb"
     },
     {
       "id": "r896",
@@ -15424,10 +15424,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r904",
       "title": "2027陈怀安行测圣经资料分析系统课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/13XcUvlImaJxUrx2FCq5aUQ?pwd=msxp",
-      "code": "msxp",
+      "url": "https://pan.baidu.com/s/1DYR1Ow6qRQ68xFYpQYwNQg?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "2027陈怀安行测圣经资料分析系统课 链接：https://pan.baidu.com/s/13XcUvlImaJxUrx2FCq5aUQ?pwd=msxp 提取码：msxp",
+      "context": "2027陈怀安行测圣经资料分析系统课 链接：https://pan.baidu.com/s/1DYR1Ow6qRQ68xFYpQYwNQg?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15435,16 +15435,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027陈怀安行测圣经资料分析系统课 公考类 2027陈怀安行测圣经资料分析系统课 链接：https://pan.baidu.com/s/13XcUvlImaJxUrx2FCq5aUQ?pwd=msxp 提取码：msxp msxp baidu https://pan.baidu.com/s/13XcUvlImaJxUrx2FCq5aUQ?pwd=msxp"
+      "searchText": "2027陈怀安行测圣经资料分析系统课 公考类 2027陈怀安行测圣经资料分析系统课 链接：https://pan.baidu.com/s/1DYR1Ow6qRQ68xFYpQYwNQg?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1DYR1Ow6qRQ68xFYpQYwNQg?pwd=8eyb"
     },
     {
       "id": "r905",
       "title": "政治常识】2027国省事考小黑政治理论常识全家桶",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1Gh8CRP1MllY56ERLLanK0g?pwd=sbd6",
-      "code": "sbd6",
+      "url": "https://pan.baidu.com/s/1ELt7-_TNi8aXmWvb8pNpfw?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "政治常识】2027国省事考小黑政治理论常识全家桶 链接：https://pan.baidu.com/s/1Gh8CRP1MllY56ERLLanK0g?pwd=sbd6 提取码：sbd6",
+      "context": "政治常识】2027国省事考小黑政治理论常识全家桶 链接：https://pan.baidu.com/s/1ELt7-_TNi8aXmWvb8pNpfw?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15452,7 +15452,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "政治常识】2027国省事考小黑政治理论常识全家桶 公考类 政治常识】2027国省事考小黑政治理论常识全家桶 链接：https://pan.baidu.com/s/1Gh8CRP1MllY56ERLLanK0g?pwd=sbd6 提取码：sbd6 sbd6 baidu https://pan.baidu.com/s/1Gh8CRP1MllY56ERLLanK0g?pwd=sbd6"
+      "searchText": "政治常识】2027国省事考小黑政治理论常识全家桶 公考类 政治常识】2027国省事考小黑政治理论常识全家桶 链接：https://pan.baidu.com/s/1ELt7-_TNi8aXmWvb8pNpfw?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1ELt7-_TNi8aXmWvb8pNpfw?pwd=8eyb"
     },
     {
       "id": "r906",
@@ -15509,10 +15509,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r909",
       "title": "2027上岸村林凡资料分析筑基11层",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1beNXvJcXrvletWnz_tUEfw?pwd=r35g",
-      "code": "r35g",
+      "url": "https://pan.baidu.com/s/1rTgH_17DrXfSIgDATuXLAg?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "2027上岸村林凡资料分析筑基11层 链接：https://pan.baidu.com/s/1beNXvJcXrvletWnz_tUEfw?pwd=r35g 提取码：r35g",
+      "context": "2027上岸村林凡资料分析筑基11层 链接：https://pan.baidu.com/s/1rTgH_17DrXfSIgDATuXLAg?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15520,16 +15520,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027上岸村林凡资料分析筑基11层 公考类 2027上岸村林凡资料分析筑基11层 链接：https://pan.baidu.com/s/1beNXvJcXrvletWnz_tUEfw?pwd=r35g 提取码：r35g r35g baidu https://pan.baidu.com/s/1beNXvJcXrvletWnz_tUEfw?pwd=r35g"
+      "searchText": "2027上岸村林凡资料分析筑基11层 公考类 2027上岸村林凡资料分析筑基11层 链接：https://pan.baidu.com/s/1rTgH_17DrXfSIgDATuXLAg?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1rTgH_17DrXfSIgDATuXLAg?pwd=8eyb"
     },
     {
       "id": "r910",
       "title": "2027四海拾伊数量基础理论课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1JIBRvUUAnPqaniiOS4IkPw?pwd=bnvc",
-      "code": "bnvc",
+      "url": "https://pan.baidu.com/s/1janWWXZdvrhwaImx-atRXg?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "2027四海拾伊数量基础理论课 链接：https://pan.baidu.com/s/1JIBRvUUAnPqaniiOS4IkPw?pwd=bnvc 提取码：bnvc",
+      "context": "2027四海拾伊数量基础理论课 链接：https://pan.baidu.com/s/1janWWXZdvrhwaImx-atRXg?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15537,7 +15537,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027四海拾伊数量基础理论课 公考类 2027四海拾伊数量基础理论课 链接：https://pan.baidu.com/s/1JIBRvUUAnPqaniiOS4IkPw?pwd=bnvc 提取码：bnvc bnvc baidu https://pan.baidu.com/s/1JIBRvUUAnPqaniiOS4IkPw?pwd=bnvc"
+      "searchText": "2027四海拾伊数量基础理论课 公考类 2027四海拾伊数量基础理论课 链接：https://pan.baidu.com/s/1janWWXZdvrhwaImx-atRXg?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1janWWXZdvrhwaImx-atRXg?pwd=8eyb"
     },
     {
       "id": "r911",
@@ -15645,10 +15645,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r917",
       "title": "数资】2027牟立志数资夜生活",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/15XMJBZyrP_adPRJl8m8WUw?pwd=r35g",
-      "code": "r35g",
+      "url": "https://pan.baidu.com/s/1QU99bfheyBGDuEh0z7CzpQ?pwd=8eyb",
+      "code": "8eyb",
       "section": "其他类别考试",
-      "context": "数资】2027牟立志数资夜生活 链接：https://pan.baidu.com/s/15XMJBZyrP_adPRJl8m8WUw?pwd=r35g 提取码：r35g",
+      "context": "数资】2027牟立志数资夜生活 链接：https://pan.baidu.com/s/1QU99bfheyBGDuEh0z7CzpQ?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15656,16 +15656,16 @@ window.PAN_SEARCH_DATA = {
           "section": "其他类别考试"
         }
       ],
-      "searchText": "数资】2027牟立志数资夜生活 其他类别考试 数资】2027牟立志数资夜生活 链接：https://pan.baidu.com/s/15XMJBZyrP_adPRJl8m8WUw?pwd=r35g 提取码：r35g r35g baidu https://pan.baidu.com/s/15XMJBZyrP_adPRJl8m8WUw?pwd=r35g"
+      "searchText": "数资】2027牟立志数资夜生活 其他类别考试 数资】2027牟立志数资夜生活 链接：https://pan.baidu.com/s/1QU99bfheyBGDuEh0z7CzpQ?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1QU99bfheyBGDuEh0z7CzpQ?pwd=8eyb"
     },
     {
       "id": "r918",
       "title": "2027王永恒资料分析三合一理论体系课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/120CNAZJmpaY5ZBe5Yn5Wvw?pwd=r35g",
-      "code": "r35g",
+      "url": "https://pan.baidu.com/s/1PqxL3eiS-k6oTHl_M3qXeQ?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "2027王永恒资料分析三合一理论体系课 链接：https://pan.baidu.com/s/120CNAZJmpaY5ZBe5Yn5Wvw?pwd=r35g 提取码：r35g",
+      "context": "2027王永恒资料分析三合一理论体系课 链接：https://pan.baidu.com/s/1PqxL3eiS-k6oTHl_M3qXeQ?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15673,16 +15673,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027王永恒资料分析三合一理论体系课 公考类 2027王永恒资料分析三合一理论体系课 链接：https://pan.baidu.com/s/120CNAZJmpaY5ZBe5Yn5Wvw?pwd=r35g 提取码：r35g r35g baidu https://pan.baidu.com/s/120CNAZJmpaY5ZBe5Yn5Wvw?pwd=r35g"
+      "searchText": "2027王永恒资料分析三合一理论体系课 公考类 2027王永恒资料分析三合一理论体系课 链接：https://pan.baidu.com/s/1PqxL3eiS-k6oTHl_M3qXeQ?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1PqxL3eiS-k6oTHl_M3qXeQ?pwd=8eyb"
     },
     {
       "id": "r919",
       "title": "2027国省事考花生十三行测600题精讲课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1n2gIbpCfzy35c6pj6DCTxQ?pwd=bnvc",
-      "code": "bnvc",
+      "url": "https://pan.baidu.com/s/18_vQ7lp8__aDm1rfIHtcfg?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "2027国省事考花生十三行测600题精讲课 链接：https://pan.baidu.com/s/1n2gIbpCfzy35c6pj6DCTxQ?pwd=bnvc 提取码：bnvc",
+      "context": "2027国省事考花生十三行测600题精讲课 链接：https://pan.baidu.com/s/18_vQ7lp8__aDm1rfIHtcfg?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15690,7 +15690,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省事考花生十三行测600题精讲课 公考类 2027国省事考花生十三行测600题精讲课 链接：https://pan.baidu.com/s/1n2gIbpCfzy35c6pj6DCTxQ?pwd=bnvc 提取码：bnvc bnvc baidu https://pan.baidu.com/s/1n2gIbpCfzy35c6pj6DCTxQ?pwd=bnvc"
+      "searchText": "2027国省事考花生十三行测600题精讲课 公考类 2027国省事考花生十三行测600题精讲课 链接：https://pan.baidu.com/s/18_vQ7lp8__aDm1rfIHtcfg?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/18_vQ7lp8__aDm1rfIHtcfg?pwd=8eyb"
     },
     {
       "id": "r920",
@@ -15730,10 +15730,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r922",
       "title": "行测申论】2027超格行测+申论全家桶课程（精讲桶）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/138PK4krCNWSOtiY4okCpxw?pwd=wtn7",
-      "code": "wtn7",
+      "url": "https://pan.baidu.com/s/1LMl-ubdAtiXlxn4g4f-XuA?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "行测申论】2027超格行测+申论全家桶课程（精讲桶） 链接：https://pan.baidu.com/s/138PK4krCNWSOtiY4okCpxw?pwd=wtn7 提取码：wtn7",
+      "context": "行测申论】2027超格行测+申论全家桶课程（精讲桶） 链接：https://pan.baidu.com/s/1LMl-ubdAtiXlxn4g4f-XuA?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15741,16 +15741,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论全家桶课程（精讲桶） 公考类 行测申论】2027超格行测+申论全家桶课程（精讲桶） 链接：https://pan.baidu.com/s/138PK4krCNWSOtiY4okCpxw?pwd=wtn7 提取码：wtn7 wtn7 baidu https://pan.baidu.com/s/138PK4krCNWSOtiY4okCpxw?pwd=wtn7"
+      "searchText": "行测申论】2027超格行测+申论全家桶课程（精讲桶） 公考类 行测申论】2027超格行测+申论全家桶课程（精讲桶） 链接：https://pan.baidu.com/s/1LMl-ubdAtiXlxn4g4f-XuA?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/1LMl-ubdAtiXlxn4g4f-XuA?pwd=8eyb"
     },
     {
       "id": "r923",
       "title": "2027国省考上岸村行测&申论全家桶",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1Tmg3CS-6jyeQMjr9c2ji_w?pwd=sbd6",
-      "code": "sbd6",
+      "url": "https://pan.baidu.com/s/116Wx5jQSpJLv_7MI-95PpA?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "2027国省考上岸村行测&申论全家桶 链接：https://pan.baidu.com/s/1Tmg3CS-6jyeQMjr9c2ji_w?pwd=sbd6 提取码：sbd6",
+      "context": "2027国省考上岸村行测&申论全家桶 链接：https://pan.baidu.com/s/116Wx5jQSpJLv_7MI-95PpA?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15758,7 +15758,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省考上岸村行测&申论全家桶 公考类 2027国省考上岸村行测&申论全家桶 链接：https://pan.baidu.com/s/1Tmg3CS-6jyeQMjr9c2ji_w?pwd=sbd6 提取码：sbd6 sbd6 baidu https://pan.baidu.com/s/1Tmg3CS-6jyeQMjr9c2ji_w?pwd=sbd6"
+      "searchText": "2027国省考上岸村行测&申论全家桶 公考类 2027国省考上岸村行测&申论全家桶 链接：https://pan.baidu.com/s/116Wx5jQSpJLv_7MI-95PpA?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/116Wx5jQSpJLv_7MI-95PpA?pwd=8eyb"
     },
     {
       "id": "r924",
@@ -19521,10 +19521,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r1145",
       "title": "2027小马哥申论理论+刷题全程班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1wnWZ5a7wWUHI02rneimVRg?pwd=bqvv",
-      "code": "bqvv",
+      "url": "https://pan.baidu.com/s/15gIPpWBj-8fydN-x1AU6Zw?pwd=8eyb",
+      "code": "8eyb",
       "section": "公考类",
-      "context": "2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/1wnWZ5a7wWUHI02rneimVRg?pwd=bqvv 提取码：bqvv",
+      "context": "2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/15gIPpWBj-8fydN-x1AU6Zw?pwd=8eyb 提取码：8eyb",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -19532,7 +19532,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027小马哥申论理论+刷题全程班 公考类 2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/1wnWZ5a7wWUHI02rneimVRg?pwd=bqvv 提取码：bqvv bqvv baidu https://pan.baidu.com/s/1wnWZ5a7wWUHI02rneimVRg?pwd=bqvv"
+      "searchText": "2027小马哥申论理论+刷题全程班 公考类 2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/15gIPpWBj-8fydN-x1AU6Zw?pwd=8eyb 提取码：8eyb 8eyb baidu https://pan.baidu.com/s/15gIPpWBj-8fydN-x1AU6Zw?pwd=8eyb"
     },
     {
       "id": "r1146",
@@ -19980,8 +19980,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1172",
       "title": "2027kiwi申论全程班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1PCk--uy1jZLTN5uu11ca-Q?pwd=bqvv",
-      "code": "bqvv",
+      "url": "https://pan.baidu.com/s/1FFMAChoNNiOAqa-X3rSbHg?pwd=8eyb",
+      "code": "8eyb",
       "section": "申论",
       "context": "2027kiwi申论全程班",
       "sources": [
@@ -19991,7 +19991,7 @@ window.PAN_SEARCH_DATA = {
           "section": "申论"
         }
       ],
-      "searchText": "2027kiwi申论全程班 申论 2027kiwi申论全程班 bqvv baidu https://pan.baidu.com/s/1PCk--uy1jZLTN5uu11ca-Q?pwd=bqvv"
+      "searchText": "2027kiwi申论全程班 申论 2027kiwi申论全程班 8eyb baidu https://pan.baidu.com/s/1FFMAChoNNiOAqa-X3rSbHg?pwd=8eyb"
     },
     {
       "id": "r1173",
@@ -20031,8 +20031,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1175",
       "title": "2027陈怀安行测圣经资料分析系统课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/13XcUvlImaJxUrx2FCq5aUQ?pwd=msxp",
-      "code": "msxp",
+      "url": "https://pan.baidu.com/s/1DYR1Ow6qRQ68xFYpQYwNQg?pwd=8eyb",
+      "code": "8eyb",
       "section": "资料分析",
       "context": "2027陈怀安行测圣经资料分析系统课",
       "sources": [
@@ -20042,7 +20042,7 @@ window.PAN_SEARCH_DATA = {
           "section": "资料分析"
         }
       ],
-      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 msxp baidu https://pan.baidu.com/s/13XcUvlImaJxUrx2FCq5aUQ?pwd=msxp"
+      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 8eyb baidu https://pan.baidu.com/s/1DYR1Ow6qRQ68xFYpQYwNQg?pwd=8eyb"
     },
     {
       "id": "r1176",
@@ -20405,9 +20405,9 @@ window.PAN_SEARCH_DATA = {
       "id": "r1197",
       "title": "2027陈怀安行测圣经判断推理系统课",
       "platform": "baidu",
-      "code": "r35g",
+      "code": "8eyb",
       "section": "百度批量新增",
-      "context": "百https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g度https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g网https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g盘https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g批https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g量https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g导https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g入https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g：https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g2https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g0https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g2https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g7https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g陈https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g怀https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g安https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g行https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g测https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g圣https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g经https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g判https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g断https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g推https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g理https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g系https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g统https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g课",
+      "context": "百https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb度https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb网https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb盘https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb批https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb量https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb导https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb入https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb：https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb2https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb0https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb2https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb7https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb陈https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb怀https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb安https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb行https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb测https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb圣https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb经https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb判https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb断https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb推https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb理https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb系https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb统https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb课",
       "sources": [
         {
           "file": "admin-bulk-baidu",
@@ -20415,16 +20415,16 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027陈怀安行测圣经判断推理系统课 百度批量新增 百https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g度https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g网https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g盘https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g批https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g量https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g导https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g入https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g：https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g2https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g0https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g2https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g7https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g陈https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g怀https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g安https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g行https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g测https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g圣https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g经https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g判https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g断https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g推https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g理https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g系https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g统https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g课 r35g baidu https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g",
-      "url": "https://pan.baidu.com/s/1r_S-NVbrwI83LcA1gumNNA?pwd=r35g"
+      "searchText": "2027陈怀安行测圣经判断推理系统课 百度批量新增 百https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb度https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb网https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb盘https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb批https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb量https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb导https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb入https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb：https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb2https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb0https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb2https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb7https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb陈https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb怀https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb安https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb行https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb测https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb圣https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb经https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb判https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb断https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb推https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb理https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb系https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb统https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb课 8eyb baidu https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb",
+      "url": "https://pan.baidu.com/s/1LkSGKPNTaX5CMPsXTzKD_A?pwd=8eyb"
     },
     {
       "id": "r1198",
       "title": "2027上岸村天琦申论高分的规则",
       "platform": "baidu",
-      "code": "r35g",
+      "code": "8eyb",
       "section": "百度批量新增",
-      "context": "百https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g度https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g网https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g盘https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g批https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g量https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g导https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g入https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g：https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g2https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g0https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g2https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g7https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g上https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g岸https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g村https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g天https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g琦https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g申https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g论https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g高https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g分https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g的https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g规https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g则",
+      "context": "百https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb度https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb网https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb盘https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb批https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb量https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb导https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb入https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb：https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb2https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb0https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb2https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb7https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb上https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb岸https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb村https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb天https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb琦https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb申https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb论https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb高https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb分https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb的https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb规https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb则",
       "sources": [
         {
           "file": "admin-bulk-baidu",
@@ -20432,8 +20432,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村天琦申论高分的规则 百度批量新增 百https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g度https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g网https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g盘https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g批https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g量https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g导https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g入https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g：https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g2https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g0https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g2https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g7https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g上https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g岸https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g村https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g天https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g琦https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g申https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g论https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g高https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g分https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g的https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g规https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g则 r35g baidu https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g",
-      "url": "https://pan.baidu.com/s/1PJoq7lU2pCbfJoFwCL4nmQ?pwd=r35g"
+      "searchText": "2027上岸村天琦申论高分的规则 百度批量新增 百https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb度https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb网https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb盘https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb批https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb量https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb导https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb入https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb：https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb2https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb0https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb2https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb7https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb上https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb岸https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb村https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb天https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb琦https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb申https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb论https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb高https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb分https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb的https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb规https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb则 8eyb baidu https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb",
+      "url": "https://pan.baidu.com/s/1WgJncX-ofCMcNx4ZPI-vYg?pwd=8eyb"
     },
     {
       "id": "r1199",
@@ -20541,9 +20541,9 @@ window.PAN_SEARCH_DATA = {
       "id": "r1205",
       "title": "005】2026年马克时政梳理",
       "platform": "baidu",
-      "code": "y5cu",
+      "code": "8eyb",
       "section": "百度批量新增",
-      "context": "百https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu度https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu网https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu盘https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu批https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu量https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu导https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu入https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu：https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu0https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu0https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu5https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu】https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu2https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu0https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu2https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu6https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu年https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu马https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu克https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu时https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu政https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu梳https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu理",
+      "context": "百https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb度https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb网https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb盘https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb批https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb量https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb导https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb入https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb：https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb0https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb0https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb5https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb】https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb2https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb0https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb2https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb6https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb年https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb马https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb克https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb时https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb政https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb梳https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb理",
       "sources": [
         {
           "file": "admin-bulk-baidu",
@@ -20551,8 +20551,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "005】2026年马克时政梳理 百度批量新增 百https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu度https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu网https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu盘https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu批https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu量https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu导https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu入https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu：https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu0https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu0https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu5https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu】https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu2https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu0https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu2https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu6https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu年https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu马https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu克https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu时https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu政https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu梳https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu理 y5cu baidu https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu",
-      "url": "https://pan.baidu.com/s/11ORtBQnCQg2IkFNEKpse5w?pwd=y5cu"
+      "searchText": "005】2026年马克时政梳理 百度批量新增 百https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb度https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb网https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb盘https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb批https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb量https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb导https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb入https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb：https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb0https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb0https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb5https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb】https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb2https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb0https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb2https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb6https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb年https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb马https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb克https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb时https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb政https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb梳https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb理 8eyb baidu https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb",
+      "url": "https://pan.baidu.com/s/1xd3tshT5CZYNZw2mlPa8aw?pwd=8eyb"
     },
     {
       "id": "r1206",
@@ -20592,9 +20592,9 @@ window.PAN_SEARCH_DATA = {
       "id": "r1208",
       "title": "李铁合集",
       "platform": "baidu",
-      "code": "y5cu",
+      "code": "8eyb",
       "section": "百度批量新增",
-      "context": "百https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu度https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu网https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu盘https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu批https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu量https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu导https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu入https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu：https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu李https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu铁https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu合https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu集",
+      "context": "百https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb度https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb网https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb盘https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb批https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb量https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb导https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb入https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb：https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb李https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb铁https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb合https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb集",
       "sources": [
         {
           "file": "admin-bulk-baidu",
@@ -20602,8 +20602,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "李铁合集 百度批量新增 百https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu度https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu网https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu盘https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu批https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu量https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu导https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu入https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu：https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu李https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu铁https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu合https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu集 y5cu baidu https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu",
-      "url": "https://pan.baidu.com/s/12ScQ2zbyJtjI3prs-OIEsA?pwd=y5cu"
+      "searchText": "李铁合集 百度批量新增 百https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb度https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb网https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb盘https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb批https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb量https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb导https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb入https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb：https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb李https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb铁https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb合https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb集 8eyb baidu https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb",
+      "url": "https://pan.baidu.com/s/1ZtliQblpX13l-ybzNWa8mQ?pwd=8eyb"
     },
     {
       "id": "r1209",
@@ -20677,9 +20677,9 @@ window.PAN_SEARCH_DATA = {
       "id": "r1213",
       "title": "王君涛丨27花生十三系统班政治理论听课笔记",
       "platform": "baidu",
-      "code": "bnvc",
+      "code": "8eyb",
       "section": "百度批量新增",
-      "context": "百https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc度https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc网https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc盘https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc批https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc量https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc导https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc入https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc：https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc王https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc君https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc涛https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc丨https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc2https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc7https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc花https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc生https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc十https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc三https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc系https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc统https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc班https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc政https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc治https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc理https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc论https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc听https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc课https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc笔https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc记",
+      "context": "百https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb度https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb网https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb盘https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb批https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb量https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb导https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb入https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb：https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb王https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb君https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb涛https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb丨https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb2https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb7https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb花https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb生https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb十https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb三https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb系https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb统https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb班https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb政https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb治https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb理https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb论https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb听https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb课https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb笔https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb记",
       "sources": [
         {
           "file": "admin-bulk-baidu",
@@ -20687,16 +20687,16 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "王君涛丨27花生十三系统班政治理论听课笔记 百度批量新增 百https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc度https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc网https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc盘https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc批https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc量https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc导https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc入https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc：https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc王https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc君https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc涛https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc丨https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc2https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc7https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc花https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc生https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc十https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc三https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc系https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc统https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc班https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc政https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc治https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc理https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc论https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc听https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc课https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc笔https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc记 bnvc baidu https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc",
-      "url": "https://pan.baidu.com/s/1bHhmWy4qjMhNf1a6uiNboA?pwd=bnvc"
+      "searchText": "王君涛丨27花生十三系统班政治理论听课笔记 百度批量新增 百https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb度https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb网https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb盘https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb批https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb量https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb导https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb入https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb：https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb王https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb君https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb涛https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb丨https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb2https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb7https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb花https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb生https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb十https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb三https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb系https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb统https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb班https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb政https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb治https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb理https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb论https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb听https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb课https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb笔https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb记 8eyb baidu https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb",
+      "url": "https://pan.baidu.com/s/1Jcnrj62-SwCpx8vKHkgRRA?pwd=8eyb"
     },
     {
       "id": "r1214",
       "title": "2026年四海拾伊15天速算训练营【61&62&63期",
       "platform": "baidu",
-      "code": "bnvc",
+      "code": "8eyb",
       "section": "百度批量新增",
-      "context": "百https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc度https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc网https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc盘https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc批https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc量https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc导https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc入https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc：https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc2https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc0https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc2https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc6https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc年https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc四https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc海https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc拾https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc伊https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc1https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc5https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc天https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc速https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc算https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc训https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc练https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc营https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc【https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc6https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc1https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc&https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc6https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc2https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc&https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc6https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc3https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc期",
+      "context": "百https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb度https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb网https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb盘https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb批https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb量https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb导https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb入https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb：https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb2https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb0https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb2https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb6https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb年https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb四https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb海https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb拾https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb伊https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb1https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb5https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb天https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb速https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb算https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb训https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb练https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb营https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb【https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb6https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb1https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb&https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb6https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb2https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb&https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb6https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb3https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb期",
       "sources": [
         {
           "file": "admin-bulk-baidu",
@@ -20704,16 +20704,16 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026年四海拾伊15天速算训练营【61&62&63期 百度批量新增 百https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc度https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc网https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc盘https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc批https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc量https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc导https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc入https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc：https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc2https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc0https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc2https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc6https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc年https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc四https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc海https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc拾https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc伊https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc1https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc5https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc天https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc速https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc算https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc训https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc练https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc营https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc【https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc6https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc1https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc&https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc6https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc2https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc&https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc6https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc3https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc期 bnvc baidu https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc",
-      "url": "https://pan.baidu.com/s/1wPSdZLgLDy_Eez23nJkOVA?pwd=bnvc"
+      "searchText": "2026年四海拾伊15天速算训练营【61&62&63期 百度批量新增 百https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb度https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb网https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb盘https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb批https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb量https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb导https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb入https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb：https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb2https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb0https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb2https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb6https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb年https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb四https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb海https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb拾https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb伊https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb1https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb5https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb天https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb速https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb算https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb训https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb练https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb营https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb【https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb6https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb1https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb&https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb6https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb2https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb&https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb6https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb3https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb期 8eyb baidu https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb",
+      "url": "https://pan.baidu.com/s/1Fc0JCQ1LMlEEotL-PS4wpg?pwd=8eyb"
     },
     {
       "id": "r1215",
       "title": "刷题】花生十三刷题合集",
       "platform": "baidu",
-      "code": "bnvc",
+      "code": "8eyb",
       "section": "百度批量新增",
-      "context": "百https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc度https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc网https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc盘https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc批https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc量https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc导https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc入https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc：https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc刷https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc题https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc】https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc花https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc生https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc十https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc三https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc刷https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc题https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc合https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc集",
+      "context": "百https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb度https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb网https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb盘https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb批https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb量https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb导https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb入https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb：https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb刷https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb题https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb】https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb花https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb生https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb十https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb三https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb刷https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb题https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb合https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb集",
       "sources": [
         {
           "file": "admin-bulk-baidu",
@@ -20721,16 +20721,16 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "刷题】花生十三刷题合集 百度批量新增 百https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc度https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc网https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc盘https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc批https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc量https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc导https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc入https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc：https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc刷https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc题https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc】https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc花https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc生https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc十https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc三https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc刷https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc题https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc合https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc集 bnvc baidu https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc",
-      "url": "https://pan.baidu.com/s/1c0TiFCsIR1Sg8zqIBNN2PA?pwd=bnvc"
+      "searchText": "刷题】花生十三刷题合集 百度批量新增 百https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb度https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb网https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb盘https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb批https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb量https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb导https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb入https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb：https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb刷https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb题https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb】https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb花https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb生https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb十https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb三https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb刷https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb题https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb合https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb集 8eyb baidu https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb",
+      "url": "https://pan.baidu.com/s/1EBY1q6i0D2ud6coyi0WY1A?pwd=8eyb"
     },
     {
       "id": "r1216",
       "title": "时政】2025小黑全年时政【zg+上岸村",
       "platform": "baidu",
-      "code": "sbd6",
+      "code": "8eyb",
       "section": "百度批量新增",
-      "context": "百https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6度https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6网https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6盘https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6批https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6量https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6导https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6入https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6：https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6时https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6政https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6】https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd62https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd60https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd62https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd65https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6小https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6黑https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6全https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6年https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6时https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6政https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6【https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6zhttps://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6ghttps://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6+https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6上https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6岸https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6村",
+      "context": "百https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb度https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb网https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb盘https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb批https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb量https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb导https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb入https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb：https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb时https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb政https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb】https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb2https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb0https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb2https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb5https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb小https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb黑https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb全https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb年https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb时https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb政https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb【https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eybzhttps://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eybghttps://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb+https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb上https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb岸https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb村",
       "sources": [
         {
           "file": "admin-bulk-baidu",
@@ -20738,16 +20738,16 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "时政】2025小黑全年时政【zg+上岸村 百度批量新增 百https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6度https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6网https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6盘https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6批https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6量https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6导https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6入https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6：https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6时https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6政https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6】https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd62https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd60https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd62https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd65https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6小https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6黑https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6全https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6年https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6时https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6政https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6【https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6zhttps://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6ghttps://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6+https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6上https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6岸https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6村 sbd6 baidu https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6",
-      "url": "https://pan.baidu.com/s/12NtV-yYdxsp6nhsvqugqyA?pwd=sbd6"
+      "searchText": "时政】2025小黑全年时政【zg+上岸村 百度批量新增 百https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb度https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb网https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb盘https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb批https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb量https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb导https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb入https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb：https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb时https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb政https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb】https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb2https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb0https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb2https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb5https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb小https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb黑https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb全https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb年https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb时https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb政https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb【https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eybzhttps://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eybghttps://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb+https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb上https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb岸https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb村 8eyb baidu https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb",
+      "url": "https://pan.baidu.com/s/1_DLvkUNnxa3NS6Fpz35FYA?pwd=8eyb"
     },
     {
       "id": "r1217",
       "title": "时政】2026小黑全年时政",
       "platform": "baidu",
-      "code": "sbd6",
+      "code": "8eyb",
       "section": "百度批量新增",
-      "context": "百https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6度https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6网https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6盘https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6批https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6量https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6导https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6入https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6：https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6时https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6政https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6】https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd62https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd60https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd62https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd66https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6小https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6黑https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6全https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6年https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6时https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6政",
+      "context": "百https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb度https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb网https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb盘https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb批https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb量https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb导https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb入https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb：https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb时https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb政https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb】https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb2https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb0https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb2https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb6https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb小https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb黑https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb全https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb年https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb时https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb政",
       "sources": [
         {
           "file": "admin-bulk-baidu",
@@ -20755,16 +20755,16 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "时政】2026小黑全年时政 百度批量新增 百https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6度https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6网https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6盘https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6批https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6量https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6导https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6入https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6：https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6时https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6政https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6】https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd62https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd60https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd62https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd66https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6小https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6黑https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6全https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6年https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6时https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6政 sbd6 baidu https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6",
-      "url": "https://pan.baidu.com/s/1iZoZqqgcIB0UX2BVfJb7DA?pwd=sbd6"
+      "searchText": "时政】2026小黑全年时政 百度批量新增 百https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb度https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb网https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb盘https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb批https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb量https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb导https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb入https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb：https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb时https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb政https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb】https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb2https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb0https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb2https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb6https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb小https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb黑https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb全https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb年https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb时https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb政 8eyb baidu https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb",
+      "url": "https://pan.baidu.com/s/1LytEx5sAp6U82zzukdTktQ?pwd=8eyb"
     },
     {
       "id": "r1218",
       "title": "2027小P公考国省考数资判系统班",
       "platform": "baidu",
-      "code": "msxp",
+      "code": "8eyb",
       "section": "百度批量新增",
-      "context": "百https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp度https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp网https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp盘https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp批https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp量https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp导https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp入https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp：https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp2https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp0https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp2https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp7https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp小https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxpPhttps://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp公https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp考https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp国https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp省https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp考https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp数https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp资https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp判https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp系https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp统https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp班",
+      "context": "百https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb度https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb网https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb盘https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb批https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb量https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb导https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb入https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb：https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb2https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb0https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb2https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb7https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb小https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eybPhttps://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb公https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb考https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb国https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb省https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb考https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb数https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb资https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb判https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb系https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb统https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb班",
       "sources": [
         {
           "file": "admin-bulk-baidu",
@@ -20772,8 +20772,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027小P公考国省考数资判系统班 百度批量新增 百https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp度https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp网https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp盘https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp批https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp量https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp导https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp入https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp：https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp2https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp0https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp2https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp7https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp小https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxpPhttps://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp公https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp考https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp国https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp省https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp考https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp数https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp资https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp判https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp系https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp统https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp班 msxp baidu https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp",
-      "url": "https://pan.baidu.com/s/1r5WOVXVSeHbYPDGFSuGY0w?pwd=msxp"
+      "searchText": "2027小P公考国省考数资判系统班 百度批量新增 百https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb度https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb网https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb盘https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb批https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb量https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb导https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb入https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb：https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb2https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb0https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb2https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb7https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb小https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eybPhttps://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb公https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb考https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb国https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb省https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb考https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb数https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb资https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb判https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb系https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb统https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb班 8eyb baidu https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb",
+      "url": "https://pan.baidu.com/s/1dxc0rdrApV_KHX-HcZM_iA?pwd=8eyb"
     },
     {
       "id": "r1219",
@@ -21459,8 +21459,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1259",
       "title": "2027kiwi申论全程班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1PCk--uy1jZLTN5uu11ca-Q?pwd=bqvv",
-      "code": "bqvv",
+      "url": "https://pan.baidu.com/s/1FFMAChoNNiOAqa-X3rSbHg?pwd=8eyb",
+      "code": "8eyb",
       "section": "申论",
       "context": "2027kiwi申论全程班",
       "sources": [
@@ -21470,14 +21470,14 @@ window.PAN_SEARCH_DATA = {
           "section": "申论"
         }
       ],
-      "searchText": "2027kiwi申论全程班 申论 2027kiwi申论全程班 bqvv baidu https://pan.baidu.com/s/1PCk--uy1jZLTN5uu11ca-Q?pwd=bqvv"
+      "searchText": "2027kiwi申论全程班 申论 2027kiwi申论全程班 8eyb baidu https://pan.baidu.com/s/1FFMAChoNNiOAqa-X3rSbHg?pwd=8eyb"
     },
     {
       "id": "r1260",
       "title": "2027陈怀安行测圣经资料分析系统课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/13XcUvlImaJxUrx2FCq5aUQ?pwd=msxp",
-      "code": "msxp",
+      "url": "https://pan.baidu.com/s/1DYR1Ow6qRQ68xFYpQYwNQg?pwd=8eyb",
+      "code": "8eyb",
       "section": "资料分析",
       "context": "2027陈怀安行测圣经资料分析系统课",
       "sources": [
@@ -21487,7 +21487,7 @@ window.PAN_SEARCH_DATA = {
           "section": "资料分析"
         }
       ],
-      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 msxp baidu https://pan.baidu.com/s/13XcUvlImaJxUrx2FCq5aUQ?pwd=msxp"
+      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 8eyb baidu https://pan.baidu.com/s/1DYR1Ow6qRQ68xFYpQYwNQg?pwd=8eyb"
     },
     {
       "id": "r1261",
@@ -21561,8 +21561,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1265",
       "title": "2027kiwi申论全程班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1caGAJJqyb5Okhec_R74cYw?pwd=m19g",
-      "code": "m19g",
+      "url": "https://pan.baidu.com/s/1FFMAChoNNiOAqa-X3rSbHg?pwd=8eyb",
+      "code": "8eyb",
       "section": "申论",
       "context": "2027kiwi申论全程班",
       "sources": [
@@ -21572,14 +21572,14 @@ window.PAN_SEARCH_DATA = {
           "section": "申论"
         }
       ],
-      "searchText": "2027kiwi申论全程班 申论 2027kiwi申论全程班 m19g server/data/extra-links.json"
+      "searchText": "2027kiwi申论全程班 申论 2027kiwi申论全程班 8eyb baidu https://pan.baidu.com/s/1FFMAChoNNiOAqa-X3rSbHg?pwd=8eyb"
     },
     {
       "id": "r1266",
       "title": "2027陈怀安行测圣经资料分析系统课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/17jeLoOhixc6vVjbC_JieCA?pwd=7hja",
-      "code": "7hja",
+      "url": "https://pan.baidu.com/s/1DYR1Ow6qRQ68xFYpQYwNQg?pwd=8eyb",
+      "code": "8eyb",
       "section": "资料分析",
       "context": "2027陈怀安行测圣经资料分析系统课",
       "sources": [
@@ -21589,7 +21589,7 @@ window.PAN_SEARCH_DATA = {
           "section": "资料分析"
         }
       ],
-      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 7hja server/data/extra-links.json"
+      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 8eyb baidu https://pan.baidu.com/s/1DYR1Ow6qRQ68xFYpQYwNQg?pwd=8eyb"
     },
     {
       "id": "r1267",
@@ -22151,6 +22151,278 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "刷题讲义合集】高照数量资料刷题讲义 夸克批量新增 夸克网盘批量导入：刷题讲义合集】高照数量资料刷题讲义 quark https://pan.quark.cn/s/0039d99dc2e3"
+    },
+    {
+      "id": "r1300",
+      "title": "申论】2027站长申论基础班",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：申论】2027站长申论基础班",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 18,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "申论】2027站长申论基础班 百度批量新增 百度网盘批量导入：申论】2027站长申论基础班 baidu"
+    },
+    {
+      "id": "r1301",
+      "title": "2027公考名师",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027公考名师",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 30,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027公考名师 百度批量新增 百度网盘批量导入：2027公考名师 baidu"
+    },
+    {
+      "id": "r1302",
+      "title": "袁东丨27申论实战班基础课复盘笔记",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：袁东丨27申论实战班基础课复盘笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 38,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "袁东丨27申论实战班基础课复盘笔记 百度批量新增 百度网盘批量导入：袁东丨27申论实战班基础课复盘笔记 baidu"
+    },
+    {
+      "id": "r1303",
+      "title": "2027年袁东申论套题实战班",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027年袁东申论套题实战班",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 46,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027年袁东申论套题实战班 百度批量新增 百度网盘批量导入：2027年袁东申论套题实战班 baidu"
+    },
+    {
+      "id": "r1304",
+      "title": "2027上岸村天琦申论大作文技巧课",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027上岸村天琦申论大作文技巧课",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 50,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027上岸村天琦申论大作文技巧课 百度批量新增 百度网盘批量导入：2027上岸村天琦申论大作文技巧课 baidu"
+    },
+    {
+      "id": "r1305",
+      "title": "综应A】2027年事考超格综A夸夸刷刷题营",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：综应A】2027年事考超格综A夸夸刷刷题营",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 58,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "综应A】2027年事考超格综A夸夸刷刷题营 百度批量新增 百度网盘批量导入：综应A】2027年事考超格综A夸夸刷刷题营 baidu"
+    },
+    {
+      "id": "r1306",
+      "title": "人民日报每日精读（笔记+思维导图版）",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：人民日报每日精读（笔记+思维导图版）",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 70,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "人民日报每日精读（笔记+思维导图版） 百度批量新增 百度网盘批量导入：人民日报每日精读（笔记+思维导图版） baidu"
+    },
+    {
+      "id": "r1307",
+      "title": "2027】袁东合集",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027】袁东合集",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 90,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027】袁东合集 百度批量新增 百度网盘批量导入：2027】袁东合集 baidu"
+    },
+    {
+      "id": "r1308",
+      "title": "人民日报（成语积累+逻辑填空）",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：人民日报（成语积累+逻辑填空）",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 94,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "人民日报（成语积累+逻辑填空） 百度批量新增 百度网盘批量导入：人民日报（成语积累+逻辑填空） baidu"
+    },
+    {
+      "id": "r1309",
+      "title": "2027苏金朋判断推理系统课（图推逻辑类比定义）",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027苏金朋判断推理系统课（图推逻辑类比定义）",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 102,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027苏金朋判断推理系统课（图推逻辑类比定义） 百度批量新增 百度网盘批量导入：2027苏金朋判断推理系统课（图推逻辑类比定义） baidu"
+    },
+    {
+      "id": "r1310",
+      "title": "2027国考大懒猫言语刷题课一期",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027国考大懒猫言语刷题课一期",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 110,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027国考大懒猫言语刷题课一期 百度批量新增 百度网盘批量导入：2027国考大懒猫言语刷题课一期 baidu"
+    },
+    {
+      "id": "r1311",
+      "title": "速算】高照抖音速算直播课",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：速算】高照抖音速算直播课",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 138,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "速算】高照抖音速算直播课 百度批量新增 百度网盘批量导入：速算】高照抖音速算直播课 baidu"
+    },
+    {
+      "id": "r1312",
+      "title": "2027年袁东申论超大杯刷题提升班",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027年袁东申论超大杯刷题提升班",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 162,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027年袁东申论超大杯刷题提升班 百度批量新增 百度网盘批量导入：2027年袁东申论超大杯刷题提升班 baidu"
+    },
+    {
+      "id": "r1313",
+      "title": "人民日报每日晨读（逐字稿+押题范文）",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：人民日报每日晨读（逐字稿+押题范文）",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 170,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "人民日报每日晨读（逐字稿+押题范文） 百度批量新增 百度网盘批量导入：人民日报每日晨读（逐字稿+押题范文） baidu"
+    },
+    {
+      "id": "r1314",
+      "title": "2027龙飞百大图形推理",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027龙飞百大图形推理",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 178,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027龙飞百大图形推理 百度批量新增 百度网盘批量导入：2027龙飞百大图形推理 baidu"
+    },
+    {
+      "id": "r1315",
+      "title": "2027陈怀安行测圣经资料分析系统课(1)",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027陈怀安行测圣经资料分析系统课(1)",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 186,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027陈怀安行测圣经资料分析系统课(1) 百度批量新增 百度网盘批量导入：2027陈怀安行测圣经资料分析系统课(1) baidu"
+    },
+    {
+      "id": "r1316",
+      "title": "小P丨27资料分析理论课笔记",
+      "platform": "baidu",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：小P丨27资料分析理论课笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 190,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "小P丨27资料分析理论课笔记 百度批量新增 百度网盘批量导入：小P丨27资料分析理论课笔记 baidu"
     }
   ]
 };
