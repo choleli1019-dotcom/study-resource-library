@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-13T01:36:31.449Z",
+  "generatedAt": "2026-08-13T01:41:04.304Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -15220,10 +15220,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r892",
       "title": "政治理论】2027超哥政治理论时政热点小锦囊",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1srbWoLf8fC1crqexINnCoA?pwd=uh2c",
+      "url": "https://pan.baidu.com/s/17J0VODSNWtGuffu08YbHnw?pwd=67hd",
       "code": "uh2c",
       "section": "公考类",
-      "context": "政治理论】2027超哥政治理论时政热点小锦囊 链接：https://pan.baidu.com/s/1srbWoLf8fC1crqexINnCoA?pwd=uh2c 提取码：uh2c",
+      "context": "政治理论】2027超哥政治理论时政热点小锦囊 链接：https://pan.baidu.com/s/17J0VODSNWtGuffu08YbHnw?pwd=67hd 提取码：uh2c",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15231,7 +15231,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "政治理论】2027超哥政治理论时政热点小锦囊 公考类 政治理论】2027超哥政治理论时政热点小锦囊 链接：https://pan.baidu.com/s/1srbWoLf8fC1crqexINnCoA?pwd=uh2c 提取码：uh2c uh2c baidu https://pan.baidu.com/s/1srbWoLf8fC1crqexINnCoA?pwd=uh2c"
+      "searchText": "政治理论】2027超哥政治理论时政热点小锦囊 公考类 政治理论】2027超哥政治理论时政热点小锦囊 链接：https://pan.baidu.com/s/17J0VODSNWtGuffu08YbHnw?pwd=67hd 提取码：uh2c uh2c baidu https://pan.baidu.com/s/17J0VODSNWtGuffu08YbHnw?pwd=67hd"
     },
     {
       "id": "r893",
