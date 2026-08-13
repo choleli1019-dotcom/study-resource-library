@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-13T14:17:07.812Z",
+  "generatedAt": "2026-08-13T14:21:10.561Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -19538,10 +19538,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r1146",
       "title": "2027超格合集",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/18xJUI3eLUYbu6kLKUBKtYQ?pwd=he9r",
+      "url": "https://pan.baidu.com/s/1ueIGuUNbNHxEqZln06Brgw?pwd=4s8w",
       "code": "he9r",
       "section": "公考类",
-      "context": "2027超格合集 链接：https://pan.baidu.com/s/18xJUI3eLUYbu6kLKUBKtYQ?pwd=he9r 提取码：he9r",
+      "context": "2027超格合集 链接：https://pan.baidu.com/s/1ueIGuUNbNHxEqZln06Brgw?pwd=4s8w 提取码：he9r",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -19549,7 +19549,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027超格合集 公考类 2027超格合集 链接：https://pan.baidu.com/s/18xJUI3eLUYbu6kLKUBKtYQ?pwd=he9r 提取码：he9r he9r 百度 网盘 百度网盘链接.txt"
+      "searchText": "2027超格合集 公考类 2027超格合集 链接：https://pan.baidu.com/s/1ueIGuUNbNHxEqZln06Brgw?pwd=4s8w 提取码：he9r he9r baidu https://pan.baidu.com/s/1ueIGuUNbNHxEqZln06Brgw?pwd=4s8w"
     },
     {
       "id": "r1147",
