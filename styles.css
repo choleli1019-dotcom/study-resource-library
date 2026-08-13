@@ -6674,3 +6674,34 @@ body.has-animated-background .app-shell {
     animation: none;
   }
 }
+
+
+/* 2026-08-13: terminal-inspired live status refinement. */
+.hero-live-panel {
+  position: relative;
+  overflow: hidden;
+  padding: 17px 19px 16px;
+  border-color: rgba(64, 231, 180, 0.36);
+  border-radius: 16px 22px 16px 22px;
+  background:
+    linear-gradient(112deg, rgba(6, 25, 34, 0.94), rgba(8, 58, 56, 0.82)),
+    repeating-linear-gradient(90deg, rgba(92, 243, 164, 0.05) 0 1px, transparent 1px 24px),
+    repeating-linear-gradient(0deg, rgba(92, 243, 164, 0.035) 0 1px, transparent 1px 24px);
+  box-shadow: inset 0 1px 0 rgba(192, 255, 225, 0.17), inset 0 0 28px rgba(11, 239, 163, 0.07), 0 18px 38px rgba(0, 0, 0, 0.24);
+}
+.hero-live-panel::before,
+.hero-live-panel::after { position: absolute; content: ""; pointer-events: none; }
+.hero-live-panel::before { inset: 8px; border: 1px solid rgba(127, 255, 211, 0.11); border-radius: 10px 16px 10px 16px; }
+.hero-live-panel::after { top: 0; left: -35%; width: 32%; height: 100%; background: linear-gradient(90deg, transparent, rgba(94, 255, 208, 0.12), transparent); transform: skewX(-18deg); animation: hero-panel-scan 7s ease-in-out infinite; }
+.hero-live-header, .hero-live-panel p, .hero-live-services { position: relative; z-index: 1; }
+.hero-live-status { color: #c9ffdf; font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; }
+.hero-live-status b { padding: 2px 6px; border: 1px solid rgba(88, 249, 184, 0.44); border-radius: 4px; color: #74ffb6; font-size: 9px; letter-spacing: 0.12em; }
+.hero-live-panel time { color: #aeeece; font-size: 12px; letter-spacing: 0.08em; text-shadow: 0 0 14px rgba(94, 255, 197, 0.36); }
+.hero-live-panel p { display: flex; align-items: baseline; gap: 8px; margin: 13px 0 15px; color: rgba(236, 255, 244, 0.92); font-size: 15px; font-weight: 720; letter-spacing: 0.015em; }
+.hero-live-panel p span { color: rgba(112, 255, 188, 0.72); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 9px; font-weight: 700; letter-spacing: 0.12em; }
+.hero-live-services { gap: 8px; }
+.hero-live-services span { padding: 5px 8px; border: 1px solid rgba(141, 255, 211, 0.16); border-radius: 5px 9px 5px 9px; background: rgba(8, 29, 35, 0.4); color: rgba(219, 255, 235, 0.88); font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 10px; letter-spacing: 0.04em; }
+.hero-live-services i { background: #75ffc0; box-shadow: 0 0 9px rgba(117, 255, 192, 0.74); }
+@keyframes hero-panel-scan { 0%, 38% { left: -35%; opacity: 0; } 44% { opacity: 1; } 62% { left: 112%; opacity: 0; } 100% { left: 112%; opacity: 0; } }
+@media (max-width: 767px) { .hero-live-panel { padding: 13px 14px; border-radius: 14px 18px 14px 18px; } .hero-live-status, .hero-live-panel time { font-size: 11px; } }
+@media (prefers-reduced-motion: reduce) { .hero-live-panel::after { animation: none; } }
