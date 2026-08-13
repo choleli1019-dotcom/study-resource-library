@@ -6488,3 +6488,59 @@ body.has-animated-background .app-shell {
     display: none !important;
   }
 }
+
+/* 2026-08-13: make the hero image a balanced primary visual on every screen. */
+@media (min-width: 1024px) {
+  .hero {
+    grid-template-columns: minmax(0, 1.1fr) minmax(460px, 0.9fr) !important;
+    gap: clamp(40px, 4vw, 72px) !important;
+  }
+
+  .hero-art {
+    width: min(100%, 520px) !important;
+    max-width: 520px !important;
+    align-self: end !important;
+    justify-self: end !important;
+    padding: 10px !important;
+    border-radius: 24px !important;
+    box-shadow: 0 24px 54px rgba(5, 21, 27, 0.28) !important;
+  }
+
+  .hero-art img {
+    border-radius: 17px !important;
+    object-position: center 46% !important;
+    transform: none !important;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .hero-art {
+    width: min(100%, 360px) !important;
+    max-width: 360px !important;
+    justify-self: end !important;
+    padding: 7px !important;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero-art {
+    display: block !important;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 20px 0 0 !important;
+    padding: 5px !important;
+    border-radius: 18px !important;
+    box-shadow: 0 14px 32px rgba(5, 21, 27, 0.22) !important;
+  }
+
+  .hero-art img {
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 16 / 9 !important;
+    border-radius: 13px !important;
+    object-fit: cover !important;
+    object-position: center 46% !important;
+    transform: none !important;
+  }
+}
