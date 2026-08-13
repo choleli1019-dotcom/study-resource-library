@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-13T14:16:42.811Z",
+  "generatedAt": "2026-08-13T14:17:07.812Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -22887,7 +22887,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1343",
       "title": "C、2027申论合集",
       "platform": "baidu",
-      "code": "",
+      "code": "f7da",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：C、2027申论合集",
       "sources": [
@@ -22897,13 +22897,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "C、2027申论合集 百度批量新增 百度网盘批量导入：C、2027申论合集 baidu"
+      "searchText": "C、2027申论合集 百度批量新增 百度网盘批量导入：C、2027申论合集 f7da baidu https://pan.baidu.com/s/1znFQRgc0F6-NUfNz2GJqCQ?pwd=f7da",
+      "url": "https://pan.baidu.com/s/1znFQRgc0F6-NUfNz2GJqCQ?pwd=f7da"
     },
     {
       "id": "r1344",
       "title": "A、2027机构合集（花生、超格、上岸村）",
       "platform": "baidu",
-      "code": "",
+      "code": "f7da",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：A、2027机构合集（花生、超格、上岸村）",
       "sources": [
@@ -22913,13 +22914,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "A、2027机构合集（花生、超格、上岸村） 百度批量新增 百度网盘批量导入：A、2027机构合集（花生、超格、上岸村） baidu"
+      "searchText": "A、2027机构合集（花生、超格、上岸村） 百度批量新增 百度网盘批量导入：A、2027机构合集（花生、超格、上岸村） f7da baidu https://pan.baidu.com/s/1nutmQrqdgztjEs8oAbf2ZQ?pwd=f7da",
+      "url": "https://pan.baidu.com/s/1nutmQrqdgztjEs8oAbf2ZQ?pwd=f7da"
     },
     {
       "id": "r1345",
       "title": "D、2027时政、公基合集",
       "platform": "baidu",
-      "code": "",
+      "code": "f7da",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：D、2027时政、公基合集",
       "sources": [
@@ -22929,13 +22931,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "D、2027时政、公基合集 百度批量新增 百度网盘批量导入：D、2027时政、公基合集 baidu"
+      "searchText": "D、2027时政、公基合集 百度批量新增 百度网盘批量导入：D、2027时政、公基合集 f7da baidu https://pan.baidu.com/s/15X98LMOkj7py--inNRCBvQ?pwd=f7da",
+      "url": "https://pan.baidu.com/s/15X98LMOkj7py--inNRCBvQ?pwd=f7da"
     },
     {
       "id": "r1346",
       "title": "B、2027行测名师合集",
       "platform": "baidu",
-      "code": "",
+      "code": "f7da",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：B、2027行测名师合集",
       "sources": [
@@ -22945,13 +22948,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "B、2027行测名师合集 百度批量新增 百度网盘批量导入：B、2027行测名师合集 baidu"
+      "searchText": "B、2027行测名师合集 百度批量新增 百度网盘批量导入：B、2027行测名师合集 f7da baidu https://pan.baidu.com/s/1nfQN0npjoc-SexDKSZq6rw?pwd=f7da",
+      "url": "https://pan.baidu.com/s/1nfQN0npjoc-SexDKSZq6rw?pwd=f7da"
     },
     {
       "id": "r1347",
       "title": "2027薛睿公考逻辑必刷678题",
       "platform": "baidu",
-      "code": "",
+      "code": "596u",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027薛睿公考逻辑必刷678题",
       "sources": [
@@ -22961,13 +22965,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027薛睿公考逻辑必刷678题 百度批量新增 百度网盘批量导入：2027薛睿公考逻辑必刷678题 baidu"
+      "searchText": "2027薛睿公考逻辑必刷678题 百度批量新增 百度网盘批量导入：2027薛睿公考逻辑必刷678题 596u baidu https://pan.baidu.com/s/1QYpSrGCG6hS02rCRPeJkHQ?pwd=596u",
+      "url": "https://pan.baidu.com/s/1QYpSrGCG6hS02rCRPeJkHQ?pwd=596u"
     },
     {
       "id": "r1348",
       "title": "2027年公考薛睿逻辑判断系统课",
       "platform": "baidu",
-      "code": "",
+      "code": "596u",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027年公考薛睿逻辑判断系统课",
       "sources": [
@@ -22977,13 +22982,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027年公考薛睿逻辑判断系统课 百度批量新增 百度网盘批量导入：2027年公考薛睿逻辑判断系统课 baidu"
+      "searchText": "2027年公考薛睿逻辑判断系统课 百度批量新增 百度网盘批量导入：2027年公考薛睿逻辑判断系统课 596u baidu https://pan.baidu.com/s/1bX1dIEZDdRmB2CZUT-pFiA?pwd=596u",
+      "url": "https://pan.baidu.com/s/1bX1dIEZDdRmB2CZUT-pFiA?pwd=596u"
     },
     {
       "id": "r1349",
       "title": "2027年公考薛睿一拖五系统课（实战应用指南）",
       "platform": "baidu",
-      "code": "",
+      "code": "596u",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027年公考薛睿一拖五系统课（实战应用指南）",
       "sources": [
@@ -22993,7 +22999,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027年公考薛睿一拖五系统课（实战应用指南） 百度批量新增 百度网盘批量导入：2027年公考薛睿一拖五系统课（实战应用指南） baidu"
+      "searchText": "2027年公考薛睿一拖五系统课（实战应用指南） 百度批量新增 百度网盘批量导入：2027年公考薛睿一拖五系统课（实战应用指南） 596u baidu https://pan.baidu.com/s/11YyiXxkHzb6DRTg5VI45tw?pwd=596u",
+      "url": "https://pan.baidu.com/s/11YyiXxkHzb6DRTg5VI45tw?pwd=596u"
     }
   ]
 };
