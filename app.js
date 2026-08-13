@@ -1706,3 +1706,45 @@ function getTrackedResourceLabel(link) {
   if (link.classList.contains("quick-link")) return `快捷入口｜${link.textContent.trim()}`;
   return "";
 }
+
+// 2026-08-13: administrator-managed homepage announcement.
+function formatSiteNoticeTime(value) {
+  const date = new Date(value || "");
+  if (Number.isNaN(date.getTime())) return "";
+  return new Intl.DateTimeFormat("zh-CN", { month: "numeric", day: "numeric", hour: "2-digit", minute: "2-digit", hour12: false }).format(date);
+}
+
+function renderSiteNotice(notice) {
+  const panel = document.querySelector(".hero-live-panel");
+  const copy = panel?.querySelector("p");
+  if (!panel || !copy) return;
+  const active = Boolean(notice?.active && (notice?.title || notice?.message));
+  if (!active) {
+    panel.classList.remove("has-site-notice", "notice-maintenance", "notice-recovered");
+    copy.innerHTML = '<span>RESOURCE HUB</span>资源正在持续整理与更新';
+    return;
+  }
+  const tone = ["notice", "maintenance", "recovered"].includes(notice.tone) ? notice.tone : "notice";
+  const labels = { notice: "网站公告", maintenance: "维护中", recovered: "已恢复" };
+  const title = panSearchEscapeHtml(notice.title || "资料库公告");
+  const message = panSearchEscapeHtml(notice.message || "请留意最新资料说明。");
+  const time = formatSiteNoticeTime(notice.updatedAt);
+  panel.classList.add("has-site-notice");
+  panel.classList.toggle("notice-maintenance", tone === "maintenance");
+  panel.classList.toggle("notice-recovered", tone === "recovered");
+  copy.innerHTML = `<span>${labels[tone]}</span><strong>${title}</strong><small>${message}${time ? ` · ${time} 发布` : ""}</small>`;
+}
+
+async function loadSiteNotice() {
+  if (!serverApiBase) return;
+  try {
+    const response = await fetch(`${serverApiBase}/api/site-notice`, { headers: { Accept: "application/json" } });
+    if (!response.ok) return;
+    const data = await response.json();
+    renderSiteNotice(data?.notice || {});
+  } catch (_) {
+    // Keep the default online copy when the notice service is unavailable.
+  }
+}
+
+loadSiteNotice();
