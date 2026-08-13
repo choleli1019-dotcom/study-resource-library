@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-13T01:42:08.354Z",
+  "generatedAt": "2026-08-13T01:45:31.437Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -14846,10 +14846,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r870",
       "title": "27行测、机构合集（花生、超格、上岸村）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1b1WnIezGcIJPSkd5XCSAFQ?pwd=3dep",
+      "url": "https://pan.baidu.com/s/1e9fBWbaEhFm84EcBZtyMlw?pwd=t3rq",
       "code": "21sk",
       "section": "公考类",
-      "context": "27行测、机构合集（花生、超格、上岸村） 链接：https://pan.baidu.com/s/1b1WnIezGcIJPSkd5XCSAFQ?pwd=3dep 提取码：21sk",
+      "context": "27行测、机构合集（花生、超格、上岸村） 链接：https://pan.baidu.com/s/1e9fBWbaEhFm84EcBZtyMlw?pwd=t3rq 提取码：21sk",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -14857,7 +14857,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "27行测、机构合集（花生、超格、上岸村） 公考类 27行测、机构合集（花生、超格、上岸村） 链接：https://pan.baidu.com/s/1b1WnIezGcIJPSkd5XCSAFQ?pwd=3dep 提取码：21sk 21sk baidu https://pan.baidu.com/s/1b1WnIezGcIJPSkd5XCSAFQ?pwd=3dep"
+      "searchText": "27行测、机构合集（花生、超格、上岸村） 公考类 27行测、机构合集（花生、超格、上岸村） 链接：https://pan.baidu.com/s/1e9fBWbaEhFm84EcBZtyMlw?pwd=t3rq 提取码：21sk 21sk baidu https://pan.baidu.com/s/1e9fBWbaEhFm84EcBZtyMlw?pwd=t3rq"
     },
     {
       "id": "r871",
