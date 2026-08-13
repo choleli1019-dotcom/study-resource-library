@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-13T01:35:40.706Z",
+  "generatedAt": "2026-08-13T01:36:31.449Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -22649,7 +22649,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1329",
       "title": "时政】2026小黑全年时政(1)",
       "platform": "baidu",
-      "code": "",
+      "code": "knk9",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：时政】2026小黑全年时政(1)",
       "sources": [
@@ -22659,13 +22659,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "时政】2026小黑全年时政(1) 百度批量新增 百度网盘批量导入：时政】2026小黑全年时政(1) baidu"
+      "searchText": "时政】2026小黑全年时政(1) 百度批量新增 百度网盘批量导入：时政】2026小黑全年时政(1) knk9 baidu https://pan.baidu.com/s/1HdSnmLZGVUR79d48ByjPGg?pwd=knk9",
+      "url": "https://pan.baidu.com/s/1HdSnmLZGVUR79d48ByjPGg?pwd=knk9"
     },
     {
       "id": "r1330",
       "title": "2025李铁全年时政",
       "platform": "baidu",
-      "code": "",
+      "code": "knk9",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2025李铁全年时政",
       "sources": [
@@ -22675,13 +22676,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2025李铁全年时政 百度批量新增 百度网盘批量导入：2025李铁全年时政 baidu"
+      "searchText": "2025李铁全年时政 百度批量新增 百度网盘批量导入：2025李铁全年时政 knk9 baidu https://pan.baidu.com/s/1bcBiULOQG3fo67WsuizmNQ?pwd=knk9",
+      "url": "https://pan.baidu.com/s/1bcBiULOQG3fo67WsuizmNQ?pwd=knk9"
     },
     {
       "id": "r1331",
       "title": "2026年晨读",
       "platform": "baidu",
-      "code": "",
+      "code": "knk9",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026年晨读",
       "sources": [
@@ -22691,13 +22693,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026年晨读 百度批量新增 百度网盘批量导入：2026年晨读 baidu"
+      "searchText": "2026年晨读 百度批量新增 百度网盘批量导入：2026年晨读 knk9 baidu https://pan.baidu.com/s/1A0aKA7Qc4c-UOO0Hj6gILA?pwd=knk9",
+      "url": "https://pan.baidu.com/s/1A0aKA7Qc4c-UOO0Hj6gILA?pwd=knk9"
     },
     {
       "id": "r1332",
       "title": "2025年千君全年时政",
       "platform": "baidu",
-      "code": "",
+      "code": "knk9",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2025年千君全年时政",
       "sources": [
@@ -22707,13 +22710,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2025年千君全年时政 百度批量新增 百度网盘批量导入：2025年千君全年时政 baidu"
+      "searchText": "2025年千君全年时政 百度批量新增 百度网盘批量导入：2025年千君全年时政 knk9 baidu https://pan.baidu.com/s/1bCjqr00aqngmVPoVsY___A?pwd=knk9",
+      "url": "https://pan.baidu.com/s/1bCjqr00aqngmVPoVsY___A?pwd=knk9"
     },
     {
       "id": "r1333",
       "title": "2026年千君时政月月谈",
       "platform": "baidu",
-      "code": "",
+      "code": "knk9",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026年千君时政月月谈",
       "sources": [
@@ -22723,13 +22727,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026年千君时政月月谈 百度批量新增 百度网盘批量导入：2026年千君时政月月谈 baidu"
+      "searchText": "2026年千君时政月月谈 百度批量新增 百度网盘批量导入：2026年千君时政月月谈 knk9 baidu https://pan.baidu.com/s/1EEvT2r_Wpf3XWQb70mHLOQ?pwd=knk9",
+      "url": "https://pan.baidu.com/s/1EEvT2r_Wpf3XWQb70mHLOQ?pwd=knk9"
     },
     {
       "id": "r1334",
       "title": "2026年时政讲练班【CG",
       "platform": "baidu",
-      "code": "",
+      "code": "knk9",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026年时政讲练班【CG",
       "sources": [
@@ -22739,13 +22744,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026年时政讲练班【CG 百度批量新增 百度网盘批量导入：2026年时政讲练班【CG baidu"
+      "searchText": "2026年时政讲练班【CG 百度批量新增 百度网盘批量导入：2026年时政讲练班【CG knk9 baidu https://pan.baidu.com/s/1Fu3-Bg2txSokPUuvT-PacQ?pwd=knk9",
+      "url": "https://pan.baidu.com/s/1Fu3-Bg2txSokPUuvT-PacQ?pwd=knk9"
     },
     {
       "id": "r1335",
       "title": "2026李铁河南三支一扶全家桶",
       "platform": "baidu",
-      "code": "",
+      "code": "knk9",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026李铁河南三支一扶全家桶",
       "sources": [
@@ -22755,13 +22761,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026李铁河南三支一扶全家桶 百度批量新增 百度网盘批量导入：2026李铁河南三支一扶全家桶 baidu"
+      "searchText": "2026李铁河南三支一扶全家桶 百度批量新增 百度网盘批量导入：2026李铁河南三支一扶全家桶 knk9 baidu https://pan.baidu.com/s/1sZWrNkgYqWuodNhzDOhR8Q?pwd=knk9",
+      "url": "https://pan.baidu.com/s/1sZWrNkgYqWuodNhzDOhR8Q?pwd=knk9"
     },
     {
       "id": "r1336",
       "title": "2026李铁全年时政",
       "platform": "baidu",
-      "code": "",
+      "code": "knk9",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026李铁全年时政",
       "sources": [
@@ -22771,13 +22778,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026李铁全年时政 百度批量新增 百度网盘批量导入：2026李铁全年时政 baidu"
+      "searchText": "2026李铁全年时政 百度批量新增 百度网盘批量导入：2026李铁全年时政 knk9 baidu https://pan.baidu.com/s/17wUXYo9S8afKZvECVJ--Wg?pwd=knk9",
+      "url": "https://pan.baidu.com/s/17wUXYo9S8afKZvECVJ--Wg?pwd=knk9"
     },
     {
       "id": "r1337",
       "title": "2025秦明全年时政",
       "platform": "baidu",
-      "code": "",
+      "code": "knk9",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2025秦明全年时政",
       "sources": [
@@ -22787,13 +22795,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2025秦明全年时政 百度批量新增 百度网盘批量导入：2025秦明全年时政 baidu"
+      "searchText": "2025秦明全年时政 百度批量新增 百度网盘批量导入：2025秦明全年时政 knk9 baidu https://pan.baidu.com/s/1TCs_2GmwqsXu8zpriTq3CQ?pwd=knk9",
+      "url": "https://pan.baidu.com/s/1TCs_2GmwqsXu8zpriTq3CQ?pwd=knk9"
     },
     {
       "id": "r1338",
       "title": "2026年政治理论&全年时政【JS",
       "platform": "baidu",
-      "code": "",
+      "code": "knk9",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026年政治理论&全年时政【JS",
       "sources": [
@@ -22803,13 +22812,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026年政治理论&全年时政【JS 百度批量新增 百度网盘批量导入：2026年政治理论&全年时政【JS baidu"
+      "searchText": "2026年政治理论&全年时政【JS 百度批量新增 百度网盘批量导入：2026年政治理论&全年时政【JS knk9 baidu https://pan.baidu.com/s/1dDkmghR9TfqjC4Tn4mZD1A?pwd=knk9",
+      "url": "https://pan.baidu.com/s/1dDkmghR9TfqjC4Tn4mZD1A?pwd=knk9"
     },
     {
       "id": "r1339",
       "title": "时政】2025小黑全年时政【zg+上岸村】(1)",
       "platform": "baidu",
-      "code": "",
+      "code": "knk9",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：时政】2025小黑全年时政【zg+上岸村】(1)",
       "sources": [
@@ -22819,13 +22829,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "时政】2025小黑全年时政【zg+上岸村】(1) 百度批量新增 百度网盘批量导入：时政】2025小黑全年时政【zg+上岸村】(1) baidu"
+      "searchText": "时政】2025小黑全年时政【zg+上岸村】(1) 百度批量新增 百度网盘批量导入：时政】2025小黑全年时政【zg+上岸村】(1) knk9 baidu https://pan.baidu.com/s/174llj09ZvNC_iND0LfzujQ?pwd=knk9",
+      "url": "https://pan.baidu.com/s/174llj09ZvNC_iND0LfzujQ?pwd=knk9"
     },
     {
       "id": "r1340",
       "title": "2025年时政讲练班【CG",
       "platform": "baidu",
-      "code": "",
+      "code": "knk9",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2025年时政讲练班【CG",
       "sources": [
@@ -22835,13 +22846,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2025年时政讲练班【CG 百度批量新增 百度网盘批量导入：2025年时政讲练班【CG baidu"
+      "searchText": "2025年时政讲练班【CG 百度批量新增 百度网盘批量导入：2025年时政讲练班【CG knk9 baidu https://pan.baidu.com/s/1nX4mTJGYFmHAsGYWHI2xxg?pwd=knk9",
+      "url": "https://pan.baidu.com/s/1nX4mTJGYFmHAsGYWHI2xxg?pwd=knk9"
     },
     {
       "id": "r1341",
       "title": "07】2026年上岸村张薇公安时政点兵营",
       "platform": "baidu",
-      "code": "",
+      "code": "knk9",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：07】2026年上岸村张薇公安时政点兵营",
       "sources": [
@@ -22851,13 +22863,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "07】2026年上岸村张薇公安时政点兵营 百度批量新增 百度网盘批量导入：07】2026年上岸村张薇公安时政点兵营 baidu"
+      "searchText": "07】2026年上岸村张薇公安时政点兵营 百度批量新增 百度网盘批量导入：07】2026年上岸村张薇公安时政点兵营 knk9 baidu https://pan.baidu.com/s/1ZRs_CncSmf6PJ9wZ1mfwzA?pwd=knk9",
+      "url": "https://pan.baidu.com/s/1ZRs_CncSmf6PJ9wZ1mfwzA?pwd=knk9"
     },
     {
       "id": "r1342",
       "title": "2026秦明时政热点专项课",
       "platform": "baidu",
-      "code": "",
+      "code": "knk9",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026秦明时政热点专项课",
       "sources": [
@@ -22867,7 +22880,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026秦明时政热点专项课 百度批量新增 百度网盘批量导入：2026秦明时政热点专项课 baidu"
+      "searchText": "2026秦明时政热点专项课 百度批量新增 百度网盘批量导入：2026秦明时政热点专项课 knk9 baidu https://pan.baidu.com/s/1H4k9rA5_bJKMkO4nHWjXwQ?pwd=knk9",
+      "url": "https://pan.baidu.com/s/1H4k9rA5_bJKMkO4nHWjXwQ?pwd=knk9"
     }
   ]
 };
