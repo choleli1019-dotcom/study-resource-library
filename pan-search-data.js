@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-13T01:41:04.304Z",
+  "generatedAt": "2026-08-13T01:42:08.354Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -14829,10 +14829,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r869",
       "title": "27公基常识时政",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1Xq07LMhQJpUlN8uym29wjw?pwd=21sk",
+      "url": "https://pan.baidu.com/s/1cKxWqta2dLs_j8fL3KofCA?pwd=rt5u",
       "code": "21sk",
       "section": "公考类",
-      "context": "27公基常识时政 链接：https://pan.baidu.com/s/1Xq07LMhQJpUlN8uym29wjw?pwd=21sk 提取码：21sk",
+      "context": "27公基常识时政 链接：https://pan.baidu.com/s/1cKxWqta2dLs_j8fL3KofCA?pwd=rt5u 提取码：21sk",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -14840,7 +14840,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "27公基常识时政 公考类 27公基常识时政 链接：https://pan.baidu.com/s/1Xq07LMhQJpUlN8uym29wjw?pwd=21sk 提取码：21sk 21sk baidu https://pan.baidu.com/s/1Xq07LMhQJpUlN8uym29wjw?pwd=21sk"
+      "searchText": "27公基常识时政 公考类 27公基常识时政 链接：https://pan.baidu.com/s/1cKxWqta2dLs_j8fL3KofCA?pwd=rt5u 提取码：21sk 21sk baidu https://pan.baidu.com/s/1cKxWqta2dLs_j8fL3KofCA?pwd=rt5u"
     },
     {
       "id": "r870",
