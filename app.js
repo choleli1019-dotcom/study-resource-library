@@ -1397,3 +1397,21 @@ bindSearchWelcomeModal();
 bindSearchSuggestBox();
 loadLinkHealth();
 loadServerPanLinks();
+// 2026-08-13: live hero clock.
+(() => {
+  const clock = document.querySelector("#siteLiveClock");
+  if (!clock) return;
+  const formatter = new Intl.DateTimeFormat("zh-CN", {
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: false
+  });
+  const renderClock = () => {
+    const now = new Date();
+    clock.dateTime = now.toISOString();
+    clock.textContent = formatter.format(now);
+  };
+  renderClock();
+  window.setInterval(renderClock, 1000);
+})();

@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>学习资源库</title>
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=20260713-icon1" />
-    <link rel="stylesheet" href="styles.css?v=20260813-hero-art1" />
+    <link rel="stylesheet" href="styles.css?v=20260813-live-status1" />
   </head>
   <body class="theme-light">
     <video id="ambientBackgroundVideo" class="site-background-video" muted loop playsinline webkit-playsinline preload="metadata" aria-hidden="true" disablePictureInPicture controlslist="nodownload nofullscreen noremoteplayback" x-webkit-airplay="deny">
@@ -81,10 +81,23 @@
               <span><strong>30+</strong> 资料入口</span>
               <span><strong>持续</strong> 更新</span>
             </div>
-          </div>
-          <div class="hero-art">
-            <img src="assets/my-cover.jpg" alt="学习资料库封面" />
-            <span class="hero-stamp">Sky Study Hub</span>
+          </div>          <div class="hero-visual">
+            <section class="hero-live-panel" aria-label="资料库在线状态">
+              <div class="hero-live-header">
+                <span class="hero-live-status"><i aria-hidden="true"></i>资料库在线</span>
+                <time id="siteLiveClock" aria-live="off"></time>
+              </div>
+              <p>资源正在持续整理与更新</p>
+              <div class="hero-live-services" aria-label="当前可用服务">
+                <span><i aria-hidden="true"></i>资源搜索</span>
+                <span><i aria-hidden="true"></i>目录导航</span>
+                <span><i aria-hidden="true"></i>内容浏览</span>
+              </div>
+            </section>
+            <div class="hero-art">
+              <img src="assets/my-cover.jpg" alt="学习资料库封面" />
+              <span class="hero-stamp">Sky Study Hub</span>
+            </div>
           </div>
         </section>
 
@@ -149,6 +162,6 @@
       })();
     </script>
     <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20260808-mobile-portrait-crop"></script>
+    <script src="app.js?v=20260813-live-status1"></script>
   </body>
 </html>
