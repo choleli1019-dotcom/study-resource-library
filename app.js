@@ -797,7 +797,8 @@ async function loadServerPanLinks() {
         context,
         code: item.code || "",
         searchText: item.searchText || [title, section, context, item.code || "", platform].filter(Boolean).join(" "),
-        sources: item.sources || [{ file: "server-admin", line: 1 }]
+        sources: item.sources || [{ file: "server-admin", line: 1 }],
+        createdAt: item.createdAt || item.updatedAt || ""
       });
       existingUrls.add(item.url);
       added += 1;
@@ -1441,3 +1442,267 @@ loadServerPanLinks();
   renderClock();
   window.setInterval(renderClock, 1000);
 })();
+
+
+// 2026-08-13: searchable library controls, genuine popularity and link-care status.
+const resourceSearchExperience = {
+  platform: "all",
+  course: "all",
+  sort: "relevance",
+  insightsLoaded: false,
+  ranking: [],
+  clicksByUrl: new Map(),
+  linkCareByUrl: new Map(),
+  brokenSummary: { pending: 0, recovered: 0 }
+};
+
+function canonicalResourceUrl(value) {
+  try {
+    const url = new URL(String(value || ""), window.location.href);
+    url.hash = "";
+    return url.href.replace(/\/$/, "");
+  } catch (_) {
+    return String(value || "").trim().replace(/\/$/, "");
+  }
+}
+
+async function loadPublicResourceInsights() {
+  if (!serverApiBase || resourceSearchExperience.insightsLoaded) return;
+  resourceSearchExperience.insightsLoaded = true;
+  try {
+    const response = await fetch(`${serverApiBase}/api/public-insights`, { headers: { Accept: "application/json" } });
+    if (!response.ok) return;
+    const data = await response.json();
+    resourceSearchExperience.ranking = Array.isArray(data.ranking) ? data.ranking : [];
+    resourceSearchExperience.clicksByUrl = new Map(resourceSearchExperience.ranking
+      .filter((item) => item?.url)
+      .map((item) => [canonicalResourceUrl(item.url), Number(item.count || 0)]));
+    resourceSearchExperience.linkCareByUrl = new Map();
+    (Array.isArray(data.linkCare) ? data.linkCare : []).forEach((item) => {
+      const status = item?.status === "recovered" ? "recovered" : "pending";
+      const target = status === "recovered" ? item.replacementUrl : item.url;
+      if (!target) return;
+      const key = canonicalResourceUrl(target);
+      const previous = resourceSearchExperience.linkCareByUrl.get(key);
+      if (!previous || status === "pending") resourceSearchExperience.linkCareByUrl.set(key, status);
+    });
+    resourceSearchExperience.brokenSummary = {
+      pending: Number(data?.brokenSummary?.pending || 0),
+      recovered: Number(data?.brokenSummary?.recovered || 0)
+    };
+    if (state.query.trim()) renderPanSearchResults();
+  } catch (_) {
+    // Search remains fully usable if public metrics are temporarily unavailable.
+  }
+}
+
+function getSearchCourseOptions(items) {
+  return [...new Set(items.map((item) => String(item.section || "未分类").trim()).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b, "zh-CN"))
+    .slice(0, 18);
+}
+
+function getItemClickCount(item) {
+  return Number(resourceSearchExperience.clicksByUrl.get(canonicalResourceUrl(item?.url)) || 0);
+}
+
+function getLinkCareStatus(item) {
+  return resourceSearchExperience.linkCareByUrl.get(canonicalResourceUrl(item?.url)) || "";
+}
+
+function renderLinkCareStatus(item) {
+  const status = getLinkCareStatus(item);
+  if (status === "pending") return '<span class="link-care-status is-pending">待补链</span>';
+  if (status === "recovered") return '<span class="link-care-status is-recovered">已恢复</span>';
+  return '';
+}
+
+function getSmartSearchSuggestions(queryTokens) {
+  const normalizedQuery = panSearchNormalize(queryTokens.join(" "));
+  const candidates = [];
+  const push = (term) => {
+    const value = String(term || "").trim();
+    if (value.length < 2 || candidates.includes(value)) return;
+    candidates.push(value);
+  };
+
+  hotSearchTerms.forEach((term) => {
+    const normalized = panSearchNormalize(term);
+    if (normalized.includes(normalizedQuery) || normalizedQuery.includes(normalized)) push(term);
+  });
+  panSearchData.items.forEach((item) => {
+    const title = String(item?.title || "").trim();
+    const normalized = panSearchNormalize(title);
+    if (queryTokens.some((token) => normalized.includes(token) || token.includes(normalized.slice(0, Math.min(4, normalized.length))))) push(title);
+  });
+  hotSearchTerms.forEach(push);
+  return candidates.slice(0, 5);
+}
+
+function renderSmartSearchEmpty(queryTokens) {
+  const suggestions = getSmartSearchSuggestions(queryTokens);
+  return `
+    <section class="search-smart-empty">
+      <span class="panel-label">智能兜底</span>
+      <h3>暂时没有找到完全匹配的资料</h3>
+      <p>可以试试老师简称、课程模块或下面这些相关入口。</p>
+      <div class="smart-suggestion-list">
+        ${suggestions.map((term) => `<button type="button" data-smart-search="${panSearchEscapeHtml(term)}">${panSearchEscapeHtml(term)}</button>`).join("")}
+      </div>
+      <a href="https://di0occkvoyb.feishu.cn/wiki/Id1JwO5fZibz9skPcpgcJoxqnOb" target="_blank" rel="noopener noreferrer">提交资料需求</a>
+    </section>
+  `;
+}
+
+function renderPopularityBoard() {
+  const ranking = resourceSearchExperience.ranking.slice(0, 5);
+  if (!resourceSearchExperience.insightsLoaded || !ranking.length) {
+    return '<section class="popularity-board is-empty"><span>热度排行</span><p>真实点击数据正在积累，稍后会在这里显示。</p></section>';
+  }
+  return `
+    <section class="popularity-board" aria-label="资源点击热度排行">
+      <div class="popularity-heading"><span>真实点击热度</span><small>按用户实际点击累计</small></div>
+      <ol>
+        ${ranking.map((item, index) => `
+          <li>
+            <span class="popularity-rank">${index + 1}</span>
+            <a class="open-link" href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${panSearchEscapeHtml(item.label || "资料入口")}</a>
+            <b>${Number(item.count || 0)} 次</b>
+          </li>
+        `).join("")}
+      </ol>
+    </section>
+  `;
+}
+
+function renderLinkCareSummary() {
+  const summary = resourceSearchExperience.brokenSummary;
+  if (!resourceSearchExperience.insightsLoaded) return '';
+  return `<div class="link-care-summary"><span>链接维护</span><b>待补链 ${summary.pending}</b><i>已恢复 ${summary.recovered}</i></div>`;
+}
+
+function renderSearchControls(items) {
+  const courses = getSearchCourseOptions(items);
+  if (resourceSearchExperience.course !== "all" && !courses.includes(resourceSearchExperience.course)) resourceSearchExperience.course = "all";
+  const chip = (value, label, active) => `<button type="button" class="search-filter-chip${active ? " is-active" : ""}" data-search-platform="${value}">${label}</button>`;
+  return `
+    <div class="search-control-bar" aria-label="搜索结果筛选">
+      <div class="search-filter-group"><span>来源</span>${chip("all", "全部", resourceSearchExperience.platform === "all")}${chip("baidu", "百度", resourceSearchExperience.platform === "baidu")}${chip("quark", "夸克", resourceSearchExperience.platform === "quark")}</div>
+      <label class="search-course-filter"><span>课程类型</span><select data-search-course><option value="all">全部课程</option>${courses.map((course) => `<option value="${panSearchEscapeHtml(course)}"${resourceSearchExperience.course === course ? " selected" : ""}>${panSearchEscapeHtml(course)}</option>`).join("")}</select></label>
+      <div class="search-sort-group"><span>排序</span>${chip("relevance", "相关", resourceSearchExperience.sort === "relevance").replace('data-search-platform=', 'data-search-sort=')}${chip("hot", "热度", resourceSearchExperience.sort === "hot").replace('data-search-platform=', 'data-search-sort=')}${chip("latest", "最新", resourceSearchExperience.sort === "latest").replace('data-search-platform=', 'data-search-sort=')}</div>
+    </div>
+  `;
+}
+
+function sortSearchItems(items) {
+  const withIndex = items.map((item, index) => ({ item, index }));
+  if (resourceSearchExperience.sort === "hot") {
+    return withIndex.sort((a, b) => getItemClickCount(b.item) - getItemClickCount(a.item) || a.index - b.index).map((entry) => entry.item);
+  }
+  if (resourceSearchExperience.sort === "latest") {
+    return withIndex.sort((a, b) => new Date(b.item.createdAt || b.item.addedAt || 0).getTime() - new Date(a.item.createdAt || a.item.addedAt || 0).getTime() || a.index - b.index).map((entry) => entry.item);
+  }
+  return items;
+}
+
+function bindSearchExperienceControls(container) {
+  container.querySelectorAll("[data-search-platform]").forEach((button) => button.addEventListener("click", () => {
+    resourceSearchExperience.platform = button.dataset.searchPlatform || "all";
+    renderPanSearchResults();
+  }));
+  container.querySelectorAll("[data-search-sort]").forEach((button) => button.addEventListener("click", () => {
+    resourceSearchExperience.sort = button.dataset.searchSort || "relevance";
+    renderPanSearchResults();
+  }));
+  container.querySelector("[data-search-course]")?.addEventListener("change", (event) => {
+    resourceSearchExperience.course = event.target.value || "all";
+    renderPanSearchResults();
+  });
+  container.querySelectorAll("[data-smart-search]").forEach((button) => button.addEventListener("click", () => applySearchTerm(button.dataset.smartSearch || "")));
+}
+
+function renderPanSearchResults() {
+  const container = document.querySelector("#panSearchResults");
+  if (!container) return;
+  const queryTokens = panSearchTokens(state.query);
+  if (!queryTokens.length) { container.hidden = true; container.innerHTML = ""; return; }
+
+  const allMatched = panSearchData.items.filter((item) => panSearchItemMatches(item, queryTokens));
+  const sourceMatched = allMatched.filter((item) => resourceSearchExperience.platform === "all" || item.platform === resourceSearchExperience.platform);
+  const courseMatched = sourceMatched.filter((item) => resourceSearchExperience.course === "all" || String(item.section || "未分类") === resourceSearchExperience.course);
+  const visible = sortSearchItems(courseMatched).slice(0, 80);
+  const totals = panSearchData.totals?.unique || {};
+
+  container.hidden = false;
+  container.innerHTML = `
+    <header class="pan-search-header">
+      <div><span class="panel-label">网盘搜索</span><h2>“${panSearchEscapeHtml(state.query)}” 的资料结果</h2><p>原始匹配 ${allMatched.length} 条；当前显示 ${visible.length} 条。索引库约 ${totals.total || panSearchData.items.length} 条链接。</p></div>
+      <button class="pan-clear-button" type="button">清空搜索</button>
+    </header>
+    ${renderSearchControls(allMatched)}
+    ${renderLinkCareSummary()}
+    ${renderPopularityBoard()}
+    <div class="pan-result-grid is-unified">
+      <section class="pan-result-column is-wide"><div class="pan-column-heading"><h3>筛选结果</h3><span>${visible.length}</span></div><div class="pan-result-list">${visible.length ? visible.map((item) => renderPanSearchItem(item, queryTokens)).join("") : renderSmartSearchEmpty(queryTokens)}</div></section>
+    </div>
+  `;
+
+  container.querySelector(".pan-clear-button")?.addEventListener("click", () => { const input = document.querySelector("#searchInput"); state.query = ""; input.value = ""; renderResources(); renderPanSearchResults(); });
+  bindSearchExperienceControls(container);
+  container.querySelectorAll("[data-copy-url]").forEach((button) => button.addEventListener("click", async () => { const copied = await copyPanSearchText(button.dataset.copyUrl); sendServerEvent("copy_link", { url: button.dataset.copyUrl, query: state.query.trim() }); button.textContent = copied ? "已复制" : "手动复制"; window.setTimeout(() => { button.textContent = "复制"; }, 1300); }));
+  container.querySelectorAll("[data-report-broken]").forEach((button) => button.addEventListener("click", () => { if (!window.confirm("请仅在已打开网盘并确认链接失效后提交。确认后将进入待补链队列。")) return; const payload = { title: button.dataset.reportTitle || "", url: button.dataset.reportBroken || "", platform: button.dataset.reportPlatform || "", query: state.query.trim() }; sendServerEvent("broken_link", payload); trackBaiduEvent("resource_feedback", "broken_link", payload.title || payload.url); resourceSearchExperience.linkCareByUrl.set(canonicalResourceUrl(payload.url), "pending"); resourceSearchExperience.brokenSummary.pending += 1; showSiteToast("已加入待补链队列，维护完成后会显示已恢复"); renderPanSearchResults(); }));
+}
+
+function renderPanSearchItem(item, queryTokens) {
+  const platformName = item.platform === "quark" ? "夸克" : "百度";
+  const clicks = getItemClickCount(item);
+  return `
+    <article class="pan-result-item">
+      <div class="pan-result-topline"><span class="pan-badge ${item.platform}">${platformName}</span>${renderLinkCareStatus(item)}<span>${panSearchEscapeHtml(panSearchSourceName(item))}</span>${clicks ? `<span class="result-heat">热度 ${clicks}</span>` : ""}</div>
+      <h4>${panSearchHighlight(item.title, queryTokens)}</h4>
+      <p>${panSearchHighlight(item.context, queryTokens)}</p>
+      ${item.code ? `<p class="pan-code">提取码：${panSearchEscapeHtml(item.code)}</p>` : ""}
+      <div class="pan-result-actions"><a href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">打开网盘</a><button type="button" data-copy-url="${panSearchEscapeHtml(item.url)}">复制</button><button class="pan-report-button" type="button" data-report-broken="${panSearchEscapeHtml(item.url)}" data-report-title="${panSearchEscapeHtml(item.title)}" data-report-platform="${panSearchEscapeHtml(item.platform)}" title="确认打开后看到官方失效提示，再提交反馈">确认失效</button></div>
+    </article>
+  `;
+}
+
+function addMobileSearchDock() {
+  if (document.querySelector("#mobileSearchDock")) return;
+  const button = document.createElement("button");
+  button.id = "mobileSearchDock";
+  button.className = "mobile-search-dock";
+  button.type = "button";
+  button.setAttribute("aria-label", "打开资料搜索");
+  button.innerHTML = '<span aria-hidden="true">⌕</span> 搜索资料';
+  button.addEventListener("click", () => { document.querySelector(".hero-search")?.scrollIntoView({ behavior: "smooth", block: "center" }); window.setTimeout(() => document.querySelector("#searchInput")?.focus(), 260); });
+  document.body.append(button);
+  const update = () => button.classList.toggle("is-visible", window.scrollY > Math.max(420, window.innerHeight * 0.65));
+  window.addEventListener("scroll", update, { passive: true });
+  update();
+}
+
+addMobileSearchDock();
+loadPublicResourceInsights();
+function getTrackedResourceLabel(link) {
+  const rankItem = link.closest(".popularity-board li");
+  if (rankItem) return `热度排行｜${link.textContent.trim().replace(/\s+\d+\s*次$/, "")}`;
+
+  const panItem = link.closest(".pan-result-item");
+  if (panItem) {
+    const title = panItem.querySelector("h4")?.textContent?.trim();
+    return title ? `网盘搜索｜${title}` : "";
+  }
+  const card = link.closest(".resource-card");
+  if (card) {
+    const title = card.querySelector("h3")?.textContent?.trim();
+    return title ? `资料卡片｜${title}` : "";
+  }
+  const section = link.closest(".section-block");
+  if (section) {
+    const title = section.querySelector(".section-header h2")?.textContent?.trim();
+    return title ? `板块入口｜${title}` : "";
+  }
+  if (link.classList.contains("quick-link")) return `快捷入口｜${link.textContent.trim()}`;
+  return "";
+}
