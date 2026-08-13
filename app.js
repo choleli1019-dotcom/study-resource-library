@@ -993,8 +993,35 @@ function applySearchTerm(term) {
   document.querySelector("#panSearchResults")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
+const SEARCH_WELCOME_SEEN_KEY = "study-resource-search-welcome-seen-v1";
+
+function hasSeenSearchWelcome() {
+  try {
+    return window.localStorage.getItem(SEARCH_WELCOME_SEEN_KEY) === "1";
+  } catch (_) {
+    return false;
+  }
+}
+
+function markSearchWelcomeSeen() {
+  try {
+    window.localStorage.setItem(SEARCH_WELCOME_SEEN_KEY, "1");
+  } catch (_) {
+    // Keep the page usable if browser storage is unavailable.
+  }
+}
+
 function closeSearchWelcomeModal() {
   document.querySelector("#searchWelcomeModal")?.classList.add("is-hidden");
+  markSearchWelcomeSeen();
+}
+
+function openSearchWelcomeModal() {
+  const modal = document.querySelector("#searchWelcomeModal");
+  const input = document.querySelector("#welcomeSearchInput");
+  if (!modal) return;
+  modal.classList.remove("is-hidden");
+  window.setTimeout(() => input?.focus(), 0);
 }
 
 function submitWelcomeSearch() {
@@ -1037,10 +1064,9 @@ function bindSearchWelcomeModal() {
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") closeSearchWelcomeModal();
   });
-  window.setTimeout(() => {
-    modal.classList.remove("is-hidden");
-    modalInput?.focus();
-  }, 180);
+  if (!hasSeenSearchWelcome()) {
+    window.setTimeout(openSearchWelcomeModal, 180);
+  }
 }
 
 function applyTheme(theme) {
@@ -1199,7 +1225,7 @@ function bindEvents() {
   document.querySelector("#heroSearchButton")?.addEventListener("click", () => {
     const input = document.querySelector("#searchInput");
     if (!input.value.trim()) {
-      input.focus();
+      openSearchWelcomeModal();
       return;
     }
     applySearchTerm(input.value);
