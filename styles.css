@@ -6811,4 +6811,72 @@ body.theme-light .hero-copy .hero-blessing {
     align-self: start !important;
     aspect-ratio: 16 / 7.2 !important;
   }
+}/* 2026-08-14: ensure the blessing keeps its warm gold in the light theme. */
+body.theme-light .hero-copy > p.hero-blessing:not(.eyebrow) {
+  border-left-color: #c9931f !important;
+  color: #ad7306 !important;
+  font-weight: 700 !important;
+  text-shadow: 0 1px 8px rgba(255, 250, 222, 0.96) !important;
+}
+
+body:not(.theme-light) .hero-copy > p.hero-blessing:not(.eyebrow) {
+  border-left-color: #e3b647 !important;
+  color: #f2cb67 !important;
+  font-weight: 700 !important;
+}
+/* 2026-08-14: give the hero copy an iOS-style frosted glass hierarchy. */
+.hero-copy {
+  position: relative;
+  isolation: isolate;
+  padding: 34px 36px 32px;
+  border: 1px solid rgba(255, 255, 255, 0.56);
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at 18% 0%, rgba(255, 255, 255, 0.5), transparent 42%),
+    linear-gradient(135deg, rgba(250, 255, 255, 0.34), rgba(207, 234, 240, 0.18));
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.72),
+    inset 0 -1px 0 rgba(31, 111, 117, 0.08),
+    0 22px 50px rgba(14, 55, 69, 0.18);
+  -webkit-backdrop-filter: saturate(165%) blur(24px);
+  backdrop-filter: saturate(165%) blur(24px);
+}
+
+.hero-copy::before {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 8%;
+  left: 8%;
+  height: 1px;
+  content: "";
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.95), transparent);
+}
+
+.hero-copy > * {
+  position: relative;
+}
+
+.hero-copy .eyebrow {
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.72), 0 8px 18px rgba(8, 85, 73, 0.1);
+}
+
+body:not(.theme-light) .hero-copy {
+  border-color: rgba(168, 235, 219, 0.18);
+  background:
+    radial-gradient(circle at 18% 0%, rgba(128, 255, 218, 0.12), transparent 42%),
+    linear-gradient(135deg, rgba(10, 53, 61, 0.56), rgba(7, 34, 43, 0.38));
+  box-shadow:
+    inset 0 1px 0 rgba(208, 255, 236, 0.12),
+    inset 0 -1px 0 rgba(0, 0, 0, 0.12),
+    0 22px 50px rgba(0, 0, 0, 0.22);
+}
+
+@media (max-width: 767px) {
+  .hero-copy {
+    padding: 24px 18px 22px;
+    border-radius: 24px;
+    -webkit-backdrop-filter: saturate(150%) blur(18px);
+    backdrop-filter: saturate(150%) blur(18px);
+  }
 }
