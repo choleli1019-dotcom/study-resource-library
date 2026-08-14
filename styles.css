@@ -8101,3 +8101,21 @@ html body:not(.theme-light) .main .hero-copy #hotSearches button {
   html body .main .hero-live-panel.has-site-notice .hero-live-services > span > b { grid-column:2 !important; grid-row:1 !important; align-self:end !important; font-size:12px !important; line-height:1.1 !important; }
   html body .main .hero-live-panel.has-site-notice .hero-live-services > span > small { display:block !important; grid-column:2 !important; grid-row:2 !important; align-self:start !important; min-width:0 !important; overflow:hidden !important; color:rgba(239,255,249,.84) !important; font-size:8px !important; line-height:1.15 !important; white-space:nowrap !important; text-overflow:ellipsis !important; }
 }
+/* 2026-08-14: mobile top navigation optical centering. */
+@media (max-width: 767px) {
+  html body .sidebar {
+    height:64px !important;
+    min-height:64px !important;
+    padding-top:6px !important;
+    padding-bottom:6px !important;
+    box-sizing:border-box !important;
+  }
+  html body .sidebar .brand {
+    align-self:center !important;
+    transform:translateY(2px) !important;
+  }
+  html body .sidebar .section-nav {
+    align-self:center !important;
+    transform:translateY(2px) !important;
+  }
+}
