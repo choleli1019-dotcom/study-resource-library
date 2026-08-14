@@ -6879,4 +6879,40 @@ body:not(.theme-light) .hero-copy {
     -webkit-backdrop-filter: saturate(150%) blur(18px);
     backdrop-filter: saturate(150%) blur(18px);
   }
+}/* 2026-08-14: use the full desktop hero height for the paired status and cover cards. */
+@media (min-width: 1024px) {
+  .hero {
+    align-items: stretch !important;
+  }
+
+  .hero-visual {
+    align-self: stretch !important;
+    grid-template-rows: minmax(min-content, 0.88fr) minmax(0, 1.12fr);
+  }
+
+  .hero-live-panel.has-site-notice,
+  .hero-live-panel.has-site-notice + .hero-art {
+    width: min(100%, 520px) !important;
+    max-width: 520px !important;
+    height: 100%;
+  }
+
+  .hero-live-panel.has-site-notice {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-sizing: border-box;
+  }
+
+  .hero-live-panel.has-site-notice + .hero-art {
+    align-self: stretch !important;
+    aspect-ratio: auto !important;
+  }
+
+  .hero-live-panel.has-site-notice + .hero-art img {
+    width: 100% !important;
+    height: 100% !important;
+    object-fit: cover;
+    object-position: center;
+  }
 }
