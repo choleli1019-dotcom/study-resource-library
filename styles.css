@@ -7662,3 +7662,47 @@ body:not(.theme-light) .hero-copy > p:not(.eyebrow):not(.hero-blessing) { color:
   body .main .daily-quote-mark { font-size:clamp(45px,4vw,62px) !important; }
   body .main .daily-quote-copy p { margin-top:clamp(14px,1.15vw,18px) !important; font-size:clamp(29px,2.7vw,43px) !important; line-height:1.32 !important; }
 }
+
+/* 2026-08-14: reference width lock — remove legacy 1240/520 clamps. */
+@media (orientation: landscape) {
+  body .main {
+    width: min(calc(100% - 48px), 1680px) !important;
+    max-width: none !important;
+  }
+  body .main .hero,
+  body .main .hero-copy,
+  body .main .hero-visual,
+  body .main .hero-live-panel,
+  body .main .hero-art {
+    width: 100% !important;
+    max-width: none !important;
+    justify-self: stretch !important;
+  }
+  body .main .hero-visual { min-width: 0 !important; }
+
+  /* The supplied reference's lower-right card is used at its original crop. */
+  body .main .hero-art {
+    background-image: url("assets/reference-daily-card.png") !important;
+    background-size: 213.74% 192.86% !important;
+    background-position: 96.1% 94.5% !important;
+    background-repeat: no-repeat !important;
+  }
+  body .main .hero-art::before,
+  body .main .hero-art::after,
+  body .main .hero-art > * { display: none !important; }
+}
+
+/* 2026-08-14: supplied daily-card artwork — header remains live, artwork is not duplicated. */
+@media (orientation: landscape) {
+  body .main .hero-art {
+    background-image: url("assets/daily-reference-card.png") !important;
+    background-size: cover !important;
+    background-position: center !important;
+  }
+  body .main .hero-art::before,
+  body .main .hero-art::after { display: none !important; }
+  body .main .hero-art > img,
+  body .main .daily-quote-copy,
+  body .main .hero-stamp { display: none !important; }
+  body .main .daily-quote-head { display: flex !important; z-index: 3 !important; }
+}
