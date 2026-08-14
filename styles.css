@@ -8204,3 +8204,170 @@ body.theme-light .main .hero-copy {
     backdrop-filter:blur(16px) saturate(112%) !important;
   }
 }
+/* Search controls and result header: clearer hierarchy and safer inner spacing. */
+html body .sidebar .brand,
+html body .sidebar .brand > span:not(.brand-mark) {
+  background: transparent !important;
+  box-shadow: none !important;
+  border: 0 !important;
+}
+html body .sidebar .brand::after {
+  display: none !important;
+}
+@media (min-width: 768px) {
+  html body .sidebar .brand {
+    width: auto !important;
+    max-width: none !important;
+    min-width: 0 !important;
+    padding-right: 0 !important;
+  }
+}
+
+.search-control-bar {
+  align-items: center !important;
+  gap: 18px !important;
+  padding: 0 28px 22px !important;
+}
+.search-filter-group,
+.search-sort-group,
+.search-course-filter {
+  gap: 10px !important;
+}
+.search-filter-group > span,
+.search-sort-group > span,
+.search-course-filter > span {
+  color: #3d526a !important;
+  font-size: 13px !important;
+  font-weight: 850 !important;
+  letter-spacing: .02em;
+}
+.search-filter-group .search-filter-chip {
+  min-width: 62px;
+}
+.search-filter-chip {
+  min-height: 38px !important;
+  padding: 0 15px !important;
+  color: #24506d !important;
+  border: 1px solid rgba(25, 103, 175, .28) !important;
+  background: rgba(255, 255, 255, .84) !important;
+  box-shadow: 0 4px 12px rgba(17, 70, 105, .09) !important;
+  font-size: 13px !important;
+  font-weight: 850 !important;
+}
+.search-filter-chip:hover,
+.search-filter-chip.is-active {
+  color: #fff !important;
+  border-color: #0878ee !important;
+  background: linear-gradient(135deg, #168dff, #006ce8) !important;
+  box-shadow: 0 7px 16px rgba(0, 105, 232, .26) !important;
+}
+.search-course-filter select {
+  min-height: 38px !important;
+  padding: 0 38px 0 14px !important;
+  color: #234c69 !important;
+  border-color: rgba(25, 103, 175, .28) !important;
+  background-color: rgba(255, 255, 255, .9) !important;
+  box-shadow: 0 4px 12px rgba(17, 70, 105, .08) !important;
+  font-weight: 800 !important;
+}
+.pan-result-grid.is-unified .pan-column-heading {
+  min-height: 68px;
+  margin: 0 !important;
+  padding: 22px 22px 16px !important;
+}
+.pan-result-grid.is-unified .pan-column-heading h3 {
+  margin: 0 !important;
+}
+.pan-result-grid.is-unified .pan-column-heading span {
+  margin: 0 !important;
+  flex: 0 0 auto;
+}
+@media (max-width: 767px) {
+  .search-control-bar {
+    align-items: flex-start !important;
+    gap: 12px !important;
+    padding: 0 18px 18px !important;
+  }
+  .search-filter-group,
+  .search-sort-group,
+  .search-course-filter {
+    gap: 8px !important;
+  }
+  .search-filter-chip {
+    min-height: 35px !important;
+    padding: 0 12px !important;
+    font-size: 12px !important;
+  }
+  .search-filter-group .search-filter-chip {
+    min-width: 58px;
+  }
+  .search-course-filter select {
+    min-height: 35px !important;
+  }
+  .pan-result-grid.is-unified .pan-column-heading {
+    min-height: 60px;
+    padding: 18px 16px 13px !important;
+  }
+}
+/* Strong rain-on-glass treatment for the left hero panel. */
+body.theme-light .main .hero-copy {
+  position: relative !important;
+  isolation: isolate;
+  overflow: hidden;
+  background:
+    linear-gradient(135deg, rgba(239, 252, 251, .67), rgba(211, 239, 239, .50) 52%, rgba(232, 248, 246, .60)) !important;
+  border: 1px solid rgba(255, 255, 255, .74) !important;
+  box-shadow:
+    0 24px 60px rgba(5, 44, 50, .24),
+    inset 0 1px 0 rgba(255, 255, 255, .88),
+    inset 0 -1px 0 rgba(31, 111, 111, .13) !important;
+  -webkit-backdrop-filter: blur(32px) saturate(132%) brightness(1.06) !important;
+  backdrop-filter: blur(32px) saturate(132%) brightness(1.06) !important;
+}
+body.theme-light .main .hero-copy::before {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  inset: 0;
+  pointer-events: none;
+  opacity: .82;
+  background:
+    radial-gradient(ellipse 7px 14px at 8% 15%, rgba(255,255,255,.55) 0 18%, rgba(165,221,223,.16) 38%, transparent 70%),
+    radial-gradient(ellipse 5px 11px at 26% 9%, rgba(255,255,255,.48) 0 18%, rgba(130,202,207,.14) 40%, transparent 72%),
+    radial-gradient(ellipse 8px 16px at 42% 29%, rgba(255,255,255,.45) 0 18%, rgba(105,190,197,.13) 40%, transparent 73%),
+    radial-gradient(ellipse 5px 12px at 69% 16%, rgba(255,255,255,.48) 0 18%, rgba(102,184,192,.13) 42%, transparent 74%),
+    radial-gradient(ellipse 7px 15px at 87% 35%, rgba(255,255,255,.46) 0 18%, rgba(105,188,194,.14) 40%, transparent 73%),
+    radial-gradient(ellipse 6px 14px at 17% 74%, rgba(255,255,255,.42) 0 18%, rgba(109,194,199,.12) 40%, transparent 73%),
+    repeating-linear-gradient(106deg, transparent 0 65px, rgba(255,255,255,.12) 66px, rgba(255,255,255,.03) 67px, transparent 69px 138px),
+    linear-gradient(115deg, rgba(255,255,255,.16), transparent 34%, rgba(137,219,220,.13) 68%, transparent 100%);
+  background-size: 190px 180px, 240px 220px, 260px 240px, 220px 200px, 260px 230px, 220px 210px, auto, auto;
+  animation: hero-glass-rain 14s linear infinite;
+}
+body.theme-light .main .hero-copy::after {
+  content: '';
+  position: absolute;
+  inset: 1px;
+  z-index: -1;
+  border-radius: inherit;
+  pointer-events: none;
+  background: linear-gradient(125deg, rgba(255,255,255,.28), transparent 31%, rgba(255,255,255,.08) 69%, rgba(114,205,206,.15));
+  box-shadow: inset 16px 0 28px rgba(255,255,255,.08), inset -20px -16px 30px rgba(23,119,125,.08);
+}
+body.theme-light .main .hero-copy > * {
+  position: relative;
+  z-index: 1;
+}
+@keyframes hero-glass-rain {
+  from { background-position: 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0; }
+  to { background-position: 18px 70px, -12px 88px, 16px 94px, -9px 82px, 13px 98px, -14px 88px, 40px 0, 0 0; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body.theme-light .main .hero-copy::before { animation: none; }
+}
+@media (max-width: 767px) {
+  body.theme-light .main .hero-copy {
+    background: linear-gradient(135deg, rgba(239,252,251,.74), rgba(208,238,238,.58)) !important;
+    -webkit-backdrop-filter: blur(25px) saturate(128%) !important;
+    backdrop-filter: blur(25px) saturate(128%) !important;
+  }
+}
