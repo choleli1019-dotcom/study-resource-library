@@ -8403,3 +8403,45 @@ html body .sidebar a.brand > span:not(.brand-mark) {
   min-width: 0 !important;
   padding: 0 !important;
 }
+/* Keep the paper-boat blessing accent on desktop as well as mobile. */
+.hero-blessing .blessing-boat {
+  position: relative;
+  display: inline-block !important;
+  width: 28px;
+  height: 20px;
+  margin: 0 12px 0 1px;
+  vertical-align: -4px;
+  filter: drop-shadow(0 3px 5px rgba(195, 124, 0, .16));
+}
+.hero-blessing .blessing-boat::before {
+  content: '';
+  position: absolute;
+  left: 6px;
+  top: 1px;
+  width: 17px;
+  height: 15px;
+  border-radius: 2px 9px 2px 9px;
+  background: linear-gradient(135deg, #ffc861 0%, #e99608 82%);
+  clip-path: polygon(50% 0%, 100% 100%, 0% 100%);
+  transform: rotate(-24deg);
+}
+.hero-blessing .blessing-boat::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 1px;
+  width: 27px;
+  height: 8px;
+  border-radius: 0 0 15px 15px;
+  background: linear-gradient(90deg, #d88205, #ffc969 52%, #e79908);
+  clip-path: polygon(0 0, 100% 0, 76% 100%, 21% 100%);
+  transform: skewX(-10deg);
+}
+@media (max-width: 767px) {
+  .hero-blessing .blessing-boat {
+    width: 25px;
+    height: 18px;
+    margin-right: 9px;
+    vertical-align: -3px;
+  }
+}
