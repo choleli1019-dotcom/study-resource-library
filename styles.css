@@ -7988,3 +7988,39 @@ body:not(.theme-light) .overview-samples span::after,
 body:not(.theme-light) .overview-samples a::after { color:#5d84a1 !important; }
 body:not(.theme-light) .overview-card .section-open-button { color:#9ecbff !important; }
 body:not(.theme-light) .section-nav a:not(.is-active) { color:rgba(244,249,255,.86) !important; }
+/* 2026-08-14: all-device dark-mode readability hard lock for the white hero card. */
+html body:not(.theme-light) .main .hero-copy > p:not(.eyebrow):not(.hero-blessing),
+html body:not(.theme-light) .main .hero-copy > p:not(.eyebrow):not(.hero-blessing)::first-line {
+  color:#344f66 !important;
+  opacity:1 !important;
+  text-shadow:none !important;
+  filter:none !important;
+  mix-blend-mode:normal !important;
+}
+html body:not(.theme-light) .main .hero-copy .hero-blessing {
+  color:#a86c00 !important;
+  opacity:1 !important;
+  text-shadow:none !important;
+  filter:none !important;
+}
+html body:not(.theme-light) .main .hero-copy .search-panel-head,
+html body:not(.theme-light) .main .hero-copy .search-panel-head span,
+html body:not(.theme-light) .main .hero-copy .search-panel-head strong {
+  color:#274f58 !important;
+  opacity:1 !important;
+  text-shadow:none !important;
+  filter:none !important;
+}
+html body:not(.theme-light) .main .hero-copy #hotSearches,
+html body:not(.theme-light) .main .hero-copy #hotSearches > span,
+html body:not(.theme-light) .main .hero-copy #hotSearches button {
+  color:#38556c !important;
+  opacity:1 !important;
+  text-shadow:none !important;
+  filter:none !important;
+  mix-blend-mode:normal !important;
+}
+html body:not(.theme-light) .main .hero-copy #hotSearches button {
+  border-color:#d7e0e5 !important;
+  background:#fff !important;
+}
