@@ -1443,7 +1443,6 @@ loadServerPanLinks();
   window.setInterval(renderClock, 1000);
 })();
 
-
 // 2026-08-13: searchable library controls, genuine popularity and link-care status.
 const resourceSearchExperience = {
   platform: "all",
@@ -1566,7 +1565,7 @@ function renderPopularityBoard() {
         ${ranking.map((item, index) => `
           <li>
             <span class="popularity-rank">${index + 1}</span>
-            <a class="open-link" href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${panSearchEscapeHtml(item.label || "资料入口")}</a>
+            <a class="open-link" href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" title="${panSearchEscapeHtml(item.label || "资料入口")}">${panSearchEscapeHtml(item.label || "资料入口")}</a>
             <b>${Number(item.count || 0)} 次</b>
           </li>
         `).join("")}
@@ -1706,7 +1705,6 @@ function getTrackedResourceLabel(link) {
   if (link.classList.contains("quick-link")) return `快捷入口｜${link.textContent.trim()}`;
   return "";
 }
-
 // 2026-08-13: administrator-managed homepage announcement.
 function formatSiteNoticeTime(value) {
   const date = new Date(value || "");

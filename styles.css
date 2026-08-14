@@ -8149,3 +8149,58 @@ html body:not(.theme-light) .main .hero-copy #hotSearches button {
     background:center / contain no-repeat url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 24' fill='none'%3E%3Cpath d='M4 17.5h22L20.2 21H9.7L4 17.5Z' fill='%23D49019'/%3E%3Cpath d='M14.5 3v14.5M14.5 4l8 7.2h-8V4ZM13.6 6.3 7.1 13h6.5V6.3Z' fill='%23E0A129'/%3E%3Cpath d='M3 22c2.2-1.1 4.4-1.1 6.6 0 2.2 1.1 4.4 1.1 6.6 0 2.2-1.1 4.4-1.1 6.6 0' stroke='%23C47E0C' stroke-width='1.15' stroke-linecap='round'/%3E%3C/svg%3E") !important;
   }
 }
+/* 2026-08-14: popularity board — resource names are content, not blue action buttons. */
+.popularity-board li {
+  grid-template-columns:24px minmax(0,1fr) !important;
+  align-items:start !important;
+  gap:7px 9px !important;
+}
+.popularity-board .open-link {
+  display:block !important;
+  min-height:0 !important;
+  padding:0 !important;
+  border:0 !important;
+  border-radius:0 !important;
+  overflow:visible !important;
+  color:#f2fff8 !important;
+  background:transparent !important;
+  box-shadow:none !important;
+  font-size:12px !important;
+  font-weight:800 !important;
+  line-height:1.48 !important;
+  white-space:normal !important;
+  overflow-wrap:anywhere !important;
+  text-overflow:clip !important;
+}
+.popularity-board .open-link:hover {
+  color:#a9ffd2 !important;
+  background:transparent !important;
+  text-decoration:underline !important;
+  transform:none !important;
+  box-shadow:none !important;
+}
+.popularity-board b {
+  grid-column:2 !important;
+  grid-row:2 !important;
+  align-self:end !important;
+  padding-top:1px !important;
+}
+@media (max-width:767px) {
+  .popularity-board li { grid-template-columns:24px minmax(0,1fr) !important; }
+  .popularity-board b { grid-column:2 !important; grid-row:2 !important; }
+}
+/* 2026-08-14: light hero copy becomes a readable, restrained glass surface. */
+body.theme-light .main .hero-copy {
+  background:linear-gradient(135deg,rgba(255,255,255,.88),rgba(247,253,251,.74)) !important;
+  border-color:rgba(255,255,255,.76) !important;
+  box-shadow:0 18px 48px rgba(9,47,51,.16), inset 0 1px 0 rgba(255,255,255,.72) !important;
+  -webkit-backdrop-filter:blur(20px) saturate(118%) !important;
+  backdrop-filter:blur(20px) saturate(118%) !important;
+}
+@media (max-width:700px) {
+  body.theme-light .main .hero-copy {
+    background:linear-gradient(135deg,rgba(255,255,255,.93),rgba(248,253,252,.84)) !important;
+    -webkit-backdrop-filter:blur(16px) saturate(112%) !important;
+    backdrop-filter:blur(16px) saturate(112%) !important;
+  }
+}
