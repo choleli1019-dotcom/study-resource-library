@@ -8024,3 +8024,80 @@ html body:not(.theme-light) .main .hero-copy #hotSearches button {
   border-color:#d7e0e5 !important;
   background:#fff !important;
 }
+/* 2026-08-14: mobile notice must show the full announcement, never ellipsis. */
+@media (max-width: 700px) {
+  html body .main .hero-live-panel.has-site-notice > p {
+    align-items:start !important;
+    row-gap:3px !important;
+  }
+  html body .main .hero-live-panel.has-site-notice > p > strong {
+    display:block !important;
+    overflow:visible !important;
+    white-space:normal !important;
+    text-overflow:clip !important;
+    overflow-wrap:anywhere !important;
+    font-size:14px !important;
+    line-height:1.38 !important;
+  }
+  html body .main .hero-live-panel.has-site-notice > p > small {
+    display:block !important;
+    overflow:visible !important;
+    white-space:normal !important;
+    text-overflow:clip !important;
+    overflow-wrap:anywhere !important;
+    line-height:1.35 !important;
+  }
+}
+/* 2026-08-14: mobile quick-service alignment — one icon and one label on the same baseline. */
+@media (max-width: 700px) {
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span,
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span:first-child {
+    display:flex !important;
+    align-items:center !important;
+    justify-content:flex-start !important;
+    gap:7px !important;
+    min-height:30px !important;
+    padding:0 8px !important;
+  }
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span:first-child { padding-left:0 !important; }
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span > i {
+    display:block !important;
+    flex:0 0 25px !important;
+    width:25px !important;
+    height:25px !important;
+    margin:0 !important;
+  }
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span > i::after {
+    width:13px !important;
+    height:13px !important;
+    margin:5px !important;
+  }
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span > b {
+    display:block !important;
+    min-width:0 !important;
+    overflow:visible !important;
+    white-space:nowrap !important;
+    text-overflow:clip !important;
+    font-size:12px !important;
+    line-height:1 !important;
+  }
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span > small { display:none !important; }
+}
+/* 2026-08-14: mobile quick-service hierarchy — icon left, title above, detail below. */
+@media (max-width: 700px) {
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span,
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span:first-child {
+    display:grid !important;
+    grid-template-columns:25px minmax(0,1fr) !important;
+    grid-template-rows:auto auto !important;
+    align-items:center !important;
+    column-gap:7px !important;
+    row-gap:2px !important;
+    min-height:38px !important;
+    padding:0 8px !important;
+  }
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span:first-child { padding-left:0 !important; }
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span > i { grid-column:1 !important; grid-row:1 / span 2 !important; align-self:center !important; }
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span > b { grid-column:2 !important; grid-row:1 !important; align-self:end !important; font-size:12px !important; line-height:1.1 !important; }
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span > small { display:block !important; grid-column:2 !important; grid-row:2 !important; align-self:start !important; min-width:0 !important; overflow:hidden !important; color:rgba(239,255,249,.84) !important; font-size:8px !important; line-height:1.15 !important; white-space:nowrap !important; text-overflow:ellipsis !important; }
+}
