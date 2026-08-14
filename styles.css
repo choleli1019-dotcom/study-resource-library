@@ -7909,3 +7909,20 @@ body:not(.theme-light) .hero-copy > p:not(.eyebrow):not(.hero-blessing) { color:
   body .main .daily-quote-head, body .main .hero-live-panel.has-site-notice + .hero-art .daily-quote-head { position:relative !important; z-index:2 !important; display:flex !important; height:38px !important; padding:0 15px !important; background:#fff !important; }
   body .main .daily-quote-copy, body .main .hero-live-panel.has-site-notice + .hero-art .daily-quote-copy { display:none !important; }
 }
+/* 2026-08-14: mobile hotfix — invalidate old mobile cascade and keep reference controls intact. */
+@media (max-width: 700px) {
+  html body .main .search-box { display:flex !important; flex-direction:row !important; flex-wrap:nowrap !important; align-items:center !important; gap:8px !important; min-height:54px !important; padding:5px 7px 5px 15px !important; }
+  html body .main .search-box input { flex:1 1 auto !important; width:auto !important; min-width:0 !important; height:42px !important; font-size:15px !important; }
+  html body .main .search-box button { display:flex !important; flex:0 0 86px !important; width:86px !important; height:42px !important; min-height:42px !important; margin:0 !important; padding:0 !important; align-items:center !important; justify-content:center !important; font-size:16px !important; }
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span,
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span:first-child { border:0 !important; outline:0 !important; box-shadow:none !important; background:transparent !important; }
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span + span { border-left:1px solid rgba(235,255,247,.27) !important; }
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span > i::after { content:"" !important; display:block !important; width:12px !important; height:12px !important; margin:4px !important; border:0 !important; border-radius:0 !important; background-color:transparent !important; background-size:contain !important; background-position:center !important; background-repeat:no-repeat !important; box-shadow:none !important; }
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span:nth-child(1) > i::after { background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.4' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='5.5'/%3E%3Cpath d='m15 15 5 5'/%3E%3C/svg%3E") !important; }
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span:nth-child(2) > i::after { background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2.2' stroke-linejoin='round'%3E%3Cpath d='M6 3h12v18l-6-4-6 4z'/%3E%3C/svg%3E") !important; }
+  html body .main .hero-live-panel.has-site-notice .hero-live-services > span:nth-child(3) > i::after { background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23fff' stroke-width='2' stroke-linejoin='round'%3E%3Cpath d='m3 7 9-5 9 5-9 5zM3 7v10l9 5 9-5V7M12 12v10'/%3E%3C/svg%3E") !important; }
+  html body .main .hero-art .daily-quote-copy,
+  html body .main .hero-live-panel.has-site-notice + .hero-art .daily-quote-copy { display:none !important; visibility:hidden !important; opacity:0 !important; }
+  html body .main .hero-stats .hero-stat { border:0 !important; border-radius:0 !important; background:transparent !important; box-shadow:none !important; }
+  html body .main .hero-stats .hero-stat + .hero-stat { border-left:1px solid #d8e4e1 !important; }
+}
