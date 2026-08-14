@@ -8371,3 +8371,35 @@ body.theme-light .main .hero-copy > * {
     backdrop-filter: blur(25px) saturate(128%) !important;
   }
 }
+/* Brand must be text-only: no remaining badge, acrylic plate or divider. */
+html body .sidebar a.brand,
+html body .sidebar a.brand::before,
+html body .sidebar a.brand::after,
+html body .sidebar a.brand > span:not(.brand-mark),
+html body .sidebar a.brand > span:not(.brand-mark)::before,
+html body .sidebar a.brand > span:not(.brand-mark)::after,
+html body .sidebar a.brand strong,
+html body .sidebar a.brand small {
+  background: transparent !important;
+  background-image: none !important;
+  border: 0 !important;
+  box-shadow: none !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+html body .sidebar a.brand {
+  display: inline-flex !important;
+  width: max-content !important;
+  max-width: calc(100vw - 32px) !important;
+  min-width: 0 !important;
+  height: auto !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border-radius: 0 !important;
+}
+html body .sidebar a.brand > span:not(.brand-mark) {
+  display: grid !important;
+  width: auto !important;
+  min-width: 0 !important;
+  padding: 0 !important;
+}
