@@ -6738,7 +6738,8 @@ body.has-animated-background .app-shell {
   margin: 12px 0 0 !important;
   padding: 8px 0 8px 15px;
   border-left: 2px solid rgba(35, 178, 126, 0.72);
-  color: rgba(226, 246, 239, 0.9) !important;
+  color: #f4c75f !important;
+  text-shadow: 0 2px 14px rgba(198, 132, 17, 0.34);
   font-family: "STKaiti", "KaiTi", "STSong", serif;
   font-size: clamp(15px, 1.25vw, 18px) !important;
   font-weight: 600 !important;
@@ -6749,14 +6750,14 @@ body.has-animated-background .app-shell {
 
 body.theme-light .hero-copy .hero-blessing {
   border-left-color: rgba(4, 125, 91, 0.7);
-  color: #285a50 !important;
+  color: #a86e05 !important;
   text-shadow: 0 1px 8px rgba(255, 255, 255, 0.72);
 }
 
 @media (min-width: 768px) {
   .hero-live-panel.has-site-notice {
-    min-height: 220px;
-    padding: 24px 22px 22px;
+    min-height: 0;
+    padding: 20px 22px 19px;
   }
 
   .hero-live-panel.has-site-notice + .hero-art {
@@ -6795,5 +6796,19 @@ body.theme-light .hero-copy .hero-blessing {
   .hero-live-panel.has-site-notice .hero-live-services span {
     padding: 4px 7px;
     font-size: 9px;
+  }
+}
+/* 2026-08-14: align the supporting cover as a compact notice companion. */
+@media (min-width: 768px) {
+  .hero-visual {
+    gap: 14px !important;
+  }
+
+  .hero-live-panel.has-site-notice + .hero-art {
+    width: min(100%, 520px) !important;
+    max-width: 520px !important;
+    justify-self: end !important;
+    align-self: start !important;
+    aspect-ratio: 16 / 7.2 !important;
   }
 }
