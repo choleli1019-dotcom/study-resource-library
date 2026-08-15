@@ -1905,18 +1905,27 @@ function shoreLetterVersion(notice) {
   return active ? `${notice.updatedAt || ""}|${notice.title || ""}|${notice.message || ""}` : "default-v1";
 }
 
+async function loadShoreLetter() {
+  if (!serverApiBase) return;
+  try {
+    const response = await fetch(`${serverApiBase}/api/shore-letter`, { headers: { Accept: "application/json" } });
+    const data = await response.json();
+    if (response.ok && data?.ok) document.dispatchEvent(new CustomEvent("study-resource:shore-letter", { detail: data.letter || SHORE_LETTER_DEFAULT }));
+  } catch (_) {}
+}
 function bindShoreLetter() {
   const modal = document.querySelector("#shoreLetterModal");
   if (!modal) return;
   const title = document.querySelector("#shoreLetterTitle");
   const message = document.querySelector("#shoreLetterMessage");
-  let latestNotice = window.__studyResourceSiteNotice || {};
+  let latestNotice = SHORE_LETTER_DEFAULT;
   let openTimer;
   const close = () => {
     modal.classList.add("is-hidden");
     try { window.localStorage.setItem(`study-resource-shore-letter:${shoreLetterVersion(latestNotice)}`, "1"); } catch (_) {}
   };
   const show = () => {
+    if (latestNotice?.active === false) return;
     const active = Boolean(latestNotice?.active && (latestNotice?.title || latestNotice?.message));
     const content = active ? { title: latestNotice.title || SHORE_LETTER_DEFAULT.title, message: latestNotice.message || SHORE_LETTER_DEFAULT.message } : SHORE_LETTER_DEFAULT;
     if (title) title.textContent = content.title;
@@ -1930,7 +1939,7 @@ function bindShoreLetter() {
   document.querySelector("#shoreLetterClose")?.addEventListener("click", close);
   document.querySelector("#shoreLetterAccept")?.addEventListener("click", close);
   modal.addEventListener("click", (event) => { if (event.target === modal) close(); });
-  document.addEventListener("study-resource:site-notice", (event) => { latestNotice = event.detail || {}; schedule(); });
+  document.addEventListener("study-resource:shore-letter", (event) => { latestNotice = event.detail || SHORE_LETTER_DEFAULT; schedule(); });
   schedule();
 }
 
@@ -1938,3 +1947,4 @@ renderStudyCompanion();
 bindDriftBottleBoard();
 bindPeerSearchPulse();
 bindShoreLetter();
+loadShoreLetter();
