@@ -163,6 +163,15 @@ let hiddenPanUrls = new Set();
 let linkHealthLoaded = false;
 let searchSuggestHideTimer = 0;
 
+function getVisitorId() {
+  try {
+    const key = "study-resource-visitor-id";
+    let id = localStorage.getItem(key);
+    if (!id) { id = crypto.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random()}`; localStorage.setItem(key, id); }
+    return id;
+  } catch (_) { return ""; }
+}
+sendServerEvent("site_view", { visitorId: getVisitorId() });
 function sendServerEvent(type, payload = {}) {
   if (!serverApiBase || !type) return false;
 
