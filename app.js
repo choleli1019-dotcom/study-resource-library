@@ -1803,19 +1803,41 @@ function makeDriftBottle(message, duration = 15) {
   return node;
 }
 
+function setDriftBottleMessages(track, messages) {
+  if (!track) return;
+  const items = Array.from(new Set((messages || []).map((message) => String(message || "").trim()).filter(Boolean)));
+  if (track.__driftBottleTimer) window.clearInterval(track.__driftBottleTimer);
+  if (!items.length) {
+    track.replaceChildren(makeDriftBottle("审核通过的同路人留言会在这里漂来。", 18));
+    return;
+  }
+  let index = Math.floor(Date.now() / 86400000) % items.length;
+  const cycle = () => {
+    track.replaceChildren(makeDriftBottle(items[index], 15));
+    index = (index + 1) % items.length;
+  };
+  cycle();
+  track.__driftBottleTimer = window.setInterval(cycle, 15000);
+}
+
+async function loadApprovedDriftBottles(track) {
+  if (!track || !serverApiBase) return;
+  try {
+    const response = await fetch(`${serverApiBase}/api/drift-bottles`, { cache: "no-store" });
+    const data = await response.json();
+    if (!response.ok || !data?.ok) return;
+    setDriftBottleMessages(track, (data.items || []).map((item) => item.message));
+  } catch (_) {
+    // The board keeps its neutral empty-state copy if the service is temporarily unavailable.
+  }
+}
+
 function bindDriftBottleBoard() {
   const track = document.querySelector("#driftBottleTrack");
-  if (track) {
-    let index = Math.floor(Date.now() / 86400000) % DRIFT_BOTTLE_MESSAGES.length;
-    const cycle = () => {
-      track.replaceChildren(makeDriftBottle(DRIFT_BOTTLE_MESSAGES[index], 15));
-      index = (index + 1) % DRIFT_BOTTLE_MESSAGES.length;
-    };
-    cycle();
-    window.setInterval(cycle, 15000);
-  }
+  setDriftBottleMessages(track, []);
+  loadApprovedDriftBottles(track);
 
-  document.querySelector("#leaveDriftBottle")?.addEventListener("click", () => {
+  document.querySelector("#leaveDriftBottle")?.addEventListener("click", async (event) => {
     const message = window.prompt("留下一句想和同路人说的话（不超过48字）");
     const text = String(message || "").trim().replace(/\s+/g, " ");
     if (!text) return;
@@ -1823,16 +1845,33 @@ function bindDriftBottleBoard() {
       window.alert("请控制在 48 个字以内。\n短一点，更容易漂到同路人身边。");
       return;
     }
+    if (!serverApiBase) {
+      window.alert("留言服务暂未连接，请稍后再试。");
+      return;
+    }
+    const button = event.currentTarget;
+    const originalText = button?.textContent;
+    if (button) {
+      button.disabled = true;
+      button.textContent = "寄送中…";
+    }
     try {
-      fetch(`${serverApiBase}/api/events`, {
+      const response = await fetch(`${serverApiBase}/api/drift-bottles`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ type: "drift_bottle_submission", label: text, at: new Date().toISOString() }),
-        keepalive: true,
-      }).catch(() => {});
-    } catch (_) {}
-    if (track) track.replaceChildren(makeDriftBottle(text, 15));
-    window.alert("已寄出。留言会在审核后与更多同路人相遇。");
+        body: JSON.stringify({ message: text })
+      });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok || !data?.ok) throw new Error(data?.error || "投递失败");
+      window.alert("已寄出，管理员通过公开后才会在首页展示。");
+    } catch (error) {
+      window.alert(error?.message || "投递失败，请稍后再试。");
+    } finally {
+      if (button) {
+        button.disabled = false;
+        button.textContent = originalText || "留一句";
+      }
+    }
   });
 }
 
