@@ -8518,4 +8518,13 @@ body:not(.theme-light) .peer-search-pulse button { color: #87efc7; }
   .shore-letter-card { padding: 34px 26px 24px; }
   .shore-letter-card footer { align-items: flex-start; flex-direction: column; }
   .shore-letter-card footer button { width: 100%; }
+}@media (min-width: 701px) {
+  body .main .hero-visual { grid-template-rows: auto minmax(260px, 1fr) !important; align-items: start !important; }
+  body .main .hero-live-panel.has-site-notice { height: auto !important; min-height: 0 !important; align-self: start !important; justify-content: flex-start !important; }
+  body .main .hero-live-panel.has-site-notice > p { display: grid !important; grid-template-columns: max-content minmax(0, 1fr) !important; align-items: start !important; margin-bottom: 16px !important; }
+  body .main .hero-live-panel.has-site-notice > p > strong,
+  body .main .hero-live-panel.has-site-notice > p > small { display: block !important; min-width: 0 !important; overflow: visible !important; white-space: normal !important; text-overflow: clip !important; overflow-wrap: anywhere !important; }
+  body .main .hero-live-panel.has-site-notice > p > strong { line-height: 1.4 !important; }
+  body .main .hero-live-panel.has-site-notice > p > small { grid-column: 2 !important; line-height: 1.55 !important; }
+  body .main .hero-live-panel.has-site-notice + .hero-art { height: auto !important; min-height: 260px !important; align-self: stretch !important; }
 }
