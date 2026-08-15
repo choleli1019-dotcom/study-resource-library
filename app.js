@@ -870,18 +870,15 @@ function renderPanSearchResults() {
 
   container.querySelectorAll("[data-report-broken]").forEach((button) => {
     button.addEventListener("click", () => {
-      const accepted = window.confirm("请只在你已打开网盘、且亲眼看到“分享失效、文件已删除或链接不存在”提示时确认。确认后将加入待补链列表。\n\n要提交这条失效反馈吗？");
-      if (!accepted) return;
       const payload = {
         title: button.dataset.reportTitle || "",
         url: button.dataset.reportBroken || "",
         platform: button.dataset.reportPlatform || "",
-        query: state.query.trim(),
-        source: "user-confirmed"
+        query: state.query.trim()
       };
       sendServerEvent("broken_link", payload);
       trackBaiduEvent("resource_feedback", "broken_link", payload.title || payload.url);
-      showSiteToast("已记录为“用户确认失效”，会进入待补链列表");
+      showSiteToast("已收到反馈，感谢提醒");
     });
   });
 }
@@ -914,7 +911,7 @@ function renderPanSearchItem(item, queryTokens) {
       <div class="pan-result-actions">
         <a href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">打开网盘</a>
         <button type="button" data-copy-url="${panSearchEscapeHtml(item.url)}">复制</button>
-        <button class="pan-report-button" type="button" data-report-broken="${panSearchEscapeHtml(item.url)}" data-report-title="${panSearchEscapeHtml(item.title)}" data-report-platform="${panSearchEscapeHtml(item.platform)}" title="仅在打开后看到官方失效或删除提示时提交">确认失效</button>
+        <button class="pan-report-button" type="button" data-report-broken="${panSearchEscapeHtml(item.url)}" data-report-title="${panSearchEscapeHtml(item.title)}" data-report-platform="${panSearchEscapeHtml(item.platform)}" title="如果打不开，可点这里反馈给维护者">反馈失效</button>
       </div>
     </article>
   `;
@@ -1065,9 +1062,11 @@ function bindSearchWelcomeModal() {
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") closeSearchWelcomeModal();
   });
-  if (!hasSeenSearchWelcome()) {
-    window.setTimeout(openSearchWelcomeModal, 180);
-  }
+  const mainInput = document.querySelector("#searchInput");
+  mainInput?.addEventListener("focus", () => {
+    const shoreLetterIsOpen = !document.querySelector("#shoreLetterModal")?.classList.contains("is-hidden");
+    if (!hasSeenSearchWelcome() && !shoreLetterIsOpen) window.setTimeout(openSearchWelcomeModal, 80);
+  }, { once: true });
 }
 
 function applyTheme(theme) {
@@ -1443,7 +1442,6 @@ loadServerPanLinks();
   window.setInterval(renderClock, 1000);
 })();
 
-
 // 2026-08-13: searchable library controls, genuine popularity and link-care status.
 const resourceSearchExperience = {
   platform: "all",
@@ -1566,7 +1564,7 @@ function renderPopularityBoard() {
         ${ranking.map((item, index) => `
           <li>
             <span class="popularity-rank">${index + 1}</span>
-            <a class="open-link" href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${panSearchEscapeHtml(item.label || "资料入口")}</a>
+            <a class="open-link" href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer" title="${panSearchEscapeHtml(item.label || "资料入口")}">${panSearchEscapeHtml(item.label || "资料入口")}</a>
             <b>${Number(item.count || 0)} 次</b>
           </li>
         `).join("")}
@@ -1706,7 +1704,6 @@ function getTrackedResourceLabel(link) {
   if (link.classList.contains("quick-link")) return `快捷入口｜${link.textContent.trim()}`;
   return "";
 }
-
 // 2026-08-13: administrator-managed homepage announcement.
 function formatSiteNoticeTime(value) {
   const date = new Date(value || "");
@@ -1715,6 +1712,8 @@ function formatSiteNoticeTime(value) {
 }
 
 function renderSiteNotice(notice) {
+  window.__studyResourceSiteNotice = notice || {};
+  document.dispatchEvent(new CustomEvent("study-resource:site-notice", { detail: window.__studyResourceSiteNotice }));
   const panel = document.querySelector(".hero-live-panel");
   const copy = panel?.querySelector("p");
   if (!panel || !copy) return;
@@ -1748,3 +1747,194 @@ async function loadSiteNotice() {
 }
 
 loadSiteNotice();
+// 2026-08-14: homepage companion components.
+const SHORE_LETTER_DEFAULT = {
+  title: "一封给备考路上的你",
+  message: "资料会持续整理，愿你不必一个人翻遍全网。",
+};
+const DAILY_LEARNING_SIGNS = [
+  ["先做一题，再谈远方。", "把今天写进上岸的答案里"],
+  ["别急，稳稳走完今天就很好。", "你正在靠近想要的生活"],
+  ["今天多背的一页，都会在考场上认出你。", "慢一点，也是在前进"],
+  ["愿你笔下有答案，心里有方向。", "继续向前，时间会给你回音"],
+  ["不必等状态满分，现在开始就很勇敢。", "先完成，再完美"],
+  ["每一次翻页，都是给未来的伏笔。", "今日份努力已送达"],
+];
+const DRIFT_BOTTLE_MESSAGES = [
+  "今天刷完了两套申论题，明天继续。",
+  "想找事业单位职测的系统课。",
+  "给后来人：别怕慢，别停下来。",
+  "刚背完常识，来这里找一点安心。",
+  "愿所有坚持，都有回信。",
+];
+const COUNTDOWN_TARGETS = {
+  national: { date: "2026-11-29T00:00:00+08:00", label: "2027 国考（预计）" },
+  province: { date: "2027-03-27T00:00:00+08:00", label: "2027 省考联考（预计）" },
+  teacher: { date: "2027-04-17T00:00:00+08:00", label: "2027 春季教招（预计）" },
+};
+
+function startOfLocalDay(date = new Date()) {
+  return new Date(date.getFullYear(), date.getMonth(), date.getDate());
+}
+
+function renderStudyCompanion() {
+  const todayIndex = Math.floor(startOfLocalDay().getTime() / 86400000) % DAILY_LEARNING_SIGNS.length;
+  const [quote, meta] = DAILY_LEARNING_SIGNS[todayIndex];
+  const sign = document.querySelector("#dailyLearningSign");
+  const signMeta = document.querySelector("#dailyLearningSignMeta");
+  if (sign) sign.textContent = quote;
+  if (signMeta) signMeta.textContent = meta;
+
+  Object.entries(COUNTDOWN_TARGETS).forEach(([key, info]) => {
+    const item = document.querySelector(`[data-countdown="${key}"]`);
+    if (!item) return;
+    const target = new Date(info.date);
+    const remaining = Math.max(0, Math.ceil((target.getTime() - startOfLocalDay().getTime()) / 86400000));
+    item.querySelector("span").textContent = info.label;
+    item.querySelector("strong").textContent = String(remaining);
+  });
+}
+
+function makeDriftBottle(message, duration = 15) {
+  const node = document.createElement("span");
+  node.className = "drift-bottle-message";
+  node.style.animationDuration = `${duration}s`;
+  node.textContent = `✦ ${message}`;
+  return node;
+}
+
+function setDriftBottleMessages(track, messages) {
+  if (!track) return;
+  const items = Array.from(new Set((messages || []).map((message) => String(message || "").trim()).filter(Boolean)));
+  if (track.__driftBottleTimer) window.clearInterval(track.__driftBottleTimer);
+  if (!items.length) {
+    track.replaceChildren(makeDriftBottle("审核通过的同路人留言会在这里漂来。", 18));
+    return;
+  }
+  let index = Math.floor(Date.now() / 86400000) % items.length;
+  const cycle = () => {
+    track.replaceChildren(makeDriftBottle(items[index], 15));
+    index = (index + 1) % items.length;
+  };
+  cycle();
+  track.__driftBottleTimer = window.setInterval(cycle, 15000);
+}
+
+async function loadApprovedDriftBottles(track) {
+  if (!track || !serverApiBase) return;
+  try {
+    const response = await fetch(`${serverApiBase}/api/drift-bottles`, { cache: "no-store" });
+    const data = await response.json();
+    if (!response.ok || !data?.ok) return;
+    setDriftBottleMessages(track, (data.items || []).map((item) => item.message));
+  } catch (_) {
+    // The board keeps its neutral empty-state copy if the service is temporarily unavailable.
+  }
+}
+
+function bindDriftBottleBoard() {
+  const track = document.querySelector("#driftBottleTrack");
+  setDriftBottleMessages(track, []);
+  loadApprovedDriftBottles(track);
+
+  document.querySelector("#leaveDriftBottle")?.addEventListener("click", async (event) => {
+    const message = window.prompt("留下一句想和同路人说的话（不超过48字）");
+    const text = String(message || "").trim().replace(/\s+/g, " ");
+    if (!text) return;
+    if (text.length > 48) {
+      window.alert("请控制在 48 个字以内。\n短一点，更容易漂到同路人身边。");
+      return;
+    }
+    if (!serverApiBase) {
+      window.alert("留言服务暂未连接，请稍后再试。");
+      return;
+    }
+    const button = event.currentTarget;
+    const originalText = button?.textContent;
+    if (button) {
+      button.disabled = true;
+      button.textContent = "寄送中…";
+    }
+    try {
+      const response = await fetch(`${serverApiBase}/api/drift-bottles`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ message: text })
+      });
+      const data = await response.json().catch(() => ({}));
+      if (!response.ok || !data?.ok) throw new Error(data?.error || "投递失败");
+      window.alert("已寄出，管理员通过公开后才会在首页展示。");
+    } catch (error) {
+      window.alert(error?.message || "投递失败，请稍后再试。");
+    } finally {
+      if (button) {
+        button.disabled = false;
+        button.textContent = originalText || "留一句";
+      }
+    }
+  });
+}
+
+function bindPeerSearchPulse() {
+  const searchPanel = document.querySelector(".search-panel");
+  if (!searchPanel || document.querySelector("#peerSearchPulse")) return;
+  const pulse = document.createElement("div");
+  pulse.id = "peerSearchPulse";
+  pulse.className = "peer-search-pulse";
+  const message = document.createElement("span");
+  const button = document.createElement("button");
+  button.type = "button";
+  pulse.append(message, button);
+  searchPanel.insertAdjacentElement("afterend", pulse);
+  const terms = Array.from(new Set(["申论", "超格", "教招", "事业单位", ...hotSearchTerms])).filter(Boolean);
+  let index = Math.floor(Date.now() / 86400000) % terms.length;
+  const render = () => {
+    const term = terms[index];
+    message.textContent = "同路人正在找：";
+    button.textContent = term;
+    button.dataset.term = term;
+    index = (index + 1) % terms.length;
+  };
+  button.addEventListener("click", () => applySearchTerm(button.dataset.term || ""));
+  render();
+  window.setInterval(render, 7200);
+}
+
+function shoreLetterVersion(notice) {
+  const active = Boolean(notice?.active && (notice?.title || notice?.message));
+  return active ? `${notice.updatedAt || ""}|${notice.title || ""}|${notice.message || ""}` : "default-v1";
+}
+
+function bindShoreLetter() {
+  const modal = document.querySelector("#shoreLetterModal");
+  if (!modal) return;
+  const title = document.querySelector("#shoreLetterTitle");
+  const message = document.querySelector("#shoreLetterMessage");
+  let latestNotice = window.__studyResourceSiteNotice || {};
+  let openTimer;
+  const close = () => {
+    modal.classList.add("is-hidden");
+    try { window.localStorage.setItem(`study-resource-shore-letter:${shoreLetterVersion(latestNotice)}`, "1"); } catch (_) {}
+  };
+  const show = () => {
+    const active = Boolean(latestNotice?.active && (latestNotice?.title || latestNotice?.message));
+    const content = active ? { title: latestNotice.title || SHORE_LETTER_DEFAULT.title, message: latestNotice.message || SHORE_LETTER_DEFAULT.message } : SHORE_LETTER_DEFAULT;
+    if (title) title.textContent = content.title;
+    if (message) message.textContent = content.message;
+    try {
+      if (window.localStorage.getItem(`study-resource-shore-letter:${shoreLetterVersion(latestNotice)}`) === "1") return;
+    } catch (_) {}
+    modal.classList.remove("is-hidden");
+  };
+  const schedule = () => { window.clearTimeout(openTimer); openTimer = window.setTimeout(show, 900); };
+  document.querySelector("#shoreLetterClose")?.addEventListener("click", close);
+  document.querySelector("#shoreLetterAccept")?.addEventListener("click", close);
+  modal.addEventListener("click", (event) => { if (event.target === modal) close(); });
+  document.addEventListener("study-resource:site-notice", (event) => { latestNotice = event.detail || {}; schedule(); });
+  schedule();
+}
+
+renderStudyCompanion();
+bindDriftBottleBoard();
+bindPeerSearchPulse();
+bindShoreLetter();
