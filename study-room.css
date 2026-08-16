@@ -264,3 +264,8 @@
   .classroom-seat.is-occupied .seat-person{z-index:14!important;bottom:-12%!important;width:59%!important;height:160%!important}
   .classroom-seat.is-occupied .seat-task{z-index:16!important;top:27%!important;right:4%!important}
 }
+
+/* One coherent learner style across the room: use the E5 dark-hoodie rear portrait for every occupied seat. */
+@media (min-width:981px){
+  .classroom-seat.is-occupied .seat-person,.classroom-seat.is-occupied:nth-child(even) .seat-person,.classroom-seat.is-occupied:nth-child(3n) .seat-person,.classroom-seat.is-occupied:nth-child(5n+4) .seat-person,.classroom-seat.is-occupied:nth-child(5n) .seat-person{background-image:url("assets/study-room-learner-clean-boy-04-crop.png")!important}
+}
