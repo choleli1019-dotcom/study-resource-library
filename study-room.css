@@ -221,3 +221,9 @@
 @media (min-width:981px){
   .reference-wall-clock{left:25.70vw!important;top:3.35vw!important;width:6.60vw!important}
 }
+
+/* Learners sit visibly in front of the printed empty-seat card: white crop background blends into the card, leaving the photographic back view. */
+@media (min-width:981px){
+  .classroom-seat.is-occupied .seat-person{z-index:12!important;left:50%!important;bottom:-21%!important;width:88%!important;height:166%!important;background-size:100% 100%!important;background-position:center bottom!important;mix-blend-mode:multiply!important;filter:contrast(1.03) saturate(1.02) drop-shadow(0 1px 1px rgba(43,25,10,.22))!important}
+  .classroom-seat.is-occupied .seat-task{z-index:14!important;right:5%!important;top:34%!important}
+}
