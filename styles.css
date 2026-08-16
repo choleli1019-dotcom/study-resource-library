@@ -8645,3 +8645,34 @@ body .main .hero-art.study-room-teaser > .study-room-teaser-lead { display:block
 body .main .hero-art.study-room-teaser > .study-room-preview-seats { display:grid !important; }
 body .main .hero-art.study-room-teaser > .study-room-teaser-bottom { display:flex !important; }
 body .main .hero-art.study-room-teaser > .study-room-teaser-shelf { display:block !important; }
+
+/* Homepage study-room invitation: a compact, fuller classroom preview instead of an empty decorative panel. */
+body .main .hero-art.study-room-teaser{
+  isolation:isolate!important; min-height:0!important; padding:clamp(22px,2vw,31px)!important; overflow:hidden!important;
+  background:radial-gradient(circle at 82% 12%,rgba(255,219,116,.14),transparent 26%),linear-gradient(145deg,#064d43 0%,#056255 58%,#08483f 100%)!important;
+}
+body .main .hero-art.study-room-teaser::before{
+  content:"安静自习  ·  稳稳上岸"; position:absolute; z-index:0; left:5.5%; right:18%; bottom:13%; height:28%; display:flex; align-items:center; justify-content:center;
+  border:7px solid rgba(127,81,45,.72); border-radius:5px; color:rgba(239,250,237,.82); font-family:"LXGW WenKai","霞鹜文楷",serif; font-size:clamp(19px,1.85vw,29px); letter-spacing:.13em;
+  background:linear-gradient(135deg,rgba(2,43,37,.88),rgba(6,75,64,.78)),repeating-linear-gradient(0deg,transparent 0 27px,rgba(205,237,215,.04) 28px 29px); box-shadow:0 11px 0 rgba(88,52,30,.36),0 17px 25px rgba(0,0,0,.18);
+}
+body .main .hero-art.study-room-teaser::after{
+  content:""; position:absolute; z-index:0; left:0; right:0; bottom:0; height:13%; opacity:.8;
+  background:linear-gradient(180deg,rgba(175,116,60,.22),rgba(83,47,28,.42)),repeating-linear-gradient(90deg,transparent 0 11.8%,rgba(252,210,137,.22) 11.9% 12.2%);
+  border-top:5px solid rgba(198,144,80,.48);
+}
+body .main .hero-art.study-room-teaser > .study-room-teaser-head{padding-bottom:14px!important}
+body .main .hero-art.study-room-teaser > .study-room-teaser-lead{margin:13px 0 14px!important;max-width:36em!important;color:rgba(239,255,246,.9)!important}
+body .main .hero-art.study-room-teaser > .study-room-preview-seats{gap:9px!important}
+body .main .hero-art.study-room-teaser .study-room-preview-seats > span{padding:10px!important;border-radius:12px!important;background:rgba(241,255,248,.11)!important;backdrop-filter:blur(4px)}
+body .main .hero-art.study-room-teaser .study-room-preview-seats i{width:25px!important;height:25px!important;font-size:13px!important}
+body .main .hero-art.study-room-teaser > .study-room-teaser-bottom{position:absolute!important;z-index:2!important;left:clamp(22px,2vw,31px)!important;right:clamp(22px,2vw,31px)!important;bottom:clamp(22px,2vw,30px)!important;margin:0!important;padding:0!important}
+body .main .hero-art.study-room-teaser > .study-room-teaser-bottom > span{font-weight:700!important;color:rgba(233,250,239,.86)!important}
+body .main .hero-art.study-room-teaser > .study-room-teaser-bottom a{padding:11px 16px!important;border-radius:14px!important;box-shadow:0 7px 17px rgba(0,0,0,.22)!important}
+body .main .hero-art.study-room-teaser > .study-room-teaser-shelf{z-index:1!important;right:2%!important;bottom:13%!important;width:27%!important;height:21%!important;opacity:1!important;transform:perspective(300px) rotateY(-5deg)!important}
+@media (max-width:700px),(orientation:portrait){
+  body .main .hero-art.study-room-teaser::before{left:7%;right:7%;bottom:18%;height:18%;font-size:19px;border-width:5px}
+  body .main .hero-art.study-room-teaser::after{height:11%}
+  body .main .hero-art.study-room-teaser > .study-room-teaser-bottom{bottom:16px!important}
+  body .main .hero-art.study-room-teaser > .study-room-teaser-shelf{display:none!important}
+}

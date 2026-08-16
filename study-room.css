@@ -257,3 +257,10 @@
   .classroom-seat.is-occupied:nth-child(5n) .seat-person{background-image:url("assets/study-room-learner-clean-girl-05-crop.png")!important}
   .classroom-seat.is-occupied .seat-task{z-index:16!important;right:5%!important;top:35%!important;padding:3px 7px!important;background:#087b64!important;color:#fff!important;box-shadow:0 2px 5px rgba(5,75,59,.22)!important}
 }
+
+/* Remove the artificial white selection card: keep the photographed desk card, mask only its two empty-seat lines under the learner. */
+@media (min-width:981px){
+  .classroom-seat.is-occupied::before{z-index:11!important;inset:0!important;border:0!important;border-radius:0!important;box-shadow:none!important;background:radial-gradient(ellipse at 50% 43%,#fffaf1 0 27%,transparent 30%),radial-gradient(ellipse at 50% 72%,#fffaf1 0 28%,transparent 31%)!important}
+  .classroom-seat.is-occupied .seat-person{z-index:14!important;bottom:-12%!important;width:59%!important;height:160%!important}
+  .classroom-seat.is-occupied .seat-task{z-index:16!important;top:27%!important;right:4%!important}
+}
