@@ -1,17 +1,17 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-13T14:21:10.561Z",
+  "generatedAt": "2026-08-16T00:53:18.162Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
     "raw": {
-      "quark": 882,
-      "baidu": 348,
-      "total": 1230
+      "quark": 883,
+      "baidu": 351,
+      "total": 1234
     },
     "unique": {
-      "quark": 913,
-      "baidu": 436,
-      "total": 1349
+      "quark": 914,
+      "baidu": 439,
+      "total": 1353
     },
     "duplicate": {
       "quark": 0,
@@ -23001,6 +23001,74 @@ window.PAN_SEARCH_DATA = {
       ],
       "searchText": "2027年公考薛睿一拖五系统课（实战应用指南） 百度批量新增 百度网盘批量导入：2027年公考薛睿一拖五系统课（实战应用指南） 596u baidu https://pan.baidu.com/s/11YyiXxkHzb6DRTg5VI45tw?pwd=596u",
       "url": "https://pan.baidu.com/s/11YyiXxkHzb6DRTg5VI45tw?pwd=596u"
+    },
+    {
+      "id": "r1350",
+      "title": "2027年国省考相丽君申论解题思维趣学营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1jFUIptqDaqTTeTrLga5kaA?pwd=m19g",
+      "code": "m19g",
+      "section": "后台新增",
+      "context": "2027年国省考相丽君申论解题思维趣学营",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "后台新增"
+        }
+      ],
+      "searchText": "2027年国省考相丽君申论解题思维趣学营 后台新增 2027年国省考相丽君申论解题思维趣学营 m19g server/data/extra-links.json"
+    },
+    {
+      "id": "r1351",
+      "title": "2027kiwi申论全程班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1caGAJJqyb5Okhec_R74cYw?pwd=m19g",
+      "code": "m19g",
+      "section": "申论",
+      "context": "2027kiwi申论全程班",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "申论"
+        }
+      ],
+      "searchText": "2027kiwi申论全程班 申论 2027kiwi申论全程班 m19g server/data/extra-links.json"
+    },
+    {
+      "id": "r1352",
+      "title": "2027陈怀安行测圣经资料分析系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/17jeLoOhixc6vVjbC_JieCA?pwd=7hja",
+      "code": "7hja",
+      "section": "资料分析",
+      "context": "2027陈怀安行测圣经资料分析系统课",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "资料分析"
+        }
+      ],
+      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 7hja server/data/extra-links.json"
+    },
+    {
+      "id": "r1353",
+      "title": "龙飞合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/41ade5573987",
+      "code": "",
+      "section": "行测",
+      "context": "龙飞合集",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "行测"
+        }
+      ],
+      "searchText": "龙飞合集 行测 龙飞合集 server/data/extra-links.json"
     }
   ]
 };
