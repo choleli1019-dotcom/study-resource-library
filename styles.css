@@ -8676,3 +8676,17 @@ body .main .hero-art.study-room-teaser > .study-room-teaser-shelf{z-index:1!impo
   body .main .hero-art.study-room-teaser > .study-room-teaser-bottom{bottom:16px!important}
   body .main .hero-art.study-room-teaser > .study-room-teaser-shelf{display:none!important}
 }
+
+/* Replace the empty lower decoration with the actual self-study-room scene. */
+body .main .hero-art.study-room-teaser::before,body .main .hero-art.study-room-teaser::after{display:none!important}
+body .main .hero-art.study-room-teaser > .study-room-teaser-classroom{
+  position:absolute!important;z-index:1!important;right:clamp(18px,1.8vw,29px)!important;bottom:clamp(72px,6.1vw,91px)!important;width:60%!important;height:41%!important;display:block!important;overflow:hidden!important;border:1px solid rgba(255,238,200,.62)!important;border-radius:16px!important;
+  background:url("assets/study-room-authorized-reference-clean.png") center center / cover no-repeat!important;box-shadow:0 16px 28px rgba(0,0,0,.29),inset 0 0 0 1px rgba(255,255,255,.17)!important;
+}
+body .main .hero-art.study-room-teaser > .study-room-teaser-classroom::after{content:"真实座位 · 番茄钟 · 同频搭子";position:absolute;left:0;right:0;bottom:0;padding:8px 11px;color:#fffdf0;background:linear-gradient(90deg,rgba(4,48,40,.92),rgba(4,48,40,.48));font-size:clamp(9px,.78vw,12px);font-weight:800;letter-spacing:.04em}
+body .main .hero-art.study-room-teaser > .study-room-teaser-classroom > span{position:absolute;z-index:1;top:9px;left:9px;padding:4px 8px;border-radius:999px;background:rgba(3,62,52,.82);color:#f7d66a;font:800 10px ui-monospace,Consolas,monospace;letter-spacing:.08em}
+body .main .hero-art.study-room-teaser > .study-room-teaser-shelf{display:none!important}
+body .main .hero-art.study-room-teaser > .study-room-teaser-bottom{z-index:3!important}
+@media (max-width:700px),(orientation:portrait){
+ body .main .hero-art.study-room-teaser > .study-room-teaser-classroom{right:21px!important;bottom:72px!important;width:calc(100% - 42px)!important;height:30%!important}
+}
