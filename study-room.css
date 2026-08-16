@@ -292,3 +292,8 @@
   .classroom-seat.is-occupied .seat-person{z-index:14!important}
   .classroom-seat.is-occupied .seat-task{z-index:16!important}
 }
+
+/* Keep the activity tag on the card edge, never over the learner's body. */
+@media (min-width:981px){
+  .classroom-seat.is-occupied .seat-task{z-index:16!important;top:7%!important;right:5%!important;left:auto!important;bottom:auto!important}
+}
