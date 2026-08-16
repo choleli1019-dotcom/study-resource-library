@@ -8540,3 +8540,18 @@ body:not(.theme-light) .peer-search-pulse button { color: #87efc7; }
     object-position: center top !important;
   }
 }
+@media (min-width: 701px) {
+  body .main .hero-visual {
+    grid-template-rows: auto auto !important;
+    align-content: start !important;
+  }
+  body .main .hero-live-panel.has-site-notice + .hero-art {
+    aspect-ratio: 16 / 10 !important;
+    height: auto !important;
+    align-self: start !important;
+  }
+  body .main .hero-live-panel.has-site-notice + .hero-art > img {
+    object-fit: contain !important;
+    object-position: center bottom !important;
+  }
+}
