@@ -227,3 +227,10 @@
   .classroom-seat.is-occupied .seat-person{z-index:12!important;left:50%!important;bottom:-21%!important;width:88%!important;height:166%!important;background-size:100% 100%!important;background-position:center bottom!important;mix-blend-mode:multiply!important;filter:contrast(1.03) saturate(1.02) drop-shadow(0 1px 1px rgba(43,25,10,.22))!important}
   .classroom-seat.is-occupied .seat-task{z-index:14!important;right:5%!important;top:34%!important}
 }
+
+/* Use only the user's clean transparent rear-view portraits. Never overlay cropped classroom screenshots. */
+@media (min-width:981px){
+  .classroom-seat.is-occupied .seat-person{z-index:12!important;left:50%!important;bottom:-12%!important;width:52%!important;height:154%!important;background:url("assets/study-room-learner-clean-green-01.png") center bottom / contain no-repeat!important;mix-blend-mode:normal!important;filter:drop-shadow(0 1px 1px rgba(43,25,10,.20))!important}
+  .classroom-seat.is-occupied:nth-child(even) .seat-person{background-image:url("assets/study-room-learner-clean-green-02.png")!important}
+  .classroom-seat.is-occupied .seat-task{z-index:14!important;right:5%!important;top:36%!important}
+}
