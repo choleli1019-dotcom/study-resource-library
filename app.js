@@ -311,6 +311,10 @@ function renderNav() {
       <span>⌂</span>
       <span>首页</span>
     </a>
+    <a class="nav-link" href="study-room.html">
+      <span>◷</span>
+      <span>上岸自习室</span>
+    </a>
     ${primary
       .map(
         (section) => `
