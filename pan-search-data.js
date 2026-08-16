@@ -1,17 +1,17 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-13T14:21:10.561Z",
+  "generatedAt": "2026-08-16T01:00:59.490Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
     "raw": {
-      "quark": 882,
-      "baidu": 348,
-      "total": 1230
+      "quark": 883,
+      "baidu": 351,
+      "total": 1234
     },
     "unique": {
-      "quark": 913,
-      "baidu": 436,
-      "total": 1349
+      "quark": 926,
+      "baidu": 439,
+      "total": 1365
     },
     "duplicate": {
       "quark": 0,
@@ -23001,6 +23001,278 @@ window.PAN_SEARCH_DATA = {
       ],
       "searchText": "2027年公考薛睿一拖五系统课（实战应用指南） 百度批量新增 百度网盘批量导入：2027年公考薛睿一拖五系统课（实战应用指南） 596u baidu https://pan.baidu.com/s/11YyiXxkHzb6DRTg5VI45tw?pwd=596u",
       "url": "https://pan.baidu.com/s/11YyiXxkHzb6DRTg5VI45tw?pwd=596u"
+    },
+    {
+      "id": "r1350",
+      "title": "2027年国省考相丽君申论解题思维趣学营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1jFUIptqDaqTTeTrLga5kaA?pwd=m19g",
+      "code": "m19g",
+      "section": "后台新增",
+      "context": "2027年国省考相丽君申论解题思维趣学营",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "后台新增"
+        }
+      ],
+      "searchText": "2027年国省考相丽君申论解题思维趣学营 后台新增 2027年国省考相丽君申论解题思维趣学营 m19g server/data/extra-links.json"
+    },
+    {
+      "id": "r1351",
+      "title": "2027kiwi申论全程班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1caGAJJqyb5Okhec_R74cYw?pwd=m19g",
+      "code": "m19g",
+      "section": "申论",
+      "context": "2027kiwi申论全程班",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "申论"
+        }
+      ],
+      "searchText": "2027kiwi申论全程班 申论 2027kiwi申论全程班 m19g server/data/extra-links.json"
+    },
+    {
+      "id": "r1352",
+      "title": "2027陈怀安行测圣经资料分析系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/17jeLoOhixc6vVjbC_JieCA?pwd=7hja",
+      "code": "7hja",
+      "section": "资料分析",
+      "context": "2027陈怀安行测圣经资料分析系统课",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "资料分析"
+        }
+      ],
+      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 7hja server/data/extra-links.json"
+    },
+    {
+      "id": "r1353",
+      "title": "龙飞合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/41ade5573987",
+      "code": "",
+      "section": "行测",
+      "context": "龙飞合集",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "行测"
+        }
+      ],
+      "searchText": "龙飞合集 行测 龙飞合集 server/data/extra-links.json"
+    },
+    {
+      "id": "r1354",
+      "title": "袁东合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/136b334a64ce",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：袁东合集",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 2,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "袁东合集 夸克批量新增 夸克网盘批量导入：袁东合集 quark https://pan.quark.cn/s/136b334a64ce"
+    },
+    {
+      "id": "r1355",
+      "title": "2024】袁东申论+面试合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/c7d79f322744",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：2024】袁东申论+面试合集",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 5,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "2024】袁东申论+面试合集 夸克批量新增 夸克网盘批量导入：2024】袁东申论+面试合集 quark https://pan.quark.cn/s/c7d79f322744"
+    },
+    {
+      "id": "r1356",
+      "title": "2025】袁东申论+面试合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6cd98dbdcde8",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：2025】袁东申论+面试合集",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 8,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "2025】袁东申论+面试合集 夸克批量新增 夸克网盘批量导入：2025】袁东申论+面试合集 quark https://pan.quark.cn/s/6cd98dbdcde8"
+    },
+    {
+      "id": "r1357",
+      "title": "2026】袁东申论+面试合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/24c530d04d7c",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：2026】袁东申论+面试合集",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 11,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "2026】袁东申论+面试合集 夸克批量新增 夸克网盘批量导入：2026】袁东申论+面试合集 quark https://pan.quark.cn/s/24c530d04d7c"
+    },
+    {
+      "id": "r1358",
+      "title": "2027】袁东申论+面试合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/21c988a5c493",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：2027】袁东申论+面试合集",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 14,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "2027】袁东申论+面试合集 夸克批量新增 夸克网盘批量导入：2027】袁东申论+面试合集 quark https://pan.quark.cn/s/21c988a5c493"
+    },
+    {
+      "id": "r1359",
+      "title": "燎原教育资料（广东）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/ac89f6e97f09",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：燎原教育资料（广东）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 17,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "燎原教育资料（广东） 夸克批量新增 夸克网盘批量导入：燎原教育资料（广东） quark https://pan.quark.cn/s/ac89f6e97f09"
+    },
+    {
+      "id": "r1360",
+      "title": "人民日报】袁东改写200篇人民日报优秀范文",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/c0d1ba290441",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：人民日报】袁东改写200篇人民日报优秀范文",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 20,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "人民日报】袁东改写200篇人民日报优秀范文 夸克批量新增 夸克网盘批量导入：人民日报】袁东改写200篇人民日报优秀范文 quark https://pan.quark.cn/s/c0d1ba290441"
+    },
+    {
+      "id": "r1361",
+      "title": "事业单位】袁东合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/0ec350bea611",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：事业单位】袁东合集",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 23,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "事业单位】袁东合集 夸克批量新增 夸克网盘批量导入：事业单位】袁东合集 quark https://pan.quark.cn/s/0ec350bea611"
+    },
+    {
+      "id": "r1362",
+      "title": "申论】2027年国省考季袁东申论方法实战班",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/daacd962695a",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：申论】2027年国省考季袁东申论方法实战班",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 26,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "申论】2027年国省考季袁东申论方法实战班 夸克批量新增 夸克网盘批量导入：申论】2027年国省考季袁东申论方法实战班 quark https://pan.quark.cn/s/daacd962695a"
+    },
+    {
+      "id": "r1363",
+      "title": "申论】2027年国省考袁东申论大作文领跑营",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/8680d4af6898",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：申论】2027年国省考袁东申论大作文领跑营",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 29,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "申论】2027年国省考袁东申论大作文领跑营 夸克批量新增 夸克网盘批量导入：申论】2027年国省考袁东申论大作文领跑营 quark https://pan.quark.cn/s/8680d4af6898"
+    },
+    {
+      "id": "r1364",
+      "title": "申论】2027年袁东申论超大杯刷题提升班",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/4e596c6eaae9",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：申论】2027年袁东申论超大杯刷题提升班",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 32,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "申论】2027年袁东申论超大杯刷题提升班 夸克批量新增 夸克网盘批量导入：申论】2027年袁东申论超大杯刷题提升班 quark https://pan.quark.cn/s/4e596c6eaae9"
+    },
+    {
+      "id": "r1365",
+      "title": "申论】2027年袁东申论套题实战班",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/67c7241608fe",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：申论】2027年袁东申论套题实战班",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 35,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "申论】2027年袁东申论套题实战班 夸克批量新增 夸克网盘批量导入：申论】2027年袁东申论套题实战班 quark https://pan.quark.cn/s/67c7241608fe"
     }
   ]
 };

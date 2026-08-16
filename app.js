@@ -163,6 +163,15 @@ let hiddenPanUrls = new Set();
 let linkHealthLoaded = false;
 let searchSuggestHideTimer = 0;
 
+function getVisitorId() {
+  try {
+    const key = "study-resource-visitor-id";
+    let id = localStorage.getItem(key);
+    if (!id) { id = crypto.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random()}`; localStorage.setItem(key, id); }
+    return id;
+  } catch (_) { return ""; }
+}
+sendServerEvent("site_view", { visitorId: getVisitorId() });
 function sendServerEvent(type, payload = {}) {
   if (!serverApiBase || !type) return false;
 
@@ -301,6 +310,10 @@ function renderNav() {
     <a class="nav-link active" href="#top">
       <span>⌂</span>
       <span>首页</span>
+    </a>
+    <a class="nav-link" href="study-room.html">
+      <span>◷</span>
+      <span>上岸自习室</span>
     </a>
     ${primary
       .map(
@@ -1905,18 +1918,27 @@ function shoreLetterVersion(notice) {
   return active ? `${notice.updatedAt || ""}|${notice.title || ""}|${notice.message || ""}` : "default-v1";
 }
 
+async function loadShoreLetter() {
+  if (!serverApiBase) return;
+  try {
+    const response = await fetch(`${serverApiBase}/api/shore-letter`, { headers: { Accept: "application/json" } });
+    const data = await response.json();
+    if (response.ok && data?.ok) document.dispatchEvent(new CustomEvent("study-resource:shore-letter", { detail: data.letter || SHORE_LETTER_DEFAULT }));
+  } catch (_) {}
+}
 function bindShoreLetter() {
   const modal = document.querySelector("#shoreLetterModal");
   if (!modal) return;
   const title = document.querySelector("#shoreLetterTitle");
   const message = document.querySelector("#shoreLetterMessage");
-  let latestNotice = window.__studyResourceSiteNotice || {};
+  let latestNotice = SHORE_LETTER_DEFAULT;
   let openTimer;
   const close = () => {
     modal.classList.add("is-hidden");
     try { window.localStorage.setItem(`study-resource-shore-letter:${shoreLetterVersion(latestNotice)}`, "1"); } catch (_) {}
   };
   const show = () => {
+    if (latestNotice?.active === false) return;
     const active = Boolean(latestNotice?.active && (latestNotice?.title || latestNotice?.message));
     const content = active ? { title: latestNotice.title || SHORE_LETTER_DEFAULT.title, message: latestNotice.message || SHORE_LETTER_DEFAULT.message } : SHORE_LETTER_DEFAULT;
     if (title) title.textContent = content.title;
@@ -1930,7 +1952,7 @@ function bindShoreLetter() {
   document.querySelector("#shoreLetterClose")?.addEventListener("click", close);
   document.querySelector("#shoreLetterAccept")?.addEventListener("click", close);
   modal.addEventListener("click", (event) => { if (event.target === modal) close(); });
-  document.addEventListener("study-resource:site-notice", (event) => { latestNotice = event.detail || {}; schedule(); });
+  document.addEventListener("study-resource:shore-letter", (event) => { latestNotice = event.detail || SHORE_LETTER_DEFAULT; schedule(); });
   schedule();
 }
 
@@ -1938,3 +1960,27 @@ renderStudyCompanion();
 bindDriftBottleBoard();
 bindPeerSearchPulse();
 bindShoreLetter();
+loadShoreLetter();
+loadStudyRoomTeaser();
+
+async function loadStudyRoomTeaser() {
+  const online = document.querySelector("#studyRoomTeaserOnline");
+  const focus = document.querySelector("#studyRoomTeaserFocus");
+  if (!online || !focus || !serverApiBase) return;
+  const render = (data) => {
+    const total = Number(data?.onlineCount || 0);
+    const focused = Object.entries(data?.taskCounts || {}).reduce((sum, [, count]) => sum + Number(count || 0), 0);
+    online.textContent = String(total);
+    focus.textContent = total ? `${focused || total} 位同学正在专注` : "暂时还没有人入座";
+  };
+  const load = async () => {
+    try {
+      const response = await fetch(`${serverApiBase}/api/study-room/presence`, { cache: "no-store" });
+      const data = await response.json();
+      if (response.ok && data?.ok) render(data);
+    } catch (_) { focus.textContent = "进入自习室后即可开始专注"; }
+  };
+  await load();
+  window.setInterval(() => { if (!document.hidden) load(); }, 45000);
+}
+
