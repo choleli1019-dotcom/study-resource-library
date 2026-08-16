@@ -25,48 +25,34 @@
       <div class="online-badge"><i></i><strong id="studyRoomOnline">--</strong><span>位同学正在自习</span></div>
     </section>
 
-    <section class="room-grid">
-      <section class="room-card focus-card" aria-labelledby="focusTitle">
-        <div class="card-heading"><div><small>FOCUS DESK</small><h2 id="focusTitle">我的专注桌</h2></div><span id="todayFocusCount">今日 0 次</span></div>
-        <div class="timer-face" aria-live="polite"><time id="pomodoroTime">25:00</time><span id="pomodoroStatus">准备开始</span></div>
-        <div class="timer-presets" role="group" aria-label="专注时长">
-          <button type="button" data-minutes="25" class="is-active">25 分钟</button><button type="button" data-minutes="45">45 分钟</button><button type="button" data-minutes="60">60 分钟</button>
-        </div>
-        <label class="field-label">这段时间准备做什么
-          <select id="studyTask"><option>刷题</option><option>申论</option><option>资料分析</option><option>面试</option><option>整理资料</option><option>安静自习</option></select>
-        </label>
-        <div class="timer-actions"><button id="pomodoroStart" type="button" class="primary">开始专注</button><button id="pomodoroReset" type="button" class="quiet">重置</button></div>
-        <p class="room-hint">计时与完成次数只保存在你的当前浏览器。</p>
-      </section>
-
-      <section class="room-card seat-card" aria-labelledby="seatTitle">
-        <div class="card-heading"><div><small>FOCUS SEATS</small><h2 id="seatTitle">今日专注席</h2></div><span class="live-label">实时</span></div>
-        <p class="seat-lead">只统计近 2 分钟仍在页面内的匿名座位。</p>
-        <div class="seat-list">
-          <article><span class="seat-icon">✎</span><div><strong id="taskCount-刷题">--</strong><small>人在刷题</small></div></article>
-          <article><span class="seat-icon">文</span><div><strong id="taskCount-申论">--</strong><small>人在看申论</small></div></article>
-          <article><span class="seat-icon">⌁</span><div><strong id="taskCount-资料分析">--</strong><small>人在练资料分析</small></div></article>
-          <article><span class="seat-icon">说</span><div><strong id="taskCount-面试">--</strong><small>人在准备面试</small></div></article>
-        </div>
-        <p class="room-hint">数据不记录姓名、联系方式或具体学习内容。</p>
-      </section>
-
-      <section class="room-card partner-card" aria-labelledby="partnerTitle">
-        <div class="card-heading"><div><small>STUDY BUDDIES</small><h2 id="partnerTitle">同频搭子</h2></div><span>匿名匹配</span></div>
-        <p class="partner-lead">只展示与你同考类、同省份或同阶段的在线人数。</p>
-        <div class="profile-fields">
-          <label>考试类型<select id="examType"><option>公务员</option><option>事业单位</option><option>教招教资</option><option>其他</option></select></label>
-          <label>备考阶段<select id="studyStage"><option>起步</option><option selected>基础</option><option>强化</option><option>冲刺</option><option>面试</option></select></label>
-          <label class="wide">所在省份（可不选）<select id="studyRegion"><option>未选择</option><option>北京</option><option>天津</option><option>河北</option><option>山西</option><option>内蒙古</option><option>辽宁</option><option>吉林</option><option>黑龙江</option><option>上海</option><option>江苏</option><option>浙江</option><option>安徽</option><option>福建</option><option>江西</option><option>山东</option><option>河南</option><option>湖北</option><option>湖南</option><option>广东</option><option>广西</option><option>海南</option><option>重庆</option><option>四川</option><option>贵州</option><option>云南</option><option>西藏</option><option>陕西</option><option>甘肃</option><option>青海</option><option>宁夏</option><option>新疆</option></select></label>
-        </div>
-        <div class="match-grid" aria-live="polite"><article><strong id="matchExam">--</strong><span>同考类</span></article><article><strong id="matchStage">--</strong><span>同阶段</span></article><article><strong id="matchRegion">--</strong><span>同省份</span></article></div>
-        <p class="match-note" id="matchNote">选好信息后，系统将匿名寻找同频同学。</p>
+    <section class="classroom-layout" aria-label="可选座位的线上教室">
+      <aside class="classroom-side">
+        <section class="room-card focus-card" aria-labelledby="focusTitle">
+          <div class="card-heading"><div><small>FOCUS DESK</small><h2 id="focusTitle">我的专注桌</h2></div><span id="todayFocusCount">今日 0 次</span></div>
+          <div class="timer-face" aria-live="polite"><time id="pomodoroTime">25:00</time><span id="pomodoroStatus">准备开始</span></div>
+          <div class="timer-presets" role="group" aria-label="专注时长"><button type="button" data-minutes="25" class="is-active">25 分钟</button><button type="button" data-minutes="45">45 分钟</button><button type="button" data-minutes="60">60 分钟</button></div>
+          <label class="field-label">这段时间准备做什么<select id="studyTask"><option>刷题</option><option>申论</option><option>资料分析</option><option>面试</option><option>整理资料</option><option>安静自习</option></select></label>
+          <div class="timer-actions"><button id="pomodoroStart" type="button" class="primary">开始专注</button><button id="pomodoroReset" type="button" class="quiet">重置</button></div>
+          <p class="room-hint">计时与完成次数只保存在你的当前浏览器。</p>
+        </section>
+        <section class="room-card partner-card" aria-labelledby="partnerTitle">
+          <div class="card-heading"><div><small>STUDY BUDDIES</small><h2 id="partnerTitle">同频搭子</h2></div><span>匿名匹配</span></div>
+          <p class="partner-lead">只展示与你同考类、同省份或同阶段的在线人数。</p>
+          <div class="profile-fields"><label>考试类型<select id="examType"><option>公务员</option><option>事业单位</option><option>教招教资</option><option>其他</option></select></label><label>备考阶段<select id="studyStage"><option>起步</option><option selected>基础</option><option>强化</option><option>冲刺</option><option>面试</option></select></label><label class="wide">所在省份（可不选）<select id="studyRegion"><option>未选择</option><option>北京</option><option>天津</option><option>河北</option><option>山西</option><option>内蒙古</option><option>辽宁</option><option>吉林</option><option>黑龙江</option><option>上海</option><option>江苏</option><option>浙江</option><option>安徽</option><option>福建</option><option>江西</option><option>山东</option><option>河南</option><option>湖北</option><option>湖南</option><option>广东</option><option>广西</option><option>海南</option><option>重庆</option><option>四川</option><option>贵州</option><option>云南</option><option>西藏</option><option>陕西</option><option>甘肃</option><option>青海</option><option>宁夏</option><option>新疆</option></select></label></div>
+          <div class="match-grid" aria-live="polite"><article><strong id="matchExam">--</strong><span>同考类</span></article><article><strong id="matchStage">--</strong><span>同阶段</span></article><article><strong id="matchRegion">--</strong><span>同省份</span></article></div><p class="match-note" id="matchNote">选好信息后，系统将匿名寻找同频同学。</p>
+        </section>
+      </aside>
+      <section class="classroom-hall" aria-labelledby="classroomTitle">
+        <header class="classroom-board"><span>SHORE CLASSROOM · LIVE</span><h2 id="classroomTitle">安静自习，请选择一张空座位</h2><p><i></i><strong id="classroomOnline">--</strong> 位同学正在教室内</p></header>
+        <div class="classroom-legend"><span><i class="empty"></i>空座可选</span><span><i class="mine"></i>我的座位</span><span><i class="busy"></i>同学正在专注</span></div>
+        <div id="classroomSeats" class="classroom-seats" aria-live="polite"></div>
+        <p id="seatSelectionNote" class="seat-selection-note">请选择一个空座入座；离开页面 2 分钟后座位会自动释放。</p>
       </section>
     </section>
-
     <footer class="room-footer">上岸自习室不提供私聊，不保存个人身份信息。保持专注，也保持安全。</footer>
   </main>
   <script>window.STUDY_RESOURCE_API_BASE = "https://study-resource-api.gjsx.uno";</script>
   <script src="study-room.js?v=20260816-1"></script>
 </body>
 </html>
+
