@@ -34,7 +34,7 @@
     const occupied = new Map((Array.isArray(seats) ? seats : []).map((item) => [item.seatId, item]));
     renderSeatOptions(seats);
     el.seats.innerHTML = Array.from({ length: seatTotal }, (_, index) => {
-      const seatId = `seat-${index + 1}`, person = occupied.get(seatId), mine = profile.seatId === seatId;
+      const seatId = `seat-${index + 1}`, mine = profile.seatId === seatId, person = occupied.get(seatId) || (mine ? { visitorId: profile.id, task: profile.task } : null);
       const status = person ? (mine ? seatTaskLabel(profile.task) : seatTaskLabel(person.task)) : "空座"; const label = seatLabel(index);
       return `<button type="button" class="classroom-seat ${person ? "is-occupied" : ""} ${mine ? "is-mine" : ""}" data-seat="${seatId}" aria-label="${label} 座位，${status}" ${person && !mine ? "disabled" : ""}><span class="seat-number">${label}</span><span class="seat-person"></span><span class="seat-task">${status}</span></button>`;
     }).join("");
@@ -65,7 +65,7 @@
       return false;
     }
   }
-  function renderWallClock() { const now = new Date(), hour = now.getHours() % 12, minute = now.getMinutes(), second = now.getSeconds(); const hourHand = $(".clock-hour"), minuteHand = $(".clock-minute"); if (hourHand) hourHand.style.transform = `translateX(-50%) rotate(${hour * 30 + minute * .5}deg)`; if (minuteHand) minuteHand.style.transform = `translateX(-50%) rotate(${minute * 6 + second * .1}deg)`; }
+  function renderWallClock() { const now = new Date(), hour = now.getHours() % 12, minute = now.getMinutes(), second = now.getSeconds(); const hourHand = $(".clock-hour"), minuteHand = $(".clock-minute"), secondHand = $(".clock-second"); if (hourHand) hourHand.style.transform = `translateX(-50%) rotate(${hour * 30 + minute * .5}deg)`; if (minuteHand) minuteHand.style.transform = `translateX(-50%) rotate(${minute * 6 + second * .1}deg)`; if (secondHand) secondHand.style.transform = `translateX(-50%) rotate(${second * 6}deg)`; }
   renderWallClock(); window.setInterval(renderWallClock, 1000);
   function openPanel(type) { document.body.classList.remove("focus-open", "match-open"); document.body.classList.add(type === "focus" ? "focus-open" : "match-open"); $("#roomModalVeil").hidden = false; }
   function closePanel() { document.body.classList.remove("focus-open", "match-open"); const veil = $("#roomModalVeil"); if (veil) veil.hidden = true; }
@@ -82,4 +82,3 @@
   document.addEventListener("visibilitychange", () => { if (!document.hidden) reportPresence(); });
   window.setInterval(reportPresence, 45000); renderClassroomSeats(); renderFocusCount(); renderTimer(); reportPresence();
 })();
-
