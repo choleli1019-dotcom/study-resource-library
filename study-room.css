@@ -73,3 +73,22 @@ html,body{min-height:100%;background:#f4f0e8!important}body{background:#f4f0e8!i
 }
 body.theme-dark .reference-wall-clock{border-color:#f0ead7!important;background:repeating-conic-gradient(from -1deg,rgba(255,255,255,.78) 0 1deg,transparent 1deg 30deg),radial-gradient(circle,#27352d 0 68%,#101814 69% 100%)!important;box-shadow:0 2px 6px rgba(0,0,0,.55)!important}body.theme-dark .reference-wall-clock::before{border-color:rgba(255,255,255,.62)!important}body.theme-dark .reference-wall-clock i{color:#fffdf1!important;text-shadow:0 1px 1px #000!important}body.theme-dark .reference-wall-clock .clock-hour,body.theme-dark .reference-wall-clock .clock-minute{background:#fffdf1!important;box-shadow:0 0 2px #000!important}body.theme-dark .reference-wall-clock .clock-second,body.theme-dark .reference-wall-clock b{background:#ff514a!important}
 @media(max-width:980px){.reference-wall-clock{display:none!important}.room-shell{width:min(760px,calc(100% - 26px));margin:14px auto}.classroom-side{grid-template-columns:1fr!important;width:100%!important}.classroom-hall{aspect-ratio:auto!important;min-height:560px!important;background:linear-gradient(145deg,#0d4b42,#e7dcb8)!important}.classroom-hall::before{display:none!important}.classroom-seats{position:relative!important;display:grid!important;grid-template-columns:repeat(3,1fr)!important;gap:15px!important;padding:24px!important}.classroom-seat{position:relative!important;left:auto!important;top:auto!important;width:auto!important;height:88px!important;border-radius:12px!important;background:#c48e57!important;color:#64462e!important}.classroom-seat::before{display:block!important;content:""!important;position:absolute!important;left:8%!important;right:8%!important;bottom:14px!important;height:38px!important;border-radius:7px!important;background:#f7e5bf!important;box-shadow:0 7px 0 #79543a!important}.classroom-seat.is-occupied::before{inset:0!important;background:#fffaf3!important;box-shadow:none!important}.classroom-seat.is-occupied .seat-person{height:115%!important;bottom:-14%!important;width:52%!important}}
+
+/* v40 — final-row perspective calibration and clean portrait overlay. */
+@media (min-width:981px){
+  /* Do not place a dark or white card behind a seated portrait. */
+  .classroom-seat.is-occupied::before{display:none!important}
+  /* Portraits sit slightly left of the card centre, matching the desk perspective. */
+  .classroom-seat.is-occupied .seat-person{left:47%!important}
+  .classroom-seat.is-occupied .seat-task{right:4%!important;top:5%!important}
+  /* D row: original hit areas were shifted left of the printed desks. */
+  .classroom-seat:nth-child(19){left:1.45%!important}
+  .classroom-seat:nth-child(20){left:19.30%!important}
+  .classroom-seat:nth-child(21){left:37.15%!important}
+  .classroom-seat:nth-child(22){left:55.05%!important}
+  .classroom-seat:nth-child(23){left:72.90%!important}
+  .classroom-seat:nth-child(24){left:90.75%!important}
+  /* E/F rows recede lower in the source photo; align to their actual cards. */
+  .classroom-seat:nth-child(25),.classroom-seat:nth-child(26),.classroom-seat:nth-child(27),.classroom-seat:nth-child(28),.classroom-seat:nth-child(29),.classroom-seat:nth-child(30){top:74.75%!important}
+  .classroom-seat:nth-child(31),.classroom-seat:nth-child(32),.classroom-seat:nth-child(33),.classroom-seat:nth-child(34),.classroom-seat:nth-child(35),.classroom-seat:nth-child(36){top:83.15%!important}
+}
