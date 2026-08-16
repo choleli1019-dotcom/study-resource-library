@@ -297,3 +297,8 @@
 @media (min-width:981px){
   .classroom-seat.is-occupied .seat-task{z-index:16!important;top:7%!important;right:5%!important;left:auto!important;bottom:auto!important}
 }
+
+/* Remove every legacy cartoon/gradient background that was still winning on some nth-child seats. */
+@media (min-width:981px){
+  .classroom-seat.is-occupied .seat-person,.classroom-seat.is-occupied:nth-child(even) .seat-person,.classroom-seat.is-occupied:nth-child(2n) .seat-person,.classroom-seat.is-occupied:nth-child(3n) .seat-person,.classroom-seat.is-occupied:nth-child(4n) .seat-person,.classroom-seat.is-occupied:nth-child(4n+2) .seat-person,.classroom-seat.is-occupied:nth-child(4n+3) .seat-person,.classroom-seat.is-occupied:nth-child(5n) .seat-person,.classroom-seat.is-occupied:nth-child(5n+4) .seat-person,.classroom-seat.is-occupied:nth-child(13n) .seat-person,.classroom-seat.is-occupied:nth-child(13n+1) .seat-person,.classroom-seat.is-occupied:nth-child(13n+2) .seat-person,.classroom-seat.is-occupied:nth-child(13n+3) .seat-person,.classroom-seat.is-occupied:nth-child(13n+4) .seat-person,.classroom-seat.is-occupied:nth-child(13n+5) .seat-person,.classroom-seat.is-occupied:nth-child(13n+6) .seat-person,.classroom-seat.is-occupied:nth-child(13n+7) .seat-person,.classroom-seat.is-occupied:nth-child(13n+8) .seat-person,.classroom-seat.is-occupied:nth-child(13n+9) .seat-person,.classroom-seat.is-occupied:nth-child(13n+10) .seat-person,.classroom-seat.is-occupied:nth-child(13n+11) .seat-person,.classroom-seat.is-occupied:nth-child(13n+12) .seat-person{background:none!important;background-image:none!important;border:0!important;border-radius:0!important;box-shadow:none!important;bottom:-2%!important}
+}
