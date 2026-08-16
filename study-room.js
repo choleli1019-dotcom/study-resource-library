@@ -49,7 +49,7 @@
     if (el.seatNote && !el.seatNote.classList.contains("is-error")) el.seatNote.textContent = profile.seatId ? `你已入座 ${profile.seatId.replace("seat-", "") } 号位；离开页面 2 分钟后座位会自动释放。` : "请选择一个空座入座；离开页面 2 分钟后座位会自动释放。";
   }
   function renderPresence(data) {
-    updateText("#studyRoomOnline", data.onlineCount ?? "--"); updateText("#classroomOnline", data.onlineCount ?? "--"); updateText("#referenceOnline", data.onlineCount ?? "--"); updateText("#liveBrushCount", data.taskCounts?.["刷题"] ?? 0); updateText("#liveEssayCount", data.taskCounts?.["申论"] ?? 0); updateText("#boardBrushCount", data.taskCounts?.["刷题"] ?? 0); updateText("#boardEssayCount", data.taskCounts?.["申论"] ?? 0);
+    updateText("#studyRoomOnline", data.onlineCount ?? "--"); updateText("#classroomOnline", data.onlineCount ?? "--"); updateText("#referenceOnline", data.onlineCount ?? "--"); updateText("#boardOnlineCount", data.onlineCount ?? "--"); updateText("#liveBrushCount", data.taskCounts?.["刷题"] ?? 0); updateText("#liveEssayCount", data.taskCounts?.["申论"] ?? 0); updateText("#boardBrushCount", data.taskCounts?.["刷题"] ?? 0); updateText("#boardEssayCount", data.taskCounts?.["申论"] ?? 0);
     updateText("#matchExam", data.match?.sameExam ?? 0); updateText("#matchStage", data.match?.sameStage ?? 0); updateText("#matchRegion", data.match?.sameRegion ?? 0);
     const hasRegion = data.match?.hasRegion; $("#matchNote").textContent = hasRegion ? "只显示人数，不展示任何同学的身份或联系方式。" : "如果愿意选择省份，还会显示同省份的匿名同学人数。";
     el.seatNote?.classList.remove("is-error"); renderClassroomSeats(data.seats); el.connection.textContent = "自习室已连接 · 仅统计活跃匿名座位";

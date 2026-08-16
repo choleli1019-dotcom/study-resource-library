@@ -7,7 +7,7 @@
   <title>上岸自习室｜学习资源库</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" />
-  <link rel="stylesheet" href="study-room.css?v=20260817-clock-colour-v44" />
+  <link rel="stylesheet" href="study-room.css?v=20260817-live-board-v45" />
 </head>
 <body>
   <main class="room-shell">
@@ -43,14 +43,14 @@
         </section>
       </aside>
       <section class="classroom-hall" aria-labelledby="classroomTitle">
-        <header class="classroom-board"><span>SHORE CLASSROOM · LIVE</span><h2 id="classroomTitle">安静自习，请选择一张空座位</h2><p><i></i><strong id="classroomOnline">--</strong> 位同学正在教室内</p></header>
+        <header class="classroom-board"><span>SHORE CLASSROOM · LIVE</span><h2 id="classroomTitle">安静自习，请选择一张空座位</h2><p><i></i><strong id="classroomOnline">--</strong> 位同学正在教室内</p></header><div class="reference-board-live" aria-live="polite"><span><b></b>当前 <strong id="boardOnlineCount">--</strong> 人在线</span><i>·</i><span>刷题 <strong id="boardBrushCount">--</strong></span><i>·</i><span>申论 <strong id="boardEssayCount">--</strong></span></div>
         <div class="classroom-legend"><span><i class="empty"></i>空座可选</span><span><i class="mine"></i>我的座位</span><span><i class="busy"></i>同学正在专注</span></div>
         <div id="classroomSeats" class="classroom-seats" aria-live="polite"></div>
         <p id="seatSelectionNote" class="seat-selection-note">请选择一个空座入座；离开页面 2 分钟后座位会自动释放。</p>
       </section>
     </section>
     <div class="reference-wall-clock" aria-label="当前时间"><i class="n12">12</i><i class="n1">1</i><i class="n2">2</i><i class="n3">3</i><i class="n4">4</i><i class="n5">5</i><i class="n6">6</i><i class="n7">7</i><i class="n8">8</i><i class="n9">9</i><i class="n10">10</i><i class="n11">11</i><span class="clock-hour"></span><span class="clock-minute"></span><span class="clock-second"></span><b></b></div>
-    <div class="reference-board-live" aria-live="polite"><span>▣ 此刻 <strong id="boardBrushCount">--</strong> 人在刷题</span><i>/</i><span>▣ <strong id="boardEssayCount">--</strong> 人在看申论</span></div>    <aside class="reference-sidebar-surface" aria-label="自习室功能栏"></aside>
+    <aside class="reference-sidebar-surface" aria-label="自习室功能栏"></aside>
     <section class="reference-live-seat-summary" aria-live="polite" aria-label="实时专注统计">
       <header><strong>今日专注席</strong><span>实时</span></header>
       <div class="reference-live-stats"><article><b id="liveBrushCount">--</b><small>人在刷题</small></article><article><b id="liveEssayCount">--</b><small>人在看申论</small></article></div>
