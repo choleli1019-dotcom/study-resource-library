@@ -8690,3 +8690,9 @@ body .main .hero-art.study-room-teaser > .study-room-teaser-bottom{z-index:3!imp
 @media (max-width:700px),(orientation:portrait){
  body .main .hero-art.study-room-teaser > .study-room-teaser-classroom{right:21px!important;bottom:72px!important;width:calc(100% - 42px)!important;height:30%!important}
 }
+
+/* Balance the card: the classroom preview becomes one full lower panorama, rather than a small right-aligned thumbnail. */
+@media (min-width:701px) and (orientation:landscape){
+  body .main .hero-art.study-room-teaser > .study-room-teaser-classroom{left:clamp(18px,2vw,31px)!important;right:clamp(18px,2vw,31px)!important;bottom:clamp(74px,6.2vw,94px)!important;width:auto!important;height:35%!important;border-radius:15px!important}
+  body .main .hero-art.study-room-teaser > .study-room-teaser-bottom{left:clamp(22px,2vw,31px)!important;right:clamp(22px,2vw,31px)!important;bottom:clamp(20px,1.8vw,28px)!important}
+}
