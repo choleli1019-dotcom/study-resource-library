@@ -7,7 +7,7 @@
   <title>上岸自习室｜学习资源库</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" />
-  <link rel="stylesheet" href="study-room.css?v=20260816-reference-v6" />
+  <link rel="stylesheet" href="study-room.css?v=20260816-reference-v8" />
 </head>
 <body>
   <main class="room-shell">
@@ -49,12 +49,27 @@
         <p id="seatSelectionNote" class="seat-selection-note">请选择一个空座入座；离开页面 2 分钟后座位会自动释放。</p>
       </section>
     </section>
-    <footer class="room-footer">上岸自习室不提供私聊，不保存个人身份信息。保持专注，也保持安全。</footer>
+    <div class="reference-wall-clock" aria-label="当前时间"><span class="clock-hour"></span><span class="clock-minute"></span><b></b></div>
+    <div class="reference-board-live" aria-live="polite"><span>▣ 此刻 <strong id="boardBrushCount">--</strong> 人在刷题</span><i>/</i><span>▣ <strong id="boardEssayCount">--</strong> 人在看申论</span></div>    <section class="reference-live-seat-summary" aria-live="polite" aria-label="实时专注统计">
+      <header><strong>今日专注席</strong><span>实时</span></header>
+      <div class="reference-live-stats"><article><b id="liveBrushCount">--</b><small>人在刷题</small></article><article><b id="liveEssayCount">--</b><small>人在看申论</small></article></div>
+      <p><i></i>当前 <strong id="referenceOnline">--</strong> 人在线 · 每 45 秒刷新</p>
+    </section>
+    <button id="matchToggle" class="reference-match-toggle" type="button">匿名搭子匹配 <span>去匹配 ›</span></button>
+    <button id="focusToggle" class="reference-focus-toggle" type="button">番茄钟 <strong id="referenceTimerMini">25:00</strong></button>
+    <button id="inviteShare" class="reference-invite" type="button">⌯ 邀请好友一起学习</button>
+    <span class="reference-background-cover" aria-hidden="true"></span>
+    <div class="room-modal-veil" id="roomModalVeil" hidden></div>
+    <section class="orientation-prompt" aria-label="横屏使用提示">
+      <div><span>↻</span><h2>横屏进入座位图</h2><p>横屏后可准确选择教室座位；竖屏也可继续使用番茄钟与匿名匹配。</p><button id="continuePortrait" type="button">继续竖屏使用</button></div>
+    </section>    <footer class="room-footer">上岸自习室不提供私聊，不保存个人身份信息。保持专注，也保持安全。</footer>
   </main>
   <script>window.STUDY_RESOURCE_API_BASE = "https://study-resource-api.gjsx.uno";</script>
-  <script src="study-room.js?v=20260816-immersive-v3"></script>
+  <script src="study-room.js?v=20260816-immersive-v5"></script>
 </body>
 </html>
+
+
 
 
 
