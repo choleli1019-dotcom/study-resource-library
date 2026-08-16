@@ -22,6 +22,7 @@
 
   function updateText(id, value) { const node = $(id); if (node) node.textContent = String(value); }
   const seatRows = 6, seatColumns = 6, seatTotal = seatRows * seatColumns;
+  const seatPortraits = ['assets/study-room-learner-clean-green-01-crop.png', 'assets/study-room-learner-clean-green-02-crop.png', 'assets/study-room-learner-clean-girl-03-crop.png', 'assets/study-room-learner-clean-boy-04-crop.png', 'assets/study-room-learner-clean-girl-05-crop.png'];
   function seatLabel(index) { return `${String.fromCharCode(65 + Math.floor(index / seatColumns))}${(index % seatColumns) + 1}`; }
   function seatTaskLabel(task) { return task === "安静自习" ? "自习中" : `${task}中`; }  function renderSeatOptions(seats = []) {
     if (!el.seat) return;
@@ -35,8 +36,8 @@
     renderSeatOptions(seats);
     el.seats.innerHTML = Array.from({ length: seatTotal }, (_, index) => {
       const seatId = `seat-${index + 1}`, mine = profile.seatId === seatId, person = occupied.get(seatId) || (mine ? { visitorId: profile.id, task: profile.task } : null);
-      const status = person ? (mine ? seatTaskLabel(profile.task) : seatTaskLabel(person.task)) : "空座"; const label = seatLabel(index);
-      return `<button type="button" class="classroom-seat ${person ? "is-occupied" : ""} ${mine ? "is-mine" : ""}" data-seat="${seatId}" aria-label="${label} 座位，${status}" ${person && !mine ? "disabled" : ""}><span class="seat-number">${label}</span><span class="seat-person"></span><span class="seat-task">${status}</span></button>`;
+      const status = person ? (mine ? seatTaskLabel(profile.task) : seatTaskLabel(person.task)) : "空座"; const label = seatLabel(index), portrait = seatPortraits[index % seatPortraits.length], portraitClass = `portrait-${(index % seatPortraits.length) + 1}`;
+      return `<button type="button" class="classroom-seat ${person ? "is-occupied" : ""} ${mine ? "is-mine" : ""}" data-seat="${seatId}" aria-label="${label} 座位，${status}" ${person && !mine ? "disabled" : ""}><span class="seat-number">${label}</span><span class="seat-person"><img class="seat-portrait ${portraitClass}" src="${portrait}" alt="" aria-hidden="true" /></span><span class="seat-task">${status}</span></button>`;
     }).join("");
     el.seats.querySelectorAll("[data-seat]").forEach((button) => button.addEventListener("click", async () => {
       const oldSeat = profile.seatId;

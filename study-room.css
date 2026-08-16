@@ -269,3 +269,11 @@
 @media (min-width:981px){
   .classroom-seat.is-occupied .seat-person,.classroom-seat.is-occupied:nth-child(even) .seat-person,.classroom-seat.is-occupied:nth-child(3n) .seat-person,.classroom-seat.is-occupied:nth-child(5n+4) .seat-person,.classroom-seat.is-occupied:nth-child(5n) .seat-person{background-image:url("assets/study-room-learner-clean-boy-04-crop.png")!important}
 }
+
+/* Portraits are real image elements, not CSS background crops. The five supplied people share E5's baseline and visual scale. */
+@media (min-width:981px){
+  .classroom-seat.is-occupied .seat-person{display:block!important;position:absolute!important;z-index:14!important;left:50%!important;bottom:-12%!important;width:59%!important;height:160%!important;overflow:visible!important;transform:translateX(-50%)!important;background:none!important;border:0!important;border-radius:0!important;box-shadow:none!important;filter:drop-shadow(0 2px 2px rgba(42,26,13,.20))!important}
+  .classroom-seat.is-occupied .seat-person::before,.classroom-seat.is-occupied .seat-person::after{content:none!important;display:none!important}
+  .classroom-seat.is-occupied .seat-portrait{display:block!important;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:contain!important;object-position:center bottom!important;transform:scale(var(--portrait-scale,1))!important;transform-origin:center bottom!important}
+  .classroom-seat.is-occupied .portrait-1{--portrait-scale:.86}.classroom-seat.is-occupied .portrait-2{--portrait-scale:.94}.classroom-seat.is-occupied .portrait-3{--portrait-scale:1.30}.classroom-seat.is-occupied .portrait-4{--portrait-scale:1}.classroom-seat.is-occupied .portrait-5{--portrait-scale:.67}
+}
