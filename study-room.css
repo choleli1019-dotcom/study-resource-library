@@ -166,7 +166,7 @@
 
 /* Restored photographic classroom composition: the original classroom is visual ambience; only live counters and the selected seat are dynamic. */
 @media (min-width:981px){
-  body{background:url("assets/study-room-authorized-reference.png") center top/cover no-repeat!important}
+  body{background:url("assets/study-room-authorized-reference-clean.png") center top/cover no-repeat!important}
   .classroom-seat{background:transparent!important;border:0!important;box-shadow:none!important}
   .classroom-seat .seat-person{display:none!important}
   .classroom-seat.is-occupied .seat-person{display:none!important}
