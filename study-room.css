@@ -73,3 +73,13 @@
   .classroom-seat.is-mine .seat-person { background:linear-gradient(135deg,#3dd4a3 0 49%,#159a70 50% 100%) !important; filter:drop-shadow(0 0 7px rgba(39,218,167,.74)); }
   .classroom-seat.is-occupied:hover .seat-person { transform:translateX(-50%) translateY(-4px) !important; transition:transform .18s ease; }
 }
+
+/* Precisely mapped desk hit areas for the authorized 6 x 6 classroom reference. */
+@media (min-width: 981px) {
+  .room-shell { height: calc(100vw * .5625) !important; min-height: 0 !important; }
+  .classroom-seats { inset: 0 !important; display: block !important; width: 100% !important; height: 100% !important; min-width: 0 !important; margin: 0 !important; padding: 0 !important; }
+  .classroom-seat { position: absolute !important; width: 8.8% !important; height: 7.25% !important; min-height: 0 !important; transform: none !important; }
+  .classroom-seat:nth-child(6n + 1) { left: 8.8% !important; }.classroom-seat:nth-child(6n + 2) { left: 21.2% !important; }.classroom-seat:nth-child(6n + 3) { left: 33.6% !important; }.classroom-seat:nth-child(6n + 4) { left: 46.0% !important; }.classroom-seat:nth-child(6n + 5) { left: 58.4% !important; }.classroom-seat:nth-child(6n) { left: 70.8% !important; }
+  .classroom-seat:nth-child(-n + 6) { top: 43.5% !important; }.classroom-seat:nth-child(n + 7):nth-child(-n + 12) { top: 51.6% !important; }.classroom-seat:nth-child(n + 13):nth-child(-n + 18) { top: 59.3% !important; }.classroom-seat:nth-child(n + 19):nth-child(-n + 24) { top: 67.2% !important; }.classroom-seat:nth-child(n + 25):nth-child(-n + 30) { top: 75.3% !important; }.classroom-seat:nth-child(n + 31):nth-child(-n + 36) { top: 83.5% !important; }
+  .classroom-seat.is-mine { border-radius: 8px !important; }.classroom-seat.is-mine::after { top: 52% !important; }
+}
