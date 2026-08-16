@@ -99,3 +99,6 @@ body.theme-dark .reference-wall-clock .clock-hour{z-index:8!important;width:8%!i
 body.theme-dark .reference-wall-clock .clock-minute{z-index:9!important;width:5%!important;height:41%!important;background:#fffdf4!important;border:1px solid #17130f!important;box-shadow:0 0 3px rgba(0,0,0,.95),0 0 2px #fffdf4!important}
 body.theme-dark .reference-wall-clock .clock-second{z-index:10!important;width:1.6%!important;height:44%!important;background:#ff4e47!important;box-shadow:0 0 4px rgba(255,78,71,.9)!important}
 body.theme-dark .reference-wall-clock b{z-index:11!important;width:9%!important;background:#ff514a!important;box-shadow:0 0 3px rgba(0,0,0,.9)!important}
+
+/* v43 — keep final-row portraits above the photographed chair backs. */
+@media (min-width:981px){.classroom-seat:nth-child(31).is-occupied .seat-person,.classroom-seat:nth-child(32).is-occupied .seat-person,.classroom-seat:nth-child(33).is-occupied .seat-person,.classroom-seat:nth-child(34).is-occupied .seat-person,.classroom-seat:nth-child(35).is-occupied .seat-person,.classroom-seat:nth-child(36).is-occupied .seat-person{width:38%!important;height:86%!important;bottom:4%!important}}
