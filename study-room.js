@@ -21,20 +21,32 @@
   document.querySelectorAll("[data-minutes]").forEach((button) => button.addEventListener("click", () => { if (running) return; duration = Number(button.dataset.minutes) * 60; remaining = duration; document.querySelectorAll("[data-minutes]").forEach((item) => item.classList.toggle("is-active", item === button)); renderTimer(); }));
 
   function updateText(id, value) { const node = $(id); if (node) node.textContent = String(value); }
+  const seatRows = 7, seatColumns = 7, seatTotal = seatRows * seatColumns;
+  function seatLabel(index) { return `${String.fromCharCode(65 + Math.floor(index / seatColumns))}${(index % seatColumns) + 1}`; }
+  const deskRows = [
+    { x: 16.0, step: 10.4, y: 41.4, width: 6.8, height: 4.5 },
+    { x: 13.0, step: 11.3, y: 46.5, width: 7.5, height: 5.1 },
+    { x:  9.5, step: 12.5, y: 52.3, width: 8.4, height: 5.8 },
+    { x:  5.5, step: 13.9, y: 58.9, width: 9.4, height: 6.8 },
+    { x:  1.0, step: 15.4, y: 66.4, width:10.7, height: 8.0 },
+    { x:  0.2, step: 15.6, y: 75.0, width:11.6, height: 9.3 },
+    { x:  0.0, step: 15.7, y: 84.3, width:12.1, height:10.2 }
+  ];
+  function deskStyle(index) { const row = deskRows[Math.floor(index / seatColumns)], column = index % seatColumns; return `--desk-x:${row.x + row.step * column}%;--desk-y:${row.y}%;--desk-w:${row.width}%;--desk-h:${row.height}%;`; }
   function seatTaskLabel(task) { return task === "安静自习" ? "自习中" : `${task}中`; }  function renderSeatOptions(seats = []) {
     if (!el.seat) return;
     const occupied = new Map((Array.isArray(seats) ? seats : []).map((item) => [item.seatId, item]));
-    el.seat.innerHTML = `<option value="">暂不入座</option>` + Array.from({ length: 36 }, (_, index) => { const id = `seat-${index + 1}`, person = occupied.get(id), mine = profile.seatId === id; return `<option value="${id}" ${person && !mine ? "disabled" : ""}>${String.fromCharCode(65 + Math.floor(index / 6))}${(index % 6) + 1}${person && !mine ? "（已有人）" : ""}</option>`; }).join("");
+    el.seat.innerHTML = `<option value="">暂不入座</option>` + Array.from({ length: seatTotal }, (_, index) => { const id = `seat-${index + 1}`, person = occupied.get(id), mine = profile.seatId === id; return `<option value="${id}" ${person && !mine ? "disabled" : ""}>${seatLabel(index)}${person && !mine ? "（已有人）" : ""}</option>`; }).join("");
     el.seat.value = profile.seatId || "";
   }
   function renderClassroomSeats(seats = []) {
     if (!el.seats) return;
     const occupied = new Map((Array.isArray(seats) ? seats : []).map((item) => [item.seatId, item]));
     renderSeatOptions(seats);
-    el.seats.innerHTML = Array.from({ length: 36 }, (_, index) => {
+    el.seats.innerHTML = Array.from({ length: seatTotal }, (_, index) => {
       const seatId = `seat-${index + 1}`, person = occupied.get(seatId), mine = profile.seatId === seatId;
-      const status = person ? (mine ? seatTaskLabel(profile.task) : seatTaskLabel(person.task)) : "空座"; const seatLabel = `${String.fromCharCode(65 + Math.floor(index / 6))}${(index % 6) + 1}`;
-      return `<button type="button" class="classroom-seat ${person ? "is-occupied" : ""} ${mine ? "is-mine" : ""}" data-seat="${seatId}" aria-label="${seatLabel} 座位，${status}" ${person && !mine ? "disabled" : ""}><span class="seat-number">${seatLabel}</span><span class="seat-person"></span><span class="seat-task">${status}</span></button>`;
+      const status = person ? (mine ? seatTaskLabel(profile.task) : seatTaskLabel(person.task)) : "空座"; const label = seatLabel(index);
+      return `<button type="button" class="classroom-seat ${person ? "is-occupied" : ""} ${mine ? "is-mine" : ""}" data-seat="${seatId}" style="${deskStyle(index)}" aria-label="${label} 座位，${status}" ${person && !mine ? "disabled" : ""}><span class="seat-number">${label}</span><span class="seat-person"></span><span class="seat-task">${status}</span></button>`;
     }).join("");
     el.seats.querySelectorAll("[data-seat]").forEach((button) => button.addEventListener("click", async () => {
       const oldSeat = profile.seatId;
@@ -80,9 +92,4 @@
   document.addEventListener("visibilitychange", () => { if (!document.hidden) reportPresence(); });
   window.setInterval(reportPresence, 45000); renderClassroomSeats(); renderFocusCount(); renderTimer(); reportPresence();
 })();
-
-
-
-
-
 
