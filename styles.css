@@ -8638,3 +8638,10 @@ body .main .hero-art.study-room-teaser::after { display: none !important; conten
 .study-room-teaser-shelf i { position: absolute; bottom: 10px; width: 13%; height: 73%; border-radius: 2px 2px 0 0; background: #d3a350; box-shadow: 20px 4px 0 #7fa47d, 40px 0 0 #b26651, 60px 4px 0 #7992ad; }
 .study-room-teaser-shelf i:nth-child(2) { left: 15%; height: 64%; background: #7fa47d; }.study-room-teaser-shelf i:nth-child(3) { left: 28%; height: 80%; background: #b26651; }.study-room-teaser-shelf i:nth-child(4) { left: 41%; height: 67%; background: #7992ad; }.study-room-teaser-shelf em { position: absolute; right: 9%; bottom: 13px; width: 50px; height: 50px; border: 7px solid rgba(255, 235, 155, .78); border-radius: 50%; box-shadow: 0 0 29px rgba(255, 212, 104, .56); }
 @media (max-width: 700px), (orientation: portrait) { body .main .hero-art.study-room-teaser { min-height: 365px !important; padding: 21px !important; } .study-room-preview-seats { grid-template-columns: 1fr; } .study-room-preview-seats > span { grid-template-columns: 28px minmax(0, 1fr); } .study-room-teaser-bottom { align-items: flex-start; flex-direction: column; } .study-room-teaser-shelf { width: 56%; height: 18%; } }
+
+/* Homepage study-room card must override the former image-card rule that hid every direct child. */
+body .main .hero-art.study-room-teaser > .study-room-teaser-head { display:flex !important; }
+body .main .hero-art.study-room-teaser > .study-room-teaser-lead { display:block !important; }
+body .main .hero-art.study-room-teaser > .study-room-preview-seats { display:grid !important; }
+body .main .hero-art.study-room-teaser > .study-room-teaser-bottom { display:flex !important; }
+body .main .hero-art.study-room-teaser > .study-room-teaser-shelf { display:block !important; }
