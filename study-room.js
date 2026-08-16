@@ -25,7 +25,7 @@
   function renderClassroomSeats(seats = []) {
     if (!el.seats) return;
     const occupied = new Map((Array.isArray(seats) ? seats : []).map((item) => [item.seatId, item]));
-    el.seats.innerHTML = Array.from({ length: 18 }, (_, index) => {
+    el.seats.innerHTML = Array.from({ length: 36 }, (_, index) => {
       const seatId = `seat-${index + 1}`, person = occupied.get(seatId), mine = profile.seatId === seatId;
       const status = person ? (mine ? "我的座位" : seatTaskLabel(person.task)) : "空座";
       return `<button type="button" class="classroom-seat ${person ? "is-occupied" : ""} ${mine ? "is-mine" : ""}" data-seat="${seatId}" aria-label="第 ${index + 1} 号座位，${status}" ${person && !mine ? "disabled" : ""}><span class="seat-number">${index + 1}</span><span class="seat-person"></span><span class="seat-task">${status}</span></button>`;
@@ -60,4 +60,5 @@
   document.addEventListener("visibilitychange", () => { if (!document.hidden) reportPresence(); });
   window.setInterval(reportPresence, 45000); renderClassroomSeats(); renderFocusCount(); renderTimer(); reportPresence();
 })();
+
 
