@@ -8555,3 +8555,10 @@ body:not(.theme-light) .peer-search-pulse button { color: #87efc7; }
     object-position: center bottom !important;
   }
 }
+@media (min-width: 701px) {
+  body .main .hero-visual {
+    height: auto !important;
+    min-height: 0 !important;
+    align-self: start !important;
+  }
+}
