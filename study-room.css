@@ -234,3 +234,14 @@
   .classroom-seat.is-occupied:nth-child(even) .seat-person{background-image:url("assets/study-room-learner-clean-green-02.png")!important}
   .classroom-seat.is-occupied .seat-task{z-index:14!important;right:5%!important;top:36%!important}
 }
+
+/* Third user-provided transparent rear-view portrait. */
+@media (min-width:981px){
+  .classroom-seat.is-occupied:nth-child(3n) .seat-person{background-image:url("assets/study-room-learner-clean-girl-03.png")!important}
+}
+
+/* Fourth and fifth user-provided transparent rear-view portraits. */
+@media (min-width:981px){
+  .classroom-seat.is-occupied:nth-child(5n+4) .seat-person{background-image:url("assets/study-room-learner-clean-boy-04.png")!important}
+  .classroom-seat.is-occupied:nth-child(5n) .seat-person{background-image:url("assets/study-room-learner-clean-girl-05.png")!important}
+}
