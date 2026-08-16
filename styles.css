@@ -8586,3 +8586,12 @@ body:not(.theme-light) .peer-search-pulse button { color: #87efc7; }
     align-self: stretch !important;
   }
 }
+
+/* The supplied daily reference is a composed card: fill its reserved visual area
+   so the fixed title bar never exposes a blank band above the artwork. */
+@media (min-width: 701px) and (orientation: landscape) {
+  body .main .hero-live-panel.has-site-notice + .hero-art > img {
+    object-fit: fill !important;
+    object-position: center center !important;
+  }
+}
