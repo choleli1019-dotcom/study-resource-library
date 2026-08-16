@@ -8528,3 +8528,15 @@ body:not(.theme-light) .peer-search-pulse button { color: #87efc7; }
   body .main .hero-live-panel.has-site-notice > p > small { grid-column: 2 !important; line-height: 1.55 !important; }
   body .main .hero-live-panel.has-site-notice + .hero-art { height: auto !important; min-height: 260px !important; align-self: stretch !important; }
 }
+@media (min-width: 701px) {
+  body .main .hero-live-panel.has-site-notice + .hero-art {
+    min-height: 0 !important;
+    aspect-ratio: auto !important;
+  }
+  body .main .hero-live-panel.has-site-notice + .hero-art > img {
+    inset: clamp(42px, 3.15vw, 51px) 0 0 !important;
+    height: calc(100% - clamp(42px, 3.15vw, 51px)) !important;
+    object-fit: cover !important;
+    object-position: center top !important;
+  }
+}
