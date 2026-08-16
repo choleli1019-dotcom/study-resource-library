@@ -277,3 +277,11 @@
   .classroom-seat.is-occupied .seat-portrait{display:block!important;width:100%!important;height:100%!important;max-width:none!important;max-height:none!important;object-fit:contain!important;object-position:center bottom!important;transform:scale(var(--portrait-scale,1))!important;transform-origin:center bottom!important}
   .classroom-seat.is-occupied .portrait-1{--portrait-scale:.86}.classroom-seat.is-occupied .portrait-2{--portrait-scale:.94}.classroom-seat.is-occupied .portrait-3{--portrait-scale:1.30}.classroom-seat.is-occupied .portrait-4{--portrait-scale:1}.classroom-seat.is-occupied .portrait-5{--portrait-scale:.67}
 }
+
+/* Final E5-fit geometry: size the actual cut-out by width, not a tall transparent box, so no neighbouring desks leak into the portrait layer. */
+@media (min-width:981px){
+  .classroom-seat.is-occupied .seat-person{z-index:14!important;left:50%!important;bottom:-5%!important;width:48%!important;height:auto!important;overflow:visible!important;transform:translateX(-50%)!important;background:none!important}
+  .classroom-seat.is-occupied .seat-portrait{display:block!important;width:100%!important;height:auto!important;max-width:none!important;max-height:none!important;object-fit:initial!important;object-position:initial!important;transform:scale(var(--portrait-scale,1))!important;transform-origin:center bottom!important}
+  .classroom-seat.is-occupied .portrait-1{--portrait-scale:.86}.classroom-seat.is-occupied .portrait-2{--portrait-scale:.94}.classroom-seat.is-occupied .portrait-3{--portrait-scale:1.30}.classroom-seat.is-occupied .portrait-4{--portrait-scale:1}.classroom-seat.is-occupied .portrait-5{--portrait-scale:.67}
+  .classroom-seat.is-occupied .seat-task{z-index:16!important;top:26%!important;right:4%!important}
+}
