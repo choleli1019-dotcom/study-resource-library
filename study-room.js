@@ -2,15 +2,15 @@
   const apiBase = String(window.STUDY_RESOURCE_API_BASE || "").replace(/\/$/, "");
   const $ = (selector) => document.querySelector(selector);
   const storage = { get(key, fallback) { try { return JSON.parse(localStorage.getItem(key)) ?? fallback; } catch (_) { return fallback; } }, set(key, value) { try { localStorage.setItem(key, JSON.stringify(value)); } catch (_) {} } };
-  const roomKey = "study-room-profile-v1";
+  const roomKey = "study-room-profile-v2";
   const focusKey = "study-room-focus-v1";
   const profile = storage.get(roomKey, { id: "", examType: "公务员", stage: "基础", region: "未选择", task: "刷题", seatId: "" });
   if (!profile.id) profile.id = (crypto.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random()}`).replace(/[^a-zA-Z0-9_-]/g, "");
   if (!profile.seatId) profile.seatId = "";
   let duration = 25 * 60, remaining = duration, running = false, timer = 0;
-  const el = { time: $("#pomodoroTime"), status: $("#pomodoroStatus"), start: $("#pomodoroStart"), reset: $("#pomodoroReset"), task: $("#studyTask"), exam: $("#examType"), stage: $("#studyStage"), region: $("#studyRegion"), connection: $("#roomConnection"), seats: $("#classroomSeats"), seatNote: $("#seatSelectionNote") };
+  const el = { time: $("#pomodoroTime"), status: $("#pomodoroStatus"), start: $("#pomodoroStart"), reset: $("#pomodoroReset"), task: $("#studyTask"), exam: $("#examType"), stage: $("#studyStage"), region: $("#studyRegion"), connection: $("#roomConnection"), seats: $("#classroomSeats"), seatNote: $("#seatSelectionNote"), seat: $("#studySeat") };
   [[el.task, "task"], [el.exam, "examType"], [el.stage, "stage"], [el.region, "region"]].forEach(([node, key]) => { node.value = profile[key]; node.addEventListener("change", () => { profile[key] = node.value; storage.set(roomKey, profile); reportPresence(); }); });
-
+  el.seat?.addEventListener("change", async () => { const oldSeat = profile.seatId; profile.seatId = el.seat.value || ""; storage.set(roomKey, profile); const ok = await reportPresence(); if (!ok) { profile.seatId = oldSeat; storage.set(roomKey, profile); el.seat.value = oldSeat; reportPresence(); } });
   function todayKey() { return new Date().toLocaleDateString("sv-SE", { timeZone: "Asia/Shanghai" }); }
   function focusCount() { const data = storage.get(focusKey, {}); return Number(data[todayKey()] || 0); }
   function renderFocusCount() { $("#todayFocusCount").textContent = `今日 ${focusCount()} 次`; }
@@ -21,14 +21,20 @@
   document.querySelectorAll("[data-minutes]").forEach((button) => button.addEventListener("click", () => { if (running) return; duration = Number(button.dataset.minutes) * 60; remaining = duration; document.querySelectorAll("[data-minutes]").forEach((item) => item.classList.toggle("is-active", item === button)); renderTimer(); }));
 
   function updateText(id, value) { const node = $(id); if (node) node.textContent = String(value); }
-  function seatTaskLabel(task) { return task === "安静自习" ? "自习中" : `${task}中`; }
+  function seatTaskLabel(task) { return task === "安静自习" ? "自习中" : `${task}中`; }  function renderSeatOptions(seats = []) {
+    if (!el.seat) return;
+    const occupied = new Map((Array.isArray(seats) ? seats : []).map((item) => [item.seatId, item]));
+    el.seat.innerHTML = `<option value="">暂不入座</option>` + Array.from({ length: 36 }, (_, index) => { const id = `seat-${index + 1}`, person = occupied.get(id), mine = profile.seatId === id; return `<option value="${id}" ${person && !mine ? "disabled" : ""}>${String.fromCharCode(65 + Math.floor(index / 6))}${(index % 6) + 1}${person && !mine ? "（已有人）" : ""}</option>`; }).join("");
+    el.seat.value = profile.seatId || "";
+  }
   function renderClassroomSeats(seats = []) {
     if (!el.seats) return;
     const occupied = new Map((Array.isArray(seats) ? seats : []).map((item) => [item.seatId, item]));
+    renderSeatOptions(seats);
     el.seats.innerHTML = Array.from({ length: 36 }, (_, index) => {
       const seatId = `seat-${index + 1}`, person = occupied.get(seatId), mine = profile.seatId === seatId;
-      const status = person ? (mine ? "我的座位" : seatTaskLabel(person.task)) : "空座";
-      return `<button type="button" class="classroom-seat ${person ? "is-occupied" : ""} ${mine ? "is-mine" : ""}" data-seat="${seatId}" aria-label="第 ${index + 1} 号座位，${status}" ${person && !mine ? "disabled" : ""}><span class="seat-number">${index + 1}</span><span class="seat-person"></span><span class="seat-task">${status}</span></button>`;
+      const status = person ? (mine ? seatTaskLabel(profile.task) : seatTaskLabel(person.task)) : "空座"; const seatLabel = `${String.fromCharCode(65 + Math.floor(index / 6))}${(index % 6) + 1}`;
+      return `<button type="button" class="classroom-seat ${person ? "is-occupied" : ""} ${mine ? "is-mine" : ""}" data-seat="${seatId}" aria-label="${seatLabel} 座位，${status}" ${person && !mine ? "disabled" : ""}><span class="seat-number">${seatLabel}</span><span class="seat-person"></span><span class="seat-task">${status}</span></button>`;
     }).join("");
     el.seats.querySelectorAll("[data-seat]").forEach((button) => button.addEventListener("click", async () => {
       const oldSeat = profile.seatId;
@@ -74,6 +80,8 @@
   document.addEventListener("visibilitychange", () => { if (!document.hidden) reportPresence(); });
   window.setInterval(reportPresence, 45000); renderClassroomSeats(); renderFocusCount(); renderTimer(); reportPresence();
 })();
+
+
 
 
 
