@@ -92,3 +92,4 @@ body.theme-dark .reference-wall-clock{border-color:#f0ead7!important;background:
   .classroom-seat:nth-child(25),.classroom-seat:nth-child(26),.classroom-seat:nth-child(27),.classroom-seat:nth-child(28),.classroom-seat:nth-child(29),.classroom-seat:nth-child(30){top:74.75%!important}
   .classroom-seat:nth-child(31),.classroom-seat:nth-child(32),.classroom-seat:nth-child(33),.classroom-seat:nth-child(34),.classroom-seat:nth-child(35),.classroom-seat:nth-child(36){top:83.15%!important}
 }
+@media (min-width:981px){.classroom-seat:nth-child(31),.classroom-seat:nth-child(32),.classroom-seat:nth-child(33),.classroom-seat:nth-child(34),.classroom-seat:nth-child(35),.classroom-seat:nth-child(36){top:89.5%!important}}
