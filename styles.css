@@ -8562,3 +8562,27 @@ body:not(.theme-light) .peer-search-pulse button { color: #87efc7; }
     align-self: start !important;
   }
 }
+
+/* Keep the desktop right column visually complete when the copy card is taller.
+   The quote image uses the remaining column height, while its source stays uncropped. */
+@media (min-width: 701px) and (orientation: landscape) {
+  body .main .hero-visual {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+    align-self: stretch !important;
+    gap: clamp(20px, 1.75vw, 28px) !important;
+  }
+
+  body .main .hero-live-panel.has-site-notice {
+    flex: 0 0 auto !important;
+  }
+
+  body .main .hero-live-panel.has-site-notice + .hero-art {
+    flex: 1 1 0 !important;
+    min-height: 0 !important;
+    height: auto !important;
+    aspect-ratio: auto !important;
+    align-self: stretch !important;
+  }
+}
