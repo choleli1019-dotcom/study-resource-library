@@ -20,6 +20,36 @@
   el.start.addEventListener("click", toggleTimer); el.reset.addEventListener("click", () => { running = false; clearInterval(timer); remaining = duration; renderTimer(); reportPresence(); });
   document.querySelectorAll("[data-minutes]").forEach((button) => button.addEventListener("click", () => { if (running) return; duration = Number(button.dataset.minutes) * 60; remaining = duration; document.querySelectorAll("[data-minutes]").forEach((item) => item.classList.toggle("is-active", item === button)); renderTimer(); }));
 
+  const noiseVolumeKey = "study-room-noise-volume-v1";
+  const noise = { context: null, gain: null, source: null, playing: false, muted: false, volume: Math.min(100, Math.max(0, Number(storage.get(noiseVolumeKey, 28)) || 28)) };
+  const noiseEl = { toggle: $("#noiseToggle"), mute: $("#noiseMute"), volume: $("#noiseVolume"), output: $("#noiseVolumeValue"), status: $("#noiseStatus") };
+  function renderNoise() {
+    const value = Math.round(noise.volume);
+    if (noiseEl.volume) noiseEl.volume.value = String(value);
+    if (noiseEl.output) noiseEl.output.textContent = `${value}%`;
+    if (noiseEl.toggle) { noiseEl.toggle.textContent = noise.playing ? "Ⅱ 暂停播放" : "▶ 开始播放"; noiseEl.toggle.setAttribute("aria-pressed", String(noise.playing)); }
+    if (noiseEl.status) noiseEl.status.textContent = noise.playing ? (noise.muted ? "已静音" : "播放中") : "已关闭";
+    if (noiseEl.mute) { noiseEl.mute.textContent = noise.muted ? "取消静音" : "静音"; noiseEl.mute.setAttribute("aria-pressed", String(noise.muted)); }
+  }
+  function applyNoiseGain() { if (noise.gain) noise.gain.gain.value = noise.muted ? 0 : noise.volume / 100 * 0.28; }
+  function createNoiseSource() {
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContext) throw new Error("当前浏览器不支持白噪音");
+    noise.context = noise.context || new AudioContext();
+    const sampleRate = noise.context.sampleRate, buffer = noise.context.createBuffer(1, sampleRate * 2, sampleRate), data = buffer.getChannelData(0);
+    for (let i = 0; i < data.length; i += 1) { const edge = Math.min(1, i / (sampleRate * .03), (data.length - i) / (sampleRate * .03)); data[i] = (Math.random() * 2 - 1) * edge; }
+    noise.gain = noise.context.createGain(); noise.gain.connect(noise.context.destination); applyNoiseGain();
+    noise.source = noise.context.createBufferSource(); noise.source.buffer = buffer; noise.source.loop = true; noise.source.connect(noise.gain); noise.source.start();
+  }
+  async function toggleNoise() {
+    if (noise.playing) { noise.source?.stop(); noise.source?.disconnect(); noise.gain?.disconnect(); noise.source = null; noise.gain = null; noise.playing = false; renderNoise(); return; }
+    try { if (!noise.context || !noise.source) createNoiseSource(); if (noise.context.state === "suspended") await noise.context.resume(); noise.playing = true; renderNoise(); }
+    catch (error) { if (noiseEl.status) noiseEl.status.textContent = error.message || "暂不支持"; if (noiseEl.toggle) noiseEl.toggle.disabled = true; }
+  }
+  noiseEl.toggle?.addEventListener("click", toggleNoise);
+  noiseEl.mute?.addEventListener("click", () => { noise.muted = !noise.muted; applyNoiseGain(); renderNoise(); });
+  noiseEl.volume?.addEventListener("input", () => { noise.volume = Number(noiseEl.volume.value); storage.set(noiseVolumeKey, noise.volume); applyNoiseGain(); renderNoise(); });
+  renderNoise();
   function updateText(id, value) { const node = $(id); if (node) node.textContent = String(value); }
   const seatRows = 6, seatColumns = 6, seatTotal = seatRows * seatColumns;
   const seatPortraits = ['assets/study-room-learner-clean-green-01-crop.png', 'assets/study-room-learner-clean-green-02-crop.png', 'assets/study-room-learner-clean-girl-03-crop.png', 'assets/study-room-learner-clean-boy-04-crop.png', 'assets/study-room-learner-clean-girl-05-crop.png'];
