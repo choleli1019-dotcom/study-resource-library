@@ -69,9 +69,9 @@
   function renderWallClock() { const now = new Date(), hour = now.getHours() % 12, minute = now.getMinutes(), second = now.getSeconds(); const hourHand = $(".clock-hour"), minuteHand = $(".clock-minute"), secondHand = $(".clock-second"); if (hourHand) hourHand.style.transform = `translateX(-50%) rotate(${hour * 30 + minute * .5}deg)`; if (minuteHand) minuteHand.style.transform = `translateX(-50%) rotate(${minute * 6 + second * .1}deg)`; if (secondHand) secondHand.style.transform = `translateX(-50%) rotate(${second * 6}deg)`; }
   renderWallClock(); window.setInterval(renderWallClock, 1000);
   function openPanel(type) { document.body.classList.remove("focus-open", "match-open"); document.body.classList.add(type === "focus" ? "focus-open" : "match-open"); $("#roomModalVeil").hidden = false; }
-  function closePanel() { document.body.classList.remove("focus-open", "match-open"); const veil = $("#roomModalVeil"); if (veil) veil.hidden = true; }
+  function closePanel() { document.body.classList.remove("focus-open", "match-open", "tools-open"); const veil = $("#roomModalVeil"); if (veil) veil.hidden = true; }
   $("#focusToggle")?.addEventListener("click", () => openPanel("focus"));
-  $("#matchToggle")?.addEventListener("click", () => openPanel("match"));
+  $("#matchToggle")?.addEventListener("click", () => openPanel("match")); $("#toolsToggle")?.addEventListener("click", () => { document.body.classList.add("tools-open"); const veil = $("#roomModalVeil"); if (veil) veil.hidden = false; });
   $("#roomModalVeil")?.addEventListener("click", closePanel);
   $("#continuePortrait")?.addEventListener("click", () => document.body.classList.add("portrait-continue"));
   $("#inviteShare")?.addEventListener("click", async () => {
