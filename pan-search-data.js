@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-17T03:25:37.774Z",
+  "generatedAt": "2026-08-17T03:30:28.559Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -9,9 +9,9 @@ window.PAN_SEARCH_DATA = {
       "total": 1234
     },
     "unique": {
-      "quark": 929,
+      "quark": 995,
       "baidu": 439,
-      "total": 1368
+      "total": 1434
     },
     "duplicate": {
       "quark": 0,
@@ -4493,10 +4493,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r261",
       "title": "忧郁牛牛",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/bad134cb491f",
+      "url": "https://pan.quark.cn/s/33bf5552dfe5",
       "code": "",
       "section": "其他类别考试",
-      "context": "忧郁牛牛 链接：https://pan.quark.cn/s/bad134cb491f",
+      "context": "忧郁牛牛 链接：https://pan.quark.cn/s/33bf5552dfe5",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -4504,7 +4504,7 @@ window.PAN_SEARCH_DATA = {
           "section": "其他类别考试"
         }
       ],
-      "searchText": "忧郁牛牛 其他类别考试 忧郁牛牛 链接：https://pan.quark.cn/s/bad134cb491f quark https://pan.quark.cn/s/bad134cb491f"
+      "searchText": "忧郁牛牛 其他类别考试 忧郁牛牛 链接：https://pan.quark.cn/s/33bf5552dfe5 quark https://pan.quark.cn/s/33bf5552dfe5"
     },
     {
       "id": "r262",
@@ -23324,6 +23324,1128 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "刘义恒丨27图推理论命题思维个人笔记 夸克批量新增 夸克网盘批量导入：刘义恒丨27图推理论命题思维个人笔记 quark https://pan.quark.cn/s/6587bebcaf6f"
+    },
+    {
+      "id": "r1369",
+      "title": "程意",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/a1036d6b7caf",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：程意",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 2,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "程意 夸克批量新增 夸克网盘批量导入：程意 quark https://pan.quark.cn/s/a1036d6b7caf"
+    },
+    {
+      "id": "r1370",
+      "title": "P神（小P公考）判断笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/e1852a071f9c",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：P神（小P公考）判断笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 5,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "P神（小P公考）判断笔记 夸克批量新增 夸克网盘批量导入：P神（小P公考）判断笔记 quark https://pan.quark.cn/s/e1852a071f9c"
+    },
+    {
+      "id": "r1371",
+      "title": "花生十三",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/506f4f8062a1",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：花生十三",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 80,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "花生十三 夸克批量新增 夸克网盘批量导入：花生十三 quark https://pan.quark.cn/s/506f4f8062a1"
+    },
+    {
+      "id": "r1372",
+      "title": "聂佳",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/8213c8239982",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：聂佳",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 11,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "聂佳 夸克批量新增 夸克网盘批量导入：聂佳 quark https://pan.quark.cn/s/8213c8239982"
+    },
+    {
+      "id": "r1373",
+      "title": "青菜白玉汤",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/e22cc3666f6a",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：青菜白玉汤",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 14,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "青菜白玉汤 夸克批量新增 夸克网盘批量导入：青菜白玉汤 quark https://pan.quark.cn/s/e22cc3666f6a"
+    },
+    {
+      "id": "r1374",
+      "title": "章晓铭",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/516c699e7d62",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：章晓铭",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 17,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "章晓铭 夸克批量新增 夸克网盘批量导入：章晓铭 quark https://pan.quark.cn/s/516c699e7d62"
+    },
+    {
+      "id": "r1375",
+      "title": "公考正道是沧桑",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/978bb38191b7",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：公考正道是沧桑",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 20,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "公考正道是沧桑 夸克批量新增 夸克网盘批量导入：公考正道是沧桑 quark https://pan.quark.cn/s/978bb38191b7"
+    },
+    {
+      "id": "r1376",
+      "title": "刘义恒",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/3f9d0dbbf4e8",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：刘义恒",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 23,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "刘义恒 夸克批量新增 夸克网盘批量导入：刘义恒 quark https://pan.quark.cn/s/3f9d0dbbf4e8"
+    },
+    {
+      "id": "r1377",
+      "title": "龙飞",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/5a9e410d4f79",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：龙飞",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 26,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "龙飞 夸克批量新增 夸克网盘批量导入：龙飞 quark https://pan.quark.cn/s/5a9e410d4f79"
+    },
+    {
+      "id": "r1378",
+      "title": "顾斐丨26言语理解高频成语800词",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/4d50acf01444",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：顾斐丨26言语理解高频成语800词",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 32,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "顾斐丨26言语理解高频成语800词 夸克批量新增 夸克网盘批量导入：顾斐丨26言语理解高频成语800词 quark https://pan.quark.cn/s/4d50acf01444"
+    },
+    {
+      "id": "r1379",
+      "title": "郭熙",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/e7a1bd0dc369",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：郭熙",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 35,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "郭熙 夸克批量新增 夸克网盘批量导入：郭熙 quark https://pan.quark.cn/s/e7a1bd0dc369"
+    },
+    {
+      "id": "r1380",
+      "title": "葛欣",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/32c232649176",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：葛欣",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 38,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "葛欣 夸克批量新增 夸克网盘批量导入：葛欣 quark https://pan.quark.cn/s/32c232649176"
+    },
+    {
+      "id": "r1381",
+      "title": "柳岩",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/8ce5f3a0d452",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：柳岩",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 41,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "柳岩 夸克批量新增 夸克网盘批量导入：柳岩 quark https://pan.quark.cn/s/8ce5f3a0d452"
+    },
+    {
+      "id": "r1382",
+      "title": "张弓丨26言语十二箭复盘笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/903e2b707050",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：张弓丨26言语十二箭复盘笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 206,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "张弓丨26言语十二箭复盘笔记 夸克批量新增 夸克网盘批量导入：张弓丨26言语十二箭复盘笔记 quark https://pan.quark.cn/s/903e2b707050"
+    },
+    {
+      "id": "r1383",
+      "title": "大懒猫",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/03b71f4fdfec",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：大懒猫",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 47,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "大懒猫 夸克批量新增 夸克网盘批量导入：大懒猫 quark https://pan.quark.cn/s/03b71f4fdfec"
+    },
+    {
+      "id": "r1384",
+      "title": "阿里木江",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6b089838b338",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：阿里木江",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 50,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "阿里木江 夸克批量新增 夸克网盘批量导入：阿里木江 quark https://pan.quark.cn/s/6b089838b338"
+    },
+    {
+      "id": "r1385",
+      "title": "牟立志",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/4978b459ab5c",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：牟立志",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 53,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "牟立志 夸克批量新增 夸克网盘批量导入：牟立志 quark https://pan.quark.cn/s/4978b459ab5c"
+    },
+    {
+      "id": "r1386",
+      "title": "P神（小P公考）资料笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/8f0f2f91edc6",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：P神（小P公考）资料笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 56,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "P神（小P公考）资料笔记 夸克批量新增 夸克网盘批量导入：P神（小P公考）资料笔记 quark https://pan.quark.cn/s/8f0f2f91edc6"
+    },
+    {
+      "id": "r1387",
+      "title": "王炎",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6ef29d425d5e",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：王炎",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 71,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "王炎 夸克批量新增 夸克网盘批量导入：王炎 quark https://pan.quark.cn/s/6ef29d425d5e"
+    },
+    {
+      "id": "r1388",
+      "title": "高照",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/9df12b8e27d1",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：高照",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 83,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "高照 夸克批量新增 夸克网盘批量导入：高照 quark https://pan.quark.cn/s/9df12b8e27d1"
+    },
+    {
+      "id": "r1389",
+      "title": "P神（小P公考）数量笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/7d13c229f5d4",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：P神（小P公考）数量笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 68,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "P神（小P公考）数量笔记 夸克批量新增 夸克网盘批量导入：P神（小P公考）数量笔记 quark https://pan.quark.cn/s/7d13c229f5d4"
+    },
+    {
+      "id": "r1390",
+      "title": "毛娃儿丨数量关系系统课笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/2a746bcafd68",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：毛娃儿丨数量关系系统课笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 77,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "毛娃儿丨数量关系系统课笔记 夸克批量新增 夸克网盘批量导入：毛娃儿丨数量关系系统课笔记 quark https://pan.quark.cn/s/2a746bcafd68"
+    },
+    {
+      "id": "r1391",
+      "title": "高照x花生x某笔丨26数量关系名师笔记N合一",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/f9d6190ff42f",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：高照x花生x某笔丨26数量关系名师笔记N合一",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 86,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "高照x花生x某笔丨26数量关系名师笔记N合一 夸克批量新增 夸克网盘批量导入：高照x花生x某笔丨26数量关系名师笔记N合一 quark https://pan.quark.cn/s/f9d6190ff42f"
+    },
+    {
+      "id": "r1392",
+      "title": "王军涛",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/74ab54bfc8a9",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：王军涛",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 89,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "王军涛 夸克批量新增 夸克网盘批量导入：王军涛 quark https://pan.quark.cn/s/74ab54bfc8a9"
+    },
+    {
+      "id": "r1393",
+      "title": "小黑",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/3596c18e5a5f",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：小黑",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 92,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "小黑 夸克批量新增 夸克网盘批量导入：小黑 quark https://pan.quark.cn/s/3596c18e5a5f"
+    },
+    {
+      "id": "r1394",
+      "title": "超格",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6e5342429266",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：超格",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 104,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "超格 夸克批量新增 夸克网盘批量导入：超格 quark https://pan.quark.cn/s/6e5342429266"
+    },
+    {
+      "id": "r1395",
+      "title": "飞扬丨25申论大作文全勤全返笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/14f5ff93b426",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：飞扬丨25申论大作文全勤全返笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 98,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "飞扬丨25申论大作文全勤全返笔记 夸克批量新增 夸克网盘批量导入：飞扬丨25申论大作文全勤全返笔记 quark https://pan.quark.cn/s/14f5ff93b426"
+    },
+    {
+      "id": "r1396",
+      "title": "飞扬丨26申论总结课笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/d28f38bb66d8",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：飞扬丨26申论总结课笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 101,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "飞扬丨26申论总结课笔记 夸克批量新增 夸克网盘批量导入：飞扬丨26申论总结课笔记 quark https://pan.quark.cn/s/d28f38bb66d8"
+    },
+    {
+      "id": "r1397",
+      "title": "白鹭",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/49d8ecee6d8f",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：白鹭",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 107,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "白鹭 夸克批量新增 夸克网盘批量导入：白鹭 quark https://pan.quark.cn/s/49d8ecee6d8f"
+    },
+    {
+      "id": "r1398",
+      "title": "袁东丨26申论方法实战班笔记（22节全）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/b052b9a537fa",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：袁东丨26申论方法实战班笔记（22节全）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 110,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "袁东丨26申论方法实战班笔记（22节全） 夸克批量新增 夸克网盘批量导入：袁东丨26申论方法实战班笔记（22节全） quark https://pan.quark.cn/s/b052b9a537fa"
+    },
+    {
+      "id": "r1399",
+      "title": "袁东丨26申论规范词默写表【共21个专题840词",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/95dfa2752261",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：袁东丨26申论规范词默写表【共21个专题840词",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 113,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "袁东丨26申论规范词默写表【共21个专题840词 夸克批量新增 夸克网盘批量导入：袁东丨26申论规范词默写表【共21个专题840词 quark https://pan.quark.cn/s/95dfa2752261"
+    },
+    {
+      "id": "r1400",
+      "title": "飞扬丨25省考申论热点积累.pdf",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/2e71cf18be46",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：飞扬丨25省考申论热点积累.pdf",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 116,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "飞扬丨25省考申论热点积累.pdf 夸克批量新增 夸克网盘批量导入：飞扬丨25省考申论热点积累.pdf quark https://pan.quark.cn/s/2e71cf18be46"
+    },
+    {
+      "id": "r1401",
+      "title": "刘义恒丨26图推700题笔记（贝栗子版）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/e58ba66db84c",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：刘义恒丨26图推700题笔记（贝栗子版）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 119,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "刘义恒丨26图推700题笔记（贝栗子版） 夸克批量新增 夸克网盘批量导入：刘义恒丨26图推700题笔记（贝栗子版） quark https://pan.quark.cn/s/e58ba66db84c"
+    },
+    {
+      "id": "r1402",
+      "title": "超哥丨26政治理论考前200题笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/c1643dd9a525",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：超哥丨26政治理论考前200题笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 122,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "超哥丨26政治理论考前200题笔记 夸克批量新增 夸克网盘批量导入：超哥丨26政治理论考前200题笔记 quark https://pan.quark.cn/s/c1643dd9a525"
+    },
+    {
+      "id": "r1403",
+      "title": "璐璐丨十五五规划浓缩3页纸",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/0aaf171aaaeb",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：璐璐丨十五五规划浓缩3页纸",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 125,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "璐璐丨十五五规划浓缩3页纸 夸克批量新增 夸克网盘批量导入：璐璐丨十五五规划浓缩3页纸 quark https://pan.quark.cn/s/0aaf171aaaeb"
+    },
+    {
+      "id": "r1404",
+      "title": "小黑丨26政治理论冲刺65题笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/8617cf0c9772",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：小黑丨26政治理论冲刺65题笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 128,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "小黑丨26政治理论冲刺65题笔记 夸克批量新增 夸克网盘批量导入：小黑丨26政治理论冲刺65题笔记 quark https://pan.quark.cn/s/8617cf0c9772"
+    },
+    {
+      "id": "r1405",
+      "title": "超哥丨26联考政治理论专项刷题笔记(1)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/ee782fb6dfea",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：超哥丨26联考政治理论专项刷题笔记(1)",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 131,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "超哥丨26联考政治理论专项刷题笔记(1) 夸克批量新增 夸克网盘批量导入：超哥丨26联考政治理论专项刷题笔记(1) quark https://pan.quark.cn/s/ee782fb6dfea"
+    },
+    {
+      "id": "r1406",
+      "title": "花生十三丨26省考海海刷判断推理专项笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/112f26bc79db",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：花生十三丨26省考海海刷判断推理专项笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 134,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "花生十三丨26省考海海刷判断推理专项笔记 夸克批量新增 夸克网盘批量导入：花生十三丨26省考海海刷判断推理专项笔记 quark https://pan.quark.cn/s/112f26bc79db"
+    },
+    {
+      "id": "r1407",
+      "title": "花生十三丨26省考海海刷数量关系专项笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/2fb6ac478346",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：花生十三丨26省考海海刷数量关系专项笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 137,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "花生十三丨26省考海海刷数量关系专项笔记 夸克批量新增 夸克网盘批量导入：花生十三丨26省考海海刷数量关系专项笔记 quark https://pan.quark.cn/s/2fb6ac478346"
+    },
+    {
+      "id": "r1408",
+      "title": "花生十三丨26省考海海刷言语理解专项笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/8279dffb0936",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：花生十三丨26省考海海刷言语理解专项笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 140,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "花生十三丨26省考海海刷言语理解专项笔记 夸克批量新增 夸克网盘批量导入：花生十三丨26省考海海刷言语理解专项笔记 quark https://pan.quark.cn/s/8279dffb0936"
+    },
+    {
+      "id": "r1409",
+      "title": "花生十三丨26省考海海刷资料分析专项笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/c9912c6f6c02",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：花生十三丨26省考海海刷资料分析专项笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 143,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "花生十三丨26省考海海刷资料分析专项笔记 夸克批量新增 夸克网盘批量导入：花生十三丨26省考海海刷资料分析专项笔记 quark https://pan.quark.cn/s/c9912c6f6c02"
+    },
+    {
+      "id": "r1410",
+      "title": "高照丨26省考资料分析超大杯复盘笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/1bdcc4972015",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：高照丨26省考资料分析超大杯复盘笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 146,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "高照丨26省考资料分析超大杯复盘笔记 夸克批量新增 夸克网盘批量导入：高照丨26省考资料分析超大杯复盘笔记 quark https://pan.quark.cn/s/1bdcc4972015"
+    },
+    {
+      "id": "r1411",
+      "title": "柳岩丨26省考逻辑填空1000词复盘笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/dade29b7d25f",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：柳岩丨26省考逻辑填空1000词复盘笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 149,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "柳岩丨26省考逻辑填空1000词复盘笔记 夸克批量新增 夸克网盘批量导入：柳岩丨26省考逻辑填空1000词复盘笔记 quark https://pan.quark.cn/s/dade29b7d25f"
+    },
+    {
+      "id": "r1412",
+      "title": "小黑丨26省考政治理论听课笔记（理论+母题）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/29f4c27dfb13",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：小黑丨26省考政治理论听课笔记（理论+母题）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 152,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "小黑丨26省考政治理论听课笔记（理论+母题） 夸克批量新增 夸克网盘批量导入：小黑丨26省考政治理论听课笔记（理论+母题） quark https://pan.quark.cn/s/29f4c27dfb13"
+    },
+    {
+      "id": "r1413",
+      "title": "超格丨26套卷实战班复盘笔记（贝栗子）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/2d3a2022be12",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：超格丨26套卷实战班复盘笔记（贝栗子）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 155,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "超格丨26套卷实战班复盘笔记（贝栗子） 夸克批量新增 夸克网盘批量导入：超格丨26套卷实战班复盘笔记（贝栗子） quark https://pan.quark.cn/s/2d3a2022be12"
+    },
+    {
+      "id": "r1414",
+      "title": "超格丨26省考言语理解超大杯复盘笔记（贝栗子）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6e414c6e1bd3",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：超格丨26省考言语理解超大杯复盘笔记（贝栗子）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 158,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "超格丨26省考言语理解超大杯复盘笔记（贝栗子） 夸克批量新增 夸克网盘批量导入：超格丨26省考言语理解超大杯复盘笔记（贝栗子） quark https://pan.quark.cn/s/6e414c6e1bd3"
+    },
+    {
+      "id": "r1415",
+      "title": "程意丨26省考判断超大杯复盘笔记（贝栗子）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/54e6eec6ce65",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：程意丨26省考判断超大杯复盘笔记（贝栗子）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 161,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "程意丨26省考判断超大杯复盘笔记（贝栗子） 夸克批量新增 夸克网盘批量导入：程意丨26省考判断超大杯复盘笔记（贝栗子） quark https://pan.quark.cn/s/54e6eec6ce65"
+    },
+    {
+      "id": "r1416",
+      "title": "高照丨26省考数量关系超大杯复盘笔记（贝栗子）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6c85788f1dda",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：高照丨26省考数量关系超大杯复盘笔记（贝栗子）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 164,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "高照丨26省考数量关系超大杯复盘笔记（贝栗子） 夸克批量新增 夸克网盘批量导入：高照丨26省考数量关系超大杯复盘笔记（贝栗子） quark https://pan.quark.cn/s/6c85788f1dda"
+    },
+    {
+      "id": "r1417",
+      "title": "高照丨26省考资料分析超大杯复盘笔记（贝栗子）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/063e0cc61248",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：高照丨26省考资料分析超大杯复盘笔记（贝栗子）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 167,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "高照丨26省考资料分析超大杯复盘笔记（贝栗子） 夸克批量新增 夸克网盘批量导入：高照丨26省考资料分析超大杯复盘笔记（贝栗子） quark https://pan.quark.cn/s/063e0cc61248"
+    },
+    {
+      "id": "r1418",
+      "title": "刘义恒丨26省考图推超大杯复盘笔记（贝栗子）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/f2c61eddca3c",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：刘义恒丨26省考图推超大杯复盘笔记（贝栗子）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 170,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "刘义恒丨26省考图推超大杯复盘笔记（贝栗子） 夸克批量新增 夸克网盘批量导入：刘义恒丨26省考图推超大杯复盘笔记（贝栗子） quark https://pan.quark.cn/s/f2c61eddca3c"
+    },
+    {
+      "id": "r1419",
+      "title": "王炎丨26数量关系速解18技笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/31edbf9d1c58",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：王炎丨26数量关系速解18技笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 173,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "王炎丨26数量关系速解18技笔记 夸克批量新增 夸克网盘批量导入：王炎丨26数量关系速解18技笔记 quark https://pan.quark.cn/s/31edbf9d1c58"
+    },
+    {
+      "id": "r1420",
+      "title": "王炎丨26数量讲练大满贯笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/bdf9dd1f73b1",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：王炎丨26数量讲练大满贯笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 176,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "王炎丨26数量讲练大满贯笔记 夸克批量新增 夸克网盘批量导入：王炎丨26数量讲练大满贯笔记 quark https://pan.quark.cn/s/bdf9dd1f73b1"
+    },
+    {
+      "id": "r1421",
+      "title": "王炎丨26资料分析速解18技笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/f2c8b53ab1ef",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：王炎丨26资料分析速解18技笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 179,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "王炎丨26资料分析速解18技笔记 夸克批量新增 夸克网盘批量导入：王炎丨26资料分析速解18技笔记 quark https://pan.quark.cn/s/f2c8b53ab1ef"
+    },
+    {
+      "id": "r1422",
+      "title": "王炎丨26资料分析速算九式笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/92b7bf081b2c",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：王炎丨26资料分析速算九式笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 182,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "王炎丨26资料分析速算九式笔记 夸克批量新增 夸克网盘批量导入：王炎丨26资料分析速算九式笔记 quark https://pan.quark.cn/s/92b7bf081b2c"
+    },
+    {
+      "id": "r1423",
+      "title": "超哥丨26联考政治理论专项刷题笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/2f76c03295ba",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：超哥丨26联考政治理论专项刷题笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 185,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "超哥丨26联考政治理论专项刷题笔记 夸克批量新增 夸克网盘批量导入：超哥丨26联考政治理论专项刷题笔记 quark https://pan.quark.cn/s/2f76c03295ba"
+    },
+    {
+      "id": "r1424",
+      "title": "张弓丨26言语十二箭复盘笔记(1)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/7df42706ebea",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：张弓丨26言语十二箭复盘笔记(1)",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 188,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "张弓丨26言语十二箭复盘笔记(1) 夸克批量新增 夸克网盘批量导入：张弓丨26言语十二箭复盘笔记(1) quark https://pan.quark.cn/s/7df42706ebea"
+    },
+    {
+      "id": "r1425",
+      "title": "高照丨26资料分析超大杯知识点归纳笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/69f66f1e62ba",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：高照丨26资料分析超大杯知识点归纳笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 191,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "高照丨26资料分析超大杯知识点归纳笔记 夸克批量新增 夸克网盘批量导入：高照丨26资料分析超大杯知识点归纳笔记 quark https://pan.quark.cn/s/69f66f1e62ba"
+    },
+    {
+      "id": "r1426",
+      "title": "超格丨26省考常识判断冲刺早自习笔记（伯洁）(1)",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6c6beab2f5bf",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：超格丨26省考常识判断冲刺早自习笔记（伯洁）(1)",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 194,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "超格丨26省考常识判断冲刺早自习笔记（伯洁）(1) 夸克批量新增 夸克网盘批量导入：超格丨26省考常识判断冲刺早自习笔记（伯洁）(1) quark https://pan.quark.cn/s/6c6beab2f5bf"
+    },
+    {
+      "id": "r1427",
+      "title": "超格丨26省考常识判断冲刺早自习笔记（伯洁）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/bb4f9b4f52a7",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：超格丨26省考常识判断冲刺早自习笔记（伯洁）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 197,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "超格丨26省考常识判断冲刺早自习笔记（伯洁） 夸克批量新增 夸克网盘批量导入：超格丨26省考常识判断冲刺早自习笔记（伯洁） quark https://pan.quark.cn/s/bb4f9b4f52a7"
+    },
+    {
+      "id": "r1428",
+      "title": "超哥丨26省考政治理论冲刺早自习笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/f76cba29c0f1",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：超哥丨26省考政治理论冲刺早自习笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 200,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "超哥丨26省考政治理论冲刺早自习笔记 夸克批量新增 夸克网盘批量导入：超哥丨26省考政治理论冲刺早自习笔记 quark https://pan.quark.cn/s/f76cba29c0f1"
+    },
+    {
+      "id": "r1429",
+      "title": "张弓丨26言语200题复盘笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/a9dda2a17837",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：张弓丨26言语200题复盘笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 203,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "张弓丨26言语200题复盘笔记 夸克批量新增 夸克网盘批量导入：张弓丨26言语200题复盘笔记 quark https://pan.quark.cn/s/a9dda2a17837"
+    },
+    {
+      "id": "r1430",
+      "title": "小黑丨26政治理论十套专项卷复盘笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/e7d171428679",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：小黑丨26政治理论十套专项卷复盘笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 209,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "小黑丨26政治理论十套专项卷复盘笔记 夸克批量新增 夸克网盘批量导入：小黑丨26政治理论十套专项卷复盘笔记 quark https://pan.quark.cn/s/e7d171428679"
+    },
+    {
+      "id": "r1431",
+      "title": "小黑丨26省考事业编《求是》杂志必刷100题笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/c239b0474e53",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：小黑丨26省考事业编《求是》杂志必刷100题笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 212,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "小黑丨26省考事业编《求是》杂志必刷100题笔记 夸克批量新增 夸克网盘批量导入：小黑丨26省考事业编《求是》杂志必刷100题笔记 quark https://pan.quark.cn/s/c239b0474e53"
+    },
+    {
+      "id": "r1432",
+      "title": "超格丨26省考行测冲刺点睛课笔记（贝栗子）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/b62f8aa3bf69",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：超格丨26省考行测冲刺点睛课笔记（贝栗子）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 215,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "超格丨26省考行测冲刺点睛课笔记（贝栗子） 夸克批量新增 夸克网盘批量导入：超格丨26省考行测冲刺点睛课笔记（贝栗子） quark https://pan.quark.cn/s/b62f8aa3bf69"
+    },
+    {
+      "id": "r1433",
+      "title": "相丽君丨26综应A精讲刷题班笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/051672ca4885",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：相丽君丨26综应A精讲刷题班笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 218,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "相丽君丨26综应A精讲刷题班笔记 夸克批量新增 夸克网盘批量导入：相丽君丨26综应A精讲刷题班笔记 quark https://pan.quark.cn/s/051672ca4885"
+    },
+    {
+      "id": "r1434",
+      "title": "陈老司丨26事业单位综应A基础特训笔记",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/4e9116ae7ce4",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：陈老司丨26事业单位综应A基础特训笔记",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 221,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "陈老司丨26事业单位综应A基础特训笔记 夸克批量新增 夸克网盘批量导入：陈老司丨26事业单位综应A基础特训笔记 quark https://pan.quark.cn/s/4e9116ae7ce4"
     }
   ]
 };
