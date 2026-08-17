@@ -7,7 +7,7 @@
   <title>上岸自习室｜学习资源库</title>
   <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" />
-  <link rel="stylesheet" href="study-room.css?v=20260816-reference-v8" />
+  <link rel="stylesheet" href="study-room.css?v=20260817-clean-room-v48" />
 </head>
 <body>
   <main class="room-shell">
@@ -31,7 +31,7 @@
           <div class="card-heading"><div><small>FOCUS DESK</small><h2 id="focusTitle">我的专注桌</h2></div><span id="todayFocusCount">今日 0 次</span></div>
           <div class="timer-face" aria-live="polite"><time id="pomodoroTime">25:00</time><span id="pomodoroStatus">准备开始</span></div>
           <div class="timer-presets" role="group" aria-label="专注时长"><button type="button" data-minutes="25" class="is-active">25 分钟</button><button type="button" data-minutes="45">45 分钟</button><button type="button" data-minutes="60">60 分钟</button></div>
-          <label class="field-label">这段时间准备做什么<select id="studyTask"><option>刷题</option><option>申论</option><option>资料分析</option><option>面试</option><option>整理资料</option><option>安静自习</option></select></label>
+          <label class="field-label">选择一个座位<select id="studySeat"><option value="">暂不入座</option></select></label><label class="field-label">这段时间准备做什么<select id="studyTask"><option>刷题</option><option>申论</option><option>资料分析</option><option>面试</option><option>整理资料</option><option>安静自习</option></select></label>
           <div class="timer-actions"><button id="pomodoroStart" type="button" class="primary">开始专注</button><button id="pomodoroReset" type="button" class="quiet">重置</button></div>
           <p class="room-hint">计时与完成次数只保存在你的当前浏览器。</p>
         </section>
@@ -43,14 +43,16 @@
         </section>
       </aside>
       <section class="classroom-hall" aria-labelledby="classroomTitle">
-        <header class="classroom-board"><span>SHORE CLASSROOM · LIVE</span><h2 id="classroomTitle">安静自习，请选择一张空座位</h2><p><i></i><strong id="classroomOnline">--</strong> 位同学正在教室内</p></header>
+        <header class="classroom-board"><span>SHORE CLASSROOM · LIVE</span><h2 id="classroomTitle">安静自习，请选择一张空座位</h2><p><i></i><strong id="classroomOnline">--</strong> 位同学正在教室内</p></header><div class="reference-board-live reference-board-online-only" aria-live="polite"><span><b></b>当前 <strong id="boardOnlineCount">--</strong> 人在线</span></div>
         <div class="classroom-legend"><span><i class="empty"></i>空座可选</span><span><i class="mine"></i>我的座位</span><span><i class="busy"></i>同学正在专注</span></div>
         <div id="classroomSeats" class="classroom-seats" aria-live="polite"></div>
         <p id="seatSelectionNote" class="seat-selection-note">请选择一个空座入座；离开页面 2 分钟后座位会自动释放。</p>
       </section>
     </section>
-    <div class="reference-wall-clock" aria-label="当前时间"><span class="clock-hour"></span><span class="clock-minute"></span><b></b></div>
-    <div class="reference-board-live" aria-live="polite"><span>▣ 此刻 <strong id="boardBrushCount">--</strong> 人在刷题</span><i>/</i><span>▣ <strong id="boardEssayCount">--</strong> 人在看申论</span></div>    <section class="reference-live-seat-summary" aria-live="polite" aria-label="实时专注统计">
+    <button id="toolsToggle" class="tools-launcher" type="button"><span>学习工具</span><small>番茄钟 · 同频搭子</small></button>
+    <div class="reference-wall-clock" aria-label="当前时间"><i class="n12">12</i><i class="n1">1</i><i class="n2">2</i><i class="n3">3</i><i class="n4">4</i><i class="n5">5</i><i class="n6">6</i><i class="n7">7</i><i class="n8">8</i><i class="n9">9</i><i class="n10">10</i><i class="n11">11</i><span class="clock-hour"></span><span class="clock-minute"></span><span class="clock-second"></span><b></b></div>
+    <aside class="reference-sidebar-surface" aria-label="自习室功能栏"></aside>
+    <section class="reference-live-seat-summary" aria-live="polite" aria-label="实时专注统计">
       <header><strong>今日专注席</strong><span>实时</span></header>
       <div class="reference-live-stats"><article><b id="liveBrushCount">--</b><small>人在刷题</small></article><article><b id="liveEssayCount">--</b><small>人在看申论</small></article></div>
       <p><i></i>当前 <strong id="referenceOnline">--</strong> 人在线 · 每 45 秒刷新</p>
@@ -58,20 +60,13 @@
     <button id="matchToggle" class="reference-match-toggle" type="button">匿名搭子匹配 <span>去匹配 ›</span></button>
     <button id="focusToggle" class="reference-focus-toggle" type="button">番茄钟 <strong id="referenceTimerMini">25:00</strong></button>
     <button id="inviteShare" class="reference-invite" type="button">⌯ 邀请好友一起学习</button>
-    <span class="reference-background-cover" aria-hidden="true"></span>
+    <span class="reference-toolbar-cleaner" aria-hidden="true"></span>
     <div class="room-modal-veil" id="roomModalVeil" hidden></div>
     <section class="orientation-prompt" aria-label="横屏使用提示">
       <div><span>↻</span><h2>横屏进入座位图</h2><p>横屏后可准确选择教室座位；竖屏也可继续使用番茄钟与匿名匹配。</p><button id="continuePortrait" type="button">继续竖屏使用</button></div>
     </section>    <footer class="room-footer">上岸自习室不提供私聊，不保存个人身份信息。保持专注，也保持安全。</footer>
   </main>
   <script>window.STUDY_RESOURCE_API_BASE = "https://study-resource-api.gjsx.uno";</script>
-  <script src="study-room.js?v=20260816-immersive-v5"></script>
+  <script src="study-room.js?v=20260816-portrait-elements-v11"></script>
 </body>
 </html>
-
-
-
-
-
-
-
