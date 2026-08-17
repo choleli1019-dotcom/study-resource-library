@@ -8696,3 +8696,6 @@ body .main .hero-art.study-room-teaser > .study-room-teaser-bottom{z-index:3!imp
   body .main .hero-art.study-room-teaser > .study-room-teaser-classroom{left:clamp(18px,2vw,31px)!important;right:clamp(18px,2vw,31px)!important;bottom:clamp(74px,6.2vw,94px)!important;width:auto!important;height:35%!important;border-radius:15px!important}
   body .main .hero-art.study-room-teaser > .study-room-teaser-bottom{left:clamp(22px,2vw,31px)!important;right:clamp(22px,2vw,31px)!important;bottom:clamp(20px,1.8vw,28px)!important}
 }
+
+/* First paint keeps the same static artwork visible while the desktop movie finishes loading. */
+body.has-ambient-video:not(.has-animated-background) .site-animated-background{display:block;opacity:0;}

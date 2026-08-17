@@ -1305,6 +1305,13 @@ renderNav();
 renderFilters();
 renderHotSearches();
 renderQuickLinks();
+function scheduleNonCriticalTask(task, delay = 0) {
+  const run = () => window.setTimeout(() => {
+    const invoke = () => { try { task(); } catch (_) {} };
+    if ("requestIdleCallback" in window) window.requestIdleCallback(invoke, { timeout: 1800 }); else invoke();
+  }, delay);
+  if (document.readyState === "complete") run(); else window.addEventListener("load", run, { once: true });
+}
 function initAmbientBackgroundVideo() {
   const video = document.querySelector("#ambientBackgroundVideo");
   const canvas = document.querySelector("#ambientBackgroundCanvas");
@@ -1329,7 +1336,13 @@ function initAmbientBackgroundVideo() {
   video.setAttribute("muted", "");
   video.setAttribute("playsinline", "");
   video.setAttribute("webkit-playsinline", "");
-  source.src = source.dataset.src;
+  let videoSourceLoaded = false;
+  const loadVideoSource = () => {
+    if (videoSourceLoaded) return;
+    videoSourceLoaded = true;
+    source.src = source.dataset.src;
+    video.load();
+  };
 
   let frameId = 0;
   let lastFrameAt = 0;
@@ -1361,6 +1374,7 @@ function initAmbientBackgroundVideo() {
       context.drawImage(video, sourceX, sourceY, sourceWidth, sourceHeight, 0, 0, canvas.width, canvas.height);
       if (!hasPaintedFrame) {
         hasPaintedFrame = true;
+        document.body.classList.remove("has-animated-background");
         document.body.classList.add("has-ambient-video");
         hideStartButton();
       }
@@ -1375,6 +1389,7 @@ function initAmbientBackgroundVideo() {
   };
 
   const activateVideo = () => {
+    if (!videoSourceLoaded) return;
     resizeCanvas();
     video.play()
       .then(() => {
@@ -1424,7 +1439,8 @@ function initAmbientBackgroundVideo() {
     return;
   }
   video.addEventListener("canplay", activateVideo, { once: true });
-  video.load();
+  document.body.classList.add("has-animated-background");
+  scheduleNonCriticalTask(loadVideoSource, 1500);
 }
 initAmbientBackgroundVideo();
 renderFeaturedResources();
@@ -1434,8 +1450,8 @@ bindEvents();
 bindThemeToggle();
 bindSearchWelcomeModal();
 bindSearchSuggestBox();
-loadLinkHealth();
-loadServerPanLinks();
+scheduleNonCriticalTask(loadLinkHealth, 350);
+scheduleNonCriticalTask(loadServerPanLinks, 550);
 // 2026-08-13: live hero clock.
 (() => {
   const clock = document.querySelector("#siteLiveClock");
@@ -1694,7 +1710,7 @@ function addMobileSearchDock() {
 }
 
 addMobileSearchDock();
-loadPublicResourceInsights();
+scheduleNonCriticalTask(loadPublicResourceInsights, 750);
 function getTrackedResourceLabel(link) {
   const rankItem = link.closest(".popularity-board li");
   if (rankItem) return `热度排行｜${link.textContent.trim().replace(/\s+\d+\s*次$/, "")}`;
@@ -1759,7 +1775,7 @@ async function loadSiteNotice() {
   }
 }
 
-loadSiteNotice();
+scheduleNonCriticalTask(loadSiteNotice, 250);
 // 2026-08-14: homepage companion components.
 const SHORE_LETTER_DEFAULT = {
   title: "一封给备考路上的你",
@@ -1848,7 +1864,7 @@ async function loadApprovedDriftBottles(track) {
 function bindDriftBottleBoard() {
   const track = document.querySelector("#driftBottleTrack");
   setDriftBottleMessages(track, []);
-  loadApprovedDriftBottles(track);
+  scheduleNonCriticalTask(() => loadApprovedDriftBottles(track), 900);
 
   document.querySelector("#leaveDriftBottle")?.addEventListener("click", async (event) => {
     const message = window.prompt("留下一句想和同路人说的话（不超过48字）");
@@ -1960,8 +1976,8 @@ renderStudyCompanion();
 bindDriftBottleBoard();
 bindPeerSearchPulse();
 bindShoreLetter();
-loadShoreLetter();
-loadStudyRoomTeaser();
+scheduleNonCriticalTask(loadShoreLetter, 700);
+scheduleNonCriticalTask(loadStudyRoomTeaser, 1000);
 
 async function loadStudyRoomTeaser() {
   const online = document.querySelector("#studyRoomTeaserOnline");
