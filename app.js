@@ -1775,7 +1775,7 @@ async function loadSiteNotice() {
   }
 }
 
-scheduleNonCriticalTask(loadSiteNotice, 250);
+loadSiteNotice();
 // 2026-08-14: homepage companion components.
 const SHORE_LETTER_DEFAULT = {
   title: "一封给备考路上的你",
