@@ -42,9 +42,10 @@
           <div class="match-grid" aria-live="polite"><article><strong id="matchExam">--</strong><span>同考类</span></article><article><strong id="matchStage">--</strong><span>同阶段</span></article><article><strong id="matchRegion">--</strong><span>同省份</span></article></div><p class="match-note" id="matchNote">选好信息后，系统将匿名寻找同频同学。</p>
         </section>
         <section class="room-card noise-card" aria-labelledby="noiseTitle">
-          <div class="card-heading"><div><small>FOCUS AMBIENCE</small><h2 id="noiseTitle">白噪音</h2></div><span id="noiseStatus" aria-live="polite">已关闭</span></div>
-          <p class="noise-lead">给专注加一层柔和背景声，不上传也不占用网络。</p>
-          <div class="noise-actions" role="group" aria-label="白噪音播放控制"><button id="noiseToggle" type="button" class="primary">▶ 开始播放</button><button id="noiseMute" type="button" class="quiet" aria-label="静音">静音</button></div>
+          <div class="card-heading"><div><small>FOCUS AMBIENCE</small><h2 id="noiseTitle">专注氛围</h2></div><span id="noiseStatus" aria-live="polite">已关闭</span></div>
+          <p class="noise-lead">选一段适合自己的背景声，声音只在当前浏览器生成。</p>
+          <div class="noise-scenes" role="group" aria-label="选择环境声"><button type="button" data-ambience="rain" class="is-active">雨声</button><button type="button" data-ambience="cafe">咖啡馆</button><button type="button" data-ambience="waves">海浪</button></div>
+          <div class="noise-actions" role="group" aria-label="环境声播放控制"><button id="noiseToggle" type="button" class="primary">▶ 开始播放</button><button id="noiseMute" type="button" class="quiet" aria-label="静音">静音</button></div>
           <label class="noise-volume">音量 <output id="noiseVolumeValue" for="noiseVolume">28%</output><input id="noiseVolume" type="range" min="0" max="100" value="28" /></label>
         </section>
       </aside>
