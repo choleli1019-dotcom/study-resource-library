@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-18T01:36:53.533Z",
+  "generatedAt": "2026-08-18T01:37:09.139Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -25454,7 +25454,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1494",
       "title": "2027陈怀安行测小课堂",
       "platform": "baidu",
-      "code": "",
+      "code": "cxy6",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027陈怀安行测小课堂",
       "sources": [
@@ -25464,13 +25464,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027陈怀安行测小课堂 百度批量新增 百度网盘批量导入：2027陈怀安行测小课堂 baidu"
+      "searchText": "2027陈怀安行测小课堂 百度批量新增 百度网盘批量导入：2027陈怀安行测小课堂 cxy6 baidu https://pan.baidu.com/s/1yvZ1KGP72Pc4i5KsFGhEYw?pwd=cxy6",
+      "url": "https://pan.baidu.com/s/1yvZ1KGP72Pc4i5KsFGhEYw?pwd=cxy6"
     },
     {
       "id": "r1495",
       "title": "2027国省考季四海公考行测海海刷1期",
       "platform": "baidu",
-      "code": "",
+      "code": "4337",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027国省考季四海公考行测海海刷1期",
       "sources": [
@@ -25480,7 +25481,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027国省考季四海公考行测海海刷1期 百度批量新增 百度网盘批量导入：2027国省考季四海公考行测海海刷1期 baidu"
+      "searchText": "2027国省考季四海公考行测海海刷1期 百度批量新增 百度网盘批量导入：2027国省考季四海公考行测海海刷1期 4337 baidu https://pan.baidu.com/s/1LlKiLskDyy1qW_wmQx0w5Q?pwd=4337",
+      "url": "https://pan.baidu.com/s/1LlKiLskDyy1qW_wmQx0w5Q?pwd=4337"
     }
   ]
 };
