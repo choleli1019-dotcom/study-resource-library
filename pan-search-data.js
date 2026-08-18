@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-18T01:39:27.055Z",
+  "generatedAt": "2026-08-18T02:11:40.646Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -14795,10 +14795,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r867",
       "title": "27言语合集",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1t5S2mYvdiXHHjrrrg-HCZg?pwd=21sk",
+      "url": "https://pan.baidu.com/s/1pP49gQKBchB-aGKVoAl-lA?pwd=cktm",
       "code": "21sk",
       "section": "公考类",
-      "context": "27言语合集 链接：https://pan.baidu.com/s/1t5S2mYvdiXHHjrrrg-HCZg?pwd=21sk 提取码：21sk",
+      "context": "27言语合集 链接：https://pan.baidu.com/s/1pP49gQKBchB-aGKVoAl-lA?pwd=cktm 提取码：21sk",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -14806,7 +14806,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "27言语合集 公考类 27言语合集 链接：https://pan.baidu.com/s/1t5S2mYvdiXHHjrrrg-HCZg?pwd=21sk 提取码：21sk 21sk baidu https://pan.baidu.com/s/1t5S2mYvdiXHHjrrrg-HCZg?pwd=21sk"
+      "searchText": "27言语合集 公考类 27言语合集 链接：https://pan.baidu.com/s/1pP49gQKBchB-aGKVoAl-lA?pwd=cktm 提取码：21sk 21sk baidu https://pan.baidu.com/s/1pP49gQKBchB-aGKVoAl-lA?pwd=cktm"
     },
     {
       "id": "r868",
