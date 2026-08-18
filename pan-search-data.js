@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-18T01:37:09.139Z",
+  "generatedAt": "2026-08-18T01:39:27.055Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -9,9 +9,9 @@ window.PAN_SEARCH_DATA = {
       "total": 1236
     },
     "unique": {
-      "quark": 1054,
+      "quark": 1055,
       "baidu": 441,
-      "total": 1495
+      "total": 1496
     },
     "duplicate": {
       "quark": 0,
@@ -1297,10 +1297,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r73",
       "title": "2027国省考季花生十三飞扬系统班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/c779a2f61234",
+      "url": "https://pan.quark.cn/s/68e47d8d4540",
       "code": "",
       "section": "公考类",
-      "context": "2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/c779a2f61234",
+      "context": "2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/68e47d8d4540",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1308,16 +1308,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省考季花生十三飞扬系统班 公考类 2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/c779a2f61234 quark https://pan.quark.cn/s/c779a2f61234"
+      "searchText": "2027国省考季花生十三飞扬系统班 公考类 2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/68e47d8d4540 quark https://pan.quark.cn/s/68e47d8d4540"
     },
     {
       "id": "r74",
       "title": "2027国省事考花生十三行测600题精讲课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/d0262be8f608",
+      "url": "https://pan.quark.cn/s/7fd664f0f1a8",
       "code": "",
       "section": "公考类",
-      "context": "2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/d0262be8f608",
+      "context": "2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/7fd664f0f1a8",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1325,7 +1325,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省事考花生十三行测600题精讲课 公考类 2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/d0262be8f608 quark https://pan.quark.cn/s/d0262be8f608"
+      "searchText": "2027国省事考花生十三行测600题精讲课 公考类 2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/7fd664f0f1a8 quark https://pan.quark.cn/s/7fd664f0f1a8"
     },
     {
       "id": "r75",
@@ -25483,6 +25483,23 @@ window.PAN_SEARCH_DATA = {
       ],
       "searchText": "2027国省考季四海公考行测海海刷1期 百度批量新增 百度网盘批量导入：2027国省考季四海公考行测海海刷1期 4337 baidu https://pan.baidu.com/s/1LlKiLskDyy1qW_wmQx0w5Q?pwd=4337",
       "url": "https://pan.baidu.com/s/1LlKiLskDyy1qW_wmQx0w5Q?pwd=4337"
+    },
+    {
+      "id": "r1496",
+      "title": "2027四海行测海海刷1期",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/9e593c7cf7d9",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：2027四海行测海海刷1期",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 5,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "2027四海行测海海刷1期 夸克批量新增 夸克网盘批量导入：2027四海行测海海刷1期 quark https://pan.quark.cn/s/9e593c7cf7d9"
     }
   ]
 };
