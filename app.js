@@ -703,11 +703,25 @@ function openTodayUpdateModal() {
   document.body.classList.add("modal-open");
   trackBaiduEvent("category_modal", "open", "今日更新");
 }
+// Names from different sources often add platform-specific decorations. Keep this list
+// deliberately small so the fallback connects the same course without broadening search too much.
+const PAN_SEARCH_DECORATION_WORDS = /(?:国省考季|国省考|公考|网盘资料|网课资料|课程资料|资料合集|课程合集|全套资料)/g;
+
 function panSearchNormalize(text) {
   return String(text || "")
     .toLocaleLowerCase("zh-CN")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function panSearchCompact(text) {
+  return panSearchNormalize(text)
+    .replace(/[“”"'‘’`·•_—－-]/g, "")
+    .replace(/\s+/g, "");
+}
+
+function panSearchCoreNormalize(text) {
+  return panSearchCompact(text).replace(PAN_SEARCH_DECORATION_WORDS, "");
 }
 
 function panSearchTokens(query) {
@@ -742,10 +756,30 @@ function panSearchSourceName(item) {
   return item.sources.length > 1 ? `${first.file} 等 ${item.sources.length} 处` : `${first.file}:${first.line}`;
 }
 
+function panSearchItemSearchText(item) {
+  return panSearchNormalize([item.title, item.context, item.section, item.searchText, item.url].join(" "));
+}
+
+function panSearchMatchScore(item, queryTokens) {
+  if (!queryTokens.length) return 0;
+  const query = panSearchNormalize(queryTokens.join(" "));
+  const title = panSearchNormalize(item.title);
+  const haystack = panSearchItemSearchText(item);
+  const directTokenMatch = queryTokens.every((token) => haystack.includes(token));
+  if (query && title.includes(query)) return 120;
+  if (query && haystack.includes(query)) return 110;
+
+  // Second pass: compare course cores after removing only known listing decorations.
+  const coreQuery = panSearchCoreNormalize(query);
+  const coreTitle = panSearchCoreNormalize(item.title);
+  const coreHaystack = panSearchCoreNormalize([item.title, item.context, item.section, item.searchText].join(" "));
+  if (coreQuery && coreTitle.includes(coreQuery)) return 100;
+  if (coreQuery && coreHaystack.includes(coreQuery)) return 90;
+  return directTokenMatch ? 80 : 0;
+}
+
 function panSearchItemMatches(item, queryTokens) {
-  if (!queryTokens.length) return false;
-  const haystack = panSearchNormalize([item.title, item.context, item.section, item.searchText, item.url].join(" "));
-  return queryTokens.every((token) => haystack.includes(token));
+  return panSearchMatchScore(item, queryTokens) > 0;
 }
 
 function refreshPanSearchTotals() {
@@ -1621,7 +1655,7 @@ function renderSearchControls(items) {
   `;
 }
 
-function sortSearchItems(items) {
+function sortSearchItems(items, queryTokens) {
   const withIndex = items.map((item, index) => ({ item, index }));
   if (resourceSearchExperience.sort === "hot") {
     return withIndex.sort((a, b) => getItemClickCount(b.item) - getItemClickCount(a.item) || a.index - b.index).map((entry) => entry.item);
@@ -1629,7 +1663,7 @@ function sortSearchItems(items) {
   if (resourceSearchExperience.sort === "latest") {
     return withIndex.sort((a, b) => new Date(b.item.createdAt || b.item.addedAt || 0).getTime() - new Date(a.item.createdAt || a.item.addedAt || 0).getTime() || a.index - b.index).map((entry) => entry.item);
   }
-  return items;
+  return withIndex.sort((a, b) => panSearchMatchScore(b.item, queryTokens) - panSearchMatchScore(a.item, queryTokens) || a.index - b.index).map((entry) => entry.item);
 }
 
 function bindSearchExperienceControls(container) {
@@ -1657,7 +1691,7 @@ function renderPanSearchResults() {
   const allMatched = panSearchData.items.filter((item) => panSearchItemMatches(item, queryTokens));
   const sourceMatched = allMatched.filter((item) => resourceSearchExperience.platform === "all" || item.platform === resourceSearchExperience.platform);
   const courseMatched = sourceMatched.filter((item) => resourceSearchExperience.course === "all" || String(item.section || "未分类") === resourceSearchExperience.course);
-  const visible = sortSearchItems(courseMatched).slice(0, 80);
+  const visible = sortSearchItems(courseMatched, queryTokens).slice(0, 80);
   const totals = panSearchData.totals?.unique || {};
 
   container.hidden = false;
