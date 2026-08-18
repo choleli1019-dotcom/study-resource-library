@@ -703,11 +703,25 @@ function openTodayUpdateModal() {
   document.body.classList.add("modal-open");
   trackBaiduEvent("category_modal", "open", "今日更新");
 }
+// Names from different sources often add platform-specific decorations. Keep this list
+// deliberately small so the fallback connects the same course without broadening search too much.
+const PAN_SEARCH_DECORATION_WORDS = /(?:国省考季|国省考|公考|网盘资料|网课资料|课程资料|资料合集|课程合集|全套资料)/g;
+
 function panSearchNormalize(text) {
   return String(text || "")
     .toLocaleLowerCase("zh-CN")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function panSearchCompact(text) {
+  return panSearchNormalize(text)
+    .replace(/[“”"'‘’`·•_—－-]/g, "")
+    .replace(/\s+/g, "");
+}
+
+function panSearchCoreNormalize(text) {
+  return panSearchCompact(text).replace(PAN_SEARCH_DECORATION_WORDS, "");
 }
 
 function panSearchTokens(query) {
@@ -742,10 +756,30 @@ function panSearchSourceName(item) {
   return item.sources.length > 1 ? `${first.file} 等 ${item.sources.length} 处` : `${first.file}:${first.line}`;
 }
 
+function panSearchItemSearchText(item) {
+  return panSearchNormalize([item.title, item.context, item.section, item.searchText, item.url].join(" "));
+}
+
+function panSearchMatchScore(item, queryTokens) {
+  if (!queryTokens.length) return 0;
+  const query = panSearchNormalize(queryTokens.join(" "));
+  const title = panSearchNormalize(item.title);
+  const haystack = panSearchItemSearchText(item);
+  const directTokenMatch = queryTokens.every((token) => haystack.includes(token));
+  if (query && title.includes(query)) return 120;
+  if (query && haystack.includes(query)) return 110;
+
+  // Second pass: compare course cores after removing only known listing decorations.
+  const coreQuery = panSearchCoreNormalize(query);
+  const coreTitle = panSearchCoreNormalize(item.title);
+  const coreHaystack = panSearchCoreNormalize([item.title, item.context, item.section, item.searchText].join(" "));
+  if (coreQuery && coreTitle.includes(coreQuery)) return 100;
+  if (coreQuery && coreHaystack.includes(coreQuery)) return 90;
+  return directTokenMatch ? 80 : 0;
+}
+
 function panSearchItemMatches(item, queryTokens) {
-  if (!queryTokens.length) return false;
-  const haystack = panSearchNormalize([item.title, item.context, item.section, item.searchText, item.url].join(" "));
-  return queryTokens.every((token) => haystack.includes(token));
+  return panSearchMatchScore(item, queryTokens) > 0;
 }
 
 function refreshPanSearchTotals() {
@@ -1305,6 +1339,13 @@ renderNav();
 renderFilters();
 renderHotSearches();
 renderQuickLinks();
+function scheduleNonCriticalTask(task, delay = 0) {
+  const run = () => window.setTimeout(() => {
+    const invoke = () => { try { task(); } catch (_) {} };
+    if ("requestIdleCallback" in window) window.requestIdleCallback(invoke, { timeout: 1800 }); else invoke();
+  }, delay);
+  if (document.readyState === "complete") run(); else window.addEventListener("load", run, { once: true });
+}
 function initAmbientBackgroundVideo() {
   const video = document.querySelector("#ambientBackgroundVideo");
   const canvas = document.querySelector("#ambientBackgroundCanvas");
@@ -1329,7 +1370,13 @@ function initAmbientBackgroundVideo() {
   video.setAttribute("muted", "");
   video.setAttribute("playsinline", "");
   video.setAttribute("webkit-playsinline", "");
-  source.src = source.dataset.src;
+  let videoSourceLoaded = false;
+  const loadVideoSource = () => {
+    if (videoSourceLoaded) return;
+    videoSourceLoaded = true;
+    source.src = source.dataset.src;
+    video.load();
+  };
 
   let frameId = 0;
   let lastFrameAt = 0;
@@ -1361,6 +1408,7 @@ function initAmbientBackgroundVideo() {
       context.drawImage(video, sourceX, sourceY, sourceWidth, sourceHeight, 0, 0, canvas.width, canvas.height);
       if (!hasPaintedFrame) {
         hasPaintedFrame = true;
+        document.body.classList.remove("has-animated-background");
         document.body.classList.add("has-ambient-video");
         hideStartButton();
       }
@@ -1375,6 +1423,7 @@ function initAmbientBackgroundVideo() {
   };
 
   const activateVideo = () => {
+    if (!videoSourceLoaded) return;
     resizeCanvas();
     video.play()
       .then(() => {
@@ -1424,7 +1473,8 @@ function initAmbientBackgroundVideo() {
     return;
   }
   video.addEventListener("canplay", activateVideo, { once: true });
-  video.load();
+  document.body.classList.add("has-animated-background");
+  scheduleNonCriticalTask(loadVideoSource, 1500);
 }
 initAmbientBackgroundVideo();
 renderFeaturedResources();
@@ -1434,8 +1484,8 @@ bindEvents();
 bindThemeToggle();
 bindSearchWelcomeModal();
 bindSearchSuggestBox();
-loadLinkHealth();
-loadServerPanLinks();
+scheduleNonCriticalTask(loadLinkHealth, 350);
+scheduleNonCriticalTask(loadServerPanLinks, 550);
 // 2026-08-13: live hero clock.
 (() => {
   const clock = document.querySelector("#siteLiveClock");
@@ -1605,7 +1655,7 @@ function renderSearchControls(items) {
   `;
 }
 
-function sortSearchItems(items) {
+function sortSearchItems(items, queryTokens) {
   const withIndex = items.map((item, index) => ({ item, index }));
   if (resourceSearchExperience.sort === "hot") {
     return withIndex.sort((a, b) => getItemClickCount(b.item) - getItemClickCount(a.item) || a.index - b.index).map((entry) => entry.item);
@@ -1613,7 +1663,7 @@ function sortSearchItems(items) {
   if (resourceSearchExperience.sort === "latest") {
     return withIndex.sort((a, b) => new Date(b.item.createdAt || b.item.addedAt || 0).getTime() - new Date(a.item.createdAt || a.item.addedAt || 0).getTime() || a.index - b.index).map((entry) => entry.item);
   }
-  return items;
+  return withIndex.sort((a, b) => panSearchMatchScore(b.item, queryTokens) - panSearchMatchScore(a.item, queryTokens) || a.index - b.index).map((entry) => entry.item);
 }
 
 function bindSearchExperienceControls(container) {
@@ -1641,7 +1691,7 @@ function renderPanSearchResults() {
   const allMatched = panSearchData.items.filter((item) => panSearchItemMatches(item, queryTokens));
   const sourceMatched = allMatched.filter((item) => resourceSearchExperience.platform === "all" || item.platform === resourceSearchExperience.platform);
   const courseMatched = sourceMatched.filter((item) => resourceSearchExperience.course === "all" || String(item.section || "未分类") === resourceSearchExperience.course);
-  const visible = sortSearchItems(courseMatched).slice(0, 80);
+  const visible = sortSearchItems(courseMatched, queryTokens).slice(0, 80);
   const totals = panSearchData.totals?.unique || {};
 
   container.hidden = false;
@@ -1694,7 +1744,7 @@ function addMobileSearchDock() {
 }
 
 addMobileSearchDock();
-loadPublicResourceInsights();
+scheduleNonCriticalTask(loadPublicResourceInsights, 750);
 function getTrackedResourceLabel(link) {
   const rankItem = link.closest(".popularity-board li");
   if (rankItem) return `热度排行｜${link.textContent.trim().replace(/\s+\d+\s*次$/, "")}`;
@@ -1848,7 +1898,7 @@ async function loadApprovedDriftBottles(track) {
 function bindDriftBottleBoard() {
   const track = document.querySelector("#driftBottleTrack");
   setDriftBottleMessages(track, []);
-  loadApprovedDriftBottles(track);
+  scheduleNonCriticalTask(() => loadApprovedDriftBottles(track), 900);
 
   document.querySelector("#leaveDriftBottle")?.addEventListener("click", async (event) => {
     const message = window.prompt("留下一句想和同路人说的话（不超过48字）");
@@ -1960,8 +2010,8 @@ renderStudyCompanion();
 bindDriftBottleBoard();
 bindPeerSearchPulse();
 bindShoreLetter();
-loadShoreLetter();
-loadStudyRoomTeaser();
+scheduleNonCriticalTask(loadShoreLetter, 700);
+scheduleNonCriticalTask(loadStudyRoomTeaser, 1000);
 
 async function loadStudyRoomTeaser() {
   const online = document.querySelector("#studyRoomTeaserOnline");

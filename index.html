@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>学习资源库</title>
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=20260713-icon1" />
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
+    <link rel="preconnect" href="https://study-resource-api.gjsx.uno" crossorigin />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" />
-    <link rel="stylesheet" href="styles.css?v=20260816-study-room-v7" />
+    <link rel="stylesheet" href="styles.css?v=20260817-first-load-v1" />
   </head>
   <body class="theme-light">
     <video id="ambientBackgroundVideo" class="site-background-video" muted loop playsinline webkit-playsinline preload="metadata" aria-hidden="true" disablePictureInPicture controlslist="nodownload nofullscreen noremoteplayback" x-webkit-airplay="deny">
@@ -210,8 +212,31 @@
         s.parentNode.insertBefore(hm, s);
       })();
     </script>
-    <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20260816-study-room-v7"></script>
+    <script>
+      // Start the small announcement request before the large search index downloads.
+      (function () {
+        var base = String(window.STUDY_RESOURCE_API_BASE || "").replace(/\/$/, "");
+        if (!base || !window.fetch) return;
+        var escapeHtml = function (value) { return String(value || "").replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/\"/g, "&quot;").replace(/'/g, "&#039;"); };
+        var render = function (notice) {
+          window.__studyResourceSiteNotice = notice || {};
+          var panel = document.querySelector(".hero-live-panel");
+          var copy = panel && panel.querySelector("p");
+          if (!panel || !copy || !notice || !notice.active || !(notice.title || notice.message)) return;
+          var tone = ["notice", "maintenance", "recovered"].indexOf(notice.tone) >= 0 ? notice.tone : "notice";
+          var labels = { notice: "网站公告", maintenance: "维护中", recovered: "已恢复" };
+          panel.classList.add("has-site-notice");
+          panel.classList.toggle("notice-maintenance", tone === "maintenance");
+          panel.classList.toggle("notice-recovered", tone === "recovered");
+          copy.innerHTML = "<span>" + labels[tone] + "</span><strong>" + escapeHtml(notice.title || "资料库公告") + "</strong><small>" + escapeHtml(notice.message || "请留意最新资料说明。") + "</small>";
+        };
+        fetch(base + "/api/site-notice", { headers: { Accept: "application/json" } })
+          .then(function (response) { return response.ok ? response.json() : null; })
+          .then(function (data) { if (data) render(data.notice); })
+          .catch(function () {});
+      })();
+    </script>    <script src="pan-search-data.js?v=20260723-baidu1"></script>
+    <script src="app.js?v=20260818-core-search-v1"></script>
   </body>
 </html>
 

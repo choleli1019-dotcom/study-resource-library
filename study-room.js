@@ -20,6 +20,50 @@
   el.start.addEventListener("click", toggleTimer); el.reset.addEventListener("click", () => { running = false; clearInterval(timer); remaining = duration; renderTimer(); reportPresence(); });
   document.querySelectorAll("[data-minutes]").forEach((button) => button.addEventListener("click", () => { if (running) return; duration = Number(button.dataset.minutes) * 60; remaining = duration; document.querySelectorAll("[data-minutes]").forEach((item) => item.classList.toggle("is-active", item === button)); renderTimer(); }));
 
+  const ambienceKey = "study-room-ambience-v2";
+  const ambienceLabels = { rain: "雨声", cafe: "咖啡馆", waves: "海浪" };
+  const ambience = { context: null, master: null, nodes: [], playing: false, muted: false, volume: Math.min(100, Math.max(0, Number(storage.get("study-room-noise-volume-v1", 28)) || 28)), scene: ambienceLabels[storage.get(ambienceKey, "rain")] ? storage.get(ambienceKey, "rain") : "rain" };
+  const noiseEl = { toggle: $("#noiseToggle"), mute: $("#noiseMute"), volume: $("#noiseVolume"), output: $("#noiseVolumeValue"), status: $("#noiseStatus"), scenes: document.querySelectorAll("[data-ambience]") };
+  function renderAmbience() {
+    const value = Math.round(ambience.volume);
+    if (noiseEl.volume) noiseEl.volume.value = String(value);
+    if (noiseEl.output) noiseEl.output.textContent = `${value}%`;
+    if (noiseEl.toggle) { noiseEl.toggle.textContent = ambience.playing ? "Ⅱ 暂停播放" : "▶ 开始播放"; noiseEl.toggle.setAttribute("aria-pressed", String(ambience.playing)); }
+    if (noiseEl.status) noiseEl.status.textContent = ambience.playing ? `${ambienceLabels[ambience.scene]}播放中` : "已关闭";
+    if (noiseEl.mute) { noiseEl.mute.textContent = ambience.muted ? "取消静音" : "静音"; noiseEl.mute.setAttribute("aria-pressed", String(ambience.muted)); }
+    noiseEl.scenes.forEach((button) => { const active = button.dataset.ambience === ambience.scene; button.classList.toggle("is-active", active); button.setAttribute("aria-pressed", String(active)); });
+  }
+  function applyAmbienceGain() { if (ambience.master) ambience.master.gain.value = ambience.muted ? 0 : ambience.volume / 100 * 0.32; }
+  function makeNoiseBuffer(context, color = "white") {
+    const buffer = context.createBuffer(1, context.sampleRate * 2, context.sampleRate), data = buffer.getChannelData(0); let brown = 0;
+    for (let i = 0; i < data.length; i += 1) { const white = Math.random() * 2 - 1; brown = (brown + white * .06) / 1.06; data[i] = color === "brown" ? brown * 3.4 : white; }
+    return buffer;
+  }
+  function addNoiseLayer(context, color, filterType, frequency, q, amount, destination = ambience.master) {
+    const source = context.createBufferSource(), filter = context.createBiquadFilter(), gain = context.createGain(); source.buffer = makeNoiseBuffer(context, color); source.loop = true; filter.type = filterType; filter.frequency.value = frequency; filter.Q.value = q; gain.gain.value = amount; source.connect(filter).connect(gain).connect(destination); source.start(); ambience.nodes.push(source, filter, gain); return gain;
+  }
+  function addMurmur(context, frequency, amount, phase) {
+    const oscillator = context.createOscillator(), gain = context.createGain(), lfo = context.createOscillator(), lfoGain = context.createGain(); oscillator.type = "sine"; oscillator.frequency.value = frequency; gain.gain.value = amount; lfo.frequency.value = .07 + phase * .025; lfoGain.gain.value = amount * .7; lfo.connect(lfoGain).connect(gain.gain); oscillator.connect(gain).connect(ambience.master); oscillator.start(); lfo.start(); ambience.nodes.push(oscillator, gain, lfo, lfoGain);
+  }
+  function createAmbience() {
+    const AudioContext = window.AudioContext || window.webkitAudioContext;
+    if (!AudioContext) throw new Error("当前浏览器不支持环境声");
+    ambience.context = ambience.context || new AudioContext(); ambience.master = ambience.context.createGain(); ambience.master.connect(ambience.context.destination); applyAmbienceGain();
+    if (ambience.scene === "rain") { addNoiseLayer(ambience.context, "white", "bandpass", 2600, .45, .46); addNoiseLayer(ambience.context, "brown", "highpass", 480, .3, .08); }
+    if (ambience.scene === "cafe") { addNoiseLayer(ambience.context, "brown", "bandpass", 640, .4, .17); addNoiseLayer(ambience.context, "white", "bandpass", 1500, .25, .055); [150, 205, 274].forEach((frequency, index) => addMurmur(ambience.context, frequency, .009, index)); }
+    if (ambience.scene === "waves") { const swell = ambience.context.createGain(), lfo = ambience.context.createOscillator(), lfoGain = ambience.context.createGain(); swell.gain.value = .3; lfo.frequency.value = .075; lfoGain.gain.value = .2; lfo.connect(lfoGain).connect(swell.gain); swell.connect(ambience.master); lfo.start(); ambience.nodes.push(swell, lfo, lfoGain); addNoiseLayer(ambience.context, "brown", "lowpass", 620, .25, .78, swell); addNoiseLayer(ambience.context, "white", "bandpass", 1000, .22, .08, swell); }
+  }
+  function stopAmbience() { ambience.nodes.forEach((node) => { try { if (typeof node.stop === "function") node.stop(); } catch (_) {} try { node.disconnect(); } catch (_) {} }); ambience.nodes = []; ambience.master?.disconnect(); ambience.master = null; ambience.playing = false; }
+  async function toggleAmbience() {
+    if (ambience.playing) { stopAmbience(); renderAmbience(); return; }
+    try { createAmbience(); if (ambience.context.state === "suspended") await ambience.context.resume(); ambience.playing = true; renderAmbience(); }
+    catch (error) { if (noiseEl.status) noiseEl.status.textContent = error.message || "暂不支持"; if (noiseEl.toggle) noiseEl.toggle.disabled = true; }
+  }
+  noiseEl.toggle?.addEventListener("click", toggleAmbience);
+  noiseEl.mute?.addEventListener("click", () => { ambience.muted = !ambience.muted; applyAmbienceGain(); renderAmbience(); });
+  noiseEl.volume?.addEventListener("input", () => { ambience.volume = Number(noiseEl.volume.value); storage.set("study-room-noise-volume-v1", ambience.volume); applyAmbienceGain(); renderAmbience(); });
+  noiseEl.scenes.forEach((button) => button.addEventListener("click", async () => { const nextScene = button.dataset.ambience; if (!ambienceLabels[nextScene] || nextScene === ambience.scene) return; const wasPlaying = ambience.playing; if (wasPlaying) stopAmbience(); ambience.scene = nextScene; storage.set(ambienceKey, nextScene); if (wasPlaying) { try { createAmbience(); if (ambience.context.state === "suspended") await ambience.context.resume(); ambience.playing = true; } catch (_) {} } renderAmbience(); }));
+  renderAmbience();
   function updateText(id, value) { const node = $(id); if (node) node.textContent = String(value); }
   const seatRows = 6, seatColumns = 6, seatTotal = seatRows * seatColumns;
   const seatPortraits = ['assets/study-room-learner-clean-green-01-crop.png', 'assets/study-room-learner-clean-green-02-crop.png', 'assets/study-room-learner-clean-girl-03-crop.png', 'assets/study-room-learner-clean-boy-04-crop.png', 'assets/study-room-learner-clean-girl-05-crop.png'];
