@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-18T02:11:40.646Z",
+  "generatedAt": "2026-08-18T14:14:07.313Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -20738,8 +20738,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "时政】2025小黑全年时政【zg+上岸村 百度批量新增 百度网盘批量导入：时政】2025小黑全年时政【zg+上岸村 jrt3 baidu https://pan.baidu.com/s/1qMBZmY1QwfVZrZ8KD6elVg?pwd=jrt3",
-      "url": "https://pan.baidu.com/s/1qMBZmY1QwfVZrZ8KD6elVg?pwd=jrt3"
+      "searchText": "时政】2025小黑全年时政【zg+上岸村 百度批量新增 百度网盘批量导入：时政】2025小黑全年时政【zg+上岸村 jrt3 baidu https://pan.baidu.com/s/1qMBZmY1QwfVZrZ8KD6elVg?pwd=jrt3#list/path=%2F",
+      "url": "https://pan.baidu.com/s/1qMBZmY1QwfVZrZ8KD6elVg?pwd=jrt3#list/path=%2F"
     },
     {
       "id": "r1217",
