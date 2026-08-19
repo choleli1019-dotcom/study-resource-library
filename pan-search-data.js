@@ -1,17 +1,17 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-18T14:14:07.313Z",
+  "generatedAt": "2026-08-19T01:52:16.154Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
     "raw": {
-      "quark": 885,
-      "baidu": 351,
-      "total": 1236
+      "quark": 886,
+      "baidu": 354,
+      "total": 1240
     },
     "unique": {
-      "quark": 1055,
-      "baidu": 441,
-      "total": 1496
+      "quark": 1056,
+      "baidu": 444,
+      "total": 1500
     },
     "duplicate": {
       "quark": 0,
@@ -25500,6 +25500,74 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "2027四海行测海海刷1期 夸克批量新增 夸克网盘批量导入：2027四海行测海海刷1期 quark https://pan.quark.cn/s/9e593c7cf7d9"
+    },
+    {
+      "id": "r1497",
+      "title": "2027年国省考相丽君申论解题思维趣学营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1jFUIptqDaqTTeTrLga5kaA?pwd=m19g",
+      "code": "m19g",
+      "section": "后台新增",
+      "context": "2027年国省考相丽君申论解题思维趣学营",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "后台新增"
+        }
+      ],
+      "searchText": "2027年国省考相丽君申论解题思维趣学营 后台新增 2027年国省考相丽君申论解题思维趣学营 m19g server/data/extra-links.json"
+    },
+    {
+      "id": "r1498",
+      "title": "2027kiwi申论全程班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1caGAJJqyb5Okhec_R74cYw?pwd=m19g",
+      "code": "m19g",
+      "section": "申论",
+      "context": "2027kiwi申论全程班",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "申论"
+        }
+      ],
+      "searchText": "2027kiwi申论全程班 申论 2027kiwi申论全程班 m19g server/data/extra-links.json"
+    },
+    {
+      "id": "r1499",
+      "title": "2027陈怀安行测圣经资料分析系统课",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/17jeLoOhixc6vVjbC_JieCA?pwd=7hja",
+      "code": "7hja",
+      "section": "资料分析",
+      "context": "2027陈怀安行测圣经资料分析系统课",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "资料分析"
+        }
+      ],
+      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 7hja server/data/extra-links.json"
+    },
+    {
+      "id": "r1500",
+      "title": "综合管理A类 2026事业单位终极模考6套卷（综合管理A类）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/37c50eddaaff",
+      "code": "",
+      "section": "后台新增",
+      "context": "综合管理A类 2026事业单位终极模考6套卷（综合管理A类）",
+      "sources": [
+        {
+          "file": "server/data/extra-links.json",
+          "line": 1,
+          "section": "后台新增"
+        }
+      ],
+      "searchText": "综合管理A类 2026事业单位终极模考6套卷（综合管理A类） 后台新增 综合管理A类 2026事业单位终极模考6套卷（综合管理A类） server/data/extra-links.json"
     }
   ]
 };
