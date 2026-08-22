@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-22T09:39:58.143Z",
+  "generatedAt": "2026-08-22T10:03:01.826Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -15560,10 +15560,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r912",
       "title": "2027花生十三逻辑判断600题精讲课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1NfuAB_m_9hESSZw8z4aTjw?pwd=cnr7",
+      "url": "https://pan.baidu.com/s/1zYrdgRWQAqgIOArTstv3Xg?pwd=vq8j",
       "code": "cnr7",
       "section": "公考类",
-      "context": "2027花生十三逻辑判断600题精讲课 链接：https://pan.baidu.com/s/1NfuAB_m_9hESSZw8z4aTjw?pwd=cnr7 提取码：cnr7",
+      "context": "2027花生十三逻辑判断600题精讲课 链接：https://pan.baidu.com/s/1zYrdgRWQAqgIOArTstv3Xg?pwd=vq8j 提取码：cnr7",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15571,7 +15571,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027花生十三逻辑判断600题精讲课 公考类 2027花生十三逻辑判断600题精讲课 链接：https://pan.baidu.com/s/1NfuAB_m_9hESSZw8z4aTjw?pwd=cnr7 提取码：cnr7 cnr7 baidu https://pan.baidu.com/s/1NfuAB_m_9hESSZw8z4aTjw?pwd=cnr7"
+      "searchText": "2027花生十三逻辑判断600题精讲课 公考类 2027花生十三逻辑判断600题精讲课 链接：https://pan.baidu.com/s/1zYrdgRWQAqgIOArTstv3Xg?pwd=vq8j 提取码：cnr7 cnr7 baidu https://pan.baidu.com/s/1zYrdgRWQAqgIOArTstv3Xg?pwd=vq8j"
     },
     {
       "id": "r913",
