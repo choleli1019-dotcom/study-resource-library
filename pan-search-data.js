@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-24T10:55:58.725Z",
+  "generatedAt": "2026-08-24T10:57:02.499Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -9,8 +9,8 @@ window.PAN_SEARCH_DATA = {
       "total": 1240
     },
     "unique": {
-      "quark": 1056,
-      "baidu": 448,
+      "quark": 1057,
+      "baidu": 447,
       "total": 1504
     },
     "duplicate": {
@@ -1263,10 +1263,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r71",
       "title": "速算】花生十三速算资料",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/5701356189fe",
+      "url": "https://pan.quark.cn/s/e4ee62b10e66",
       "code": "",
       "section": "公考类",
-      "context": "速算】花生十三速算资料 链接：https://pan.quark.cn/s/5701356189fe",
+      "context": "速算】花生十三速算资料 链接：https://pan.quark.cn/s/e4ee62b10e66",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1274,7 +1274,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "速算】花生十三速算资料 公考类 速算】花生十三速算资料 链接：https://pan.quark.cn/s/5701356189fe quark https://pan.quark.cn/s/5701356189fe"
+      "searchText": "速算】花生十三速算资料 公考类 速算】花生十三速算资料 链接：https://pan.quark.cn/s/e4ee62b10e66 夸克 网盘 网盘链接.txt"
     },
     {
       "id": "r72",
@@ -20489,7 +20489,7 @@ window.PAN_SEARCH_DATA = {
     {
       "id": "r1202",
       "title": "小黑课程全部在上岸村合集",
-      "platform": "baidu",
+      "platform": "quark",
       "code": "y5cu",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：小黑课程全部在上岸村合集",
@@ -20500,8 +20500,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "小黑课程全部在上岸村合集 百度批量新增 百度网盘批量导入：小黑课程全部在上岸村合集 y5cu baidu https://pan.baidu.com/s/1DcS_wKHBOoPWYeBgb8njDw?pwd=y5cu",
-      "url": "https://pan.baidu.com/s/1DcS_wKHBOoPWYeBgb8njDw?pwd=y5cu"
+      "searchText": "小黑课程全部在上岸村合集 百度批量新增 百度网盘批量导入：小黑课程全部在上岸村合集 y5cu quark https://pan.quark.cn/s/0f99192cc470",
+      "url": "https://pan.quark.cn/s/0f99192cc470"
     },
     {
       "id": "r1203",
