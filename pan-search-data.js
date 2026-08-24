@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-22T13:54:03.175Z",
+  "generatedAt": "2026-08-24T10:55:58.725Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -1263,10 +1263,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r71",
       "title": "速算】花生十三速算资料",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/e4ee62b10e66",
+      "url": "https://pan.quark.cn/s/5701356189fe",
       "code": "",
       "section": "公考类",
-      "context": "速算】花生十三速算资料 链接：https://pan.quark.cn/s/e4ee62b10e66",
+      "context": "速算】花生十三速算资料 链接：https://pan.quark.cn/s/5701356189fe",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1274,7 +1274,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "速算】花生十三速算资料 公考类 速算】花生十三速算资料 链接：https://pan.quark.cn/s/e4ee62b10e66 夸克 网盘 网盘链接.txt"
+      "searchText": "速算】花生十三速算资料 公考类 速算】花生十三速算资料 链接：https://pan.quark.cn/s/5701356189fe quark https://pan.quark.cn/s/5701356189fe"
     },
     {
       "id": "r72",
