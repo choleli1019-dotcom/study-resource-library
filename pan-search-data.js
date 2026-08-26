@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-24T10:57:02.499Z",
+  "generatedAt": "2026-08-26T01:39:12.597Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -1450,10 +1450,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r82",
       "title": "数量关系1200题",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/f457670a3053",
+      "url": "https://pan.quark.cn/s/8ad8dcf52075",
       "code": "",
       "section": "公考类",
-      "context": "数量关系1200题 链接：https://pan.quark.cn/s/f457670a3053",
+      "context": "数量关系1200题 链接：https://pan.quark.cn/s/8ad8dcf52075",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1461,7 +1461,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "数量关系1200题 公考类 数量关系1200题 链接：https://pan.quark.cn/s/f457670a3053 夸克 网盘 网盘链接.txt"
+      "searchText": "数量关系1200题 公考类 数量关系1200题 链接：https://pan.quark.cn/s/8ad8dcf52075 quark https://pan.quark.cn/s/8ad8dcf52075"
     },
     {
       "id": "r83",
