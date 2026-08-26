@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-26T01:39:12.597Z",
+  "generatedAt": "2026-08-26T08:53:03.975Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -1348,10 +1348,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r76",
       "title": "2027花生十三资料分析600题精讲课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/71e95b3e0b37",
+      "url": "https://pan.quark.cn/s/c455722b86a8",
       "code": "",
       "section": "公考类",
-      "context": "2027花生十三资料分析600题精讲课 链接：https://pan.quark.cn/s/71e95b3e0b37",
+      "context": "2027花生十三资料分析600题精讲课 链接：https://pan.quark.cn/s/c455722b86a8",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1359,7 +1359,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027花生十三资料分析600题精讲课 公考类 2027花生十三资料分析600题精讲课 链接：https://pan.quark.cn/s/71e95b3e0b37 夸克 网盘 网盘链接.txt"
+      "searchText": "2027花生十三资料分析600题精讲课 公考类 2027花生十三资料分析600题精讲课 链接：https://pan.quark.cn/s/c455722b86a8 quark https://pan.quark.cn/s/c455722b86a8"
     },
     {
       "id": "r77",
