@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-08-27T08:52:14.175Z",
+  "generatedAt": "2026-08-31T07:02:46.504Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -957,10 +957,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r53",
       "title": "申论+面试】袁东合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/caf83e53a1c3",
+      "url": "https://pan.quark.cn/s/d31c854e8d46",
       "code": "",
       "section": "面试",
-      "context": "申论+面试】袁东合集 链接：https://pan.quark.cn/s/caf83e53a1c3",
+      "context": "申论+面试】袁东合集 链接：https://pan.quark.cn/s/d31c854e8d46",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -968,7 +968,7 @@ window.PAN_SEARCH_DATA = {
           "section": "面试"
         }
       ],
-      "searchText": "申论+面试】袁东合集 面试 申论+面试】袁东合集 链接：https://pan.quark.cn/s/caf83e53a1c3 夸克 网盘 网盘链接.txt"
+      "searchText": "申论+面试】袁东合集 面试 申论+面试】袁东合集 链接：https://pan.quark.cn/s/d31c854e8d46 quark https://pan.quark.cn/s/d31c854e8d46"
     },
     {
       "id": "r54",
