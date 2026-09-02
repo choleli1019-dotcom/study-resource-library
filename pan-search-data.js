@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-09-02T10:16:21.309Z",
+  "generatedAt": "2026-09-02T14:21:57.303Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -19997,7 +19997,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1173",
       "title": "27袁东合集",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1NuCu0CWDt9mS-vLx4ff0Ig?pwd=qrwk",
+      "url": "https://pan.baidu.com/s/123LLP9lGTDTCez_RYF4vpw?pwd=qipc",
       "code": "m19g",
       "section": "申论",
       "context": "27袁东合集",
@@ -20008,7 +20008,7 @@ window.PAN_SEARCH_DATA = {
           "section": "申论"
         }
       ],
-      "searchText": "27袁东合集 申论 27袁东合集 m19g baidu https://pan.baidu.com/s/1NuCu0CWDt9mS-vLx4ff0Ig?pwd=qrwk"
+      "searchText": "27袁东合集 申论 27袁东合集 m19g baidu https://pan.baidu.com/s/123LLP9lGTDTCez_RYF4vpw?pwd=qipc"
     },
     {
       "id": "r1174",
