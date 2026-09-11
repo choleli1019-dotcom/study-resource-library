@@ -7,8 +7,20 @@
     <link rel="icon" type="image/svg+xml" href="assets/favicon.svg?v=20260713-icon1" />
     <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin />
     <link rel="preconnect" href="https://study-resource-api.gjsx.uno" crossorigin />
+    <style>
+      /* Prevent a flash of the legacy stylesheet before the final visual layer arrives. */
+      html.visual-loading { background: #dfe7e7; }
+      html.visual-loading .app-shell { visibility: hidden; opacity: 0; }
+      .app-shell { transition: opacity 160ms ease; }
+      @media (prefers-reduced-motion: reduce) { .app-shell { transition: none; } }
+    </style>
+    <script>
+      document.documentElement.classList.add("visual-loading");
+      window.setTimeout(function () { document.documentElement.classList.remove("visual-loading"); }, 3500);
+    </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" />
-    <link rel="stylesheet" href="styles.css?v=20260817-first-load-v1" />
+    <link rel="stylesheet" href="styles.css?v=20260911-legacy-layout" />
+    <link id="finalThemeStylesheet" rel="stylesheet" href="final-theme.css?v=20260911-analog-clock-v7" onload="document.documentElement.classList.remove('visual-loading')" />
   </head>
   <body class="theme-light">
     <video id="ambientBackgroundVideo" class="site-background-video" muted loop playsinline webkit-playsinline preload="metadata" aria-hidden="true" disablePictureInPicture controlslist="nodownload nofullscreen noremoteplayback" x-webkit-airplay="deny">
@@ -26,6 +38,12 @@
           </span>
         </a>
         <nav id="sectionNav" class="section-nav"></nav>
+        <div class="sidebar-utilities">
+          <button id="themeToggle" class="theme-toggle" type="button" aria-label="切换深色和浅色模式" aria-pressed="false">
+            <span class="theme-toggle-knob"></span>
+            <span class="theme-toggle-text">深色</span>
+          </button>
+        </div>
         <div class="sidebar-note">
           <strong>提示</strong>
           <p>网盘和飞书链接可能会失效，建议打开后及时转存。</p>
@@ -33,21 +51,6 @@
       </aside>
 
       <main id="top" class="main">
-        <header class="topbar">
-          <div>
-            <span>Resource Navigator</span>
-            <strong>备考资料导航台</strong>
-          </div>
-          <div class="topbar-actions">
-            <a href="https://di0occkvoyb.feishu.cn/wiki/MNt9w7LfeiXi5Xkvj0gcOo8Cnfs" target="_blank" rel="noopener noreferrer">飞书总目录</a>
-            <a href="#resourceSections">浏览资料</a>
-            <button id="themeToggle" class="theme-toggle" type="button" aria-label="切换深色和浅色模式" aria-pressed="false">
-              <span class="theme-toggle-knob"></span>
-              <span class="theme-toggle-text">深色</span>
-            </button>
-          </div>
-        </header>
-
         <section class="hero">
           <div class="hero-copy">
             <p class="eyebrow" aria-label="覆盖领域"><span>公务员</span><i aria-hidden="true">·</i><span>事业单位</span><i aria-hidden="true">·</i><span>教招</span><i aria-hidden="true">·</i><span>法考</span><i aria-hidden="true">·</i><span>考研</span></p>
@@ -69,7 +72,8 @@
                       <path d="m16 16 4 4"></path>
                     </svg>
                   </span>
-                  <input id="searchInput" type="search" placeholder="名师名字/课程名称/关键词/资源名称" />
+                  <input id="searchInput" type="search" placeholder="搜索课程、老师、资料、关键词…" />
+                  <kbd class="search-shortcut" aria-hidden="true">⌘ K</kbd>
                   <button id="heroSearchButton" type="button">搜索</button>
                 </label>
                 <div id="hotSearches" class="hot-searches" aria-label="热门搜索"></div>
@@ -90,7 +94,7 @@
             <section class="hero-live-panel" aria-label="资料库在线状态">
               <div class="hero-live-header">
                 <span class="hero-live-status"><i aria-hidden="true"></i>资料库在线 <b>LIVE</b><span id="siteGlobalOnline" class="site-global-online" aria-live="polite">-- 人在线</span></span>
-                <time id="siteLiveClock" aria-live="off"></time>
+                <div class="ios-clock-card" aria-label="北京时间"><span>北京时间</span><time id="siteLiveClock" aria-live="off"></time><div class="ios-clock-face" aria-hidden="true"><i class="ios-clock-hour"></i><i class="ios-clock-minute"></i><b></b></div></div>
               </div>
               <p><span>RESOURCE HUB</span>资源正在持续整理与更新</p>
               <div class="hero-live-services" aria-label="当前可用服务">
@@ -236,7 +240,7 @@
           .catch(function () {});
       })();
     </script>    <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20260818-core-search-v1"></script>
+    <script src="app.js?v=20260910-site-presence-v1"></script>
   </body>
 </html>
 

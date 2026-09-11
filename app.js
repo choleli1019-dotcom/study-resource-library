@@ -1522,22 +1522,40 @@ scheduleNonCriticalTask(loadLinkHealth, 350);
 scheduleNonCriticalTask(loadServerPanLinks, 550);
 // 2026-08-13: live hero clock.
 (() => {
-  const clock = document.querySelector("#siteLiveClock");
-  if (!clock) return;
+  const clocks = [...document.querySelectorAll("#siteLiveClock, #macTitleClock")];
+  if (!clocks.length) return;
   const formatter = new Intl.DateTimeFormat("zh-CN", {
     hour: "2-digit",
     minute: "2-digit",
-    second: "2-digit",
     hour12: false
   });
+  const hourHand = document.querySelector(".ios-clock-hour");
+  const minuteHand = document.querySelector(".ios-clock-minute");
   const renderClock = () => {
     const now = new Date();
-    clock.dateTime = now.toISOString();
-    clock.textContent = formatter.format(now);
+    clocks.forEach((clock) => {
+      clock.dateTime = now.toISOString();
+      clock.textContent = formatter.format(now);
+    });
+    if (hourHand && minuteHand) {
+      const hours = now.getHours() % 12;
+      const minutes = now.getMinutes();
+      const seconds = now.getSeconds();
+      hourHand.style.transform = `rotate(${hours * 30 + minutes * 0.5}deg)`;
+      minuteHand.style.transform = `rotate(${minutes * 6 + seconds * 0.1}deg)`;
+    }
   };
   renderClock();
   window.setInterval(renderClock, 1000);
 })();
+
+// Spotlight-style keyboard shortcut for the main resource search.
+document.addEventListener("keydown", (event) => {
+  if ((event.metaKey || event.ctrlKey) && event.key.toLowerCase() === "k") {
+    event.preventDefault();
+    document.querySelector("#searchInput")?.focus();
+  }
+});
 
 // 2026-08-13: searchable library controls, genuine popularity and link-care status.
 const resourceSearchExperience = {

@@ -1,0 +1,284 @@
+/*
+ * Final visual layer
+ * One predictable surface system loaded after the legacy stylesheet.  It owns
+ * colour, transparency and contrast only; the original file still owns layout.
+ */
+
+:root {
+  --final-blue: #0a84ff;
+  --final-light-text: #1d1d1f;
+  --final-light-muted: #62656b;
+  --final-dark-text: #f5f5f7;
+  --final-dark-muted: #aeb4be;
+}
+
+html body.theme-light.has-ambient-video .sidebar,
+html body.theme-light .sidebar {
+  background: rgba(239, 242, 243, .88) !important;
+  border-color: rgba(255,255,255,.64) !important;
+  box-shadow: 0 10px 28px rgba(20,30,36,.12), inset 0 1px 0 rgba(255,255,255,.7) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(108%) !important;
+  backdrop-filter: blur(16px) saturate(108%) !important;
+}
+
+html body.theme-light.has-ambient-video .main :is(.hero-copy, .hero-live-panel, .countdown-wall, .daily-learning-sign, .drift-bottle-board, .featured-panel, .quick-panel, .section-block, .pan-search-results, .notice, .resource-card, .overview-card),
+html body.theme-light .main :is(.hero-copy, .hero-live-panel, .countdown-wall, .daily-learning-sign, .drift-bottle-board, .featured-panel, .quick-panel, .section-block, .pan-search-results, .notice, .resource-card, .overview-card) {
+  background: rgba(237, 241, 242, .82) !important;
+  border-color: rgba(255,255,255,.58) !important;
+  box-shadow: 0 14px 34px rgba(22,35,42,.13), inset 0 1px 0 rgba(255,255,255,.58) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(108%) !important;
+  backdrop-filter: blur(16px) saturate(108%) !important;
+  color: var(--final-light-text) !important;
+}
+
+/* The study room is deliberately neutral silver. No old blue gradient can win. */
+html body.theme-light.has-ambient-video .main .hero-art.study-room-teaser,
+html body.theme-light .main .hero-art.study-room-teaser {
+  background: linear-gradient(145deg, rgba(244,246,246,.94), rgba(192,198,199,.91)) !important;
+  background-image: linear-gradient(145deg, rgba(244,246,246,.94), rgba(192,198,199,.91)) !important;
+  border-color: rgba(255,255,255,.76) !important;
+  box-shadow: 0 16px 38px rgba(30,39,42,.16), inset 0 1px 0 rgba(255,255,255,.76) !important;
+  color: var(--final-light-text) !important;
+  -webkit-backdrop-filter: blur(14px) saturate(100%) !important;
+  backdrop-filter: blur(14px) saturate(100%) !important;
+}
+
+html body.theme-light .main :is(.study-room-teaser-head h2, .study-room-preview-seats b) { color: #1d1d1f !important; }
+html body.theme-light .main :is(.study-room-teaser-head span, .study-room-teaser-lead, .study-room-preview-seats small, .study-room-teaser-bottom > span) { color: #5f6368 !important; }
+html body.theme-light .main :is(.study-room-preview-seats > span, .study-room-teaser-head > b) {
+  background: rgba(255,255,255,.52) !important;
+  border-color: rgba(60,60,67,.14) !important;
+  box-shadow: none !important;
+}
+
+html body.theme-light .main .overview-samples {
+  background: rgba(255,255,255,.42) !important;
+  border-color: rgba(60,60,67,.09) !important;
+  box-shadow: none !important;
+}
+html body.theme-light .main .overview-samples span {
+  background: transparent !important;
+  color: #415061 !important;
+  border-bottom-color: rgba(60,60,67,.09) !important;
+  box-shadow: none !important;
+}
+
+/* macOS dark: cards and their nested rows use adjacent graphite elevations. */
+html body:not(.theme-light) .sidebar {
+  background: rgba(28,28,30,.94) !important;
+  border-color: rgba(255,255,255,.12) !important;
+  box-shadow: 0 12px 28px rgba(0,0,0,.32), inset 0 1px 0 rgba(255,255,255,.05) !important;
+}
+html body:not(.theme-light) .main :is(.hero-copy, .hero-live-panel, .hero-art.study-room-teaser, .countdown-wall, .daily-learning-sign, .drift-bottle-board, .featured-panel, .quick-panel, .section-block, .pan-search-results, .notice, .resource-card, .overview-card) {
+  background: linear-gradient(145deg, rgba(42,43,48,.95), rgba(28,29,33,.97)) !important;
+  border-color: rgba(255,255,255,.13) !important;
+  box-shadow: 0 16px 36px rgba(0,0,0,.28), inset 0 1px 0 rgba(255,255,255,.055) !important;
+  color: var(--final-dark-text) !important;
+  -webkit-backdrop-filter: blur(16px) saturate(102%) !important;
+  backdrop-filter: blur(16px) saturate(102%) !important;
+}
+html body:not(.theme-light) .main .overview-samples {
+  background: #2c2c2e !important;
+  border: 1px solid rgba(255,255,255,.10) !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.035) !important;
+}
+html body:not(.theme-light) .main .overview-samples span {
+  background: transparent !important;
+  color: #ebebf5 !important;
+  border-bottom-color: rgba(255,255,255,.08) !important;
+  box-shadow: none !important;
+}
+html body:not(.theme-light) .main .overview-samples span::after { color: #8e8e93 !important; }
+html body:not(.theme-light) .main .overview-samples span:hover { background: rgba(10,132,255,.16) !important; color: #fff !important; }
+html body:not(.theme-light) .main .overview-card .section-open-button {
+  background: rgba(10,132,255,.18) !important;
+  border: 1px solid rgba(10,132,255,.30) !important;
+  box-shadow: none !important;
+  color: #64b5ff !important;
+}
+html body:not(.theme-light) .main .overview-card .section-open-button:hover { background: rgba(10,132,255,.30) !important; color: #fff !important; }
+html body:not(.theme-light) :is(.nav-link, .nav-link span:last-child, .overview-card h3, .overview-card p, .featured-item h3, .featured-item p) { color: var(--final-dark-text) !important; text-shadow: none !important; }
+
+/* Homepage dark-mode completion: every foreground level gets a deliberate
+   graphite counterpart instead of inheriting a colour from the light theme. */
+html body:not(.theme-light).has-ambient-video .sidebar,
+html body:not(.theme-light) .sidebar {
+  background: rgba(28,28,30,.96) !important;
+  border-color: rgba(255,255,255,.12) !important;
+}
+html body:not(.theme-light).has-ambient-video .sidebar :is(.brand strong, .nav-link, .nav-link span:last-child),
+html body:not(.theme-light) .sidebar :is(.brand strong, .nav-link, .nav-link span:last-child) {
+  color: #f5f5f7 !important;
+  text-shadow: none !important;
+}
+html body:not(.theme-light).has-ambient-video .sidebar .nav-link.active,
+html body:not(.theme-light) .sidebar .nav-link.active {
+  background: rgba(10,132,255,.24) !important;
+  color: #fff !important;
+}
+
+html body:not(.theme-light).has-ambient-video .main .hero-copy,
+html body:not(.theme-light) .main .hero-copy {
+  background: linear-gradient(145deg, rgba(42,43,48,.97), rgba(28,29,33,.98)) !important;
+  color: #f5f5f7 !important;
+}
+html body:not(.theme-light).has-ambient-video .main .hero-copy h1,
+html body:not(.theme-light) .main .hero-copy h1 { color: #f5f5f7 !important; text-shadow: none !important; }
+html body:not(.theme-light).has-ambient-video .main .hero-copy > p:not(.hero-blessing),
+html body:not(.theme-light) .main .hero-copy > p:not(.hero-blessing) { color: #c7cbd1 !important; text-shadow: none !important; }
+html body:not(.theme-light).has-ambient-video .main .hero-copy .eyebrow span,
+html body:not(.theme-light) .main .hero-copy .eyebrow span { color: #d6d9df !important; }
+html body:not(.theme-light).has-ambient-video .main .hero-copy .hero-blessing,
+html body:not(.theme-light) .main .hero-copy .hero-blessing { color: #ffd60a !important; text-shadow: none !important; }
+
+html body:not(.theme-light).has-ambient-video .main .search-panel-head :is(span, strong),
+html body:not(.theme-light) .main .search-panel-head :is(span, strong) { color: #e7e9ed !important; }
+html body:not(.theme-light).has-ambient-video .main .search-box,
+html body:not(.theme-light) .main .search-box {
+  background: #2c2c2e !important;
+  border-color: rgba(255,255,255,.15) !important;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.04) !important;
+}
+html body:not(.theme-light).has-ambient-video .main .search-box input,
+html body:not(.theme-light) .main .search-box input { color: #f5f5f7 !important; }
+html body:not(.theme-light).has-ambient-video .main .search-box input::placeholder,
+html body:not(.theme-light) .main .search-box input::placeholder { color: #9a9ca2 !important; }
+html body:not(.theme-light).has-ambient-video .main .hot-searches button,
+html body:not(.theme-light) .main .hot-searches button {
+  background: #2c2c2e !important;
+  border-color: rgba(255,255,255,.10) !important;
+  color: #e7e9ed !important;
+  box-shadow: none !important;
+}
+html body:not(.theme-light).has-ambient-video .main .hero-stats span,
+html body:not(.theme-light) .main .hero-stats span {
+  background: #2c2c2e !important;
+  border-color: rgba(255,255,255,.10) !important;
+  color: #f5f5f7 !important;
+}
+html body:not(.theme-light).has-ambient-video .main .hero-stats :is(strong, small),
+html body:not(.theme-light) .main .hero-stats :is(strong, small) { color: #f5f5f7 !important; }
+
+html body:not(.theme-light).has-ambient-video .main .hero-live-panel,
+html body:not(.theme-light) .main .hero-live-panel {
+  background: linear-gradient(145deg, rgba(42,43,48,.97), rgba(28,29,33,.98)) !important;
+  color: #f5f5f7 !important;
+}
+html body:not(.theme-light).has-ambient-video .main .hero-live-panel :is(p, strong, b, small, time),
+html body:not(.theme-light) .main .hero-live-panel :is(p, strong, b, small, time) { color: #e8e9ed !important; text-shadow: none !important; }
+html body:not(.theme-light).has-ambient-video .main .hero-live-services > span,
+html body:not(.theme-light) .main .hero-live-services > span { border-color: rgba(255,255,255,.12) !important; }
+
+html body:not(.theme-light).has-ambient-video .main .hero-art.study-room-teaser,
+html body:not(.theme-light) .main .hero-art.study-room-teaser {
+  background: linear-gradient(145deg, rgba(42,43,48,.97), rgba(28,29,33,.98)) !important;
+  background-image: linear-gradient(145deg, rgba(42,43,48,.97), rgba(28,29,33,.98)) !important;
+  border-color: rgba(255,255,255,.13) !important;
+  color: #f5f5f7 !important;
+}
+html body:not(.theme-light).has-ambient-video .main .study-room-teaser-head :is(h2, strong),
+html body:not(.theme-light) .main .study-room-teaser-head :is(h2, strong) { color: #f5f5f7 !important; }
+html body:not(.theme-light).has-ambient-video .main :is(.study-room-teaser-head span, .study-room-teaser-lead, .study-room-preview-seats small, .study-room-teaser-bottom > span),
+html body:not(.theme-light) .main :is(.study-room-teaser-head span, .study-room-teaser-lead, .study-room-preview-seats small, .study-room-teaser-bottom > span) { color: #aeb4be !important; text-shadow: none !important; }
+html body:not(.theme-light).has-ambient-video .main .study-room-preview-seats > span,
+html body:not(.theme-light) .main .study-room-preview-seats > span {
+  background: #2c2c2e !important;
+  border-color: rgba(255,255,255,.10) !important;
+  box-shadow: none !important;
+}
+html body:not(.theme-light).has-ambient-video .main .study-room-preview-seats b,
+html body:not(.theme-light) .main .study-room-preview-seats b { color: #f5f5f7 !important; }
+
+/* Compact iOS-style clock widget for the live panel. */
+.ios-clock-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 154px;
+  min-height: 58px;
+  padding: 8px 10px 8px 13px;
+  border: 1px solid rgba(255,255,255,.12);
+  border-radius: 17px;
+  color: #f5f5f7;
+  background: linear-gradient(145deg, #2c2c2e, #171719);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.08), 0 8px 18px rgba(0,0,0,.18);
+}
+.ios-clock-copy { display: grid; gap: 3px; min-width: 72px; }
+.ios-clock-copy time { color: #fff; font-size: 25px; font-weight: 750; letter-spacing: -.05em; line-height: 1; font-variant-numeric: tabular-nums; }
+.ios-clock-copy small { color: #c7c7cc; font-size: 11px; font-weight: 560; line-height: 1; white-space: nowrap; }
+.ios-clock-face {
+  position: relative;
+  width: 42px;
+  height: 42px;
+  flex: 0 0 42px;
+  border: 1px solid rgba(255,255,255,.22);
+  border-radius: 50%;
+  background: radial-gradient(circle, #252527 0 59%, transparent 60%), repeating-conic-gradient(from -2deg, rgba(255,255,255,.92) 0deg 2deg, transparent 2deg 30deg);
+  box-shadow: inset 0 0 0 3px #202022;
+}
+.ios-clock-face::before,
+.ios-clock-face::after { position: absolute; color: #fff; font-size: 7px; font-weight: 800; line-height: 1; }
+.ios-clock-face::before { content: "12"; top: 3px; left: 50%; transform: translateX(-50%); }
+.ios-clock-face::after { content: "6"; bottom: 3px; left: 50%; transform: translateX(-50%); }
+.ios-clock-face i { position: absolute; left: 50%; bottom: 50%; z-index: 1; width: 2px; border-radius: 2px; transform-origin: 50% 100%; transition: transform .35s linear; }
+.ios-clock-hour { height: 11px; background: #fff; }
+.ios-clock-minute { height: 15px; background: #b58cff; }
+.ios-clock-face b { position: absolute; z-index: 2; top: 50%; left: 50%; width: 5px; height: 5px; border-radius: 50%; background: #fff; transform: translate(-50%, -50%); }
+@media (max-width: 680px) { .ios-clock-card { min-width: 0; padding: 7px 9px; } .ios-clock-copy small { display: none; } }
+
+/* Refined status clock: legible at a glance and visually part of the card. */
+.ios-clock-card {
+  min-width: 112px;
+  min-height: 38px;
+  gap: 7px;
+  padding: 7px 11px;
+  border-color: rgba(60,60,67,.12);
+  border-radius: 13px;
+  color: #566371;
+  background: rgba(255,255,255,.48);
+  box-shadow: inset 0 1px 0 rgba(255,255,255,.62);
+  font-variant-numeric: tabular-nums;
+}
+.ios-clock-card > span { color: #6e7781; font-size: 11px; font-weight: 650; white-space: nowrap; }
+.ios-clock-card > time { color: #26384d; font-size: 19px; font-weight: 720; letter-spacing: -.03em; line-height: 1; }
+.ios-clock-card :is(.ios-clock-copy, .ios-clock-face) { display: none; }
+html body:not(.theme-light) .ios-clock-card { background: rgba(255,255,255,.09); border-color: rgba(255,255,255,.14); box-shadow: inset 0 1px 0 rgba(255,255,255,.06); }
+html body:not(.theme-light) .ios-clock-card > span { color: #b6bcc6; }
+html body:not(.theme-light) .ios-clock-card > time { color: #f5f5f7; }
+
+/* A readable live analog face, paired with the digital time rather than replacing it. */
+.ios-clock-card { min-width: 166px; }
+.ios-clock-face {
+  display: block !important;
+  width: 48px;
+  height: 48px;
+  flex-basis: 48px;
+  border-color: rgba(48,68,89,.22);
+  background: radial-gradient(circle, rgba(255,255,255,.92) 0 61%, transparent 62%), repeating-conic-gradient(from -1deg, #5e7184 0deg 2deg, transparent 2deg 30deg);
+  box-shadow: inset 0 0 0 3px rgba(239,244,247,.9), 0 2px 6px rgba(35,58,76,.10);
+}
+.ios-clock-face::before,
+.ios-clock-face::after { color: #40546a; font-size: 7px; }
+.ios-clock-face i { width: 2px; }
+.ios-clock-hour { height: 13px; background: #263e55; }
+.ios-clock-minute { height: 18px; background: #0a84ff; }
+.ios-clock-face b { width: 6px; height: 6px; background: #0a84ff; }
+html body:not(.theme-light) .ios-clock-face {
+  border-color: rgba(255,255,255,.20);
+  background: radial-gradient(circle, #303136 0 61%, transparent 62%), repeating-conic-gradient(from -1deg, #c8ccd4 0deg 2deg, transparent 2deg 30deg);
+  box-shadow: inset 0 0 0 3px #26272b;
+}
+html body:not(.theme-light) .ios-clock-face::before,
+html body:not(.theme-light) .ios-clock-face::after { color: #e7e9ed; }
+html body:not(.theme-light) .ios-clock-hour { background: #f5f5f7; }
+
+/* Light silver room: supporting copy must stay dark enough against the card. */
+html body.theme-light.has-ambient-video .main .hero-art.study-room-teaser .study-room-teaser-lead,
+html body.theme-light.has-ambient-video .main .hero-art.study-room-teaser .study-room-teaser-bottom > span,
+html body.theme-light .main .hero-art.study-room-teaser .study-room-teaser-lead,
+html body.theme-light .main .hero-art.study-room-teaser .study-room-teaser-bottom > span {
+  color: #44515f !important;
+  font-weight: 600 !important;
+  text-shadow: none !important;
+  opacity: 1 !important;
+}
