@@ -595,10 +595,12 @@ function renderResourceOverview() {
       </header>
       <div class="overview-grid">
         ${resources
-          .map((section) => {
+          .map((section, index) => {
             const sampleItems = section.items.slice(0, 4).map((item) => `<span>${item.title}</span>`).join("");
+            const illustration = (index % 9) + 1;
             return `
-              <article class="overview-card">
+              <article class="overview-card overview-comic-card overview-comic-${illustration}">
+                <span class="overview-comic-art" aria-hidden="true"></span>
                 <div class="overview-card-head">
                   <span class="section-icon">${section.icon}</span>
                   <div>
@@ -662,11 +664,15 @@ function closeSectionModal() {
   document.body.classList.remove("modal-open");
 }
 
-function renderSectionModalItem(item) {
+function renderSectionModalItem(item, index) {
   const className = item.sourceClass ? ` ${item.sourceClass}` : "";
+  const illustration = (index % 9) + 1;
+  const order = String(index + 1).padStart(2, "0");
 
   return `
-    <article class="modal-resource-card">
+    <article class="modal-resource-card catalogue-resource-card catalogue-illustration-${illustration}">
+      <span class="catalogue-resource-index" aria-hidden="true">${order}</span>
+      <span class="catalogue-resource-art" aria-hidden="true"></span>
       <div class="modal-resource-copy">
         <h3>${item.title}</h3>
         <p>${item.description}</p>

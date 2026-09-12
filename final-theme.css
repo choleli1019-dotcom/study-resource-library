@@ -14,33 +14,33 @@
 
 html body.theme-light.has-ambient-video .sidebar,
 html body.theme-light .sidebar {
-  background: rgba(239, 242, 243, .88) !important;
-  border-color: rgba(255,255,255,.64) !important;
+  background: rgba(239, 244, 245, .72) !important;
+  border-color: rgba(255,255,255,.68) !important;
   box-shadow: 0 10px 28px rgba(20,30,36,.12), inset 0 1px 0 rgba(255,255,255,.7) !important;
-  -webkit-backdrop-filter: blur(16px) saturate(108%) !important;
-  backdrop-filter: blur(16px) saturate(108%) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(112%) !important;
+  backdrop-filter: blur(20px) saturate(112%) !important;
 }
 
 html body.theme-light.has-ambient-video .main :is(.hero-copy, .hero-live-panel, .countdown-wall, .daily-learning-sign, .drift-bottle-board, .featured-panel, .quick-panel, .section-block, .pan-search-results, .notice, .resource-card, .overview-card),
 html body.theme-light .main :is(.hero-copy, .hero-live-panel, .countdown-wall, .daily-learning-sign, .drift-bottle-board, .featured-panel, .quick-panel, .section-block, .pan-search-results, .notice, .resource-card, .overview-card) {
-  background: rgba(237, 241, 242, .82) !important;
-  border-color: rgba(255,255,255,.58) !important;
-  box-shadow: 0 14px 34px rgba(22,35,42,.13), inset 0 1px 0 rgba(255,255,255,.58) !important;
-  -webkit-backdrop-filter: blur(16px) saturate(108%) !important;
-  backdrop-filter: blur(16px) saturate(108%) !important;
+  background: rgba(237, 243, 244, .58) !important;
+  border-color: rgba(255,255,255,.66) !important;
+  box-shadow: 0 14px 34px rgba(22,35,42,.14), inset 0 1px 0 rgba(255,255,255,.66) !important;
+  -webkit-backdrop-filter: blur(22px) saturate(116%) !important;
+  backdrop-filter: blur(22px) saturate(116%) !important;
   color: var(--final-light-text) !important;
 }
 
 /* The study room is deliberately neutral silver. No old blue gradient can win. */
 html body.theme-light.has-ambient-video .main .hero-art.study-room-teaser,
 html body.theme-light .main .hero-art.study-room-teaser {
-  background: linear-gradient(145deg, rgba(244,246,246,.94), rgba(192,198,199,.91)) !important;
-  background-image: linear-gradient(145deg, rgba(244,246,246,.94), rgba(192,198,199,.91)) !important;
-  border-color: rgba(255,255,255,.76) !important;
+  background: linear-gradient(145deg, rgba(243,248,249,.72), rgba(182,199,202,.64)) !important;
+  background-image: linear-gradient(145deg, rgba(243,248,249,.72), rgba(182,199,202,.64)) !important;
+  border-color: rgba(255,255,255,.72) !important;
   box-shadow: 0 16px 38px rgba(30,39,42,.16), inset 0 1px 0 rgba(255,255,255,.76) !important;
   color: var(--final-light-text) !important;
-  -webkit-backdrop-filter: blur(14px) saturate(100%) !important;
-  backdrop-filter: blur(14px) saturate(100%) !important;
+  -webkit-backdrop-filter: blur(22px) saturate(108%) !important;
+  backdrop-filter: blur(22px) saturate(108%) !important;
 }
 
 html body.theme-light .main :is(.study-room-teaser-head h2, .study-room-preview-seats b) { color: #1d1d1f !important; }
@@ -281,4 +281,745 @@ html body.theme-light .main .hero-art.study-room-teaser .study-room-teaser-botto
   font-weight: 600 !important;
   text-shadow: none !important;
   opacity: 1 !important;
+}
+
+/* Catalogue cards: a quiet illustrated index instead of nine repeated blank panels. */
+.section-modal-grid .catalogue-resource-card {
+  --catalogue-accent: #0a84ff;
+  --catalogue-accent-rgb: 10,132,255;
+  position: relative !important;
+  isolation: isolate;
+  min-height: 212px !important;
+  padding: 22px !important;
+  overflow: hidden !important;
+  background: linear-gradient(145deg, rgba(255,255,255,.96), rgba(244,248,250,.90)) !important;
+  border: 1px solid rgba(48,68,89,.14) !important;
+  box-shadow: 0 12px 25px rgba(34,52,66,.10), inset 0 1px 0 rgba(255,255,255,.82) !important;
+}
+.section-modal-grid .catalogue-resource-card::before {
+  position: absolute !important;
+  inset: 0 auto auto 0 !important;
+  width: 100% !important;
+  height: 4px !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+  background: linear-gradient(90deg, var(--catalogue-accent), rgba(var(--catalogue-accent-rgb),.25)) !important;
+}
+.section-modal-grid .catalogue-resource-card:nth-child(4n + 2) { --catalogue-accent: #34a56f; --catalogue-accent-rgb: 52,165,111; }
+.section-modal-grid .catalogue-resource-card:nth-child(4n + 3) { --catalogue-accent: #d88a21; --catalogue-accent-rgb: 216,138,33; }
+.section-modal-grid .catalogue-resource-card:nth-child(4n) { --catalogue-accent: #8b5cc7; --catalogue-accent-rgb: 139,92,199; }
+.catalogue-resource-index {
+  position: absolute;
+  z-index: 0;
+  top: 11px;
+  right: 16px;
+  color: rgba(var(--catalogue-accent-rgb),.12);
+  font-size: 72px;
+  font-weight: 760;
+  letter-spacing: -.09em;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+.catalogue-resource-art {
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  bottom: 0;
+  width: 74%;
+  height: 100%;
+  opacity: .68;
+  background-image: url("assets/catalogue-study-comic-characters-v2.png");
+  background-repeat: no-repeat;
+  background-size: 300% 300%;
+  background-position: 0 0;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.25) 24%, #000 54%);
+  mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.25) 24%, #000 54%);
+  filter: saturate(.93) contrast(.99);
+  pointer-events: none;
+}
+.catalogue-illustration-2 .catalogue-resource-art { background-position: 50% 0; }
+.catalogue-illustration-3 .catalogue-resource-art { background-position: 100% 0; }
+.catalogue-illustration-4 .catalogue-resource-art { background-position: 0 50%; }
+.catalogue-illustration-5 .catalogue-resource-art { background-position: 50% 50%; }
+.catalogue-illustration-6 .catalogue-resource-art { background-position: 100% 50%; }
+.catalogue-illustration-7 .catalogue-resource-art { background-position: 0 100%; }
+.catalogue-illustration-8 .catalogue-resource-art { background-position: 50% 100%; }
+.catalogue-illustration-9 .catalogue-resource-art { background-position: 100% 100%; }
+.section-modal-grid .catalogue-resource-card .modal-resource-copy {
+  position: relative;
+  z-index: 1;
+  max-width: calc(100% - 90px);
+}
+.section-modal-grid .catalogue-resource-card h3 {
+  color: #202a35 !important;
+  font-size: 19px !important;
+  font-weight: 730 !important;
+  letter-spacing: -.02em;
+}
+.section-modal-grid .catalogue-resource-card p {
+  color: #697787 !important;
+  font-size: 14px !important;
+  line-height: 1.6 !important;
+}
+.section-modal-grid .catalogue-resource-card .modal-resource-actions {
+  position: relative;
+  z-index: 2;
+  margin-top: auto !important;
+}
+.section-modal-grid .catalogue-resource-card .tag {
+  min-height: 30px !important;
+  padding: 0 11px !important;
+  border: 1px solid rgba(var(--catalogue-accent-rgb),.28) !important;
+  border-radius: 999px !important;
+  color: color-mix(in srgb, var(--catalogue-accent) 82%, #27384a) !important;
+  background: rgba(var(--catalogue-accent-rgb),.12) !important;
+  box-shadow: none !important;
+}
+.section-modal-grid .catalogue-resource-card .open-link {
+  min-height: 38px !important;
+  padding: 0 13px !important;
+  border: 1px solid rgba(var(--catalogue-accent-rgb),.24) !important;
+  border-radius: 11px !important;
+  color: var(--catalogue-accent) !important;
+  background: rgba(255,255,255,.64) !important;
+  box-shadow: none !important;
+}
+.section-modal-grid .catalogue-resource-card .open-link:hover {
+  color: #fff !important;
+  background: var(--catalogue-accent) !important;
+  box-shadow: 0 7px 15px rgba(var(--catalogue-accent-rgb),.24) !important;
+}
+html body:not(.theme-light) .section-modal-grid .catalogue-resource-card {
+  background: linear-gradient(145deg, rgba(47,49,55,.98), rgba(33,34,39,.98)) !important;
+  border-color: rgba(255,255,255,.13) !important;
+  box-shadow: 0 14px 28px rgba(0,0,0,.24), inset 0 1px 0 rgba(255,255,255,.05) !important;
+}
+html body:not(.theme-light) .section-modal-grid .catalogue-resource-card h3 { color: #f5f5f7 !important; }
+html body:not(.theme-light) .section-modal-grid .catalogue-resource-card p { color: #b6bdc7 !important; }
+html body:not(.theme-light) .section-modal-grid .catalogue-resource-card .open-link { background: rgba(255,255,255,.07) !important; }
+html body:not(.theme-light) .catalogue-resource-art { opacity: .48; filter: saturate(.70) brightness(.86); }
+@media (max-width: 680px) {
+  .section-modal-grid .catalogue-resource-card { min-height: 196px !important; padding: 18px !important; }
+  .catalogue-resource-art { width: 76%; height: 100%; opacity: .52; }
+  .catalogue-resource-index { font-size: 62px; }
+}
+
+/* Overview: a clearer, more transparent single glass surface. */
+html body.theme-light.has-ambient-video .main .overview-block,
+html body.theme-light .main .overview-block {
+  background: rgba(202, 220, 224, .43) !important;
+  border-color: rgba(255,255,255,.68) !important;
+  box-shadow: 0 18px 42px rgba(20,39,48,.16), inset 0 1px 0 rgba(255,255,255,.72) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(122%) !important;
+  backdrop-filter: blur(24px) saturate(122%) !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-header,
+html body.theme-light .main .overview-block .overview-header { background: transparent !important; }
+html body.theme-light.has-ambient-video .main .overview-block .overview-card,
+html body.theme-light .main .overview-block .overview-card {
+  background: rgba(248, 252, 253, .52) !important;
+  border-color: rgba(255,255,255,.67) !important;
+  box-shadow: 0 10px 24px rgba(27,51,61,.10), inset 0 1px 0 rgba(255,255,255,.70) !important;
+  -webkit-backdrop-filter: blur(18px) saturate(116%) !important;
+  backdrop-filter: blur(18px) saturate(116%) !important;
+}
+html body.theme-light .main .overview-block .overview-samples {
+  background: rgba(235, 247, 249, .35) !important;
+  border-color: rgba(85,110,121,.10) !important;
+}
+html body.theme-light .main .overview-block .overview-samples span {
+  border-bottom-color: rgba(85,110,121,.12) !important;
+}
+html body:not(.theme-light) .main .overview-block {
+  background: rgba(28,29,34,.70) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(106%) !important;
+  backdrop-filter: blur(24px) saturate(106%) !important;
+}
+html body:not(.theme-light) .main .overview-block .overview-card { background: rgba(42,43,48,.70) !important; }
+
+/* Overview cards: nine quiet comic scenes add a visual cue without hiding the directory. */
+.overview-card.overview-comic-card {
+  position: relative !important;
+  overflow: hidden !important;
+  isolation: isolate;
+}
+.overview-comic-art {
+  position: absolute;
+  z-index: 0;
+  right: -7%;
+  bottom: -9%;
+  width: 61%;
+  height: 83%;
+  opacity: .35;
+  background-image: url("assets/catalogue-study-comic-characters-v2.png");
+  background-repeat: no-repeat;
+  background-size: 300% 300%;
+  background-position: 0 0;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.30) 30%, #000 65%);
+  mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.30) 30%, #000 65%);
+  filter: saturate(.82) contrast(.98);
+  pointer-events: none;
+}
+.overview-comic-2 .overview-comic-art { background-position: 50% 0; }
+.overview-comic-3 .overview-comic-art { background-position: 100% 0; }
+.overview-comic-4 .overview-comic-art { background-position: 0 50%; }
+.overview-comic-5 .overview-comic-art { background-position: 50% 50%; }
+.overview-comic-6 .overview-comic-art { background-position: 100% 50%; }
+.overview-comic-7 .overview-comic-art { background-position: 0 100%; }
+.overview-comic-8 .overview-comic-art { background-position: 50% 100%; }
+.overview-comic-9 .overview-comic-art { background-position: 100% 100%; }
+.overview-card.overview-comic-card > :not(.overview-comic-art) { position: relative; z-index: 1; }
+html body.theme-light .overview-card.overview-comic-card .overview-samples { background: rgba(241,249,250,.29) !important; }
+html body:not(.theme-light) .overview-comic-art { opacity: .19; filter: saturate(.63) brightness(.83); }
+@media (max-width: 680px) {
+  .overview-comic-art { right: -4%; width: 58%; height: 86%; opacity: .28; }
+}
+
+/* Shared comic glass: large surfaces receive a restrained scene, controls stay plain. */
+html body.theme-light .main :is(.hero-copy, .hero-live-panel, .hero-art.study-room-teaser, .countdown-wall, .daily-learning-sign, .drift-bottle-board, .featured-panel, .featured-item, .quick-panel, .section-block:not(.overview-block), .pan-search-results, .notice, .resource-card) {
+  position: relative !important;
+  isolation: isolate;
+  overflow: hidden;
+}
+html body.theme-light .main :is(.hero-copy, .hero-live-panel, .hero-art.study-room-teaser, .countdown-wall, .daily-learning-sign, .drift-bottle-board, .featured-panel, .featured-item, .quick-panel, .section-block:not(.overview-block), .pan-search-results, .notice, .resource-card)::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  right: -6%;
+  bottom: -10%;
+  width: 62%;
+  height: 86%;
+  opacity: .22;
+  background-image: url("assets/catalogue-study-comic-characters-v2.png");
+  background-repeat: no-repeat;
+  background-size: 300% 300%;
+  background-position: 0 0;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.20) 26%, #000 67%);
+  mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.20) 26%, #000 67%);
+  filter: saturate(.72) contrast(.98);
+  pointer-events: none;
+}
+html body.theme-light .main :is(.hero-copy, .hero-live-panel, .hero-art.study-room-teaser, .countdown-wall, .daily-learning-sign, .drift-bottle-board, .featured-panel, .featured-item, .quick-panel, .section-block:not(.overview-block), .pan-search-results, .notice, .resource-card) > * { position: relative; z-index: 1; }
+html body.theme-light .main .hero-copy::after { background-position: 0 0; opacity: .18; width: 54%; }
+html body.theme-light .main .hero-live-panel::after { background-position: 50% 0; opacity: .16; width: 48%; }
+html body.theme-light .main .hero-art.study-room-teaser::after { background-position: 100% 0; opacity: .18; width: 46%; }
+html body.theme-light .main .countdown-wall::after { background-position: 0 50%; opacity: .16; width: 48%; }
+html body.theme-light .main .daily-learning-sign::after { background-position: 50% 50%; opacity: .18; }
+html body.theme-light .main .drift-bottle-board::after { background-position: 100% 50%; opacity: .17; }
+html body.theme-light .main .featured-panel::after { background-position: 0 100%; opacity: .14; width: 34%; }
+html body.theme-light .main .featured-item:nth-child(4n + 1)::after { background-position: 0 100%; }
+html body.theme-light .main .featured-item:nth-child(4n + 2)::after { background-position: 50% 100%; }
+html body.theme-light .main .featured-item:nth-child(4n + 3)::after { background-position: 100% 100%; }
+html body.theme-light .main .featured-item:nth-child(4n)::after { background-position: 0 0; }
+html body.theme-light .main .quick-panel::after { background-position: 50% 100%; opacity: .13; width: 36%; }
+html body.theme-light .main .section-block:not(.overview-block)::after { background-position: 100% 100%; opacity: .13; width: 36%; }
+html body.theme-light .main .resource-card:nth-child(3n + 1)::after { background-position: 0 50%; }
+html body.theme-light .main .resource-card:nth-child(3n + 2)::after { background-position: 50% 50%; }
+html body.theme-light .main .resource-card:nth-child(3n)::after { background-position: 100% 50%; }
+html body:not(.theme-light) .main :is(.hero-copy, .hero-live-panel, .hero-art.study-room-teaser, .countdown-wall, .daily-learning-sign, .drift-bottle-board, .featured-panel, .featured-item, .quick-panel, .section-block:not(.overview-block), .pan-search-results, .notice, .resource-card)::after { opacity: .10; filter: saturate(.55) brightness(.78); }
+@media (max-width: 680px) {
+  html body.theme-light .main :is(.hero-copy, .hero-live-panel, .hero-art.study-room-teaser, .countdown-wall, .daily-learning-sign, .drift-bottle-board, .featured-panel, .featured-item, .quick-panel, .section-block:not(.overview-block), .pan-search-results, .notice, .resource-card)::after { width: 72%; height: 78%; opacity: .14; }
+}
+
+/* The overview directory stays on one glass plane: no opaque inner list tiles. */
+html body.theme-light.has-ambient-video .main .overview-block .overview-card .overview-samples,
+html body.theme-light .main .overview-block .overview-card .overview-samples {
+  background: transparent !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-card .overview-samples span,
+html body.theme-light .main .overview-block .overview-card .overview-samples span {
+  background: transparent !important;
+  border-bottom-color: rgba(68,95,108,.18) !important;
+  color: #40586a !important;
+  box-shadow: none !important;
+}
+html body:not(.theme-light) .main .overview-block .overview-card .overview-samples { background: transparent !important; border: 0 !important; box-shadow: none !important; }
+
+/* Study room: turn the classroom scene into the card's soft atmosphere, not a crowded inline banner. */
+html body.theme-light.has-ambient-video .main .hero-art.study-room-teaser,
+html body.theme-light .main .hero-art.study-room-teaser {
+  background: linear-gradient(145deg, rgba(241,248,249,.73), rgba(183,204,207,.61)) !important;
+  overflow: hidden !important;
+}
+html body.theme-light.has-ambient-video .main .hero-art.study-room-teaser::before,
+html body.theme-light .main .hero-art.study-room-teaser::before {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  z-index: 0 !important;
+  inset: -16px !important;
+  width: auto !important;
+  height: auto !important;
+  margin: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  color: transparent !important;
+  background: linear-gradient(90deg, rgba(243,249,250,.66) 0%, rgba(237,246,247,.44) 43%, rgba(223,237,239,.22) 100%), url("assets/study-room-authorized-reference-clean.png") center / cover no-repeat !important;
+  box-shadow: none !important;
+  filter: blur(8px) saturate(.72) contrast(.92) !important;
+  opacity: .63 !important;
+  transform: scale(1.03) !important;
+  pointer-events: none !important;
+}
+html body.theme-light.has-ambient-video .main .hero-art.study-room-teaser::after,
+html body.theme-light .main .hero-art.study-room-teaser::after { display: none !important; content: none !important; }
+html body.theme-light.has-ambient-video .main .hero-art.study-room-teaser > .study-room-teaser-classroom,
+html body.theme-light .main .hero-art.study-room-teaser > .study-room-teaser-classroom { display: none !important; }
+html body.theme-light.has-ambient-video .main .hero-art.study-room-teaser > :not(.study-room-teaser-classroom),
+html body.theme-light .main .hero-art.study-room-teaser > :not(.study-room-teaser-classroom) { position: relative !important; z-index: 2 !important; }
+html body:not(.theme-light) .main .hero-art.study-room-teaser::before {
+  content: "" !important;
+  display: block !important;
+  position: absolute !important;
+  z-index: 0 !important;
+  inset: -16px !important;
+  background: linear-gradient(90deg, rgba(28,29,33,.86), rgba(28,29,33,.60)), url("assets/study-room-authorized-reference-clean.png") center / cover no-repeat !important;
+  filter: blur(8px) saturate(.50) brightness(.64) !important;
+  opacity: .56 !important;
+  transform: scale(1.03) !important;
+  pointer-events: none !important;
+}
+html body:not(.theme-light) .main .hero-art.study-room-teaser::after,
+html body:not(.theme-light) .main .hero-art.study-room-teaser > .study-room-teaser-classroom { display: none !important; }
+@media (max-width: 700px), (orientation: portrait) {
+  html body.theme-light .main .hero-art.study-room-teaser::before { inset: -10px !important; filter: blur(6px) saturate(.72) contrast(.92) !important; }
+}
+
+/* Refine the room image: clear glass first, a quiet lower-corner atmosphere second. */
+html body.theme-light.has-ambient-video .main .hero-art.study-room-teaser,
+html body.theme-light .main .hero-art.study-room-teaser {
+  background: linear-gradient(145deg, rgba(244,249,250,.83), rgba(198,215,217,.73)) !important;
+}
+html body.theme-light.has-ambient-video .main .hero-art.study-room-teaser::before,
+html body.theme-light .main .hero-art.study-room-teaser::before {
+  inset: auto -6% -12% auto !important;
+  width: 72% !important;
+  height: 58% !important;
+  background: linear-gradient(90deg, rgba(238,247,248,.92) 0%, rgba(238,247,248,.48) 42%, rgba(238,247,248,.10) 100%), url("assets/study-room-authorized-reference-clean.png") center / cover no-repeat !important;
+  filter: blur(2px) saturate(.62) contrast(.88) !important;
+  opacity: .34 !important;
+  transform: none !important;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.34) 29%, #000 67%);
+  mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.34) 29%, #000 67%);
+}
+html body:not(.theme-light) .main .hero-art.study-room-teaser::before {
+  inset: auto -6% -12% auto !important;
+  width: 72% !important;
+  height: 58% !important;
+  background: linear-gradient(90deg, rgba(28,29,33,.92) 0%, rgba(28,29,33,.46) 46%, rgba(28,29,33,.12) 100%), url("assets/study-room-authorized-reference-clean.png") center / cover no-repeat !important;
+  filter: blur(2px) saturate(.42) brightness(.72) !important;
+  opacity: .24 !important;
+  transform: none !important;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.34) 29%, #000 67%);
+  mask-image: linear-gradient(90deg, transparent 0%, rgba(0,0,0,.34) 29%, #000 67%);
+}
+@media (max-width: 700px), (orientation: portrait) {
+  html body.theme-light .main .hero-art.study-room-teaser::before,
+  html body:not(.theme-light) .main .hero-art.study-room-teaser::before {
+    inset: auto -10% -8% auto !important;
+    width: 100% !important;
+    height: 44% !important;
+    opacity: .20 !important;
+    filter: blur(2px) saturate(.55) contrast(.88) !important;
+  }
+}
+
+/* Restore the room card's bottom anchor after the shared comic layer, and let the scene carry the lower half. */
+html body .main .hero-art.study-room-teaser > .study-room-teaser-bottom {
+  position: absolute !important;
+  z-index: 3 !important;
+  left: clamp(22px, 2vw, 31px) !important;
+  right: clamp(22px, 2vw, 31px) !important;
+  bottom: clamp(20px, 1.8vw, 28px) !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+html body.theme-light.has-ambient-video .main .hero-art.study-room-teaser::before,
+html body.theme-light .main .hero-art.study-room-teaser::before {
+  right: -5% !important;
+  bottom: -8% !important;
+  width: 78% !important;
+  height: 64% !important;
+  opacity: .43 !important;
+  filter: blur(1.5px) saturate(.66) contrast(.90) !important;
+}
+html body:not(.theme-light) .main .hero-art.study-room-teaser::before {
+  right: -5% !important;
+  bottom: -8% !important;
+  width: 78% !important;
+  height: 64% !important;
+  opacity: .28 !important;
+  filter: blur(1.5px) saturate(.46) brightness(.72) !important;
+}
+@media (max-width: 700px), (orientation: portrait) {
+  html body .main .hero-art.study-room-teaser > .study-room-teaser-bottom { left: 18px !important; right: 18px !important; bottom: 18px !important; }
+  html body.theme-light .main .hero-art.study-room-teaser::before,
+  html body:not(.theme-light) .main .hero-art.study-room-teaser::before { width: 110% !important; height: 54% !important; opacity: .30 !important; }
+}
+
+/* Study room rhythm: content is deliberately separated from its bottom action. */
+html body .main .hero-art.study-room-teaser {
+  display: grid !important;
+  grid-template-columns: minmax(0, 1fr) !important;
+  grid-template-rows: auto auto auto minmax(72px, 1fr) auto !important;
+  align-content: stretch !important;
+  row-gap: 17px !important;
+}
+html body .main .hero-art.study-room-teaser > .study-room-teaser-head {
+  grid-row: 1 !important;
+  padding-bottom: 17px !important;
+}
+html body .main .hero-art.study-room-teaser > .study-room-teaser-lead {
+  grid-row: 2 !important;
+  margin: 0 !important;
+  line-height: 1.65 !important;
+}
+html body .main .hero-art.study-room-teaser > .study-room-preview-seats {
+  grid-row: 3 !important;
+  gap: 12px !important;
+}
+html body .main .hero-art.study-room-teaser .study-room-preview-seats > span {
+  min-height: 68px !important;
+  padding: 12px !important;
+}
+html body .main .hero-art.study-room-teaser > .study-room-teaser-bottom {
+  position: static !important;
+  grid-row: 5 !important;
+  align-self: end !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+@media (max-width: 700px), (orientation: portrait) {
+  html body .main .hero-art.study-room-teaser { grid-template-rows: auto auto auto minmax(38px, 1fr) auto !important; row-gap: 14px !important; }
+  html body .main .hero-art.study-room-teaser > .study-room-preview-seats { gap: 9px !important; }
+  html body .main .hero-art.study-room-teaser .study-room-preview-seats > span { min-height: 0 !important; padding: 10px !important; }
+}
+
+/* Native macOS vibrancy: a neutral, low-opacity material that borrows its colour from the scene.
+   It replaces the former white veil while keeping text and controls comfortably legible. */
+html body.theme-light.has-ambient-video .sidebar,
+html body.theme-light .sidebar {
+  background: linear-gradient(145deg, rgba(192, 204, 207, .40), rgba(131, 151, 157, .32)) !important;
+  border-color: rgba(255, 255, 255, .48) !important;
+  box-shadow: 0 16px 38px rgba(20, 37, 43, .16), inset 0 1px 0 rgba(255, 255, 255, .46) !important;
+  -webkit-backdrop-filter: blur(30px) saturate(132%) !important;
+  backdrop-filter: blur(30px) saturate(132%) !important;
+}
+html body.theme-light.has-ambient-video .main :is(.hero-copy, .hero-live-panel, .countdown-wall, .daily-learning-sign, .drift-bottle-board, .featured-panel, .quick-panel, .section-block:not(.overview-block), .pan-search-results, .notice, .resource-card),
+html body.theme-light .main :is(.hero-copy, .hero-live-panel, .countdown-wall, .daily-learning-sign, .drift-bottle-board, .featured-panel, .quick-panel, .section-block:not(.overview-block), .pan-search-results, .notice, .resource-card) {
+  background: linear-gradient(145deg, rgba(197, 210, 213, .38), rgba(132, 153, 159, .28)) !important;
+  border-color: rgba(255, 255, 255, .46) !important;
+  box-shadow: 0 16px 36px rgba(20, 37, 43, .15), inset 0 1px 0 rgba(255, 255, 255, .43) !important;
+  -webkit-backdrop-filter: blur(30px) saturate(132%) !important;
+  backdrop-filter: blur(30px) saturate(132%) !important;
+}
+
+/* The category directory is a single darker material plane, rather than nine white cards. */
+html body.theme-light.has-ambient-video .main .overview-block,
+html body.theme-light .main .overview-block {
+  background: linear-gradient(145deg, rgba(150, 171, 176, .40), rgba(97, 122, 130, .29)) !important;
+  border-color: rgba(255, 255, 255, .45) !important;
+  box-shadow: 0 20px 44px rgba(15, 31, 37, .18), inset 0 1px 0 rgba(255, 255, 255, .40) !important;
+  -webkit-backdrop-filter: blur(32px) saturate(138%) !important;
+  backdrop-filter: blur(32px) saturate(138%) !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-card,
+html body.theme-light .main .overview-block .overview-card {
+  background: linear-gradient(145deg, rgba(195, 210, 213, .34), rgba(124, 149, 155, .28)) !important;
+  border-color: rgba(255, 255, 255, .42) !important;
+  box-shadow: 0 12px 26px rgba(18, 35, 42, .14), inset 0 1px 0 rgba(255, 255, 255, .38) !important;
+  -webkit-backdrop-filter: blur(26px) saturate(132%) !important;
+  backdrop-filter: blur(26px) saturate(132%) !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-card .section-icon,
+html body.theme-light .main .overview-block .overview-card .section-icon {
+  background: rgba(236, 244, 245, .22) !important;
+  border-color: rgba(255, 255, 255, .31) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .30) !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-card .overview-samples span,
+html body.theme-light .main .overview-block .overview-card .overview-samples span {
+  background: transparent !important;
+  border-bottom-color: rgba(32, 56, 65, .16) !important;
+  color: #314652 !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-card .section-open-button,
+html body.theme-light .main .overview-block .overview-card .section-open-button {
+  background: rgba(10, 132, 255, .18) !important;
+  border-color: rgba(255, 255, 255, .32) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .34) !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-comic-art,
+html body.theme-light .main .overview-block .overview-comic-art {
+  opacity: .30 !important;
+  filter: saturate(.72) contrast(.96) !important;
+}
+
+/* Keep the study-room material in the same quiet, neutral family. */
+html body.theme-light.has-ambient-video .main .hero-art.study-room-teaser,
+html body.theme-light .main .hero-art.study-room-teaser {
+  background: linear-gradient(145deg, rgba(197, 211, 214, .43), rgba(127, 151, 157, .32)) !important;
+  border-color: rgba(255, 255, 255, .48) !important;
+  box-shadow: 0 16px 36px rgba(20, 37, 43, .16), inset 0 1px 0 rgba(255, 255, 255, .44) !important;
+  -webkit-backdrop-filter: blur(30px) saturate(132%) !important;
+  backdrop-filter: blur(30px) saturate(132%) !important;
+}
+
+/* Bright macOS material correction: no charcoal tint, no chalk-white mask.
+   The scene supplies the colour; this is only a thin luminous vibrancy layer. */
+html body.theme-light.has-ambient-video .sidebar,
+html body.theme-light .sidebar {
+  background: linear-gradient(145deg, rgba(244, 248, 248, .34), rgba(205, 222, 224, .24)) !important;
+  border-color: rgba(255, 255, 255, .64) !important;
+  box-shadow: 0 16px 38px rgba(20, 37, 43, .13), inset 0 1px 0 rgba(255, 255, 255, .60) !important;
+  -webkit-backdrop-filter: blur(30px) saturate(122%) !important;
+  backdrop-filter: blur(30px) saturate(122%) !important;
+}
+html body.theme-light.has-ambient-video .main :is(.hero-copy, .hero-live-panel, .countdown-wall, .daily-learning-sign, .drift-bottle-board, .featured-panel, .quick-panel, .section-block:not(.overview-block), .pan-search-results, .notice, .resource-card),
+html body.theme-light .main :is(.hero-copy, .hero-live-panel, .countdown-wall, .daily-learning-sign, .drift-bottle-board, .featured-panel, .quick-panel, .section-block:not(.overview-block), .pan-search-results, .notice, .resource-card) {
+  background: linear-gradient(145deg, rgba(245, 249, 249, .31), rgba(204, 223, 225, .22)) !important;
+  border-color: rgba(255, 255, 255, .61) !important;
+  box-shadow: 0 16px 36px rgba(20, 37, 43, .12), inset 0 1px 0 rgba(255, 255, 255, .57) !important;
+  -webkit-backdrop-filter: blur(30px) saturate(122%) !important;
+  backdrop-filter: blur(30px) saturate(122%) !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block,
+html body.theme-light .main .overview-block {
+  background: linear-gradient(145deg, rgba(236, 244, 245, .26), rgba(185, 207, 210, .18)) !important;
+  border-color: rgba(255, 255, 255, .59) !important;
+  box-shadow: 0 20px 44px rgba(15, 31, 37, .14), inset 0 1px 0 rgba(255, 255, 255, .55) !important;
+  -webkit-backdrop-filter: blur(32px) saturate(126%) !important;
+  backdrop-filter: blur(32px) saturate(126%) !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-card,
+html body.theme-light .main .overview-block .overview-card {
+  background: linear-gradient(145deg, rgba(246, 250, 250, .31), rgba(205, 223, 225, .23)) !important;
+  border-color: rgba(255, 255, 255, .58) !important;
+  box-shadow: 0 12px 26px rgba(18, 35, 42, .11), inset 0 1px 0 rgba(255, 255, 255, .54) !important;
+  -webkit-backdrop-filter: blur(26px) saturate(122%) !important;
+  backdrop-filter: blur(26px) saturate(122%) !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-card .section-icon,
+html body.theme-light .main .overview-block .overview-card .section-icon {
+  background: rgba(255, 255, 255, .26) !important;
+  border-color: rgba(255, 255, 255, .43) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .45) !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-card .overview-samples span,
+html body.theme-light .main .overview-block .overview-card .overview-samples span {
+  border-bottom-color: rgba(42, 69, 78, .14) !important;
+  color: #38505c !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-card .section-open-button,
+html body.theme-light .main .overview-block .overview-card .section-open-button {
+  background: rgba(10, 132, 255, .16) !important;
+  border-color: rgba(255, 255, 255, .46) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .42) !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-comic-art,
+html body.theme-light .main .overview-block .overview-comic-art {
+  opacity: .24 !important;
+  filter: saturate(.70) contrast(.98) !important;
+}
+html body.theme-light.has-ambient-video .main .hero-art.study-room-teaser,
+html body.theme-light .main .hero-art.study-room-teaser {
+  background: linear-gradient(145deg, rgba(245, 249, 249, .35), rgba(203, 221, 223, .24)) !important;
+  border-color: rgba(255, 255, 255, .64) !important;
+  box-shadow: 0 16px 36px rgba(20, 37, 43, .13), inset 0 1px 0 rgba(255, 255, 255, .60) !important;
+  -webkit-backdrop-filter: blur(30px) saturate(122%) !important;
+  backdrop-filter: blur(30px) saturate(122%) !important;
+}
+
+/* Luminous macOS directory material: raise lightness without returning to an opaque white card. */
+html body.theme-light.has-ambient-video .main .overview-block,
+html body.theme-light .main .overview-block {
+  background: linear-gradient(145deg, rgba(247, 250, 250, .46) 0%, rgba(220, 235, 236, .35) 54%, rgba(188, 211, 214, .27) 100%) !important;
+  border-color: rgba(255, 255, 255, .70) !important;
+  box-shadow: 0 20px 44px rgba(19, 35, 40, .12), inset 0 1px 0 rgba(255, 255, 255, .67) !important;
+  -webkit-backdrop-filter: blur(34px) saturate(122%) brightness(1.08) !important;
+  backdrop-filter: blur(34px) saturate(122%) brightness(1.08) !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-card,
+html body.theme-light .main .overview-block .overview-card {
+  background: linear-gradient(145deg, rgba(251, 253, 253, .49) 0%, rgba(224, 237, 238, .36) 62%, rgba(202, 222, 224, .29) 100%) !important;
+  border-color: rgba(255, 255, 255, .70) !important;
+  box-shadow: 0 12px 25px rgba(20, 36, 41, .10), inset 0 1px 0 rgba(255, 255, 255, .66) !important;
+  -webkit-backdrop-filter: blur(27px) saturate(119%) brightness(1.06) !important;
+  backdrop-filter: blur(27px) saturate(119%) brightness(1.06) !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-card .section-icon,
+html body.theme-light .main .overview-block .overview-card .section-icon {
+  background: rgba(255, 255, 255, .36) !important;
+  border-color: rgba(255, 255, 255, .55) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .58) !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-card .overview-samples span,
+html body.theme-light .main .overview-block .overview-card .overview-samples span {
+  color: #344a55 !important;
+  border-bottom-color: rgba(38, 64, 74, .14) !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-card .section-open-button,
+html body.theme-light .main .overview-block .overview-card .section-open-button {
+  background: rgba(10, 132, 255, .20) !important;
+  border-color: rgba(255, 255, 255, .55) !important;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .52), 0 5px 12px rgba(35, 104, 152, .10) !important;
+}
+html body.theme-light.has-ambient-video .main .overview-block .overview-comic-art,
+html body.theme-light .main .overview-block .overview-comic-art {
+  opacity: .22 !important;
+  filter: saturate(.76) contrast(.98) !important;
+}
+
+/* The live time belongs in the study-room's quiet fourth row, as a clear iOS-style widget. */
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget {
+  display: inline-flex !important;
+  grid-row: 4 !important;
+  justify-self: start !important;
+  align-self: end !important;
+  min-width: 210px !important;
+  min-height: 88px !important;
+  gap: 15px !important;
+  padding: 14px 16px !important;
+  border: 1px solid rgba(255, 255, 255, .60) !important;
+  border-radius: 22px !important;
+  color: #263640 !important;
+  background: linear-gradient(145deg, rgba(255, 255, 255, .54), rgba(213, 230, 232, .34)) !important;
+  box-shadow: 0 12px 26px rgba(28, 47, 55, .14), inset 0 1px 0 rgba(255, 255, 255, .72) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(128%) !important;
+  backdrop-filter: blur(24px) saturate(128%) !important;
+}
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget > span {
+  color: #64727b !important;
+  font-size: 12px !important;
+  font-weight: 650 !important;
+  letter-spacing: .02em !important;
+}
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget > time {
+  color: #18242c !important;
+  font-size: 31px !important;
+  font-weight: 760 !important;
+  letter-spacing: -.055em !important;
+}
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-face {
+  width: 60px !important;
+  height: 60px !important;
+  flex-basis: 60px !important;
+  border-color: rgba(50, 73, 90, .20) !important;
+  background: radial-gradient(circle, rgba(255, 255, 255, .94) 0 61%, transparent 62%), repeating-conic-gradient(from -1deg, #60758a 0deg 2deg, transparent 2deg 30deg) !important;
+  box-shadow: inset 0 0 0 3px rgba(240, 246, 247, .95), 0 3px 8px rgba(35, 58, 76, .10) !important;
+}
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-face::before,
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-face::after { font-size: 8px !important; color: #40546a !important; }
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-hour { height: 16px !important; background: #263e55 !important; }
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-minute { height: 22px !important; background: #0a84ff !important; }
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-face b { width: 7px !important; height: 7px !important; background: #0a84ff !important; }
+html body:not(.theme-light) .main .hero-art.study-room-teaser > .study-room-clock-widget {
+  color: #f5f5f7 !important;
+  background: linear-gradient(145deg, rgba(49, 53, 60, .72), rgba(27, 31, 36, .64)) !important;
+  border-color: rgba(255, 255, 255, .18) !important;
+  box-shadow: 0 12px 26px rgba(0, 0, 0, .24), inset 0 1px 0 rgba(255, 255, 255, .10) !important;
+}
+html body:not(.theme-light) .main .hero-art.study-room-teaser > .study-room-clock-widget > span { color: #bcc2ca !important; }
+html body:not(.theme-light) .main .hero-art.study-room-teaser > .study-room-clock-widget > time { color: #f5f5f7 !important; }
+@media (max-width: 700px), (orientation: portrait) {
+  html body .main .hero-art.study-room-teaser > .study-room-clock-widget {
+    min-width: 178px !important;
+    min-height: 68px !important;
+    gap: 10px !important;
+    padding: 10px 12px !important;
+    border-radius: 18px !important;
+  }
+  html body .main .hero-art.study-room-teaser > .study-room-clock-widget > time { font-size: 25px !important; }
+  html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-face { width: 48px !important; height: 48px !important; flex-basis: 48px !important; }
+  html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-hour { height: 13px !important; }
+  html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-minute { height: 18px !important; }
+}
+
+/* A real iOS-inspired clock tile: anchored in the open lower-left space, never beside the CTA. */
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget {
+  position: absolute !important;
+  z-index: 4 !important;
+  left: clamp(28px, 2.1vw, 36px) !important;
+  bottom: clamp(88px, 8.4vw, 112px) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  width: 274px !important;
+  min-width: 274px !important;
+  height: 118px !important;
+  min-height: 118px !important;
+  margin: 0 !important;
+  padding: 16px 17px 16px 19px !important;
+  border: 1px solid rgba(255, 255, 255, .16) !important;
+  border-radius: 28px !important;
+  color: #f5f5f7 !important;
+  background: linear-gradient(145deg, rgba(48, 50, 56, .92), rgba(24, 26, 30, .88)) !important;
+  box-shadow: 0 16px 32px rgba(11, 18, 23, .28), inset 0 1px 0 rgba(255, 255, 255, .12) !important;
+  -webkit-backdrop-filter: blur(28px) saturate(138%) !important;
+  backdrop-filter: blur(28px) saturate(138%) !important;
+}
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .study-room-clock-copy {
+  display: grid !important;
+  gap: 5px !important;
+  min-width: 116px !important;
+}
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .study-room-clock-copy > span {
+  color: #c7c7cc !important;
+  font-size: 13px !important;
+  font-weight: 620 !important;
+  letter-spacing: .01em !important;
+}
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .study-room-clock-copy > time {
+  color: #ffffff !important;
+  font-size: 37px !important;
+  font-weight: 780 !important;
+  letter-spacing: -.065em !important;
+  line-height: .92 !important;
+  text-shadow: none !important;
+}
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .study-room-clock-copy > small {
+  color: #aeb2bc !important;
+  font-size: 11px !important;
+  font-weight: 570 !important;
+}
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-face {
+  display: block !important;
+  width: 76px !important;
+  height: 76px !important;
+  flex: 0 0 76px !important;
+  border: 1px solid rgba(255, 255, 255, .32) !important;
+  border-radius: 50% !important;
+  background: radial-gradient(circle, #23252a 0 61%, transparent 62%), repeating-conic-gradient(from -1deg, rgba(255, 255, 255, .94) 0deg 2deg, transparent 2deg 30deg) !important;
+  box-shadow: inset 0 0 0 4px #1b1d21, 0 3px 9px rgba(0, 0, 0, .24) !important;
+}
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-face::before,
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-face::after {
+  color: #f5f5f7 !important;
+  font-size: 9px !important;
+}
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-face::before { top: 6px !important; }
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-face::after { bottom: 6px !important; }
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-hour { height: 21px !important; width: 3px !important; background: #f5f5f7 !important; }
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-minute { height: 29px !important; width: 3px !important; background: #0a84ff !important; }
+html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-face b { width: 8px !important; height: 8px !important; background: #0a84ff !important; }
+@media (max-width: 700px), (orientation: portrait) {
+  html body .main .hero-art.study-room-teaser > .study-room-clock-widget {
+    left: 18px !important;
+    bottom: 76px !important;
+    width: 220px !important;
+    min-width: 220px !important;
+    height: 92px !important;
+    min-height: 92px !important;
+    padding: 12px 13px 12px 15px !important;
+    border-radius: 23px !important;
+  }
+  html body .main .hero-art.study-room-teaser > .study-room-clock-widget .study-room-clock-copy > time { font-size: 30px !important; }
+  html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-face { width: 60px !important; height: 60px !important; flex-basis: 60px !important; }
+  html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-hour { height: 17px !important; }
+  html body .main .hero-art.study-room-teaser > .study-room-clock-widget .ios-clock-minute { height: 23px !important; }
 }
