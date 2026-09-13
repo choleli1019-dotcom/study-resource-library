@@ -171,45 +171,52 @@
       html body .main .resource-squirrel-panel {
         position: absolute;
         z-index: 5;
-        right: clamp(16px, 3vw, 48px);
-        bottom: 22%;
-        width: min(260px, 72vw);
-        padding: 17px;
+        right: clamp(8px, 1vw, 20px);
+        bottom: 12px;
+        isolation: isolate;
+        width: min(236px, 68vw);
+        padding: 13px 13px 12px;
         border: 1px solid rgba(255, 255, 255, .70);
-        border-radius: 20px;
+        border-radius: 32px 36px 31px 35px / 27px 32px 30px 33px;
         color: #24483f;
-        background: rgba(248, 252, 247, .88);
-        box-shadow: 0 18px 44px rgba(19, 59, 50, .18), inset 0 1px 0 rgba(255, 255, 255, .90);
+        background: rgba(250, 253, 247, .94);
+        box-shadow: 0 14px 30px rgba(19, 59, 50, .16), inset 0 1px 0 rgba(255, 255, 255, .95);
         backdrop-filter: blur(18px) saturate(130%);
       }
+      /* Cloud lobes and a small speech tail: attached to the squirrel without
+         allowing the menu to climb back into the announcement above. */
+      html body .main .resource-squirrel-panel::before,
+      html body .main .resource-squirrel-panel::after { position: absolute; z-index: -1; content: ""; background: rgba(250, 253, 247, .94); }
+      html body .main .resource-squirrel-panel::before { left: -12px; bottom: 31px; width: 27px; height: 27px; border-left: 1px solid rgba(255, 255, 255, .70); border-bottom: 1px solid rgba(255, 255, 255, .70); border-radius: 5px; transform: rotate(45deg); }
+      html body .main .resource-squirrel-panel::after { top: -13px; right: 36px; width: 54px; height: 36px; border: 1px solid rgba(255, 255, 255, .70); border-bottom: 0; border-radius: 50% 50% 0 0; }
       html body .main .resource-squirrel-panel[hidden] { display: none !important; }
-      html body .main .resource-squirrel-panel h2 { margin: 0; font-size: 17px; }
-      html body .main .resource-squirrel-panel p { margin: 5px 0 13px; color: #6c7b74; font-size: 12px; line-height: 1.5; }
-      html body .main .resource-squirrel-actions { display: grid; gap: 8px; }
+      html body .main .resource-squirrel-panel h2 { margin: 0; font-size: 15px; }
+      html body .main .resource-squirrel-panel p { margin: 3px 0 8px; color: #6c7b74; font-size: 11px; line-height: 1.42; }
+      html body .main .resource-squirrel-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
       html body .main .resource-squirrel-actions :is(button, a) {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        min-height: 38px;
-        padding: 0 12px;
+        min-height: 31px;
+        padding: 0 9px;
         border: 1px solid rgba(41, 106, 88, .18);
         border-radius: 11px;
         color: #285a4d;
         background: rgba(255, 255, 255, .62);
         font: inherit;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 680;
         text-decoration: none;
         cursor: pointer;
       }
-      html body .main .resource-squirrel-actions :is(button, a):first-child { border-color: transparent; color: #fff; background: #187660; }
+      html body .main .resource-squirrel-actions :is(button, a):first-child { grid-column: 1 / -1; border-color: transparent; color: #fff; background: #187660; }
       html body .main .resource-squirrel-close {
         position: absolute;
-        top: 9px;
-        right: 9px;
+        top: 7px;
+        right: 8px;
         display: grid;
-        width: 26px;
-        height: 26px;
+        width: 22px;
+        height: 22px;
         padding: 0;
         border: 0;
         border-radius: 50%;
@@ -217,11 +224,6 @@
         background: rgba(33, 84, 70, .08);
         cursor: pointer;
         place-items: center;
-      }
-      @media (min-width: 901px) {
-        /* The desktop helper opens into the unused right-hand side of the visual,
-           rather than covering the squirrel itself. */
-        html body .main .resource-squirrel-panel { transform: translateX(clamp(280px, 22vw, 380px)); }
       }
       @keyframes squirrel-greeting-arrive { from { opacity: 0; transform: translateY(9px) scale(.97); } to { opacity: 1; transform: translateY(0) scale(1); } }
       @keyframes squirrel-idle { 0%, 100% { transform: translateY(0) rotate(0deg); } 38% { transform: translateY(-4px) rotate(-.7deg); } 55% { transform: translateY(-2px) rotate(.4deg); } }
@@ -245,7 +247,7 @@
         html body .main .resource-squirrel-callout { top: 7%; left: -42%; min-width: 118px; padding: 8px 10px; }
         html body .main .resource-squirrel-callout strong { font-size: 12px; }
         html body .main .resource-squirrel-callout small { font-size: 10px; }
-        html body .main .resource-squirrel-panel { right: 10px; bottom: 112px; width: min(260px, calc(100% - 20px)); }
+        html body .main .resource-squirrel-panel { right: 8px; bottom: 10px; width: min(236px, calc(100% - 20px)); }
       }
       /* Small screens often rasterise stacked backdrop filters as a soft image.
          Use an opaque-enough reading surface and the device's native CJK font. */
