@@ -147,6 +147,21 @@
         transform: translateY(15px) rotate(-2deg) scale(.94);
         transition: opacity 160ms ease, transform 260ms ease;
       }
+      html body .main .resource-squirrel-nest {
+        position: absolute;
+        z-index: 1;
+        right: -39%;
+        bottom: -3%;
+        display: block;
+        width: 158%;
+        aspect-ratio: 3 / 2;
+        opacity: 0;
+        pointer-events: none;
+        background: url("assets/archive-squirrel-book-nest-v1.png?v=20260913-nest") center / contain no-repeat;
+        filter: drop-shadow(0 14px 18px rgba(16, 56, 49, .16));
+        transform: translateY(16px) scale(.94);
+        transition: opacity 460ms ease, transform 620ms cubic-bezier(.22, .8, .28, 1);
+      }
       html body .main .resource-squirrel-callout {
         position: absolute;
         z-index: 3;
@@ -237,6 +252,7 @@
       @keyframes squirrel-idle { 0%, 100% { transform: translateY(0) rotate(0deg); } 38% { transform: translateY(-4px) rotate(-.7deg); } 55% { transform: translateY(-2px) rotate(.4deg); } }
       @keyframes squirrel-action-pop { 0% { opacity: .72; transform: translateY(4px) scale(.965); } 52% { opacity: 1; transform: translateY(-8px) scale(1.025); } 100% { opacity: 1; transform: translateY(0) scale(1); } }
       @keyframes squirrel-laugh-arrive { 0% { opacity: 0; transform: translateY(16px) rotate(-5deg) scale(.91); } 40% { opacity: 1; transform: translateY(-7px) rotate(1.5deg) scale(1.025); } 67% { transform: translateY(-2px) rotate(-1.5deg) scale(.995); } 100% { opacity: 1; transform: translateY(0) rotate(0deg) scale(1); } }
+      @keyframes squirrel-nest-breathe { 0%, 100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-3px) scale(1.012); } }
       @keyframes squirrel-walk-right { 0%, 47% { background-position: 0 0; transform: translateY(-4px) rotate(-1.2deg) scale(1.01); } 48%, 100% { background-position: 66.666% 0; transform: translateY(1px) rotate(1.1deg) scale(.995); } }
       @keyframes squirrel-walk-left { 0%, 47% { background-position: 0 0; transform: scaleX(-1) translateY(-4px) rotate(-1.2deg) scale(1.01); } 48%, 100% { background-position: 66.666% 0; transform: scaleX(-1) translateY(1px) rotate(1.1deg) scale(.995); } }
       html body .main .resource-squirrel-toggle[data-squirrel-motion="greeting"] .resource-squirrel-sprite { background-position: 33.333% 0; animation: squirrel-action-pop 900ms cubic-bezier(.22, .8, .28, 1) both; }
@@ -248,6 +264,8 @@
       html body .main .resource-squirrel-toggle[data-squirrel-motion="late-night"] .resource-squirrel-sprite { background-position: 100% 100%; animation: squirrel-action-pop 1050ms ease-in-out both; }
       html body .main .resource-squirrel-toggle[data-squirrel-motion="laugh"] .resource-squirrel-sprite { opacity: 0; transform: translateY(6px) scale(.96); animation: none; }
       html body .main .resource-squirrel-toggle[data-squirrel-motion="laugh"] .resource-squirrel-laugh { opacity: 1; animation: squirrel-laugh-arrive 1050ms cubic-bezier(.22, .8, .28, 1) both; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="nest"] .resource-squirrel-sprite { opacity: 0; transform: translateY(9px) scale(.94); animation: none; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="nest"] .resource-squirrel-nest { opacity: 1; animation: squirrel-nest-breathe 4.8s ease-in-out infinite; }
       html body .main .resource-squirrel-toggle[data-squirrel-walk="right"] .resource-squirrel-sprite { background-position: 0 0; animation: squirrel-walk-right 430ms steps(1, end) infinite; }
       html body .main .resource-squirrel-toggle[data-squirrel-walk="left"] .resource-squirrel-sprite { background-position: 0 0; animation: squirrel-walk-left 430ms steps(1, end) infinite; }
       @media (max-width: 600px) {
@@ -411,7 +429,7 @@
         backdrop-filter: blur(32px) saturate(132%) !important;
       }
       html body:not(.theme-light).has-static-wallpaper .main .overview-block .overview-card { background: rgba(24, 68, 52, .58) !important; }
-      @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-sprite, html body .main .resource-squirrel-laugh, html body .main .resource-squirrel-toggle[data-squirrel-motion] .resource-squirrel-sprite { animation: none !important; } }
+      @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-sprite, html body .main .resource-squirrel-laugh, html body .main .resource-squirrel-nest, html body .main .resource-squirrel-toggle[data-squirrel-motion] .resource-squirrel-sprite { animation: none !important; } }
     </style>
   </head>
   <body class="theme-light has-static-wallpaper">
@@ -495,6 +513,7 @@
                 <span class="resource-squirrel-callout"><strong id="resourceSquirrelGreeting" aria-live="polite">你好，我是资料松鼠</strong><small id="resourceSquirrelGreetingNote">我帮你翻资料柜</small></span>
                 <span class="resource-squirrel-sprite" role="img" aria-label="抱着资料夹的资料松鼠"></span>
                 <span class="resource-squirrel-laugh" role="img" aria-label="躺在地上大笑的资料松鼠"></span>
+                <span class="resource-squirrel-nest" role="img" aria-label="在资料书窝休息的资料松鼠"></span>
               </button>
               <aside id="resourceSquirrelPanel" class="resource-squirrel-panel" aria-label="资料松鼠助手菜单" hidden>
                 <button class="resource-squirrel-close" type="button" aria-label="关闭资料松鼠助手">×</button>
@@ -631,7 +650,7 @@
           .catch(function () {});
       })();
     </script>    <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20260913-squirrel-cloud-position"></script>
+    <script src="app.js?v=20260913-squirrel-book-nest"></script>
   </body>
 </html>
 

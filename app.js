@@ -313,12 +313,34 @@ function getTrackedResourceLabel(link) {
   return "";
 }
 
+const SQUIRREL_NEST_STORAGE_KEY = "study-resource-squirrel-nest";
+
+function rememberSquirrelTrail(label) {
+  const title = String(label || "").split("｜").pop().trim().replace(/\s+/g, " ").slice(0, 28);
+  if (!title) return;
+  try {
+    window.localStorage.setItem(SQUIRREL_NEST_STORAGE_KEY, JSON.stringify({ title, savedAt: Date.now() }));
+  } catch (_) {
+    // The pet still works normally when local storage is unavailable.
+  }
+}
+
+function getSquirrelTrail() {
+  try {
+    const saved = JSON.parse(window.localStorage.getItem(SQUIRREL_NEST_STORAGE_KEY) || "null");
+    return saved && typeof saved.title === "string" ? saved : null;
+  } catch (_) {
+    return null;
+  }
+}
+
 function trackResourceClick(event) {
   const link = event.target.closest("a[href]");
   if (!link) return;
   if (!link.matches(".open-link, .section-link, .quick-link, .pan-result-actions a")) return;
 
   const label = getTrackedResourceLabel(link);
+  rememberSquirrelTrail(label);
   trackBaiduEvent("resource_click", link.className || "open", label);
   sendServerEvent("resource_click", {
     label,
@@ -2106,6 +2128,7 @@ function bindResourceSquirrel() {
   let squirrelOffsetX = 0;
   let squirrelDrag = null;
   let squirrelWalkStopTimer = 0;
+  let squirrelRestTimer = 0;
   let suppressSquirrelClickUntil = 0;
   const setMotion = (motion = "idle", duration = 0) => {
     window.clearTimeout(motionTimer);
@@ -2117,14 +2140,47 @@ function bindResourceSquirrel() {
     if (greetingNote) greetingNote.textContent = note;
     setMotion(motion, duration);
   };
+  const scheduleSquirrelRest = (delay = 12000) => {
+    window.clearTimeout(squirrelRestTimer);
+    squirrelRestTimer = window.setTimeout(() => {
+      if (panel.hidden && !squirrelDrag && !document.hidden) {
+        say("我回书窝歇一会儿", "需要资料时叫我", "nest");
+      }
+    }, delay);
+  };
+  const wakeSquirrel = () => {
+    window.clearTimeout(squirrelRestTimer);
+    if (toggle.dataset.squirrelMotion === "nest") {
+      say("我在呢", "书窝里还记着你的资料", "greeting", 1100);
+    }
+    scheduleSquirrelRest();
+  };
 
   const [greetingText, greetingNoteText, greetingMotion] = getBeijingSquirrelGreeting();
-  say(greetingText, greetingNoteText, greetingMotion, greetingMotion === "late-night" ? 3000 : 1700);
+  const lastTrail = getSquirrelTrail();
+  if (lastTrail) {
+    toggle.dataset.squirrelMotion = "nest";
+    if (greeting) greeting.textContent = "书窝里还留着书签";
+    if (greetingNote) greetingNote.textContent = "我记得你上次看过的资料";
+    window.setTimeout(() => {
+      const trailName = lastTrail.title.endsWith("资料") ? lastTrail.title : `${lastTrail.title}资料`;
+      say(`上次你看到${trailName}啦`, "我从书窝出来陪你", "greeting", 1700);
+      scheduleSquirrelRest();
+    }, 820);
+  } else {
+    say(greetingText, greetingNoteText, greetingMotion, greetingMotion === "late-night" ? 3000 : 1700);
+    scheduleSquirrelRest();
+  }
 
   const setOpen = (open) => {
     panel.hidden = !open;
     toggle.setAttribute("aria-expanded", String(open));
-    if (open) window.requestAnimationFrame(placeSquirrelPanel);
+    if (open) {
+      window.clearTimeout(squirrelRestTimer);
+      window.requestAnimationFrame(placeSquirrelPanel);
+    } else {
+      scheduleSquirrelRest();
+    }
   };
 
   const placeSquirrelPanel = () => {
@@ -2148,6 +2204,7 @@ function bindResourceSquirrel() {
   toggle.addEventListener("click", () => {
     if (performance.now() < suppressSquirrelClickUntil) return;
     window.clearTimeout(squirrelWalkStopTimer);
+    wakeSquirrel();
     const open = panel.hidden;
     setOpen(open);
     if (open) {
@@ -2158,10 +2215,13 @@ function bindResourceSquirrel() {
     }
   });
   toggle.addEventListener("mouseenter", () => {
-    if (panel.hidden) say("我在这里呀", "靠近我，可以帮你找资料", "hover", 0);
+    if (panel.hidden) {
+      wakeSquirrel();
+      say("我在这里呀", "靠近我，可以帮你找资料", "hover", 0);
+    }
   });
   toggle.addEventListener("mouseleave", () => {
-    if (panel.hidden && !toggle.dataset.squirrelWalk) setMotion("idle");
+    if (panel.hidden && !toggle.dataset.squirrelWalk && toggle.dataset.squirrelMotion !== "nest") setMotion("idle");
   });
   const finishSquirrelDrag = (event) => {
     if (!squirrelDrag || (event?.pointerId !== undefined && event.pointerId !== squirrelDrag.pointerId)) return;
@@ -2172,11 +2232,13 @@ function bindResourceSquirrel() {
     if (dragged) {
       suppressSquirrelClickUntil = performance.now() + 360;
       squirrelWalkStopTimer = window.setTimeout(() => setMotion("idle"), 180);
+      scheduleSquirrelRest();
     }
   };
   toggle.addEventListener("pointerdown", (event) => {
     if (event.pointerType === "mouse" && event.button !== 0) return;
     window.clearTimeout(squirrelWalkStopTimer);
+    wakeSquirrel();
     squirrelDrag = { pointerId: event.pointerId, startX: event.clientX, startOffsetX: squirrelOffsetX, moved: false };
     toggle.setPointerCapture?.(event.pointerId);
   });
@@ -2201,6 +2263,7 @@ function bindResourceSquirrel() {
   toggle.addEventListener("lostpointercapture", finishSquirrelDrag);
   window.addEventListener("resize", placeSquirrelPanel);
   window.addEventListener("scroll", placeSquirrelPanel, { passive: true });
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) scheduleSquirrelRest(6000); });
   close?.addEventListener("click", () => setOpen(false));
   search?.addEventListener("click", () => {
     setOpen(false);
@@ -2229,6 +2292,7 @@ function bindResourceSquirrel() {
   let typingTimer = 0;
   document.querySelector("#searchInput")?.addEventListener("input", (event) => {
     if (!event.target.value.trim()) return;
+    wakeSquirrel();
     window.clearTimeout(typingTimer);
     setMotion("search", 700);
     typingTimer = window.setTimeout(() => setMotion("idle"), 780);
