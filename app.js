@@ -2197,6 +2197,7 @@ function bindResourceSquirrel() {
   const baiduSearch = document.querySelector("#resourceSquirrelBaiduSearch");
   const greeting = document.querySelector("#resourceSquirrelGreeting");
   const greetingNote = document.querySelector("#resourceSquirrelGreetingNote");
+  const nestDock = document.querySelector("#resourceSquirrelNestDock");
   if (!stage || !toggle || !panel) return;
 
   let motionTimer = 0;
@@ -2209,9 +2210,11 @@ function bindResourceSquirrel() {
     window.clearTimeout(motionTimer);
     toggle.dataset.squirrelMotion = motion;
     document.body.classList.toggle("is-resource-squirrel-resting", motion === "nest");
+    if (nestDock) nestDock.tabIndex = motion === "nest" ? 0 : -1;
     if (duration) motionTimer = window.setTimeout(() => {
       toggle.dataset.squirrelMotion = "idle";
       document.body.classList.remove("is-resource-squirrel-resting");
+      if (nestDock) nestDock.tabIndex = -1;
     }, duration);
   };
   const say = (title, note, motion = "idle", duration = 0) => {
@@ -2261,6 +2264,19 @@ function bindResourceSquirrel() {
       scheduleSquirrelRest();
     }
   };
+
+  const returnToTopFromNest = () => {
+    setOpen(false);
+    wakeSquirrel();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  nestDock?.addEventListener("click", returnToTopFromNest);
+  nestDock?.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    event.preventDefault();
+    returnToTopFromNest();
+  });
 
   const placeSquirrelPanel = () => {
     if (panel.hidden) return;

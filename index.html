@@ -175,16 +175,18 @@
         aspect-ratio: 3 / 2;
         opacity: 0;
         pointer-events: none;
-        background: url("assets/archive-squirrel-tree-hollow-nest-v1.png?v=20260913-tree-hollow") center / contain no-repeat;
+        background: url("assets/archive-squirrel-tree-hollow-nest-v2.png?v=20260913-clean-tree-hollow") center / contain no-repeat;
         /* Match the standing mascot's light caramel coat; the original sleep
            pose rendered too red against the green forest wallpaper. */
-        filter: saturate(.74) brightness(1.12) hue-rotate(3deg) drop-shadow(0 13px 19px rgba(16, 56, 49, .22));
+        filter: saturate(.86) brightness(1.06) drop-shadow(0 13px 19px rgba(16, 56, 49, .22));
         transform: translateY(28px) scale(.94);
         transform-origin: right bottom;
         transition: opacity 360ms ease, transform 660ms cubic-bezier(.18, .9, .25, 1);
         will-change: opacity, transform;
+        cursor: default;
+        -webkit-tap-highlight-color: transparent;
       }
-      html body.is-resource-squirrel-resting .resource-squirrel-nest-dock { opacity: 1; transform: translateY(0) scale(1); }
+      html body.is-resource-squirrel-resting .resource-squirrel-nest-dock { opacity: 1; pointer-events: auto; cursor: pointer; transform: translateY(0) scale(1); }
       html body .main .resource-squirrel-callout {
         position: absolute;
         z-index: 3;
@@ -652,7 +654,7 @@
       </main>
     </div>
 
-    <span id="resourceSquirrelNestDock" class="resource-squirrel-nest-dock" role="img" aria-label="在页面右下角书窝休息的资料松鼠"></span>
+    <span id="resourceSquirrelNestDock" class="resource-squirrel-nest-dock" role="button" tabindex="-1" aria-label="在树洞书窝休息的资料松鼠，点击回到页面顶部"></span>
 
     <div id="searchWelcomeModal" class="search-welcome-modal is-hidden" role="dialog" aria-modal="true" aria-labelledby="searchWelcomeTitle">
       <div class="search-welcome-card">
