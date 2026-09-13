@@ -2208,7 +2208,11 @@ function bindResourceSquirrel() {
   const setMotion = (motion = "idle", duration = 0) => {
     window.clearTimeout(motionTimer);
     toggle.dataset.squirrelMotion = motion;
-    if (duration) motionTimer = window.setTimeout(() => { toggle.dataset.squirrelMotion = "idle"; }, duration);
+    document.body.classList.toggle("is-resource-squirrel-resting", motion === "nest");
+    if (duration) motionTimer = window.setTimeout(() => {
+      toggle.dataset.squirrelMotion = "idle";
+      document.body.classList.remove("is-resource-squirrel-resting");
+    }, duration);
   };
   const say = (title, note, motion = "idle", duration = 0) => {
     if (greeting) greeting.textContent = title;
@@ -2234,7 +2238,7 @@ function bindResourceSquirrel() {
   const [greetingText, greetingNoteText, greetingMotion] = getBeijingSquirrelGreeting();
   const lastTrail = getSquirrelTrail();
   if (lastTrail) {
-    toggle.dataset.squirrelMotion = "nest";
+    setMotion("nest");
     if (greeting) greeting.textContent = "书窝里还留着书签";
     if (greetingNote) greetingNote.textContent = "我记得你上次看过的资料";
     window.setTimeout(() => {

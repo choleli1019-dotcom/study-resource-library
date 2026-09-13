@@ -162,6 +162,27 @@
         transform: translateY(16px) scale(.94);
         transition: opacity 460ms ease, transform 620ms cubic-bezier(.22, .8, .28, 1);
       }
+      /* The sleeping book nest is a page-corner rest state, not a hero card.
+         It sits outside the draggable squirrel so fixed positioning stays true
+         to the viewport on every device. */
+      html body .resource-squirrel-nest-dock {
+        position: fixed;
+        z-index: 12;
+        right: clamp(12px, 2.2vw, 30px);
+        bottom: max(14px, env(safe-area-inset-bottom));
+        display: block;
+        width: clamp(142px, 16vw, 244px);
+        aspect-ratio: 3 / 2;
+        opacity: 0;
+        pointer-events: none;
+        background: url("assets/archive-squirrel-book-nest-v2.png?v=20260913-alpha") center / contain no-repeat;
+        filter: drop-shadow(0 13px 19px rgba(16, 56, 49, .22));
+        transform: translateY(28px) scale(.94);
+        transform-origin: right bottom;
+        transition: opacity 360ms ease, transform 660ms cubic-bezier(.18, .9, .25, 1);
+        will-change: opacity, transform;
+      }
+      html body.is-resource-squirrel-resting .resource-squirrel-nest-dock { opacity: 1; transform: translateY(0) scale(1); }
       html body .main .resource-squirrel-callout {
         position: absolute;
         z-index: 3;
@@ -266,6 +287,7 @@
       html body .main .resource-squirrel-toggle[data-squirrel-motion="laugh"] .resource-squirrel-laugh { opacity: 1; animation: squirrel-laugh-arrive 1050ms cubic-bezier(.22, .8, .28, 1) both; }
       html body .main .resource-squirrel-toggle[data-squirrel-motion="nest"] .resource-squirrel-sprite { opacity: 0; transform: translateY(9px) scale(.94); animation: none; }
       html body .main .resource-squirrel-toggle[data-squirrel-motion="nest"] .resource-squirrel-nest { opacity: 1; animation: squirrel-nest-breathe 4.8s ease-in-out infinite; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="nest"] .resource-squirrel-callout { opacity: 0; transform: translateY(7px) scale(.96); animation: none; }
       html body .main .resource-squirrel-toggle[data-squirrel-walk="right"] .resource-squirrel-sprite { background-position: 0 0; animation: squirrel-walk-right 430ms steps(1, end) infinite; }
       html body .main .resource-squirrel-toggle[data-squirrel-walk="left"] .resource-squirrel-sprite { background-position: 0 0; animation: squirrel-walk-left 430ms steps(1, end) infinite; }
       /* The gallery squirrels are intentionally decorative: they only surface
@@ -307,8 +329,8 @@
         will-change: transform, opacity;
       }
       html body .main .squirrel-gallery-stop--civil .squirrel-gallery-mascot { background-image: url("assets/archive-squirrel-tour-civil-v1.png?v=20260913-tour"); }
-      html body .main .squirrel-gallery-stop--teacher .squirrel-gallery-mascot { background-image: url("assets/archive-squirrel-tour-teacher-v1.png?v=20260913-tour"); }
-      html body .main .squirrel-gallery-stop--books .squirrel-gallery-mascot { background-image: url("assets/archive-squirrel-tour-books-v1.png?v=20260913-tour"); }
+      html body .main .squirrel-gallery-stop--teacher .squirrel-gallery-mascot { background-image: url("assets/archive-squirrel-tour-teacher-v2.png?v=20260913-alpha"); }
+      html body .main .squirrel-gallery-stop--books .squirrel-gallery-mascot { background-image: url("assets/archive-squirrel-tour-books-v2.png?v=20260913-alpha"); }
       html body .main .squirrel-gallery-stop.is-squirrel-gallery-visible::before { opacity: 1; transform: scale(1); }
       html body .main .squirrel-gallery-stop.is-squirrel-gallery-visible .squirrel-gallery-mascot { opacity: 1; transform: translateY(0) rotate(0deg) scale(1); }
       @media (max-width: 600px) {
@@ -317,6 +339,7 @@
         html body .main .resource-squirrel-callout strong { font-size: 12px; }
         html body .main .resource-squirrel-callout small { font-size: 10px; }
         html body .main .resource-squirrel-panel { width: min(208px, calc(100vw - 20px)); }
+        html body .resource-squirrel-nest-dock { right: 8px; bottom: max(9px, env(safe-area-inset-bottom)); width: 138px; }
         html body .main .squirrel-gallery-stop { height: 96px; margin: 0 12px; }
         html body .main .squirrel-gallery-stop::before { right: 0; bottom: 7px; width: 92px; }
         html body .main .squirrel-gallery-mascot { right: -2px; bottom: -5px; width: 126px; height: 126px; }
@@ -475,7 +498,7 @@
         backdrop-filter: blur(32px) saturate(132%) !important;
       }
       html body:not(.theme-light).has-static-wallpaper .main .overview-block .overview-card { background: rgba(24, 68, 52, .58) !important; }
-      @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-sprite, html body .main .resource-squirrel-laugh, html body .main .resource-squirrel-nest, html body .main .resource-squirrel-toggle[data-squirrel-motion] .resource-squirrel-sprite { animation: none !important; } html body .main .squirrel-gallery-stop::before, html body .main .squirrel-gallery-mascot { transition: none !important; } }
+      @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-sprite, html body .main .resource-squirrel-laugh, html body .main .resource-squirrel-nest, html body .main .resource-squirrel-toggle[data-squirrel-motion] .resource-squirrel-sprite { animation: none !important; } html body .resource-squirrel-nest-dock, html body .main .squirrel-gallery-stop::before, html body .main .squirrel-gallery-mascot { transition: none !important; } }
     </style>
   </head>
   <body class="theme-light has-static-wallpaper">
@@ -559,7 +582,6 @@
                 <span class="resource-squirrel-callout"><strong id="resourceSquirrelGreeting" aria-live="polite">你好，我是资料松鼠</strong><small id="resourceSquirrelGreetingNote">我帮你翻资料柜</small></span>
                 <span class="resource-squirrel-sprite" role="img" aria-label="抱着资料夹的资料松鼠"></span>
                 <span class="resource-squirrel-laugh" role="img" aria-label="躺在地上大笑的资料松鼠"></span>
-                <span class="resource-squirrel-nest" role="img" aria-label="在资料书窝休息的资料松鼠"></span>
               </button>
               <aside id="resourceSquirrelPanel" class="resource-squirrel-panel" aria-label="资料松鼠助手菜单" hidden>
                 <button class="resource-squirrel-close" type="button" aria-label="关闭资料松鼠助手">×</button>
@@ -627,6 +649,8 @@
         </section>
       </main>
     </div>
+
+    <span id="resourceSquirrelNestDock" class="resource-squirrel-nest-dock" role="img" aria-label="在页面右下角书窝休息的资料松鼠"></span>
 
     <div id="searchWelcomeModal" class="search-welcome-modal is-hidden" role="dialog" aria-modal="true" aria-labelledby="searchWelcomeTitle">
       <div class="search-welcome-card">
@@ -696,7 +720,7 @@
           .catch(function () {});
       })();
     </script>    <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20260913-squirrel-gallery-tour"></script>
+    <script src="app.js?v=20260913-squirrel-nest-corner"></script>
   </body>
 </html>
 
