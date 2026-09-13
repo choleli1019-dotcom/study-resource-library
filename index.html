@@ -52,7 +52,7 @@
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-          navigator.serviceWorker.register("/sw.js?v=20260913-squirrel-panel-right", { updateViaCache: "none" }).then(function (registration) {
+          navigator.serviceWorker.register("/sw.js?v=20260913-squirrel-panel-clear", { updateViaCache: "none" }).then(function (registration) {
             registration.update().then(function () {
               if (registration.waiting) registration.waiting.postMessage("skip-waiting");
             }).catch(function () {});
@@ -181,6 +181,11 @@
         background: rgba(33, 84, 70, .08);
         cursor: pointer;
         place-items: center;
+      }
+      @media (min-width: 901px) {
+        /* The desktop helper opens into the unused right-hand side of the visual,
+           rather than covering the squirrel itself. */
+        html body .main .resource-squirrel-panel { transform: translateX(clamp(280px, 22vw, 380px)); }
       }
       @keyframes squirrel-breathe { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-7px) rotate(-1.2deg); } }
       @media (max-width: 600px) {
