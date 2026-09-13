@@ -52,7 +52,7 @@
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-          navigator.serviceWorker.register("/sw.js?v=20260913-mobile-readable", { updateViaCache: "none" }).then(function (registration) {
+          navigator.serviceWorker.register("/sw.js?v=20260913-mobile-readable-all-themes", { updateViaCache: "none" }).then(function (registration) {
             registration.update().then(function () {
               if (registration.waiting) registration.waiting.postMessage("skip-waiting");
             }).catch(function () {});
@@ -230,6 +230,33 @@
         html body.theme-light .main .hero-live-services small,
         html body.theme-light .main .hot-search-label,
         html body.theme-light .main .searching-label {
+          font-size: max(13px, 1.45vw) !important;
+          line-height: 1.55 !important;
+        }
+        html body:not(.theme-light) .topbar,
+        html body:not(.theme-light) .main :is(.hero-copy, .hero-live-panel, .search-panel, .hero-stats, .quick-panel, .featured-panel, .section-block, .notice, .resource-card) {
+          -webkit-backdrop-filter: none !important;
+          backdrop-filter: none !important;
+          background: #102e2d !important;
+          text-shadow: none !important;
+        }
+        html body:not(.theme-light) .main .hero-copy h1,
+        html body:not(.theme-light) .main :is(.hero-copy, .hero-live-panel, .search-panel, .quick-panel, .featured-panel, .section-block, .notice, .resource-card) :is(p, span, strong, b, small) {
+          color: #f2fbf6 !important;
+          opacity: 1 !important;
+          text-shadow: none !important;
+        }
+        html body:not(.theme-light) .main .hero-copy > p:not(.hero-blessing) {
+          color: #d9eee4 !important;
+          font-size: max(16px, 1.7vw) !important;
+          font-weight: 650 !important;
+          line-height: 1.72 !important;
+        }
+        html body:not(.theme-light) .main .hero-copy .hero-blessing { color: #ffd061 !important; font-weight: 750 !important; }
+        html body:not(.theme-light) .main .hero-live-panel p,
+        html body:not(.theme-light) .main .hero-live-services small,
+        html body:not(.theme-light) .main .hot-search-label,
+        html body:not(.theme-light) .main .searching-label {
           font-size: max(13px, 1.45vw) !important;
           line-height: 1.55 !important;
         }
