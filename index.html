@@ -171,12 +171,14 @@
         right: clamp(12px, 2.2vw, 30px);
         bottom: max(14px, env(safe-area-inset-bottom));
         display: block;
-        width: clamp(142px, 16vw, 244px);
+        width: clamp(146px, 14vw, 216px);
         aspect-ratio: 3 / 2;
         opacity: 0;
         pointer-events: none;
-        background: url("assets/archive-squirrel-book-nest-v2.png?v=20260913-alpha") center / contain no-repeat;
-        filter: drop-shadow(0 13px 19px rgba(16, 56, 49, .22));
+        background: url("assets/archive-squirrel-tree-hollow-nest-v1.png?v=20260913-tree-hollow") center / contain no-repeat;
+        /* Match the standing mascot's light caramel coat; the original sleep
+           pose rendered too red against the green forest wallpaper. */
+        filter: saturate(.74) brightness(1.12) hue-rotate(3deg) drop-shadow(0 13px 19px rgba(16, 56, 49, .22));
         transform: translateY(28px) scale(.94);
         transform-origin: right bottom;
         transition: opacity 360ms ease, transform 660ms cubic-bezier(.18, .9, .25, 1);
@@ -339,7 +341,7 @@
         html body .main .resource-squirrel-callout strong { font-size: 12px; }
         html body .main .resource-squirrel-callout small { font-size: 10px; }
         html body .main .resource-squirrel-panel { width: min(208px, calc(100vw - 20px)); }
-        html body .resource-squirrel-nest-dock { right: 8px; bottom: max(9px, env(safe-area-inset-bottom)); width: 138px; }
+        html body .resource-squirrel-nest-dock { right: 8px; bottom: max(9px, env(safe-area-inset-bottom)); width: 132px; }
         html body .main .squirrel-gallery-stop { height: 96px; margin: 0 12px; }
         html body .main .squirrel-gallery-stop::before { right: 0; bottom: 7px; width: 92px; }
         html body .main .squirrel-gallery-mascot { right: -2px; bottom: -5px; width: 126px; height: 126px; }
