@@ -1391,6 +1391,8 @@ function initAmbientBackgroundVideo() {
   const canvas = document.querySelector("#ambientBackgroundCanvas");
   if (!video || !canvas) return;
 
+  const isTouchDevice = window.matchMedia("(hover: none), (pointer: coarse)").matches
+    || navigator.maxTouchPoints > 0;
   const disableForPreference = window.matchMedia("(prefers-reduced-motion: reduce)").matches
     || window.matchMedia("(prefers-reduced-data: reduce)").matches;
   if (disableForPreference) {
@@ -1399,12 +1401,26 @@ function initAmbientBackgroundVideo() {
     return;
   }
 
+  // Touch browsers should never initialise a native video or Canvas decoder.
+  // The compact animated WebP is loaded only by the background element's CSS.
+  if (isTouchDevice) {
+    video.remove();
+    canvas.remove();
+    document.body.classList.add("has-animated-background");
+    return;
+  }
+
   const source = video.querySelector("source[data-src]");
   const context = canvas.getContext("2d", { alpha: true });
   if (!source || !context) return;
 
-  const isTouchDevice = window.matchMedia("(hover: none), (pointer: coarse)").matches
-    || navigator.maxTouchPoints > 0;
+  const connection = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+  const constrainedNetwork = connection?.saveData || /(^|-)2g/.test(connection?.effectiveType || "");
+  if (constrainedNetwork) {
+    video.remove();
+    canvas.remove();
+    return;
+  }
   video.muted = true;
   video.defaultMuted = true;
   video.setAttribute("muted", "");
@@ -1429,7 +1445,7 @@ function initAmbientBackgroundVideo() {
   };
 
   const paintFrame = (now) => {
-    if (now - lastFrameAt >= 42 && video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA && video.videoWidth && video.videoHeight) {
+    if (now - lastFrameAt >= 83 && video.readyState >= HTMLMediaElement.HAVE_CURRENT_DATA && video.videoWidth && video.videoHeight) {
       const canvasRatio = canvas.width / canvas.height;
       const videoRatio = video.videoWidth / video.videoHeight;
       let sourceX = 0;
@@ -1468,18 +1484,10 @@ function initAmbientBackgroundVideo() {
     video.play()
       .then(() => {
         if (!frameId) frameId = window.requestAnimationFrame(paintFrame);
-        if (isTouchDevice) {
-          window.setTimeout(() => {
-            if (!hasPaintedFrame) {
-              document.body.classList.remove("has-ambient-video");
-              showStartButton();
-            }
-          }, 1800);
-        }
       })
       .catch(() => {
         document.body.classList.remove("has-ambient-video");
-        if (isTouchDevice) showStartButton();
+        showStartButton();
       });
   };
 
@@ -1500,21 +1508,18 @@ function initAmbientBackgroundVideo() {
       video.pause();
       return;
     }
-    if (!isTouchDevice) activateVideo();
+    activateVideo();
   });
   video.addEventListener("error", () => {
     window.cancelAnimationFrame(frameId);
     document.body.classList.remove("has-ambient-video");
   }, { once: true });
-  if (isTouchDevice) {
-    // Xiaomi and other Android browsers may hand a <video> element to their native player
-    // or block drawing video frames to canvas. Use the same clip as an animated WebP instead.
-    document.body.classList.add("has-ambient-video", "has-animated-background");
-    return;
-  }
   video.addEventListener("canplay", activateVideo, { once: true });
-  document.body.classList.add("has-animated-background");
-  scheduleNonCriticalTask(loadVideoSource, 1500);
+  // The 22 MB desktop clip is decorative. Do not compete with the first page
+  // render; begin it only after a visible, idle page has had time to settle.
+  scheduleNonCriticalTask(() => {
+    if (!document.hidden) loadVideoSource();
+  }, 4000);
 }
 initAmbientBackgroundVideo();
 renderFeaturedResources();
@@ -2065,31 +2070,88 @@ function bindShoreLetter() {
   schedule();
 }
 
+function getBeijingSquirrelGreeting() {
+  let hour = (new Date().getUTCHours() + 8) % 24;
+  try {
+    const part = new Intl.DateTimeFormat("en-US", {
+      timeZone: "Asia/Shanghai",
+      hour: "numeric",
+      hourCycle: "h23"
+    }).formatToParts(new Date()).find((item) => item.type === "hour");
+    if (part) hour = Number(part.value);
+  } catch (_) {}
+
+  if (hour < 5) return ["夜深了，早点休息呀", "资料柜明早还在等你"];
+  if (hour < 9) return ["早上好，今天也稳稳上岸", "先选一份资料开始吧"];
+  if (hour < 12) return ["上午好，想找什么资料？", "我帮你翻资料柜"];
+  if (hour < 14) return ["中午好，休息一下再继续", "资料柜已帮你整理好"];
+  if (hour < 18) return ["下午好，今天进度怎么样？", "需要资料就来找我"];
+  if (hour < 23) return ["晚上好，今晚也稳稳复习", "我把资料柜守在这里"];
+  return ["夜深了，早点休息呀", "资料柜明早还在等你"];
+}
+
+function bindResourceSquirrel() {
+  const stage = document.querySelector(".resource-squirrel-stage");
+  const toggle = document.querySelector("#resourceSquirrelToggle");
+  const panel = document.querySelector("#resourceSquirrelPanel");
+  const close = panel?.querySelector(".resource-squirrel-close");
+  const search = document.querySelector("#resourceSquirrelSearch");
+  const greeting = document.querySelector("#resourceSquirrelGreeting");
+  const greetingNote = document.querySelector("#resourceSquirrelGreetingNote");
+  if (!stage || !toggle || !panel) return;
+
+  let motionTimer = 0;
+  const setMotion = (motion = "idle", duration = 0) => {
+    window.clearTimeout(motionTimer);
+    toggle.dataset.squirrelMotion = motion;
+    if (duration) motionTimer = window.setTimeout(() => { toggle.dataset.squirrelMotion = "idle"; }, duration);
+  };
+  const say = (title, note, motion = "idle", duration = 0) => {
+    if (greeting) greeting.textContent = title;
+    if (greetingNote) greetingNote.textContent = note;
+    setMotion(motion, duration);
+  };
+
+  const [greetingText, greetingNoteText] = getBeijingSquirrelGreeting();
+  say(greetingText, greetingNoteText, "greeting", 1700);
+
+  const setOpen = (open) => {
+    panel.hidden = !open;
+    toggle.setAttribute("aria-expanded", String(open));
+  };
+
+  toggle.addEventListener("click", () => {
+    const open = panel.hidden;
+    setOpen(open);
+    if (open) say("资料松鼠在这儿", "想找什么资料？", "review", 1150);
+  });
+  close?.addEventListener("click", () => setOpen(false));
+  search?.addEventListener("click", () => {
+    setOpen(false);
+    const input = document.querySelector("#searchInput");
+    say("我正在翻资料柜", "马上带你去搜索入口", "search", 1250);
+    input?.scrollIntoView({ behavior: "smooth", block: "center" });
+    window.setTimeout(() => input?.focus(), 320);
+    window.setTimeout(() => say("资料都在这里啦", "输入课程、老师或关键词试试", "found", 1500), 780);
+  });
+  document.querySelector("#heroSearchButton")?.addEventListener("click", () => {
+    const input = document.querySelector("#searchInput");
+    if (!input?.value.trim()) return;
+    say("我正在翻资料柜", "让我看看有哪些资料", "search", 880);
+    window.setTimeout(() => say("找到相关资料啦", "下面的结果已经为你整理好", "found", 1500), 640);
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") setOpen(false);
+  });
+  document.addEventListener("click", (event) => {
+    if (!stage.contains(event.target)) setOpen(false);
+  });
+}
+
 renderStudyCompanion();
 bindDriftBottleBoard();
 bindPeerSearchPulse();
 bindShoreLetter();
+bindResourceSquirrel();
 scheduleNonCriticalTask(loadShoreLetter, 700);
-scheduleNonCriticalTask(loadStudyRoomTeaser, 1000);
-
-async function loadStudyRoomTeaser() {
-  const online = document.querySelector("#studyRoomTeaserOnline");
-  const focus = document.querySelector("#studyRoomTeaserFocus");
-  if (!online || !focus || !serverApiBase) return;
-  const render = (data) => {
-    const total = Number(data?.onlineCount || 0);
-    const focused = Object.entries(data?.taskCounts || {}).reduce((sum, [, count]) => sum + Number(count || 0), 0);
-    online.textContent = String(total);
-    focus.textContent = total ? `${focused || total} 位同学正在专注` : "暂时还没有人入座";
-  };
-  const load = async () => {
-    try {
-      const response = await fetch(`${serverApiBase}/api/study-room/presence`, { cache: "no-store" });
-      const data = await response.json();
-      if (response.ok && data?.ok) render(data);
-    } catch (_) { focus.textContent = "进入自习室后即可开始专注"; }
-  };
-  await load();
-  window.setInterval(() => { if (!document.hidden) load(); }, 45000);
-}
 
