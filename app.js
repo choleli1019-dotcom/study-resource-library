@@ -2081,13 +2081,13 @@ function getBeijingSquirrelGreeting() {
     if (part) hour = Number(part.value);
   } catch (_) {}
 
-  if (hour < 5) return ["夜深了，早点休息呀", "资料柜明早还在等你"];
-  if (hour < 9) return ["早上好，今天也稳稳上岸", "先选一份资料开始吧"];
-  if (hour < 12) return ["上午好，想找什么资料？", "我帮你翻资料柜"];
-  if (hour < 14) return ["中午好，休息一下再继续", "资料柜已帮你整理好"];
-  if (hour < 18) return ["下午好，今天进度怎么样？", "需要资料就来找我"];
-  if (hour < 23) return ["晚上好，今晚也稳稳复习", "我把资料柜守在这里"];
-  return ["夜深了，早点休息呀", "资料柜明早还在等你"];
+  if (hour < 5) return ["夜深了，早点休息呀", "资料明天也在，先好好睡一觉", "late-night"];
+  if (hour < 9) return ["早上好，今天也稳稳上岸", "先选一份资料开始吧", "greeting"];
+  if (hour < 12) return ["上午好，想找什么资料？", "我帮你翻资料柜", "greeting"];
+  if (hour < 14) return ["中午好，休息一下再继续", "资料柜已帮你整理好", "greeting"];
+  if (hour < 18) return ["下午好，今天进度怎么样？", "需要资料就来找我", "greeting"];
+  if (hour < 23) return ["晚上好，今晚也稳稳复习", "我把资料柜守在这里", "greeting"];
+  return ["夜深了，早点休息呀", "资料明天也在，先好好睡一觉", "late-night"];
 }
 
 function bindResourceSquirrel() {
@@ -2112,8 +2112,8 @@ function bindResourceSquirrel() {
     setMotion(motion, duration);
   };
 
-  const [greetingText, greetingNoteText] = getBeijingSquirrelGreeting();
-  say(greetingText, greetingNoteText, "greeting", 1700);
+  const [greetingText, greetingNoteText, greetingMotion] = getBeijingSquirrelGreeting();
+  say(greetingText, greetingNoteText, greetingMotion, greetingMotion === "late-night" ? 3000 : 1700);
 
   const setOpen = (open) => {
     panel.hidden = !open;
@@ -2123,7 +2123,13 @@ function bindResourceSquirrel() {
   toggle.addEventListener("click", () => {
     const open = panel.hidden;
     setOpen(open);
-    if (open) say("资料松鼠在这儿", "想找什么资料？", "review", 1150);
+    if (open) say("资料松鼠在这儿", "想找什么资料？", "open", 1300);
+  });
+  toggle.addEventListener("mouseenter", () => {
+    if (panel.hidden) say("我在这里呀", "靠近我，可以帮你找资料", "hover", 0);
+  });
+  toggle.addEventListener("mouseleave", () => {
+    if (panel.hidden) setMotion("idle");
   });
   close?.addEventListener("click", () => setOpen(false));
   search?.addEventListener("click", () => {
@@ -2134,11 +2140,26 @@ function bindResourceSquirrel() {
     window.setTimeout(() => input?.focus(), 320);
     window.setTimeout(() => say("资料都在这里啦", "输入课程、老师或关键词试试", "found", 1500), 780);
   });
+  let typingTimer = 0;
+  document.querySelector("#searchInput")?.addEventListener("input", (event) => {
+    if (!event.target.value.trim()) return;
+    window.clearTimeout(typingTimer);
+    setMotion("search", 700);
+    typingTimer = window.setTimeout(() => setMotion("idle"), 780);
+  });
   document.querySelector("#heroSearchButton")?.addEventListener("click", () => {
     const input = document.querySelector("#searchInput");
     if (!input?.value.trim()) return;
     say("我正在翻资料柜", "让我看看有哪些资料", "search", 880);
-    window.setTimeout(() => say("找到相关资料啦", "下面的结果已经为你整理好", "found", 1500), 640);
+    window.setTimeout(() => {
+      const emptyState = document.querySelector(".empty-state");
+      const noResults = emptyState && getComputedStyle(emptyState).display !== "none";
+      if (noResults) {
+        say("这次没有找到资料", "换个老师简称或关键词试试看", "empty", 2200);
+      } else {
+        say("找到相关资料啦", "下面的结果已经为你整理好", "found", 1500);
+      }
+    }, 640);
   });
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") setOpen(false);
