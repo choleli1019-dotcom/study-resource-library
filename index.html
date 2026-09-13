@@ -52,7 +52,7 @@
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-          navigator.serviceWorker.register("/sw.js?v=20260913-static-forest-background", { updateViaCache: "none" }).then(function (registration) {
+          navigator.serviceWorker.register("/sw.js?v=20260913-squirrel-greeting", { updateViaCache: "none" }).then(function (registration) {
             registration.update().then(function () {
               if (registration.waiting) registration.waiting.postMessage("skip-waiting");
             }).catch(function () {});
@@ -103,6 +103,8 @@
         border: 0;
         background: transparent;
         cursor: pointer;
+        transform: translateX(clamp(40px, 8vw, 150px));
+        transition: transform 420ms cubic-bezier(.22, .8, .28, 1);
       }
       html body .main .resource-squirrel-toggle img {
         grid-area: 1 / 1;
@@ -128,6 +130,7 @@
         box-shadow: 0 10px 26px rgba(27, 68, 57, .12), inset 0 1px 0 rgba(255, 255, 255, .84);
         backdrop-filter: blur(12px) saturate(120%);
         text-align: left;
+        animation: squirrel-greeting-arrive 520ms 260ms cubic-bezier(.22, .8, .28, 1) both;
       }
       html body .main .resource-squirrel-callout strong { font-size: 14px; font-weight: 750; }
       html body .main .resource-squirrel-callout small { color: #6f8078; font-size: 11px; }
@@ -187,9 +190,10 @@
            rather than covering the squirrel itself. */
         html body .main .resource-squirrel-panel { transform: translateX(clamp(280px, 22vw, 380px)); }
       }
+      @keyframes squirrel-greeting-arrive { from { opacity: 0; transform: translateY(9px) scale(.97); } to { opacity: 1; transform: translateY(0) scale(1); } }
       @keyframes squirrel-breathe { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-7px) rotate(-1.2deg); } }
       @media (max-width: 600px) {
-        html body .main .resource-squirrel-toggle { margin-right: 8px; margin-bottom: 0; }
+        html body .main .resource-squirrel-toggle { margin-right: 8px; margin-bottom: 0; transform: translateX(28px); }
         html body .main .resource-squirrel-callout { top: 7%; left: -42%; min-width: 118px; padding: 8px 10px; }
         html body .main .resource-squirrel-callout strong { font-size: 12px; }
         html body .main .resource-squirrel-callout small { font-size: 10px; }
@@ -403,7 +407,7 @@
             </section>
             <section class="resource-squirrel-stage" aria-label="资料松鼠助手">
               <button id="resourceSquirrelToggle" class="resource-squirrel-toggle" type="button" aria-expanded="false" aria-controls="resourceSquirrelPanel">
-                <span class="resource-squirrel-callout"><strong>我是资料松鼠</strong><small>我帮你翻资料柜</small></span>
+                <span class="resource-squirrel-callout"><strong id="resourceSquirrelGreeting" aria-live="polite">你好，我是资料松鼠</strong><small id="resourceSquirrelGreetingNote">我帮你翻资料柜</small></span>
                 <img src="assets/archive-squirrel-v1.webp" width="480" height="576" alt="抱着资料夹的资料松鼠" loading="lazy" decoding="async" />
               </button>
               <aside id="resourceSquirrelPanel" class="resource-squirrel-panel" aria-label="资料松鼠助手菜单" hidden>

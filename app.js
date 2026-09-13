@@ -2070,13 +2070,39 @@ function bindShoreLetter() {
   schedule();
 }
 
+function getBeijingSquirrelGreeting() {
+  let hour = (new Date().getUTCHours() + 8) % 24;
+  try {
+    const part = new Intl.DateTimeFormat("en-US", {
+      timeZone: "Asia/Shanghai",
+      hour: "numeric",
+      hourCycle: "h23"
+    }).formatToParts(new Date()).find((item) => item.type === "hour");
+    if (part) hour = Number(part.value);
+  } catch (_) {}
+
+  if (hour < 5) return ["夜深了，早点休息呀", "资料柜明早还在等你"];
+  if (hour < 9) return ["早上好，今天也稳稳上岸", "先选一份资料开始吧"];
+  if (hour < 12) return ["上午好，想找什么资料？", "我帮你翻资料柜"];
+  if (hour < 14) return ["中午好，休息一下再继续", "资料柜已帮你整理好"];
+  if (hour < 18) return ["下午好，今天进度怎么样？", "需要资料就来找我"];
+  if (hour < 23) return ["晚上好，今晚也稳稳复习", "我把资料柜守在这里"];
+  return ["夜深了，早点休息呀", "资料柜明早还在等你"];
+}
+
 function bindResourceSquirrel() {
   const stage = document.querySelector(".resource-squirrel-stage");
   const toggle = document.querySelector("#resourceSquirrelToggle");
   const panel = document.querySelector("#resourceSquirrelPanel");
   const close = panel?.querySelector(".resource-squirrel-close");
   const search = document.querySelector("#resourceSquirrelSearch");
+  const greeting = document.querySelector("#resourceSquirrelGreeting");
+  const greetingNote = document.querySelector("#resourceSquirrelGreetingNote");
   if (!stage || !toggle || !panel) return;
+
+  const [greetingText, greetingNoteText] = getBeijingSquirrelGreeting();
+  if (greeting) greeting.textContent = greetingText;
+  if (greetingNote) greetingNote.textContent = greetingNoteText;
 
   const setOpen = (open) => {
     panel.hidden = !open;
