@@ -52,7 +52,7 @@
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-          navigator.serviceWorker.register("/sw.js?v=20260913-touch-readable", { updateViaCache: "none" }).then(function (registration) {
+          navigator.serviceWorker.register("/sw.js?v=20260913-static-forest-background", { updateViaCache: "none" }).then(function (registration) {
             registration.update().then(function () {
               if (registration.waiting) registration.waiting.postMessage("skip-waiting");
             }).catch(function () {});
@@ -261,52 +261,62 @@
           line-height: 1.55 !important;
         }
       }
-      /* Some tablets request the desktop-width layout. The touch-device class is
-         set by app.js, so this reading mode does not depend on viewport width. */
-      html body.has-animated-background .site-animated-background { opacity: .34 !important; }
-      html body.has-animated-background {
+      /* One static scene for every device. No video, canvas, or animated WebP. */
+      html body.has-static-wallpaper::before { display: none !important; }
+      html body.has-static-wallpaper .site-static-background {
+        position: fixed;
+        z-index: 0;
+        inset: 0;
+        pointer-events: none;
+        background: #173d2d url("assets/study-forest-wallpaper-v1.png") center / cover no-repeat;
+      }
+      html body.has-static-wallpaper .app-shell { position: relative; z-index: 1; }
+      html body.has-static-wallpaper .main .hero { background: transparent !important; -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }
+      /* Some tablets request the desktop-width layout. This class does not
+         depend on viewport width, so the reading treatment still applies. */
+      html body.has-static-wallpaper {
         -webkit-font-smoothing: auto;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
       }
-      html body.theme-light.has-animated-background :is(.sidebar, .topbar),
-      html body.theme-light.has-animated-background .main :is(.hero-copy, .hero-live-panel, .search-panel, .hero-stats, .quick-panel, .featured-panel, .section-block, .notice, .resource-card) {
+      html body.theme-light.has-static-wallpaper :is(.sidebar, .topbar),
+      html body.theme-light.has-static-wallpaper .main :is(.hero-copy, .hero-live-panel, .search-panel, .hero-stats, .quick-panel, .featured-panel, .section-block, .notice, .resource-card) {
         -webkit-backdrop-filter: none !important;
         backdrop-filter: none !important;
         background: #f4f9f7 !important;
         text-shadow: none !important;
       }
-      html body.theme-light.has-animated-background .main :is(.hero-copy, .hero-live-panel, .search-panel, .quick-panel, .featured-panel, .section-block, .notice, .resource-card) :is(p, span, strong, b, small, input) {
+      html body.theme-light.has-static-wallpaper .main :is(.hero-copy, .hero-live-panel, .search-panel, .quick-panel, .featured-panel, .section-block, .notice, .resource-card) :is(p, span, strong, b, small, input) {
         color: #183c34 !important;
         opacity: 1 !important;
         text-shadow: none !important;
       }
-      html body:not(.theme-light).has-animated-background :is(.sidebar, .topbar),
-      html body:not(.theme-light).has-animated-background .main :is(.hero-copy, .hero-live-panel, .search-panel, .hero-stats, .quick-panel, .featured-panel, .section-block, .notice, .resource-card) {
+      html body:not(.theme-light).has-static-wallpaper :is(.sidebar, .topbar),
+      html body:not(.theme-light).has-static-wallpaper .main :is(.hero-copy, .hero-live-panel, .search-panel, .hero-stats, .quick-panel, .featured-panel, .section-block, .notice, .resource-card) {
         -webkit-backdrop-filter: none !important;
         backdrop-filter: none !important;
         background: #102e2d !important;
         text-shadow: none !important;
       }
-      html body:not(.theme-light).has-animated-background .main .hero-copy h1,
-      html body:not(.theme-light).has-animated-background .main :is(.hero-copy, .hero-live-panel, .search-panel, .quick-panel, .featured-panel, .section-block, .notice, .resource-card) :is(p, span, strong, b, small) {
+      html body:not(.theme-light).has-static-wallpaper .main .hero-copy h1,
+      html body:not(.theme-light).has-static-wallpaper .main :is(.hero-copy, .hero-live-panel, .search-panel, .quick-panel, .featured-panel, .section-block, .notice, .resource-card) :is(p, span, strong, b, small) {
         color: #f2fbf6 !important;
         opacity: 1 !important;
         text-shadow: none !important;
       }
-      html body.has-animated-background .main .hero-copy > p:not(.hero-blessing) {
+      html body.has-static-wallpaper .main .hero-copy > p:not(.hero-blessing) {
         font-size: clamp(16px, 1.25vw, 20px) !important;
         font-weight: 700 !important;
         line-height: 1.72 !important;
       }
-      html body.has-animated-background .main .hero-live-panel :is(p, strong, small),
-      html body.has-animated-background .main .hero-live-services :is(b, small),
-      html body.has-animated-background .main .hot-search-label,
-      html body.has-animated-background .main .searching-label {
+      html body.has-static-wallpaper .main .hero-live-panel :is(p, strong, small),
+      html body.has-static-wallpaper .main .hero-live-services :is(b, small),
+      html body.has-static-wallpaper .main .hot-search-label,
+      html body.has-static-wallpaper .main .searching-label {
         font-size: clamp(13px, 1vw, 16px) !important;
         font-weight: 700 !important;
         line-height: 1.55 !important;
       }
-      html body.has-animated-background .main #hotSearches button {
+      html body.has-static-wallpaper .main #hotSearches button {
         -webkit-backdrop-filter: none !important;
         backdrop-filter: none !important;
         font-size: clamp(14px, 1vw, 16px) !important;
@@ -315,12 +325,8 @@
       @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-toggle img { animation: none; } }
     </style>
   </head>
-  <body class="theme-light">
-    <video id="ambientBackgroundVideo" class="site-background-video" muted loop playsinline webkit-playsinline preload="metadata" aria-hidden="true" disablePictureInPicture controlslist="nodownload nofullscreen noremoteplayback" x-webkit-airplay="deny">
-      <source data-src="assets/bus-girl-background.mp4" type="video/mp4" />
-    </video>
-    <canvas id="ambientBackgroundCanvas" class="site-background-canvas" aria-hidden="true"></canvas>
-    <div class="site-animated-background" aria-hidden="true"></div>
+  <body class="theme-light has-static-wallpaper">
+    <div class="site-static-background" aria-hidden="true"></div>
     <div id="appShell" class="app-shell">
       <aside class="sidebar" aria-label="资料板块">
         <a class="brand" href="#top" aria-label="学习资源库首页">
