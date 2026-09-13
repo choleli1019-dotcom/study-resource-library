@@ -2097,6 +2097,7 @@ function bindResourceSquirrel() {
   const close = panel?.querySelector(".resource-squirrel-close");
   const search = document.querySelector("#resourceSquirrelSearch");
   const quarkSearch = document.querySelector("#resourceSquirrelQuarkSearch");
+  const baiduSearch = document.querySelector("#resourceSquirrelBaiduSearch");
   const greeting = document.querySelector("#resourceSquirrelGreeting");
   const greetingNote = document.querySelector("#resourceSquirrelGreetingNote");
   if (!stage || !toggle || !panel) return;
@@ -2137,16 +2138,16 @@ function bindResourceSquirrel() {
     setOpen(false);
     const input = document.querySelector("#searchInput");
     resourceSearchExperience.platform = "all";
-    say("我正在翻资料柜", "马上带你去搜索入口", "search", 1250);
+    say("我来帮你找网盘资料", "夸克和百度结果都会显示", "search", 1250);
     input?.scrollIntoView({ behavior: "smooth", block: "center" });
     window.setTimeout(() => input?.focus(), 320);
     window.setTimeout(() => say("资料都在这里啦", "输入课程、老师或关键词试试", "found", 1500), 780);
   });
-  quarkSearch?.addEventListener("click", () => {
+  const startPlatformSearch = (platform, platformName) => {
     setOpen(false);
     const input = document.querySelector("#searchInput");
-    resourceSearchExperience.platform = "quark";
-    say("我来帮你找夸克资料", "输入关键词后，只展示夸克网盘结果", "search", 1550);
+    resourceSearchExperience.platform = platform;
+    say(`我来帮你找${platformName}资料`, `输入关键词后，只展示${platformName}网盘结果`, "search", 1550);
     input?.scrollIntoView({ behavior: "smooth", block: "center" });
     window.setTimeout(() => input?.focus(), 320);
     if (input?.value.trim()) {
@@ -2154,7 +2155,9 @@ function bindResourceSquirrel() {
       renderResources();
       renderPanSearchResults();
     }
-  });
+  };
+  quarkSearch?.addEventListener("click", () => startPlatformSearch("quark", "夸克"));
+  baiduSearch?.addEventListener("click", () => startPlatformSearch("baidu", "百度"));
   let typingTimer = 0;
   document.querySelector("#searchInput")?.addEventListener("input", (event) => {
     if (!event.target.value.trim()) return;
@@ -2168,12 +2171,13 @@ function bindResourceSquirrel() {
     say("我正在翻资料柜", "让我看看有哪些资料", "search", 880);
     window.setTimeout(() => {
       const emptyState = document.querySelector(".empty-state");
-      const noResults = resourceSearchExperience.platform === "quark"
+      const noResults = resourceSearchExperience.platform !== "all"
         ? Boolean(document.querySelector("#panSearchResults .search-smart-empty, #panSearchResults .pan-empty"))
         : emptyState && getComputedStyle(emptyState).display !== "none";
       if (noResults) {
-        if (resourceSearchExperience.platform === "quark") {
-          say("这次没有找到夸克资料", "换个老师简称或课程关键词试试看", "empty", 2200);
+        if (resourceSearchExperience.platform !== "all") {
+          const platformName = resourceSearchExperience.platform === "quark" ? "夸克" : "百度";
+          say(`这次没有找到${platformName}资料`, "换个老师简称或课程关键词试试看", "empty", 2200);
         } else {
           say("这次没有找到资料", "换个老师简称或关键词试试看", "empty", 2200);
         }
