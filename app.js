@@ -2103,6 +2103,10 @@ function bindResourceSquirrel() {
   if (!stage || !toggle || !panel) return;
 
   let motionTimer = 0;
+  let squirrelOffsetX = 0;
+  let squirrelDrag = null;
+  let squirrelWalkStopTimer = 0;
+  let suppressSquirrelClickUntil = 0;
   const setMotion = (motion = "idle", duration = 0) => {
     window.clearTimeout(motionTimer);
     toggle.dataset.squirrelMotion = motion;
@@ -2123,6 +2127,8 @@ function bindResourceSquirrel() {
   };
 
   toggle.addEventListener("click", () => {
+    if (performance.now() < suppressSquirrelClickUntil) return;
+    window.clearTimeout(squirrelWalkStopTimer);
     const open = panel.hidden;
     setOpen(open);
     if (open) {
@@ -2136,8 +2142,44 @@ function bindResourceSquirrel() {
     if (panel.hidden) say("我在这里呀", "靠近我，可以帮你找资料", "hover", 0);
   });
   toggle.addEventListener("mouseleave", () => {
-    if (panel.hidden) setMotion("idle");
+    if (panel.hidden && !toggle.dataset.squirrelWalk) setMotion("idle");
   });
+  const finishSquirrelDrag = (event) => {
+    if (!squirrelDrag || (event?.pointerId !== undefined && event.pointerId !== squirrelDrag.pointerId)) return;
+    const dragged = squirrelDrag.moved;
+    squirrelDrag = null;
+    toggle.classList.remove("is-squirrel-dragging");
+    delete toggle.dataset.squirrelWalk;
+    if (dragged) {
+      suppressSquirrelClickUntil = performance.now() + 360;
+      squirrelWalkStopTimer = window.setTimeout(() => setMotion("idle"), 180);
+    }
+  };
+  toggle.addEventListener("pointerdown", (event) => {
+    if (event.pointerType === "mouse" && event.button !== 0) return;
+    window.clearTimeout(squirrelWalkStopTimer);
+    squirrelDrag = { pointerId: event.pointerId, startX: event.clientX, startOffsetX: squirrelOffsetX, moved: false };
+    toggle.setPointerCapture?.(event.pointerId);
+  });
+  toggle.addEventListener("pointermove", (event) => {
+    if (!squirrelDrag || event.pointerId !== squirrelDrag.pointerId) return;
+    const deltaX = event.clientX - squirrelDrag.startX;
+    if (!squirrelDrag.moved && Math.abs(deltaX) < 8) return;
+    if (!squirrelDrag.moved) {
+      squirrelDrag.moved = true;
+      window.clearTimeout(motionTimer);
+      setOpen(false);
+      toggle.classList.add("is-squirrel-dragging");
+    }
+    const range = stage.getBoundingClientRect().width;
+    squirrelOffsetX = Math.max(-range * .48, Math.min(range * .08, squirrelDrag.startOffsetX + deltaX));
+    stage.style.setProperty("--squirrel-drag-x", `${Math.round(squirrelOffsetX)}px`);
+    toggle.dataset.squirrelMotion = "walk";
+    toggle.dataset.squirrelWalk = deltaX < 0 ? "left" : "right";
+  });
+  toggle.addEventListener("pointerup", finishSquirrelDrag);
+  toggle.addEventListener("pointercancel", finishSquirrelDrag);
+  toggle.addEventListener("lostpointercapture", finishSquirrelDrag);
   close?.addEventListener("click", () => setOpen(false));
   search?.addEventListener("click", () => {
     setOpen(false);
