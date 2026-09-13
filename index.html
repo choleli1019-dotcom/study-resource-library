@@ -268,12 +268,58 @@
       html body .main .resource-squirrel-toggle[data-squirrel-motion="nest"] .resource-squirrel-nest { opacity: 1; animation: squirrel-nest-breathe 4.8s ease-in-out infinite; }
       html body .main .resource-squirrel-toggle[data-squirrel-walk="right"] .resource-squirrel-sprite { background-position: 0 0; animation: squirrel-walk-right 430ms steps(1, end) infinite; }
       html body .main .resource-squirrel-toggle[data-squirrel-walk="left"] .resource-squirrel-sprite { background-position: 0 0; animation: squirrel-walk-left 430ms steps(1, end) infinite; }
+      /* The gallery squirrels are intentionally decorative: they only surface
+         at the bottom of their own section and never receive pointer events. */
+      html body .main .section-block:has(.squirrel-gallery-stop) { overflow: hidden !important; }
+      html body .main .squirrel-gallery-stop {
+        position: relative;
+        height: clamp(110px, 10vw, 152px);
+        margin: 0 clamp(16px, 3vw, 38px);
+        pointer-events: none;
+      }
+      html body .main .squirrel-gallery-stop::before {
+        position: absolute;
+        right: 3%;
+        bottom: 10px;
+        width: clamp(96px, 12vw, 150px);
+        height: 18px;
+        border-radius: 50%;
+        opacity: 0;
+        background: radial-gradient(ellipse, rgba(20, 65, 48, .22), transparent 68%);
+        content: "";
+        filter: blur(5px);
+        transform: scale(.72);
+        transition: opacity 380ms ease, transform 620ms cubic-bezier(.22, .8, .28, 1);
+      }
+      html body .main .squirrel-gallery-mascot {
+        position: absolute;
+        right: 0;
+        bottom: -8px;
+        display: block;
+        width: clamp(130px, 14vw, 190px);
+        height: clamp(130px, 14vw, 190px);
+        opacity: 0;
+        background: center bottom / contain no-repeat;
+        filter: drop-shadow(0 11px 13px rgba(20, 67, 49, .18));
+        transform: translateY(52px) rotate(2deg) scale(.95);
+        transform-origin: 70% 100%;
+        transition: opacity 340ms ease, transform 760ms cubic-bezier(.18, .9, .24, 1);
+        will-change: transform, opacity;
+      }
+      html body .main .squirrel-gallery-stop--civil .squirrel-gallery-mascot { background-image: url("assets/archive-squirrel-tour-civil-v1.png?v=20260913-tour"); }
+      html body .main .squirrel-gallery-stop--teacher .squirrel-gallery-mascot { background-image: url("assets/archive-squirrel-tour-teacher-v1.png?v=20260913-tour"); }
+      html body .main .squirrel-gallery-stop--books .squirrel-gallery-mascot { background-image: url("assets/archive-squirrel-tour-books-v1.png?v=20260913-tour"); }
+      html body .main .squirrel-gallery-stop.is-squirrel-gallery-visible::before { opacity: 1; transform: scale(1); }
+      html body .main .squirrel-gallery-stop.is-squirrel-gallery-visible .squirrel-gallery-mascot { opacity: 1; transform: translateY(0) rotate(0deg) scale(1); }
       @media (max-width: 600px) {
         html body .main .resource-squirrel-toggle { margin-right: 8px; margin-bottom: 0; transform: translateX(calc(28px + var(--squirrel-drag-x, 0px))); }
         html body .main .resource-squirrel-callout { top: 7%; left: -42%; min-width: 118px; padding: 8px 10px; }
         html body .main .resource-squirrel-callout strong { font-size: 12px; }
         html body .main .resource-squirrel-callout small { font-size: 10px; }
         html body .main .resource-squirrel-panel { width: min(208px, calc(100vw - 20px)); }
+        html body .main .squirrel-gallery-stop { height: 96px; margin: 0 12px; }
+        html body .main .squirrel-gallery-stop::before { right: 0; bottom: 7px; width: 92px; }
+        html body .main .squirrel-gallery-mascot { right: -2px; bottom: -5px; width: 126px; height: 126px; }
       }
       /* Small screens often rasterise stacked backdrop filters as a soft image.
          Use an opaque-enough reading surface and the device's native CJK font. */
@@ -429,7 +475,7 @@
         backdrop-filter: blur(32px) saturate(132%) !important;
       }
       html body:not(.theme-light).has-static-wallpaper .main .overview-block .overview-card { background: rgba(24, 68, 52, .58) !important; }
-      @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-sprite, html body .main .resource-squirrel-laugh, html body .main .resource-squirrel-nest, html body .main .resource-squirrel-toggle[data-squirrel-motion] .resource-squirrel-sprite { animation: none !important; } }
+      @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-sprite, html body .main .resource-squirrel-laugh, html body .main .resource-squirrel-nest, html body .main .resource-squirrel-toggle[data-squirrel-motion] .resource-squirrel-sprite { animation: none !important; } html body .main .squirrel-gallery-stop::before, html body .main .squirrel-gallery-mascot { transition: none !important; } }
     </style>
   </head>
   <body class="theme-light has-static-wallpaper">
@@ -650,7 +696,7 @@
           .catch(function () {});
       })();
     </script>    <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20260913-squirrel-book-nest"></script>
+    <script src="app.js?v=20260913-squirrel-gallery-tour"></script>
   </body>
 </html>
 

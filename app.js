@@ -533,6 +533,54 @@ function renderTodayOverviewCard() {
     </div>
   `;
 }
+
+const squirrelGalleryStops = {
+  civil: { asset: "civil", label: "整理公考资料的资料松鼠" },
+  teacher: { asset: "teacher", label: "整理教招教资资料的资料松鼠" },
+  ebooks: { asset: "books", label: "整理电子书的资料松鼠" }
+};
+
+let squirrelGalleryObserver = null;
+
+function renderSquirrelGalleryStop(sectionId) {
+  const tour = squirrelGalleryStops[sectionId];
+  if (!tour) return "";
+
+  return `
+    <div class="squirrel-gallery-stop squirrel-gallery-stop--${tour.asset}" data-squirrel-gallery-stop="${sectionId}" aria-hidden="true">
+      <span class="squirrel-gallery-mascot" role="img" aria-label="${tour.label}"></span>
+    </div>
+  `;
+}
+
+function bindSquirrelGalleryStops() {
+  squirrelGalleryObserver?.disconnect();
+  const stops = [...document.querySelectorAll("[data-squirrel-gallery-stop]")];
+  if (!stops.length) return;
+
+  if (!("IntersectionObserver" in window)) {
+    stops.forEach((stop) => stop.classList.add("is-squirrel-gallery-visible"));
+    return;
+  }
+
+  squirrelGalleryObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        entry.target.classList.toggle(
+          "is-squirrel-gallery-visible",
+          entry.isIntersecting && entry.intersectionRatio >= 0.18
+        );
+      });
+    },
+    { threshold: [0, 0.18, 0.55], rootMargin: "0px 0px -8% 0px" }
+  );
+  stops.forEach((stop) => squirrelGalleryObserver.observe(stop));
+}
+
+function queueSquirrelGalleryStops() {
+  window.requestAnimationFrame(bindSquirrelGalleryStops);
+}
+
 function renderResources() {
   const container = document.querySelector("#resourceSections");
   const query = state.query.trim().toLowerCase();
@@ -542,6 +590,7 @@ function renderResources() {
     container.innerHTML = renderResourceOverview();
     const emptyState = document.querySelector(".empty-state");
     if (emptyState) emptyState.style.display = "none";
+    queueSquirrelGalleryStops();
     return;
   }
 
@@ -574,6 +623,7 @@ function renderResources() {
           <div class="resource-grid">
             ${items.map(renderCard).join("")}
           </div>
+          ${renderSquirrelGalleryStop(section.id)}
         </section>
       `;
     })
@@ -595,6 +645,7 @@ function renderResources() {
     </div>
   `;
   emptyState.style.display = visibleCount ? "none" : "block";
+  queueSquirrelGalleryStops();
 }
 
 function renderResourceOverview() {
@@ -1324,6 +1375,30 @@ function bindSearchSuggestBox() {
   window.addEventListener("scroll", hideSearchSuggestBox, true);
 }
 function bindEvents() {
+  document.querySelector("#sectionNav")?.addEventListener("click", (event) => {
+    const link = event.target.closest('a[href^="#"]');
+    if (!link) return;
+
+    const sectionId = link.dataset.menuSection || link.getAttribute("href").slice(1);
+    const isHome = sectionId === "top";
+    const isKnownSection = resources.some((section) => section.id === sectionId);
+    if (!isHome && !isKnownSection) return;
+
+    event.preventDefault();
+    state.query = "";
+    document.querySelector("#searchInput").value = "";
+    state.category = isHome ? "all" : sectionId;
+    renderFilters();
+    renderResources();
+
+    document.querySelectorAll("#sectionNav .nav-link").forEach((item) => item.classList.remove("active"));
+    link.classList.add("active");
+    window.history.replaceState(null, "", isHome ? "#top" : `#${sectionId}`);
+    window.requestAnimationFrame(() => {
+      document.querySelector(isHome ? "#top" : `#${sectionId}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+
   document.querySelector("#searchInput").addEventListener("input", (event) => {
     state.query = event.target.value;
     renderResources();
