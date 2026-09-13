@@ -52,7 +52,7 @@
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-          navigator.serviceWorker.register("/sw.js?v=20260913-squirrel-mobile", { updateViaCache: "none" }).then(function (registration) {
+          navigator.serviceWorker.register("/sw.js?v=20260913-squirrel-consistent", { updateViaCache: "none" }).then(function (registration) {
             registration.update().then(function () {
               if (registration.waiting) registration.waiting.postMessage("skip-waiting");
             }).catch(function () {});
@@ -75,7 +75,7 @@
       html body .main .resource-squirrel-stage {
         position: relative;
         display: flex;
-        min-height: clamp(250px, 27vw, 420px);
+        min-height: clamp(210px, 27vw, 420px);
         align-items: flex-end;
         justify-content: flex-end;
         overflow: visible;
@@ -97,7 +97,7 @@
         position: relative;
         z-index: 2;
         display: grid;
-        width: min(100%, 330px);
+        width: clamp(158px, 25vw, 330px);
         margin: 0 clamp(12px, 2vw, 34px) clamp(4px, 1vw, 18px) 0;
         padding: 0;
         border: 0;
@@ -183,16 +183,11 @@
         place-items: center;
       }
       @keyframes squirrel-breathe { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-7px) rotate(-1.2deg); } }
-      @media (min-width: 601px) and (max-width: 900px), (orientation: portrait) and (min-width: 601px) {
-        html body .main .resource-squirrel-stage { min-height: 242px; }
-        html body .main .resource-squirrel-toggle { width: 196px; margin-right: 14px; }
-        html body .main .resource-squirrel-callout { top: 8%; left: -26%; }
-        html body .main .resource-squirrel-panel { right: 174px; bottom: 16px; }
-      }
       @media (max-width: 600px) {
-        html body .main .resource-squirrel-stage { min-height: 210px; }
-        html body .main .resource-squirrel-toggle { width: 158px; margin-right: 8px; margin-bottom: 0; }
-        html body .main .resource-squirrel-callout { display: none; }
+        html body .main .resource-squirrel-toggle { margin-right: 8px; margin-bottom: 0; }
+        html body .main .resource-squirrel-callout { top: 7%; left: -42%; min-width: 118px; padding: 8px 10px; }
+        html body .main .resource-squirrel-callout strong { font-size: 12px; }
+        html body .main .resource-squirrel-callout small { font-size: 10px; }
         html body .main .resource-squirrel-panel { right: 10px; bottom: 112px; width: min(260px, calc(100% - 20px)); }
       }
       @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-toggle img { animation: none; } }
