@@ -1533,7 +1533,7 @@ scheduleNonCriticalTask(loadLinkHealth, 350);
 scheduleNonCriticalTask(loadServerPanLinks, 550);
 // 2026-08-13: live hero clock.
 (() => {
-  const clocks = [...document.querySelectorAll("#siteLiveClock, #studyRoomLiveClock, #macTitleClock")];
+  const clocks = [...document.querySelectorAll("#siteLiveClock, #macTitleClock")];
   if (!clocks.length) return;
   const formatter = new Intl.DateTimeFormat("zh-CN", {
     hour: "2-digit",
@@ -2075,26 +2075,4 @@ bindDriftBottleBoard();
 bindPeerSearchPulse();
 bindShoreLetter();
 scheduleNonCriticalTask(loadShoreLetter, 700);
-scheduleNonCriticalTask(loadStudyRoomTeaser, 1000);
-
-async function loadStudyRoomTeaser() {
-  const online = document.querySelector("#studyRoomTeaserOnline");
-  const focus = document.querySelector("#studyRoomTeaserFocus");
-  if (!online || !focus || !serverApiBase) return;
-  const render = (data) => {
-    const total = Number(data?.onlineCount || 0);
-    const focused = Object.entries(data?.taskCounts || {}).reduce((sum, [, count]) => sum + Number(count || 0), 0);
-    online.textContent = String(total);
-    focus.textContent = total ? `${focused || total} 位同学正在专注` : "暂时还没有人入座";
-  };
-  const load = async () => {
-    try {
-      const response = await fetch(`${serverApiBase}/api/study-room/presence`, { cache: "no-store" });
-      const data = await response.json();
-      if (response.ok && data?.ok) render(data);
-    } catch (_) { focus.textContent = "进入自习室后即可开始专注"; }
-  };
-  await load();
-  window.setInterval(() => { if (!document.hidden) load(); }, 45000);
-}
 

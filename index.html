@@ -52,7 +52,7 @@
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-          navigator.serviceWorker.register("/sw.js?v=20260912-layout-v6", { updateViaCache: "none" }).then(function (registration) {
+          navigator.serviceWorker.register("/sw.js?v=20260913-remove-study-room-entry", { updateViaCache: "none" }).then(function (registration) {
             registration.update().then(function () {
               if (registration.waiting) registration.waiting.postMessage("skip-waiting");
             }).catch(function () {});
@@ -60,151 +60,19 @@
         });
       }
     </script>
-    <link rel="preload" href="study-room-entry-20260912-v2.css?v=20260912-v6" as="style" />
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" /></noscript>
     <link rel="stylesheet" href="styles.css?v=20260911-legacy-layout" />
-    <style id="studyRoomCriticalTheme">
-      /* Critical first-paint fallback: retain the dark-green room until the
-         full entry stylesheet loads. */
-      html body.theme-light .main .hero-art.study-room-teaser {
-        background: linear-gradient(135deg, #102826, #0c423b 58%, #123831) !important;
-        border-color: rgba(222, 239, 229, .19) !important;
-        box-shadow: 0 16px 36px rgba(0, 0, 0, .25), inset 0 1px 0 rgba(255, 255, 255, .07) !important;
-        overflow: hidden !important;
+    <link id="finalThemeStylesheet" rel="stylesheet" href="final-theme.css?v=20260912-original-blue-final-v37" />
+    <style>
+      html body .main .hero-visual.hero-visual-notice-only {
+        grid-template-rows: auto !important;
+        align-content: start !important;
       }
-      html body.theme-light .main .hero-art.study-room-teaser::before {
-        content: "" !important;
-        display: block !important;
-        position: absolute !important;
-        inset: 0 !important;
-        width: auto !important;
-        height: auto !important;
-        margin: 0 !important;
-        border: 0 !important;
-        border-radius: inherit !important;
-        opacity: 1 !important;
-        transform: none !important;
-        -webkit-mask-image: none !important;
-        mask-image: none !important;
-        filter: none !important;
-        background: transparent !important;
+      html body .main .hero-visual.hero-visual-notice-only > .hero-live-panel {
+        align-self: start !important;
       }
-      html body.theme-light .main .hero-art.study-room-teaser::after,
-      html body.theme-light .main .hero-art.study-room-teaser > .study-room-teaser-classroom { display: none !important; }
-
-      /* First-paint geometry for the rebuilt room. */
-      html body .main .hero-art.study-room-rebuilt {
-        display: grid !important;
-        grid-template-columns: minmax(0, 1fr) !important;
-        grid-template-rows: auto auto minmax(0, 1fr) auto !important;
-        gap: 12px !important;
-        box-sizing: border-box !important;
-        height: 100% !important;
-        min-height: 0 !important;
-        max-height: none !important;
-        margin: 0 !important;
-        padding: 24px !important;
-        overflow: hidden !important;
-        color: #edf4ef !important;
-        background: linear-gradient(135deg, #102826, #0c423b 58%, #123831) !important;
-        border-color: rgba(222, 239, 229, .19) !important;
-      }
-      html body .main .hero-art.study-room-rebuilt::before,
-      html body .main .hero-art.study-room-rebuilt::after { display: none !important; content: none !important; }
-      html body .main .study-room-rebuilt .study-room-action-grid { display:grid !important; grid-template-columns:minmax(0,1.05fr) minmax(240px,.95fr) !important; gap:12px !important; min-height:0 !important; }
-      html body .main .study-room-rebuilt .study-room-side-actions { display:grid !important; grid-template-rows:repeat(2,minmax(0,1fr)) !important; gap:12px !important; min-height:0 !important; }
-      html body .main .study-room-rebuilt :is(.study-room-timer-action,.study-room-utility-action) { background:#123f59 !important; border:1px solid #0c3148 !important; border-radius:18px !important; color:inherit !important; text-decoration:none !important; }
-      html body .main .study-room-rebuilt .study-room-teaser-bottom { position:static !important; inset:auto !important; transform:none !important; display:flex !important; align-items:center !important; justify-content:space-between !important; margin:0 !important; padding:0 !important; }
     </style>
-      <link id="finalThemeStylesheet" rel="stylesheet" href="final-theme.css?v=20260912-original-blue-final-v37" />
-      <link rel="stylesheet" href="study-room-entry-20260912-v2.css?v=20260912-v6" onload="window.revealFinalTheme()" />
-      <style id="studyRoomStableLayout">
-        /* Final homepage layer: legacy room themes contained several absolute
-           anchors.  Keep every visible part in normal flex flow instead. */
-        html body .main .hero-art.study-room-rebuilt {
-          display: flex !important;
-          flex-direction: column !important;
-          gap: 0 !important;
-          box-sizing: border-box !important;
-          min-height: 0 !important;
-          aspect-ratio: auto !important;
-          line-height: normal !important;
-        }
-        html body .main .hero-art.study-room-rebuilt > .study-room-teaser-head {
-          position: static !important;
-          inset: auto !important;
-          display: flex !important;
-          flex: 0 0 auto !important;
-          min-height: 72px !important;
-          box-sizing: border-box !important;
-          align-items: flex-start !important;
-          justify-content: space-between !important;
-          gap: 12px !important;
-          margin: 0 !important;
-          padding: 0 0 10px !important;
-        }
-        html body .main .study-room-rebuilt .study-room-teaser-head > div:first-child,
-        html body .main .study-room-rebuilt .study-room-teaser-head h2,
-        html body .main .study-room-rebuilt .study-room-head-meta,
-        html body .main .study-room-rebuilt .study-room-mini-clock {
-          position: static !important;
-          inset: auto !important;
-          transform: none !important;
-        }
-        html body .main .study-room-rebuilt .study-room-teaser-head > div:first-child {
-          display: block !important;
-          min-width: 0 !important;
-        }
-        html body .main .study-room-rebuilt .study-room-teaser-head h2 {
-          display: block !important;
-          margin: 4px 0 0 !important;
-          white-space: nowrap !important;
-        }
-        html body .main .study-room-rebuilt .study-room-head-meta {
-          display: flex !important;
-          flex: 0 0 auto !important;
-          min-width: 0 !important;
-          height: 44px !important;
-          align-items: center !important;
-        }
-        html body .main .study-room-rebuilt .study-room-teaser-lead {
-          position: static !important;
-          inset: auto !important;
-          display: block !important;
-          flex: 0 0 auto !important;
-          margin: 10px 0 14px !important;
-          line-height: 1.4 !important;
-          transform: none !important;
-        }
-        html body .main .study-room-rebuilt .study-room-action-grid {
-          position: static !important;
-          inset: auto !important;
-          flex: 1 1 auto !important;
-          align-self: stretch !important;
-          height: auto !important;
-          max-height: none !important;
-          min-height: 0 !important;
-          margin: 0 !important;
-          transform: none !important;
-        }
-        html body .main .study-room-rebuilt .study-room-side-actions,
-        html body .main .study-room-rebuilt :is(.study-room-timer-action, .study-room-utility-action) {
-          min-height: 0 !important;
-        }
-        html body .main .hero-art.study-room-rebuilt > .study-room-teaser-bottom {
-          position: static !important;
-          inset: auto !important;
-          display: flex !important;
-          flex: 0 0 auto !important;
-          min-height: 40px !important;
-          box-sizing: border-box !important;
-          align-self: stretch !important;
-          margin: 10px 0 0 !important;
-          padding: 0 !important;
-          transform: none !important;
-        }
-      </style>
   </head>
   <body class="theme-light">
     <video id="ambientBackgroundVideo" class="site-background-video" muted loop playsinline webkit-playsinline preload="metadata" aria-hidden="true" disablePictureInPicture controlslist="nodownload nofullscreen noremoteplayback" x-webkit-airplay="deny">
@@ -274,7 +142,7 @@
               <span class="hero-stat"><strong>持续</strong><small>更新</small></span>
             </div>
           </div>
-          <div class="hero-visual">
+          <div class="hero-visual hero-visual-notice-only">
             <section class="hero-live-panel" aria-label="资料库在线状态">
               <div class="hero-live-header">
                 <span class="hero-live-status"><i aria-hidden="true"></i>资料库在线 <b>LIVE</b><span id="siteGlobalOnline" class="site-global-online" aria-live="polite">-- 人在线</span></span>
@@ -285,26 +153,6 @@
                 <span><i aria-hidden="true"></i><b>目录导航</b><small>分类清晰直达</small></span>
                 <span><i aria-hidden="true"></i><b>内容浏览</b><small>在线 / 下载 / 收藏</small></span>
               </div>
-            </section>
-            <section class="hero-art study-room-teaser study-room-rebuilt" aria-labelledby="studyRoomTeaserTitle">
-              <header class="study-room-teaser-head">
-                <div><span>SHORE STUDY ROOM</span><h2 id="studyRoomTeaserTitle">上岸自习室</h2></div>
-                <div class="study-room-head-meta">
-                  <div class="study-room-mini-clock" aria-label="北京时间"><time id="studyRoomLiveClock" aria-live="off"></time><div class="ios-clock-face" aria-hidden="true"><i class="ios-clock-hour"></i><i class="ios-clock-minute"></i><b></b></div></div>
-                  <b><i></i><strong id="studyRoomTeaserOnline">--</strong> 人在线</b>
-                </div>
-              </header>
-              <p class="study-room-teaser-lead">选一张座位，完成一段真正属于自己的专注时间。</p>
-              <div class="study-room-action-grid" aria-label="上岸自习室功能">
-                <a class="study-room-timer-action" href="study-room.html?tool=timer" aria-label="开始番茄钟">
-                  <span class="room-action-kicker">POMODORO</span><strong>番茄钟</strong><time>25:00</time><small>点击开始一轮专注，可选 25 / 45 / 60 分钟</small><em>开始专注 <b>→</b></em>
-                </a>
-                <div class="study-room-side-actions">
-                  <a class="study-room-utility-action" href="study-room.html?tool=focus" aria-label="选择今日专注席"><i>✎</i><span><b>今日专注席</b><small id="studyRoomTeaserFocus">正在读取在线座位</small></span><em>选座 →</em></a>
-                  <a class="study-room-utility-action" href="study-room.html?tool=partner" aria-label="打开同频搭子"><i>⌁</i><span><b>同频搭子</b><small>匿名匹配同考类、同阶段的同学</small></span><em>匹配 →</em></a>
-                </div>
-              </div>
-              <footer class="study-room-teaser-bottom"><span>匿名入座 · 不收集联系方式</span><a href="study-room.html">进入完整自习室 <b>→</b></a></footer>
             </section>
           </div>
         </section>
