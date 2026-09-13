@@ -176,32 +176,37 @@
         right: auto;
         bottom: auto;
         isolation: isolate;
-        width: min(196px, calc(100vw - 24px));
-        padding: 13px 13px 12px;
-        border: 1px solid rgba(255, 255, 255, .70);
-        border-radius: 32px 36px 31px 35px / 27px 32px 30px 33px;
+        width: min(208px, calc(100vw - 24px));
+        padding: 25px 20px 20px;
+        border: 0;
+        border-radius: 0;
         color: #24483f;
-        background: rgba(250, 253, 247, .94);
-        box-shadow: 0 14px 30px rgba(19, 59, 50, .16), inset 0 1px 0 rgba(255, 255, 255, .95);
+        /* Four overlapping soft lobes make the speech bubble read as a cloud,
+           rather than a rounded rectangular dialog. */
+        background:
+          radial-gradient(ellipse 31% 31% at 18% 43%, rgba(250, 253, 247, .97) 98%, transparent 100%),
+          radial-gradient(ellipse 32% 36% at 45% 25%, rgba(250, 253, 247, .97) 98%, transparent 100%),
+          radial-gradient(ellipse 33% 32% at 78% 42%, rgba(250, 253, 247, .97) 98%, transparent 100%),
+          radial-gradient(ellipse 57% 48% at 50% 72%, rgba(250, 253, 247, .97) 98%, transparent 100%);
+        box-shadow: none;
+        filter: drop-shadow(0 13px 22px rgba(19, 59, 50, .18));
         backdrop-filter: blur(18px) saturate(130%);
       }
       /* Cloud lobes and a small speech tail: attached to the squirrel without
          allowing the menu to climb back into the announcement above. */
-      html body .main .resource-squirrel-panel::before,
-      html body .main .resource-squirrel-panel::after { position: absolute; z-index: -1; content: ""; background: rgba(250, 253, 247, .94); }
-      html body .main .resource-squirrel-panel::before { left: -12px; bottom: 31px; width: 27px; height: 27px; border-left: 1px solid rgba(255, 255, 255, .70); border-bottom: 1px solid rgba(255, 255, 255, .70); border-radius: 5px; transform: rotate(45deg); }
-      html body .main .resource-squirrel-panel::after { top: -13px; right: 36px; width: 54px; height: 36px; border: 1px solid rgba(255, 255, 255, .70); border-bottom: 0; border-radius: 50% 50% 0 0; }
-      html body .main .resource-squirrel-panel[data-squirrel-panel-side="left"]::before { right: -12px; left: auto; border: 0; border-right: 1px solid rgba(255, 255, 255, .70); border-top: 1px solid rgba(255, 255, 255, .70); }
+      html body .main .resource-squirrel-panel::before { position: absolute; z-index: -1; left: -9px; bottom: 36px; width: 24px; height: 24px; border-radius: 7px 2px 7px 2px; background: rgba(250, 253, 247, .97); content: ""; transform: rotate(45deg); }
+      html body .main .resource-squirrel-panel::after { display: none; content: none; }
+      html body .main .resource-squirrel-panel[data-squirrel-panel-side="left"]::before { right: -9px; left: auto; transform: rotate(-45deg); }
       html body .main .resource-squirrel-panel[hidden] { display: none !important; }
-      html body .main .resource-squirrel-panel h2 { margin: 0; font-size: 15px; }
-      html body .main .resource-squirrel-panel p { margin: 3px 0 8px; color: #6c7b74; font-size: 11px; line-height: 1.42; }
-      html body .main .resource-squirrel-actions { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 6px; }
+      html body .main .resource-squirrel-panel h2 { margin: 0; font-size: 14px; }
+      html body .main .resource-squirrel-panel p { margin: 4px 0 10px; color: #6c7b74; font-size: 11px; line-height: 1.42; }
+      html body .main .resource-squirrel-actions { display: grid; gap: 6px; }
       html body .main .resource-squirrel-actions :is(button, a) {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        min-height: 31px;
-        padding: 0 9px;
+        min-height: 35px;
+        padding: 0 13px;
         border: 1px solid rgba(41, 106, 88, .18);
         border-radius: 11px;
         color: #285a4d;
@@ -212,7 +217,7 @@
         text-decoration: none;
         cursor: pointer;
       }
-      html body .main .resource-squirrel-actions :is(button, a):first-child { grid-column: 1 / -1; border-color: transparent; color: #fff; background: #187660; }
+      html body .main .resource-squirrel-actions :is(button, a):first-child { border-color: transparent; border-radius: 999px; color: #fff; background: #187660; }
       html body .main .resource-squirrel-close {
         position: absolute;
         top: 7px;
@@ -250,7 +255,7 @@
         html body .main .resource-squirrel-callout { top: 7%; left: -42%; min-width: 118px; padding: 8px 10px; }
         html body .main .resource-squirrel-callout strong { font-size: 12px; }
         html body .main .resource-squirrel-callout small { font-size: 10px; }
-        html body .main .resource-squirrel-panel { width: min(196px, calc(100vw - 20px)); }
+        html body .main .resource-squirrel-panel { width: min(208px, calc(100vw - 20px)); }
       }
       /* Small screens often rasterise stacked backdrop filters as a soft image.
          Use an opaque-enough reading surface and the device's native CJK font. */
@@ -494,13 +499,9 @@
               <aside id="resourceSquirrelPanel" class="resource-squirrel-panel" aria-label="资料松鼠助手菜单" hidden>
                 <button class="resource-squirrel-close" type="button" aria-label="关闭资料松鼠助手">×</button>
                 <h2>资料松鼠在这儿</h2>
-                <p>想找资料？可以按全部、夸克或百度网盘来筛选。</p>
+                <p>要找什么资料？我带你从搜索开始。</p>
                 <div class="resource-squirrel-actions">
-                  <button id="resourceSquirrelSearch" type="button">全部网盘资料 <span>⌕</span></button>
-                  <button id="resourceSquirrelQuarkSearch" type="button">找夸克资料 <span>夸</span></button>
-                  <button id="resourceSquirrelBaiduSearch" type="button">找百度资料 <span>度</span></button>
-                  <a href="#resourceSections">浏览全部资料 <span>→</span></a>
-                  <a href="https://di0occkvoyb.feishu.cn/wiki/MNt9w7LfeiXi5Xkvj0gcOo8Cnfs" target="_blank" rel="noopener noreferrer">打开飞书总目录 <span>↗</span></a>
+                  <button id="resourceSquirrelSearch" type="button">带我去找资料 <span>→</span></button>
                 </div>
               </aside>
             </section>
@@ -630,7 +631,7 @@
           .catch(function () {});
       })();
     </script>    <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20260913-squirrel-walk"></script>
+    <script src="app.js?v=20260913-squirrel-cloud-position"></script>
   </body>
 </html>
 
