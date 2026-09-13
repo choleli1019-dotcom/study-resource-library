@@ -113,6 +113,7 @@
         filter: drop-shadow(0 18px 22px rgba(16, 56, 49, .18));
         transform-origin: 52% 86%;
         animation: squirrel-breathe 3.8s ease-in-out infinite;
+        will-change: transform;
       }
       html body .main .resource-squirrel-callout {
         position: absolute;
@@ -192,6 +193,14 @@
       }
       @keyframes squirrel-greeting-arrive { from { opacity: 0; transform: translateY(9px) scale(.97); } to { opacity: 1; transform: translateY(0) scale(1); } }
       @keyframes squirrel-breathe { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-7px) rotate(-1.2deg); } }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="greeting"] img { animation: squirrel-greet 1.5s cubic-bezier(.22, .8, .28, 1) both; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="review"] img { animation: squirrel-review 1.15s ease-in-out both; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="search"] img { animation: squirrel-search 1.15s ease-in-out both; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="found"] img { animation: squirrel-found 1.25s cubic-bezier(.2, .9, .3, 1) both; }
+      @keyframes squirrel-greet { 0%, 100% { transform: translateY(0) rotate(0deg); } 20% { transform: translateY(-8px) rotate(-3deg); } 44% { transform: translateY(-12px) rotate(2deg); } 67% { transform: translateY(-7px) rotate(-2deg); } }
+      @keyframes squirrel-review { 0%, 100% { transform: translateY(0) rotate(0deg); } 42% { transform: translateY(-4px) rotate(-2.2deg); } 72% { transform: translateY(-2px) rotate(1deg); } }
+      @keyframes squirrel-search { 0%, 100% { transform: translateY(0) rotate(0deg); } 24% { transform: translate(-7px, -4px) rotate(-3deg); } 51% { transform: translate(5px, -7px) rotate(2deg); } 76% { transform: translate(-3px, -3px) rotate(-1deg); } }
+      @keyframes squirrel-found { 0%, 100% { transform: translateY(0) scale(1); } 34% { transform: translateY(-14px) scale(1.025); } 57% { transform: translateY(-3px) scale(1.01); } 76% { transform: translateY(-8px) scale(1.018); } }
       @media (max-width: 600px) {
         html body .main .resource-squirrel-toggle { margin-right: 8px; margin-bottom: 0; transform: translateX(28px); }
         html body .main .resource-squirrel-callout { top: 7%; left: -42%; min-width: 118px; padding: 8px 10px; }
@@ -353,7 +362,7 @@
         backdrop-filter: blur(32px) saturate(132%) !important;
       }
       html body:not(.theme-light).has-static-wallpaper .main .overview-block .overview-card { background: rgba(24, 68, 52, .58) !important; }
-      @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-toggle img { animation: none; } }
+      @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-toggle img, html body .main .resource-squirrel-toggle[data-squirrel-motion] img { animation: none !important; } }
     </style>
   </head>
   <body class="theme-light has-static-wallpaper">

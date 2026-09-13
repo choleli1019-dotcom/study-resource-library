@@ -2100,22 +2100,45 @@ function bindResourceSquirrel() {
   const greetingNote = document.querySelector("#resourceSquirrelGreetingNote");
   if (!stage || !toggle || !panel) return;
 
+  let motionTimer = 0;
+  const setMotion = (motion = "idle", duration = 0) => {
+    window.clearTimeout(motionTimer);
+    toggle.dataset.squirrelMotion = motion;
+    if (duration) motionTimer = window.setTimeout(() => { toggle.dataset.squirrelMotion = "idle"; }, duration);
+  };
+  const say = (title, note, motion = "idle", duration = 0) => {
+    if (greeting) greeting.textContent = title;
+    if (greetingNote) greetingNote.textContent = note;
+    setMotion(motion, duration);
+  };
+
   const [greetingText, greetingNoteText] = getBeijingSquirrelGreeting();
-  if (greeting) greeting.textContent = greetingText;
-  if (greetingNote) greetingNote.textContent = greetingNoteText;
+  say(greetingText, greetingNoteText, "greeting", 1700);
 
   const setOpen = (open) => {
     panel.hidden = !open;
     toggle.setAttribute("aria-expanded", String(open));
   };
 
-  toggle.addEventListener("click", () => setOpen(panel.hidden));
+  toggle.addEventListener("click", () => {
+    const open = panel.hidden;
+    setOpen(open);
+    if (open) say("资料松鼠在这儿", "想找什么资料？", "review", 1150);
+  });
   close?.addEventListener("click", () => setOpen(false));
   search?.addEventListener("click", () => {
     setOpen(false);
     const input = document.querySelector("#searchInput");
+    say("我正在翻资料柜", "马上带你去搜索入口", "search", 1250);
     input?.scrollIntoView({ behavior: "smooth", block: "center" });
     window.setTimeout(() => input?.focus(), 320);
+    window.setTimeout(() => say("资料都在这里啦", "输入课程、老师或关键词试试", "found", 1500), 780);
+  });
+  document.querySelector("#heroSearchButton")?.addEventListener("click", () => {
+    const input = document.querySelector("#searchInput");
+    if (!input?.value.trim()) return;
+    say("我正在翻资料柜", "让我看看有哪些资料", "search", 880);
+    window.setTimeout(() => say("找到相关资料啦", "下面的结果已经为你整理好", "found", 1500), 640);
   });
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") setOpen(false);
