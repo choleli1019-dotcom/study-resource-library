@@ -52,7 +52,7 @@
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-          navigator.serviceWorker.register("/sw.js?v=20260913-squirrel-panel-clear", { updateViaCache: "none" }).then(function (registration) {
+          navigator.serviceWorker.register("/sw.js?v=20260913-mobile-readable", { updateViaCache: "none" }).then(function (registration) {
             registration.update().then(function () {
               if (registration.waiting) registration.waiting.postMessage("skip-waiting");
             }).catch(function () {});
@@ -194,6 +194,45 @@
         html body .main .resource-squirrel-callout strong { font-size: 12px; }
         html body .main .resource-squirrel-callout small { font-size: 10px; }
         html body .main .resource-squirrel-panel { right: 10px; bottom: 112px; width: min(260px, calc(100% - 20px)); }
+      }
+      /* Small screens often rasterise stacked backdrop filters as a soft image.
+         Use an opaque-enough reading surface and the device's native CJK font. */
+      @media (max-width: 900px) {
+        html body {
+          -webkit-font-smoothing: auto;
+          font-family: system-ui, -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif;
+        }
+        html body.theme-light .topbar,
+        html body.theme-light .main :is(.hero-copy, .hero-live-panel, .search-panel, .hero-stats, .quick-panel, .featured-panel, .section-block, .notice, .resource-card) {
+          -webkit-backdrop-filter: none !important;
+          backdrop-filter: none !important;
+          background: rgba(244, 249, 248, .92) !important;
+          text-shadow: none !important;
+        }
+        html body.theme-light .main :is(.hero-copy, .hero-live-panel, .search-panel, .quick-panel, .featured-panel, .section-block, .notice, .resource-card) :is(p, span, strong, b, small, input) {
+          color: #26463f !important;
+          opacity: 1 !important;
+          text-shadow: none !important;
+        }
+        html body.theme-light .main .hero-copy > p:not(.hero-blessing) {
+          color: #36534c !important;
+          font-size: max(16px, 1.7vw) !important;
+          font-weight: 650 !important;
+          line-height: 1.72 !important;
+        }
+        html body.theme-light .main .hero-copy .eyebrow,
+        html body.theme-light .main .hero-copy .hero-blessing,
+        html body.theme-light .main .hero-live-panel :is(p, strong, small),
+        html body.theme-light .main .hero-live-services :is(b, small) {
+          font-weight: 700 !important;
+        }
+        html body.theme-light .main .hero-live-panel p,
+        html body.theme-light .main .hero-live-services small,
+        html body.theme-light .main .hot-search-label,
+        html body.theme-light .main .searching-label {
+          font-size: max(13px, 1.45vw) !important;
+          line-height: 1.55 !important;
+        }
       }
       @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-toggle img { animation: none; } }
     </style>
