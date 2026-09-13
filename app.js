@@ -2096,6 +2096,7 @@ function bindResourceSquirrel() {
   const panel = document.querySelector("#resourceSquirrelPanel");
   const close = panel?.querySelector(".resource-squirrel-close");
   const search = document.querySelector("#resourceSquirrelSearch");
+  const quarkSearch = document.querySelector("#resourceSquirrelQuarkSearch");
   const greeting = document.querySelector("#resourceSquirrelGreeting");
   const greetingNote = document.querySelector("#resourceSquirrelGreetingNote");
   if (!stage || !toggle || !panel) return;
@@ -2135,10 +2136,24 @@ function bindResourceSquirrel() {
   search?.addEventListener("click", () => {
     setOpen(false);
     const input = document.querySelector("#searchInput");
+    resourceSearchExperience.platform = "all";
     say("我正在翻资料柜", "马上带你去搜索入口", "search", 1250);
     input?.scrollIntoView({ behavior: "smooth", block: "center" });
     window.setTimeout(() => input?.focus(), 320);
     window.setTimeout(() => say("资料都在这里啦", "输入课程、老师或关键词试试", "found", 1500), 780);
+  });
+  quarkSearch?.addEventListener("click", () => {
+    setOpen(false);
+    const input = document.querySelector("#searchInput");
+    resourceSearchExperience.platform = "quark";
+    say("我来帮你找夸克资料", "输入关键词后，只展示夸克网盘结果", "search", 1550);
+    input?.scrollIntoView({ behavior: "smooth", block: "center" });
+    window.setTimeout(() => input?.focus(), 320);
+    if (input?.value.trim()) {
+      state.query = input.value;
+      renderResources();
+      renderPanSearchResults();
+    }
   });
   let typingTimer = 0;
   document.querySelector("#searchInput")?.addEventListener("input", (event) => {
@@ -2153,9 +2168,15 @@ function bindResourceSquirrel() {
     say("我正在翻资料柜", "让我看看有哪些资料", "search", 880);
     window.setTimeout(() => {
       const emptyState = document.querySelector(".empty-state");
-      const noResults = emptyState && getComputedStyle(emptyState).display !== "none";
+      const noResults = resourceSearchExperience.platform === "quark"
+        ? Boolean(document.querySelector("#panSearchResults .search-smart-empty, #panSearchResults .pan-empty"))
+        : emptyState && getComputedStyle(emptyState).display !== "none";
       if (noResults) {
-        say("这次没有找到资料", "换个老师简称或关键词试试看", "empty", 2200);
+        if (resourceSearchExperience.platform === "quark") {
+          say("这次没有找到夸克资料", "换个老师简称或课程关键词试试看", "empty", 2200);
+        } else {
+          say("这次没有找到资料", "换个老师简称或关键词试试看", "empty", 2200);
+        }
       } else {
         say("找到相关资料啦", "下面的结果已经为你整理好", "found", 1500);
       }
