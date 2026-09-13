@@ -52,7 +52,7 @@
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-          navigator.serviceWorker.register("/sw.js?v=20260913-squirrel-greeting", { updateViaCache: "none" }).then(function (registration) {
+          navigator.serviceWorker.register("/sw.js?v=20260913-macos-category-glass", { updateViaCache: "none" }).then(function (registration) {
             registration.update().then(function () {
               if (registration.waiting) registration.waiting.postMessage("skip-waiting");
             }).catch(function () {});
@@ -326,6 +326,33 @@
         font-size: clamp(14px, 1vw, 16px) !important;
         font-weight: 750 !important;
       }
+      /* Category directory: a cooler, translucent macOS material instead of a white sheet. */
+      html body.theme-light.has-static-wallpaper .main .overview-block {
+        background: linear-gradient(145deg, rgba(229, 243, 233, .38), rgba(154, 189, 167, .25)) !important;
+        border-color: rgba(255, 255, 255, .64) !important;
+        box-shadow: 0 22px 58px rgba(8, 48, 29, .20), inset 0 1px 0 rgba(255, 255, 255, .70) !important;
+        -webkit-backdrop-filter: blur(32px) saturate(145%) brightness(.98) !important;
+        backdrop-filter: blur(32px) saturate(145%) brightness(.98) !important;
+      }
+      html body.theme-light.has-static-wallpaper .main .overview-block .overview-card {
+        background: linear-gradient(145deg, rgba(248, 253, 249, .40), rgba(209, 230, 216, .27)) !important;
+        border-color: rgba(255, 255, 255, .66) !important;
+        box-shadow: 0 12px 26px rgba(8, 47, 30, .13), inset 0 1px 0 rgba(255, 255, 255, .68) !important;
+        -webkit-backdrop-filter: blur(24px) saturate(138%) !important;
+        backdrop-filter: blur(24px) saturate(138%) !important;
+      }
+      html body.theme-light.has-static-wallpaper .main .overview-block .overview-samples {
+        background: rgba(239, 249, 242, .15) !important;
+        border-color: rgba(255, 255, 255, .28) !important;
+      }
+      html body.theme-light.has-static-wallpaper .main .overview-block .overview-samples span { color: #234b3c !important; border-bottom-color: rgba(30, 80, 58, .16) !important; }
+      html body.theme-light.has-static-wallpaper .main .overview-block .overview-comic-art { opacity: .22 !important; }
+      html body:not(.theme-light).has-static-wallpaper .main .overview-block {
+        background: linear-gradient(145deg, rgba(12, 50, 39, .76), rgba(6, 30, 25, .64)) !important;
+        -webkit-backdrop-filter: blur(32px) saturate(132%) !important;
+        backdrop-filter: blur(32px) saturate(132%) !important;
+      }
+      html body:not(.theme-light).has-static-wallpaper .main .overview-block .overview-card { background: rgba(24, 68, 52, .58) !important; }
       @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-toggle img { animation: none; } }
     </style>
   </head>
