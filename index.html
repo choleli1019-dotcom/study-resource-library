@@ -66,12 +66,136 @@
     <link id="finalThemeStylesheet" rel="stylesheet" href="final-theme.css?v=20260912-original-blue-final-v37" />
     <style>
       html body .main .hero-visual.hero-visual-notice-only {
-        grid-template-rows: auto !important;
+        grid-template-rows: auto minmax(0, 1fr) !important;
         align-content: start !important;
       }
       html body .main .hero-visual.hero-visual-notice-only > .hero-live-panel {
         align-self: start !important;
       }
+      html body .main .resource-squirrel-stage {
+        position: relative;
+        display: flex;
+        min-height: clamp(250px, 27vw, 420px);
+        align-items: flex-end;
+        justify-content: flex-end;
+        overflow: visible;
+        isolation: isolate;
+      }
+      html body .main .resource-squirrel-stage::before {
+        position: absolute;
+        z-index: -1;
+        right: 3%;
+        bottom: 6%;
+        width: min(72%, 390px);
+        aspect-ratio: 1;
+        border-radius: 50%;
+        background: radial-gradient(circle, rgba(251, 213, 118, .30), rgba(94, 145, 126, .12) 46%, transparent 72%);
+        content: "";
+        filter: blur(8px);
+      }
+      html body .main .resource-squirrel-toggle {
+        position: relative;
+        z-index: 2;
+        display: grid;
+        width: min(100%, 330px);
+        margin: 0 clamp(12px, 2vw, 34px) clamp(4px, 1vw, 18px) 0;
+        padding: 0;
+        border: 0;
+        background: transparent;
+        cursor: pointer;
+      }
+      html body .main .resource-squirrel-toggle img {
+        grid-area: 1 / 1;
+        width: 100%;
+        height: auto;
+        filter: drop-shadow(0 18px 22px rgba(16, 56, 49, .18));
+        transform-origin: 52% 86%;
+        animation: squirrel-breathe 3.8s ease-in-out infinite;
+      }
+      html body .main .resource-squirrel-callout {
+        position: absolute;
+        z-index: 3;
+        top: 18%;
+        left: -8%;
+        display: grid;
+        gap: 3px;
+        min-width: 138px;
+        padding: 11px 13px;
+        border: 1px solid rgba(255, 255, 255, .76);
+        border-radius: 16px 16px 16px 4px;
+        color: #31534b;
+        background: rgba(255, 253, 246, .80);
+        box-shadow: 0 10px 26px rgba(27, 68, 57, .12), inset 0 1px 0 rgba(255, 255, 255, .84);
+        backdrop-filter: blur(12px) saturate(120%);
+        text-align: left;
+      }
+      html body .main .resource-squirrel-callout strong { font-size: 14px; font-weight: 750; }
+      html body .main .resource-squirrel-callout small { color: #6f8078; font-size: 11px; }
+      html body .main .resource-squirrel-toggle:hover img { animation-play-state: paused; transform: translateY(-5px) rotate(-1deg) scale(1.02); }
+      html body .main .resource-squirrel-panel {
+        position: absolute;
+        z-index: 5;
+        right: min(31vw, 350px);
+        bottom: 22%;
+        width: min(260px, 72vw);
+        padding: 17px;
+        border: 1px solid rgba(255, 255, 255, .70);
+        border-radius: 20px;
+        color: #24483f;
+        background: rgba(248, 252, 247, .88);
+        box-shadow: 0 18px 44px rgba(19, 59, 50, .18), inset 0 1px 0 rgba(255, 255, 255, .90);
+        backdrop-filter: blur(18px) saturate(130%);
+      }
+      html body .main .resource-squirrel-panel[hidden] { display: none !important; }
+      html body .main .resource-squirrel-panel h2 { margin: 0; font-size: 17px; }
+      html body .main .resource-squirrel-panel p { margin: 5px 0 13px; color: #6c7b74; font-size: 12px; line-height: 1.5; }
+      html body .main .resource-squirrel-actions { display: grid; gap: 8px; }
+      html body .main .resource-squirrel-actions :is(button, a) {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 38px;
+        padding: 0 12px;
+        border: 1px solid rgba(41, 106, 88, .18);
+        border-radius: 11px;
+        color: #285a4d;
+        background: rgba(255, 255, 255, .62);
+        font: inherit;
+        font-size: 12px;
+        font-weight: 680;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      html body .main .resource-squirrel-actions :is(button, a):first-child { border-color: transparent; color: #fff; background: #187660; }
+      html body .main .resource-squirrel-close {
+        position: absolute;
+        top: 9px;
+        right: 9px;
+        display: grid;
+        width: 26px;
+        height: 26px;
+        padding: 0;
+        border: 0;
+        border-radius: 50%;
+        color: #6d7d76;
+        background: rgba(33, 84, 70, .08);
+        cursor: pointer;
+        place-items: center;
+      }
+      @keyframes squirrel-breathe { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-7px) rotate(-1.2deg); } }
+      @media (max-width: 900px), (orientation: portrait) {
+        html body .main .resource-squirrel-stage { min-height: 260px; }
+        html body .main .resource-squirrel-toggle { width: 210px; margin-right: 16px; }
+        html body .main .resource-squirrel-callout { top: 8%; left: -26%; }
+        html body .main .resource-squirrel-panel { right: 185px; bottom: 20px; }
+      }
+      @media (max-width: 600px) {
+        html body .main .resource-squirrel-stage { min-height: 230px; }
+        html body .main .resource-squirrel-toggle { width: 174px; }
+        html body .main .resource-squirrel-callout { display: none; }
+        html body .main .resource-squirrel-panel { right: 12px; bottom: 148px; }
+      }
+      @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-toggle img { animation: none; } }
     </style>
   </head>
   <body class="theme-light">
@@ -153,6 +277,22 @@
                 <span><i aria-hidden="true"></i><b>目录导航</b><small>分类清晰直达</small></span>
                 <span><i aria-hidden="true"></i><b>内容浏览</b><small>在线 / 下载 / 收藏</small></span>
               </div>
+            </section>
+            <section class="resource-squirrel-stage" aria-label="资料松鼠助手">
+              <button id="resourceSquirrelToggle" class="resource-squirrel-toggle" type="button" aria-expanded="false" aria-controls="resourceSquirrelPanel">
+                <span class="resource-squirrel-callout"><strong>我是资料松鼠</strong><small>我帮你翻资料柜</small></span>
+                <img src="assets/archive-squirrel-v1.webp" width="480" height="576" alt="抱着资料夹的资料松鼠" loading="lazy" decoding="async" />
+              </button>
+              <aside id="resourceSquirrelPanel" class="resource-squirrel-panel" aria-label="资料松鼠助手菜单" hidden>
+                <button class="resource-squirrel-close" type="button" aria-label="关闭资料松鼠助手">×</button>
+                <h2>资料松鼠在这儿</h2>
+                <p>想找资料、浏览分类或打开总目录，我来带路。</p>
+                <div class="resource-squirrel-actions">
+                  <button id="resourceSquirrelSearch" type="button">帮我找资料 <span>→</span></button>
+                  <a href="#resourceSections">浏览全部资料 <span>→</span></a>
+                  <a href="https://di0occkvoyb.feishu.cn/wiki/MNt9w7LfeiXi5Xkvj0gcOo8Cnfs" target="_blank" rel="noopener noreferrer">打开飞书总目录 <span>↗</span></a>
+                </div>
+              </aside>
             </section>
           </div>
         </section>

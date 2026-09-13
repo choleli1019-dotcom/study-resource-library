@@ -2070,9 +2070,39 @@ function bindShoreLetter() {
   schedule();
 }
 
+function bindResourceSquirrel() {
+  const stage = document.querySelector(".resource-squirrel-stage");
+  const toggle = document.querySelector("#resourceSquirrelToggle");
+  const panel = document.querySelector("#resourceSquirrelPanel");
+  const close = panel?.querySelector(".resource-squirrel-close");
+  const search = document.querySelector("#resourceSquirrelSearch");
+  if (!stage || !toggle || !panel) return;
+
+  const setOpen = (open) => {
+    panel.hidden = !open;
+    toggle.setAttribute("aria-expanded", String(open));
+  };
+
+  toggle.addEventListener("click", () => setOpen(panel.hidden));
+  close?.addEventListener("click", () => setOpen(false));
+  search?.addEventListener("click", () => {
+    setOpen(false);
+    const input = document.querySelector("#searchInput");
+    input?.scrollIntoView({ behavior: "smooth", block: "center" });
+    window.setTimeout(() => input?.focus(), 320);
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape") setOpen(false);
+  });
+  document.addEventListener("click", (event) => {
+    if (!stage.contains(event.target)) setOpen(false);
+  });
+}
+
 renderStudyCompanion();
 bindDriftBottleBoard();
 bindPeerSearchPulse();
 bindShoreLetter();
+bindResourceSquirrel();
 scheduleNonCriticalTask(loadShoreLetter, 700);
 
