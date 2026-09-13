@@ -103,8 +103,18 @@
         border: 0;
         background: transparent;
         cursor: pointer;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        touch-action: manipulation;
+        user-select: none;
         transform: translateX(clamp(40px, 8vw, 150px));
         transition: transform 420ms cubic-bezier(.22, .8, .28, 1);
+      }
+      html body .main .resource-squirrel-toggle:focus { outline: none; }
+      html body .main .resource-squirrel-toggle:focus-visible {
+        outline: 3px solid rgba(25, 118, 96, .72);
+        outline-offset: 6px;
+        border-radius: 28px;
       }
       html body .main .resource-squirrel-sprite {
         grid-area: 1 / 1;
