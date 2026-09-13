@@ -2124,6 +2124,25 @@ function bindResourceSquirrel() {
   const setOpen = (open) => {
     panel.hidden = !open;
     toggle.setAttribute("aria-expanded", String(open));
+    if (open) window.requestAnimationFrame(placeSquirrelPanel);
+  };
+
+  const placeSquirrelPanel = () => {
+    if (panel.hidden) return;
+    const squirrel = toggle.getBoundingClientRect();
+    const bubble = panel.getBoundingClientRect();
+    const gap = 12;
+    const edge = 12;
+    const roomOnRight = window.innerWidth - squirrel.right - gap;
+    const roomOnLeft = squirrel.left - gap;
+    const side = roomOnRight >= bubble.width || roomOnRight >= roomOnLeft ? "right" : "left";
+    const proposedLeft = side === "right" ? squirrel.right + gap : squirrel.left - bubble.width - gap;
+    const left = Math.max(edge, Math.min(proposedLeft, window.innerWidth - bubble.width - edge));
+    const proposedTop = squirrel.top + Math.min(46, Math.max(18, squirrel.height * .14));
+    const top = Math.max(edge, Math.min(proposedTop, window.innerHeight - bubble.height - edge));
+    panel.dataset.squirrelPanelSide = side;
+    panel.style.left = `${Math.round(left)}px`;
+    panel.style.top = `${Math.round(top)}px`;
   };
 
   toggle.addEventListener("click", () => {
@@ -2180,6 +2199,8 @@ function bindResourceSquirrel() {
   toggle.addEventListener("pointerup", finishSquirrelDrag);
   toggle.addEventListener("pointercancel", finishSquirrelDrag);
   toggle.addEventListener("lostpointercapture", finishSquirrelDrag);
+  window.addEventListener("resize", placeSquirrelPanel);
+  window.addEventListener("scroll", placeSquirrelPanel, { passive: true });
   close?.addEventListener("click", () => setOpen(false));
   search?.addEventListener("click", () => {
     setOpen(false);

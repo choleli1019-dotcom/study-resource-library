@@ -169,12 +169,14 @@
       html body .main .resource-squirrel-callout small { color: #6f8078; font-size: 11px; }
       html body .main .resource-squirrel-toggle:hover .resource-squirrel-sprite { animation-play-state: paused; transform: translateY(-5px) rotate(-1deg) scale(1.02); }
       html body .main .resource-squirrel-panel {
-        position: absolute;
-        z-index: 5;
-        right: clamp(8px, 1vw, 20px);
-        bottom: 12px;
+        position: fixed;
+        z-index: 40;
+        top: 12px;
+        left: 12px;
+        right: auto;
+        bottom: auto;
         isolation: isolate;
-        width: min(236px, 68vw);
+        width: min(196px, calc(100vw - 24px));
         padding: 13px 13px 12px;
         border: 1px solid rgba(255, 255, 255, .70);
         border-radius: 32px 36px 31px 35px / 27px 32px 30px 33px;
@@ -189,6 +191,7 @@
       html body .main .resource-squirrel-panel::after { position: absolute; z-index: -1; content: ""; background: rgba(250, 253, 247, .94); }
       html body .main .resource-squirrel-panel::before { left: -12px; bottom: 31px; width: 27px; height: 27px; border-left: 1px solid rgba(255, 255, 255, .70); border-bottom: 1px solid rgba(255, 255, 255, .70); border-radius: 5px; transform: rotate(45deg); }
       html body .main .resource-squirrel-panel::after { top: -13px; right: 36px; width: 54px; height: 36px; border: 1px solid rgba(255, 255, 255, .70); border-bottom: 0; border-radius: 50% 50% 0 0; }
+      html body .main .resource-squirrel-panel[data-squirrel-panel-side="left"]::before { right: -12px; left: auto; border: 0; border-right: 1px solid rgba(255, 255, 255, .70); border-top: 1px solid rgba(255, 255, 255, .70); }
       html body .main .resource-squirrel-panel[hidden] { display: none !important; }
       html body .main .resource-squirrel-panel h2 { margin: 0; font-size: 15px; }
       html body .main .resource-squirrel-panel p { margin: 3px 0 8px; color: #6c7b74; font-size: 11px; line-height: 1.42; }
@@ -247,7 +250,7 @@
         html body .main .resource-squirrel-callout { top: 7%; left: -42%; min-width: 118px; padding: 8px 10px; }
         html body .main .resource-squirrel-callout strong { font-size: 12px; }
         html body .main .resource-squirrel-callout small { font-size: 10px; }
-        html body .main .resource-squirrel-panel { right: 8px; bottom: 10px; width: min(236px, calc(100% - 20px)); }
+        html body .main .resource-squirrel-panel { width: min(196px, calc(100vw - 20px)); }
       }
       /* Small screens often rasterise stacked backdrop filters as a soft image.
          Use an opaque-enough reading surface and the device's native CJK font. */
