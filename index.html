@@ -52,7 +52,7 @@
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-          navigator.serviceWorker.register("/sw.js?v=20260913-squirrel-consistent", { updateViaCache: "none" }).then(function (registration) {
+          navigator.serviceWorker.register("/sw.js?v=20260913-squirrel-panel-right", { updateViaCache: "none" }).then(function (registration) {
             registration.update().then(function () {
               if (registration.waiting) registration.waiting.postMessage("skip-waiting");
             }).catch(function () {});
@@ -135,7 +135,7 @@
       html body .main .resource-squirrel-panel {
         position: absolute;
         z-index: 5;
-        right: min(31vw, 350px);
+        right: clamp(16px, 3vw, 48px);
         bottom: 22%;
         width: min(260px, 72vw);
         padding: 17px;
