@@ -2125,7 +2125,12 @@ function bindResourceSquirrel() {
   toggle.addEventListener("click", () => {
     const open = panel.hidden;
     setOpen(open);
-    if (open) say("资料松鼠在这儿", "想找什么资料？", "open", 1300);
+    if (open) {
+      say("哈哈，资料都在这儿！", "我先乐一下，再带你挑网盘", "laugh", 1050);
+      window.setTimeout(() => {
+        if (!panel.hidden) say("资料松鼠在这儿", "想找什么资料？", "open", 1300);
+      }, 900);
+    }
   });
   toggle.addEventListener("mouseenter", () => {
     if (panel.hidden) say("我在这里呀", "靠近我，可以帮你找资料", "hover", 0);
