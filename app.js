@@ -315,11 +315,11 @@ function getTrackedResourceLabel(link) {
 
 const SQUIRREL_NEST_STORAGE_KEY = "study-resource-squirrel-nest";
 
-function rememberSquirrelTrail(label) {
+function rememberSquirrelTrail(label, href = "") {
   const title = String(label || "").split("｜").pop().trim().replace(/\s+/g, " ").slice(0, 28);
   if (!title) return;
   try {
-    window.localStorage.setItem(SQUIRREL_NEST_STORAGE_KEY, JSON.stringify({ title, savedAt: Date.now() }));
+    window.localStorage.setItem(SQUIRREL_NEST_STORAGE_KEY, JSON.stringify({ title, href, savedAt: Date.now() }));
   } catch (_) {
     // The pet still works normally when local storage is unavailable.
   }
@@ -340,7 +340,7 @@ function trackResourceClick(event) {
   if (!link.matches(".open-link, .section-link, .quick-link, .pan-result-actions a")) return;
 
   const label = getTrackedResourceLabel(link);
-  rememberSquirrelTrail(label);
+  rememberSquirrelTrail(label, link.href);
   trackBaiduEvent("resource_click", link.className || "open", label);
   sendServerEvent("resource_click", {
     label,
@@ -2198,6 +2198,9 @@ function bindResourceSquirrel() {
   const greeting = document.querySelector("#resourceSquirrelGreeting");
   const greetingNote = document.querySelector("#resourceSquirrelGreetingNote");
   const nestDock = document.querySelector("#resourceSquirrelNestDock");
+  const trailResume = document.querySelector("#resourceSquirrelTrailResume");
+  const trailTitle = document.querySelector("#resourceSquirrelTrailTitle");
+  const trailToday = document.querySelector("#resourceSquirrelTrailToday");
   if (!stage || !toggle || !panel) return;
 
   let motionTimer = 0;
@@ -2206,11 +2209,22 @@ function bindResourceSquirrel() {
   let squirrelWalkStopTimer = 0;
   let squirrelRestTimer = 0;
   let suppressSquirrelClickUntil = 0;
+  const refreshTrailBoard = () => {
+    const trail = getSquirrelTrail();
+    const todayCount = getTodayServerLinks().length;
+    if (trailTitle) trailTitle.textContent = trail?.title || "下次浏览的资料会留在这里";
+    if (trailToday) trailToday.textContent = todayCount ? `今日新增 ${todayCount} 份资料` : "今日资料持续整理";
+    if (trailResume) {
+      trailResume.disabled = !trail;
+      trailResume.setAttribute("aria-label", trail ? `继续查看：${trail.title}` : "暂时没有可继续查看的资料");
+    }
+  };
   const setMotion = (motion = "idle", duration = 0) => {
     window.clearTimeout(motionTimer);
     toggle.dataset.squirrelMotion = motion;
     document.body.classList.toggle("is-resource-squirrel-resting", motion === "nest");
     if (nestDock) nestDock.tabIndex = motion === "nest" ? 0 : -1;
+    if (motion === "nest") refreshTrailBoard();
     if (duration) motionTimer = window.setTimeout(() => {
       toggle.dataset.squirrelMotion = "idle";
       document.body.classList.remove("is-resource-squirrel-resting");
@@ -2277,6 +2291,18 @@ function bindResourceSquirrel() {
     event.preventDefault();
     returnToTopFromNest();
   });
+  trailResume?.addEventListener("click", () => {
+    const trail = getSquirrelTrail();
+    if (!trail) return;
+    wakeSquirrel();
+    if (trail.href) {
+      window.open(trail.href, "_blank", "noopener");
+      return;
+    }
+    applySearchTerm(trail.title);
+  });
+  window.setTimeout(refreshTrailBoard, 1400);
+  window.setTimeout(refreshTrailBoard, 4200);
 
   const placeSquirrelPanel = () => {
     if (panel.hidden) return;
