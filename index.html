@@ -52,7 +52,7 @@
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-          navigator.serviceWorker.register("/sw.js?v=20260913-remove-study-room-entry", { updateViaCache: "none" }).then(function (registration) {
+          navigator.serviceWorker.register("/sw.js?v=20260913-squirrel-mobile", { updateViaCache: "none" }).then(function (registration) {
             registration.update().then(function () {
               if (registration.waiting) registration.waiting.postMessage("skip-waiting");
             }).catch(function () {});
@@ -183,17 +183,17 @@
         place-items: center;
       }
       @keyframes squirrel-breathe { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-7px) rotate(-1.2deg); } }
-      @media (max-width: 900px), (orientation: portrait) {
-        html body .main .resource-squirrel-stage { min-height: 260px; }
-        html body .main .resource-squirrel-toggle { width: 210px; margin-right: 16px; }
+      @media (min-width: 601px) and (max-width: 900px), (orientation: portrait) and (min-width: 601px) {
+        html body .main .resource-squirrel-stage { min-height: 242px; }
+        html body .main .resource-squirrel-toggle { width: 196px; margin-right: 14px; }
         html body .main .resource-squirrel-callout { top: 8%; left: -26%; }
-        html body .main .resource-squirrel-panel { right: 185px; bottom: 20px; }
+        html body .main .resource-squirrel-panel { right: 174px; bottom: 16px; }
       }
       @media (max-width: 600px) {
-        html body .main .resource-squirrel-stage { min-height: 230px; }
-        html body .main .resource-squirrel-toggle { width: 174px; }
+        html body .main .resource-squirrel-stage { min-height: 210px; }
+        html body .main .resource-squirrel-toggle { width: 158px; margin-right: 8px; margin-bottom: 0; }
         html body .main .resource-squirrel-callout { display: none; }
-        html body .main .resource-squirrel-panel { right: 12px; bottom: 148px; }
+        html body .main .resource-squirrel-panel { right: 10px; bottom: 112px; width: min(260px, calc(100% - 20px)); }
       }
       @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-toggle img { animation: none; } }
     </style>
