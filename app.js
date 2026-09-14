@@ -313,12 +313,34 @@ function getTrackedResourceLabel(link) {
   return "";
 }
 
+const SQUIRREL_NEST_STORAGE_KEY = "study-resource-squirrel-nest";
+
+function rememberSquirrelTrail(label, href = "") {
+  const title = String(label || "").split("｜").pop().trim().replace(/\s+/g, " ").slice(0, 28);
+  if (!title) return;
+  try {
+    window.localStorage.setItem(SQUIRREL_NEST_STORAGE_KEY, JSON.stringify({ title, href, savedAt: Date.now() }));
+  } catch (_) {
+    // The pet still works normally when local storage is unavailable.
+  }
+}
+
+function getSquirrelTrail() {
+  try {
+    const saved = JSON.parse(window.localStorage.getItem(SQUIRREL_NEST_STORAGE_KEY) || "null");
+    return saved && typeof saved.title === "string" ? saved : null;
+  } catch (_) {
+    return null;
+  }
+}
+
 function trackResourceClick(event) {
   const link = event.target.closest("a[href]");
   if (!link) return;
   if (!link.matches(".open-link, .section-link, .quick-link, .pan-result-actions a")) return;
 
   const label = getTrackedResourceLabel(link);
+  rememberSquirrelTrail(label, link.href);
   trackBaiduEvent("resource_click", link.className || "open", label);
   sendServerEvent("resource_click", {
     label,
@@ -511,6 +533,54 @@ function renderTodayOverviewCard() {
     </div>
   `;
 }
+
+const squirrelGalleryStops = {
+  civil: { asset: "civil", label: "整理公考资料的资料松鼠" },
+  teacher: { asset: "teacher", label: "整理教招教资资料的资料松鼠" },
+  ebooks: { asset: "books", label: "整理电子书的资料松鼠" }
+};
+
+let squirrelGalleryObserver = null;
+
+function renderSquirrelGalleryStop(sectionId) {
+  const tour = squirrelGalleryStops[sectionId];
+  if (!tour) return "";
+
+  return `
+    <div class="squirrel-gallery-stop squirrel-gallery-stop--${tour.asset}" data-squirrel-gallery-stop="${sectionId}" aria-hidden="true">
+      <span class="squirrel-gallery-mascot" role="img" aria-label="${tour.label}"></span>
+    </div>
+  `;
+}
+
+function bindSquirrelGalleryStops() {
+  squirrelGalleryObserver?.disconnect();
+  const stops = [...document.querySelectorAll("[data-squirrel-gallery-stop]")];
+  if (!stops.length) return;
+
+  if (!("IntersectionObserver" in window)) {
+    stops.forEach((stop) => stop.classList.add("is-squirrel-gallery-visible"));
+    return;
+  }
+
+  squirrelGalleryObserver = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        entry.target.classList.toggle(
+          "is-squirrel-gallery-visible",
+          entry.isIntersecting && entry.intersectionRatio >= 0.18
+        );
+      });
+    },
+    { threshold: [0, 0.18, 0.55], rootMargin: "0px 0px -8% 0px" }
+  );
+  stops.forEach((stop) => squirrelGalleryObserver.observe(stop));
+}
+
+function queueSquirrelGalleryStops() {
+  window.requestAnimationFrame(bindSquirrelGalleryStops);
+}
+
 function renderResources() {
   const container = document.querySelector("#resourceSections");
   const query = state.query.trim().toLowerCase();
@@ -520,6 +590,7 @@ function renderResources() {
     container.innerHTML = renderResourceOverview();
     const emptyState = document.querySelector(".empty-state");
     if (emptyState) emptyState.style.display = "none";
+    queueSquirrelGalleryStops();
     return;
   }
 
@@ -552,6 +623,7 @@ function renderResources() {
           <div class="resource-grid">
             ${items.map(renderCard).join("")}
           </div>
+          ${renderSquirrelGalleryStop(section.id)}
         </section>
       `;
     })
@@ -573,6 +645,7 @@ function renderResources() {
     </div>
   `;
   emptyState.style.display = visibleCount ? "none" : "block";
+  queueSquirrelGalleryStops();
 }
 
 function renderResourceOverview() {
@@ -1302,6 +1375,30 @@ function bindSearchSuggestBox() {
   window.addEventListener("scroll", hideSearchSuggestBox, true);
 }
 function bindEvents() {
+  document.querySelector("#sectionNav")?.addEventListener("click", (event) => {
+    const link = event.target.closest('a[href^="#"]');
+    if (!link) return;
+
+    const sectionId = link.dataset.menuSection || link.getAttribute("href").slice(1);
+    const isHome = sectionId === "top";
+    const isKnownSection = resources.some((section) => section.id === sectionId);
+    if (!isHome && !isKnownSection) return;
+
+    event.preventDefault();
+    state.query = "";
+    document.querySelector("#searchInput").value = "";
+    state.category = isHome ? "all" : sectionId;
+    renderFilters();
+    renderResources();
+
+    document.querySelectorAll("#sectionNav .nav-link").forEach((item) => item.classList.remove("active"));
+    link.classList.add("active");
+    window.history.replaceState(null, "", isHome ? "#top" : `#${sectionId}`);
+    window.requestAnimationFrame(() => {
+      document.querySelector(isHome ? "#top" : `#${sectionId}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
+  });
+
   document.querySelector("#searchInput").addEventListener("input", (event) => {
     state.query = event.target.value;
     renderResources();
@@ -2081,13 +2178,13 @@ function getBeijingSquirrelGreeting() {
     if (part) hour = Number(part.value);
   } catch (_) {}
 
-  if (hour < 5) return ["夜深了，早点休息呀", "资料柜明早还在等你"];
-  if (hour < 9) return ["早上好，今天也稳稳上岸", "先选一份资料开始吧"];
-  if (hour < 12) return ["上午好，想找什么资料？", "我帮你翻资料柜"];
-  if (hour < 14) return ["中午好，休息一下再继续", "资料柜已帮你整理好"];
-  if (hour < 18) return ["下午好，今天进度怎么样？", "需要资料就来找我"];
-  if (hour < 23) return ["晚上好，今晚也稳稳复习", "我把资料柜守在这里"];
-  return ["夜深了，早点休息呀", "资料柜明早还在等你"];
+  if (hour < 5) return ["夜深了，早点休息呀", "资料明天也在，先好好睡一觉", "late-night"];
+  if (hour < 9) return ["早上好，今天也稳稳上岸", "先选一份资料开始吧", "greeting"];
+  if (hour < 12) return ["上午好，想找什么资料？", "我帮你翻资料柜", "greeting"];
+  if (hour < 14) return ["中午好，休息一下再继续", "资料柜已帮你整理好", "greeting"];
+  if (hour < 18) return ["下午好，今天进度怎么样？", "需要资料就来找我", "greeting"];
+  if (hour < 23) return ["晚上好，今晚也稳稳复习", "我把资料柜守在这里", "greeting"];
+  return ["夜深了，早点休息呀", "资料明天也在，先好好睡一觉", "late-night"];
 }
 
 function bindResourceSquirrel() {
@@ -2096,49 +2193,251 @@ function bindResourceSquirrel() {
   const panel = document.querySelector("#resourceSquirrelPanel");
   const close = panel?.querySelector(".resource-squirrel-close");
   const search = document.querySelector("#resourceSquirrelSearch");
+  const quarkSearch = document.querySelector("#resourceSquirrelQuarkSearch");
+  const baiduSearch = document.querySelector("#resourceSquirrelBaiduSearch");
   const greeting = document.querySelector("#resourceSquirrelGreeting");
   const greetingNote = document.querySelector("#resourceSquirrelGreetingNote");
+  const nestDock = document.querySelector("#resourceSquirrelNestDock");
+  const trailResume = document.querySelector("#resourceSquirrelTrailResume");
+  const trailTitle = document.querySelector("#resourceSquirrelTrailTitle");
+  const trailToday = document.querySelector("#resourceSquirrelTrailToday");
   if (!stage || !toggle || !panel) return;
 
   let motionTimer = 0;
+  let squirrelOffsetX = 0;
+  let squirrelDrag = null;
+  let squirrelWalkStopTimer = 0;
+  let squirrelRestTimer = 0;
+  let suppressSquirrelClickUntil = 0;
+  const refreshTrailBoard = () => {
+    const trail = getSquirrelTrail();
+    const todayCount = getTodayServerLinks().length;
+    if (trailTitle) trailTitle.textContent = trail?.title || "下次浏览的资料会留在这里";
+    if (trailToday) trailToday.textContent = todayCount ? `今日新增 ${todayCount} 份资料` : "今日资料持续整理";
+    if (trailResume) {
+      trailResume.disabled = !trail;
+      trailResume.setAttribute("aria-label", trail ? `继续查看：${trail.title}` : "暂时没有可继续查看的资料");
+    }
+  };
   const setMotion = (motion = "idle", duration = 0) => {
     window.clearTimeout(motionTimer);
     toggle.dataset.squirrelMotion = motion;
-    if (duration) motionTimer = window.setTimeout(() => { toggle.dataset.squirrelMotion = "idle"; }, duration);
+    document.body.classList.toggle("is-resource-squirrel-resting", motion === "nest");
+    if (nestDock) nestDock.tabIndex = motion === "nest" ? 0 : -1;
+    if (motion === "nest") refreshTrailBoard();
+    if (duration) motionTimer = window.setTimeout(() => {
+      toggle.dataset.squirrelMotion = "idle";
+      document.body.classList.remove("is-resource-squirrel-resting");
+      if (nestDock) nestDock.tabIndex = -1;
+    }, duration);
   };
   const say = (title, note, motion = "idle", duration = 0) => {
     if (greeting) greeting.textContent = title;
     if (greetingNote) greetingNote.textContent = note;
     setMotion(motion, duration);
   };
+  const scheduleSquirrelRest = (delay = 12000) => {
+    window.clearTimeout(squirrelRestTimer);
+    squirrelRestTimer = window.setTimeout(() => {
+      if (panel.hidden && !squirrelDrag && !document.hidden) {
+        say("我回书窝歇一会儿", "需要资料时叫我", "nest");
+      }
+    }, delay);
+  };
+  const wakeSquirrel = () => {
+    window.clearTimeout(squirrelRestTimer);
+    if (toggle.dataset.squirrelMotion === "nest") {
+      say("我在呢", "书窝里还记着你的资料", "greeting", 1100);
+    }
+    scheduleSquirrelRest();
+  };
 
-  const [greetingText, greetingNoteText] = getBeijingSquirrelGreeting();
-  say(greetingText, greetingNoteText, "greeting", 1700);
+  const [greetingText, greetingNoteText, greetingMotion] = getBeijingSquirrelGreeting();
+  const lastTrail = getSquirrelTrail();
+  if (lastTrail) {
+    setMotion("nest");
+    if (greeting) greeting.textContent = "书窝里还留着书签";
+    if (greetingNote) greetingNote.textContent = "我记得你上次看过的资料";
+    window.setTimeout(() => {
+      const trailName = lastTrail.title.endsWith("资料") ? lastTrail.title : `${lastTrail.title}资料`;
+      say(`上次你看到${trailName}啦`, "我从书窝出来陪你", "greeting", 1700);
+      scheduleSquirrelRest();
+    }, 820);
+  } else {
+    say(greetingText, greetingNoteText, greetingMotion, greetingMotion === "late-night" ? 3000 : 1700);
+    scheduleSquirrelRest();
+  }
 
   const setOpen = (open) => {
     panel.hidden = !open;
     toggle.setAttribute("aria-expanded", String(open));
+    if (open) {
+      window.clearTimeout(squirrelRestTimer);
+      window.requestAnimationFrame(placeSquirrelPanel);
+    } else {
+      scheduleSquirrelRest();
+    }
+  };
+
+  const returnToTopFromNest = () => {
+    setOpen(false);
+    wakeSquirrel();
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
+
+  nestDock?.addEventListener("click", returnToTopFromNest);
+  nestDock?.addEventListener("keydown", (event) => {
+    if (event.key !== "Enter" && event.key !== " ") return;
+    event.preventDefault();
+    returnToTopFromNest();
+  });
+  trailResume?.addEventListener("click", () => {
+    const trail = getSquirrelTrail();
+    if (!trail) return;
+    wakeSquirrel();
+    if (trail.href) {
+      window.open(trail.href, "_blank", "noopener");
+      return;
+    }
+    applySearchTerm(trail.title);
+  });
+  window.setTimeout(refreshTrailBoard, 1400);
+  window.setTimeout(refreshTrailBoard, 4200);
+
+  const placeSquirrelPanel = () => {
+    if (panel.hidden) return;
+    const squirrel = toggle.getBoundingClientRect();
+    const bubble = panel.getBoundingClientRect();
+    const gap = 12;
+    const edge = 12;
+    const roomOnRight = window.innerWidth - squirrel.right - gap;
+    const roomOnLeft = squirrel.left - gap;
+    const side = roomOnRight >= bubble.width || roomOnRight >= roomOnLeft ? "right" : "left";
+    const proposedLeft = side === "right" ? squirrel.right + gap : squirrel.left - bubble.width - gap;
+    const left = Math.max(edge, Math.min(proposedLeft, window.innerWidth - bubble.width - edge));
+    const proposedTop = squirrel.top + Math.min(46, Math.max(18, squirrel.height * .14));
+    const top = Math.max(edge, Math.min(proposedTop, window.innerHeight - bubble.height - edge));
+    panel.dataset.squirrelPanelSide = side;
+    panel.style.left = `${Math.round(left)}px`;
+    panel.style.top = `${Math.round(top)}px`;
   };
 
   toggle.addEventListener("click", () => {
+    if (performance.now() < suppressSquirrelClickUntil) return;
+    window.clearTimeout(squirrelWalkStopTimer);
+    wakeSquirrel();
     const open = panel.hidden;
     setOpen(open);
-    if (open) say("资料松鼠在这儿", "想找什么资料？", "review", 1150);
+    if (open) {
+      say("哈哈，资料都在这儿！", "我先乐一下，再带你挑网盘", "laugh", 1050);
+      window.setTimeout(() => {
+        if (!panel.hidden) say("资料松鼠在这儿", "想找什么资料？", "open", 1300);
+      }, 900);
+    }
   });
+  toggle.addEventListener("mouseenter", () => {
+    if (panel.hidden) {
+      wakeSquirrel();
+      say("我在这里呀", "靠近我，可以帮你找资料", "hover", 0);
+    }
+  });
+  toggle.addEventListener("mouseleave", () => {
+    if (panel.hidden && !toggle.dataset.squirrelWalk && toggle.dataset.squirrelMotion !== "nest") setMotion("idle");
+  });
+  const finishSquirrelDrag = (event) => {
+    if (!squirrelDrag || (event?.pointerId !== undefined && event.pointerId !== squirrelDrag.pointerId)) return;
+    const dragged = squirrelDrag.moved;
+    squirrelDrag = null;
+    toggle.classList.remove("is-squirrel-dragging");
+    delete toggle.dataset.squirrelWalk;
+    if (dragged) {
+      suppressSquirrelClickUntil = performance.now() + 360;
+      squirrelWalkStopTimer = window.setTimeout(() => setMotion("idle"), 180);
+      scheduleSquirrelRest();
+    }
+  };
+  toggle.addEventListener("pointerdown", (event) => {
+    if (event.pointerType === "mouse" && event.button !== 0) return;
+    window.clearTimeout(squirrelWalkStopTimer);
+    wakeSquirrel();
+    squirrelDrag = { pointerId: event.pointerId, startX: event.clientX, startOffsetX: squirrelOffsetX, moved: false };
+    toggle.setPointerCapture?.(event.pointerId);
+  });
+  toggle.addEventListener("pointermove", (event) => {
+    if (!squirrelDrag || event.pointerId !== squirrelDrag.pointerId) return;
+    const deltaX = event.clientX - squirrelDrag.startX;
+    if (!squirrelDrag.moved && Math.abs(deltaX) < 8) return;
+    if (!squirrelDrag.moved) {
+      squirrelDrag.moved = true;
+      window.clearTimeout(motionTimer);
+      setOpen(false);
+      toggle.classList.add("is-squirrel-dragging");
+    }
+    const range = stage.getBoundingClientRect().width;
+    squirrelOffsetX = Math.max(-range * .48, Math.min(range * .08, squirrelDrag.startOffsetX + deltaX));
+    stage.style.setProperty("--squirrel-drag-x", `${Math.round(squirrelOffsetX)}px`);
+    toggle.dataset.squirrelMotion = "walk";
+    toggle.dataset.squirrelWalk = deltaX < 0 ? "left" : "right";
+  });
+  toggle.addEventListener("pointerup", finishSquirrelDrag);
+  toggle.addEventListener("pointercancel", finishSquirrelDrag);
+  toggle.addEventListener("lostpointercapture", finishSquirrelDrag);
+  window.addEventListener("resize", placeSquirrelPanel);
+  window.addEventListener("scroll", placeSquirrelPanel, { passive: true });
+  document.addEventListener("visibilitychange", () => { if (!document.hidden) scheduleSquirrelRest(6000); });
   close?.addEventListener("click", () => setOpen(false));
   search?.addEventListener("click", () => {
     setOpen(false);
     const input = document.querySelector("#searchInput");
-    say("我正在翻资料柜", "马上带你去搜索入口", "search", 1250);
+    resourceSearchExperience.platform = "all";
+    say("我来帮你找网盘资料", "夸克和百度结果都会显示", "search", 1250);
     input?.scrollIntoView({ behavior: "smooth", block: "center" });
     window.setTimeout(() => input?.focus(), 320);
     window.setTimeout(() => say("资料都在这里啦", "输入课程、老师或关键词试试", "found", 1500), 780);
+  });
+  const startPlatformSearch = (platform, platformName) => {
+    setOpen(false);
+    const input = document.querySelector("#searchInput");
+    resourceSearchExperience.platform = platform;
+    say(`我来帮你找${platformName}资料`, `输入关键词后，只展示${platformName}网盘结果`, "search", 1550);
+    input?.scrollIntoView({ behavior: "smooth", block: "center" });
+    window.setTimeout(() => input?.focus(), 320);
+    if (input?.value.trim()) {
+      state.query = input.value;
+      renderResources();
+      renderPanSearchResults();
+    }
+  };
+  quarkSearch?.addEventListener("click", () => startPlatformSearch("quark", "夸克"));
+  baiduSearch?.addEventListener("click", () => startPlatformSearch("baidu", "百度"));
+  let typingTimer = 0;
+  document.querySelector("#searchInput")?.addEventListener("input", (event) => {
+    if (!event.target.value.trim()) return;
+    wakeSquirrel();
+    window.clearTimeout(typingTimer);
+    setMotion("search", 700);
+    typingTimer = window.setTimeout(() => setMotion("idle"), 780);
   });
   document.querySelector("#heroSearchButton")?.addEventListener("click", () => {
     const input = document.querySelector("#searchInput");
     if (!input?.value.trim()) return;
     say("我正在翻资料柜", "让我看看有哪些资料", "search", 880);
-    window.setTimeout(() => say("找到相关资料啦", "下面的结果已经为你整理好", "found", 1500), 640);
+    window.setTimeout(() => {
+      const emptyState = document.querySelector(".empty-state");
+      const noResults = resourceSearchExperience.platform !== "all"
+        ? Boolean(document.querySelector("#panSearchResults .search-smart-empty, #panSearchResults .pan-empty"))
+        : emptyState && getComputedStyle(emptyState).display !== "none";
+      if (noResults) {
+        if (resourceSearchExperience.platform !== "all") {
+          const platformName = resourceSearchExperience.platform === "quark" ? "夸克" : "百度";
+          say(`这次没有找到${platformName}资料`, "换个老师简称或课程关键词试试看", "empty", 2200);
+        } else {
+          say("这次没有找到资料", "换个老师简称或关键词试试看", "empty", 2200);
+        }
+      } else {
+        say("找到相关资料啦", "下面的结果已经为你整理好", "found", 1500);
+      }
+    }, 640);
   });
   document.addEventListener("keydown", (event) => {
     if (event.key === "Escape") setOpen(false);

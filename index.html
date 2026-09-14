@@ -52,7 +52,7 @@
     <script>
       if ("serviceWorker" in navigator) {
         window.addEventListener("load", function () {
-          navigator.serviceWorker.register("/sw.js?v=20260913-macos-category-glass", { updateViaCache: "none" }).then(function (registration) {
+          navigator.serviceWorker.register("/sw.js?v=20260913-squirrel-actions", { updateViaCache: "none" }).then(function (registration) {
             registration.update().then(function () {
               if (registration.waiting) registration.waiting.postMessage("skip-waiting");
             }).catch(function () {});
@@ -93,6 +93,47 @@
         content: "";
         filter: blur(8px);
       }
+      /* A few quiet bookmarks remain in the field while the mascot is asleep.
+         They are deliberately light, local-only and never form a large panel. */
+      html body .main .resource-squirrel-trails {
+        position: absolute;
+        z-index: 1;
+        inset: 0;
+        margin: 0;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 420ms ease;
+      }
+      html body.is-resource-squirrel-resting .main .resource-squirrel-trails { opacity: 1; pointer-events: auto; }
+      html body .main .squirrel-trail-note {
+        position: absolute;
+        display: grid;
+        gap: 4px;
+        width: min(188px, 29%);
+        min-height: 58px;
+        padding: 10px 13px 9px;
+        border: 1px solid rgba(255, 252, 237, .82);
+        border-radius: 15px 15px 15px 4px;
+        color: #285344;
+        background: linear-gradient(138deg, rgba(255, 252, 236, .88), rgba(242, 239, 213, .73));
+        box-shadow: 0 9px 18px rgba(18, 64, 46, .14), inset 0 1px 0 rgba(255, 255, 255, .78);
+        font: inherit;
+        line-height: 1.2;
+        text-align: left;
+        transform: translateY(12px) rotate(-2.5deg);
+        transition: transform 480ms cubic-bezier(.18, .9, .25, 1), box-shadow 180ms ease;
+      }
+      html body.is-resource-squirrel-resting .main .squirrel-trail-note { transform: translateY(0) rotate(-2.5deg); }
+      html body .main .squirrel-trail-note small { color: #668278; font-size: 10px; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
+      html body .main .squirrel-trail-note strong { overflow: hidden; color: #255546; font-size: 12px; font-weight: 760; text-overflow: ellipsis; white-space: nowrap; }
+      html body .main .squirrel-trail-note--resume { top: 16%; left: 8%; cursor: pointer; }
+      html body .main .squirrel-trail-note--resume span { display: flex; justify-content: space-between; color: #16755e; font-size: 11px; font-weight: 800; }
+      html body .main .squirrel-trail-note--resume:hover:not(:disabled) { box-shadow: 0 13px 24px rgba(18, 64, 46, .20), inset 0 1px 0 rgba(255, 255, 255, .84); transform: translateY(-3px) rotate(-2.5deg); }
+      html body .main .squirrel-trail-note--resume:disabled { cursor: default; opacity: .74; }
+      html body .main .squirrel-trail-note--today { top: 41%; right: 8%; width: min(160px, 25%); border-radius: 5px 15px 15px 15px; transform: translateY(12px) rotate(2.5deg); }
+      html body.is-resource-squirrel-resting .main .squirrel-trail-note--today { transform: translateY(0) rotate(2.5deg); }
+      html body .main .squirrel-trail-note--nest { bottom: 10%; left: 31%; width: min(178px, 27%); background: linear-gradient(138deg, rgba(236, 249, 232, .82), rgba(217, 238, 210, .68)); transform: translateY(12px) rotate(-.8deg); }
+      html body.is-resource-squirrel-resting .main .squirrel-trail-note--nest { transform: translateY(0) rotate(-.8deg); }
       html body .main .resource-squirrel-toggle {
         position: relative;
         z-index: 2;
@@ -103,18 +144,90 @@
         border: 0;
         background: transparent;
         cursor: pointer;
-        transform: translateX(clamp(40px, 8vw, 150px));
+        -webkit-tap-highlight-color: transparent;
+        -webkit-touch-callout: none;
+        touch-action: pan-y;
+        user-select: none;
+        transform: translateX(calc(clamp(40px, 8vw, 150px) + var(--squirrel-drag-x, 0px)));
         transition: transform 420ms cubic-bezier(.22, .8, .28, 1);
       }
-      html body .main .resource-squirrel-toggle img {
+      html body .main .resource-squirrel-toggle.is-squirrel-dragging { cursor: grabbing; transition: none; }
+      html body .main .resource-squirrel-toggle:focus { outline: none; }
+      html body .main .resource-squirrel-toggle:focus-visible {
+        outline: 3px solid rgba(25, 118, 96, .72);
+        outline-offset: 6px;
+        border-radius: 28px;
+      }
+      html body .main .resource-squirrel-sprite {
         grid-area: 1 / 1;
         width: 100%;
-        height: auto;
+        aspect-ratio: 443 / 532;
+        position: relative;
+        display: block;
+        background: url("assets/archive-squirrel-actions-v1.png?v=20260913-clean") 0 0 / 400% 200% no-repeat;
         filter: drop-shadow(0 18px 22px rgba(16, 56, 49, .18));
         transform-origin: 52% 86%;
-        animation: squirrel-breathe 3.8s ease-in-out infinite;
+        animation: squirrel-idle 4.2s ease-in-out infinite;
+        transition: opacity 150ms ease, transform 250ms ease;
         will-change: transform;
       }
+      /* A full illustration is only revealed for the click reaction.  Keeping
+         it out of normal flow preserves the helper's stable responsive height. */
+      html body .main .resource-squirrel-laugh {
+        position: absolute;
+        right: -7%;
+        bottom: 2%;
+        z-index: 1;
+        display: block;
+        width: 126%;
+        aspect-ratio: 3 / 2;
+        opacity: 0;
+        pointer-events: none;
+        background: url("assets/archive-squirrel-laugh-v1.png?v=20260913-laugh") center / contain no-repeat;
+        filter: drop-shadow(0 15px 19px rgba(16, 56, 49, .18));
+        transform: translateY(15px) rotate(-2deg) scale(.94);
+        transition: opacity 160ms ease, transform 260ms ease;
+      }
+      html body .main .resource-squirrel-nest {
+        position: absolute;
+        z-index: 1;
+        right: -39%;
+        bottom: -3%;
+        display: block;
+        width: 158%;
+        aspect-ratio: 3 / 2;
+        opacity: 0;
+        pointer-events: none;
+        background: url("assets/archive-squirrel-book-nest-v1.png?v=20260913-nest") center / contain no-repeat;
+        filter: drop-shadow(0 14px 18px rgba(16, 56, 49, .16));
+        transform: translateY(16px) scale(.94);
+        transition: opacity 460ms ease, transform 620ms cubic-bezier(.22, .8, .28, 1);
+      }
+      /* The sleeping book nest is a page-corner rest state, not a hero card.
+         It sits outside the draggable squirrel so fixed positioning stays true
+         to the viewport on every device. */
+      html body .resource-squirrel-nest-dock {
+        position: fixed;
+        z-index: 12;
+        right: clamp(12px, 2.2vw, 30px);
+        bottom: max(14px, env(safe-area-inset-bottom));
+        display: block;
+        width: clamp(146px, 14vw, 216px);
+        aspect-ratio: 3 / 2;
+        opacity: 0;
+        pointer-events: none;
+        background: url("assets/archive-squirrel-tree-hollow-nest-v2.png?v=20260913-clean-tree-hollow") center / contain no-repeat;
+        /* Match the standing mascot's light caramel coat; the original sleep
+           pose rendered too red against the green forest wallpaper. */
+        filter: saturate(.86) brightness(1.06) drop-shadow(0 13px 19px rgba(16, 56, 49, .22));
+        transform: translateY(28px) scale(.94);
+        transform-origin: right bottom;
+        transition: opacity 360ms ease, transform 660ms cubic-bezier(.18, .9, .25, 1);
+        will-change: opacity, transform;
+        cursor: default;
+        -webkit-tap-highlight-color: transparent;
+      }
+      html body.is-resource-squirrel-resting .resource-squirrel-nest-dock { opacity: 1; pointer-events: auto; cursor: pointer; transform: translateY(0) scale(1); }
       html body .main .resource-squirrel-callout {
         position: absolute;
         z-index: 3;
@@ -135,49 +248,64 @@
       }
       html body .main .resource-squirrel-callout strong { font-size: 14px; font-weight: 750; }
       html body .main .resource-squirrel-callout small { color: #6f8078; font-size: 11px; }
-      html body .main .resource-squirrel-toggle:hover img { animation-play-state: paused; transform: translateY(-5px) rotate(-1deg) scale(1.02); }
+      html body .main .resource-squirrel-toggle:hover .resource-squirrel-sprite { animation-play-state: paused; transform: translateY(-5px) rotate(-1deg) scale(1.02); }
       html body .main .resource-squirrel-panel {
-        position: absolute;
-        z-index: 5;
-        right: clamp(16px, 3vw, 48px);
-        bottom: 22%;
-        width: min(260px, 72vw);
-        padding: 17px;
-        border: 1px solid rgba(255, 255, 255, .70);
-        border-radius: 20px;
+        position: fixed;
+        z-index: 40;
+        top: 12px;
+        left: 12px;
+        right: auto;
+        bottom: auto;
+        isolation: isolate;
+        width: min(208px, calc(100vw - 24px));
+        padding: 25px 20px 20px;
+        border: 0;
+        border-radius: 0;
         color: #24483f;
-        background: rgba(248, 252, 247, .88);
-        box-shadow: 0 18px 44px rgba(19, 59, 50, .18), inset 0 1px 0 rgba(255, 255, 255, .90);
+        /* Four overlapping soft lobes make the speech bubble read as a cloud,
+           rather than a rounded rectangular dialog. */
+        background:
+          radial-gradient(ellipse 31% 31% at 18% 43%, rgba(250, 253, 247, .97) 98%, transparent 100%),
+          radial-gradient(ellipse 32% 36% at 45% 25%, rgba(250, 253, 247, .97) 98%, transparent 100%),
+          radial-gradient(ellipse 33% 32% at 78% 42%, rgba(250, 253, 247, .97) 98%, transparent 100%),
+          radial-gradient(ellipse 57% 48% at 50% 72%, rgba(250, 253, 247, .97) 98%, transparent 100%);
+        box-shadow: none;
+        filter: drop-shadow(0 13px 22px rgba(19, 59, 50, .18));
         backdrop-filter: blur(18px) saturate(130%);
       }
+      /* Cloud lobes and a small speech tail: attached to the squirrel without
+         allowing the menu to climb back into the announcement above. */
+      html body .main .resource-squirrel-panel::before { position: absolute; z-index: -1; left: -9px; bottom: 36px; width: 24px; height: 24px; border-radius: 7px 2px 7px 2px; background: rgba(250, 253, 247, .97); content: ""; transform: rotate(45deg); }
+      html body .main .resource-squirrel-panel::after { display: none; content: none; }
+      html body .main .resource-squirrel-panel[data-squirrel-panel-side="left"]::before { right: -9px; left: auto; transform: rotate(-45deg); }
       html body .main .resource-squirrel-panel[hidden] { display: none !important; }
-      html body .main .resource-squirrel-panel h2 { margin: 0; font-size: 17px; }
-      html body .main .resource-squirrel-panel p { margin: 5px 0 13px; color: #6c7b74; font-size: 12px; line-height: 1.5; }
-      html body .main .resource-squirrel-actions { display: grid; gap: 8px; }
+      html body .main .resource-squirrel-panel h2 { margin: 0; font-size: 14px; }
+      html body .main .resource-squirrel-panel p { margin: 4px 0 10px; color: #6c7b74; font-size: 11px; line-height: 1.42; }
+      html body .main .resource-squirrel-actions { display: grid; gap: 6px; }
       html body .main .resource-squirrel-actions :is(button, a) {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        min-height: 38px;
-        padding: 0 12px;
+        min-height: 35px;
+        padding: 0 13px;
         border: 1px solid rgba(41, 106, 88, .18);
         border-radius: 11px;
         color: #285a4d;
         background: rgba(255, 255, 255, .62);
         font: inherit;
-        font-size: 12px;
+        font-size: 11px;
         font-weight: 680;
         text-decoration: none;
         cursor: pointer;
       }
-      html body .main .resource-squirrel-actions :is(button, a):first-child { border-color: transparent; color: #fff; background: #187660; }
+      html body .main .resource-squirrel-actions :is(button, a):first-child { border-color: transparent; border-radius: 999px; color: #fff; background: #187660; }
       html body .main .resource-squirrel-close {
         position: absolute;
-        top: 9px;
-        right: 9px;
+        top: 7px;
+        right: 8px;
         display: grid;
-        width: 26px;
-        height: 26px;
+        width: 22px;
+        height: 22px;
         padding: 0;
         border: 0;
         border-radius: 50%;
@@ -186,27 +314,85 @@
         cursor: pointer;
         place-items: center;
       }
-      @media (min-width: 901px) {
-        /* The desktop helper opens into the unused right-hand side of the visual,
-           rather than covering the squirrel itself. */
-        html body .main .resource-squirrel-panel { transform: translateX(clamp(280px, 22vw, 380px)); }
-      }
       @keyframes squirrel-greeting-arrive { from { opacity: 0; transform: translateY(9px) scale(.97); } to { opacity: 1; transform: translateY(0) scale(1); } }
-      @keyframes squirrel-breathe { 0%, 100% { transform: translateY(0) rotate(0deg); } 50% { transform: translateY(-7px) rotate(-1.2deg); } }
-      html body .main .resource-squirrel-toggle[data-squirrel-motion="greeting"] img { animation: squirrel-greet 1.5s cubic-bezier(.22, .8, .28, 1) both; }
-      html body .main .resource-squirrel-toggle[data-squirrel-motion="review"] img { animation: squirrel-review 1.15s ease-in-out both; }
-      html body .main .resource-squirrel-toggle[data-squirrel-motion="search"] img { animation: squirrel-search 1.15s ease-in-out both; }
-      html body .main .resource-squirrel-toggle[data-squirrel-motion="found"] img { animation: squirrel-found 1.25s cubic-bezier(.2, .9, .3, 1) both; }
-      @keyframes squirrel-greet { 0%, 100% { transform: translateY(0) rotate(0deg); } 20% { transform: translateY(-8px) rotate(-3deg); } 44% { transform: translateY(-12px) rotate(2deg); } 67% { transform: translateY(-7px) rotate(-2deg); } }
-      @keyframes squirrel-review { 0%, 100% { transform: translateY(0) rotate(0deg); } 42% { transform: translateY(-4px) rotate(-2.2deg); } 72% { transform: translateY(-2px) rotate(1deg); } }
-      @keyframes squirrel-search { 0%, 100% { transform: translateY(0) rotate(0deg); } 24% { transform: translate(-7px, -4px) rotate(-3deg); } 51% { transform: translate(5px, -7px) rotate(2deg); } 76% { transform: translate(-3px, -3px) rotate(-1deg); } }
-      @keyframes squirrel-found { 0%, 100% { transform: translateY(0) scale(1); } 34% { transform: translateY(-14px) scale(1.025); } 57% { transform: translateY(-3px) scale(1.01); } 76% { transform: translateY(-8px) scale(1.018); } }
+      @keyframes squirrel-idle { 0%, 100% { transform: translateY(0) rotate(0deg); } 38% { transform: translateY(-4px) rotate(-.7deg); } 55% { transform: translateY(-2px) rotate(.4deg); } }
+      @keyframes squirrel-action-pop { 0% { opacity: .72; transform: translateY(4px) scale(.965); } 52% { opacity: 1; transform: translateY(-8px) scale(1.025); } 100% { opacity: 1; transform: translateY(0) scale(1); } }
+      @keyframes squirrel-laugh-arrive { 0% { opacity: 0; transform: translateY(16px) rotate(-5deg) scale(.91); } 40% { opacity: 1; transform: translateY(-7px) rotate(1.5deg) scale(1.025); } 67% { transform: translateY(-2px) rotate(-1.5deg) scale(.995); } 100% { opacity: 1; transform: translateY(0) rotate(0deg) scale(1); } }
+      @keyframes squirrel-nest-breathe { 0%, 100% { transform: translateY(0) scale(1); } 50% { transform: translateY(-3px) scale(1.012); } }
+      @keyframes squirrel-walk-right { 0%, 47% { background-position: 0 0; transform: translateY(-4px) rotate(-1.2deg) scale(1.01); } 48%, 100% { background-position: 66.666% 0; transform: translateY(1px) rotate(1.1deg) scale(.995); } }
+      @keyframes squirrel-walk-left { 0%, 47% { background-position: 0 0; transform: scaleX(-1) translateY(-4px) rotate(-1.2deg) scale(1.01); } 48%, 100% { background-position: 66.666% 0; transform: scaleX(-1) translateY(1px) rotate(1.1deg) scale(.995); } }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="greeting"] .resource-squirrel-sprite { background-position: 33.333% 0; animation: squirrel-action-pop 900ms cubic-bezier(.22, .8, .28, 1) both; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="hover"] .resource-squirrel-sprite { background-position: 66.666% 0; animation: squirrel-action-pop 640ms cubic-bezier(.22, .8, .28, 1) both; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="open"] .resource-squirrel-sprite { background-position: 100% 0; animation: squirrel-action-pop 900ms cubic-bezier(.22, .8, .28, 1) both; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="search"] .resource-squirrel-sprite { background-position: 0 100%; animation: squirrel-action-pop 900ms ease-in-out both; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="found"] .resource-squirrel-sprite { background-position: 33.333% 100%; animation: squirrel-action-pop 900ms cubic-bezier(.2, .9, .3, 1) both; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="empty"] .resource-squirrel-sprite { background-position: 66.666% 100%; animation: squirrel-action-pop 900ms ease-in-out both; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="late-night"] .resource-squirrel-sprite { background-position: 100% 100%; animation: squirrel-action-pop 1050ms ease-in-out both; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="laugh"] .resource-squirrel-sprite { opacity: 0; transform: translateY(6px) scale(.96); animation: none; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="laugh"] .resource-squirrel-laugh { opacity: 1; animation: squirrel-laugh-arrive 1050ms cubic-bezier(.22, .8, .28, 1) both; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="nest"] .resource-squirrel-sprite { opacity: 0; transform: translateY(9px) scale(.94); animation: none; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="nest"] .resource-squirrel-nest { opacity: 1; animation: squirrel-nest-breathe 4.8s ease-in-out infinite; }
+      html body .main .resource-squirrel-toggle[data-squirrel-motion="nest"] .resource-squirrel-callout { opacity: 0; transform: translateY(7px) scale(.96); animation: none; }
+      html body .main .resource-squirrel-toggle[data-squirrel-walk="right"] .resource-squirrel-sprite { background-position: 0 0; animation: squirrel-walk-right 430ms steps(1, end) infinite; }
+      html body .main .resource-squirrel-toggle[data-squirrel-walk="left"] .resource-squirrel-sprite { background-position: 0 0; animation: squirrel-walk-left 430ms steps(1, end) infinite; }
+      /* The gallery squirrels are intentionally decorative: they only surface
+         at the bottom of their own section and never receive pointer events. */
+      html body .main .section-block:has(.squirrel-gallery-stop) { overflow: hidden !important; }
+      html body .main .squirrel-gallery-stop {
+        position: relative;
+        height: clamp(110px, 10vw, 152px);
+        margin: 0 clamp(16px, 3vw, 38px);
+        pointer-events: none;
+      }
+      html body .main .squirrel-gallery-stop::before {
+        position: absolute;
+        right: 3%;
+        bottom: 10px;
+        width: clamp(96px, 12vw, 150px);
+        height: 18px;
+        border-radius: 50%;
+        opacity: 0;
+        background: radial-gradient(ellipse, rgba(20, 65, 48, .22), transparent 68%);
+        content: "";
+        filter: blur(5px);
+        transform: scale(.72);
+        transition: opacity 380ms ease, transform 620ms cubic-bezier(.22, .8, .28, 1);
+      }
+      html body .main .squirrel-gallery-mascot {
+        position: absolute;
+        right: 0;
+        bottom: -8px;
+        display: block;
+        width: clamp(130px, 14vw, 190px);
+        height: clamp(130px, 14vw, 190px);
+        opacity: 0;
+        background: center bottom / contain no-repeat;
+        filter: drop-shadow(0 11px 13px rgba(20, 67, 49, .18));
+        transform: translateY(52px) rotate(2deg) scale(.95);
+        transform-origin: 70% 100%;
+        transition: opacity 340ms ease, transform 760ms cubic-bezier(.18, .9, .24, 1);
+        will-change: transform, opacity;
+      }
+      html body .main .squirrel-gallery-stop--civil .squirrel-gallery-mascot { background-image: url("assets/archive-squirrel-tour-civil-v1.png?v=20260913-tour"); }
+      html body .main .squirrel-gallery-stop--teacher .squirrel-gallery-mascot { background-image: url("assets/archive-squirrel-tour-teacher-v2.png?v=20260913-alpha"); }
+      html body .main .squirrel-gallery-stop--books .squirrel-gallery-mascot { background-image: url("assets/archive-squirrel-tour-books-v2.png?v=20260913-alpha"); }
+      html body .main .squirrel-gallery-stop.is-squirrel-gallery-visible::before { opacity: 1; transform: scale(1); }
+      html body .main .squirrel-gallery-stop.is-squirrel-gallery-visible .squirrel-gallery-mascot { opacity: 1; transform: translateY(0) rotate(0deg) scale(1); }
       @media (max-width: 600px) {
-        html body .main .resource-squirrel-toggle { margin-right: 8px; margin-bottom: 0; transform: translateX(28px); }
+        html body .main .resource-squirrel-toggle { margin-right: 8px; margin-bottom: 0; transform: translateX(calc(28px + var(--squirrel-drag-x, 0px))); }
         html body .main .resource-squirrel-callout { top: 7%; left: -42%; min-width: 118px; padding: 8px 10px; }
         html body .main .resource-squirrel-callout strong { font-size: 12px; }
         html body .main .resource-squirrel-callout small { font-size: 10px; }
-        html body .main .resource-squirrel-panel { right: 10px; bottom: 112px; width: min(260px, calc(100% - 20px)); }
+        html body .main .resource-squirrel-panel { width: min(208px, calc(100vw - 20px)); }
+        html body .main .squirrel-trail-note { width: min(154px, 44%); min-height: 52px; padding: 8px 10px; }
+        html body .main .squirrel-trail-note strong { font-size: 11px; }
+        html body .main .squirrel-trail-note--resume { top: 10%; left: 5%; }
+        html body .main .squirrel-trail-note--today { top: 39%; right: 5%; width: min(136px, 39%); }
+        html body .main .squirrel-trail-note--nest { bottom: 8%; left: 21%; width: min(150px, 42%); }
+        html body .resource-squirrel-nest-dock { right: 8px; bottom: max(9px, env(safe-area-inset-bottom)); width: 132px; }
+        html body .main .squirrel-gallery-stop { height: 96px; margin: 0 12px; }
+        html body .main .squirrel-gallery-stop::before { right: 0; bottom: 7px; width: 92px; }
+        html body .main .squirrel-gallery-mascot { right: -2px; bottom: -5px; width: 126px; height: 126px; }
       }
       /* Small screens often rasterise stacked backdrop filters as a soft image.
          Use an opaque-enough reading surface and the device's native CJK font. */
@@ -362,7 +548,7 @@
         backdrop-filter: blur(32px) saturate(132%) !important;
       }
       html body:not(.theme-light).has-static-wallpaper .main .overview-block .overview-card { background: rgba(24, 68, 52, .58) !important; }
-      @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-toggle img, html body .main .resource-squirrel-toggle[data-squirrel-motion] img { animation: none !important; } }
+      @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-sprite, html body .main .resource-squirrel-laugh, html body .main .resource-squirrel-nest, html body .main .resource-squirrel-toggle[data-squirrel-motion] .resource-squirrel-sprite { animation: none !important; } html body .resource-squirrel-nest-dock, html body .main .squirrel-gallery-stop::before, html body .main .squirrel-gallery-mascot { transition: none !important; } }
     </style>
   </head>
   <body class="theme-light has-static-wallpaper">
@@ -444,17 +630,31 @@
             <section class="resource-squirrel-stage" aria-label="资料松鼠助手">
               <button id="resourceSquirrelToggle" class="resource-squirrel-toggle" type="button" aria-expanded="false" aria-controls="resourceSquirrelPanel">
                 <span class="resource-squirrel-callout"><strong id="resourceSquirrelGreeting" aria-live="polite">你好，我是资料松鼠</strong><small id="resourceSquirrelGreetingNote">我帮你翻资料柜</small></span>
-                <img src="assets/archive-squirrel-v1.webp" width="480" height="576" alt="抱着资料夹的资料松鼠" loading="lazy" decoding="async" />
+                <span class="resource-squirrel-sprite" role="img" aria-label="抱着资料夹的资料松鼠"></span>
+                <span class="resource-squirrel-laugh" role="img" aria-label="躺在地上大笑的资料松鼠"></span>
               </button>
               <aside id="resourceSquirrelPanel" class="resource-squirrel-panel" aria-label="资料松鼠助手菜单" hidden>
                 <button class="resource-squirrel-close" type="button" aria-label="关闭资料松鼠助手">×</button>
                 <h2>资料松鼠在这儿</h2>
-                <p>想找资料、浏览分类或打开总目录，我来带路。</p>
+                <p>要找什么资料？我带你从搜索开始。</p>
                 <div class="resource-squirrel-actions">
-                  <button id="resourceSquirrelSearch" type="button">帮我找资料 <span>→</span></button>
-                  <a href="#resourceSections">浏览全部资料 <span>→</span></a>
-                  <a href="https://di0occkvoyb.feishu.cn/wiki/MNt9w7LfeiXi5Xkvj0gcOo8Cnfs" target="_blank" rel="noopener noreferrer">打开飞书总目录 <span>↗</span></a>
+                  <button id="resourceSquirrelSearch" type="button">带我去找资料 <span>→</span></button>
                 </div>
+              </aside>
+              <aside class="resource-squirrel-trails" aria-label="资料足迹">
+                <button id="resourceSquirrelTrailResume" class="squirrel-trail-note squirrel-trail-note--resume" type="button">
+                  <small>资料足迹</small>
+                  <strong id="resourceSquirrelTrailTitle">下次浏览的资料会留在这里</strong>
+                  <span>继续查看 <b aria-hidden="true">→</b></span>
+                </button>
+                <span class="squirrel-trail-note squirrel-trail-note--today">
+                  <small>资料小报</small>
+                  <strong id="resourceSquirrelTrailToday">今日资料持续整理</strong>
+                </span>
+                <span class="squirrel-trail-note squirrel-trail-note--nest">
+                  <small>树洞书签</small>
+                  <strong>松鼠回来前，书签替你看着</strong>
+                </span>
               </aside>
             </section>
           </div>
@@ -514,6 +714,8 @@
         </section>
       </main>
     </div>
+
+    <span id="resourceSquirrelNestDock" class="resource-squirrel-nest-dock" role="button" tabindex="-1" aria-label="在树洞书窝休息的资料松鼠，点击回到页面顶部"></span>
 
     <div id="searchWelcomeModal" class="search-welcome-modal is-hidden" role="dialog" aria-modal="true" aria-labelledby="searchWelcomeTitle">
       <div class="search-welcome-card">
@@ -583,7 +785,7 @@
           .catch(function () {});
       })();
     </script>    <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20260910-site-presence-v1"></script>
+    <script src="app.js?v=20260913-squirrel-trails"></script>
   </body>
 </html>
 
