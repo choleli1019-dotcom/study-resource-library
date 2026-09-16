@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-09-16T02:39:27.304Z",
+  "generatedAt": "2026-09-16T03:06:41.524Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -9,9 +9,9 @@ window.PAN_SEARCH_DATA = {
       "total": 1240
     },
     "unique": {
-      "quark": 1076,
+      "quark": 1078,
       "baidu": 556,
-      "total": 1632
+      "total": 1634
     },
     "duplicate": {
       "quark": 0,
@@ -1144,10 +1144,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r64",
       "title": "2027】花生十三（飞扬）合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/b2a997de1abf",
+      "url": "https://pan.quark.cn/s/473041099e77",
       "code": "",
       "section": "公考类",
-      "context": "2027】花生十三（飞扬）合集 链接：https://pan.quark.cn/s/b2a997de1abf",
+      "context": "2027】花生十三（飞扬）合集 链接：https://pan.quark.cn/s/473041099e77",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1155,16 +1155,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027】花生十三（飞扬）合集 公考类 2027】花生十三（飞扬）合集 链接：https://pan.quark.cn/s/b2a997de1abf quark https://pan.quark.cn/s/b2a997de1abf"
+      "searchText": "2027】花生十三（飞扬）合集 公考类 2027】花生十三（飞扬）合集 链接：https://pan.quark.cn/s/473041099e77 quark https://pan.quark.cn/s/473041099e77"
     },
     {
       "id": "r65",
       "title": "刷题】花生十三刷题合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/137df38238bb",
+      "url": "https://pan.quark.cn/s/b40fdad6c770",
       "code": "",
       "section": "公考类",
-      "context": "刷题】花生十三刷题合集 链接：https://pan.quark.cn/s/137df38238bb",
+      "context": "刷题】花生十三刷题合集 链接：https://pan.quark.cn/s/b40fdad6c770",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1172,7 +1172,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "刷题】花生十三刷题合集 公考类 刷题】花生十三刷题合集 链接：https://pan.quark.cn/s/137df38238bb quark https://pan.quark.cn/s/137df38238bb"
+      "searchText": "刷题】花生十三刷题合集 公考类 刷题】花生十三刷题合集 链接：https://pan.quark.cn/s/b40fdad6c770 quark https://pan.quark.cn/s/b40fdad6c770"
     },
     {
       "id": "r66",
@@ -1195,10 +1195,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r67",
       "title": "成语】花生十三成语合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/23ac123afaf7",
+      "url": "https://pan.quark.cn/s/f2a4ef35462c",
       "code": "",
       "section": "公考类",
-      "context": "成语】花生十三成语合集 链接：https://pan.quark.cn/s/23ac123afaf7",
+      "context": "成语】花生十三成语合集 链接：https://pan.quark.cn/s/f2a4ef35462c",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1206,16 +1206,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "成语】花生十三成语合集 公考类 成语】花生十三成语合集 链接：https://pan.quark.cn/s/23ac123afaf7 quark https://pan.quark.cn/s/23ac123afaf7"
+      "searchText": "成语】花生十三成语合集 公考类 成语】花生十三成语合集 链接：https://pan.quark.cn/s/f2a4ef35462c quark https://pan.quark.cn/s/f2a4ef35462c"
     },
     {
       "id": "r68",
       "title": "2021】花生十三（黑白画风精炼版）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/7934b87acb31",
+      "url": "https://pan.quark.cn/s/fd98792d9294",
       "code": "",
       "section": "公考类",
-      "context": "2021】花生十三（黑白画风精炼版） 链接：https://pan.quark.cn/s/7934b87acb31",
+      "context": "2021】花生十三（黑白画风精炼版） 链接：https://pan.quark.cn/s/fd98792d9294",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1223,7 +1223,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2021】花生十三（黑白画风精炼版） 公考类 2021】花生十三（黑白画风精炼版） 链接：https://pan.quark.cn/s/7934b87acb31 quark https://pan.quark.cn/s/7934b87acb31"
+      "searchText": "2021】花生十三（黑白画风精炼版） 公考类 2021】花生十三（黑白画风精炼版） 链接：https://pan.quark.cn/s/fd98792d9294 quark https://pan.quark.cn/s/fd98792d9294"
     },
     {
       "id": "r69",
@@ -1280,10 +1280,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r72",
       "title": "线下绝版】花生十三线下绝版课(必看)",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/55e62f461a8a",
+      "url": "https://pan.quark.cn/s/75081ba81c35",
       "code": "",
       "section": "公考类",
-      "context": "线下绝版】花生十三线下绝版课(必看) 链接：https://pan.quark.cn/s/55e62f461a8a",
+      "context": "线下绝版】花生十三线下绝版课(必看) 链接：https://pan.quark.cn/s/75081ba81c35",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1291,16 +1291,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "线下绝版】花生十三线下绝版课(必看) 公考类 线下绝版】花生十三线下绝版课(必看) 链接：https://pan.quark.cn/s/55e62f461a8a quark https://pan.quark.cn/s/55e62f461a8a"
+      "searchText": "线下绝版】花生十三线下绝版课(必看) 公考类 线下绝版】花生十三线下绝版课(必看) 链接：https://pan.quark.cn/s/75081ba81c35 quark https://pan.quark.cn/s/75081ba81c35"
     },
     {
       "id": "r73",
       "title": "2027国省考季花生十三飞扬系统班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/a7966bd8b343",
+      "url": "https://pan.quark.cn/s/0d95c94f7fb6",
       "code": "",
       "section": "公考类",
-      "context": "2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/a7966bd8b343",
+      "context": "2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/0d95c94f7fb6",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1308,16 +1308,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省考季花生十三飞扬系统班 公考类 2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/a7966bd8b343 quark https://pan.quark.cn/s/a7966bd8b343"
+      "searchText": "2027国省考季花生十三飞扬系统班 公考类 2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/0d95c94f7fb6 quark https://pan.quark.cn/s/0d95c94f7fb6"
     },
     {
       "id": "r74",
       "title": "2027国省事考花生十三行测600题精讲课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/9f3271821c94",
+      "url": "https://pan.quark.cn/s/07adb08e671b",
       "code": "",
       "section": "公考类",
-      "context": "2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/9f3271821c94",
+      "context": "2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/07adb08e671b",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1325,7 +1325,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省事考花生十三行测600题精讲课 公考类 2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/9f3271821c94 quark https://pan.quark.cn/s/9f3271821c94"
+      "searchText": "2027国省事考花生十三行测600题精讲课 公考类 2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/07adb08e671b quark https://pan.quark.cn/s/07adb08e671b"
     },
     {
       "id": "r75",
@@ -1484,10 +1484,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r84",
       "title": "事业单位】2026上半年花生十三飞扬事业单位联考A类套题冲刺班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/9852cba2d59d",
+      "url": "https://pan.quark.cn/s/c38fe66baf95",
       "code": "",
       "section": "事业单位",
-      "context": "事业单位】2026上半年花生十三飞扬事业单位联考A类套题冲刺班 链接：https://pan.quark.cn/s/9852cba2d59d",
+      "context": "事业单位】2026上半年花生十三飞扬事业单位联考A类套题冲刺班 链接：https://pan.quark.cn/s/c38fe66baf95",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1495,16 +1495,16 @@ window.PAN_SEARCH_DATA = {
           "section": "事业单位"
         }
       ],
-      "searchText": "事业单位】2026上半年花生十三飞扬事业单位联考A类套题冲刺班 事业单位 事业单位】2026上半年花生十三飞扬事业单位联考A类套题冲刺班 链接：https://pan.quark.cn/s/9852cba2d59d quark https://pan.quark.cn/s/9852cba2d59d"
+      "searchText": "事业单位】2026上半年花生十三飞扬事业单位联考A类套题冲刺班 事业单位 事业单位】2026上半年花生十三飞扬事业单位联考A类套题冲刺班 链接：https://pan.quark.cn/s/c38fe66baf95 quark https://pan.quark.cn/s/c38fe66baf95"
     },
     {
       "id": "r85",
       "title": "套题班】2026年省考花生十三飞扬套题班2期",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/34f7e9543c2d",
+      "url": "https://pan.quark.cn/s/6a44319acf5b",
       "code": "",
       "section": "公考类",
-      "context": "套题班】2026年省考花生十三飞扬套题班2期 链接：https://pan.quark.cn/s/34f7e9543c2d",
+      "context": "套题班】2026年省考花生十三飞扬套题班2期 链接：https://pan.quark.cn/s/6a44319acf5b",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1512,16 +1512,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "套题班】2026年省考花生十三飞扬套题班2期 公考类 套题班】2026年省考花生十三飞扬套题班2期 链接：https://pan.quark.cn/s/34f7e9543c2d quark https://pan.quark.cn/s/34f7e9543c2d"
+      "searchText": "套题班】2026年省考花生十三飞扬套题班2期 公考类 套题班】2026年省考花生十三飞扬套题班2期 链接：https://pan.quark.cn/s/6a44319acf5b quark https://pan.quark.cn/s/6a44319acf5b"
     },
     {
       "id": "r86",
       "title": "申论】2026省考飞扬申论热点梳理",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/b6cdd0444c67",
+      "url": "https://pan.quark.cn/s/92a074a2bfd8",
       "code": "",
       "section": "公考类",
-      "context": "申论】2026省考飞扬申论热点梳理 链接：https://pan.quark.cn/s/b6cdd0444c67",
+      "context": "申论】2026省考飞扬申论热点梳理 链接：https://pan.quark.cn/s/92a074a2bfd8",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1529,16 +1529,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "申论】2026省考飞扬申论热点梳理 公考类 申论】2026省考飞扬申论热点梳理 链接：https://pan.quark.cn/s/b6cdd0444c67 quark https://pan.quark.cn/s/b6cdd0444c67"
+      "searchText": "申论】2026省考飞扬申论热点梳理 公考类 申论】2026省考飞扬申论热点梳理 链接：https://pan.quark.cn/s/92a074a2bfd8 quark https://pan.quark.cn/s/92a074a2bfd8"
     },
     {
       "id": "r87",
       "title": "申论】2026年省考飞扬申论大作文题早课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/07dadae8eca3",
+      "url": "https://pan.quark.cn/s/483f6118d2d5",
       "code": "",
       "section": "公考类",
-      "context": "申论】2026年省考飞扬申论大作文题早课 链接：https://pan.quark.cn/s/07dadae8eca3",
+      "context": "申论】2026年省考飞扬申论大作文题早课 链接：https://pan.quark.cn/s/483f6118d2d5",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1546,16 +1546,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "申论】2026年省考飞扬申论大作文题早课 公考类 申论】2026年省考飞扬申论大作文题早课 链接：https://pan.quark.cn/s/07dadae8eca3 quark https://pan.quark.cn/s/07dadae8eca3"
+      "searchText": "申论】2026年省考飞扬申论大作文题早课 公考类 申论】2026年省考飞扬申论大作文题早课 链接：https://pan.quark.cn/s/483f6118d2d5 quark https://pan.quark.cn/s/483f6118d2d5"
     },
     {
       "id": "r88",
       "title": "套题班】2026年省考花生十三飞扬套题班1期",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/16eebbae0844",
+      "url": "https://pan.quark.cn/s/3a2d72117c7c",
       "code": "",
       "section": "公考类",
-      "context": "套题班】2026年省考花生十三飞扬套题班1期 链接：https://pan.quark.cn/s/16eebbae0844",
+      "context": "套题班】2026年省考花生十三飞扬套题班1期 链接：https://pan.quark.cn/s/3a2d72117c7c",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1563,16 +1563,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "套题班】2026年省考花生十三飞扬套题班1期 公考类 套题班】2026年省考花生十三飞扬套题班1期 链接：https://pan.quark.cn/s/16eebbae0844 quark https://pan.quark.cn/s/16eebbae0844"
+      "searchText": "套题班】2026年省考花生十三飞扬套题班1期 公考类 套题班】2026年省考花生十三飞扬套题班1期 链接：https://pan.quark.cn/s/3a2d72117c7c quark https://pan.quark.cn/s/3a2d72117c7c"
     },
     {
       "id": "r89",
       "title": "申论】2026年省考飞扬申论分析理解题早课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/1902d1a45495",
+      "url": "https://pan.quark.cn/s/793c0445130f",
       "code": "",
       "section": "公考类",
-      "context": "申论】2026年省考飞扬申论分析理解题早课 链接：https://pan.quark.cn/s/1902d1a45495",
+      "context": "申论】2026年省考飞扬申论分析理解题早课 链接：https://pan.quark.cn/s/793c0445130f",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1580,16 +1580,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "申论】2026年省考飞扬申论分析理解题早课 公考类 申论】2026年省考飞扬申论分析理解题早课 链接：https://pan.quark.cn/s/1902d1a45495 quark https://pan.quark.cn/s/1902d1a45495"
+      "searchText": "申论】2026年省考飞扬申论分析理解题早课 公考类 申论】2026年省考飞扬申论分析理解题早课 链接：https://pan.quark.cn/s/793c0445130f quark https://pan.quark.cn/s/793c0445130f"
     },
     {
       "id": "r90",
       "title": "申论】2026年省考飞扬申论提出对策题早课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/6eb780693e53",
+      "url": "https://pan.quark.cn/s/c3fedf01d52a",
       "code": "",
       "section": "公考类",
-      "context": "申论】2026年省考飞扬申论提出对策题早课 链接：https://pan.quark.cn/s/6eb780693e53",
+      "context": "申论】2026年省考飞扬申论提出对策题早课 链接：https://pan.quark.cn/s/c3fedf01d52a",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1597,16 +1597,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "申论】2026年省考飞扬申论提出对策题早课 公考类 申论】2026年省考飞扬申论提出对策题早课 链接：https://pan.quark.cn/s/6eb780693e53 quark https://pan.quark.cn/s/6eb780693e53"
+      "searchText": "申论】2026年省考飞扬申论提出对策题早课 公考类 申论】2026年省考飞扬申论提出对策题早课 链接：https://pan.quark.cn/s/c3fedf01d52a quark https://pan.quark.cn/s/c3fedf01d52a"
     },
     {
       "id": "r91",
       "title": "刷题班】2026年省考四海行测2000题海海刷",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/bf380cd9cd8f",
+      "url": "https://pan.quark.cn/s/102f33cb1212",
       "code": "",
       "section": "公考类",
-      "context": "刷题班】2026年省考四海行测2000题海海刷 链接：https://pan.quark.cn/s/bf380cd9cd8f",
+      "context": "刷题班】2026年省考四海行测2000题海海刷 链接：https://pan.quark.cn/s/102f33cb1212",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1614,16 +1614,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "刷题班】2026年省考四海行测2000题海海刷 公考类 刷题班】2026年省考四海行测2000题海海刷 链接：https://pan.quark.cn/s/bf380cd9cd8f quark https://pan.quark.cn/s/bf380cd9cd8f"
+      "searchText": "刷题班】2026年省考四海行测2000题海海刷 公考类 刷题班】2026年省考四海行测2000题海海刷 链接：https://pan.quark.cn/s/102f33cb1212 quark https://pan.quark.cn/s/102f33cb1212"
     },
     {
       "id": "r92",
       "title": "成语】花生十三成语合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/23ac123afaf7",
+      "url": "https://pan.quark.cn/s/f2a4ef35462c",
       "code": "",
       "section": "公考类",
-      "context": "成语】花生十三成语合集 链接：https://pan.quark.cn/s/23ac123afaf7",
+      "context": "成语】花生十三成语合集 链接：https://pan.quark.cn/s/f2a4ef35462c",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1631,16 +1631,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "成语】花生十三成语合集 公考类 成语】花生十三成语合集 链接：https://pan.quark.cn/s/23ac123afaf7 quark https://pan.quark.cn/s/23ac123afaf7"
+      "searchText": "成语】花生十三成语合集 公考类 成语】花生十三成语合集 链接：https://pan.quark.cn/s/f2a4ef35462c quark https://pan.quark.cn/s/f2a4ef35462c"
     },
     {
       "id": "r93",
       "title": "申论】2026年省考飞扬申论归纳概括题早课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/aa213902ccad",
+      "url": "https://pan.quark.cn/s/67b9a10ee059",
       "code": "",
       "section": "公考类",
-      "context": "申论】2026年省考飞扬申论归纳概括题早课 链接：https://pan.quark.cn/s/aa213902ccad",
+      "context": "申论】2026年省考飞扬申论归纳概括题早课 链接：https://pan.quark.cn/s/67b9a10ee059",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1648,16 +1648,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "申论】2026年省考飞扬申论归纳概括题早课 公考类 申论】2026年省考飞扬申论归纳概括题早课 链接：https://pan.quark.cn/s/aa213902ccad quark https://pan.quark.cn/s/aa213902ccad"
+      "searchText": "申论】2026年省考飞扬申论归纳概括题早课 公考类 申论】2026年省考飞扬申论归纳概括题早课 链接：https://pan.quark.cn/s/67b9a10ee059 quark https://pan.quark.cn/s/67b9a10ee059"
     },
     {
       "id": "r94",
       "title": "刷题】2026四海拾伊资料分析600题",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/35208bd7cf35",
+      "url": "https://pan.quark.cn/s/9bfac5f605e8",
       "code": "",
       "section": "公考类",
-      "context": "刷题】2026四海拾伊资料分析600题 链接：https://pan.quark.cn/s/35208bd7cf35",
+      "context": "刷题】2026四海拾伊资料分析600题 链接：https://pan.quark.cn/s/9bfac5f605e8",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1665,16 +1665,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "刷题】2026四海拾伊资料分析600题 公考类 刷题】2026四海拾伊资料分析600题 链接：https://pan.quark.cn/s/35208bd7cf35 quark https://pan.quark.cn/s/35208bd7cf35"
+      "searchText": "刷题】2026四海拾伊资料分析600题 公考类 刷题】2026四海拾伊资料分析600题 链接：https://pan.quark.cn/s/9bfac5f605e8 quark https://pan.quark.cn/s/9bfac5f605e8"
     },
     {
       "id": "r95",
       "title": "套题班】2026年花生十三飞扬行测申论套题二期",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/ba4f1d83fc6a",
+      "url": "https://pan.quark.cn/s/39a7d7ec047d",
       "code": "",
       "section": "公考类",
-      "context": "套题班】2026年花生十三飞扬行测申论套题二期 链接：https://pan.quark.cn/s/ba4f1d83fc6a",
+      "context": "套题班】2026年花生十三飞扬行测申论套题二期 链接：https://pan.quark.cn/s/39a7d7ec047d",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1682,16 +1682,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "套题班】2026年花生十三飞扬行测申论套题二期 公考类 套题班】2026年花生十三飞扬行测申论套题二期 链接：https://pan.quark.cn/s/ba4f1d83fc6a quark https://pan.quark.cn/s/ba4f1d83fc6a"
+      "searchText": "套题班】2026年花生十三飞扬行测申论套题二期 公考类 套题班】2026年花生十三飞扬行测申论套题二期 链接：https://pan.quark.cn/s/39a7d7ec047d quark https://pan.quark.cn/s/39a7d7ec047d"
     },
     {
       "id": "r96",
       "title": "申论】2026国考飞扬申论热点梳理",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/b4906281447e",
+      "url": "https://pan.quark.cn/s/9f325c439094",
       "code": "",
       "section": "公考类",
-      "context": "申论】2026国考飞扬申论热点梳理 链接：https://pan.quark.cn/s/b4906281447e",
+      "context": "申论】2026国考飞扬申论热点梳理 链接：https://pan.quark.cn/s/9f325c439094",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1699,16 +1699,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "申论】2026国考飞扬申论热点梳理 公考类 申论】2026国考飞扬申论热点梳理 链接：https://pan.quark.cn/s/b4906281447e quark https://pan.quark.cn/s/b4906281447e"
+      "searchText": "申论】2026国考飞扬申论热点梳理 公考类 申论】2026国考飞扬申论热点梳理 链接：https://pan.quark.cn/s/9f325c439094 quark https://pan.quark.cn/s/9f325c439094"
     },
     {
       "id": "r97",
       "title": "时政】2026四海国考时政考前冲刺",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/d9f140189004",
+      "url": "https://pan.quark.cn/s/51a968b397da",
       "code": "",
       "section": "公考类",
-      "context": "时政】2026四海国考时政考前冲刺 链接：https://pan.quark.cn/s/d9f140189004",
+      "context": "时政】2026四海国考时政考前冲刺 链接：https://pan.quark.cn/s/51a968b397da",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1716,16 +1716,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "时政】2026四海国考时政考前冲刺 公考类 时政】2026四海国考时政考前冲刺 链接：https://pan.quark.cn/s/d9f140189004 quark https://pan.quark.cn/s/d9f140189004"
+      "searchText": "时政】2026四海国考时政考前冲刺 公考类 时政】2026四海国考时政考前冲刺 链接：https://pan.quark.cn/s/51a968b397da quark https://pan.quark.cn/s/51a968b397da"
     },
     {
       "id": "r98",
       "title": "申论】2026年飞扬申论综合题早课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/50824924f3ba",
+      "url": "https://pan.quark.cn/s/b7ff7557d891",
       "code": "",
       "section": "公考类",
-      "context": "申论】2026年飞扬申论综合题早课 链接：https://pan.quark.cn/s/50824924f3ba",
+      "context": "申论】2026年飞扬申论综合题早课 链接：https://pan.quark.cn/s/b7ff7557d891",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1733,16 +1733,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "申论】2026年飞扬申论综合题早课 公考类 申论】2026年飞扬申论综合题早课 链接：https://pan.quark.cn/s/50824924f3ba quark https://pan.quark.cn/s/50824924f3ba"
+      "searchText": "申论】2026年飞扬申论综合题早课 公考类 申论】2026年飞扬申论综合题早课 链接：https://pan.quark.cn/s/b7ff7557d891 quark https://pan.quark.cn/s/b7ff7557d891"
     },
     {
       "id": "r99",
       "title": "申论】2026年国考飞扬申论考前冲刺课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/31714e509d4f",
+      "url": "https://pan.quark.cn/s/e517df662564",
       "code": "",
       "section": "公考类",
-      "context": "申论】2026年国考飞扬申论考前冲刺课 链接：https://pan.quark.cn/s/31714e509d4f",
+      "context": "申论】2026年国考飞扬申论考前冲刺课 链接：https://pan.quark.cn/s/e517df662564",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1750,16 +1750,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "申论】2026年国考飞扬申论考前冲刺课 公考类 申论】2026年国考飞扬申论考前冲刺课 链接：https://pan.quark.cn/s/31714e509d4f quark https://pan.quark.cn/s/31714e509d4f"
+      "searchText": "申论】2026年国考飞扬申论考前冲刺课 公考类 申论】2026年国考飞扬申论考前冲刺课 链接：https://pan.quark.cn/s/e517df662564 quark https://pan.quark.cn/s/e517df662564"
     },
     {
       "id": "r100",
       "title": "花生十三行测错题集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/454babfad4ae",
+      "url": "https://pan.quark.cn/s/b43a45bb8793",
       "code": "",
       "section": "公考类",
-      "context": "花生十三行测错题集 链接：https://pan.quark.cn/s/454babfad4ae",
+      "context": "花生十三行测错题集 链接：https://pan.quark.cn/s/b43a45bb8793",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1767,16 +1767,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "花生十三行测错题集 公考类 花生十三行测错题集 链接：https://pan.quark.cn/s/454babfad4ae quark https://pan.quark.cn/s/454babfad4ae"
+      "searchText": "花生十三行测错题集 公考类 花生十三行测错题集 链接：https://pan.quark.cn/s/b43a45bb8793 quark https://pan.quark.cn/s/b43a45bb8793"
     },
     {
       "id": "r101",
       "title": "计划表】2026花生十三百日计划表",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/41de19c25be1",
+      "url": "https://pan.quark.cn/s/3f321272b31f",
       "code": "",
       "section": "公考类",
-      "context": "计划表】2026花生十三百日计划表 链接：https://pan.quark.cn/s/41de19c25be1",
+      "context": "计划表】2026花生十三百日计划表 链接：https://pan.quark.cn/s/3f321272b31f",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1784,7 +1784,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "计划表】2026花生十三百日计划表 公考类 计划表】2026花生十三百日计划表 链接：https://pan.quark.cn/s/41de19c25be1 quark https://pan.quark.cn/s/41de19c25be1"
+      "searchText": "计划表】2026花生十三百日计划表 公考类 计划表】2026花生十三百日计划表 链接：https://pan.quark.cn/s/3f321272b31f quark https://pan.quark.cn/s/3f321272b31f"
     },
     {
       "id": "r102",
@@ -1807,10 +1807,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r103",
       "title": "申论】2026年飞扬申论大作文早课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/72acfedf9484",
+      "url": "https://pan.quark.cn/s/bc90bd49917b",
       "code": "",
       "section": "公考类",
-      "context": "申论】2026年飞扬申论大作文早课 链接：https://pan.quark.cn/s/72acfedf9484",
+      "context": "申论】2026年飞扬申论大作文早课 链接：https://pan.quark.cn/s/bc90bd49917b",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1818,16 +1818,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "申论】2026年飞扬申论大作文早课 公考类 申论】2026年飞扬申论大作文早课 链接：https://pan.quark.cn/s/72acfedf9484 quark https://pan.quark.cn/s/72acfedf9484"
+      "searchText": "申论】2026年飞扬申论大作文早课 公考类 申论】2026年飞扬申论大作文早课 链接：https://pan.quark.cn/s/bc90bd49917b quark https://pan.quark.cn/s/bc90bd49917b"
     },
     {
       "id": "r104",
       "title": "申论】2026年飞扬申论分析理解题早课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/b3fcb9ddf3cf",
+      "url": "https://pan.quark.cn/s/b58063c8aaa3",
       "code": "",
       "section": "公考类",
-      "context": "申论】2026年飞扬申论分析理解题早课 链接：https://pan.quark.cn/s/b3fcb9ddf3cf",
+      "context": "申论】2026年飞扬申论分析理解题早课 链接：https://pan.quark.cn/s/b58063c8aaa3",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1835,16 +1835,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "申论】2026年飞扬申论分析理解题早课 公考类 申论】2026年飞扬申论分析理解题早课 链接：https://pan.quark.cn/s/b3fcb9ddf3cf quark https://pan.quark.cn/s/b3fcb9ddf3cf"
+      "searchText": "申论】2026年飞扬申论分析理解题早课 公考类 申论】2026年飞扬申论分析理解题早课 链接：https://pan.quark.cn/s/b58063c8aaa3 quark https://pan.quark.cn/s/b58063c8aaa3"
     },
     {
       "id": "r105",
       "title": "申论】2026年飞扬申论归纳概括题早课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/a5a75ab83fcf",
+      "url": "https://pan.quark.cn/s/8a37f1a4ea47",
       "code": "",
       "section": "公考类",
-      "context": "申论】2026年飞扬申论归纳概括题早课 链接：https://pan.quark.cn/s/a5a75ab83fcf",
+      "context": "申论】2026年飞扬申论归纳概括题早课 链接：https://pan.quark.cn/s/8a37f1a4ea47",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1852,16 +1852,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "申论】2026年飞扬申论归纳概括题早课 公考类 申论】2026年飞扬申论归纳概括题早课 链接：https://pan.quark.cn/s/a5a75ab83fcf quark https://pan.quark.cn/s/a5a75ab83fcf"
+      "searchText": "申论】2026年飞扬申论归纳概括题早课 公考类 申论】2026年飞扬申论归纳概括题早课 链接：https://pan.quark.cn/s/8a37f1a4ea47 quark https://pan.quark.cn/s/8a37f1a4ea47"
     },
     {
       "id": "r106",
       "title": "申论】2026年飞扬申论公文题早课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/7324cbbf4141",
+      "url": "https://pan.quark.cn/s/423dfa887e33",
       "code": "",
       "section": "公考类",
-      "context": "申论】2026年飞扬申论公文题早课 链接：https://pan.quark.cn/s/7324cbbf4141",
+      "context": "申论】2026年飞扬申论公文题早课 链接：https://pan.quark.cn/s/423dfa887e33",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1869,16 +1869,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "申论】2026年飞扬申论公文题早课 公考类 申论】2026年飞扬申论公文题早课 链接：https://pan.quark.cn/s/7324cbbf4141 quark https://pan.quark.cn/s/7324cbbf4141"
+      "searchText": "申论】2026年飞扬申论公文题早课 公考类 申论】2026年飞扬申论公文题早课 链接：https://pan.quark.cn/s/423dfa887e33 quark https://pan.quark.cn/s/423dfa887e33"
     },
     {
       "id": "r107",
       "title": "申论】2026年飞扬申论提出对策题早课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/d5862585e6d5",
+      "url": "https://pan.quark.cn/s/20a45c6c4320",
       "code": "",
       "section": "公考类",
-      "context": "申论】2026年飞扬申论提出对策题早课 链接：https://pan.quark.cn/s/d5862585e6d5",
+      "context": "申论】2026年飞扬申论提出对策题早课 链接：https://pan.quark.cn/s/20a45c6c4320",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1886,16 +1886,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "申论】2026年飞扬申论提出对策题早课 公考类 申论】2026年飞扬申论提出对策题早课 链接：https://pan.quark.cn/s/d5862585e6d5 quark https://pan.quark.cn/s/d5862585e6d5"
+      "searchText": "申论】2026年飞扬申论提出对策题早课 公考类 申论】2026年飞扬申论提出对策题早课 链接：https://pan.quark.cn/s/20a45c6c4320 quark https://pan.quark.cn/s/20a45c6c4320"
     },
     {
       "id": "r108",
       "title": "速算】2026年四海拾伊15天速算训练营【61&62&63期",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/f0f6a69aceb0",
+      "url": "https://pan.quark.cn/s/bf87bb4ef107",
       "code": "",
       "section": "公考类",
-      "context": "速算】2026年四海拾伊15天速算训练营【61&62&63期 链接：https://pan.quark.cn/s/f0f6a69aceb0",
+      "context": "速算】2026年四海拾伊15天速算训练营【61&62&63期 链接：https://pan.quark.cn/s/bf87bb4ef107",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1903,16 +1903,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "速算】2026年四海拾伊15天速算训练营【61&62&63期 公考类 速算】2026年四海拾伊15天速算训练营【61&62&63期 链接：https://pan.quark.cn/s/f0f6a69aceb0 quark https://pan.quark.cn/s/f0f6a69aceb0"
+      "searchText": "速算】2026年四海拾伊15天速算训练营【61&62&63期 公考类 速算】2026年四海拾伊15天速算训练营【61&62&63期 链接：https://pan.quark.cn/s/bf87bb4ef107 quark https://pan.quark.cn/s/bf87bb4ef107"
     },
     {
       "id": "r109",
       "title": "套题班】2026年花生十三飞扬行测申论套题一期",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/f5dda098aa0b",
+      "url": "https://pan.quark.cn/s/41290bf12d0f",
       "code": "",
       "section": "公考类",
-      "context": "套题班】2026年花生十三飞扬行测申论套题一期 链接：https://pan.quark.cn/s/f5dda098aa0b",
+      "context": "套题班】2026年花生十三飞扬行测申论套题一期 链接：https://pan.quark.cn/s/41290bf12d0f",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1920,16 +1920,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "套题班】2026年花生十三飞扬行测申论套题一期 公考类 套题班】2026年花生十三飞扬行测申论套题一期 链接：https://pan.quark.cn/s/f5dda098aa0b quark https://pan.quark.cn/s/f5dda098aa0b"
+      "searchText": "套题班】2026年花生十三飞扬行测申论套题一期 公考类 套题班】2026年花生十三飞扬行测申论套题一期 链接：https://pan.quark.cn/s/41290bf12d0f quark https://pan.quark.cn/s/41290bf12d0f"
     },
     {
       "id": "r110",
       "title": "行测】2026年花生十三全科争议题专项解析班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/f3a5902a9718",
+      "url": "https://pan.quark.cn/s/636df0ed12cc",
       "code": "",
       "section": "公考类",
-      "context": "行测】2026年花生十三全科争议题专项解析班 链接：https://pan.quark.cn/s/f3a5902a9718",
+      "context": "行测】2026年花生十三全科争议题专项解析班 链接：https://pan.quark.cn/s/636df0ed12cc",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1937,16 +1937,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "行测】2026年花生十三全科争议题专项解析班 公考类 行测】2026年花生十三全科争议题专项解析班 链接：https://pan.quark.cn/s/f3a5902a9718 quark https://pan.quark.cn/s/f3a5902a9718"
+      "searchText": "行测】2026年花生十三全科争议题专项解析班 公考类 行测】2026年花生十三全科争议题专项解析班 链接：https://pan.quark.cn/s/636df0ed12cc quark https://pan.quark.cn/s/636df0ed12cc"
     },
     {
       "id": "r111",
       "title": "系统班】2026花生十三飞扬笔试系统班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/4296165db3e6",
+      "url": "https://pan.quark.cn/s/938b584885ff",
       "code": "",
       "section": "公考类",
-      "context": "系统班】2026花生十三飞扬笔试系统班 链接：https://pan.quark.cn/s/4296165db3e6",
+      "context": "系统班】2026花生十三飞扬笔试系统班 链接：https://pan.quark.cn/s/938b584885ff",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1954,16 +1954,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "系统班】2026花生十三飞扬笔试系统班 公考类 系统班】2026花生十三飞扬笔试系统班 链接：https://pan.quark.cn/s/4296165db3e6 quark https://pan.quark.cn/s/4296165db3e6"
+      "searchText": "系统班】2026花生十三飞扬笔试系统班 公考类 系统班】2026花生十三飞扬笔试系统班 链接：https://pan.quark.cn/s/938b584885ff quark https://pan.quark.cn/s/938b584885ff"
     },
     {
       "id": "r112",
       "title": "2025省考花生十三考前心理辅导+考场心得",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/65544512b8bb",
+      "url": "https://pan.quark.cn/s/cf81be821504",
       "code": "",
       "section": "公考类",
-      "context": "2025省考花生十三考前心理辅导+考场心得 链接：https://pan.quark.cn/s/65544512b8bb",
+      "context": "2025省考花生十三考前心理辅导+考场心得 链接：https://pan.quark.cn/s/cf81be821504",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1971,16 +1971,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2025省考花生十三考前心理辅导+考场心得 公考类 2025省考花生十三考前心理辅导+考场心得 链接：https://pan.quark.cn/s/65544512b8bb quark https://pan.quark.cn/s/65544512b8bb"
+      "searchText": "2025省考花生十三考前心理辅导+考场心得 公考类 2025省考花生十三考前心理辅导+考场心得 链接：https://pan.quark.cn/s/cf81be821504 quark https://pan.quark.cn/s/cf81be821504"
     },
     {
       "id": "r113",
       "title": "旗舰班-国考】2025（24下半年）花生十三旗舰班（花生行测+飞扬申论）⭐⭐⭐",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/bf444a220610",
+      "url": "https://pan.quark.cn/s/2b1a4a0e2115",
       "code": "",
       "section": "公考类",
-      "context": "旗舰班-国考】2025（24下半年）花生十三旗舰班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/bf444a220610",
+      "context": "旗舰班-国考】2025（24下半年）花生十三旗舰班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/2b1a4a0e2115",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1988,16 +1988,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "旗舰班-国考】2025（24下半年）花生十三旗舰班（花生行测+飞扬申论）⭐⭐⭐ 公考类 旗舰班-国考】2025（24下半年）花生十三旗舰班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/bf444a220610 quark https://pan.quark.cn/s/bf444a220610"
+      "searchText": "旗舰班-国考】2025（24下半年）花生十三旗舰班（花生行测+飞扬申论）⭐⭐⭐ 公考类 旗舰班-国考】2025（24下半年）花生十三旗舰班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/2b1a4a0e2115 quark https://pan.quark.cn/s/2b1a4a0e2115"
     },
     {
       "id": "r114",
       "title": "旗舰班-省考】2025花生十三省考系统班（花生行测+飞扬申论）⭐⭐⭐",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/3922df80d873",
+      "url": "https://pan.quark.cn/s/7e63c2675ba9",
       "code": "",
       "section": "公考类",
-      "context": "旗舰班-省考】2025花生十三省考系统班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/3922df80d873",
+      "context": "旗舰班-省考】2025花生十三省考系统班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/7e63c2675ba9",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2005,16 +2005,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "旗舰班-省考】2025花生十三省考系统班（花生行测+飞扬申论）⭐⭐⭐ 公考类 旗舰班-省考】2025花生十三省考系统班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/3922df80d873 quark https://pan.quark.cn/s/3922df80d873"
+      "searchText": "旗舰班-省考】2025花生十三省考系统班（花生行测+飞扬申论）⭐⭐⭐ 公考类 旗舰班-省考】2025花生十三省考系统班（花生行测+飞扬申论）⭐⭐⭐ 链接：https://pan.quark.cn/s/7e63c2675ba9 quark https://pan.quark.cn/s/7e63c2675ba9"
     },
     {
       "id": "r115",
       "title": "申论全勤全返、速算训练营、数量刷题营",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/d230627f57e5",
+      "url": "https://pan.quark.cn/s/9aad26335798",
       "code": "",
       "section": "公考类",
-      "context": "申论全勤全返、速算训练营、数量刷题营 链接：https://pan.quark.cn/s/d230627f57e5",
+      "context": "申论全勤全返、速算训练营、数量刷题营 链接：https://pan.quark.cn/s/9aad26335798",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2022,16 +2022,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "申论全勤全返、速算训练营、数量刷题营 公考类 申论全勤全返、速算训练营、数量刷题营 链接：https://pan.quark.cn/s/d230627f57e5 quark https://pan.quark.cn/s/d230627f57e5"
+      "searchText": "申论全勤全返、速算训练营、数量刷题营 公考类 申论全勤全返、速算训练营、数量刷题营 链接：https://pan.quark.cn/s/9aad26335798 quark https://pan.quark.cn/s/9aad26335798"
     },
     {
       "id": "r116",
       "title": "套题班-国考】2025花生行测+飞扬申论套题⭐⭐⭐",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/f8a7fc336229",
+      "url": "https://pan.quark.cn/s/7caa4d64befe",
       "code": "",
       "section": "公考类",
-      "context": "套题班-国考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/f8a7fc336229",
+      "context": "套题班-国考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/7caa4d64befe",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2039,16 +2039,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "套题班-国考】2025花生行测+飞扬申论套题⭐⭐⭐ 公考类 套题班-国考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/f8a7fc336229 quark https://pan.quark.cn/s/f8a7fc336229"
+      "searchText": "套题班-国考】2025花生行测+飞扬申论套题⭐⭐⭐ 公考类 套题班-国考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/7caa4d64befe quark https://pan.quark.cn/s/7caa4d64befe"
     },
     {
       "id": "r117",
       "title": "套题班-省考】2025花生行测+飞扬申论套题⭐⭐⭐",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/2ec25405f5d2",
+      "url": "https://pan.quark.cn/s/2d03c8c4951f",
       "code": "",
       "section": "公考类",
-      "context": "套题班-省考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/2ec25405f5d2",
+      "context": "套题班-省考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/2d03c8c4951f",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2056,16 +2056,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "套题班-省考】2025花生行测+飞扬申论套题⭐⭐⭐ 公考类 套题班-省考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/2ec25405f5d2 quark https://pan.quark.cn/s/2ec25405f5d2"
+      "searchText": "套题班-省考】2025花生行测+飞扬申论套题⭐⭐⭐ 公考类 套题班-省考】2025花生行测+飞扬申论套题⭐⭐⭐ 链接：https://pan.quark.cn/s/2d03c8c4951f quark https://pan.quark.cn/s/2d03c8c4951f"
     },
     {
       "id": "r118",
       "title": "职测】2025上半年花生十三职测A类套题冲刺班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/df5274b4a031",
+      "url": "https://pan.quark.cn/s/d85fb316627e",
       "code": "",
       "section": "事业单位",
-      "context": "职测】2025上半年花生十三职测A类套题冲刺班 链接：https://pan.quark.cn/s/df5274b4a031",
+      "context": "职测】2025上半年花生十三职测A类套题冲刺班 链接：https://pan.quark.cn/s/d85fb316627e",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2073,16 +2073,16 @@ window.PAN_SEARCH_DATA = {
           "section": "事业单位"
         }
       ],
-      "searchText": "职测】2025上半年花生十三职测A类套题冲刺班 事业单位 职测】2025上半年花生十三职测A类套题冲刺班 链接：https://pan.quark.cn/s/df5274b4a031 quark https://pan.quark.cn/s/df5274b4a031"
+      "searchText": "职测】2025上半年花生十三职测A类套题冲刺班 事业单位 职测】2025上半年花生十三职测A类套题冲刺班 链接：https://pan.quark.cn/s/d85fb316627e quark https://pan.quark.cn/s/d85fb316627e"
     },
     {
       "id": "r119",
       "title": "综应A】2025上半年飞扬综应A类套题冲刺班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/21ceb62b43b8",
+      "url": "https://pan.quark.cn/s/3843f5069054",
       "code": "",
       "section": "事业单位",
-      "context": "综应A】2025上半年飞扬综应A类套题冲刺班 链接：https://pan.quark.cn/s/21ceb62b43b8",
+      "context": "综应A】2025上半年飞扬综应A类套题冲刺班 链接：https://pan.quark.cn/s/3843f5069054",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2090,16 +2090,16 @@ window.PAN_SEARCH_DATA = {
           "section": "事业单位"
         }
       ],
-      "searchText": "综应A】2025上半年飞扬综应A类套题冲刺班 事业单位 综应A】2025上半年飞扬综应A类套题冲刺班 链接：https://pan.quark.cn/s/21ceb62b43b8 quark https://pan.quark.cn/s/21ceb62b43b8"
+      "searchText": "综应A】2025上半年飞扬综应A类套题冲刺班 事业单位 综应A】2025上半年飞扬综应A类套题冲刺班 链接：https://pan.quark.cn/s/3843f5069054 quark https://pan.quark.cn/s/3843f5069054"
     },
     {
       "id": "r120",
       "title": "政治理论】2025花生十三政治理论冲刺",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/643abc95b9dd",
+      "url": "https://pan.quark.cn/s/abf88e820619",
       "code": "",
       "section": "公考类",
-      "context": "政治理论】2025花生十三政治理论冲刺 链接：https://pan.quark.cn/s/643abc95b9dd",
+      "context": "政治理论】2025花生十三政治理论冲刺 链接：https://pan.quark.cn/s/abf88e820619",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2107,16 +2107,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "政治理论】2025花生十三政治理论冲刺 公考类 政治理论】2025花生十三政治理论冲刺 链接：https://pan.quark.cn/s/643abc95b9dd quark https://pan.quark.cn/s/643abc95b9dd"
+      "searchText": "政治理论】2025花生十三政治理论冲刺 公考类 政治理论】2025花生十三政治理论冲刺 链接：https://pan.quark.cn/s/abf88e820619 quark https://pan.quark.cn/s/abf88e820619"
     },
     {
       "id": "r121",
       "title": "政治理论】2025年省考四海早间政治理论班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/06717b4c947b",
+      "url": "https://pan.quark.cn/s/3cd486fa0a02",
       "code": "",
       "section": "公考类",
-      "context": "政治理论】2025年省考四海早间政治理论班 链接：https://pan.quark.cn/s/06717b4c947b",
+      "context": "政治理论】2025年省考四海早间政治理论班 链接：https://pan.quark.cn/s/3cd486fa0a02",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2124,16 +2124,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "政治理论】2025年省考四海早间政治理论班 公考类 政治理论】2025年省考四海早间政治理论班 链接：https://pan.quark.cn/s/06717b4c947b quark https://pan.quark.cn/s/06717b4c947b"
+      "searchText": "政治理论】2025年省考四海早间政治理论班 公考类 政治理论】2025年省考四海早间政治理论班 链接：https://pan.quark.cn/s/3cd486fa0a02 quark https://pan.quark.cn/s/3cd486fa0a02"
     },
     {
       "id": "r122",
       "title": "言语】2027雨菲言语图文带背800词",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/acc4a0000a9f",
+      "url": "https://pan.quark.cn/s/263319c9f2ca",
       "code": "",
       "section": "公考类",
-      "context": "言语】2027雨菲言语图文带背800词 链接：https://pan.quark.cn/s/acc4a0000a9f",
+      "context": "言语】2027雨菲言语图文带背800词 链接：https://pan.quark.cn/s/263319c9f2ca",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2141,16 +2141,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "言语】2027雨菲言语图文带背800词 公考类 言语】2027雨菲言语图文带背800词 链接：https://pan.quark.cn/s/acc4a0000a9f 夸克 网盘 网盘链接.txt"
+      "searchText": "言语】2027雨菲言语图文带背800词 公考类 言语】2027雨菲言语图文带背800词 链接：https://pan.quark.cn/s/263319c9f2ca quark https://pan.quark.cn/s/263319c9f2ca"
     },
     {
       "id": "r123",
       "title": "行测申论】上岸村合集（笔试+面试）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/c974437654ec",
+      "url": "https://pan.quark.cn/s/c1844f8e9ea7",
       "code": "",
       "section": "面试",
-      "context": "行测申论】上岸村合集（笔试+面试） 链接：https://pan.quark.cn/s/c974437654ec",
+      "context": "行测申论】上岸村合集（笔试+面试） 链接：https://pan.quark.cn/s/c1844f8e9ea7",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2158,16 +2158,16 @@ window.PAN_SEARCH_DATA = {
           "section": "面试"
         }
       ],
-      "searchText": "行测申论】上岸村合集（笔试+面试） 面试 行测申论】上岸村合集（笔试+面试） 链接：https://pan.quark.cn/s/c974437654ec 夸克 网盘 网盘链接.txt"
+      "searchText": "行测申论】上岸村合集（笔试+面试） 面试 行测申论】上岸村合集（笔试+面试） 链接：https://pan.quark.cn/s/c1844f8e9ea7 quark https://pan.quark.cn/s/c1844f8e9ea7"
     },
     {
       "id": "r124",
       "title": "2027】上岸村合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/9747f1ea1ef7",
+      "url": "https://pan.quark.cn/s/a289570bd02f",
       "code": "",
       "section": "公考类",
-      "context": "2027】上岸村合集 链接：https://pan.quark.cn/s/9747f1ea1ef7",
+      "context": "2027】上岸村合集 链接：https://pan.quark.cn/s/a289570bd02f",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2175,16 +2175,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027】上岸村合集 公考类 2027】上岸村合集 链接：https://pan.quark.cn/s/9747f1ea1ef7 quark https://pan.quark.cn/s/9747f1ea1ef7"
+      "searchText": "2027】上岸村合集 公考类 2027】上岸村合集 链接：https://pan.quark.cn/s/a289570bd02f quark https://pan.quark.cn/s/a289570bd02f"
     },
     {
       "id": "r125",
       "title": "2025】上岸村合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/02adee275df8",
+      "url": "https://pan.quark.cn/s/3627f0f6dc6d",
       "code": "",
       "section": "公考类",
-      "context": "2025】上岸村合集 链接：https://pan.quark.cn/s/02adee275df8",
+      "context": "2025】上岸村合集 链接：https://pan.quark.cn/s/3627f0f6dc6d",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2192,16 +2192,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2025】上岸村合集 公考类 2025】上岸村合集 链接：https://pan.quark.cn/s/02adee275df8 quark https://pan.quark.cn/s/02adee275df8"
+      "searchText": "2025】上岸村合集 公考类 2025】上岸村合集 链接：https://pan.quark.cn/s/3627f0f6dc6d quark https://pan.quark.cn/s/3627f0f6dc6d"
     },
     {
       "id": "r126",
       "title": "2026】上岸村合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/940146e08e57",
+      "url": "https://pan.quark.cn/s/f2d19cebd5cc",
       "code": "",
       "section": "公考类",
-      "context": "2026】上岸村合集 链接：https://pan.quark.cn/s/940146e08e57",
+      "context": "2026】上岸村合集 链接：https://pan.quark.cn/s/f2d19cebd5cc",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2209,16 +2209,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026】上岸村合集 公考类 2026】上岸村合集 链接：https://pan.quark.cn/s/940146e08e57 quark https://pan.quark.cn/s/940146e08e57"
+      "searchText": "2026】上岸村合集 公考类 2026】上岸村合集 链接：https://pan.quark.cn/s/f2d19cebd5cc quark https://pan.quark.cn/s/f2d19cebd5cc"
     },
     {
       "id": "r127",
       "title": "公安】上岸村合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/d3ca3a53592a",
+      "url": "https://pan.quark.cn/s/8f5d5e6ae004",
       "code": "",
       "section": "公安、公专",
-      "context": "公安】上岸村合集 链接：https://pan.quark.cn/s/d3ca3a53592a",
+      "context": "公安】上岸村合集 链接：https://pan.quark.cn/s/8f5d5e6ae004",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2226,16 +2226,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公安、公专"
         }
       ],
-      "searchText": "公安】上岸村合集 公安、公专 公安】上岸村合集 链接：https://pan.quark.cn/s/d3ca3a53592a quark https://pan.quark.cn/s/d3ca3a53592a"
+      "searchText": "公安】上岸村合集 公安、公专 公安】上岸村合集 链接：https://pan.quark.cn/s/8f5d5e6ae004 quark https://pan.quark.cn/s/8f5d5e6ae004"
     },
     {
       "id": "r128",
       "title": "面试】上岸村合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/f95c3fda9857",
+      "url": "https://pan.quark.cn/s/30eceb1cfa55",
       "code": "",
       "section": "面试",
-      "context": "面试】上岸村合集 链接：https://pan.quark.cn/s/f95c3fda9857",
+      "context": "面试】上岸村合集 链接：https://pan.quark.cn/s/30eceb1cfa55",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2243,16 +2243,16 @@ window.PAN_SEARCH_DATA = {
           "section": "面试"
         }
       ],
-      "searchText": "面试】上岸村合集 面试 面试】上岸村合集 链接：https://pan.quark.cn/s/f95c3fda9857 quark https://pan.quark.cn/s/f95c3fda9857"
+      "searchText": "面试】上岸村合集 面试 面试】上岸村合集 链接：https://pan.quark.cn/s/30eceb1cfa55 quark https://pan.quark.cn/s/30eceb1cfa55"
     },
     {
       "id": "r129",
       "title": "2027国省考上岸村行测&申论全家桶",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/84dd2c6c2845",
+      "url": "https://pan.quark.cn/s/e49e340d7248",
       "code": "",
       "section": "公考类",
-      "context": "2027国省考上岸村行测&申论全家桶 链接：https://pan.quark.cn/s/84dd2c6c2845",
+      "context": "2027国省考上岸村行测&申论全家桶 链接：https://pan.quark.cn/s/e49e340d7248",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2260,16 +2260,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省考上岸村行测&申论全家桶 公考类 2027国省考上岸村行测&申论全家桶 链接：https://pan.quark.cn/s/84dd2c6c2845 quark https://pan.quark.cn/s/84dd2c6c2845"
+      "searchText": "2027国省考上岸村行测&申论全家桶 公考类 2027国省考上岸村行测&申论全家桶 链接：https://pan.quark.cn/s/e49e340d7248 quark https://pan.quark.cn/s/e49e340d7248"
     },
     {
       "id": "r130",
       "title": "2027上岸村兰亭论道综A理论筑基",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/1c948916f1df",
+      "url": "https://pan.quark.cn/s/04257b64980e",
       "code": "",
       "section": "公考类",
-      "context": "2027上岸村兰亭论道综A理论筑基 链接：https://pan.quark.cn/s/1c948916f1df",
+      "context": "2027上岸村兰亭论道综A理论筑基 链接：https://pan.quark.cn/s/04257b64980e",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2277,7 +2277,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027上岸村兰亭论道综A理论筑基 公考类 2027上岸村兰亭论道综A理论筑基 链接：https://pan.quark.cn/s/1c948916f1df quark https://pan.quark.cn/s/1c948916f1df"
+      "searchText": "2027上岸村兰亭论道综A理论筑基 公考类 2027上岸村兰亭论道综A理论筑基 链接：https://pan.quark.cn/s/04257b64980e quark https://pan.quark.cn/s/04257b64980e"
     },
     {
       "id": "r131",
@@ -2402,10 +2402,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r138",
       "title": "2026国考&小省考上岸村行测预测卷【3套",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/9674b6e2d152",
+      "url": "https://pan.quark.cn/s/4fa354d9d6ae",
       "code": "",
       "section": "公考类",
-      "context": "2026国考&小省考上岸村行测预测卷【3套 链接：https://pan.quark.cn/s/9674b6e2d152",
+      "context": "2026国考&小省考上岸村行测预测卷【3套 链接：https://pan.quark.cn/s/4fa354d9d6ae",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2413,16 +2413,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026国考&小省考上岸村行测预测卷【3套 公考类 2026国考&小省考上岸村行测预测卷【3套 链接：https://pan.quark.cn/s/9674b6e2d152 quark https://pan.quark.cn/s/9674b6e2d152"
+      "searchText": "2026国考&小省考上岸村行测预测卷【3套 公考类 2026国考&小省考上岸村行测预测卷【3套 链接：https://pan.quark.cn/s/4fa354d9d6ae quark https://pan.quark.cn/s/4fa354d9d6ae"
     },
     {
       "id": "r139",
       "title": "2026国省考上岸村行测全科全家桶",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/9aae6acbfb0c",
+      "url": "https://pan.quark.cn/s/1ca314ab30a3",
       "code": "",
       "section": "公考类",
-      "context": "2026国省考上岸村行测全科全家桶 链接：https://pan.quark.cn/s/9aae6acbfb0c",
+      "context": "2026国省考上岸村行测全科全家桶 链接：https://pan.quark.cn/s/1ca314ab30a3",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2430,16 +2430,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026国省考上岸村行测全科全家桶 公考类 2026国省考上岸村行测全科全家桶 链接：https://pan.quark.cn/s/9aae6acbfb0c quark https://pan.quark.cn/s/9aae6acbfb0c"
+      "searchText": "2026国省考上岸村行测全科全家桶 公考类 2026国省考上岸村行测全科全家桶 链接：https://pan.quark.cn/s/1ca314ab30a3 quark https://pan.quark.cn/s/1ca314ab30a3"
     },
     {
       "id": "r140",
       "title": "2026上岸村36技系统冲刺班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/e70e0ecf114e",
+      "url": "https://pan.quark.cn/s/8a9fc3f990a2",
       "code": "",
       "section": "公考类",
-      "context": "2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/e70e0ecf114e",
+      "context": "2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/8a9fc3f990a2",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2447,16 +2447,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026上岸村36技系统冲刺班 公考类 2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/e70e0ecf114e quark https://pan.quark.cn/s/e70e0ecf114e"
+      "searchText": "2026上岸村36技系统冲刺班 公考类 2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/8a9fc3f990a2 quark https://pan.quark.cn/s/8a9fc3f990a2"
     },
     {
       "id": "r141",
       "title": "2026上岸村多省联考密押冲刺班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/69746e5cf8c1",
+      "url": "https://pan.quark.cn/s/dd69b1c1a1dd",
       "code": "",
       "section": "事业单位",
-      "context": "2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/69746e5cf8c1",
+      "context": "2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/dd69b1c1a1dd",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2464,16 +2464,16 @@ window.PAN_SEARCH_DATA = {
           "section": "事业单位"
         }
       ],
-      "searchText": "2026上岸村多省联考密押冲刺班 事业单位 2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/69746e5cf8c1 quark https://pan.quark.cn/s/69746e5cf8c1"
+      "searchText": "2026上岸村多省联考密押冲刺班 事业单位 2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/dd69b1c1a1dd quark https://pan.quark.cn/s/dd69b1c1a1dd"
     },
     {
       "id": "r142",
       "title": "2026上岸村广东本土面试考情详解（19页）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/2d38850b574f",
+      "url": "https://pan.quark.cn/s/a555b635bdb5",
       "code": "",
       "section": "面试",
-      "context": "2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/2d38850b574f",
+      "context": "2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/a555b635bdb5",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2481,16 +2481,16 @@ window.PAN_SEARCH_DATA = {
           "section": "面试"
         }
       ],
-      "searchText": "2026上岸村广东本土面试考情详解（19页） 面试 2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/2d38850b574f quark https://pan.quark.cn/s/2d38850b574f"
+      "searchText": "2026上岸村广东本土面试考情详解（19页） 面试 2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/a555b635bdb5 quark https://pan.quark.cn/s/a555b635bdb5"
     },
     {
       "id": "r143",
       "title": "2026上岸村国省考行测申论一卡通",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/5b9b13fddf3f",
+      "url": "https://pan.quark.cn/s/f3b196821640",
       "code": "",
       "section": "公考类",
-      "context": "2026上岸村国省考行测申论一卡通 链接：https://pan.quark.cn/s/5b9b13fddf3f",
+      "context": "2026上岸村国省考行测申论一卡通 链接：https://pan.quark.cn/s/f3b196821640",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2498,16 +2498,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026上岸村国省考行测申论一卡通 公考类 2026上岸村国省考行测申论一卡通 链接：https://pan.quark.cn/s/5b9b13fddf3f quark https://pan.quark.cn/s/5b9b13fddf3f"
+      "searchText": "2026上岸村国省考行测申论一卡通 公考类 2026上岸村国省考行测申论一卡通 链接：https://pan.quark.cn/s/f3b196821640 quark https://pan.quark.cn/s/f3b196821640"
     },
     {
       "id": "r144",
       "title": "2026上岸村套卷强化班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/c57084f4aed6",
+      "url": "https://pan.quark.cn/s/14a162f5e9a8",
       "code": "",
       "section": "公考类",
-      "context": "2026上岸村套卷强化班 链接：https://pan.quark.cn/s/c57084f4aed6",
+      "context": "2026上岸村套卷强化班 链接：https://pan.quark.cn/s/14a162f5e9a8",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2515,7 +2515,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026上岸村套卷强化班 公考类 2026上岸村套卷强化班 链接：https://pan.quark.cn/s/c57084f4aed6 quark https://pan.quark.cn/s/c57084f4aed6"
+      "searchText": "2026上岸村套卷强化班 公考类 2026上岸村套卷强化班 链接：https://pan.quark.cn/s/14a162f5e9a8 quark https://pan.quark.cn/s/14a162f5e9a8"
     },
     {
       "id": "r145",
@@ -6363,10 +6363,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r371",
       "title": "2026上岸村多省联考密押冲刺班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/69746e5cf8c1",
+      "url": "https://pan.quark.cn/s/dd69b1c1a1dd",
       "code": "",
       "section": "事业单位",
-      "context": "2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/69746e5cf8c1",
+      "context": "2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/dd69b1c1a1dd",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -6374,7 +6374,7 @@ window.PAN_SEARCH_DATA = {
           "section": "事业单位"
         }
       ],
-      "searchText": "2026上岸村多省联考密押冲刺班 事业单位 2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/69746e5cf8c1 quark https://pan.quark.cn/s/69746e5cf8c1"
+      "searchText": "2026上岸村多省联考密押冲刺班 事业单位 2026上岸村多省联考密押冲刺班 链接：https://pan.quark.cn/s/dd69b1c1a1dd quark https://pan.quark.cn/s/dd69b1c1a1dd"
     },
     {
       "id": "r372",
@@ -6414,10 +6414,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r374",
       "title": "2026上岸村广东本土面试考情详解（19页）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/2d38850b574f",
+      "url": "https://pan.quark.cn/s/a555b635bdb5",
       "code": "",
       "section": "面试",
-      "context": "2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/2d38850b574f",
+      "context": "2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/a555b635bdb5",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -6425,16 +6425,16 @@ window.PAN_SEARCH_DATA = {
           "section": "面试"
         }
       ],
-      "searchText": "2026上岸村广东本土面试考情详解（19页） 面试 2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/2d38850b574f quark https://pan.quark.cn/s/2d38850b574f"
+      "searchText": "2026上岸村广东本土面试考情详解（19页） 面试 2026上岸村广东本土面试考情详解（19页） 链接：https://pan.quark.cn/s/a555b635bdb5 quark https://pan.quark.cn/s/a555b635bdb5"
     },
     {
       "id": "r375",
       "title": "2026上岸村36技系统冲刺班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/e70e0ecf114e",
+      "url": "https://pan.quark.cn/s/8a9fc3f990a2",
       "code": "",
       "section": "公考类",
-      "context": "2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/e70e0ecf114e",
+      "context": "2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/8a9fc3f990a2",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -6442,7 +6442,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026上岸村36技系统冲刺班 公考类 2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/e70e0ecf114e quark https://pan.quark.cn/s/e70e0ecf114e"
+      "searchText": "2026上岸村36技系统冲刺班 公考类 2026上岸村36技系统冲刺班 链接：https://pan.quark.cn/s/8a9fc3f990a2 quark https://pan.quark.cn/s/8a9fc3f990a2"
     },
     {
       "id": "r376",
@@ -6465,10 +6465,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r377",
       "title": "2026上岸村套卷强化班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/c57084f4aed6",
+      "url": "https://pan.quark.cn/s/14a162f5e9a8",
       "code": "",
       "section": "公考类",
-      "context": "2026上岸村套卷强化班 链接：https://pan.quark.cn/s/c57084f4aed6",
+      "context": "2026上岸村套卷强化班 链接：https://pan.quark.cn/s/14a162f5e9a8",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -6476,7 +6476,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026上岸村套卷强化班 公考类 2026上岸村套卷强化班 链接：https://pan.quark.cn/s/c57084f4aed6 quark https://pan.quark.cn/s/c57084f4aed6"
+      "searchText": "2026上岸村套卷强化班 公考类 2026上岸村套卷强化班 链接：https://pan.quark.cn/s/14a162f5e9a8 quark https://pan.quark.cn/s/14a162f5e9a8"
     },
     {
       "id": "r378",
@@ -20371,7 +20371,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1195",
       "title": "【言语】2027雨菲言语图文带背800词",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/35313ccdf067",
+      "url": "https://pan.quark.cn/s/263319c9f2ca",
       "code": "",
       "section": "言语",
       "context": "【言语】2027雨菲言语图文带背800词",
@@ -20382,7 +20382,7 @@ window.PAN_SEARCH_DATA = {
           "section": "言语"
         }
       ],
-      "searchText": "【言语】2027雨菲言语图文带背800词 言语 【言语】2027雨菲言语图文带背800词 server/data/extra-links.json"
+      "searchText": "【言语】2027雨菲言语图文带背800词 言语 【言语】2027雨菲言语图文带背800词 quark https://pan.quark.cn/s/263319c9f2ca"
     },
     {
       "id": "r1196",
@@ -21663,7 +21663,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1271",
       "title": "2024+2023】花生十三（飞扬）合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/b6260e858f50",
+      "url": "https://pan.quark.cn/s/8bcae05d6f6d",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：2024+2023】花生十三（飞扬）合集",
@@ -21674,13 +21674,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "2024+2023】花生十三（飞扬）合集 夸克批量新增 夸克网盘批量导入：2024+2023】花生十三（飞扬）合集 quark https://pan.quark.cn/s/b6260e858f50"
+      "searchText": "2024+2023】花生十三（飞扬）合集 夸克批量新增 夸克网盘批量导入：2024+2023】花生十三（飞扬）合集 quark https://pan.quark.cn/s/8bcae05d6f6d"
     },
     {
       "id": "r1272",
       "title": "2025】花生十三（飞扬）合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/6e6117e014e7",
+      "url": "https://pan.quark.cn/s/b3e9e0605c38",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：2025】花生十三（飞扬）合集",
@@ -21691,13 +21691,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "2025】花生十三（飞扬）合集 夸克批量新增 夸克网盘批量导入：2025】花生十三（飞扬）合集 quark https://pan.quark.cn/s/6e6117e014e7"
+      "searchText": "2025】花生十三（飞扬）合集 夸克批量新增 夸克网盘批量导入：2025】花生十三（飞扬）合集 quark https://pan.quark.cn/s/b3e9e0605c38"
     },
     {
       "id": "r1273",
       "title": "2026】花生十三（飞扬）合集",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/691f21da20ae",
+      "url": "https://pan.quark.cn/s/c7abe6adaffe",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：2026】花生十三（飞扬）合集",
@@ -21708,13 +21708,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "2026】花生十三（飞扬）合集 夸克批量新增 夸克网盘批量导入：2026】花生十三（飞扬）合集 quark https://pan.quark.cn/s/691f21da20ae"
+      "searchText": "2026】花生十三（飞扬）合集 夸克批量新增 夸克网盘批量导入：2026】花生十三（飞扬）合集 quark https://pan.quark.cn/s/c7abe6adaffe"
     },
     {
       "id": "r1274",
       "title": "速算】花生十三速算",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/716af4e151f8",
+      "url": "https://pan.quark.cn/s/8efb9c088502",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：速算】花生十三速算",
@@ -21725,7 +21725,7 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "速算】花生十三速算 夸克批量新增 夸克网盘批量导入：速算】花生十三速算 quark https://pan.quark.cn/s/716af4e151f8"
+      "searchText": "速算】花生十三速算 夸克批量新增 夸克网盘批量导入：速算】花生十三速算 quark https://pan.quark.cn/s/8efb9c088502"
     },
     {
       "id": "r1275",
@@ -21748,7 +21748,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1276",
       "title": "刷题】2026四海逻辑判断600题刷题精讲班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/8a7f74c72b01",
+      "url": "https://pan.quark.cn/s/080268269a31",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：刷题】2026四海逻辑判断600题刷题精讲班",
@@ -21759,7 +21759,7 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "刷题】2026四海逻辑判断600题刷题精讲班 夸克批量新增 夸克网盘批量导入：刷题】2026四海逻辑判断600题刷题精讲班 quark https://pan.quark.cn/s/8a7f74c72b01"
+      "searchText": "刷题】2026四海逻辑判断600题刷题精讲班 夸克批量新增 夸克网盘批量导入：刷题】2026四海逻辑判断600题刷题精讲班 quark https://pan.quark.cn/s/080268269a31"
     },
     {
       "id": "r1277",
@@ -21833,7 +21833,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1281",
       "title": "刷题】2024省考花生套题冲刺无水印",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/5ebc6f705416",
+      "url": "https://pan.quark.cn/s/d9f0bda7cbd0",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：刷题】2024省考花生套题冲刺无水印",
@@ -21844,13 +21844,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "刷题】2024省考花生套题冲刺无水印 夸克批量新增 夸克网盘批量导入：刷题】2024省考花生套题冲刺无水印 quark https://pan.quark.cn/s/5ebc6f705416"
+      "searchText": "刷题】2024省考花生套题冲刺无水印 夸克批量新增 夸克网盘批量导入：刷题】2024省考花生套题冲刺无水印 quark https://pan.quark.cn/s/d9f0bda7cbd0"
     },
     {
       "id": "r1282",
       "title": "事业单位】2024花生飞扬事业单位综应A考前套题冲刺",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/45aedca14b3f",
+      "url": "https://pan.quark.cn/s/c634ceca5f26",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：事业单位】2024花生飞扬事业单位综应A考前套题冲刺",
@@ -21861,13 +21861,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "事业单位】2024花生飞扬事业单位综应A考前套题冲刺 夸克批量新增 夸克网盘批量导入：事业单位】2024花生飞扬事业单位综应A考前套题冲刺 quark https://pan.quark.cn/s/45aedca14b3f"
+      "searchText": "事业单位】2024花生飞扬事业单位综应A考前套题冲刺 夸克批量新增 夸克网盘批量导入：事业单位】2024花生飞扬事业单位综应A考前套题冲刺 quark https://pan.quark.cn/s/c634ceca5f26"
     },
     {
       "id": "r1283",
       "title": "事业单位】2024花生十三事业单位职测能力套题冲刺",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/b19ff0e1221a",
+      "url": "https://pan.quark.cn/s/a60935410d27",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：事业单位】2024花生十三事业单位职测能力套题冲刺",
@@ -21878,13 +21878,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "事业单位】2024花生十三事业单位职测能力套题冲刺 夸克批量新增 夸克网盘批量导入：事业单位】2024花生十三事业单位职测能力套题冲刺 quark https://pan.quark.cn/s/b19ff0e1221a"
+      "searchText": "事业单位】2024花生十三事业单位职测能力套题冲刺 夸克批量新增 夸克网盘批量导入：事业单位】2024花生十三事业单位职测能力套题冲刺 quark https://pan.quark.cn/s/a60935410d27"
     },
     {
       "id": "r1284",
       "title": "事业单位】2024花生十三事业单位职测套题预测（无水印版本）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/28d64844699c",
+      "url": "https://pan.quark.cn/s/fa43dbf60bf5",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：事业单位】2024花生十三事业单位职测套题预测（无水印版本）",
@@ -21895,13 +21895,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "事业单位】2024花生十三事业单位职测套题预测（无水印版本） 夸克批量新增 夸克网盘批量导入：事业单位】2024花生十三事业单位职测套题预测（无水印版本） quark https://pan.quark.cn/s/28d64844699c"
+      "searchText": "事业单位】2024花生十三事业单位职测套题预测（无水印版本） 夸克批量新增 夸克网盘批量导入：事业单位】2024花生十三事业单位职测套题预测（无水印版本） quark https://pan.quark.cn/s/fa43dbf60bf5"
     },
     {
       "id": "r1285",
       "title": "套题班】2023下半年花生十三套题班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/2868aaf80d60",
+      "url": "https://pan.quark.cn/s/f75ece5f45cd",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：套题班】2023下半年花生十三套题班",
@@ -21912,13 +21912,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "套题班】2023下半年花生十三套题班 夸克批量新增 夸克网盘批量导入：套题班】2023下半年花生十三套题班 quark https://pan.quark.cn/s/2868aaf80d60"
+      "searchText": "套题班】2023下半年花生十三套题班 夸克批量新增 夸克网盘批量导入：套题班】2023下半年花生十三套题班 quark https://pan.quark.cn/s/f75ece5f45cd"
     },
     {
       "id": "r1286",
       "title": "套题班】2024花生三省套题冲刺班（江苏、浙江、山东）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/8d39736af210",
+      "url": "https://pan.quark.cn/s/85e643b427e7",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：套题班】2024花生三省套题冲刺班（江苏、浙江、山东）",
@@ -21929,13 +21929,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "套题班】2024花生三省套题冲刺班（江苏、浙江、山东） 夸克批量新增 夸克网盘批量导入：套题班】2024花生三省套题冲刺班（江苏、浙江、山东） quark https://pan.quark.cn/s/8d39736af210"
+      "searchText": "套题班】2024花生三省套题冲刺班（江苏、浙江、山东） 夸克批量新增 夸克网盘批量导入：套题班】2024花生三省套题冲刺班（江苏、浙江、山东） quark https://pan.quark.cn/s/85e643b427e7"
     },
     {
       "id": "r1287",
       "title": "套题班】2024花生、飞扬套题班1期",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/96aa9d1af0bf",
+      "url": "https://pan.quark.cn/s/9b7ba5d6fc87",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：套题班】2024花生、飞扬套题班1期",
@@ -21946,13 +21946,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "套题班】2024花生、飞扬套题班1期 夸克批量新增 夸克网盘批量导入：套题班】2024花生、飞扬套题班1期 quark https://pan.quark.cn/s/96aa9d1af0bf"
+      "searchText": "套题班】2024花生、飞扬套题班1期 夸克批量新增 夸克网盘批量导入：套题班】2024花生、飞扬套题班1期 quark https://pan.quark.cn/s/9b7ba5d6fc87"
     },
     {
       "id": "r1288",
       "title": "套题班】2024花生、飞扬套题班2期",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/80808dc5bb61",
+      "url": "https://pan.quark.cn/s/d82908e6ec58",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：套题班】2024花生、飞扬套题班2期",
@@ -21963,13 +21963,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "套题班】2024花生、飞扬套题班2期 夸克批量新增 夸克网盘批量导入：套题班】2024花生、飞扬套题班2期 quark https://pan.quark.cn/s/80808dc5bb61"
+      "searchText": "套题班】2024花生、飞扬套题班2期 夸克批量新增 夸克网盘批量导入：套题班】2024花生、飞扬套题班2期 quark https://pan.quark.cn/s/d82908e6ec58"
     },
     {
       "id": "r1289",
       "title": "套题班】2024上半年花生飞扬省考套题冲刺班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/6a8822635df5",
+      "url": "https://pan.quark.cn/s/f5e3c3cfc98e",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：套题班】2024上半年花生飞扬省考套题冲刺班",
@@ -21980,13 +21980,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "套题班】2024上半年花生飞扬省考套题冲刺班 夸克批量新增 夸克网盘批量导入：套题班】2024上半年花生飞扬省考套题冲刺班 quark https://pan.quark.cn/s/6a8822635df5"
+      "searchText": "套题班】2024上半年花生飞扬省考套题冲刺班 夸克批量新增 夸克网盘批量导入：套题班】2024上半年花生飞扬省考套题冲刺班 quark https://pan.quark.cn/s/f5e3c3cfc98e"
     },
     {
       "id": "r1290",
       "title": "系统班】2023上半年省考花生十三行测系统班100讲",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/ea07548aba69",
+      "url": "https://pan.quark.cn/s/cc3371242499",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：系统班】2023上半年省考花生十三行测系统班100讲",
@@ -21997,13 +21997,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "系统班】2023上半年省考花生十三行测系统班100讲 夸克批量新增 夸克网盘批量导入：系统班】2023上半年省考花生十三行测系统班100讲 quark https://pan.quark.cn/s/ea07548aba69"
+      "searchText": "系统班】2023上半年省考花生十三行测系统班100讲 夸克批量新增 夸克网盘批量导入：系统班】2023上半年省考花生十三行测系统班100讲 quark https://pan.quark.cn/s/cc3371242499"
     },
     {
       "id": "r1291",
       "title": "系统班】2024上半年四海花生公考笔试系统班（含速算训练营）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/170d6b8eb33c",
+      "url": "https://pan.quark.cn/s/45124c972f57",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：系统班】2024上半年四海花生公考笔试系统班（含速算训练营）",
@@ -22014,7 +22014,7 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "系统班】2024上半年四海花生公考笔试系统班（含速算训练营） 夸克批量新增 夸克网盘批量导入：系统班】2024上半年四海花生公考笔试系统班（含速算训练营） quark https://pan.quark.cn/s/170d6b8eb33c"
+      "searchText": "系统班】2024上半年四海花生公考笔试系统班（含速算训练营） 夸克批量新增 夸克网盘批量导入：系统班】2024上半年四海花生公考笔试系统班（含速算训练营） quark https://pan.quark.cn/s/45124c972f57"
     },
     {
       "id": "r1292",
@@ -25488,7 +25488,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1496",
       "title": "2027四海行测海海刷1期",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/2fc7dbf5a8a4",
+      "url": "https://pan.quark.cn/s/4bec9f2add4a",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：2027四海行测海海刷1期",
@@ -25499,7 +25499,7 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "2027四海行测海海刷1期 夸克批量新增 夸克网盘批量导入：2027四海行测海海刷1期 quark https://pan.quark.cn/s/2fc7dbf5a8a4"
+      "searchText": "2027四海行测海海刷1期 夸克批量新增 夸克网盘批量导入：2027四海行测海海刷1期 quark https://pan.quark.cn/s/4bec9f2add4a"
     },
     {
       "id": "r1497",
@@ -26949,7 +26949,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1582",
       "title": "2027国省考季四海公考行测海海刷1期",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/47e139fe6752",
+      "url": "https://pan.quark.cn/s/08008a726b34",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：2027国省考季四海公考行测海海刷1期",
@@ -26960,7 +26960,7 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "2027国省考季四海公考行测海海刷1期 夸克批量新增 夸克网盘批量导入：2027国省考季四海公考行测海海刷1期 quark https://pan.quark.cn/s/47e139fe6752"
+      "searchText": "2027国省考季四海公考行测海海刷1期 夸克批量新增 夸克网盘批量导入：2027国省考季四海公考行测海海刷1期 quark https://pan.quark.cn/s/08008a726b34"
     },
     {
       "id": "r1583",
@@ -27811,6 +27811,40 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "速算】2026牟立志 老牟深算-速算大练兵 夸克批量新增 夸克网盘批量导入：速算】2026牟立志 老牟深算-速算大练兵 quark https://pan.quark.cn/s/caa1de416028"
+    },
+    {
+      "id": "r1633",
+      "title": "2027上岸村行测5000题",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/9ea5677c1989",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：2027上岸村行测5000题",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 287,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "2027上岸村行测5000题 夸克批量新增 夸克网盘批量导入：2027上岸村行测5000题 quark https://pan.quark.cn/s/9ea5677c1989"
+    },
+    {
+      "id": "r1634",
+      "title": "2027上岸村黑马言语理解实战500题",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/24732b933ea3",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：2027上岸村黑马言语理解实战500题",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 290,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "2027上岸村黑马言语理解实战500题 夸克批量新增 夸克网盘批量导入：2027上岸村黑马言语理解实战500题 quark https://pan.quark.cn/s/24732b933ea3"
     }
   ]
 };
