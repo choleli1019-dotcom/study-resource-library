@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-09-17T09:47:24.102Z",
+  "generatedAt": "2026-09-17T09:48:30.336Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -1416,10 +1416,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r80",
       "title": "资料分析600题",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/cbe66c632477",
+      "url": "https://pan.quark.cn/s/e837f1aadbfd",
       "code": "",
       "section": "公考类",
-      "context": "资料分析600题 链接：https://pan.quark.cn/s/cbe66c632477",
+      "context": "资料分析600题 链接：https://pan.quark.cn/s/e837f1aadbfd",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1427,7 +1427,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "资料分析600题 公考类 资料分析600题 链接：https://pan.quark.cn/s/cbe66c632477 夸克 网盘 网盘链接.txt"
+      "searchText": "资料分析600题 公考类 资料分析600题 链接：https://pan.quark.cn/s/e837f1aadbfd quark https://pan.quark.cn/s/e837f1aadbfd"
     },
     {
       "id": "r81",
@@ -23278,7 +23278,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1366",
       "title": "刘义恒丨27图推夸夸刷复盘笔记",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/26cf4cd4319c",
+      "url": "https://pan.quark.cn/s/40c602d73eff",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：刘义恒丨27图推夸夸刷复盘笔记",
@@ -23289,7 +23289,7 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "刘义恒丨27图推夸夸刷复盘笔记 夸克批量新增 夸克网盘批量导入：刘义恒丨27图推夸夸刷复盘笔记 quark https://pan.quark.cn/s/26cf4cd4319c"
+      "searchText": "刘义恒丨27图推夸夸刷复盘笔记 夸克批量新增 夸克网盘批量导入：刘义恒丨27图推夸夸刷复盘笔记 quark https://pan.quark.cn/s/40c602d73eff"
     },
     {
       "id": "r1367",
