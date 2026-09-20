@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-09-20T12:35:57.368Z",
+  "generatedAt": "2026-09-20T13:14:10.285Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -28599,7 +28599,7 @@ window.PAN_SEARCH_DATA = {
       "title": "2027白鹭申论扎马步特训营2.0",
       "platform": "baidu",
       "url": "https://pan.baidu.com/s/1n39trip9r1i_qA1Ac3dyqA?pwd=djbn",
-      "code": "",
+      "code": "djbn",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027白鹭申论扎马步特训营2.0",
       "sources": [
@@ -28609,14 +28609,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027白鹭申论扎马步特训营2.0 百度批量新增 百度网盘批量导入：2027白鹭申论扎马步特训营2.0 baidu https://pan.baidu.com/s/1n39trip9r1i_qA1Ac3dyqA?pwd=djbn"
+      "searchText": "2027白鹭申论扎马步特训营2.0 百度批量新增 百度网盘批量导入：2027白鹭申论扎马步特训营2.0 djbn baidu https://pan.baidu.com/s/1n39trip9r1i_qA1Ac3dyqA?pwd=djbn"
     },
     {
       "id": "r1680",
       "title": "Z 张弓（上岸村）",
       "platform": "baidu",
       "url": "https://pan.baidu.com/s/1XmSudPQRaG9GXcO837K2qg?pwd=4p4x",
-      "code": "",
+      "code": "4p4x",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：Z 张弓（上岸村）",
       "sources": [
@@ -28626,14 +28626,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "Z 张弓（上岸村） 百度批量新增 百度网盘批量导入：Z 张弓（上岸村） baidu https://pan.baidu.com/s/1XmSudPQRaG9GXcO837K2qg?pwd=4p4x"
+      "searchText": "Z 张弓（上岸村） 百度批量新增 百度网盘批量导入：Z 张弓（上岸村） 4p4x baidu https://pan.baidu.com/s/1XmSudPQRaG9GXcO837K2qg?pwd=4p4x"
     },
     {
       "id": "r1681",
       "title": "2027四海葛蓉逻辑填空刷题精讲",
       "platform": "baidu",
       "url": "https://pan.baidu.com/s/1wauHxtlHMJxrO3fHMNIq0g?pwd=djbn",
-      "code": "",
+      "code": "djbn",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027四海葛蓉逻辑填空刷题精讲",
       "sources": [
@@ -28643,7 +28643,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027四海葛蓉逻辑填空刷题精讲 百度批量新增 百度网盘批量导入：2027四海葛蓉逻辑填空刷题精讲 baidu https://pan.baidu.com/s/1wauHxtlHMJxrO3fHMNIq0g?pwd=djbn"
+      "searchText": "2027四海葛蓉逻辑填空刷题精讲 百度批量新增 百度网盘批量导入：2027四海葛蓉逻辑填空刷题精讲 djbn baidu https://pan.baidu.com/s/1wauHxtlHMJxrO3fHMNIq0g?pwd=djbn"
     }
   ]
 };
