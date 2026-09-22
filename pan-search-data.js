@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-09-20T13:14:10.285Z",
+  "generatedAt": "2026-09-22T10:09:11.977Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -9,9 +9,9 @@ window.PAN_SEARCH_DATA = {
       "total": 1240
     },
     "unique": {
-      "quark": 1119,
+      "quark": 1123,
       "baidu": 562,
-      "total": 1681
+      "total": 1685
     },
     "duplicate": {
       "quark": 0,
@@ -28644,6 +28644,74 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "2027四海葛蓉逻辑填空刷题精讲 百度批量新增 百度网盘批量导入：2027四海葛蓉逻辑填空刷题精讲 djbn baidu https://pan.baidu.com/s/1wauHxtlHMJxrO3fHMNIq0g?pwd=djbn"
+    },
+    {
+      "id": "r1682",
+      "title": "2025】天晓合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/44c071480233",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：2025】天晓合集",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 2,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "2025】天晓合集 夸克批量新增 夸克网盘批量导入：2025】天晓合集 quark https://pan.quark.cn/s/44c071480233"
+    },
+    {
+      "id": "r1683",
+      "title": "2026】天晓合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/6824441ff49d",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：2026】天晓合集",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 5,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "2026】天晓合集 夸克批量新增 夸克网盘批量导入：2026】天晓合集 quark https://pan.quark.cn/s/6824441ff49d"
+    },
+    {
+      "id": "r1684",
+      "title": "2027】天晓合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/3995174111ec",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：2027】天晓合集",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 8,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "2027】天晓合集 夸克批量新增 夸克网盘批量导入：2027】天晓合集 quark https://pan.quark.cn/s/3995174111ec"
+    },
+    {
+      "id": "r1685",
+      "title": "面试】天晓合集",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/464e7fd0132a",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：面试】天晓合集",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 11,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "面试】天晓合集 夸克批量新增 夸克网盘批量导入：面试】天晓合集 quark https://pan.quark.cn/s/464e7fd0132a"
     }
   ]
 };
