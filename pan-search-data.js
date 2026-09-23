@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-09-23T08:23:09.514Z",
+  "generatedAt": "2026-09-23T08:23:23.160Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -20436,23 +20436,6 @@ window.PAN_SEARCH_DATA = {
       "url": "https://pan.baidu.com/s/1lM0gJhKq0Y_16vPYnW5i8Q?pwd=3dcn"
     },
     {
-      "id": "r1199",
-      "title": "行测申论】2027超格行测+申论（五合一）酷酷刷刷题营",
-      "platform": "baidu",
-      "code": "bssm",
-      "section": "百度批量新增",
-      "context": "百度网盘批量导入：行测申论】2027超格行测+申论（五合一）酷酷刷刷题营",
-      "sources": [
-        {
-          "file": "admin-bulk-baidu",
-          "line": 250,
-          "section": "百度批量新增"
-        }
-      ],
-      "searchText": "行测申论】2027超格行测+申论（五合一）酷酷刷刷题营 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（五合一）酷酷刷刷题营 bssm baidu https://pan.baidu.com/s/1g0lTNkgKlyu1UrhU8CgWyg?pwd=bssm",
-      "url": "https://pan.baidu.com/s/1g0lTNkgKlyu1UrhU8CgWyg?pwd=bssm"
-    },
-    {
       "id": "r1200",
       "title": "003】2026年小黑全年时政",
       "platform": "baidu",
@@ -25856,6 +25839,23 @@ window.PAN_SEARCH_DATA = {
       ],
       "searchText": "2027四海拾伊资料海海刷复盘 百度批量新增 百度网盘批量导入：2027四海拾伊资料海海刷复盘 3qip baidu https://pan.baidu.com/s/1Y3yHAorwWXX6EfTeHXxeBw?pwd=3qip",
       "url": "https://pan.baidu.com/s/1Y3yHAorwWXX6EfTeHXxeBw?pwd=3qip"
+    },
+    {
+      "id": "r1518",
+      "title": "行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题",
+      "platform": "baidu",
+      "code": "bssm",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 58,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题 bssm baidu https://pan.baidu.com/s/1x_xGha285-sEZOcjYVTRNA?pwd=bssm",
+      "url": "https://pan.baidu.com/s/1x_xGha285-sEZOcjYVTRNA?pwd=bssm"
     },
     {
       "id": "r1519",
