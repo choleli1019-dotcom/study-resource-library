@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-09-23T08:23:23.160Z",
+  "generatedAt": "2026-09-23T08:23:56.867Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -15115,23 +15115,6 @@ window.PAN_SEARCH_DATA = {
       "searchText": "2026年钩不了沉大作文专项班 其他类别考试 2026年钩不了沉大作文专项班 链接：https://pan.baidu.com/s/1EhN7U17p_6Ok8LRlsGg4Gg?pwd=djbn 提取码：djbn djbn baidu https://pan.baidu.com/s/1EhN7U17p_6Ok8LRlsGg4Gg?pwd=djbn"
     },
     {
-      "id": "r886",
-      "title": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营",
-      "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1zfqZnGm64J08EeQIwhZq4g?pwd=bssm",
-      "code": "bssm",
-      "section": "公考类",
-      "context": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 链接：https://pan.baidu.com/s/1zfqZnGm64J08EeQIwhZq4g?pwd=bssm 提取码：bssm",
-      "sources": [
-        {
-          "file": "百度网盘链接.txt",
-          "line": 173,
-          "section": "公考类"
-        }
-      ],
-      "searchText": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 公考类 行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 链接：https://pan.baidu.com/s/1zfqZnGm64J08EeQIwhZq4g?pwd=bssm 提取码：bssm bssm baidu https://pan.baidu.com/s/1zfqZnGm64J08EeQIwhZq4g?pwd=bssm"
-    },
-    {
       "id": "r887",
       "title": "半月谈＂四节课＂搞定申论",
       "platform": "baidu",
@@ -20434,6 +20417,23 @@ window.PAN_SEARCH_DATA = {
       ],
       "searchText": "2027上岸村天琦申论高分的规则 百度批量新增 百度网盘批量导入：2027上岸村天琦申论高分的规则 3dcn baidu https://pan.baidu.com/s/1lM0gJhKq0Y_16vPYnW5i8Q?pwd=3dcn",
       "url": "https://pan.baidu.com/s/1lM0gJhKq0Y_16vPYnW5i8Q?pwd=3dcn"
+    },
+    {
+      "id": "r1199",
+      "title": "行测申论】2027超格行测+申论（五合一）酷酷刷刷题营",
+      "platform": "baidu",
+      "code": "bssm",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：行测申论】2027超格行测+申论（五合一）酷酷刷刷题营",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 250,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "行测申论】2027超格行测+申论（五合一）酷酷刷刷题营 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（五合一）酷酷刷刷题营 bssm baidu https://pan.baidu.com/s/1g0lTNkgKlyu1UrhU8CgWyg?pwd=bssm",
+      "url": "https://pan.baidu.com/s/1g0lTNkgKlyu1UrhU8CgWyg?pwd=bssm"
     },
     {
       "id": "r1200",
