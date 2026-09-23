@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-09-23T08:23:56.867Z",
+  "generatedAt": "2026-09-23T08:24:07.970Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -15115,6 +15115,23 @@ window.PAN_SEARCH_DATA = {
       "searchText": "2026年钩不了沉大作文专项班 其他类别考试 2026年钩不了沉大作文专项班 链接：https://pan.baidu.com/s/1EhN7U17p_6Ok8LRlsGg4Gg?pwd=djbn 提取码：djbn djbn baidu https://pan.baidu.com/s/1EhN7U17p_6Ok8LRlsGg4Gg?pwd=djbn"
     },
     {
+      "id": "r886",
+      "title": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1zfqZnGm64J08EeQIwhZq4g?pwd=bssm",
+      "code": "bssm",
+      "section": "公考类",
+      "context": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 链接：https://pan.baidu.com/s/1zfqZnGm64J08EeQIwhZq4g?pwd=bssm 提取码：bssm",
+      "sources": [
+        {
+          "file": "百度网盘链接.txt",
+          "line": 173,
+          "section": "公考类"
+        }
+      ],
+      "searchText": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 公考类 行测申论】2027超格行测+申论（五合一）夸夸刷刷题营 链接：https://pan.baidu.com/s/1zfqZnGm64J08EeQIwhZq4g?pwd=bssm 提取码：bssm bssm baidu https://pan.baidu.com/s/1zfqZnGm64J08EeQIwhZq4g?pwd=bssm"
+    },
+    {
       "id": "r887",
       "title": "半月谈＂四节课＂搞定申论",
       "platform": "baidu",
@@ -15708,23 +15725,6 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "海绵公考】省考十日速通，李焕&楚香凝&韩超&刘亚男 公考类 海绵公考】省考十日速通，李焕&楚香凝&韩超&刘亚男 链接：https://pan.baidu.com/s/1j0sh8LhlntuMHBZMrO1KxA?pwd=djbn 提取码：djbn djbn baidu https://pan.baidu.com/s/1j0sh8LhlntuMHBZMrO1KxA?pwd=djbn"
-    },
-    {
-      "id": "r922",
-      "title": "行测申论】2027超格行测+申论全家桶课程（精讲桶）",
-      "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1hGzwmHek4wlfKvkau46r6w?pwd=2b4d",
-      "code": "bssm",
-      "section": "公考类",
-      "context": "行测申论】2027超格行测+申论全家桶课程（精讲桶） 链接：https://pan.baidu.com/s/1hGzwmHek4wlfKvkau46r6w?pwd=2b4d 提取码：bssm",
-      "sources": [
-        {
-          "file": "百度网盘链接.txt",
-          "line": 317,
-          "section": "公考类"
-        }
-      ],
-      "searchText": "行测申论】2027超格行测+申论全家桶课程（精讲桶） 公考类 行测申论】2027超格行测+申论全家桶课程（精讲桶） 链接：https://pan.baidu.com/s/1hGzwmHek4wlfKvkau46r6w?pwd=2b4d 提取码：bssm bssm baidu https://pan.baidu.com/s/1hGzwmHek4wlfKvkau46r6w?pwd=2b4d"
     },
     {
       "id": "r923",
