@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-09-27T04:04:53.545Z",
+  "generatedAt": "2026-09-30T00:23:20.283Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -14863,10 +14863,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r871",
       "title": "27申论合集",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1NRBo78_w_dJJNv7lpSwf-w?pwd=21sk",
+      "url": "https://pan.baidu.com/s/1_I1DK-7aWeocUcxiqEyujQ?pwd=a6qq",
       "code": "21sk",
       "section": "公考类",
-      "context": "27申论合集 链接：https://pan.baidu.com/s/1NRBo78_w_dJJNv7lpSwf-w?pwd=21sk 提取码：21sk",
+      "context": "27申论合集 链接：https://pan.baidu.com/s/1_I1DK-7aWeocUcxiqEyujQ?pwd=a6qq 提取码：21sk",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -14874,7 +14874,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "27申论合集 公考类 27申论合集 链接：https://pan.baidu.com/s/1NRBo78_w_dJJNv7lpSwf-w?pwd=21sk 提取码：21sk 21sk baidu https://pan.baidu.com/s/1NRBo78_w_dJJNv7lpSwf-w?pwd=21sk"
+      "searchText": "27申论合集 公考类 27申论合集 链接：https://pan.baidu.com/s/1_I1DK-7aWeocUcxiqEyujQ?pwd=a6qq 提取码：21sk 21sk baidu https://pan.baidu.com/s/1_I1DK-7aWeocUcxiqEyujQ?pwd=a6qq"
     },
     {
       "id": "r872",
