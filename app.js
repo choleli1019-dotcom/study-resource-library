@@ -1348,23 +1348,21 @@ function renderSearchAvailability(item) {
 }
 
 function buildSearchDiscovery(query) {
-  const tokens = panSearchTokens(query);
+  const tokens = panSearchTokens(query), escape = panSearchEscapeHtml;
   const matched = tokens.length ? panSearchData.items.filter(item => panSearchItemMatches(item, tokens)) : panSearchData.items;
+  const verified = matched.filter(item => getSearchAvailability(item) === 2).length;
+  if (!tokens.length) return '<div class="search-idle"><div class="search-idle-terms"><span>试试</span>' + hotSearchTerms.slice(0,5).map(term=>'<button type="button" data-suggest="'+escape(term)+'">'+escape(term)+'</button>').join('') + '</div><div class="search-idle-meta"><span>'+matched.length.toLocaleString('zh-CN')+' 份资源</span>'+(verified?'<span><i aria-hidden="true"></i>'+verified.toLocaleString('zh-CN')+' 份已验证</span>':'')+'</div></div>';
   const categories = new Map();
-  matched.forEach(item => { const name = item.section || '未分类'; categories.set(name, (categories.get(name) || 0) + 1); });
-  const suggestions = getSearchSuggestionItems(query).slice(0, 4);
-  const recent = matched.filter(item => getSearchUpdateTime(item) > 0 && getSearchAvailability(item) >= 0)
-    .sort((a,b) => getSearchUpdateTime(b) - getSearchUpdateTime(a)).slice(0, 3);
-  const button = (text,meta,extra='') => '<button type="button" class="search-suggest-item" data-suggest="' + panSearchEscapeHtml(text) + '" ' + extra + '><strong>' + panSearchEscapeHtml(text) + '</strong><span>' + panSearchEscapeHtml(meta) + '</span></button>';
-  return '<div class="search-discovery-summary" role="status"><strong>' + (tokens.length ? '匹配 ' + matched.length + ' 条网盘资源' : matched.length + ' 条网盘资源，输入即查') + '</strong><small>优先展示已验证与近期更新</small></div>' +
-    '<div class="search-discovery-columns"><section><h3>' + (tokens.length ? '联想词' : '试试这些关键词') + '</h3>' + (suggestions.length ? suggestions.map(item => button(item.text, item.type)).join('') : '<p>试试老师简称或课程模块</p>') +
-    '</section><section><h3>匹配分类</h3><div class="search-category-matches">' + [...categories].sort((a,b)=>b[1]-a[1]).slice(0,6).map(([name,count]) => '<button type="button" data-discovery-course="' + panSearchEscapeHtml(name) + '" data-discovery-query="' + panSearchEscapeHtml(query) + '">' + panSearchEscapeHtml(name) + '<b>' + count + '</b></button>').join('') + '</div>' + (!categories.size ? '<p>暂无匹配分类</p>' : '') +
-    '</section><section><h3>近期更新</h3>' + (recent.length ? recent.map(item => button(item.title, new Intl.DateTimeFormat('zh-CN',{month:'numeric',day:'numeric'}).format(getSearchUpdateTime(item)) + ' 更新')).join('') : '<p>' + (tokens.length ? '暂无匹配的更新记录' : '暂无可用的更新记录') + '</p>') + '</section></div>';
+  matched.forEach(item=>{const name=item.section||'';if(!name||/批量|后台|未分类|server|admin/i.test(name))return;categories.set(name,(categories.get(name)||0)+1);});
+  const suggestions=getSearchSuggestionItems(query).slice(0,4);
+  const recent=matched.filter(item=>getSearchUpdateTime(item)>0&&getSearchAvailability(item)>=0).sort((a,b)=>getSearchUpdateTime(b)-getSearchUpdateTime(a)).slice(0,2);
+  const button=(text,meta)=>'<button type="button" class="search-suggest-item" data-suggest="'+escape(text)+'"><span aria-hidden="true">↗</span><strong>'+escape(text)+'</strong><span>'+escape(meta)+'</span></button>';
+  return '<div class="search-discovery-summary" role="status"><strong>匹配 '+matched.length+' 条资源</strong><button type="button" class="search-view-all" data-suggest="'+escape(query)+'">查看结果 →</button></div><div class="search-discovery-columns"><section><h3>相关搜索</h3>'+(suggestions.length?suggestions.map(item=>button(item.text,item.type==='热门'?'关键词':item.type)).join(''):'<p>试试更简短的关键词</p>')+'</section>'+(categories.size?'<section><h3>按分类找</h3><div class="search-category-matches">'+[...categories].sort((a,b)=>b[1]-a[1]).slice(0,4).map(([name,count])=>'<button type="button" data-discovery-course="'+escape(name)+'" data-discovery-query="'+escape(query)+'"><span>'+escape(name)+'</span><b>'+count+'</b></button>').join('')+'</div></section>':'')+(recent.length?'<section class="discovery-recent"><h3>近期更新</h3>'+recent.map(item=>button(item.title,new Intl.DateTimeFormat('zh-CN',{month:'numeric',day:'numeric'}).format(getSearchUpdateTime(item))+' 更新')).join('')+'</section>':'')+'</div>';
 }
 
 function refreshSearchDiscovery() {
   const panel = document.querySelector('#searchDiscovery');
-  if (panel) panel.innerHTML = buildSearchDiscovery(document.querySelector('#searchInput')?.value || '');
+  if (panel) { const query = document.querySelector('#searchInput')?.value || ''; panel.classList.toggle('is-searching', Boolean(query.trim())); panel.innerHTML = buildSearchDiscovery(query); }
   const focused = document.activeElement;
   if (focused?.id === 'welcomeSearchInput') showSearchSuggestBox(focused);
 }
