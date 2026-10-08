@@ -92,3 +92,21 @@ body:not(.theme-light) #top .hero .hero-side-column #focusCompanion {background:
  #top .hero .hero-live-panel {grid-column:1;grid-row:4!important;}
  #top .hero .resource-squirrel-stage {grid-column:1;grid-row:5!important;min-height:0!important;}
 }
+/* Frosted glass matches the woodland cards without losing timer contrast. */
+#top .hero .hero-side-column #focusCompanion {
+ background:rgba(242,248,238,.66)!important;
+ border-color:rgba(255,255,255,.52)!important;
+ -webkit-backdrop-filter:blur(20px) saturate(115%)!important;
+ backdrop-filter:blur(20px) saturate(115%)!important;
+ box-shadow:0 14px 34px rgba(10,28,22,.13),inset 0 1px 0 rgba(255,255,255,.32)!important;
+}
+body:not(.theme-light) #top .hero .hero-side-column #focusCompanion {
+ background:rgba(18,37,29,.57)!important;
+ border-color:rgba(217,233,204,.24)!important;
+ color:#f0f5e8!important;
+ box-shadow:0 14px 34px rgba(7,21,16,.2),inset 0 1px 0 rgba(255,255,255,.08)!important;
+}
+@supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))) {
+ #top .hero .hero-side-column #focusCompanion {background:rgba(242,248,238,.9)!important;}
+ body:not(.theme-light) #top .hero .hero-side-column #focusCompanion {background:rgba(18,37,29,.9)!important;}
+}
