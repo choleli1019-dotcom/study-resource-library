@@ -62,7 +62,7 @@
     </script>
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" /></noscript>
-    <link rel="stylesheet" href="styles.css?v=20261008-squirrel-forest" />
+    <link rel="stylesheet" href="styles.css?v=20261008-time-background" />
     <link id="finalThemeStylesheet" rel="stylesheet" href="final-theme.css?v=20260912-original-blue-final-v37" />
     <style>
       html body .main .hero-visual.hero-visual-notice-only {
@@ -743,9 +743,18 @@ html body:not(.theme-light) #top .hero .hero-actions a { color:#b8c9c0 !importan
 <style>
 @media(max-width:1100px) { #top .hero #studyCompanion {grid-row:2 !important;} #top .hero .hero-live-panel {grid-row:3 !important;} #top .resource-squirrel-stage {grid-row:4 !important;} }
 </style>
+<style id="timeBackgroundStyles">
+html body.has-static-wallpaper .site-static-background-transition {
+  position: fixed; z-index: 0; inset: 0; pointer-events: none;
+  background: center / cover no-repeat; opacity: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  html body.has-static-wallpaper .site-static-background-transition { transition: none !important; }
+}
+</style>
 </head>
   <body class="theme-light has-static-wallpaper">
-    <div class="site-static-background" aria-hidden="true"></div>
+    <div class="site-static-background" aria-hidden="true"></div><script src="time-background.js?v=20261008-cycle"></script>
     <div id="appShell" class="app-shell">
       <aside class="sidebar" aria-label="资料板块">
         <a class="brand" href="#top" aria-label="学习资源库首页">
@@ -978,9 +987,10 @@ html body:not(.theme-light) #top .hero .hero-actions a { color:#b8c9c0 !importan
           .catch(function () {});
       })();
     </script>    <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20261008-squirrel-forest"></script>
+    <script src="app.js?v=20261008-time-background"></script>
   </body>
 </html>
+
 
 
 
