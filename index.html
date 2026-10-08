@@ -62,7 +62,7 @@
     </script>
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" /></noscript>
-    <link rel="stylesheet" href="styles.css?v=20261009-focus-glass" />
+    <link rel="stylesheet" href="styles.css?v=20261009-focus-count-motto" />
     <link id="finalThemeStylesheet" rel="stylesheet" href="final-theme.css?v=20260912-original-blue-final-v37" />
     <style>
       html body .main .hero-visual.hero-visual-notice-only {
@@ -752,7 +752,7 @@ html body.has-static-wallpaper .site-static-background-transition {
   html body.has-static-wallpaper .site-static-background-transition { transition: none !important; }
 }
 </style>
-<link rel="stylesheet" href="focus-companion.css?v=20261009-glass" /></head>
+<link rel="stylesheet" href="focus-companion.css?v=20261009-motto" /></head>
   <body class="theme-light has-static-wallpaper">
     <div class="site-static-background" aria-hidden="true"></div><script src="time-background.js?v=20261008-cycle"></script>
     <div id="appShell" class="app-shell">
@@ -786,7 +786,7 @@ html body.has-static-wallpaper .site-static-background-transition {
             <p>
               少一点翻找，多一点专注。搜索老师、课程或备考关键词。
             </p>
-            <p class="hero-blessing"><span class="blessing-boat" aria-hidden="true"></span><span class="blessing-line">愿君此去，蟾宫折桂，雁塔题名；</span><span class="blessing-line">春风得意，一朝上岸！</span></p>
+            <p id="heroMotto" class="hero-motto" aria-label="世上无难事，只要肯登攀"><span>世上无难事，</span><span>只要肯登攀</span></p><p class="hero-blessing"><span class="blessing-boat" aria-hidden="true"></span><span class="blessing-line">愿君此去，蟾宫折桂，雁塔题名；</span><span class="blessing-line">春风得意，一朝上岸！</span></p>
             <div class="hero-search" aria-label="资源搜索">
               <div class="search-panel">
                 <div class="search-panel-head">
@@ -864,7 +864,7 @@ html body.has-static-wallpaper .site-static-background-transition {
   <div class="focus-clock"><span class="focus-mascot" aria-hidden="true"></span><div><span id="focusTimer" role="timer" aria-label="本阶段剩余时间" aria-live="off">25:00</span><small id="focusPlan">专注 25 分钟 / 休息 5 分钟</small></div></div>
   <div><div class="focus-presets" role="group" aria-label="选择专注和休息时长"><button type="button" data-focus-minutes="25" aria-pressed="true" aria-label="专注25分钟，休息5分钟">25 / 5</button><button type="button" data-focus-minutes="45" aria-pressed="false" aria-label="专注45分钟，休息10分钟">45 / 10</button><button type="button" data-focus-minutes="60" aria-pressed="false" aria-label="专注60分钟，休息10分钟">60 / 10</button></div><div class="focus-actions"><button id="focusPrimary" type="button">开始专注</button><button id="focusEnd" type="button" disabled>结束本轮</button></div></div>
  </div>
- <p id="focusStatus">准备好，我们一起学一会儿</p><div id="focusProgress" role="progressbar" aria-label="专注进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div><small id="focusHint">刷新可继续计时；休息结束后由你开启下一轮。</small><span id="focusAnnouncement" class="focus-sr-only" aria-live="polite" aria-atomic="true"></span>
+ <div class="focus-status-row"><p id="focusStatus">准备好，我们一起学一会儿</p><span id="focusPresence" aria-live="polite">正在连接…</span></div><div id="focusProgress" role="progressbar" aria-label="专注进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div><small id="focusHint">刷新可继续计时；休息结束后由你开启下一轮。</small><span id="focusAnnouncement" class="focus-sr-only" aria-live="polite" aria-atomic="true"></span>
 </section>
             <section class="resource-squirrel-stage" aria-label="资料松鼠助手">
               <button id="resourceSquirrelToggle" class="resource-squirrel-toggle" type="button" aria-expanded="false" aria-controls="resourceSquirrelPanel">
@@ -996,9 +996,11 @@ html body.has-static-wallpaper .site-static-background-transition {
           .catch(function () {});
       })();
     </script>    <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20261009-focus-glass"></script><script src="focus-companion.js?v=20261009-right"></script>
+    <script src="app.js?v=20261009-focus-count-motto"></script><script src="focus-companion.js?v=20261009-presence"></script>
   </body>
 </html>
+
+
 
 
 

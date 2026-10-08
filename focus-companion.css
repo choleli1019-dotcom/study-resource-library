@@ -110,3 +110,12 @@ body:not(.theme-light) #top .hero .hero-side-column #focusCompanion {
  #top .hero .hero-side-column #focusCompanion {background:rgba(242,248,238,.9)!important;}
  body:not(.theme-light) #top .hero .hero-side-column #focusCompanion {background:rgba(18,37,29,.9)!important;}
 }
+#top #focusCompanion .focus-status-row {display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;}
+#top #focusCompanion #focusPresence {display:inline-flex;align-items:center;gap:6px;flex-shrink:0;margin:8px 0 6px;font-size:11px!important;line-height:1.5!important;color:#4e7057!important;}
+body:not(.theme-light) #top #focusCompanion #focusPresence {color:#c4d7b7!important;}
+#top #focusCompanion #focusPresence::before {content:'';width:5px;height:5px;border-radius:50%;background:#83a767;}
+#top .hero-copy {position:relative!important;}
+#top .hero-copy #heroMotto {position:absolute!important;top:48px;right:44px;display:grid!important;gap:8px;margin:0!important;padding:0!important;color:#bca46f!important;font-family:'STKaiti','KaiTi','楷体','Noto Serif SC',serif!important;font-size:clamp(20px,1.8vw,28px)!important;font-weight:400!important;line-height:1.6!important;letter-spacing:.14em!important;text-align:left;opacity:.9!important;}
+#top .hero-copy #heroMotto span {color:inherit!important;font-family:inherit!important;font-size:inherit!important;font-weight:inherit!important;line-height:inherit!important;}
+body.theme-light #top .hero-copy #heroMotto {color:#8b7346!important;}
+@media(max-width:1100px) {#top .hero-copy #heroMotto {position:static!important;display:flex!important;flex-wrap:wrap;gap:0;margin:12px 0 0!important;font-size:17px!important;line-height:1.6!important;letter-spacing:.08em!important;}}

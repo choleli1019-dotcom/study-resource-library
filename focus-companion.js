@@ -24,6 +24,40 @@
     return { ...value, breakMinutes: presets[value.focusMinutes] };
   }
   let state = restore(read(STATE_KEY));
+  const peers = card.querySelector('#focusPresence');
+  const presenceApi = String(window.STUDY_RESOURCE_API_BASE || '').replace(/\/$/, '');
+  const existingId = typeof getVisitorId === 'function' ? getVisitorId() : '';
+  const presenceId = (existingId || `focus-${Date.now()}-${Math.random().toString(36).slice(2)}`).replace(/[^a-zA-Z0-9_-]/g, '-');
+  let pendingPresence = null, sendingPresence = false, presenceRevision = 0;
+  async function flushPresence() {
+    if (sendingPresence || !presenceApi || !peers) return;
+    sendingPresence = true;
+    while (pendingPresence) {
+      const request = pendingPresence;
+      pendingPresence = null;
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 8000);
+      try {
+        const response = await fetch(`${presenceApi}/api/focus-presence`, {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(request.payload), cache: 'no-store', keepalive: true, signal: controller.signal
+        });
+        const data = await response.json();
+        if (!response.ok || !data.ok || !Number.isSafeInteger(data.focusCount) || data.focusCount < 0) throw new Error('Count unavailable');
+        if (request.revision === presenceRevision) peers.textContent = `此刻 ${data.focusCount} 人一起专注`;
+      } catch {
+        if (request.revision === presenceRevision) peers.textContent = '陪学人数暂不可用';
+      } finally { clearTimeout(timeout); }
+    }
+    sendingPresence = false;
+  }
+  function refreshPresence() {
+    if (!peers) return;
+    if (!presenceApi) { peers.textContent = '陪学人数暂不可用'; return; }
+    const active = state.phase === 'focus' && state.status === 'running' && remaining() > 0;
+    pendingPresence = { revision: ++presenceRevision, payload: { visitorId: presenceId, active, remainingMs: active ? remaining() : 0 } };
+    flushPresence();
+  }
   function persist() { write(STATE_KEY, state); }
   function entries() { const list = read(LOG_KEY); return Array.isArray(list) ? list.filter(e => e && typeof e.id === 'string' && typeof e.day === 'string' && Number.isFinite(e.minutes) && e.minutes > 0 && e.minutes <= 60) : []; }
   function credit(at) {
@@ -78,6 +112,7 @@
     const nextSignature = `${state.phase}:${state.status}`;
     if (signature !== nextSignature) {
       signature = nextSignature;
+      refreshPresence();
       const view = !active ? 'idle' : paused ? 'paused' : state.phase;
       document.body.dataset.squirrelStudy = view;
       document.body.dataset.squirrelStudyPhase = state.phase;
@@ -112,14 +147,16 @@
     if (state.phase === 'idle') primary.click();
     primary.focus({ preventScroll: true });
   });
-  document.addEventListener('visibilitychange', () => { if (!document.hidden) paint(); });
+  document.addEventListener('visibilitychange', () => { if (!document.hidden) { paint(); refreshPresence(); } });
   window.addEventListener('pageshow', paint);
   window.addEventListener('storage', event => {
     if (event.key === STATE_KEY || event.key === null) state = restore(read(STATE_KEY));
     if ([STATE_KEY, LOG_KEY, null].includes(event.key)) paint();
   });
   paint(); setInterval(paint, 1000);
+  setInterval(() => { if (!document.hidden || (state.phase === "focus" && state.status === "running")) refreshPresence(); }, 25000);
 })();
+
 
 
 

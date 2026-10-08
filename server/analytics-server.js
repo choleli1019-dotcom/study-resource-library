@@ -2550,6 +2550,16 @@ const server = http.createServer(async (req, res) => {
     }
   }
 
+  if (url.pathname === "/api/focus-presence" && ["GET", "POST"].includes(req.method)) {
+    try {
+      const snapshot = req.method === "POST"
+        ? refreshFocusPresence(JSON.parse(await readBody(req) || "{}"))
+        : getFocusPresenceSnapshot();
+      return send(res, req, 200, { ok: true, ...snapshot }, { "Cache-Control": "no-store" });
+    } catch (error) {
+      return send(res, req, 400, { ok: false, error: error.message || "陪学人数连接失败" }, { "Cache-Control": "no-store" });
+    }
+  }
   if (req.method === "POST" && url.pathname === "/api/study-room/presence") {
     try {
       const body = JSON.parse(await readBody(req) || "{}");
@@ -3016,3 +3026,26 @@ function refreshStudyRoomPresence(raw) {
 
 
 
+
+// Only running focus timers occupy a seat; each browser has one short-lived lease.
+const FOCUS_PRESENCE_TTL_MS = 90 * 1000;
+const focusPresence = new Map();
+function pruneFocusPresence(now = Date.now()) {
+  for (const [id, entry] of focusPresence.entries()) {
+    if (now - entry.lastSeen > FOCUS_PRESENCE_TTL_MS || entry.endsAt <= now) focusPresence.delete(id);
+  }
+}
+function getFocusPresenceSnapshot() {
+  pruneFocusPresence();
+  return { focusCount: focusPresence.size, updatedAt: new Date().toISOString() };
+}
+function refreshFocusPresence(raw) {
+  const visitor = normalizeSitePresence(raw);
+  if (typeof raw.active !== "boolean") throw new Error("缺少专注状态");
+  if (raw.active && (!Number.isFinite(raw.remainingMs) || raw.remainingMs <= 0 || raw.remainingMs > 60 * 60 * 1000)) throw new Error("专注时长不正确");
+  const now = Date.now();
+  pruneFocusPresence(now);
+  if (raw.active) focusPresence.set(visitor.id, { lastSeen: now, endsAt: now + raw.remainingMs });
+  else focusPresence.delete(visitor.id);
+  return getFocusPresenceSnapshot();
+}
