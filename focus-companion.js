@@ -73,6 +73,7 @@
     }
     const today = entries().filter(e => e.day === dayFormat.format(new Date()));
     stats.textContent = `今天完成 ${today.length} 轮 · ${today.reduce((sum, e) => sum + e.minutes, 0)} 分钟专注`;
+    card.dataset.storageUnavailable = String(!storageAvailable);
     hint.textContent = storageAvailable ? '刷新可继续计时；休息结束后由你开启下一轮。' : '此浏览器无法保存计时，离开页面后进度不会保留。';
     const nextSignature = `${state.phase}:${state.status}`;
     if (signature !== nextSignature) {
@@ -119,5 +120,6 @@
   });
   paint(); setInterval(paint, 1000);
 })();
+
 
 

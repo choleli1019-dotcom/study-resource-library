@@ -62,7 +62,7 @@
     </script>
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" /></noscript>
-    <link rel="stylesheet" href="styles.css?v=20261009-focus-companion" />
+    <link rel="stylesheet" href="styles.css?v=20261009-focus-right" />
     <link id="finalThemeStylesheet" rel="stylesheet" href="final-theme.css?v=20260912-original-blue-final-v37" />
     <style>
       html body .main .hero-visual.hero-visual-notice-only {
@@ -752,7 +752,7 @@ html body.has-static-wallpaper .site-static-background-transition {
   html body.has-static-wallpaper .site-static-background-transition { transition: none !important; }
 }
 </style>
-<link rel="stylesheet" href="focus-companion.css?v=20261009" /></head>
+<link rel="stylesheet" href="focus-companion.css?v=20261009-right" /></head>
   <body class="theme-light has-static-wallpaper">
     <div class="site-static-background" aria-hidden="true"></div><script src="time-background.js?v=20261008-cycle"></script>
     <div id="appShell" class="app-shell">
@@ -779,6 +779,7 @@ html body.has-static-wallpaper .site-static-background-transition {
 
       <main id="top" class="main">
         <section class="hero">
+          <div class="hero-main-column">
           <div class="hero-copy">
             <p class="eyebrow" aria-label="覆盖领域"><span>公务员</span><i aria-hidden="true">·</i><span>事业单位</span><i aria-hidden="true">·</i><span>教招</span><i aria-hidden="true">·</i><span>法考</span><i aria-hidden="true">·</i><span>考研</span></p>
             <h1>备考资料，<span>一搜即达。</span></h1>
@@ -818,7 +819,34 @@ html body.has-static-wallpaper .site-static-background-transition {
               <span class="hero-stat"><strong>持续</strong><small>更新</small></span>
             </div>
           </div>
-          <div class="hero-visual hero-visual-notice-only">
+        <section id="studyCompanion" class="study-companion" aria-label="备考同行">          <section class="countdown-wall" aria-labelledby="countdownTitle">
+            <div class="companion-heading">
+              <div><span class="companion-kicker">EXAM COUNTDOWN</span><h2 id="countdownTitle">上岸倒计时</h2></div>
+              <p>今天也算在路上</p>
+            </div>
+            <div class="countdown-list">
+              <article data-countdown="national"><span>2027 国考（预计）</span><strong>--</strong><small>天</small></article>
+              <article data-countdown="province"><span>2027 省考联考（预计）</span><strong>--</strong><small>天</small></article>
+              <article data-countdown="teacher"><span>2027 春季教招（预计）</span><strong>--</strong><small>天</small></article>
+            </div>
+          </section>
+          <section class="daily-learning-sign" aria-labelledby="learningSignTitle">
+            <span class="companion-kicker">TODAY'S STUDY NOTE</span>
+            <h2 id="learningSignTitle">今日学习签</h2>
+            <p id="dailyLearningSign">先做一题，再谈远方。</p>
+            <small id="dailyLearningSignMeta">把今天写进上岸的答案里</small>
+          </section>
+          <section class="drift-bottle-board" aria-labelledby="driftBottleTitle">
+            <div class="companion-heading">
+              <div><span class="companion-kicker">FELLOW TRAVELERS</span><h2 id="driftBottleTitle">上岸漂流瓶</h2></div>
+              <button id="leaveDriftBottle" class="drift-bottle-button" type="button">留一句</button>
+            </div>
+            <div id="driftBottleTrack" class="drift-bottle-track" aria-live="polite"></div>
+            <p class="drift-bottle-hint">匿名写下今天完成的事、想找的资料，或送给后来人的一句话。</p>
+          </section>
+        </section>
+          </div>
+          <div class="hero-side-column">
             <section class="hero-live-panel" aria-label="资料库在线状态">
               <div class="hero-live-header">
                 <span class="hero-live-status"><i aria-hidden="true"></i>资料库在线 <b>LIVE</b><span id="siteGlobalOnline" class="site-global-online" aria-live="polite">-- 人在线</span></span>
@@ -830,6 +858,14 @@ html body.has-static-wallpaper .site-static-background-transition {
                 <span><i aria-hidden="true"></i><b>内容浏览</b><small>在线 / 下载 / 收藏</small></span>
               </div>
             </section>
+<section id="focusCompanion" aria-labelledby="focusCompanionTitle">
+ <div class="focus-header"><div><p class="focus-eyebrow">A LITTLE COMPANY</p><h2 id="focusCompanionTitle">小松鼠陪学</h2></div><span id="focusToday">今天完成 0 轮 · 0 分钟专注</span></div>
+ <div class="focus-body">
+  <div class="focus-clock"><span class="focus-mascot" aria-hidden="true"></span><div><span id="focusTimer" role="timer" aria-label="本阶段剩余时间" aria-live="off">25:00</span><small id="focusPlan">专注 25 分钟 / 休息 5 分钟</small></div></div>
+  <div><div class="focus-presets" role="group" aria-label="选择专注和休息时长"><button type="button" data-focus-minutes="25" aria-pressed="true" aria-label="专注25分钟，休息5分钟">25 / 5</button><button type="button" data-focus-minutes="45" aria-pressed="false" aria-label="专注45分钟，休息10分钟">45 / 10</button><button type="button" data-focus-minutes="60" aria-pressed="false" aria-label="专注60分钟，休息10分钟">60 / 10</button></div><div class="focus-actions"><button id="focusPrimary" type="button">开始专注</button><button id="focusEnd" type="button" disabled>结束本轮</button></div></div>
+ </div>
+ <p id="focusStatus">准备好，我们一起学一会儿</p><div id="focusProgress" role="progressbar" aria-label="专注进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div><small id="focusHint">刷新可继续计时；休息结束后由你开启下一轮。</small><span id="focusAnnouncement" class="focus-sr-only" aria-live="polite" aria-atomic="true"></span>
+</section>
             <section class="resource-squirrel-stage" aria-label="资料松鼠助手">
               <button id="resourceSquirrelToggle" class="resource-squirrel-toggle" type="button" aria-expanded="false" aria-controls="resourceSquirrelPanel">
                 <span class="resource-squirrel-callout"><strong id="resourceSquirrelGreeting" aria-live="polite">你好，我是资料松鼠</strong><small id="resourceSquirrelGreetingNote">我帮你翻资料柜</small></span>
@@ -861,40 +897,6 @@ html body.has-static-wallpaper .site-static-background-transition {
               </aside>
             </section>
           </div>
-        <section id="studyCompanion" class="study-companion" aria-label="备考同行"><section id="focusCompanion" aria-labelledby="focusCompanionTitle">
- <div class="focus-header"><div><p class="focus-eyebrow">A LITTLE COMPANY</p><h2 id="focusCompanionTitle">小松鼠陪学</h2></div><span id="focusToday">今天完成 0 轮 · 0 分钟专注</span></div>
- <div class="focus-body">
-  <div class="focus-clock"><span class="focus-mascot" aria-hidden="true"></span><div><span id="focusTimer" role="timer" aria-label="本阶段剩余时间" aria-live="off">25:00</span><small id="focusPlan">专注 25 分钟 / 休息 5 分钟</small></div></div>
-  <div><div class="focus-presets" role="group" aria-label="选择专注和休息时长"><button type="button" data-focus-minutes="25" aria-pressed="true" aria-label="专注25分钟，休息5分钟">25 / 5</button><button type="button" data-focus-minutes="45" aria-pressed="false" aria-label="专注45分钟，休息10分钟">45 / 10</button><button type="button" data-focus-minutes="60" aria-pressed="false" aria-label="专注60分钟，休息10分钟">60 / 10</button></div><div class="focus-actions"><button id="focusPrimary" type="button">开始专注</button><button id="focusEnd" type="button" disabled>结束本轮</button></div></div>
- </div>
- <p id="focusStatus">准备好，我们一起学一会儿</p><div id="focusProgress" role="progressbar" aria-label="专注进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div><small id="focusHint">刷新可继续计时；休息结束后由你开启下一轮。</small><span id="focusAnnouncement" class="focus-sr-only" aria-live="polite" aria-atomic="true"></span>
-</section>
-          <section class="countdown-wall" aria-labelledby="countdownTitle">
-            <div class="companion-heading">
-              <div><span class="companion-kicker">EXAM COUNTDOWN</span><h2 id="countdownTitle">上岸倒计时</h2></div>
-              <p>今天也算在路上</p>
-            </div>
-            <div class="countdown-list">
-              <article data-countdown="national"><span>2027 国考（预计）</span><strong>--</strong><small>天</small></article>
-              <article data-countdown="province"><span>2027 省考联考（预计）</span><strong>--</strong><small>天</small></article>
-              <article data-countdown="teacher"><span>2027 春季教招（预计）</span><strong>--</strong><small>天</small></article>
-            </div>
-          </section>
-          <section class="daily-learning-sign" aria-labelledby="learningSignTitle">
-            <span class="companion-kicker">TODAY'S STUDY NOTE</span>
-            <h2 id="learningSignTitle">今日学习签</h2>
-            <p id="dailyLearningSign">先做一题，再谈远方。</p>
-            <small id="dailyLearningSignMeta">把今天写进上岸的答案里</small>
-          </section>
-          <section class="drift-bottle-board" aria-labelledby="driftBottleTitle">
-            <div class="companion-heading">
-              <div><span class="companion-kicker">FELLOW TRAVELERS</span><h2 id="driftBottleTitle">上岸漂流瓶</h2></div>
-              <button id="leaveDriftBottle" class="drift-bottle-button" type="button">留一句</button>
-            </div>
-            <div id="driftBottleTrack" class="drift-bottle-track" aria-live="polite"></div>
-            <p class="drift-bottle-hint">匿名写下今天完成的事、想找的资料，或送给后来人的一句话。</p>
-          </section>
-        </section>
         </section>
 
         <section id="panSearchResults" class="pan-search-results" aria-live="polite" hidden></section>
@@ -994,7 +996,7 @@ html body.has-static-wallpaper .site-static-background-transition {
           .catch(function () {});
       })();
     </script>    <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20261009-focus-companion"></script><script src="focus-companion.js?v=20261009"></script>
+    <script src="app.js?v=20261009-focus-right"></script><script src="focus-companion.js?v=20261009-right"></script>
   </body>
 </html>
 

@@ -62,3 +62,33 @@ body[data-squirrel-study='paused'][data-squirrel-study-phase='break'] #top #focu
 #top #focusCompanion #focusHint {font-size:11px!important;line-height:1.5!important;}
 #top #focusCompanion button {font-size:12px!important;line-height:1.4!important;}
 @media(max-width:600px) {#top #focusCompanion #focusTimer {font-size:48px!important;}}
+/* Each desktop column flows independently; no reserved gap under search. */
+#top .hero {grid-template-rows:auto!important;align-items:start!important;}
+#top .hero .hero-main-column {grid-column:1;grid-row:1;display:flex;flex-direction:column;gap:20px;min-width:0;}
+#top .hero .hero-side-column {grid-column:2;grid-row:1;display:flex;flex-direction:column;gap:14px;min-width:0;}
+#top .hero .hero-side-column #focusCompanion {min-width:0;padding:18px!important;background:#f4f7ef!important;border:1px solid rgba(74,106,80,.24)!important;border-radius:22px;color:#244535!important;box-shadow:0 10px 35px rgba(15,38,28,.09);}
+body:not(.theme-light) #top .hero .hero-side-column #focusCompanion {background:#182e26!important;color:#e9efdf!important;border-color:rgba(180,201,160,.25)!important;}
+#top .hero .hero-side-column .resource-squirrel-stage {min-height:400px!important;}
+@media(min-width:1101px) {
+ #top .hero .hero-side-column #focusCompanion {padding:14px 18px!important;}
+ #top #focusCompanion .focus-eyebrow {display:none!important;}
+ #top #focusCompanion h2 {font-size:17px!important;}
+ #top #focusCompanion #focusToday {font-size:11px!important;}
+ #top #focusCompanion .focus-body {grid-template-columns:minmax(140px,.9fr) minmax(0,1fr);gap:12px;margin-top:8px;}
+ #top #focusCompanion #focusTimer {font-size:42px!important;}
+ #top #focusCompanion #focusPlan {font-size:11px!important;margin-top:5px;}
+ #top #focusCompanion button {padding:5px 10px;font-size:11px!important;border-radius:8px;}
+ #top #focusCompanion .focus-presets {gap:5px;}
+ #top #focusCompanion .focus-actions {margin-top:6px;gap:6px;}
+ #top #focusCompanion #focusPrimary {min-width:105px;}
+ #top #focusCompanion #focusStatus {margin:8px 0 6px;font-size:12px!important;}
+ #top #focusCompanion:not([data-storage-unavailable='true']) #focusHint {display:none!important;}
+}
+@media(max-width:1100px) {
+ #top .hero .hero-main-column,#top .hero .hero-side-column {display:contents!important;}
+ #top .hero .hero-copy {grid-column:1;grid-row:1;}
+ #top .hero #focusCompanion {grid-column:1;grid-row:2;}
+ #top .hero #studyCompanion {grid-column:1;grid-row:3!important;}
+ #top .hero .hero-live-panel {grid-column:1;grid-row:4!important;}
+ #top .hero .resource-squirrel-stage {grid-column:1;grid-row:5!important;min-height:0!important;}
+}
