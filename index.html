@@ -62,7 +62,7 @@
     </script>
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" /></noscript>
-    <link rel="stylesheet" href="styles.css?v=20261008-search-spacing" />
+    <link rel="stylesheet" href="styles.css?v=20261008-squirrel-restored" />
     <link id="finalThemeStylesheet" rel="stylesheet" href="final-theme.css?v=20260912-original-blue-final-v37" />
     <style>
       html body .main .hero-visual.hero-visual-notice-only {
@@ -712,6 +712,37 @@ html body:not(.theme-light) #top .hero .hero-actions a { color:#b8c9c0 !importan
 #top .resource-squirrel-panel { pointer-events:auto; }
 #top .hero, #top .hero .hero-visual { transform:none !important; filter:none !important; backdrop-filter:none !important; -webkit-backdrop-filter:none !important; contain:none !important; }
 </style>
+<style id="squirrelHomepageRestored">
+/* Restore the homepage mascot; fill the adjacent row with useful study cards. */
+#top .hero { display:grid !important; grid-template-rows:auto auto !important; gap:20px !important; }
+#top .hero .hero-copy { grid-column:1; grid-row:1; }
+#top .hero .hero-visual.hero-visual-notice-only { display:contents !important; }
+#top .hero .hero-live-panel { grid-column:2; grid-row:1; align-self:start !important; }
+#top .resource-squirrel-stage { position:relative !important; inset:auto !important; grid-column:2; grid-row:2; display:flex !important; align-self:stretch; align-items:center !important; justify-content:center !important; width:auto !important; height:auto !important; min-height:0 !important; max-height:none !important; z-index:2; pointer-events:auto; overflow:visible !important; }
+#top .resource-squirrel-toggle { width:clamp(220px,22vw,330px) !important; margin:0 !important; transform:translateX(var(--squirrel-drag-x,0px)) !important; }
+#top .resource-squirrel-stage::before { display:block !important; }
+#top .resource-squirrel-trails { display:block !important; }
+#top .hero #studyCompanion { grid-column:1; grid-row:2; display:grid !important; grid-template-columns:1fr 1fr !important; gap:16px !important; margin:0 !important; align-self:start; }
+#top .hero #studyCompanion .countdown-wall { grid-column:1 / -1; }
+#top .hero #studyCompanion .drift-bottle-board { grid-column:auto; }
+#top .hero #studyCompanion > section { padding:20px !important; min-width:0; }
+@media(max-width:1100px) {
+ #top .hero { grid-template-columns:1fr !important; }
+ #top .hero .hero-copy { grid-column:1; grid-row:1; }
+ #top .hero .hero-live-panel { grid-column:1; grid-row:2; }
+ #top .resource-squirrel-stage { grid-column:1; grid-row:3; min-height:0 !important; }
+ #top .resource-squirrel-toggle { width:220px !important; }
+ #top .hero #studyCompanion { grid-column:1; grid-row:4; }
+}
+@media(max-width:600px) {
+ #top .resource-squirrel-toggle { width:180px !important; }
+ #top .hero #studyCompanion { grid-template-columns:1fr !important; }
+ #top .hero #studyCompanion .countdown-wall { grid-column:auto; }
+}
+</style>
+<style>
+@media(max-width:1100px) { #top .hero #studyCompanion {grid-row:2 !important;} #top .hero .hero-live-panel {grid-row:3 !important;} #top .resource-squirrel-stage {grid-row:4 !important;} }
+</style>
 </head>
   <body class="theme-light has-static-wallpaper">
     <div class="site-static-background" aria-hidden="true"></div>
@@ -821,10 +852,6 @@ html body:not(.theme-light) #top .hero .hero-actions a { color:#b8c9c0 !importan
               </aside>
             </section>
           </div>
-        </section>
-
-        <section id="panSearchResults" class="pan-search-results" aria-live="polite" hidden></section>
-
         <section id="studyCompanion" class="study-companion" aria-label="备考同行">
           <section class="countdown-wall" aria-labelledby="countdownTitle">
             <div class="companion-heading">
@@ -852,6 +879,9 @@ html body:not(.theme-light) #top .hero .hero-actions a { color:#b8c9c0 !importan
             <p class="drift-bottle-hint">匿名写下今天完成的事、想找的资料，或送给后来人的一句话。</p>
           </section>
         </section>
+        </section>
+
+        <section id="panSearchResults" class="pan-search-results" aria-live="polite" hidden></section>
 
         <section id="featuredResources" class="featured-panel" aria-label="常用入口"></section>
 
@@ -948,7 +978,7 @@ html body:not(.theme-light) #top .hero .hero-actions a { color:#b8c9c0 !importan
           .catch(function () {});
       })();
     </script>    <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20261008-search-spacing"></script>
+    <script src="app.js?v=20261008-squirrel-restored"></script>
   </body>
 </html>
 
