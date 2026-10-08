@@ -62,7 +62,7 @@
     </script>
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" /></noscript>
-    <link rel="stylesheet" href="styles.css?v=20261008-search-refined" />
+    <link rel="stylesheet" href="styles.css?v=20261008-search-spacing" />
     <link id="finalThemeStylesheet" rel="stylesheet" href="final-theme.css?v=20260912-original-blue-final-v37" />
     <style>
       html body .main .hero-visual.hero-visual-notice-only {
@@ -692,6 +692,26 @@ html body:not(.theme-light) #top .hero .hero-actions a { color:#b8c9c0 !importan
 #top .hero .hero-actions a::after { display:none !important; }
 #top .hero .hero-actions a:hover { text-decoration:underline; text-underline-offset:4px; }
 </style>
+<style id="searchSpacingFix">
+/* Compact hero: the mascot is a floating companion, never a reserved row. */
+#top .hero { height:auto !important; min-height:0 !important; grid-template-rows:auto !important; align-items:start !important; margin-bottom:0 !important; }
+#top .hero .hero-visual.hero-visual-notice-only { display:block !important; height:auto !important; min-height:0 !important; grid-template-rows:none !important; align-self:start !important; }
+#top .resource-squirrel-stage { position:fixed !important; inset:auto 18px 18px auto !important; display:flex !important; width:148px !important; height:175px !important; min-height:0 !important; max-height:175px !important; z-index:25; pointer-events:none; }
+#top .resource-squirrel-stage::before { display:none !important; }
+#top .resource-squirrel-toggle { width:140px !important; margin:0 !important; transform:translateX(var(--squirrel-drag-x,0px)) !important; pointer-events:auto; }
+#top .resource-squirrel-trails { display:none !important; }
+#top .resource-squirrel-menu { pointer-events:auto; }
+#top #studyCompanion { margin-top:20px !important; }
+@media(max-width:600px) {
+ #top .resource-squirrel-stage { width:104px !important; height:126px !important; max-height:126px !important; right:8px !important; bottom:12px !important; }
+ #top .resource-squirrel-toggle { width:100px !important; }
+ #top #studyCompanion { margin-top:16px !important; }
+}
+</style>
+<style>
+#top .resource-squirrel-panel { pointer-events:auto; }
+#top .hero, #top .hero .hero-visual { transform:none !important; filter:none !important; backdrop-filter:none !important; -webkit-backdrop-filter:none !important; contain:none !important; }
+</style>
 </head>
   <body class="theme-light has-static-wallpaper">
     <div class="site-static-background" aria-hidden="true"></div>
@@ -928,7 +948,7 @@ html body:not(.theme-light) #top .hero .hero-actions a { color:#b8c9c0 !importan
           .catch(function () {});
       })();
     </script>    <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20261008-search-refined"></script>
+    <script src="app.js?v=20261008-search-spacing"></script>
   </body>
 </html>
 
