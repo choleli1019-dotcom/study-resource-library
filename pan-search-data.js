@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-10-08T08:54:18.090Z",
+  "generatedAt": "2026-10-08T14:11:48.024Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -20371,7 +20371,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1196",
       "title": "2027超格行测+申论（五合一）夸夸刷刷题营",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/a2236710d779",
+      "url": "https://pan.quark.cn/s/9b620309134a",
       "code": "",
       "section": "后台新增",
       "context": "2027超格行测+申论（五合一）夸夸刷刷题营",
@@ -20382,7 +20382,7 @@ window.PAN_SEARCH_DATA = {
           "section": "后台新增"
         }
       ],
-      "searchText": "2027超格行测+申论（五合一）夸夸刷刷题营 后台新增 2027超格行测+申论（五合一）夸夸刷刷题营 server/data/extra-links.json"
+      "searchText": "2027超格行测+申论（五合一）夸夸刷刷题营 后台新增 2027超格行测+申论（五合一）夸夸刷刷题营 quark https://pan.quark.cn/s/9b620309134a"
     },
     {
       "id": "r1197",
