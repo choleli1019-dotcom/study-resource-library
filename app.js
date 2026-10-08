@@ -2308,6 +2308,7 @@ function bindResourceSquirrel() {
     }
   };
   const setMotion = (motion = "idle", duration = 0) => {
+    if (stage.dataset.studyState) return;
     window.clearTimeout(motionTimer);
     toggle.dataset.squirrelMotion = motion;
     document.body.classList.toggle("is-resource-squirrel-resting", motion === "nest");
@@ -2320,14 +2321,16 @@ function bindResourceSquirrel() {
     }, duration);
   };
   const say = (title, note, motion = "idle", duration = 0) => {
+    if (stage.dataset.studyState) return;
     if (greeting) greeting.textContent = title;
     if (greetingNote) greetingNote.textContent = note;
     setMotion(motion, duration);
   };
   const scheduleSquirrelRest = (delay = 12000) => {
+    if (stage.dataset.studyState) { window.clearTimeout(squirrelRestTimer); return; }
     window.clearTimeout(squirrelRestTimer);
     squirrelRestTimer = window.setTimeout(() => {
-      if (panel.hidden && !squirrelDrag && !document.hidden) {
+      if (panel.hidden && !squirrelDrag && !document.hidden && !stage.dataset.studyState) {
         say("我回书窝歇一会儿", "需要资料时叫我", "nest");
       }
     }, delay);
@@ -2340,6 +2343,25 @@ function bindResourceSquirrel() {
     scheduleSquirrelRest();
   };
 
+  document.addEventListener("squirrel-study-state", (event) => {
+    if (!event.detail.active && !stage.dataset.studyState) return;
+    window.clearTimeout(motionTimer);
+    window.clearTimeout(squirrelRestTimer);
+    window.clearTimeout(squirrelWalkStopTimer);
+    document.body.classList.remove("is-resource-squirrel-resting");
+    if (nestDock) nestDock.tabIndex = -1;
+    if (event.detail.active) {
+      stage.dataset.studyState = event.detail.status === "paused" ? "paused" : event.detail.phase;
+      delete toggle.dataset.squirrelWalk;
+      toggle.dataset.squirrelMotion = "idle";
+      if (greeting) greeting.textContent = event.detail.text;
+      if (greetingNote) greetingNote.textContent = event.detail.phase === "focus" ? "不用急，我一直在旁边" : "让眼睛和肩膀也歇一歇";
+    } else {
+      delete stage.dataset.studyState;
+      say("这一轮辛苦啦", "准备好了，随时再来找我", "idle");
+      scheduleSquirrelRest();
+    }
+  });
   const [greetingText, greetingNoteText, greetingMotion] = getBeijingSquirrelGreeting();
   const lastTrail = getSquirrelTrail();
   if (lastTrail) {
@@ -2445,6 +2467,7 @@ function bindResourceSquirrel() {
     }
   };
   toggle.addEventListener("pointerdown", (event) => {
+    if (stage.dataset.studyState) return;
     if (event.pointerType === "mouse" && event.button !== 0) return;
     window.clearTimeout(squirrelWalkStopTimer);
     wakeSquirrel();
@@ -2545,3 +2568,6 @@ scheduleNonCriticalTask(loadShoreLetter, 700);
 
 // Initialize after all search state is ready.
 refreshSearchDiscovery();
+
+
+

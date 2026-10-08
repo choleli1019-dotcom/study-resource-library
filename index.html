@@ -62,7 +62,7 @@
     </script>
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" /></noscript>
-    <link rel="stylesheet" href="styles.css?v=20261008-time-background" />
+    <link rel="stylesheet" href="styles.css?v=20261009-focus-companion" />
     <link id="finalThemeStylesheet" rel="stylesheet" href="final-theme.css?v=20260912-original-blue-final-v37" />
     <style>
       html body .main .hero-visual.hero-visual-notice-only {
@@ -752,7 +752,7 @@ html body.has-static-wallpaper .site-static-background-transition {
   html body.has-static-wallpaper .site-static-background-transition { transition: none !important; }
 }
 </style>
-</head>
+<link rel="stylesheet" href="focus-companion.css?v=20261009" /></head>
   <body class="theme-light has-static-wallpaper">
     <div class="site-static-background" aria-hidden="true"></div><script src="time-background.js?v=20261008-cycle"></script>
     <div id="appShell" class="app-shell">
@@ -841,7 +841,7 @@ html body.has-static-wallpaper .site-static-background-transition {
                 <h2>资料松鼠在这儿</h2>
                 <p>要找什么资料？我带你从搜索开始。</p>
                 <div class="resource-squirrel-actions">
-                  <button id="resourceSquirrelSearch" type="button">带我去找资料 <span>→</span></button>
+                  <button id="resourceSquirrelFocus" type="button">陪我学一会儿 <span>→</span></button><button id="resourceSquirrelSearch" type="button">带我去找资料 <span>→</span></button>
                 </div>
               </aside>
               <aside class="resource-squirrel-trails" aria-label="资料足迹">
@@ -861,7 +861,14 @@ html body.has-static-wallpaper .site-static-background-transition {
               </aside>
             </section>
           </div>
-        <section id="studyCompanion" class="study-companion" aria-label="备考同行">
+        <section id="studyCompanion" class="study-companion" aria-label="备考同行"><section id="focusCompanion" aria-labelledby="focusCompanionTitle">
+ <div class="focus-header"><div><p class="focus-eyebrow">A LITTLE COMPANY</p><h2 id="focusCompanionTitle">小松鼠陪学</h2></div><span id="focusToday">今天完成 0 轮 · 0 分钟专注</span></div>
+ <div class="focus-body">
+  <div class="focus-clock"><span class="focus-mascot" aria-hidden="true"></span><div><span id="focusTimer" role="timer" aria-label="本阶段剩余时间" aria-live="off">25:00</span><small id="focusPlan">专注 25 分钟 / 休息 5 分钟</small></div></div>
+  <div><div class="focus-presets" role="group" aria-label="选择专注和休息时长"><button type="button" data-focus-minutes="25" aria-pressed="true" aria-label="专注25分钟，休息5分钟">25 / 5</button><button type="button" data-focus-minutes="45" aria-pressed="false" aria-label="专注45分钟，休息10分钟">45 / 10</button><button type="button" data-focus-minutes="60" aria-pressed="false" aria-label="专注60分钟，休息10分钟">60 / 10</button></div><div class="focus-actions"><button id="focusPrimary" type="button">开始专注</button><button id="focusEnd" type="button" disabled>结束本轮</button></div></div>
+ </div>
+ <p id="focusStatus">准备好，我们一起学一会儿</p><div id="focusProgress" role="progressbar" aria-label="专注进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div><small id="focusHint">刷新可继续计时；休息结束后由你开启下一轮。</small><span id="focusAnnouncement" class="focus-sr-only" aria-live="polite" aria-atomic="true"></span>
+</section>
           <section class="countdown-wall" aria-labelledby="countdownTitle">
             <div class="companion-heading">
               <div><span class="companion-kicker">EXAM COUNTDOWN</span><h2 id="countdownTitle">上岸倒计时</h2></div>
@@ -987,9 +994,10 @@ html body.has-static-wallpaper .site-static-background-transition {
           .catch(function () {});
       })();
     </script>    <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20261008-time-background"></script>
+    <script src="app.js?v=20261009-focus-companion"></script><script src="focus-companion.js?v=20261009"></script>
   </body>
 </html>
+
 
 
 
