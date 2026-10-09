@@ -1545,3 +1545,50 @@ html body .main .study-room-rebuilt :is(.study-room-timer-action, .study-room-ut
 html body .main .study-room-rebuilt :is(.study-room-teaser-head h2, .study-room-timer-action > strong, .study-room-utility-action b) { color:#f2fbff !important; }
 html body .main .study-room-rebuilt :is(.study-room-teaser-head > div:first-child > span, .study-room-teaser-lead, .study-room-utility-action small, .study-room-teaser-bottom > span, .study-room-timer-action > small) { color:rgba(229,247,255,.80) !important; }
 html body .main .study-room-rebuilt .study-room-timer-action > time { color:#b8edf0 !important; }
+
+/* 2026-10-09: let resource headings share their parent panel surface. */
+html body .main #featuredResources > .featured-copy,
+html body .main #overview .overview-header > .section-title {
+  max-width: 100% !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  text-shadow: none !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif !important;
+}
+html body .main #featuredResources > .featured-copy { margin: 0 0 20px !important; padding: 22px 24px 0 !important; }
+html body .main #overview .overview-header > .section-title { margin: 0 !important; }
+html body .main #overview .overview-header > .section-title > .section-icon { display: none !important; }
+html body .main #featuredResources > .featured-copy h2,
+html body .main #overview .overview-header > .section-title h2 {
+  margin: 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  font-size: clamp(23px, 1.8vw, 28px) !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  letter-spacing: .02em !important;
+  color: #294b43 !important;
+  text-shadow: none !important;
+}
+html body .main #featuredResources > .featured-copy p,
+html body .main #overview .overview-header > .section-title p {
+  margin: 8px 0 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.75 !important;
+  color: #526a63 !important;
+  text-shadow: none !important;
+}
+html body:not(.theme-light) .main #featuredResources > .featured-copy h2,
+html body:not(.theme-light) .main #overview .overview-header > .section-title h2 { color: #e2eee8 !important; }
+html body:not(.theme-light) .main #featuredResources > .featured-copy p,
+html body:not(.theme-light) .main #overview .overview-header > .section-title p { color: #b5c8bf !important; }
+
+@media (max-width: 700px) {
+  html body .main #featuredResources > .featured-copy { padding: 18px 20px 0 !important; }
+}

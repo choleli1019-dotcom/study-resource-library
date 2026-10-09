@@ -472,9 +472,8 @@ function renderFeaturedResources() {
   const items = quickEntryTitles.map(findResourceByTitle).filter(Boolean);
   container.innerHTML = `
     <div class="featured-copy">
-      <span class="panel-label">常用入口</span>
-      <h2>从最常使用的资料和教程开始。</h2>
-      <p>保留最高频的四个入口，其余内容统一放到“全部分类”里，减少重复判断。</p>
+      <h2>常用入口</h2>
+      <p>常用资料和教程，从这里开始。更多资源可在下方分类中查看。</p>
     </div>
     <div class="featured-list">
       ${items
