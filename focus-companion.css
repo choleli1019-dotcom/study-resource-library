@@ -115,10 +115,15 @@ body:not(.theme-light) #top .hero .hero-side-column #focusCompanion {
 body:not(.theme-light) #top #focusCompanion #focusPresence {color:#c4d7b7!important;}
 #top #focusCompanion #focusPresence::before {content:'';width:5px;height:5px;border-radius:50%;background:#83a767;}
 #top .hero-copy {position:relative!important;}
-#top .hero-copy #heroMotto {position:absolute!important;top:48px;right:44px;display:grid!important;gap:8px;margin:0!important;padding:0!important;color:#bca46f!important;font-family:'STKaiti','KaiTi','楷体','Noto Serif SC',serif!important;font-size:clamp(20px,1.8vw,28px)!important;font-weight:400!important;line-height:1.6!important;letter-spacing:.14em!important;text-align:left;opacity:.9!important;}
+#top .hero-copy .hero-motto-companion {position:absolute;top:28px;right:32px;display:flex;align-items:center;gap:12px;max-width:calc(100% - 64px);color:#bca46f;}
+#top .hero-copy .hero-motto-portrait {display:block;flex-shrink:0;width:104px;height:156px;object-fit:contain;mask-image:linear-gradient(to bottom,#000 0%,#000 88%,transparent 100%);-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 88%,transparent 100%);}
+#top .hero-copy .hero-motto-copy {min-width:0;}
+#top .hero-copy #heroMotto {position:static!important;display:grid!important;gap:5px;margin:0!important;padding:0!important;color:inherit!important;font-family:'STKaiti','KaiTi','楷体','Noto Serif SC',serif!important;font-size:clamp(19px,1.5vw,24px)!important;font-weight:400!important;line-height:1.6!important;letter-spacing:.08em!important;text-align:left;opacity:1!important;}
 #top .hero-copy #heroMotto span {color:inherit!important;font-family:inherit!important;font-size:inherit!important;font-weight:inherit!important;line-height:inherit!important;}
-body.theme-light #top .hero-copy #heroMotto {color:#8b7346!important;}
-@media(max-width:1100px) {#top .hero-copy #heroMotto {position:static!important;display:flex!important;flex-wrap:wrap;gap:0;margin:12px 0 0!important;font-size:17px!important;line-height:1.6!important;letter-spacing:.08em!important;}}
+#top .hero-copy .hero-motto-author {display:block;margin-top:7px;color:inherit;font-family:'STKaiti','KaiTi','楷体',serif!important;font-size:13px!important;line-height:1.5!important;letter-spacing:.05em;}
+body.theme-light #top .hero-copy .hero-motto-companion {color:#806a40;}
+@media(max-width:1350px) {#top .hero-copy .hero-motto-companion {position:static;align-self:flex-end;max-width:100%;margin:12px 0 0;}#top .hero-copy .hero-motto-portrait {width:88px;height:132px;}}
+@media(max-width:600px) {#top .hero-copy .hero-motto-companion {align-self:stretch;justify-content:flex-start;gap:14px;margin:12px 0 0;}#top .hero-copy .hero-motto-portrait {width:72px;height:108px;}#top .hero-copy #heroMotto {font-size:19px!important;}}
 /* Subject selection and study receipts stay inside the companion's glass card. */
 #top #focusCompanion .focus-header {flex-wrap:wrap;gap:6px 12px;}
 #top #focusCompanion .focus-subject-row {display:flex;align-items:center;gap:12px;margin-top:12px;}
