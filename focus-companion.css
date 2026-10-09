@@ -119,3 +119,32 @@ body:not(.theme-light) #top #focusCompanion #focusPresence {color:#c4d7b7!import
 #top .hero-copy #heroMotto span {color:inherit!important;font-family:inherit!important;font-size:inherit!important;font-weight:inherit!important;line-height:inherit!important;}
 body.theme-light #top .hero-copy #heroMotto {color:#8b7346!important;}
 @media(max-width:1100px) {#top .hero-copy #heroMotto {position:static!important;display:flex!important;flex-wrap:wrap;gap:0;margin:12px 0 0!important;font-size:17px!important;line-height:1.6!important;letter-spacing:.08em!important;}}
+/* Subject selection and study receipts stay inside the companion's glass card. */
+#top #focusCompanion .focus-header {flex-wrap:wrap;gap:6px 12px;}
+#top #focusCompanion .focus-subject-row {display:flex;align-items:center;gap:12px;margin-top:12px;}
+#top #focusCompanion .focus-subject-row label {font-size:12px!important;flex-shrink:0;color:inherit!important;}
+#top #focusCompanion #focusSubject {flex:1;min-width:0;width:100%;padding:8px 30px 8px 10px;border:1px solid rgba(83,117,90,.28);border-radius:9px;background:rgba(255,255,255,.5)!important;color:#244535!important;font-size:13px!important;line-height:1.4!important;}
+#top #focusCompanion #focusSubject:focus-visible {outline:3px solid #c99b45;outline-offset:2px;}
+#top #focusCompanion #focusSubject:disabled {opacity:.75;}
+#top #focusCompanion #focusSubjectHint {display:block;margin:5px 0 0;color:#52684f!important;font-size:11px!important;line-height:1.6!important;}
+body:not(.theme-light) #top #focusCompanion #focusSubject {background:#243e30!important;color:#f0f5e8!important;border-color:#6a8062;}
+body:not(.theme-light) #top #focusCompanion #focusSubjectHint {color:#c4d7b7!important;}
+#top #focusCompanion .focus-today-details {display:flex;flex-wrap:wrap;gap:5px;margin-top:10px;}
+#top #focusCompanion .focus-today-details:empty {display:none;}
+#top #focusCompanion .focus-today-details span {font-size:11px!important;line-height:1.5!important;padding:3px 7px;border-radius:6px;background:rgba(99,137,101,.12);color:inherit!important;}
+#top #focusCompanion .focus-export-row {display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin-top:12px;padding-top:10px;border-top:1px solid rgba(99,137,101,.2);}
+#top #focusCompanion .focus-export-row>span {font-size:10px!important;color:#52684f!important;}
+body:not(.theme-light) #top #focusCompanion .focus-export-row>span {color:#c4d7b7!important;}
+#top #focusCompanion #focusExport {font-weight:650;border-color:rgba(83,117,90,.4);}
+.squirrel-study-card-dialog {width:min(480px,calc(100vw - 28px));max-height:calc(100dvh - 32px);padding:18px;border:1px solid #d4ddc9;border-radius:20px;background:#f5f7ef;color:#244535;overflow:auto;box-sizing:border-box;box-shadow:0 20px 80px #10241966;}
+.squirrel-study-card-dialog::backdrop {background:#10241999;backdrop-filter:blur(5px);}
+.squirrel-study-card-dialog * {box-sizing:border-box;font-family:system-ui,-apple-system,'Microsoft YaHei',sans-serif!important;}
+.squirrel-study-card-dialog .study-card-heading {display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:12px;}
+.squirrel-study-card-dialog h2 {margin:0;font-size:19px!important;color:inherit!important;line-height:1.5!important;}
+.squirrel-study-card-dialog button {cursor:pointer;border:1px solid #c5d1bc;background:#e8eee0;color:#244535;border-radius:9px;padding:8px 12px;font-size:13px!important;line-height:1.5!important;}
+.squirrel-study-card-dialog button:focus-visible {outline:3px solid #c99b45;outline-offset:2px;}
+.squirrel-study-card-dialog img {display:block;width:100%;height:auto;border-radius:12px;}
+.squirrel-study-card-dialog p {font-size:12px!important;line-height:1.6!important;margin:12px 0;color:inherit!important;}
+.squirrel-study-card-dialog .study-card-save {width:100%;background:#466c50;color:white;border-color:#466c50;font-weight:650;}
+body:not(.theme-light) .squirrel-study-card-dialog {background:#182e26;color:#e9efdf;border-color:#6a8062;}
+@media(min-width:1101px) and (max-width:1350px) {#top #focusCompanion .focus-body {grid-template-columns:1fr;gap:12px;}#top #focusCompanion .focus-presets button {flex:1;}#top #focusCompanion .focus-actions button {flex:1;}}

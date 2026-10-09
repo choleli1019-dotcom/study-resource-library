@@ -754,7 +754,7 @@ html body.has-static-wallpaper .site-static-background-transition {
   html body.has-static-wallpaper .site-static-background-transition { transition: none !important; }
 }
 </style>
-<link rel="stylesheet" href="focus-companion.css?v=20261009-motto" /></head>
+<link rel="stylesheet" href="focus-companion.css?v=20261009-study-card" /></head>
   <body class="theme-light has-static-wallpaper">
     <div class="site-static-background" aria-hidden="true"></div><script src="time-background.js?v=20261008-cycle"></script>
     <div id="appShell" class="app-shell">
@@ -864,11 +864,13 @@ html body.has-static-wallpaper .site-static-background-transition {
             </section>
 <section id="focusCompanion" aria-labelledby="focusCompanionTitle">
  <div class="focus-header"><div><p class="focus-eyebrow">A LITTLE COMPANY</p><h2 id="focusCompanionTitle">小松鼠陪学</h2></div><span id="focusToday">今天完成 0 轮 · 0 分钟专注</span></div>
+ <div class="focus-subject-row"><label for="focusSubject">学习内容</label><select id="focusSubject" aria-describedby="focusSubjectHint"><option value="">请选择学习内容</option><option>言语理解</option><option>资料分析</option><option>数量关系</option><option>逻辑判断</option><option>申论小作文</option><option>申论大作文</option><option>常识政治</option><option>早自习</option><option value="未分类专注" hidden disabled>未分类专注</option></select></div><small id="focusSubjectHint">先选学习内容，再选专注时长（分钟 / 休息）。</small>
  <div class="focus-body">
   <div class="focus-clock"><span class="focus-mascot" aria-hidden="true"></span><div><span id="focusTimer" role="timer" aria-label="本阶段剩余时间" aria-live="off">25:00</span><small id="focusPlan">专注 25 分钟 / 休息 5 分钟</small></div></div>
   <div><div class="focus-presets" role="group" aria-label="选择专注和休息时长"><button type="button" data-focus-minutes="25" aria-pressed="true" aria-label="专注25分钟，休息5分钟">25 / 5</button><button type="button" data-focus-minutes="45" aria-pressed="false" aria-label="专注45分钟，休息10分钟">45 / 10</button><button type="button" data-focus-minutes="60" aria-pressed="false" aria-label="专注60分钟，休息10分钟">60 / 10</button></div><div class="focus-actions"><button id="focusPrimary" type="button">开始专注</button><button id="focusEnd" type="button" disabled>结束本轮</button></div></div>
  </div>
  <div class="focus-status-row"><p id="focusStatus">准备好，我们一起学一会儿</p><span id="focusPresence" aria-live="polite">正在连接…</span></div><div id="focusProgress" role="progressbar" aria-label="专注进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div><small id="focusHint">刷新可继续计时；休息结束后由你开启下一轮。</small><span id="focusAnnouncement" class="focus-sr-only" aria-live="polite" aria-atomic="true"></span>
+ <div id="focusTodayDetails" class="focus-today-details" aria-label="今日各项学习时长"></div><div class="focus-export-row"><span>记录保存在当前浏览器</span><button id="focusExport" type="button">导出今日学习卡片</button></div>
 </section>
             <section class="resource-squirrel-stage" aria-label="资料松鼠助手">
               <button id="resourceSquirrelToggle" class="resource-squirrel-toggle" type="button" aria-expanded="false" aria-controls="resourceSquirrelPanel">
@@ -1000,7 +1002,7 @@ html body.has-static-wallpaper .site-static-background-transition {
           .catch(function () {});
       })();
     </script>    <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="resource-actions.js?v=20261009-2"></script><script src="app.js?v=20261009-favorites-share"></script><script src="resource-requests.js?v=20261009-progress-2"></script><script src="focus-companion.js?v=20261009-presence"></script>
+    <script src="resource-actions.js?v=20261009-2"></script><script src="app.js?v=20261009-favorites-share"></script><script src="resource-requests.js?v=20261009-progress-2"></script><script src="focus-study-card.js?v=20261009-study-card"></script><script src="focus-companion.js?v=20261009-study-card"></script>
   </body>
 </html>
 
