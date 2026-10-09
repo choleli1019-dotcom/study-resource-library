@@ -33,7 +33,7 @@ async function freePort() { const server = http.createServer(); await new Promis
   assert.equal(store.rename('c'.repeat(64), '其他伙伴').item, null);
   assert.equal(store.submit(initial, 'same-ip').item.nickname, '晨读小松鼠', 'Old clients must not overwrite a saved name');
   assert.equal(store.submit(initial, 'same-ip').count, 1); // idempotent retry
-  assert.throws(() => store.submit({ ...initial, message: '更新内容' }, 'same-ip'), error => error.status === 429);
+  assert.equal(store.submit({ ...initial, message: '更新内容' }, 'same-ip').count, 1, 'A mistake can be corrected immediately');
   now += 31000;
   assert.equal(store.submit({ ...initial, message: '更新内容' }, 'same-ip').count, 1);
   assert.equal(store.submit({ ...initial, key: secondKey, message: '同一网络的另一个伙伴' }, 'same-ip').count, 2);
@@ -45,8 +45,21 @@ async function freePort() { const server = http.createServer(); await new Promis
   const id = stored.find(item => item.message === '更新内容').id;
   store.moderate(id, 'hide'); assert.equal(store.snapshot().count, 1);
   assert.equal(store.rename(key, '改名的小松鼠').item.status, 'hidden'); assert.equal(store.snapshot().count, 1);
-  assert.throws(() => store.submit(initial, 'same-ip'), error => error.status === 403);
-  store.moderate(id, 'restore'); assert.equal(store.snapshot().count, 2);
+  assert.throws(() => store.submit(initial, 'same-ip'), error => error.status === 409);
+  const hiddenRevision = store.mine(key).item.revision;
+  const reopened = store.submit({ ...initial, resubmit: true, expectedRevision: hiddenRevision, message: '重新核对后打卡' }, 'same-ip');
+  assert.equal(reopened.reopened, true); assert.equal(reopened.count, 2);
+  const withdrawal = { key, day: initial.day, expectedRevision: reopened.item.revision };
+  const withdrawn = store.withdraw(withdrawal); assert.equal(withdrawn.item.status, 'withdrawn'); assert.equal(withdrawn.count, 1);
+  assert.equal(store.withdraw(withdrawal).count, 1, 'Retrying a withdrawal must be idempotent');
+  assert.throws(() => store.moderate(id, 'restore'), /本人已撤回/);
+  assert.throws(() => store.submit(initial, 'same-ip'), error => error.status === 409);
+  assert.throws(() => store.submit({ ...initial, resubmit: true, expectedRevision: hiddenRevision }, 'same-ip'), error => error.status === 409);
+  const resubmitted = store.submit({ ...initial, resubmit: true, expectedRevision: withdrawn.item.revision }, 'same-ip');
+  assert.equal(resubmitted.count, 2); assert.equal(resubmitted.reopened, true);
+  assert.throws(() => store.withdraw(withdrawal), error => error.status === 409, 'A stale withdrawal cannot undo a later resubmission');
+  assert.equal(store.withdraw({ key: 'c'.repeat(64), day: initial.day }).item, null);
+  assert.equal(JSON.parse(fs.readFileSync(path.join(moduleData, 'study-checkins.json'), 'utf8')).filter(item => item.day === initial.day).length, 2);
   now += 3 * 60000; assert.equal(store.snapshot().day, '2026-10-10'); assert.equal(store.snapshot().count, 0);
   assert.equal(store.submit({ ...initial, day: '2026-10-10', nickname: '改名的小松鼠' }, 'same-ip').item.nickname, '改名的小松鼠');
   assert.equal(store.snapshot(Date.UTC(2026, 9, 9, 15, 59)).count, 2);
@@ -78,9 +91,16 @@ async function freePort() { const server = http.createServer(); await new Promis
   assert.equal((await fetch(api + '/admin/study-checkins/moderate?token=' + token, { ...moderate, headers: { ...moderate.headers, Origin: 'https://unknown.invalid' } })).status, 403);
   assert.equal((await fetch(api + '/admin/study-checkins/moderate?token=' + token, moderate)).status, 303);
   assert.equal((await (await get()).json()).count, 0);
-  assert.equal((await post(body)).status, 403);
+  assert.equal((await post(body)).status, 409);
   const adminHtml = await (await fetch(api + '/admin?token=' + token)).text();
   assert(adminHtml.includes('id="study-checkins"')); assert(adminHtml.includes('&lt;img src=x onerror=alert(1)&gt;')); assert(adminHtml.includes('&lt;b&gt;伙伴&lt;/b&gt;'));
+  const mine = async () => (await (await fetch(api + '/api/study-checkins/mine', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ key }) })).json()).item;
+  assert.equal((await post({ ...body, resubmit: true, expectedRevision: (await mine()).revision })).status, 200);
+  const withdrawHttp = (body, headers = {}) => fetch(api + '/api/study-checkins/withdraw', { method: 'POST', headers: { 'Content-Type': 'application/json', ...headers }, body: JSON.stringify(body) });
+  assert.equal((await withdrawHttp({ key: 'invalid', day: today })).status, 400);
+  assert.equal((await withdrawHttp({ key, day: today }, { Origin: 'https://unknown.invalid' })).status, 403);
+  assert.equal((await withdrawHttp({ key, day: today, expectedRevision: (await mine()).revision })).status, 200);
+  assert.equal((await (await get()).json()).count, 0);
   fs.writeFileSync(dataFile, '[]'); // Only this test's isolated database.
 
   let playwright;
@@ -101,7 +121,7 @@ async function freePort() { const server = http.createServer(); await new Promis
     window.Date = class extends RealDate { constructor(...args) { super(...(args.length ? args : [window.__now])); } static now() { return window.__now; } };
     window.__advance = ms => { window.__now += ms; sessionStorage.setItem('__testNow', String(window.__now)); window.dispatchEvent(new Event('pageshow')); };
   }, { base: Date.parse(today + 'T09:00:00+08:00') });
-  let loseResponse = false, simulatedDay = '';
+  let loseResponse = false, loseWithdrawResponse = false, simulatedDay = '';
   await context.route('**/*', async route => {
     const url = new URL(route.request().url());
     if (url.hostname === '127.0.0.1') return route.continue();
@@ -110,6 +130,7 @@ async function freePort() { const server = http.createServer(); await new Promis
       if (simulatedDay && url.pathname.endsWith('/mine')) return route.fulfill({ json: { ok: true, day: simulatedDay, item: null } });
       const response = await fetch(api + url.pathname, { method: route.request().method(), ...(route.request().method() === 'POST' ? { headers: { 'Content-Type': 'application/json' }, body: route.request().postData() } : {}) });
       if (loseResponse && url.pathname === '/api/study-checkins' && route.request().method() === 'POST') { loseResponse = false; return route.abort('failed'); }
+      if (loseWithdrawResponse && url.pathname.endsWith('/withdraw')) { loseWithdrawResponse = false; return route.abort('failed'); }
       return route.fulfill({ status: response.status, body: await response.text(), contentType: 'application/json' });
     }
     if (url.pathname === '/api/shore-letter') return route.fulfill({ json: { ok: true, letter: { active: false } } });
@@ -154,14 +175,14 @@ async function freePort() { const server = http.createServer(); await new Promis
   assert.equal(await dialog.locator('.checkin-entry-author b').count(), 0);
   assert.equal((await (await get()).json()).items[0].updatedAt, beforeRename.updatedAt);
   assert.equal((await (await get()).json()).count, 1);
-  assert.equal(await page.locator('#studyCheckinOpen').innerText(), '今日已打卡');
+  assert.equal(await page.locator('#studyCheckinOpen').innerText(), '更新打卡');
   await page.screenshot({ path: path.join(release, 'dialog-desktop.png') });
   await page.keyboard.press('Escape');
   await page.waitForFunction(() => document.querySelector('#studyCheckinOpen') === document.activeElement);
   await page.locator('#focusEnd').click();
   await page.locator('#studyCheckinBar').screenshot({ path: path.join(release, 'bar-desktop.png') });
   await page.reload();
-  await page.waitForFunction(() => document.querySelector('#studyCheckinOpen').textContent === '今日已打卡');
+  await page.waitForFunction(() => document.querySelector('#studyCheckinOpen').textContent === '更新打卡');
   await page.locator('#studyCheckinOpen').click();
   assert.equal(await dialog.locator('textarea').inputValue(), message);
   assert.equal(await nicknameInput.inputValue(), '<b>伙伴</b>');
@@ -172,10 +193,47 @@ async function freePort() { const server = http.createServer(); await new Promis
   await nicknameInput.fill('一起上岸'); await dialog.locator('.checkin-nickname-save').click();
   await secondTab.waitForFunction(() => document.querySelector('input[name="nickname"]').value === '一起上岸');
   await secondTab.close();
-  const updateItems = JSON.parse(fs.readFileSync(dataFile, 'utf8')); updateItems[0].updatedAt = new Date(Date.now() - 31000).toISOString(); fs.writeFileSync(dataFile, JSON.stringify(updateItems));
   await dialog.locator('textarea').fill('今天学完一组资料分析，错题也订正了。'); await dialog.locator('.checkin-submit').click();
   await page.waitForFunction(() => /已更新/.test(document.querySelector('.checkin-submit-feedback').textContent));
   assert.equal((await (await get()).json()).count, 1);
+  const browserOriginalId = JSON.parse(fs.readFileSync(dataFile, 'utf8'))[0].id;
+  loseWithdrawResponse = true;
+  await dialog.locator('.checkin-withdraw').click();
+  await page.waitForFunction(() => /连接失败/.test(document.querySelector('.checkin-submit-feedback').textContent));
+  assert.equal((await (await get()).json()).count, 0);
+  await dialog.locator('.checkin-withdraw').click();
+  await page.waitForFunction(() => /已撤回/.test(document.querySelector('.checkin-submit-feedback').textContent));
+  assert.equal(await page.locator('#studyCheckinOpen').innerText(), '重新打卡');
+  assert.equal(await dialog.locator('textarea').inputValue(), '今天学完一组资料分析，错题也订正了。');
+  assert.equal(await nicknameInput.inputValue(), '一起上岸');
+  assert.equal(await dialog.locator('.checkin-study-form').isVisible(), true);
+  await page.screenshot({ path: path.join(release, 'withdrawn-desktop.png') });
+  await page.keyboard.press('Escape');
+  await page.locator('#focusPrimary').click(); await page.evaluate(() => window.__advance(25 * 60000));
+  await page.locator('#studyCheckinOpen').click();
+  await dialog.locator('.checkin-submit').click();
+  await page.waitForFunction(() => /重新打卡成功/.test(document.querySelector('.checkin-submit-feedback').textContent));
+  let currentCheckin = (await (await get()).json());
+  assert.equal(currentCheckin.count, 1); assert.equal(currentCheckin.items[0].focusSeconds, 50 * 60); assert.equal(currentCheckin.items[0].completedRounds, 2);
+  assert.equal(JSON.parse(fs.readFileSync(dataFile, 'utf8')).length, 1);
+  assert.equal(JSON.parse(fs.readFileSync(dataFile, 'utf8'))[0].id, browserOriginalId);
+  // Reproduce the user's screenshot: hide the record, then let its owner correct and repost it.
+  await fetch(api + '/admin/study-checkins/moderate?token=' + token, { ...moderate, body: new URLSearchParams({ id: browserOriginalId, action: 'hide' }) });
+  await dialog.locator('[data-checkin-refresh]').click();
+  await page.waitForFunction(() => /此前打卡已隐藏/.test(document.querySelector('.checkin-summary').textContent));
+  assert.equal(await dialog.locator('.checkin-study-form').isVisible(), true);
+  await page.screenshot({ path: path.join(release, 'hidden-editable-desktop.png') });
+  await dialog.locator('textarea').fill('刚才提前打卡了，现在已完成两轮资料分析。'); await dialog.locator('.checkin-submit').click();
+  await page.waitForFunction(() => /重新打卡成功/.test(document.querySelector('.checkin-submit-feedback').textContent));
+  assert.equal((await (await get()).json()).count, 1);
+  await page.keyboard.press('Escape');
+  await page.evaluate(() => { localStorage.removeItem('study-squirrel-focus-log-v1'); localStorage.removeItem('study-squirrel-focus-log-v2'); });
+  await page.reload(); await page.locator('#studyCheckinOpen').click();
+  await page.waitForFunction(() => /50 分钟专注/.test(document.querySelector('.checkin-summary').textContent));
+  assert.equal(await dialog.locator('.checkin-study-form').isVisible(), true, 'An existing record stays editable when only the local timer log was lost');
+  await dialog.locator('textarea').fill('两轮已完成，继续整理错题。'); await dialog.locator('.checkin-submit').click();
+  await page.waitForFunction(() => /已更新/.test(document.querySelector('.checkin-submit-feedback').textContent));
+  assert.equal((await (await get()).json()).items[0].focusSeconds, 50 * 60);
   await page.keyboard.press('Escape');
   for (const width of [390, 320]) {
     await page.setViewportSize({ width, height: 844 });
@@ -199,5 +257,5 @@ async function freePort() { const server = http.createServer(); await new Promis
   assert.match(await page.locator('#studyCheckinCount').innerText(), /今日 0 位/);
   assert.deepEqual(errors, []);
   await context.close();
-  console.log('PASS: saved/editable nicknames, pre-study setup, reload and cross-tab persistence, safe name rendering, immediate rename without count/time changes, older-client compatibility, voluntary eligibility, daily deduplication, retry, Beijing midnight, moderation/auth/origin and desktop/mobile layouts.');
+  console.log('PASS: instant repeated updates, owner withdrawal/repost, lost-response retries, hidden-record correction, latest study-time refresh, stable daily count/record ID, stale-write protection, saved nicknames, local-log recovery, Beijing midnight, auth/origin and desktop/mobile layouts.');
 })().catch(error => { console.error(error); process.exitCode = 1; }).finally(async () => { if (browser) await browser.close(); if (backend) backend.kill(); if (staticServer) staticServer.close(); });

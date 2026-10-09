@@ -2554,12 +2554,13 @@ const server = http.createServer(async (req, res) => {
     try { return send(res, req, 200, { ok: true, ...studyCheckins.snapshot() }, { "Cache-Control": "no-store" }); }
     catch (_) { return send(res, req, 503, { ok: false, error: "打卡记录暂不可用，请稍后重试" }, { "Cache-Control": "no-store" }); }
   }
-  if (req.method === "POST" && ["/api/study-checkins", "/api/study-checkins/mine", "/api/study-checkins/profile"].includes(url.pathname)) {
+  if (req.method === "POST" && ["/api/study-checkins", "/api/study-checkins/mine", "/api/study-checkins/profile", "/api/study-checkins/withdraw"].includes(url.pathname)) {
     if (req.headers.origin && !ALLOWED_ORIGINS.has(req.headers.origin)) return send(res, req, 403, { ok: false, error: "不允许的来源" });
     try {
       const raw = JSON.parse(await readBody(req) || "{}");
       if (url.pathname.endsWith("/mine")) return send(res, req, 200, { ok: true, ...studyCheckins.mine(raw.key) }, { "Cache-Control": "no-store" });
       if (url.pathname.endsWith("/profile")) return send(res, req, 200, { ok: true, ...studyCheckins.rename(raw.key, raw.nickname) }, { "Cache-Control": "no-store" });
+      if (url.pathname.endsWith("/withdraw")) return send(res, req, 200, { ok: true, ...studyCheckins.withdraw(raw) }, { "Cache-Control": "no-store" });
       const source = String(req.headers["x-forwarded-for"] || req.socket.remoteAddress || "").split(",")[0].trim().slice(0, 120);
       const result = studyCheckins.submit(raw, source);
       return send(res, req, result.duplicate ? 200 : 201, { ok: true, ...result }, { "Cache-Control": "no-store" });

@@ -32,6 +32,10 @@ body:not(.theme-light) #top #studyCheckinBar :is(#studyCheckinCount,#studyChecki
 .study-checkin-dialog .checkin-nickname-feedback {grid-column:1 / -1;min-height:0;margin:0;font-size:12px!important;}
 .study-checkin-dialog .checkin-nickname-feedback:empty {display:none;}
 .study-checkin-dialog .checkin-entry-author {display:block;margin-bottom:5px;font-size:13px!important;line-height:1.6!important;color:inherit!important;overflow-wrap:anywhere;}
+.study-checkin-dialog .checkin-actions {display:flex;gap:10px;flex-wrap:wrap;}
+.study-checkin-dialog .checkin-actions .checkin-submit {flex:1;}
+.study-checkin-dialog .checkin-withdraw {color:#9d493c;border-color:#cfae9b;}
+body:not(.theme-light) .study-checkin-dialog .checkin-withdraw {color:#f0c9b4;border-color:#bd967f;}
 .study-checkin-dialog .checkin-public-hint {margin:0;font-size:11px!important;color:#647c59!important;}
 .study-checkin-dialog button:disabled {opacity:.6;cursor:default;}
 .study-checkin-dialog [role='status'] {margin:10px 0;min-height:20px;}

@@ -6,7 +6,7 @@
   const nicknameKey = 'study-squirrel-checkin-nickname-v1';
   const count = bar.querySelector('#studyCheckinCount'), latest = bar.querySelector('#studyCheckinLatest'), meta = bar.querySelector('#studyCheckinMeta'), openButton = bar.querySelector('#studyCheckinOpen');
   const time = new Intl.DateTimeFormat('zh-CN', { timeZone: 'Asia/Shanghai', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
-  let snapshot = null, own = null, revision = 0, submitting = false, savingName = false, memoryKey = '', memoryNickname = '', rolloverDay = '', pendingPayload = null, dialog, form, input, feedback, localSummary, list, listCount, startButton, submitButton, opener, nicknameInput, nicknameForm, nicknameFeedback, nicknameSave;
+  let snapshot = null, own = null, revision = 0, submitting = false, savingName = false, withdrawing = false, memoryKey = '', memoryNickname = '', rolloverDay = '', pendingPayload = null, dialog, form, input, feedback, localSummary, list, listCount, startButton, submitButton, withdrawButton, opener, nicknameInput, nicknameForm, nicknameFeedback, nicknameSave;
   function normalizeNickname(value) {
     const name = String(value || '').trim().replace(/\s+/g, ' ');
     if ([...name].length > 12) throw new Error('网名最多 12 字。');
@@ -22,9 +22,14 @@
     try { localStorage.setItem(nicknameKey, name); return true; } catch (_) { return false; }
   }
   function nameBusy() {
-    nicknameSave.disabled = nicknameInput.disabled = submitButton.disabled = submitting || savingName;
+    nicknameSave.disabled = nicknameInput.disabled = submitButton.disabled = withdrawButton.disabled = input.disabled = submitting || savingName || withdrawing;
   }
   function study() { return typeof window.getSquirrelStudySummary === 'function' ? window.getSquirrelStudySummary() : null; }
+  function submissionStudy(value = study()) {
+    if (value?.completed > 0) return value;
+    if (value && own?.day === value.date && own.completedRounds > 0) return { ...value, totalMs: own.focusSeconds * 1000, completed: own.completedRounds, items: own.subjects.map(subject => ({ subject, ms: 0 })) };
+    return value;
+  }
   function storedKey(create = false) {
     if (memoryKey) return memoryKey;
     try { const value = localStorage.getItem(keyName); if (/^[a-f0-9]{64}$/.test(value || '')) return memoryKey = value; } catch (_) { /* Session-only retry is still idempotent. */ }
@@ -41,7 +46,7 @@
     try {
       const response = await fetch(`${base}${path}`, { method: body ? 'POST' : 'GET', ...(body ? { headers: { 'Content-Type': 'application/json' }, body: JSON.stringify(body) } : {}), cache: 'no-store', signal: controller.signal });
       const data = await response.json();
-      if (!response.ok || !data.ok) throw new Error(data.error || '打卡连接失败，请稍后再试');
+      if (!response.ok || !data.ok) { const error = new Error(data.error || '打卡连接失败，请稍后再试'); error.status = response.status; throw error; }
       return data;
     } catch (error) {
       if (error.name === 'AbortError' || error instanceof TypeError || error instanceof SyntaxError) throw new Error('打卡连接失败，请稍后再试，填写内容会保留');
@@ -61,7 +66,7 @@
     renderList();
   }
   async function load() {
-    if (submitting || savingName) return;
+    if (submitting || savingName || withdrawing) return;
     const ticket = ++revision;
     try {
       const data = await request('/api/study-checkins');
@@ -108,19 +113,22 @@
       snapshot = null; count.textContent = '新的一天，正在读取打卡…'; latest.textContent = '一起学一点，离上岸近一点。'; meta.textContent = '完成专注后，留一句今天学了什么。';
       if (rolloverDay !== value.date) { rolloverDay = value.date; load(); }
     }
-    openButton.textContent = own ? '今日已打卡' : '我要打卡';
-    if (!dialog || submitting || savingName) return;
-    const hidden = own?.status === 'hidden', eligible = value.completed > 0 && !hidden;
-    localSummary.textContent = hidden ? '你的今日打卡已由管理员隐藏，今日不能重新提交。' : `你今天已专注 ${Math.floor(value.totalMs / 60000)} 分钟，完成 ${value.completed} 轮。${eligible ? '可以自愿留一句学习内容。' : '完成今天至少一轮专注后，就能来打卡。'}`;
-    form.hidden = !eligible; startButton.hidden = value.completed > 0;
-    submitButton.textContent = own ? '更新今日打卡' : '提交打卡';
+    openButton.textContent = own?.status === 'visible' ? '更新打卡' : own ? '重新打卡' : '我要打卡';
+    if (!dialog || submitting || savingName || withdrawing) return;
+    const current = submissionStudy(value), eligible = current.completed > 0;
+    const notice = own?.status === 'hidden' ? '此前打卡已隐藏，可修改后重新提交。' : own?.status === 'withdrawn' ? '此前打卡已撤回，可继续编辑并重新提交。' : '';
+    localSummary.textContent = `${notice}今天已记录 ${Math.floor(current.totalMs / 60000)} 分钟专注，完成 ${current.completed} 轮。${eligible ? '可以多次更新，不重复计人数。' : '完成今天至少一轮专注后，就能来打卡。'}`;
+    form.hidden = !eligible; startButton.hidden = eligible;
+    submitButton.textContent = own?.status === 'visible' ? '保存更新' : own ? '重新打卡' : '提交打卡';
+    withdrawButton.hidden = own?.status !== 'visible';
   }
   function ensureDialog() {
     if (dialog) return;
     dialog = document.createElement('dialog'); dialog.className = 'study-checkin-dialog'; dialog.setAttribute('aria-labelledby', 'studyCheckinDialogTitle');
-    dialog.innerHTML = '<div class="checkin-dialog-heading"><h2 id="studyCheckinDialogTitle">群友共学打卡</h2><button type="button" data-checkin-close>关闭</button></div><form class="checkin-nickname-form"><label>你的网名<input name="nickname" maxlength="24" placeholder="例如：早日上岸的小松鼠" autocomplete="nickname" aria-describedby="checkinNicknameHint"></label><button type="submit" class="checkin-nickname-save">保存网名</button><small id="checkinNicknameHint">最多 12 字，留空显示“学习伙伴”。保存后每天自动带入，可随时修改。</small><p class="checkin-nickname-feedback" role="status" aria-live="polite"></p></form><p class="checkin-summary"></p><button type="button" data-checkin-start>去完成一轮专注</button><form class="checkin-study-form"><label>一句话学习内容<textarea name="message" maxlength="160" rows="2" placeholder="例如：完成一组资料分析，今天的速算顺了很多。" required></textarea></label><p class="checkin-public-hint">提交后，网名、这句话、今日时长和完成轮数会展示给大家。80 字以内；同一浏览器每天计 1 人。</p><button type="submit" class="checkin-submit">提交打卡</button></form><p class="checkin-submit-feedback" role="status" aria-live="polite"></p><div class="checkin-list-heading"><h3>今日打卡</h3><button type="button" data-checkin-refresh>刷新</button></div><div class="checkin-list"></div>';
+    dialog.innerHTML = '<div class="checkin-dialog-heading"><h2 id="studyCheckinDialogTitle">群友共学打卡</h2><button type="button" data-checkin-close>关闭</button></div><form class="checkin-nickname-form"><label>你的网名<input name="nickname" maxlength="24" placeholder="例如：早日上岸的小松鼠" autocomplete="nickname" aria-describedby="checkinNicknameHint"></label><button type="submit" class="checkin-nickname-save">保存网名</button><small id="checkinNicknameHint">最多 12 字，留空显示“学习伙伴”。保存后每天自动带入，可随时修改。</small><p class="checkin-nickname-feedback" role="status" aria-live="polite"></p></form><p class="checkin-summary"></p><button type="button" data-checkin-start>去完成一轮专注</button><form class="checkin-study-form"><label>一句话学习内容<textarea name="message" maxlength="160" rows="2" placeholder="例如：完成一组资料分析，今天的速算顺了很多。" required></textarea></label><p class="checkin-public-hint">网名、这句话、今日时长和完成轮数会展示给大家。80 字以内；可多次更新、撤回后重新提交，每天最多计 1 人。</p><div class="checkin-actions"><button type="submit" class="checkin-submit">提交打卡</button><button type="button" class="checkin-withdraw" hidden>撤回打卡</button></div></form><p class="checkin-submit-feedback" role="status" aria-live="polite"></p><div class="checkin-list-heading"><h3>今日打卡</h3><button type="button" data-checkin-refresh>刷新</button></div><div class="checkin-list"></div>';
     form = dialog.querySelector('.checkin-study-form'); input = form.querySelector('textarea'); feedback = dialog.querySelector('.checkin-submit-feedback'); localSummary = dialog.querySelector('.checkin-summary'); list = dialog.querySelector('.checkin-list'); listCount = dialog.querySelector('h3'); startButton = dialog.querySelector('[data-checkin-start]'); submitButton = dialog.querySelector('.checkin-submit');
     nicknameForm = dialog.querySelector('.checkin-nickname-form'); nicknameInput = nicknameForm.querySelector('input'); nicknameFeedback = dialog.querySelector('.checkin-nickname-feedback'); nicknameSave = dialog.querySelector('.checkin-nickname-save');
+    withdrawButton = dialog.querySelector('.checkin-withdraw'); withdrawButton.addEventListener('click', withdraw);
     nicknameInput.value = readNickname();
     nicknameInput.addEventListener('input', () => { nicknameInput.dataset.edited = 'true'; pendingPayload = null; });
     nicknameForm.addEventListener('submit', saveNickname);
@@ -138,7 +146,7 @@
     document.body.append(dialog); renderList();
   }
   async function saveNickname(event) {
-    event.preventDefault(); if (submitting || savingName) return;
+    event.preventDefault(); if (submitting || savingName || withdrawing) return;
     let name;
     try { name = normalizeNickname(nicknameInput.value); }
     catch (error) { nicknameFeedback.textContent = error.message; nicknameInput.focus(); return; }
@@ -165,9 +173,24 @@
     await load();
     if (showList && dialog.open) dialog.querySelector('.checkin-list-heading').scrollIntoView({ block: 'nearest' });
   }
+  async function refreshConflict(error) {
+    if (error.status !== 409) return;
+    pendingPayload = null;
+    try { const ticket = ++revision; apply(await request('/api/study-checkins')); await loadMine(ticket); } catch (_) { /* Keep the original error and the user's text for retry. */ }
+  }
+  async function withdraw() {
+    if (submitting || savingName || withdrawing || !own) return;
+    withdrawing = true; ++revision; pendingPayload = null; nameBusy(); withdrawButton.textContent = '正在撤回…'; feedback.textContent = '';
+    try {
+      const data = await request('/api/study-checkins/withdraw', { key: storedKey(), day: own.day, expectedRevision: own.revision || 0 });
+      apply(data); own = data.item ? { day: data.day, ...data.item } : null;
+      feedback.textContent = '已撤回，不再计入今日人数。内容和网名已保留，学完后可重新打卡。';
+    } catch (error) { feedback.textContent = error.message; await refreshConflict(error); }
+    finally { withdrawing = false; withdrawButton.textContent = '撤回打卡'; nameBusy(); sync(); }
+  }
   async function submit(event) {
-    event.preventDefault(); if (submitting || savingName) return;
-    const value = study();
+    event.preventDefault(); if (submitting || savingName || withdrawing) return;
+    const value = submissionStudy();
     if (!value || value.completed < 1) { sync(value); feedback.textContent = '请先完成今天的一轮专注。'; return; }
     const message = input.value.trim();
     if (!message || [...message].length > 80) { feedback.textContent = '请填写一句学习内容，最多 80 字。'; input.focus(); return; }
@@ -182,12 +205,12 @@
     if (!subjects.length) subjects.push(document.querySelector('#focusSubject')?.value || '未分类专注');
     submitting = true; ++revision; nameBusy(); submitButton.textContent = '正在打卡…'; feedback.textContent = '';
     try {
-      if (!pendingPayload || pendingPayload.day !== value.date || pendingPayload.message !== message || pendingPayload.nickname !== nickname) pendingPayload = { key: storedKey(true), nickname, day: value.date, message, focusSeconds: Math.floor(value.totalMs / 1000), completedRounds: value.completed, subjects };
+      if (!pendingPayload || pendingPayload.day !== value.date || pendingPayload.message !== message || pendingPayload.nickname !== nickname) pendingPayload = { key: storedKey(true), nickname, day: value.date, message, focusSeconds: Math.floor(value.totalMs / 1000), completedRounds: value.completed, subjects, expectedRevision: own?.revision || 0, resubmit: Boolean(own && own.status !== 'visible') };
       const data = await request('/api/study-checkins', pendingPayload);
       apply(data); own = { day: data.day, ...data.item };
       pendingPayload = null; delete input.dataset.edited;
-      feedback.textContent = data.duplicate ? '今日打卡已更新，人数不会重复增加。' : '打卡成功！今天的努力，大家看见啦。';
-    } catch (error) { feedback.textContent = error.message; }
+      feedback.textContent = data.reopened ? '重新打卡成功，今日仍只计 1 人。' : data.duplicate ? '今日打卡已更新，人数不会重复增加。' : '打卡成功！今天的努力，大家看见啦。';
+    } catch (error) { feedback.textContent = error.message; await refreshConflict(error); }
     finally { submitting = false; nameBusy(); sync(); }
   }
   openButton.addEventListener('click', () => open(false, openButton));
