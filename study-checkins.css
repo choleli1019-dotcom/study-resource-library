@@ -25,6 +25,13 @@ body:not(.theme-light) #top #studyCheckinBar :is(#studyCheckinCount,#studyChecki
 .study-checkin-dialog form {display:grid;gap:10px;margin:14px 0 0;}
 .study-checkin-dialog label {display:grid;gap:7px;color:inherit!important;font-size:13px!important;line-height:1.6!important;}
 .study-checkin-dialog textarea {width:100%;min-height:88px;resize:vertical;border:1px solid #becdb5;border-radius:10px;padding:10px 12px;background:#fff;color:#244535;font-size:14px!important;line-height:1.7!important;}
+.study-checkin-dialog .checkin-nickname-form {grid-template-columns:minmax(0,1fr) auto;align-items:end;gap:8px 10px;margin-top:14px;}
+.study-checkin-dialog .checkin-nickname-form input {width:100%;min-width:0;height:42px;padding:9px 12px;border:1px solid #becdb5;border-radius:10px;background:#fff;color:#244535;font-size:14px!important;line-height:1.5!important;}
+.study-checkin-dialog .checkin-nickname-save {min-height:42px;}
+.study-checkin-dialog #checkinNicknameHint {grid-column:1 / -1;color:#647c59;font-size:11px!important;line-height:1.7!important;}
+.study-checkin-dialog .checkin-nickname-feedback {grid-column:1 / -1;min-height:0;margin:0;font-size:12px!important;}
+.study-checkin-dialog .checkin-nickname-feedback:empty {display:none;}
+.study-checkin-dialog .checkin-entry-author {display:block;margin-bottom:5px;font-size:13px!important;line-height:1.6!important;color:inherit!important;overflow-wrap:anywhere;}
 .study-checkin-dialog .checkin-public-hint {margin:0;font-size:11px!important;color:#647c59!important;}
 .study-checkin-dialog button:disabled {opacity:.6;cursor:default;}
 .study-checkin-dialog [role='status'] {margin:10px 0;min-height:20px;}
@@ -34,7 +41,7 @@ body:not(.theme-light) #top #studyCheckinBar :is(#studyCheckinCount,#studyChecki
 .study-checkin-dialog .checkin-entry p {margin:0;white-space:pre-wrap;overflow-wrap:anywhere;}
 .study-checkin-dialog .checkin-entry small {display:block;margin-top:6px;color:#647c59;font-size:11px!important;line-height:1.6!important;}
 body:not(.theme-light) .study-checkin-dialog {background:#182e26;color:#e9efdf;border-color:#6a8062;}
-body:not(.theme-light) .study-checkin-dialog :is(.checkin-summary,.checkin-entry,textarea) {background:#243e30;color:#e9efdf!important;border-color:#6a8062;}
-body:not(.theme-light) .study-checkin-dialog :is(.checkin-public-hint,.checkin-entry small) {color:#c4d7b7!important;}
+body:not(.theme-light) .study-checkin-dialog :is(.checkin-summary,.checkin-entry,textarea,.checkin-nickname-form input) {background:#243e30;color:#e9efdf!important;border-color:#6a8062;}
+body:not(.theme-light) .study-checkin-dialog :is(.checkin-public-hint,.checkin-entry small,#checkinNicknameHint) {color:#c4d7b7!important;}
 @media(max-width:800px) {#top #studyCheckinBar {gap:14px;flex-wrap:wrap;padding:18px;}#top #studyCheckinBar .checkin-bar-heading {flex:1;}#top #studyCheckinBar .checkin-bar-message {flex-basis:100%;order:3;padding:12px 0 0;border-left:0;border-top:1px solid rgba(99,137,101,.24);}#top #studyCheckinBar #studyCheckinLatest {white-space:normal;overflow-wrap:anywhere;}}
 @media(max-width:420px) {#top #studyCheckinBar .checkin-bar-actions {width:100%;order:4;}#top #studyCheckinBar .checkin-bar-actions button {flex:1;}#top #studyCheckinBar .checkin-bar-icon {width:36px;height:36px;}.study-checkin-dialog {padding:17px;}}

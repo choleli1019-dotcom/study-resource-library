@@ -56,4 +56,6 @@ https://ningyan1228.github.io/study-resource-library/
 
 浏览器生成随机打卡凭证，服务器只保存凭证和来源的 SHA-256 摘要，不向公开列表暴露凭证、记录 ID 或来源。无需登录，因此人数按浏览器凭证去重，清除浏览器数据或换浏览器会成为新的身份；专注完成情况来自本机计时记录。后端原子保存 `data/study-checkins.json`，公开查询禁止缓存，网络失败保留填写内容和提交快照以便重试。后台“共学打卡”可隐藏或恢复内容，隐藏后不计入公开人数，提交者不能自行恢复。
 
+打卡弹窗可设置 12 字以内的自定义网名，不需要先完成学习。点击“保存网名”后以 `study-squirrel-checkin-nickname-v1` 保存于当前浏览器，每天自动带入，也可随时修改；直接提交打卡也会自动保存填写的网名。网名显示在首页横条、公开列表和后台中。修改网名会立即更新本凭证今天已有的打卡，不增加人数，不改变学习时长、时间或隐藏状态；历史打卡保持原来的名字，旧版匿名打卡显示“学习伙伴”。清除浏览器数据或换设备后不会自动带走网名。
+
 前端同步 `index.html`、`focus-companion.js`、`study-checkins.js`、`study-checkins.css`；后端同步 `server/analytics-server.js`、`server/study-checkins.js`、`server/Dockerfile` 后重建容器。验证：`node scripts/test-study-checkins.cjs`（独立临时后端数据与浏览器存储，不写正式打卡）。
