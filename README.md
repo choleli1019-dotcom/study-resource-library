@@ -49,3 +49,11 @@ https://ningyan1228.github.io/study-resource-library/
 “导出今日学习卡片”生成 PNG 并发起下载，同时展示预览，手机可长按图片保存。卡片包含日期、截至生成时的今日总时长、完成轮数及各项学习内容和用时，包括当前进行中的已学时长。记录只保存于当前浏览器，旧版本的已完成记录保留为“未分类专注”；清除浏览器数据或换设备不会自动迁移。
 
 前端同步 `index.html`、`focus-companion.js`、`focus-companion.css`、`focus-study-card.js`。验证：`node scripts/test-focus-companion.cjs`，支持上述浏览器路径环境变量，计时与网络在测试中隔离。
+
+## 群友共学打卡
+
+首页陪学区下方的横条展示今天主动打卡的人数和最近一句学习内容。“看看大家”可查看今日最近 50 条打卡；在当前浏览器完成当天至少一轮番茄钟后，可自愿提交一句学习内容（80 字以内），同时公开今日专注时长、完成轮数和学习分类。统计按北京时间每日重置，同一浏览器一天计 1 人，后续更新覆盖当天记录，不增加人数；刚提交后的修改需等待 30 秒。学习记录仍然保存在本机，只有主动提交的打卡摘要上传。
+
+浏览器生成随机打卡凭证，服务器只保存凭证和来源的 SHA-256 摘要，不向公开列表暴露凭证、记录 ID 或来源。无需登录，因此人数按浏览器凭证去重，清除浏览器数据或换浏览器会成为新的身份；专注完成情况来自本机计时记录。后端原子保存 `data/study-checkins.json`，公开查询禁止缓存，网络失败保留填写内容和提交快照以便重试。后台“共学打卡”可隐藏或恢复内容，隐藏后不计入公开人数，提交者不能自行恢复。
+
+前端同步 `index.html`、`focus-companion.js`、`study-checkins.js`、`study-checkins.css`；后端同步 `server/analytics-server.js`、`server/study-checkins.js`、`server/Dockerfile` 后重建容器。验证：`node scripts/test-study-checkins.cjs`（独立临时后端数据与浏览器存储，不写正式打卡）。

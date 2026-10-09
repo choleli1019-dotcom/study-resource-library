@@ -1,0 +1,40 @@
+#top #studyCheckinBar {display:flex;align-items:center;gap:26px;min-width:0;padding:19px 24px;margin:18px 0 22px;border:1px solid rgba(255,255,255,.5);border-radius:23px;background:rgba(242,248,238,.68);color:#244535;backdrop-filter:blur(20px) saturate(110%);-webkit-backdrop-filter:blur(20px) saturate(110%);box-shadow:0 12px 30px rgba(15,38,28,.1);}
+#top #studyCheckinBar * {box-sizing:border-box;font-family:system-ui,-apple-system,'Microsoft YaHei',sans-serif!important;}
+#top #studyCheckinBar .checkin-bar-heading {display:flex;align-items:center;gap:13px;flex-shrink:0;}
+#top #studyCheckinBar .checkin-bar-icon {display:grid;place-items:center;width:42px;height:42px;border-radius:14px;background:#466c50;color:#fff;font-size:25px!important;font-weight:600;}
+#top #studyCheckinBar h2 {margin:0;color:inherit!important;font-size:17px!important;line-height:1.5!important;}
+#top #studyCheckinBar #studyCheckinCount {margin:4px 0 0;color:#52684f!important;font-size:12px!important;line-height:1.6!important;}
+#top #studyCheckinBar .checkin-bar-message {min-width:0;flex:1;padding-left:25px;border-left:1px solid rgba(99,137,101,.24);}
+#top #studyCheckinBar #studyCheckinLatest {margin:0;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color:inherit!important;font-size:14px!important;line-height:1.7!important;}
+#top #studyCheckinBar #studyCheckinMeta {display:block;margin-top:4px;color:#52684f!important;font-size:11px!important;line-height:1.6!important;}
+#top #studyCheckinBar .checkin-bar-actions {display:flex;gap:9px;flex-shrink:0;}
+#top #studyCheckinBar button,.study-checkin-dialog button {cursor:pointer;border:1px solid #aebe9d;border-radius:10px;background:transparent;color:inherit;padding:9px 14px;font-size:12px!important;line-height:1.5!important;white-space:nowrap;}
+#top #studyCheckinBar #studyCheckinOpen,.study-checkin-dialog .checkin-submit {background:#466c50;color:white!important;border-color:#466c50;font-weight:650;}
+#top #studyCheckinBar button:focus-visible,.study-checkin-dialog :is(button,input,textarea):focus-visible {outline:3px solid #c99b45;outline-offset:3px;}
+body:not(.theme-light) #top #studyCheckinBar {background:rgba(18,37,29,.65);border-color:rgba(217,233,204,.26);color:#f0f5e8;}
+body:not(.theme-light) #top #studyCheckinBar :is(#studyCheckinCount,#studyCheckinMeta) {color:#c4d7b7!important;}
+.study-checkin-dialog {width:min(620px,calc(100vw - 28px));max-height:calc(100dvh - 32px);box-sizing:border-box;padding:22px;border:1px solid #d4ddc9;border-radius:22px;background:#f5f7ef;color:#244535;overflow:auto;box-shadow:0 20px 80px #10241966;}
+.study-checkin-dialog::backdrop {background:#10241999;backdrop-filter:blur(5px);}
+.study-checkin-dialog * {box-sizing:border-box;font-family:system-ui,-apple-system,'Microsoft YaHei',sans-serif!important;}
+.study-checkin-dialog [hidden] {display:none!important;}
+.study-checkin-dialog .checkin-dialog-heading {display:flex;align-items:center;justify-content:space-between;gap:12px;}
+.study-checkin-dialog :is(h2,h3) {margin:0;color:inherit!important;font-size:19px!important;line-height:1.6!important;}
+.study-checkin-dialog h3 {font-size:15px!important;}
+.study-checkin-dialog p {font-size:13px!important;line-height:1.7!important;color:inherit!important;}
+.study-checkin-dialog .checkin-summary {padding:12px 14px;border-radius:12px;background:#e8eee0;color:#466c50!important;}
+.study-checkin-dialog form {display:grid;gap:10px;margin:14px 0 0;}
+.study-checkin-dialog label {display:grid;gap:7px;color:inherit!important;font-size:13px!important;line-height:1.6!important;}
+.study-checkin-dialog textarea {width:100%;min-height:88px;resize:vertical;border:1px solid #becdb5;border-radius:10px;padding:10px 12px;background:#fff;color:#244535;font-size:14px!important;line-height:1.7!important;}
+.study-checkin-dialog .checkin-public-hint {margin:0;font-size:11px!important;color:#647c59!important;}
+.study-checkin-dialog button:disabled {opacity:.6;cursor:default;}
+.study-checkin-dialog [role='status'] {margin:10px 0;min-height:20px;}
+.study-checkin-dialog .checkin-list-heading {display:flex;justify-content:space-between;align-items:center;gap:12px;padding-top:18px;margin-top:10px;border-top:1px solid #d4ddc9;}
+.study-checkin-dialog .checkin-list {display:grid;gap:10px;margin-top:12px;}
+.study-checkin-dialog .checkin-entry {padding:12px 14px;border:1px solid #d4ddc9;border-radius:12px;background:#ffffff80;min-width:0;}
+.study-checkin-dialog .checkin-entry p {margin:0;white-space:pre-wrap;overflow-wrap:anywhere;}
+.study-checkin-dialog .checkin-entry small {display:block;margin-top:6px;color:#647c59;font-size:11px!important;line-height:1.6!important;}
+body:not(.theme-light) .study-checkin-dialog {background:#182e26;color:#e9efdf;border-color:#6a8062;}
+body:not(.theme-light) .study-checkin-dialog :is(.checkin-summary,.checkin-entry,textarea) {background:#243e30;color:#e9efdf!important;border-color:#6a8062;}
+body:not(.theme-light) .study-checkin-dialog :is(.checkin-public-hint,.checkin-entry small) {color:#c4d7b7!important;}
+@media(max-width:800px) {#top #studyCheckinBar {gap:14px;flex-wrap:wrap;padding:18px;}#top #studyCheckinBar .checkin-bar-heading {flex:1;}#top #studyCheckinBar .checkin-bar-message {flex-basis:100%;order:3;padding:12px 0 0;border-left:0;border-top:1px solid rgba(99,137,101,.24);}#top #studyCheckinBar #studyCheckinLatest {white-space:normal;overflow-wrap:anywhere;}}
+@media(max-width:420px) {#top #studyCheckinBar .checkin-bar-actions {width:100%;order:4;}#top #studyCheckinBar .checkin-bar-actions button {flex:1;}#top #studyCheckinBar .checkin-bar-icon {width:36px;height:36px;}.study-checkin-dialog {padding:17px;}}

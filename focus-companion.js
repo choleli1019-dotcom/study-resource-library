@@ -20,7 +20,7 @@
   const progress = card.querySelector('#focusProgress');
   const announcement = card.querySelector('#focusAnnouncement');
   const dayFormat = new Intl.DateTimeFormat('en-CA', { timeZone: 'Asia/Shanghai', year: 'numeric', month: '2-digit', day: '2-digit' });
-  let storageAvailable = true, signature = '';
+  let storageAvailable = true, signature = '', studySignature = '';
   function read(key) { try { return JSON.parse(localStorage.getItem(key) || 'null'); } catch { return null; } }
   // Keep a usable in-memory copy if browser storage is unavailable.
   const memory = new Map();
@@ -190,6 +190,11 @@
     }
     const today = summary();
     stats.textContent = `今日 ${duration(today.totalMs)} · 完成 ${today.completed} 轮`;
+    const nextStudySignature = `${today.date}:${today.completed}:${Math.floor(today.totalMs / 60000)}:${today.items.map(item => item.subject).join(',')}`;
+    if (studySignature !== nextStudySignature) {
+      studySignature = nextStudySignature;
+      document.dispatchEvent(new CustomEvent('squirrel-study-summary', { detail: today }));
+    }
     const detailSignature = today.items.map(item => `${item.subject}:${duration(item.ms)}`).join('|');
     if (todayDetails.dataset.signature !== detailSignature) {
       todayDetails.dataset.signature = detailSignature;
@@ -270,6 +275,7 @@
     if (event.key === STATE_KEY || event.key === null) state = restore(read(STATE_KEY));
     if ([STATE_KEY, LOG_KEY, LEGACY_LOG_KEY, null].includes(event.key)) paint();
   });
+  window.getSquirrelStudySummary = () => { paint(); return summary(); };
   paint(); setInterval(paint, 1000);
   setInterval(() => { if (!document.hidden || (state.phase === "focus" && state.status === "running")) refreshPresence(); }, 25000);
 })();
