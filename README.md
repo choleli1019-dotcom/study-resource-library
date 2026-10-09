@@ -33,3 +33,11 @@ https://ningyan1228.github.io/study-resource-library/
 后端部署须同步 `server/analytics-server.js`、`server/resource-requests.js` 和 `server/Dockerfile`，再重建容器；前端须同步 `index.html`、`app.js`、`resource-requests.js` 和 `resource-requests.css`。
 
 验证：`node scripts/test-resource-requests.cjs`（需要 Playwright 和浏览器）。可用 `PLAYWRIGHT_MODULE_PATH` 指定 Playwright 模块路径，`TEST_BROWSER_PATH` 指定已安装浏览器的可执行文件路径；测试使用独立临时数据目录，不写入正式资料需求。
+
+## 收藏与分享
+
+搜索结果、分类资料和今日更新卡片提供“收藏”与“复制分享文案”。首页“我的收藏”支持筛选、直接打开、取消收藏；收藏以 `study-resource-favorites-v1` 保存到当前浏览器的 localStorage，刷新后保留，多标签页同步，不需要登录，也不会上传收藏记录。清除浏览器数据或换设备后不会自动带走收藏。
+
+分享文案包含资料名称、原资料链接和已有提取码；没有提取码时省略该行，百度分享链接中的 `pwd` 参数也可作为已有提取码。复制失败时提供可手动复制的完整文案，不会误报成功。
+
+前端需同步 `index.html`、`app.js`、`resource-actions.js`、`resource-actions.css`。验证：`node scripts/test-resource-actions.cjs`，支持与上述测试相同的 Playwright 和浏览器路径环境变量；剪贴板与网络在测试中隔离，不写正式收藏或用户剪贴板。

@@ -754,6 +754,7 @@ function renderSectionModalItem(item, index) {
         <span class="tag">${item.source}</span>
         <a class="open-link${className}" href="${item.url}" target="_blank" rel="noopener noreferrer">${getActionLabel(item)}</a>
       </div>
+      ${window.renderPersonalResourceActions?.(item) || ''}
     </article>
   `;
 }
@@ -775,6 +776,7 @@ function renderTodayModalItem(item) {
         <button class="open-link secondary-link" type="button" data-today-search="${panSearchEscapeHtml(title)}">搜索这个</button>
         <a class="open-link" href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${getTodayOpenLabel(item)}</a>
       </div>
+      ${window.renderPersonalResourceActions?.(item) || ''}
     </article>
   `;
 }
@@ -1131,6 +1133,7 @@ function renderCard(item) {
         <span class="tag">${item.source}</span>
         <a class="open-link${className}" href="${item.url}" target="_blank" rel="noopener noreferrer">${getActionLabel(item)}</a>
       </div>
+      ${window.renderPersonalResourceActions?.(item) || ''}
     </article>
   `;
 }
@@ -1971,6 +1974,7 @@ function renderPanSearchItem(item, queryTokens) {
       <p>${panSearchHighlight(item.context, queryTokens)}</p>
       ${item.code ? `<p class="pan-code">提取码：${panSearchEscapeHtml(item.code)}</p>` : ""}
       <div class="pan-result-actions"><a href="${panSearchEscapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">打开网盘</a><button type="button" data-copy-url="${panSearchEscapeHtml(item.url)}">复制</button><button class="pan-report-button" type="button" data-report-broken="${panSearchEscapeHtml(item.url)}" data-report-title="${panSearchEscapeHtml(item.title)}" data-report-platform="${panSearchEscapeHtml(item.platform)}" title="确认打开后看到官方失效提示，再提交反馈">确认失效</button></div>
+      ${window.renderPersonalResourceActions?.(item) || ''}
     </article>
   `;
 }
@@ -2567,5 +2571,4 @@ scheduleNonCriticalTask(loadShoreLetter, 700);
 
 // Initialize after all search state is ready.
 refreshSearchDiscovery();
-
 
