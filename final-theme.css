@@ -1615,3 +1615,27 @@ html body #top .hero #studyCompanion :is(.drift-bottle-button, .drift-bottle-mes
 }
 html body #top .hero #studyCompanion .drift-bottle-button:hover { background: #456548 !important; }
 html body #top .hero #studyCompanion .drift-bottle-track { border-color: rgba(237, 245, 214, .3) !important; }
+
+/* Let the daily quote use the card's full reading area. */
+html body #top .hero #studyCompanion .daily-learning-sign { display: flex !important; flex-direction: column !important; }
+html body #top .hero #studyCompanion #dailyLearningSign {
+  display: flex !important;
+  align-items: center !important;
+  flex: 1 !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 18px 0 16px !important;
+  font-size: clamp(28px, 2.25vw, 38px) !important;
+  font-weight: 600 !important;
+  line-height: 1.55 !important;
+  letter-spacing: .025em !important;
+  overflow-wrap: anywhere;
+}
+html body #top .hero #studyCompanion #dailyLearningSignMeta {
+  margin-top: auto !important;
+  font-size: 15px !important;
+  line-height: 1.7 !important;
+}
+@media (max-width: 600px) {
+  html body #top .hero #studyCompanion #dailyLearningSign { font-size: 28px !important; margin: 16px 0 14px !important; }
+}
