@@ -62,8 +62,10 @@
     </script>
     <link rel="preload" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'" />
     <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.7.0/style.css" /></noscript>
-    <link rel="stylesheet" href="styles.css?v=20260911-legacy-layout" />
-    <link id="finalThemeStylesheet" rel="stylesheet" href="final-theme.css?v=20260912-original-blue-final-v37" />
+    <link rel="stylesheet" href="styles.css?v=20261009-focus-count-motto" />
+    <link rel="stylesheet" href="resource-requests.css?v=20261009-progress-1" />
+    <link rel="stylesheet" href="resource-actions.css?v=20261009-2" />
+    <link id="finalThemeStylesheet" rel="stylesheet" href="final-theme.css?v=20261009-hero-glass" />
     <style>
       html body .main .hero-visual.hero-visual-notice-only {
         grid-template-rows: auto minmax(0, 1fr) !important;
@@ -467,7 +469,7 @@
         z-index: 0;
         inset: 0;
         pointer-events: none;
-        background: #173d2d url("assets/study-forest-wallpaper-v1.png") center / cover no-repeat;
+        background: #173d2d url("assets/study-squirrel-forest-v2.webp?v=20261008") center / cover no-repeat;
       }
       html body.has-static-wallpaper .app-shell { position: relative; z-index: 1; }
       html body.has-static-wallpaper .main .hero { background: transparent !important; -webkit-backdrop-filter: none !important; backdrop-filter: none !important; }
@@ -550,9 +552,211 @@
       html body:not(.theme-light).has-static-wallpaper .main .overview-block .overview-card { background: rgba(24, 68, 52, .58) !important; }
       @media (prefers-reduced-motion: reduce) { html body .main .resource-squirrel-sprite, html body .main .resource-squirrel-laugh, html body .main .resource-squirrel-nest, html body .main .resource-squirrel-toggle[data-squirrel-motion] .resource-squirrel-sprite { animation: none !important; } html body .resource-squirrel-nest-dock, html body .main .squirrel-gallery-stop::before, html body .main .squirrel-gallery-mascot { transition: none !important; } }
     </style>
-  </head>
+  <style id="searchFirstStyles">
+/* 2026-10-08: search is the homepage's primary entry. */
+html body .main .hero { grid-template-columns: minmax(0, 1.65fr) minmax(280px, 1fr) !important; align-items: start !important; }
+html body .main .hero-copy { display: flex !important; flex-direction: column; }
+html body .main .hero-copy .hero-search { order: 2; margin-top: 18px !important; width: 100%; }
+html body .main .hero-copy .hero-blessing { order: 3; margin-top: 22px !important; }
+html body .main .hero-copy .hero-actions { order: 4; }
+html body .main .hero-copy .hero-stats { order: 5; }
+html body .main .search-panel { padding: 22px !important; border: 1px solid var(--line-strong) !important; background: var(--surface-strong) !important; border-radius: 22px !important; box-shadow: 0 12px 36px rgba(0,113,227,.10) !important; }
+html body .main .search-box { min-height: 64px !important; background: var(--surface-soft) !important; border: 1px solid var(--line-strong) !important; }
+html body .main .search-box input { font-size: 17px !important; min-width: 0; }
+.search-discovery { margin-top: 16px; color: var(--text); }
+.search-discovery-summary { display:flex; flex-wrap:wrap; justify-content:space-between; gap:8px; padding-bottom:12px; border-bottom:1px solid var(--line); font-size:13px; }
+.search-discovery-summary small { color:var(--muted); font-size:12px; }
+.search-discovery-columns { display:grid; grid-template-columns:1fr 1fr; gap:16px; margin-top:14px; }
+.search-discovery-columns section { min-width:0; }
+.search-discovery-columns section:last-child { grid-column:1 / -1; }
+.search-discovery-columns h3 { margin:0 0 8px; color:var(--muted); font-size:12px; font-weight:600; }
+.search-discovery-columns p { color:var(--muted); font-size:12px; margin:8px 0; }
+.search-discovery-columns .search-suggest-item { width:100%; padding:9px 8px; gap:8px; background:transparent; color:var(--text); }
+.search-discovery-columns .search-suggest-item strong { font-size:13px; font-weight:500; }
+.search-discovery-columns .search-suggest-item span { flex-shrink:0; font-size:11px; color:var(--muted); }
+.search-category-matches { display:flex; flex-wrap:wrap; gap:7px; }
+.search-category-matches button { display:flex; align-items:center; gap:7px; border:1px solid var(--line); background:var(--surface-soft); color:var(--text); border-radius:9px; padding:7px 9px; font-size:12px; cursor:pointer; }
+.search-category-matches b { color:var(--accent); font-size:11px; }
+.search-discovery button:hover, .search-discovery button:focus-visible { background:var(--accent-soft); }
+.search-verified { color:var(--mint); background:var(--mint-soft); border-radius:6px; padding:4px 7px; font-size:11px; }
+.pan-result-item .search-result-meta { font-size:12px; color:var(--muted); margin:6px 0; }
+.search-load-more { display:block; margin:20px auto 0; padding:11px 24px; border:1px solid var(--line-strong); border-radius:12px; background:var(--accent-soft); color:var(--accent); cursor:pointer; }
+#searchSuggestBox { max-height:min(540px, 60vh); overflow-y:auto; background:var(--surface-strong) !important; }
+#searchSuggestBox .search-discovery-columns { grid-template-columns:1fr; }
+@media(max-width:1100px) { html body .main .hero { grid-template-columns:1fr !important; } }
+@media(max-width:600px) {
+  html body .main .search-panel { padding:14px !important; }
+  html body .main .search-box { min-height:56px !important; }
+  html body .main .search-box input { font-size:16px !important; }
+  .search-discovery-columns { gap:12px; }
+  .search-discovery-summary { flex-direction:column; }
+  .search-panel-head { flex-wrap:wrap; gap:6px; }
+}
+
+.search-discovery-columns button:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+
+/* Restore the study room content hidden by legacy cover-image rules. */
+html body .main .hero-visual { height:auto !important; align-self:start !important; }
+html body .main .hero-art.study-room-teaser { flex:none !important; height:auto !important; min-height:300px !important; }
+html body .main .hero-art.study-room-teaser > .study-room-teaser-head,
+html body .main .hero-art.study-room-teaser > .study-room-teaser-bottom { display:flex !important; }
+html body .main .hero-art.study-room-teaser > .study-room-teaser-lead { display:block !important; }
+html body .main .hero-art.study-room-teaser > .study-room-preview-seats { display:grid !important; }
+html body .main .search-panel { margin-top:0 !important; }
+@media(max-width:600px) { html body .main .hero-copy h1 { font-size:34px !important; line-height:1.18 !important; } }
+
+</style>
+  <style id="searchRefinedStyles">
+/* 2026-10-08: refined search composition. */
+#top .hero .hero-copy { padding:clamp(28px,3.5vw,48px) !important; border-radius:24px !important; min-height:0 !important; }
+#top .hero .hero-copy h1 { font-family:-apple-system,BlinkMacSystemFont,'Segoe UI','Microsoft YaHei',sans-serif !important; font-size:clamp(32px,3.4vw,48px) !important; font-weight:650 !important; letter-spacing:-.055em !important; line-height:1.22 !important; margin:20px 0 0 !important; padding:0 !important; width:auto !important; }
+#top .hero .hero-copy h1::before, #top .hero .hero-copy h1::after { display:none !important; }
+#top .hero .hero-copy h1 span { color:inherit !important; opacity:.64; font:inherit !important; }
+#top .hero .hero-copy .eyebrow { font-family:-apple-system,BlinkMacSystemFont,'Microsoft YaHei',sans-serif !important; font-size:12px !important; letter-spacing:.04em !important; opacity:.65; }
+#top .hero .hero-copy > p:not(.eyebrow):not(.hero-blessing) { font-family:-apple-system,BlinkMacSystemFont,'Microsoft YaHei',sans-serif !important; font-size:14px !important; margin:14px 0 0 !important; opacity:.75; line-height:1.8 !important; }
+#top .hero .hero-copy .hero-search { margin-top:28px !important; }
+#top .hero .search-panel { padding:0 !important; border:0 !important; background:transparent !important; box-shadow:none !important; border-radius:0 !important; }
+#top .hero .search-box { min-height:66px !important; padding:8px 9px 8px 19px !important; border-radius:16px !important; border:1px solid rgba(110,130,130,.3) !important; background:rgba(255,255,255,.94) !important; box-shadow:0 6px 24px rgba(0,0,0,.07) !important; gap:10px !important; }
+#top .hero .search-box:focus-within { border-color:#438d79 !important; box-shadow:0 0 0 3px rgba(67,141,121,.12) !important; }
+#top .hero .search-box input { font-family:-apple-system,BlinkMacSystemFont,'Microsoft YaHei',sans-serif !important; font-size:15px !important; color:#263d37 !important; }
+#top .hero .search-box .search-icon { color:#6d817c !important; }
+#top .hero .search-box input::placeholder { color:#8b9693 !important; }
+#top .hero .search-box button { font-family:-apple-system,BlinkMacSystemFont,'Microsoft YaHei',sans-serif !important; min-height:46px !important; font-size:14px !important; border-radius:11px !important; padding:0 21px !important; background:#28715e !important; color:#fff !important; font-weight:600 !important; }
+#top .hero .search-shortcut { opacity:.5; font-size:11px !important; border:0 !important; background:transparent !important; }
+#top #hotSearches { display:none !important; }
+#top .search-discovery { margin-top:15px; }
+#top .search-discovery *, #searchSuggestBox * { font-family:-apple-system,BlinkMacSystemFont,'Microsoft YaHei',sans-serif !important; }
+#top .search-idle { display:flex; flex-wrap:wrap; gap:18px; justify-content:space-between; align-items:center; }
+#top .search-idle-terms { display:flex; flex-wrap:wrap; align-items:center; gap:5px 14px; font-size:12px; }
+#top .search-idle-terms > span { opacity:.45; }
+#top .search-idle-terms button { padding:4px 0; border:0; background:transparent; color:inherit; font-size:12px; opacity:.72; cursor:pointer; }
+#top .search-idle-terms button:hover { opacity:1; text-decoration:underline; text-underline-offset:4px; }
+#top .search-idle-meta { display:flex; gap:14px; font-size:11px; opacity:.65; }
+#top .search-idle-meta span:last-child { display:inline-flex; align-items:center; gap:5px; }
+#top .search-idle-meta i { width:5px; height:5px; border-radius:50%; background:#6aaa91; }
+#top .search-discovery.is-searching { padding:16px; border:1px solid rgba(130,150,143,.18); border-radius:14px; background:rgba(255,255,255,.72); }
+#top .search-discovery-summary { padding:0 0 12px; border-bottom:1px solid rgba(130,150,143,.14); align-items:center; font-size:12px; }
+#top .search-discovery-summary strong { font-weight:500 !important; color:#657973 !important; }
+#top .search-view-all { border:0; background:transparent; color:#28715e !important; font-size:12px; padding:2px 0; cursor:pointer; }
+#top .search-discovery-columns { grid-template-columns:minmax(0,1.6fr) minmax(0,1fr); gap:12px 24px; margin-top:14px; }
+#top .search-discovery-columns h3 { font-size:10px; font-weight:500; letter-spacing:.03em; color:#85938d !important; margin-bottom:7px; }
+#top .search-discovery-columns section:last-child { grid-column:auto; }
+#top .search-discovery-columns .discovery-recent { grid-column:1 / -1; border-top:1px solid rgba(130,150,143,.12); padding-top:12px; }
+#top .search-suggest-item { grid-template-columns:14px minmax(0,1fr) auto; min-height:36px; padding:7px 5px; border-radius:6px; gap:8px; }
+#top .search-suggest-item strong { font-size:12px !important; font-weight:450 !important; color:#314a41 !important; }
+#top .search-suggest-item span { padding:0; min-width:0; border-radius:0; background:transparent; color:#90a19a !important; font-size:10px; }
+#top .search-category-matches { display:grid; gap:4px; }
+#top .search-category-matches button { width:100%; justify-content:space-between; padding:7px 3px; border:0; background:transparent; border-radius:5px; font-size:12px; }
+#top .search-category-matches button span { color:#62796d !important; }
+#top .search-category-matches b { color:#9caaa3 !important; font-size:10px; font-weight:400; }
+#top .search-discovery button:hover { background:rgba(59,111,90,.06); }
+html body:not(.theme-light) #top .hero .search-box { background:rgba(25,39,34,.92) !important; border-color:rgba(183,204,193,.23) !important; }
+html body:not(.theme-light) #top .hero .search-box input { color:#e3ebe6 !important; }
+html body:not(.theme-light) #top .hero .search-box button { background:#b6d0c0 !important; color:#203b2e !important; }
+html body:not(.theme-light) #top .search-discovery.is-searching { background:rgba(18,33,27,.68) !important; border-color:rgba(183,204,193,.13) !important; }
+html body:not(.theme-light) #top .search-suggest-item strong, html body:not(.theme-light) #top .search-category-matches button span { color:#d9e4dd !important; }
+html body:not(.theme-light) #top .search-discovery-summary strong, html body:not(.theme-light) #top .search-view-all { color:#b4c9bc !important; }
+@media(max-width:600px) {
+  #top .hero .hero-copy { padding:24px 20px !important; border-radius:20px !important; }
+  #top .hero .hero-copy h1 { font-size:32px !important; letter-spacing:-.045em !important; }
+  #top .hero .hero-copy h1 span { display:block; }
+  #top .hero .hero-copy .hero-search { margin-top:22px !important; }
+  #top .hero .search-box { min-height:58px !important; padding:6px 7px 6px 12px !important; gap:7px !important; grid-template-columns:22px minmax(0,1fr) auto !important; }
+  #top .hero .search-box input { font-size:14px !important; }
+  #top .hero .search-box button { min-height:42px !important; padding:0 13px !important; }
+  #top .search-idle { gap:12px; }
+  #top .search-discovery-columns { grid-template-columns:minmax(0,1fr); gap:14px; }
+  #top .search-category-matches { display:flex; flex-wrap:wrap; gap:8px 16px; }
+  #top .search-category-matches button { width:auto; gap:7px; }
+}
+</style>
+<style id="searchRefinedPolish">
+#top .hero .hero-copy { height:auto !important; align-self:start !important; }
+#top .hero .hero-copy h1 { font-size:clamp(32px,3vw,44px) !important; font-weight:600 !important; }
+#top .hero .hero-copy h1 span { opacity:.6 !important; }
+#top .hero .hero-copy > p:not(.eyebrow):not(.hero-blessing) { color:#607b70 !important; font-weight:400 !important; }
+html body:not(.theme-light) #top .hero .hero-copy > p:not(.eyebrow):not(.hero-blessing) { color:#b8c9c0 !important; }
+#top .hero .hero-copy .hero-stats, #top .hero .hero-copy .hero-blessing { display:none !important; }
+#top .hero .hero-copy .hero-actions { margin-top:24px !important; display:flex !important; gap:22px !important; }
+#top .hero .hero-actions a { font-family:-apple-system,BlinkMacSystemFont,'Microsoft YaHei',sans-serif !important; padding:0 !important; min-height:0 !important; width:auto !important; border:0 !important; border-radius:0 !important; background:transparent !important; box-shadow:none !important; color:#607b70 !important; font-size:12px !important; font-weight:400 !important; }
+#top .hero .hero-actions a::before, #top .hero .hero-actions a svg { display:none !important; }
+html body:not(.theme-light) #top .hero .hero-actions a { color:#b8c9c0 !important; }
+#top .search-discovery-columns > section.discovery-recent:last-child { grid-column:1 / -1 !important; }
+#top .search-discovery-summary { flex-direction:row !important; text-align:left !important; }
+#top .search-discovery-columns h3 { text-align:left !important; }
+#top .hero .hero-copy .eyebrow { font-weight:400 !important; }
+@media(max-width:600px){ #top .hero .hero-copy h1 { font-size:32px !important; } #top .hero .hero-copy .hero-actions { margin-top:20px !important; } }
+</style>
+<style>
+#top .hero .hero-copy > p:not(.eyebrow):not(.hero-blessing)::first-line { color:inherit !important; }
+#top #peerSearchPulse { display:none !important; }
+#top .hero .hero-actions { background:transparent !important; padding:0 !important; }
+#top .hero .hero-actions a::after { display:none !important; }
+#top .hero .hero-actions a:hover { text-decoration:underline; text-underline-offset:4px; }
+</style>
+<style id="searchSpacingFix">
+/* Compact hero: the mascot is a floating companion, never a reserved row. */
+#top .hero { height:auto !important; min-height:0 !important; grid-template-rows:auto !important; align-items:start !important; margin-bottom:0 !important; }
+#top .hero .hero-visual.hero-visual-notice-only { display:block !important; height:auto !important; min-height:0 !important; grid-template-rows:none !important; align-self:start !important; }
+#top .resource-squirrel-stage { position:fixed !important; inset:auto 18px 18px auto !important; display:flex !important; width:148px !important; height:175px !important; min-height:0 !important; max-height:175px !important; z-index:25; pointer-events:none; }
+#top .resource-squirrel-stage::before { display:none !important; }
+#top .resource-squirrel-toggle { width:140px !important; margin:0 !important; transform:translateX(var(--squirrel-drag-x,0px)) !important; pointer-events:auto; }
+#top .resource-squirrel-trails { display:none !important; }
+#top .resource-squirrel-menu { pointer-events:auto; }
+#top #studyCompanion { margin-top:20px !important; }
+@media(max-width:600px) {
+ #top .resource-squirrel-stage { width:104px !important; height:126px !important; max-height:126px !important; right:8px !important; bottom:12px !important; }
+ #top .resource-squirrel-toggle { width:100px !important; }
+ #top #studyCompanion { margin-top:16px !important; }
+}
+</style>
+<style>
+#top .resource-squirrel-panel { pointer-events:auto; }
+#top .hero, #top .hero .hero-visual { transform:none !important; filter:none !important; backdrop-filter:none !important; -webkit-backdrop-filter:none !important; contain:none !important; }
+</style>
+<style id="squirrelHomepageRestored">
+/* Restore the homepage mascot; fill the adjacent row with useful study cards. */
+#top .hero { display:grid !important; grid-template-rows:auto auto !important; gap:20px !important; }
+#top .hero .hero-copy { grid-column:1; grid-row:1; }
+#top .hero .hero-visual.hero-visual-notice-only { display:contents !important; }
+#top .hero .hero-live-panel { grid-column:2; grid-row:1; align-self:start !important; }
+#top .resource-squirrel-stage { position:relative !important; inset:auto !important; grid-column:2; grid-row:2; display:flex !important; align-self:stretch; align-items:center !important; justify-content:center !important; width:auto !important; height:auto !important; min-height:0 !important; max-height:none !important; z-index:2; pointer-events:auto; overflow:visible !important; }
+#top .resource-squirrel-toggle { width:clamp(220px,22vw,330px) !important; margin:0 !important; transform:translateX(var(--squirrel-drag-x,0px)) !important; }
+#top .resource-squirrel-stage::before { display:block !important; }
+#top .resource-squirrel-trails { display:block !important; }
+#top .hero #studyCompanion { grid-column:1; grid-row:2; display:grid !important; grid-template-columns:1fr 1fr !important; gap:16px !important; margin:0 !important; align-self:start; }
+#top .hero #studyCompanion .countdown-wall { grid-column:1 / -1; }
+#top .hero #studyCompanion .drift-bottle-board { grid-column:auto; }
+#top .hero #studyCompanion > section { padding:20px !important; min-width:0; }
+@media(max-width:1100px) {
+ #top .hero { grid-template-columns:1fr !important; }
+ #top .hero .hero-copy { grid-column:1; grid-row:1; }
+ #top .hero .hero-live-panel { grid-column:1; grid-row:2; }
+ #top .resource-squirrel-stage { grid-column:1; grid-row:3; min-height:0 !important; }
+ #top .resource-squirrel-toggle { width:220px !important; }
+ #top .hero #studyCompanion { grid-column:1; grid-row:4; }
+}
+@media(max-width:600px) {
+ #top .resource-squirrel-toggle { width:180px !important; }
+ #top .hero #studyCompanion { grid-template-columns:1fr !important; }
+ #top .hero #studyCompanion .countdown-wall { grid-column:auto; }
+}
+</style>
+<style>
+@media(max-width:1100px) { #top .hero #studyCompanion {grid-row:2 !important;} #top .hero .hero-live-panel {grid-row:3 !important;} #top .resource-squirrel-stage {grid-row:4 !important;} }
+</style>
+<style id="timeBackgroundStyles">
+html body.has-static-wallpaper .site-static-background-transition {
+  position: fixed; z-index: 0; inset: 0; pointer-events: none;
+  background: center / cover no-repeat; opacity: 0;
+}
+@media (prefers-reduced-motion: reduce) {
+  html body.has-static-wallpaper .site-static-background-transition { transition: none !important; }
+}
+</style>
+<link rel="stylesheet" href="focus-companion.css?v=20261009-study-card" /><link rel="stylesheet" href="study-checkins.css?v=20261009-editable" /></head>
   <body class="theme-light has-static-wallpaper">
-    <div class="site-static-background" aria-hidden="true"></div>
+    <div class="site-static-background" aria-hidden="true"></div><script src="time-background.js?v=20261008-cycle"></script>
     <div id="appShell" class="app-shell">
       <aside class="sidebar" aria-label="资料板块">
         <a class="brand" href="#top" aria-label="学习资源库首页">
@@ -577,18 +781,19 @@
 
       <main id="top" class="main">
         <section class="hero">
+          <div class="hero-main-column">
           <div class="hero-copy">
             <p class="eyebrow" aria-label="覆盖领域"><span>公务员</span><i aria-hidden="true">·</i><span>事业单位</span><i aria-hidden="true">·</i><span>教招</span><i aria-hidden="true">·</i><span>法考</span><i aria-hidden="true">·</i><span>考研</span></p>
-            <h1>学习资源库</h1>
+            <h1>备考资料，<span>一搜即达。</span></h1>
             <p>
-              按分类和关键词查找备考资料，覆盖公考、教招、法考、考研、电子书及实用学习资源。
+              少一点翻找，多一点专注。搜索老师、课程或备考关键词。
             </p>
-            <p class="hero-blessing"><span class="blessing-boat" aria-hidden="true"></span><span class="blessing-line">愿君此去，蟾宫折桂，雁塔题名；</span><span class="blessing-line">春风得意，一朝上岸！</span></p>
+            <p id="heroMotto" class="hero-motto" aria-label="世上无难事，只要肯登攀"><span>世上无难事，</span><span>只要肯登攀</span></p><p class="hero-blessing"><span class="blessing-boat" aria-hidden="true"></span><span class="blessing-line">愿君此去，蟾宫折桂，雁塔题名；</span><span class="blessing-line">春风得意，一朝上岸！</span></p>
             <div class="hero-search" aria-label="资源搜索">
               <div class="search-panel">
                 <div class="search-panel-head">
                   <span>全站搜索</span>
-                  <strong>输入老师、课程或关键词 · 建议搜索关键词合集</strong>
+                  <strong>联想词 · 分类 · 近期更新，一次找到</strong>
                 </div>
                 <label class="search-box">
                   <span class="search-icon" aria-hidden="true">
@@ -597,10 +802,12 @@
                       <path d="m16 16 4 4"></path>
                     </svg>
                   </span>
-                  <input id="searchInput" type="search" placeholder="搜索课程、老师、资料、关键词…" />
+                  <input id="searchInput" type="search" aria-label="搜索备考资料" autocomplete="off" aria-controls="searchDiscovery" placeholder="搜索课程、老师、资料、关键词…" />
                   <kbd class="search-shortcut" aria-hidden="true">⌘ K</kbd>
                   <button id="heroSearchButton" type="button">搜索</button>
                 </label>
+                <p class="resource-request-entry"><span>没有找到需要的资料？</span><button type="button" data-resource-request>登记想找的资料</button><button type="button" data-request-progress>查询求资料进度</button></p>
+                <div id="searchDiscovery" class="search-discovery" aria-label="搜索发现"></div>
                 <div id="hotSearches" class="hot-searches" aria-label="热门搜索"></div>
               </div>
               <div id="categoryFilters" class="filters" role="group" aria-label="分类筛选"></div>
@@ -608,6 +815,7 @@
             <div class="hero-actions">
               <a class="primary-action" href="#resourceSections">浏览全部资料</a>
               <a class="secondary-action" href="https://di0occkvoyb.feishu.cn/wiki/MNt9w7LfeiXi5Xkvj0gcOo8Cnfs" target="_blank" rel="noopener noreferrer">飞书总目录</a>
+              <button class="personal-favorites-entry" type="button" data-open-favorites>★ 我的收藏 <span class="personal-favorites-count">0</span></button>
             </div>
             <div class="hero-stats" aria-label="资源库概览">
               <span class="hero-stat"><strong>9</strong><small>大板块</small></span>
@@ -615,55 +823,7 @@
               <span class="hero-stat"><strong>持续</strong><small>更新</small></span>
             </div>
           </div>
-          <div class="hero-visual hero-visual-notice-only">
-            <section class="hero-live-panel" aria-label="资料库在线状态">
-              <div class="hero-live-header">
-                <span class="hero-live-status"><i aria-hidden="true"></i>资料库在线 <b>LIVE</b><span id="siteGlobalOnline" class="site-global-online" aria-live="polite">-- 人在线</span></span>
-              </div>
-              <p><span>RESOURCE HUB</span>资源正在持续整理与更新</p>
-              <div class="hero-live-services" aria-label="当前可用服务">
-                <span><i aria-hidden="true"></i><b>资源搜索</b><small>海量资料随心搜</small></span>
-                <span><i aria-hidden="true"></i><b>目录导航</b><small>分类清晰直达</small></span>
-                <span><i aria-hidden="true"></i><b>内容浏览</b><small>在线 / 下载 / 收藏</small></span>
-              </div>
-            </section>
-            <section class="resource-squirrel-stage" aria-label="资料松鼠助手">
-              <button id="resourceSquirrelToggle" class="resource-squirrel-toggle" type="button" aria-expanded="false" aria-controls="resourceSquirrelPanel">
-                <span class="resource-squirrel-callout"><strong id="resourceSquirrelGreeting" aria-live="polite">你好，我是资料松鼠</strong><small id="resourceSquirrelGreetingNote">我帮你翻资料柜</small></span>
-                <span class="resource-squirrel-sprite" role="img" aria-label="抱着资料夹的资料松鼠"></span>
-                <span class="resource-squirrel-laugh" role="img" aria-label="躺在地上大笑的资料松鼠"></span>
-              </button>
-              <aside id="resourceSquirrelPanel" class="resource-squirrel-panel" aria-label="资料松鼠助手菜单" hidden>
-                <button class="resource-squirrel-close" type="button" aria-label="关闭资料松鼠助手">×</button>
-                <h2>资料松鼠在这儿</h2>
-                <p>要找什么资料？我带你从搜索开始。</p>
-                <div class="resource-squirrel-actions">
-                  <button id="resourceSquirrelSearch" type="button">带我去找资料 <span>→</span></button>
-                </div>
-              </aside>
-              <aside class="resource-squirrel-trails" aria-label="资料足迹">
-                <button id="resourceSquirrelTrailResume" class="squirrel-trail-note squirrel-trail-note--resume" type="button">
-                  <small>资料足迹</small>
-                  <strong id="resourceSquirrelTrailTitle">下次浏览的资料会留在这里</strong>
-                  <span>继续查看 <b aria-hidden="true">→</b></span>
-                </button>
-                <span class="squirrel-trail-note squirrel-trail-note--today">
-                  <small>资料小报</small>
-                  <strong id="resourceSquirrelTrailToday">今日资料持续整理</strong>
-                </span>
-                <span class="squirrel-trail-note squirrel-trail-note--nest">
-                  <small>树洞书签</small>
-                  <strong>松鼠回来前，书签替你看着</strong>
-                </span>
-              </aside>
-            </section>
-          </div>
-        </section>
-
-        <section id="panSearchResults" class="pan-search-results" aria-live="polite" hidden></section>
-
-        <section id="studyCompanion" class="study-companion" aria-label="备考同行">
-          <section class="countdown-wall" aria-labelledby="countdownTitle">
+        <section id="studyCompanion" class="study-companion" aria-label="备考同行">          <section class="countdown-wall" aria-labelledby="countdownTitle">
             <div class="companion-heading">
               <div><span class="companion-kicker">EXAM COUNTDOWN</span><h2 id="countdownTitle">上岸倒计时</h2></div>
               <p>今天也算在路上</p>
@@ -689,6 +849,65 @@
             <p class="drift-bottle-hint">匿名写下今天完成的事、想找的资料，或送给后来人的一句话。</p>
           </section>
         </section>
+          </div>
+          <div class="hero-side-column">
+            <section class="hero-live-panel" aria-label="资料库在线状态">
+              <div class="hero-live-header">
+                <span class="hero-live-status"><i aria-hidden="true"></i>资料库在线 <b>LIVE</b><span id="siteGlobalOnline" class="site-global-online" aria-live="polite">-- 人在线</span></span>
+              </div>
+              <p><span>RESOURCE HUB</span>资源正在持续整理与更新</p>
+              <div class="hero-live-services" aria-label="当前可用服务">
+                <span><i aria-hidden="true"></i><b>资源搜索</b><small>海量资料随心搜</small></span>
+                <span><i aria-hidden="true"></i><b>目录导航</b><small>分类清晰直达</small></span>
+                <span><i aria-hidden="true"></i><b>内容浏览</b><small>在线 / 下载 / 收藏</small></span>
+              </div>
+            </section>
+<section id="focusCompanion" aria-labelledby="focusCompanionTitle">
+ <div class="focus-header"><div><p class="focus-eyebrow">A LITTLE COMPANY</p><h2 id="focusCompanionTitle">小松鼠陪学</h2></div><span id="focusToday">今天完成 0 轮 · 0 分钟专注</span></div>
+ <div class="focus-subject-row"><label for="focusSubject">学习内容</label><select id="focusSubject" aria-describedby="focusSubjectHint"><option value="">请选择学习内容</option><option>言语理解</option><option>资料分析</option><option>数量关系</option><option>逻辑判断</option><option>申论小作文</option><option>申论大作文</option><option>常识政治</option><option>早自习</option><option value="未分类专注" hidden disabled>未分类专注</option></select></div><small id="focusSubjectHint">先选学习内容，再选专注时长（分钟 / 休息）。</small>
+ <div class="focus-body">
+  <div class="focus-clock"><span class="focus-mascot" aria-hidden="true"></span><div><span id="focusTimer" role="timer" aria-label="本阶段剩余时间" aria-live="off">25:00</span><small id="focusPlan">专注 25 分钟 / 休息 5 分钟</small></div></div>
+  <div><div class="focus-presets" role="group" aria-label="选择专注和休息时长"><button type="button" data-focus-minutes="25" aria-pressed="true" aria-label="专注25分钟，休息5分钟">25 / 5</button><button type="button" data-focus-minutes="45" aria-pressed="false" aria-label="专注45分钟，休息10分钟">45 / 10</button><button type="button" data-focus-minutes="60" aria-pressed="false" aria-label="专注60分钟，休息10分钟">60 / 10</button></div><div class="focus-actions"><button id="focusPrimary" type="button">开始专注</button><button id="focusEnd" type="button" disabled>结束本轮</button></div></div>
+ </div>
+ <div class="focus-status-row"><p id="focusStatus">准备好，我们一起学一会儿</p><span id="focusPresence" aria-live="polite">正在连接…</span></div><div id="focusProgress" role="progressbar" aria-label="专注进度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div><small id="focusHint">刷新可继续计时；休息结束后由你开启下一轮。</small><span id="focusAnnouncement" class="focus-sr-only" aria-live="polite" aria-atomic="true"></span>
+ <div id="focusTodayDetails" class="focus-today-details" aria-label="今日各项学习时长"></div><div class="focus-export-row"><span>记录保存在当前浏览器</span><button id="focusExport" type="button">导出今日学习卡片</button></div>
+</section>
+            <section class="resource-squirrel-stage" aria-label="资料松鼠助手">
+              <button id="resourceSquirrelToggle" class="resource-squirrel-toggle" type="button" aria-expanded="false" aria-controls="resourceSquirrelPanel">
+                <span class="resource-squirrel-callout"><strong id="resourceSquirrelGreeting" aria-live="polite">你好，我是资料松鼠</strong><small id="resourceSquirrelGreetingNote">我帮你翻资料柜</small></span>
+                <span class="resource-squirrel-sprite" role="img" aria-label="抱着资料夹的资料松鼠"></span>
+                <span class="resource-squirrel-laugh" role="img" aria-label="躺在地上大笑的资料松鼠"></span>
+              </button>
+              <aside id="resourceSquirrelPanel" class="resource-squirrel-panel" aria-label="资料松鼠助手菜单" hidden>
+                <button class="resource-squirrel-close" type="button" aria-label="关闭资料松鼠助手">×</button>
+                <h2>资料松鼠在这儿</h2>
+                <p>要找什么资料？我带你从搜索开始。</p>
+                <div class="resource-squirrel-actions">
+                  <button id="resourceSquirrelFocus" type="button">陪我学一会儿 <span>→</span></button><button id="resourceSquirrelSearch" type="button">带我去找资料 <span>→</span></button>
+                </div>
+              </aside>
+              <aside class="resource-squirrel-trails" aria-label="资料足迹">
+                <button id="resourceSquirrelTrailResume" class="squirrel-trail-note squirrel-trail-note--resume" type="button">
+                  <small>资料足迹</small>
+                  <strong id="resourceSquirrelTrailTitle">下次浏览的资料会留在这里</strong>
+                  <span>继续查看 <b aria-hidden="true">→</b></span>
+                </button>
+                <span class="squirrel-trail-note squirrel-trail-note--today">
+                  <small>资料小报</small>
+                  <strong id="resourceSquirrelTrailToday">今日资料持续整理</strong>
+                </span>
+                <span class="squirrel-trail-note squirrel-trail-note--nest">
+                  <small>树洞书签</small>
+                  <strong>松鼠回来前，书签替你看着</strong>
+                </span>
+              </aside>
+            </section>
+          </div>
+        </section>
+
+        <section id="studyCheckinBar" aria-labelledby="studyCheckinTitle"><div class="checkin-bar-heading"><span class="checkin-bar-icon" aria-hidden="true">✓</span><div><h2 id="studyCheckinTitle">群友共学打卡</h2><p id="studyCheckinCount">正在读取今日打卡…</p></div></div><div class="checkin-bar-message"><p id="studyCheckinLatest">一起学一点，离上岸近一点。</p><small id="studyCheckinMeta">完成专注后，留一句今天学了什么。</small></div><div class="checkin-bar-actions"><button id="studyCheckinView" type="button">看看大家</button><button id="studyCheckinOpen" type="button">我要打卡</button></div></section>
+
+        <section id="panSearchResults" class="pan-search-results" aria-live="polite" hidden></section>
 
         <section id="featuredResources" class="featured-panel" aria-label="常用入口"></section>
 
@@ -785,8 +1004,14 @@
           .catch(function () {});
       })();
     </script>    <script src="pan-search-data.js?v=20260723-baidu1"></script>
-    <script src="app.js?v=20260913-squirrel-trails"></script>
+    <script src="resource-actions.js?v=20261009-2"></script><script src="app.js?v=20261009-favorites-share"></script><script src="resource-requests.js?v=20261009-progress-2"></script><script src="focus-study-card.js?v=20261009-study-card"></script><script src="focus-companion.js?v=20261009-checkins"></script><script src="study-checkins.js?v=20261009-editable"></script>
   </body>
 </html>
+
+
+
+
+
+
 
 

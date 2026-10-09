@@ -1545,3 +1545,117 @@ html body .main .study-room-rebuilt :is(.study-room-timer-action, .study-room-ut
 html body .main .study-room-rebuilt :is(.study-room-teaser-head h2, .study-room-timer-action > strong, .study-room-utility-action b) { color:#f2fbff !important; }
 html body .main .study-room-rebuilt :is(.study-room-teaser-head > div:first-child > span, .study-room-teaser-lead, .study-room-utility-action small, .study-room-teaser-bottom > span, .study-room-timer-action > small) { color:rgba(229,247,255,.80) !important; }
 html body .main .study-room-rebuilt .study-room-timer-action > time { color:#b8edf0 !important; }
+
+/* 2026-10-09: let resource headings share their parent panel surface. */
+html body .main #featuredResources > .featured-copy,
+html body .main #overview .overview-header > .section-title {
+  max-width: 100% !important;
+  padding: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  text-shadow: none !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif !important;
+}
+html body .main #featuredResources > .featured-copy { margin: 0 0 20px !important; padding: 22px 24px 0 !important; }
+html body .main #overview .overview-header > .section-title { margin: 0 !important; }
+html body .main #overview .overview-header > .section-title > .section-icon { display: none !important; }
+html body .main #featuredResources > .featured-copy h2,
+html body .main #overview .overview-header > .section-title h2 {
+  margin: 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  font-size: clamp(23px, 1.8vw, 28px) !important;
+  font-weight: 600 !important;
+  line-height: 1.4 !important;
+  letter-spacing: .02em !important;
+  color: #294b43 !important;
+  text-shadow: none !important;
+}
+html body .main #featuredResources > .featured-copy p,
+html body .main #overview .overview-header > .section-title p {
+  margin: 8px 0 0 !important;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif !important;
+  font-size: 14px !important;
+  font-weight: 400 !important;
+  line-height: 1.75 !important;
+  color: #526a63 !important;
+  text-shadow: none !important;
+}
+html body:not(.theme-light) .main #featuredResources > .featured-copy h2,
+html body:not(.theme-light) .main #overview .overview-header > .section-title h2 { color: #e2eee8 !important; }
+html body:not(.theme-light) .main #featuredResources > .featured-copy p,
+html body:not(.theme-light) .main #overview .overview-header > .section-title p { color: #b5c8bf !important; }
+
+@media (max-width: 700px) {
+  html body .main #featuredResources > .featured-copy { padding: 18px 20px 0 !important; }
+}
+
+/* Bright study-note and bottle text, with a woodland glass backing for contrast. */
+html body #top .hero #studyCompanion :is(.daily-learning-sign, .drift-bottle-board) {
+  color: #fff9e9 !important;
+  background: linear-gradient(135deg, rgba(23, 44, 32, .84), rgba(42, 56, 33, .80)) !important;
+  border-color: rgba(248, 243, 210, .52) !important;
+}
+html body #top .hero #studyCompanion :is(.daily-learning-sign, .drift-bottle-board)::after { opacity: .12 !important; }
+html body #top .hero #studyCompanion :is(.daily-learning-sign, .drift-bottle-board) :is(h2, p, small, span, button) {
+  color: #fff9e9 !important;
+  opacity: 1 !important;
+  text-shadow: 0 1px 2px rgba(9, 24, 15, .65) !important;
+}
+html body #top .hero #studyCompanion :is(.daily-learning-sign, .drift-bottle-board) .companion-kicker { color: #ffe2a0 !important; }
+html body #top .hero #studyCompanion #dailyLearningSignMeta,
+html body #top .hero #studyCompanion .drift-bottle-hint { color: #f1f4d9 !important; }
+html body #top .hero #studyCompanion :is(.drift-bottle-button, .drift-bottle-message) {
+  color: #fff9e9 !important;
+  background: rgba(18, 48, 35, .86) !important;
+  border-color: rgba(236, 244, 209, .42) !important;
+}
+html body #top .hero #studyCompanion .drift-bottle-button:hover { background: #456548 !important; }
+html body #top .hero #studyCompanion .drift-bottle-track { border-color: rgba(237, 245, 214, .3) !important; }
+
+/* Let the daily quote use the card's full reading area. */
+html body #top .hero #studyCompanion .daily-learning-sign { display: flex !important; flex-direction: column !important; }
+html body #top .hero #studyCompanion #dailyLearningSign {
+  display: flex !important;
+  align-items: center !important;
+  flex: 1 !important;
+  width: 100% !important;
+  max-width: none !important;
+  margin: 18px 0 16px !important;
+  font-size: clamp(28px, 2.25vw, 38px) !important;
+  font-weight: 600 !important;
+  line-height: 1.55 !important;
+  letter-spacing: .025em !important;
+  overflow-wrap: anywhere;
+}
+html body #top .hero #studyCompanion #dailyLearningSignMeta {
+  margin-top: auto !important;
+  font-size: 15px !important;
+  line-height: 1.7 !important;
+}
+@media (max-width: 600px) {
+  html body #top .hero #studyCompanion #dailyLearningSign { font-size: 28px !important; margin: 16px 0 14px !important; }
+}
+
+/* Frosted homepage search and notice panels match the woodland companion. */
+html body #top .hero :is(.hero-copy, .hero-live-panel) {
+  background: rgba(242, 248, 238, .64) !important;
+  border-color: rgba(255, 255, 255, .58) !important;
+  box-shadow: 0 16px 36px rgba(10, 28, 22, .13), inset 0 1px 0 rgba(255, 255, 255, .34) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(115%) !important;
+  backdrop-filter: blur(24px) saturate(115%) !important;
+}
+html body:not(.theme-light) #top .hero :is(.hero-copy, .hero-live-panel) {
+  background: rgba(18, 37, 29, .64) !important;
+  border-color: rgba(217, 233, 204, .28) !important;
+  box-shadow: 0 16px 36px rgba(7, 21, 16, .2), inset 0 1px 0 rgba(255, 255, 255, .1) !important;
+}
+html body #top .hero :is(.hero-copy, .hero-live-panel)::before,
+html body #top .hero :is(.hero-copy, .hero-live-panel)::after { opacity: 0 !important; }
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  html body #top .hero :is(.hero-copy, .hero-live-panel) { background: rgba(242, 248, 238, .94) !important; }
+  html body:not(.theme-light) #top .hero :is(.hero-copy, .hero-live-panel) { background: rgba(18, 37, 29, .94) !important; }
+}
