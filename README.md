@@ -61,3 +61,11 @@ https://ningyan1228.github.io/study-resource-library/
 打卡弹窗可设置 12 字以内的自定义网名，不需要先完成学习。点击“保存网名”后以 `study-squirrel-checkin-nickname-v1` 保存于当前浏览器，每天自动带入，也可随时修改；直接提交打卡也会自动保存填写的网名。网名显示在首页横条、公开列表和后台中。修改网名会立即更新本凭证今天已有的打卡，不增加人数，不改变学习时长、时间或隐藏状态；历史打卡保持原来的名字，旧版匿名打卡显示“学习伙伴”。清除浏览器数据或换设备后不会自动带走网名。
 
 前端同步 `index.html`、`focus-companion.js`、`study-checkins.js`、`study-checkins.css`；后端同步 `server/analytics-server.js`、`server/study-checkins.js`、`server/Dockerfile` 后重建容器。验证：`node scripts/test-study-checkins.cjs`（独立临时后端数据与浏览器存储，不写正式打卡）。
+
+## 在线人数与陪学人数
+
+`presence-client.js` 用同一个匿名浏览器标识和一条 `/api/presence` 心跳同时更新网站在线人数、正在运行专注计时的人数。每 25 秒更新，状态改变或网络恢复时立即更新；心跳使用 `text/plain` POST，避免额外的跨域预检，不占用浏览器的 keepalive 请求额度。请求串行执行，15 秒超时后自动按 2.5、7、15、25 秒间隔重试，旧请求不会覆盖新的暂停或开始状态。
+
+浏览器不能保存标识时使用当前页面的内存标识；旧版含小数点等无效标识会自动修复。短暂断线保留最近 150 秒内已确认的人数，注明“更新中 / 重连中”，鼠标悬停可查看上次更新时间；首次读取失败或结果太旧时不猜测人数。后端租约保留 150 秒，过期浏览器自然移出统计，暂停和休息立即移出专注人数。缓存仅用于提示上次结果，不代表实时结果。
+
+前端同步 `index.html`、`app.js`、`focus-companion.js`、`presence-client.js`，后端同步 `server/analytics-server.js` 后重建。验证：`node scripts/test-presence.cjs`，使用独立临时服务和真实跨域浏览器请求，覆盖断网、恢复、慢请求、禁止存储和旧标识；不写正式统计。
