@@ -24,8 +24,12 @@ https://ningyan1228.github.io/study-resource-library/
 
 ## 求资料登记
 
-搜索框下方及无结果提示中提供“登记想找的资料”入口，自动带入当前搜索词。用户填写资料名称和选填说明，提交成功后保存到后端 `data/resource-requests.json`，仅管理员可查看。
+搜索框下方及无结果提示中提供“登记想找的资料”入口，自动带入当前搜索词。用户填写资料名称和选填说明，提交成功后保存到后端 `data/resource-requests.json`。新登记返回随机查询码，当前浏览器最多保存 50 条登记凭证；“查询求资料进度”可查看本机记录或输入查询码跨设备查询。
 
-在管理后台的“求资料登记”中，可按待处理、寻找中、已补充、暂未找到筛选，并保存处理状态和备注。新后端部署时须同时上传 `server/resource-requests.js` 和更新后的 `server/Dockerfile`，再重建容器；前端须同步 `index.html`、`app.js`、`resource-requests.js` 和 `resource-requests.css`。
+在管理后台的“求资料登记”中，可按待处理、寻找中、已补充、暂未找到筛选，并保存状态、资料领取链接、提取码、公开回复及内部备注。标记“已补充”时需要提供 http/https 资料链接。群友查询时仅展示资料标题、状态、公开回复和更新时间，已补充时提供领取链接和提取码；内部备注、来源信息和完整需求列表不公开。
+
+进度接口为 `POST /api/resource-request-progress`，请求体 `{ code: "查询码" }`，响应禁止缓存。凭证只以 SHA-256 摘要保存到服务器，重复重试同一凭证不会创建第二条需求；共享同一网络地址也不能获得其他人的查询码。旧登记保留原有后台处理方式，不会凭来源地址自动授予查询权限。
+
+后端部署须同步 `server/analytics-server.js`、`server/resource-requests.js` 和 `server/Dockerfile`，再重建容器；前端须同步 `index.html`、`app.js`、`resource-requests.js` 和 `resource-requests.css`。
 
 验证：`node scripts/test-resource-requests.cjs`（需要 Playwright 和浏览器）。可用 `PLAYWRIGHT_MODULE_PATH` 指定 Playwright 模块路径，`TEST_BROWSER_PATH` 指定已安装浏览器的可执行文件路径；测试使用独立临时数据目录，不写入正式资料需求。

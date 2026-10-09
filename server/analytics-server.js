@@ -2483,6 +2483,13 @@ function renderAdminPage(stats, token, notice = {}, resourceSummary = null) {
     (function () {
       var aliases = { "": "overview", "top": "overview", "overview": "overview", "announcement": "announcement", "shore-letter": "shore-letter", "drift-bottles": "drift", "drift": "drift", "supplement": "supplement", "link-manager": "supplement", "github-sync": "supplement", "bulk-baidu-update": "supplement", "bulk-preview-result": "supplement", "bulk-quark-update": "supplement", "bulk-quark-preview-result": "supplement", "broken-links": "broken", "insights": "insights" };
       aliases["resource-requests"] = "requests";
+      document.addEventListener("change", function (event) {
+        if (!event.target.matches('#resource-requests select[name="status"]')) return;
+        var form = event.target.form;
+        var fulfilled = event.target.value === "fulfilled";
+        form.elements.resourceUrl.required = fulfilled;
+        if (fulfilled) form.querySelector(".request-delivery").open = true;
+      });
       var sections = Array.prototype.slice.call(document.querySelectorAll("[data-section]"));
       var tabs = Array.prototype.slice.call(document.querySelectorAll("[data-tab]"));
       function activate() {
@@ -2539,13 +2546,21 @@ const server = http.createServer(async (req, res) => {
     return send(res, req, 200, { ok: true, service: SERVICE_NAME, time: new Date().toISOString() });
   }
 
+  if (req.method === "POST" && url.pathname === "/api/resource-request-progress") {
+    if (req.headers.origin && !ALLOWED_ORIGINS.has(req.headers.origin)) return send(res, req, 403, { ok: false, error: "不允许的来源" });
+    try {
+      const raw = JSON.parse(await readBody(req) || "{}");
+      const item = resourceRequests.progress(raw.code);
+      return send(res, req, item ? 200 : 404, item ? { ok: true, item } : { ok: false, error: "未找到这条需求，请检查查询码" }, { "Cache-Control": "no-store" });
+    } catch (_) { return send(res, req, 400, { ok: false, error: "进度查询暂不可用，请稍后重试" }, { "Cache-Control": "no-store" }); }
+  }
   if (req.method === "POST" && url.pathname === "/api/resource-requests") {
     if (req.headers.origin && !ALLOWED_ORIGINS.has(req.headers.origin)) return send(res, req, 403, { ok: false, error: "不允许的来源" });
     try {
       const raw = JSON.parse(await readBody(req) || "{}");
       const source = String(req.headers["x-forwarded-for"] || req.socket.remoteAddress || "").split(",")[0].trim().slice(0, 120);
       const result = resourceRequests.create(raw, source);
-      return send(res, req, result.duplicate ? 200 : 201, { ok: true, duplicate: result.duplicate, id: result.item.id });
+      return send(res, req, result.duplicate ? 200 : 201, { ok: true, duplicate: result.duplicate, id: result.item.id, lookupCode: result.lookupCode, createdAt: result.item.createdAt }, { "Cache-Control": "no-store" });
     } catch (error) {
       console.error("Resource request failed:", error.message);
       return send(res, req, error.status || 400, { ok: false, error: error.code || error instanceof SyntaxError ? "登记服务暂不可用，请稍后重试" : error.message });
@@ -2561,7 +2576,7 @@ const server = http.createServer(async (req, res) => {
       const filter = ["pending", "searching", "fulfilled", "unavailable", "all"].includes(form.filter) ? form.filter : "pending";
       sendAdminRedirect(res, `/admin?requestSaved=1&requestFilter=${filter}#resource-requests`, token);
       return;
-    } catch (error) { return send(res, req, 400, { ok: false, error: "保存失败，请返回后台重试" }); }
+    } catch (error) { return send(res, req, 400, { ok: false, error: error.code ? "保存失败，请返回后台重试" : error.message }); }
   }
   if (req.method === "GET" && url.pathname === "/api/drift-bottles") {
     return send(res, req, 200, { ok: true, items: getPublicDriftBottles() });
