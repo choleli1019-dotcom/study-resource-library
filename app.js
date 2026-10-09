@@ -636,12 +636,12 @@ function renderResources() {
   const emptyState = document.querySelector(".empty-state");
   emptyState.innerHTML = `
     <h3>没有找到匹配的资料入口</h3>
-    <p>可以换个关键词试试老师简称、机构名或模块名，也可以去留言板反馈缺失资料。</p>
+    <p>可以换个关键词试试老师简称、机构名或模块名，也可以登记想找的资料。</p>
     <div class="empty-actions">
       ${["申论", "面试", "事业单位", "教资"]
         .map((term) => `<button type="button" data-hot-search="${term}">${term}</button>`)
         .join("")}
-      <a href="https://di0occkvoyb.feishu.cn/wiki/Id1JwO5fZibz9skPcpgcJoxqnOb" target="_blank" rel="noopener noreferrer">去留言板</a>
+      <button type="button" class="resource-request-empty" data-resource-request>登记想找的资料</button>
     </div>
   `;
   emptyState.style.display = visibleCount ? "none" : "block";
@@ -1847,7 +1847,7 @@ function renderSmartSearchEmpty(queryTokens) {
       <div class="smart-suggestion-list">
         ${suggestions.map((term) => `<button type="button" data-smart-search="${panSearchEscapeHtml(term)}">${panSearchEscapeHtml(term)}</button>`).join("")}
       </div>
-      <a href="https://di0occkvoyb.feishu.cn/wiki/Id1JwO5fZibz9skPcpgcJoxqnOb" target="_blank" rel="noopener noreferrer">提交资料需求</a>
+      <button type="button" class="resource-request-empty" data-resource-request>登记想找的资料</button>
     </section>
   `;
 }
@@ -2567,6 +2567,5 @@ scheduleNonCriticalTask(loadShoreLetter, 700);
 
 // Initialize after all search state is ready.
 refreshSearchDiscovery();
-
 
 

@@ -31,6 +31,7 @@ const ALLOWED_ORIGINS = new Set(
 );
 
 fs.mkdirSync(DATA_DIR, { recursive: true });
+const resourceRequests = require("./resource-requests")(DATA_DIR);
 
 function normalizeSiteNotice(raw) {
   const input = raw && typeof raw === "object" ? raw : {};
@@ -2355,6 +2356,7 @@ function renderAdminPage(stats, token, notice = {}, resourceSummary = null) {
       <a href="#announcement" data-tab="announcement">公告栏</a>
       <a href="#shore-letter" data-tab="shore-letter">上岸信笺</a>
       <a href="#drift-bottles" data-tab="drift">漂流瓶审核${pendingDriftBottleCount ? `（${pendingDriftBottleCount}）` : ""}</a>
+      <a href="#resource-requests" data-tab="requests">求资料登记</a>
       <a href="#supplement" data-tab="supplement">补充资料</a>
       <a href="#broken-links" data-tab="broken">失效反馈</a>
       <a href="#insights" data-tab="insights">数据洞察</a>
@@ -2425,6 +2427,7 @@ function renderAdminPage(stats, token, notice = {}, resourceSummary = null) {
     </section>
     <section class="admin-section" id="shore-letter" data-section="shore-letter"><div class="section-lead"><div><h2>上岸信笺</h2><p>独立欢迎文案，不会使用网站公告内容。</p></div></div><section class="panel manager"><form method="post" action="/admin/shore-letter"><label class="full"><span><input type="checkbox" name="active" ${shoreLetter.active ? "checked" : ""} /> 首次访问时展示</span></label><label>标题<input name="title" maxlength="80" value="${escapeHtml(shoreLetter.title)}" /></label><label class="full">正文<textarea name="message" maxlength="220">${escapeHtml(shoreLetter.message)}</textarea></label><div class="full"><button type="submit">保存并发布信笺</button></div></form></section></section>
     ${renderDriftBottleReview(driftBottles, notice)}
+    ${resourceRequests.render(escapeHtml, notice.requestFilter, notice.requestSaved)}
     <section class="admin-section" id="supplement" data-section="supplement">
       <div class="section-lead"><div><h2>补充资料</h2><p>新增少量网盘链接，或把服务器增量数据追加同步到 GitHub。</p></div></div>
       <section class="panel manager" id="link-manager">
@@ -2479,6 +2482,7 @@ function renderAdminPage(stats, token, notice = {}, resourceSummary = null) {
   <script>
     (function () {
       var aliases = { "": "overview", "top": "overview", "overview": "overview", "announcement": "announcement", "shore-letter": "shore-letter", "drift-bottles": "drift", "drift": "drift", "supplement": "supplement", "link-manager": "supplement", "github-sync": "supplement", "bulk-baidu-update": "supplement", "bulk-preview-result": "supplement", "bulk-quark-update": "supplement", "bulk-quark-preview-result": "supplement", "broken-links": "broken", "insights": "insights" };
+      aliases["resource-requests"] = "requests";
       var sections = Array.prototype.slice.call(document.querySelectorAll("[data-section]"));
       var tabs = Array.prototype.slice.call(document.querySelectorAll("[data-tab]"));
       function activate() {
@@ -2535,6 +2539,30 @@ const server = http.createServer(async (req, res) => {
     return send(res, req, 200, { ok: true, service: SERVICE_NAME, time: new Date().toISOString() });
   }
 
+  if (req.method === "POST" && url.pathname === "/api/resource-requests") {
+    if (req.headers.origin && !ALLOWED_ORIGINS.has(req.headers.origin)) return send(res, req, 403, { ok: false, error: "不允许的来源" });
+    try {
+      const raw = JSON.parse(await readBody(req) || "{}");
+      const source = String(req.headers["x-forwarded-for"] || req.socket.remoteAddress || "").split(",")[0].trim().slice(0, 120);
+      const result = resourceRequests.create(raw, source);
+      return send(res, req, result.duplicate ? 200 : 201, { ok: true, duplicate: result.duplicate, id: result.item.id });
+    } catch (error) {
+      console.error("Resource request failed:", error.message);
+      return send(res, req, error.status || 400, { ok: false, error: error.code || error instanceof SyntaxError ? "登记服务暂不可用，请稍后重试" : error.message });
+    }
+  }
+  if (req.method === "POST" && url.pathname === "/admin/resource-requests/update") {
+    const token = getRequestToken(req, url);
+    if (!isAdminToken(token)) return sendHtml(res, req, 403, renderAdminLogin("TOKEN 不正确"));
+    if (req.headers.origin && !ALLOWED_ORIGINS.has(req.headers.origin) && req.headers.origin !== `https://${req.headers.host}` && req.headers.origin !== `http://${req.headers.host}`) return send(res, req, 403, { ok: false, error: "不允许的来源" });
+    try {
+      const form = readFormBody(await readBody(req));
+      resourceRequests.update(form);
+      const filter = ["pending", "searching", "fulfilled", "unavailable", "all"].includes(form.filter) ? form.filter : "pending";
+      sendAdminRedirect(res, `/admin?requestSaved=1&requestFilter=${filter}#resource-requests`, token);
+      return;
+    } catch (error) { return send(res, req, 400, { ok: false, error: "保存失败，请返回后台重试" }); }
+  }
   if (req.method === "GET" && url.pathname === "/api/drift-bottles") {
     return send(res, req, 200, { ok: true, items: getPublicDriftBottles() });
   }
@@ -2908,6 +2936,8 @@ const server = http.createServer(async (req, res) => {
     const stats = readStats();
     const resourceSummary = await getGitHubResourceSummary();
     return sendHtml(res, req, 200, renderAdminPage(stats, token, {
+      requestFilter: url.searchParams.get("requestFilter") || "pending",
+      requestSaved: url.searchParams.get("requestSaved") === "1",
       announcement: url.searchParams.get("announcement") || "",
       drift: url.searchParams.get("drift") || "",
       status: url.searchParams.get("sync") || "",

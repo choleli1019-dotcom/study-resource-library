@@ -21,3 +21,11 @@ https://ningyan1228.github.io/study-resource-library/
 访问、使用、下载或转存第三方资源所产生的一切后果，由使用者自行承担。
 
 请支持正版，培养版权意识。
+
+## 求资料登记
+
+搜索框下方及无结果提示中提供“登记想找的资料”入口，自动带入当前搜索词。用户填写资料名称和选填说明，提交成功后保存到后端 `data/resource-requests.json`，仅管理员可查看。
+
+在管理后台的“求资料登记”中，可按待处理、寻找中、已补充、暂未找到筛选，并保存处理状态和备注。新后端部署时须同时上传 `server/resource-requests.js` 和更新后的 `server/Dockerfile`，再重建容器；前端须同步 `index.html`、`app.js`、`resource-requests.js` 和 `resource-requests.css`。
+
+验证：`node scripts/test-resource-requests.cjs`（需要 Playwright 和浏览器）。可用 `PLAYWRIGHT_MODULE_PATH` 指定 Playwright 模块路径，`TEST_BROWSER_PATH` 指定已安装浏览器的可执行文件路径；测试使用独立临时数据目录，不写入正式资料需求。
