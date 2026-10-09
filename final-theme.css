@@ -1639,3 +1639,23 @@ html body #top .hero #studyCompanion #dailyLearningSignMeta {
 @media (max-width: 600px) {
   html body #top .hero #studyCompanion #dailyLearningSign { font-size: 28px !important; margin: 16px 0 14px !important; }
 }
+
+/* Frosted homepage search and notice panels match the woodland companion. */
+html body #top .hero :is(.hero-copy, .hero-live-panel) {
+  background: rgba(242, 248, 238, .64) !important;
+  border-color: rgba(255, 255, 255, .58) !important;
+  box-shadow: 0 16px 36px rgba(10, 28, 22, .13), inset 0 1px 0 rgba(255, 255, 255, .34) !important;
+  -webkit-backdrop-filter: blur(24px) saturate(115%) !important;
+  backdrop-filter: blur(24px) saturate(115%) !important;
+}
+html body:not(.theme-light) #top .hero :is(.hero-copy, .hero-live-panel) {
+  background: rgba(18, 37, 29, .64) !important;
+  border-color: rgba(217, 233, 204, .28) !important;
+  box-shadow: 0 16px 36px rgba(7, 21, 16, .2), inset 0 1px 0 rgba(255, 255, 255, .1) !important;
+}
+html body #top .hero :is(.hero-copy, .hero-live-panel)::before,
+html body #top .hero :is(.hero-copy, .hero-live-panel)::after { opacity: 0 !important; }
+@supports not ((backdrop-filter: blur(1px)) or (-webkit-backdrop-filter: blur(1px))) {
+  html body #top .hero :is(.hero-copy, .hero-live-panel) { background: rgba(242, 248, 238, .94) !important; }
+  html body:not(.theme-light) #top .hero :is(.hero-copy, .hero-live-panel) { background: rgba(18, 37, 29, .94) !important; }
+}
