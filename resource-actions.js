@@ -54,6 +54,8 @@
   let previousFocus;
   function notify(value) {
     if (dialog.open) { message.textContent = value; return; }
+    const activeMessage = document.querySelector('dialog[open] [role="status"]');
+    if (activeMessage) { activeMessage.textContent = value; return; }
     toast.textContent = value; toast.classList.add('is-visible');
     clearTimeout(toastTimer); toastTimer = setTimeout(() => toast.classList.remove('is-visible'), 2200);
   }

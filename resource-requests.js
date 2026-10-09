@@ -152,6 +152,11 @@
           });
           codeRow.append(button); progressResult.append(codeRow);
         }
+        if (window.renderPersonalResourceActions) {
+          const actions = document.createElement('div');
+          actions.innerHTML = window.renderPersonalResourceActions({ title: item.title, url: url.href, code: item.resourceCode || '', description: item.reply || '' });
+          progressResult.append(...actions.children);
+        }
       } catch (_) { progressResult.append(element('p', '', '领取链接暂不可用，请稍后查看。')); }
     } else if (item.status === 'fulfilled') progressResult.append(element('p', '', '管理员正在补充领取链接，请稍后查看。'));
     progressResult.hidden = false;

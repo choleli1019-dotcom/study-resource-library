@@ -35,6 +35,7 @@ const server = http.createServer((req, res) => {
     const url = new URL(route.request().url());
     if (url.hostname === '127.0.0.1') return route.continue();
     if (url.pathname === '/api/pan-links') return route.fulfill({ json: { ok: true, items: [alpha, beta, pwd] } });
+    if (url.pathname === '/api/resource-request-progress') return route.fulfill({ json: { ok: true, item: { title: alpha.title, status: 'fulfilled', resourceUrl: alpha.url, resourceCode: alpha.code, reply: '新补齐的资料', createdAt: now, updatedAt: now } } });
     if (url.pathname === '/api/shore-letter') return route.fulfill({ json: { ok: true, letter: { active: false } } });
     if (url.pathname.startsWith('/api/')) return route.fulfill({ json: { ok: true, items: [], hiddenUrls: [], ranking: [], linkCare: [] } });
     return route.fulfill({ body: '', contentType: route.request().resourceType() === 'stylesheet' ? 'text/css' : 'text/javascript' });
@@ -135,8 +136,20 @@ const server = http.createServer((req, res) => {
   assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
   await page.evaluate(() => document.body.classList.remove('theme-light'));
   await page.screenshot({ path: path.join(root, '.tmp-resource-favorites-dark-mobile.png') });
+  await page.keyboard.press('Escape');
+  await page.locator('[data-request-progress]').click();
+  const progressDialog = page.locator('.resource-progress-dialog');
+  await progressDialog.locator('[name="code"]').fill('a'.repeat(32));
+  await progressDialog.locator('[type="submit"]').click();
+  await page.waitForFunction(() => document.querySelector('.resource-progress-badge')?.textContent === '已补充');
+  await progressDialog.locator('[data-resource-share]').click();
+  assert.equal(await page.evaluate(() => window.__copied.at(-1)), expected);
+  await progressDialog.locator('[data-resource-favorite]').click();
+  assert.equal(await progressDialog.locator('[data-resource-favorite]').getAttribute('aria-pressed'), 'true');
+  assert.match(await progressDialog.locator('.resource-progress-message').innerText(), /已收藏/);
+  assert(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth));
   assert.deepEqual(errors, []);
-  console.log('PASS: search/category/today actions, exact share text with/without code, URL code extraction, safe favorite titles, reload persistence, removal/filtering, empty state, clipboard/storage failures, cross-tab sync, keyboard focus and mobile/light/dark layout.');
+  console.log('PASS: search/category/today/fulfilled-request actions, exact share text with/without code, URL code extraction, safe favorite titles, reload persistence, removal/filtering, empty state, clipboard/storage failures, cross-tab sync, keyboard focus and mobile/light/dark layout.');
 })().catch(error => { console.error(error); process.exitCode = 1; }).finally(async () => {
   await browser?.close();
   await new Promise(resolve => server.close(resolve));
