@@ -1592,3 +1592,26 @@ html body:not(.theme-light) .main #overview .overview-header > .section-title p 
 @media (max-width: 700px) {
   html body .main #featuredResources > .featured-copy { padding: 18px 20px 0 !important; }
 }
+
+/* Bright study-note and bottle text, with a woodland glass backing for contrast. */
+html body #top .hero #studyCompanion :is(.daily-learning-sign, .drift-bottle-board) {
+  color: #fff9e9 !important;
+  background: linear-gradient(135deg, rgba(23, 44, 32, .84), rgba(42, 56, 33, .80)) !important;
+  border-color: rgba(248, 243, 210, .52) !important;
+}
+html body #top .hero #studyCompanion :is(.daily-learning-sign, .drift-bottle-board)::after { opacity: .12 !important; }
+html body #top .hero #studyCompanion :is(.daily-learning-sign, .drift-bottle-board) :is(h2, p, small, span, button) {
+  color: #fff9e9 !important;
+  opacity: 1 !important;
+  text-shadow: 0 1px 2px rgba(9, 24, 15, .65) !important;
+}
+html body #top .hero #studyCompanion :is(.daily-learning-sign, .drift-bottle-board) .companion-kicker { color: #ffe2a0 !important; }
+html body #top .hero #studyCompanion #dailyLearningSignMeta,
+html body #top .hero #studyCompanion .drift-bottle-hint { color: #f1f4d9 !important; }
+html body #top .hero #studyCompanion :is(.drift-bottle-button, .drift-bottle-message) {
+  color: #fff9e9 !important;
+  background: rgba(18, 48, 35, .86) !important;
+  border-color: rgba(236, 244, 209, .42) !important;
+}
+html body #top .hero #studyCompanion .drift-bottle-button:hover { background: #456548 !important; }
+html body #top .hero #studyCompanion .drift-bottle-track { border-color: rgba(237, 245, 214, .3) !important; }
