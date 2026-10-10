@@ -118,6 +118,7 @@ body:not(.theme-light) #top #focusCompanion #focusPresence {color:#c4d7b7!import
 #top .hero-copy .hero-motto-companion {position:absolute;top:28px;right:32px;display:flex;align-items:center;gap:12px;max-width:calc(100% - 64px);color:#bca46f;}
 #top .hero-copy .hero-motto-portrait {display:block;flex-shrink:0;width:104px;height:156px;object-fit:contain;mask-image:linear-gradient(to bottom,#000 0%,#000 88%,transparent 100%);-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 88%,transparent 100%);}
 #top .hero-copy .hero-motto-copy {min-width:0;}
+#top .hero-copy .hero-motto-author {display:block;margin-top:8px;color:inherit!important;font-family:'STKaiti','KaiTi','楷体','Noto Serif SC',serif!important;font-size:14px!important;font-weight:400!important;line-height:1.5!important;letter-spacing:.06em;text-align:right;}
 #top .hero-copy #heroMotto {position:static!important;display:grid!important;gap:5px;margin:0!important;padding:0!important;color:inherit!important;font-family:'STKaiti','KaiTi','楷体','Noto Serif SC',serif!important;font-size:clamp(19px,1.5vw,24px)!important;font-weight:400!important;line-height:1.6!important;letter-spacing:.08em!important;text-align:left;opacity:1!important;}
 #top .hero-copy #heroMotto span {color:inherit!important;font-family:inherit!important;font-size:inherit!important;font-weight:inherit!important;line-height:inherit!important;}
 body.theme-light #top .hero-copy .hero-motto-companion {color:#806a40;}
