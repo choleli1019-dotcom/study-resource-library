@@ -2550,6 +2550,18 @@ const server = http.createServer(async (req, res) => {
     return send(res, req, 200, { ok: true, service: SERVICE_NAME, time: new Date().toISOString() });
   }
 
+  if (url.pathname === "/api/presence" && ["GET", "POST"].includes(req.method)) {
+    if (req.headers.origin && !ALLOWED_ORIGINS.has(req.headers.origin)) return send(res, req, 403, { ok: false, error: "不允许的来源" }, { "Cache-Control": "no-store" });
+    try {
+      if (req.method === "POST") {
+        const raw = JSON.parse(await readBody(req) || "{}");
+        normalizeSitePresence(raw);
+        if (raw.active !== undefined) refreshFocusPresence(raw);
+        refreshSitePresence(raw);
+      }
+      return send(res, req, 200, { ok: true, ...getSitePresenceSnapshot(), ...getFocusPresenceSnapshot() }, { "Cache-Control": "no-store" });
+    } catch (error) { return send(res, req, 400, { ok: false, error: error.message || "人数连接失败" }, { "Cache-Control": "no-store" }); }
+  }
   if (req.method === "GET" && url.pathname === "/api/study-checkins") {
     try { return send(res, req, 200, { ok: true, ...studyCheckins.snapshot() }, { "Cache-Control": "no-store" }); }
     catch (_) { return send(res, req, 503, { ok: false, error: "打卡记录暂不可用，请稍后重试" }, { "Cache-Control": "no-store" }); }
@@ -3020,7 +3032,7 @@ server.listen(PORT, () => {
 
 // Anonymous in-memory presence: nothing is written to disk and each seat expires quickly.
 const STUDY_ROOM_PRESENCE_TTL_MS = 2 * 60 * 1000;
-const SITE_PRESENCE_TTL_MS = 90 * 1000;
+const SITE_PRESENCE_TTL_MS = 150 * 1000;
 const STUDY_ROOM_EXAM_TYPES = new Set(["公务员", "事业单位", "教招教资", "其他"]);
 const STUDY_ROOM_STAGES = new Set(["起步", "基础", "强化", "冲刺", "面试"]);
 const STUDY_ROOM_TASKS = new Set(["刷题", "申论", "资料分析", "面试", "整理资料", "安静自习"]);
@@ -3102,7 +3114,7 @@ function refreshStudyRoomPresence(raw) {
 
 
 // Only running focus timers occupy a seat; each browser has one short-lived lease.
-const FOCUS_PRESENCE_TTL_MS = 90 * 1000;
+const FOCUS_PRESENCE_TTL_MS = 150 * 1000;
 const focusPresence = new Map();
 function pruneFocusPresence(now = Date.now()) {
   for (const [id, entry] of focusPresence.entries()) {

@@ -115,10 +115,15 @@ body:not(.theme-light) #top .hero .hero-side-column #focusCompanion {
 body:not(.theme-light) #top #focusCompanion #focusPresence {color:#c4d7b7!important;}
 #top #focusCompanion #focusPresence::before {content:'';width:5px;height:5px;border-radius:50%;background:#83a767;}
 #top .hero-copy {position:relative!important;}
-#top .hero-copy #heroMotto {position:absolute!important;top:48px;right:44px;display:grid!important;gap:8px;margin:0!important;padding:0!important;color:#bca46f!important;font-family:'STKaiti','KaiTi','楷体','Noto Serif SC',serif!important;font-size:clamp(20px,1.8vw,28px)!important;font-weight:400!important;line-height:1.6!important;letter-spacing:.14em!important;text-align:left;opacity:.9!important;}
+#top .hero-copy .hero-motto-companion {position:absolute;top:28px;right:32px;display:flex;align-items:center;gap:12px;max-width:calc(100% - 64px);color:#bca46f;}
+#top .hero-copy .hero-motto-portrait {display:block;flex-shrink:0;width:104px;height:156px;object-fit:contain;mask-image:linear-gradient(to bottom,#000 0%,#000 88%,transparent 100%);-webkit-mask-image:linear-gradient(to bottom,#000 0%,#000 88%,transparent 100%);}
+#top .hero-copy .hero-motto-copy {min-width:0;}
+#top .hero-copy .hero-motto-author {display:block;margin-top:8px;color:inherit!important;font-family:'STKaiti','KaiTi','楷体','Noto Serif SC',serif!important;font-size:14px!important;font-weight:400!important;line-height:1.5!important;letter-spacing:.06em;text-align:right;}
+#top .hero-copy #heroMotto {position:static!important;display:grid!important;gap:5px;margin:0!important;padding:0!important;color:inherit!important;font-family:'STKaiti','KaiTi','楷体','Noto Serif SC',serif!important;font-size:clamp(19px,1.5vw,24px)!important;font-weight:400!important;line-height:1.6!important;letter-spacing:.08em!important;text-align:left;opacity:1!important;}
 #top .hero-copy #heroMotto span {color:inherit!important;font-family:inherit!important;font-size:inherit!important;font-weight:inherit!important;line-height:inherit!important;}
-body.theme-light #top .hero-copy #heroMotto {color:#8b7346!important;}
-@media(max-width:1100px) {#top .hero-copy #heroMotto {position:static!important;display:flex!important;flex-wrap:wrap;gap:0;margin:12px 0 0!important;font-size:17px!important;line-height:1.6!important;letter-spacing:.08em!important;}}
+body.theme-light #top .hero-copy .hero-motto-companion {color:#806a40;}
+@media(max-width:1350px) {#top .hero-copy .hero-motto-companion {position:static;align-self:flex-end;max-width:100%;margin:12px 0 0;}#top .hero-copy .hero-motto-portrait {width:88px;height:132px;}}
+@media(max-width:600px) {#top .hero-copy .hero-motto-companion {align-self:stretch;justify-content:flex-start;gap:14px;margin:12px 0 0;}#top .hero-copy .hero-motto-portrait {width:72px;height:108px;}#top .hero-copy #heroMotto {font-size:19px!important;}}
 /* Subject selection and study receipts stay inside the companion's glass card. */
 #top #focusCompanion .focus-header {flex-wrap:wrap;gap:6px 12px;}
 #top #focusCompanion .focus-subject-row {display:flex;align-items:center;gap:12px;margin-top:12px;}
@@ -147,4 +152,50 @@ body:not(.theme-light) #top #focusCompanion .focus-export-row>span {color:#c4d7b
 .squirrel-study-card-dialog p {font-size:12px!important;line-height:1.6!important;margin:12px 0;color:inherit!important;}
 .squirrel-study-card-dialog .study-card-save {width:100%;background:#466c50;color:white;border-color:#466c50;font-weight:650;}
 body:not(.theme-light) .squirrel-study-card-dialog {background:#182e26;color:#e9efdf;border-color:#6a8062;}
-@media(min-width:1101px) and (max-width:1350px) {#top #focusCompanion .focus-body {grid-template-columns:1fr;gap:12px;}#top #focusCompanion .focus-presets button {flex:1;}#top #focusCompanion .focus-actions button {flex:1;}}
+/* Tablet search introduction stays in one shared row instead of reserving a
+   separate portrait row. Explicit grid placement also survives larger fonts. */
+@media(min-width:601px) and (max-width:1350px) {
+ #top .hero .hero-copy {display:grid!important;grid-template-columns:minmax(0,1fr) auto;column-gap:16px;}
+ #top .hero .hero-copy > .eyebrow {grid-column:1;grid-row:1;}
+ #top .hero .hero-copy > h1 {grid-column:1;grid-row:2;min-width:0;font-size:32px!important;}
+ #top .hero .hero-copy > p:not(.eyebrow):not(.hero-blessing) {grid-column:1;grid-row:3;min-width:0;}
+ #top .hero .hero-copy .hero-motto-companion {grid-column:2;grid-row:1 / 4;align-self:center;position:static;margin:0;gap:8px;max-width:100%;}
+ #top .hero .hero-copy .hero-motto-portrait {width:72px;height:108px;}
+ #top .hero .hero-copy #heroMotto {font-size:17px!important;letter-spacing:.04em!important;}
+ #top .hero .hero-copy .hero-search {grid-column:1 / -1;grid-row:4;min-width:0;}
+ #top .hero .hero-copy .hero-actions {grid-column:1 / -1;grid-row:5;flex-wrap:wrap;}
+}
+@media(max-width:600px) {
+ #top .hero .hero-copy .hero-motto-companion {margin-top:8px;gap:10px;}
+ #top .hero .hero-copy .hero-motto-portrait {width:56px;height:84px;}
+ #top .hero .hero-copy #heroMotto {font-size:17px!important;}
+}
+/* The timer reacts to its card width, including tablet split-screen windows. */
+#top #focusCompanion {container-type:inline-size;container-name:focus-card;}
+@container focus-card (max-width:350px) {
+ #top #focusCompanion .focus-body {grid-template-columns:1fr;gap:12px;}
+ #top #focusCompanion .focus-presets button,#top #focusCompanion .focus-actions button {flex:1;}
+}
+@container focus-card (min-width:351px) {
+ #top #focusCompanion .focus-body {grid-template-columns:minmax(130px,.8fr) minmax(0,1fr);gap:12px;}
+ #top #focusCompanion .focus-presets button {flex:1;padding-inline:6px;}
+}
+/* Service descriptions can wrap within each column instead of leaking out. */
+html body #top .hero .hero-live-panel .hero-live-services {display:grid!important;grid-template-columns:repeat(3,minmax(0,1fr))!important;gap:10px!important;}
+html body #top .hero .hero-live-panel .hero-live-services > span {min-width:0!important;}
+html body #top .hero .hero-live-panel .hero-live-services > span > :is(b,small) {min-width:0!important;white-space:normal!important;overflow-wrap:anywhere!important;}
+html body #top .hero .hero-live-panel {container-type:inline-size;container-name:notice-card;}
+@container notice-card (max-width:480px) {
+ html body #top .hero .hero-live-panel .hero-live-services > span {display:grid!important;grid-template-columns:28px minmax(0,1fr)!important;grid-template-rows:auto auto!important;column-gap:6px!important;padding:0 6px!important;}
+ html body #top .hero .hero-live-panel .hero-live-services > span:first-child {padding-left:0!important;}
+ html body #top .hero .hero-live-panel .hero-live-services > span > i {grid-column:1!important;grid-row:1 / 3!important;width:28px!important;height:28px!important;}
+ html body #top .hero .hero-live-panel .hero-live-services > span > i::after {width:14px!important;height:14px!important;margin:7px!important;}
+ html body #top .hero .hero-live-panel .hero-live-services > span > b {grid-column:2!important;grid-row:1!important;font-size:12px!important;line-height:1.5!important;}
+ html body #top .hero .hero-live-panel .hero-live-services > span > small {grid-column:2!important;grid-row:2!important;font-size:10px!important;line-height:1.5!important;}
+}
+@container notice-card (max-width:300px) {
+ html body #top .hero .hero-live-panel .hero-live-services > span {grid-template-columns:minmax(0,1fr)!important;grid-template-rows:28px auto auto!important;row-gap:4px!important;}
+ html body #top .hero .hero-live-panel .hero-live-services > span > i {grid-column:1!important;grid-row:1!important;}
+ html body #top .hero .hero-live-panel .hero-live-services > span > b {grid-column:1!important;grid-row:2!important;}
+ html body #top .hero .hero-live-panel .hero-live-services > span > small {grid-column:1!important;grid-row:3!important;}
+}

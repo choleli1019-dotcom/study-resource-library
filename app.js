@@ -164,13 +164,18 @@ let linkHealthLoaded = false;
 let searchHealthByUrl = new Map();
 let searchSuggestHideTimer = 0;
 
+let memoryVisitorId = "";
 function getVisitorId() {
+  if (window.STUDY_PRESENCE) return window.STUDY_PRESENCE.getVisitorId();
+  if (memoryVisitorId) return memoryVisitorId;
   try {
     const key = "study-resource-visitor-id";
-    let id = localStorage.getItem(key);
-    if (!id) { id = crypto.randomUUID ? crypto.randomUUID() : `${Date.now()}-${Math.random()}`; localStorage.setItem(key, id); }
-    return id;
-  } catch (_) { return ""; }
+    const id = localStorage.getItem(key);
+    if (/^[a-zA-Z0-9_-]{8,100}$/.test(id || "")) return memoryVisitorId = id;
+  } catch (_) { /* A session id is enough when storage is unavailable. */ }
+  memoryVisitorId = globalThis.crypto?.randomUUID ? crypto.randomUUID() : `visitor-${Date.now()}-${Math.random().toString(36).slice(2)}`;
+  try { localStorage.setItem("study-resource-visitor-id", memoryVisitorId); } catch (_) {}
+  return memoryVisitorId;
 }
 sendServerEvent("site_view", { visitorId: getVisitorId() });
 function sendServerEvent(type, payload = {}) {
@@ -202,6 +207,7 @@ function sendServerEvent(type, payload = {}) {
 // A browser sends only its existing random visitor id; the server keeps it in memory
 // briefly and never writes this presence list to disk.
 function startSitePresence() {
+  if (window.STUDY_PRESENCE) { window.STUDY_PRESENCE.start(); return; }
   const online = document.querySelector("#siteGlobalOnline");
   const visitorId = getVisitorId();
   if (!online || !serverApiBase || !visitorId) return;
@@ -2571,4 +2577,3 @@ scheduleNonCriticalTask(loadShoreLetter, 700);
 
 // Initialize after all search state is ready.
 refreshSearchDiscovery();
-
