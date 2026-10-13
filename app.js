@@ -2089,7 +2089,7 @@ const DRIFT_BOTTLE_MESSAGES = [
   "愿所有坚持，都有回信。",
 ];
 const COUNTDOWN_TARGETS = {
-  national: { date: "2026-11-29T00:00:00+08:00", label: "2027 国考（预计）" },
+  national: { date: "2026-11-29T00:00:00+08:00", label: "2027 国考公共科目笔试" },
   province: { date: "2027-03-27T00:00:00+08:00", label: "2027 省考联考（预计）" },
   teacher: { date: "2027-04-17T00:00:00+08:00", label: "2027 春季教招（预计）" },
 };
