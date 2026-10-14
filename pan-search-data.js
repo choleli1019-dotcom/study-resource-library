@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-10-11T14:20:43.887Z",
+  "generatedAt": "2026-10-14T03:51:29.633Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -10,8 +10,8 @@ window.PAN_SEARCH_DATA = {
     },
     "unique": {
       "quark": 1122,
-      "baidu": 588,
-      "total": 1710
+      "baidu": 596,
+      "total": 1718
     },
     "duplicate": {
       "quark": 0,
@@ -14897,10 +14897,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r873",
       "title": "2027年刘文超小马哥行测申论360全程班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1bXdBp_3fdzh0jl4u_WOFkg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1MoYUSDLqHB0rTVvByi9Hrg?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "2027年刘文超小马哥行测申论360全程班 链接：https://pan.baidu.com/s/1bXdBp_3fdzh0jl4u_WOFkg?pwd=v2ir 提取码：v2ir",
+      "context": "2027年刘文超小马哥行测申论360全程班 链接：https://pan.baidu.com/s/1MoYUSDLqHB0rTVvByi9Hrg?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -14908,16 +14908,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027年刘文超小马哥行测申论360全程班 公考类 2027年刘文超小马哥行测申论360全程班 链接：https://pan.baidu.com/s/1bXdBp_3fdzh0jl4u_WOFkg?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1bXdBp_3fdzh0jl4u_WOFkg?pwd=v2ir"
+      "searchText": "2027年刘文超小马哥行测申论360全程班 公考类 2027年刘文超小马哥行测申论360全程班 链接：https://pan.baidu.com/s/1MoYUSDLqHB0rTVvByi9Hrg?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1MoYUSDLqHB0rTVvByi9Hrg?pwd=vfih"
     },
     {
       "id": "r874",
       "title": "2027花生十三资料分析600题精讲课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1jZMjkHmqbD4VBbLF-JVbqg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1t01B9d-1FF059s0JJ02slQ?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "2027花生十三资料分析600题精讲课 链接：https://pan.baidu.com/s/1jZMjkHmqbD4VBbLF-JVbqg?pwd=v2ir 提取码：v2ir",
+      "context": "2027花生十三资料分析600题精讲课 链接：https://pan.baidu.com/s/1t01B9d-1FF059s0JJ02slQ?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -14925,16 +14925,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027花生十三资料分析600题精讲课 公考类 2027花生十三资料分析600题精讲课 链接：https://pan.baidu.com/s/1jZMjkHmqbD4VBbLF-JVbqg?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1jZMjkHmqbD4VBbLF-JVbqg?pwd=v2ir"
+      "searchText": "2027花生十三资料分析600题精讲课 公考类 2027花生十三资料分析600题精讲课 链接：https://pan.baidu.com/s/1t01B9d-1FF059s0JJ02slQ?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1t01B9d-1FF059s0JJ02slQ?pwd=vfih"
     },
     {
       "id": "r875",
       "title": "Z 朱曦",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1scoi0FNmCfFBdMKhqGbKaw?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1W-CHSrEd0QJJhnWRqW1oAw?pwd=5pun",
+      "code": "5pun",
       "section": "其他类别考试",
-      "context": "Z 朱曦 链接：https://pan.baidu.com/s/1scoi0FNmCfFBdMKhqGbKaw?pwd=6a6z 提取码：6a6z",
+      "context": "Z 朱曦 链接：https://pan.baidu.com/s/1W-CHSrEd0QJJhnWRqW1oAw?pwd=5pun 提取码：5pun",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -14942,16 +14942,16 @@ window.PAN_SEARCH_DATA = {
           "section": "其他类别考试"
         }
       ],
-      "searchText": "Z 朱曦 其他类别考试 Z 朱曦 链接：https://pan.baidu.com/s/1scoi0FNmCfFBdMKhqGbKaw?pwd=6a6z 提取码：6a6z 6a6z baidu https://pan.baidu.com/s/1scoi0FNmCfFBdMKhqGbKaw?pwd=6a6z"
+      "searchText": "Z 朱曦 其他类别考试 Z 朱曦 链接：https://pan.baidu.com/s/1W-CHSrEd0QJJhnWRqW1oAw?pwd=5pun 提取码：5pun 5pun baidu https://pan.baidu.com/s/1W-CHSrEd0QJJhnWRqW1oAw?pwd=5pun"
     },
     {
       "id": "r876",
       "title": "2027小马哥申论理论+刷题全程班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1ieHLpbtfH8Hbvnoah9PY_A?pwd=ae9a",
-      "code": "ae9a",
+      "url": "https://pan.baidu.com/s/1jHNUlznXE30nzL8xplOzfw?pwd=7ctd",
+      "code": "7ctd",
       "section": "公考类",
-      "context": "2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/1ieHLpbtfH8Hbvnoah9PY_A?pwd=ae9a 提取码：ae9a",
+      "context": "2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/1jHNUlznXE30nzL8xplOzfw?pwd=7ctd 提取码：7ctd",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -14959,16 +14959,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027小马哥申论理论+刷题全程班 公考类 2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/1ieHLpbtfH8Hbvnoah9PY_A?pwd=ae9a 提取码：ae9a ae9a baidu https://pan.baidu.com/s/1ieHLpbtfH8Hbvnoah9PY_A?pwd=ae9a"
+      "searchText": "2027小马哥申论理论+刷题全程班 公考类 2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/1jHNUlznXE30nzL8xplOzfw?pwd=7ctd 提取码：7ctd 7ctd baidu https://pan.baidu.com/s/1jHNUlznXE30nzL8xplOzfw?pwd=7ctd"
     },
     {
       "id": "r877",
       "title": "鹤峰常识判断磨耳朵",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1BCauqhfXdQdd0BpkCm5mvQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/12ATQLV1f9Gy4TupP7Bxswg?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "鹤峰常识判断磨耳朵 链接：https://pan.baidu.com/s/1BCauqhfXdQdd0BpkCm5mvQ?pwd=v2ir 提取码：v2ir",
+      "context": "鹤峰常识判断磨耳朵 链接：https://pan.baidu.com/s/12ATQLV1f9Gy4TupP7Bxswg?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -14976,16 +14976,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "鹤峰常识判断磨耳朵 公考类 鹤峰常识判断磨耳朵 链接：https://pan.baidu.com/s/1BCauqhfXdQdd0BpkCm5mvQ?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1BCauqhfXdQdd0BpkCm5mvQ?pwd=v2ir"
+      "searchText": "鹤峰常识判断磨耳朵 公考类 鹤峰常识判断磨耳朵 链接：https://pan.baidu.com/s/12ATQLV1f9Gy4TupP7Bxswg?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/12ATQLV1f9Gy4TupP7Bxswg?pwd=vfih"
     },
     {
       "id": "r878",
       "title": "2027国省考季花生十三飞扬系统班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1yZUUX1snodrZQ4QX4k0_TQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1WDEb3cOHYw-xTP-01kL75Q?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "2027国省考季花生十三飞扬系统班 链接：https://pan.baidu.com/s/1yZUUX1snodrZQ4QX4k0_TQ?pwd=v2ir 提取码：v2ir",
+      "context": "2027国省考季花生十三飞扬系统班 链接：https://pan.baidu.com/s/1WDEb3cOHYw-xTP-01kL75Q?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -14993,16 +14993,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省考季花生十三飞扬系统班 公考类 2027国省考季花生十三飞扬系统班 链接：https://pan.baidu.com/s/1yZUUX1snodrZQ4QX4k0_TQ?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1yZUUX1snodrZQ4QX4k0_TQ?pwd=v2ir"
+      "searchText": "2027国省考季花生十三飞扬系统班 公考类 2027国省考季花生十三飞扬系统班 链接：https://pan.baidu.com/s/1WDEb3cOHYw-xTP-01kL75Q?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1WDEb3cOHYw-xTP-01kL75Q?pwd=vfih"
     },
     {
       "id": "r879",
       "title": "27年刘义恒刘义恒理论实战课后思维导图",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1Bsp1xjCPezYp113vEMLgtA?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1T6f5nAn6JUhNKO1MUNiP6A?pwd=vfih",
+      "code": "vfih",
       "section": "其他类别考试",
-      "context": "27年刘义恒刘义恒理论实战课后思维导图 链接：https://pan.baidu.com/s/1Bsp1xjCPezYp113vEMLgtA?pwd=v2ir 提取码：v2ir",
+      "context": "27年刘义恒刘义恒理论实战课后思维导图 链接：https://pan.baidu.com/s/1T6f5nAn6JUhNKO1MUNiP6A?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15010,16 +15010,16 @@ window.PAN_SEARCH_DATA = {
           "section": "其他类别考试"
         }
       ],
-      "searchText": "27年刘义恒刘义恒理论实战课后思维导图 其他类别考试 27年刘义恒刘义恒理论实战课后思维导图 链接：https://pan.baidu.com/s/1Bsp1xjCPezYp113vEMLgtA?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1Bsp1xjCPezYp113vEMLgtA?pwd=v2ir"
+      "searchText": "27年刘义恒刘义恒理论实战课后思维导图 其他类别考试 27年刘义恒刘义恒理论实战课后思维导图 链接：https://pan.baidu.com/s/1T6f5nAn6JUhNKO1MUNiP6A?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1T6f5nAn6JUhNKO1MUNiP6A?pwd=vfih"
     },
     {
       "id": "r880",
       "title": "2027国考齐麟晚自习",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1mPSaQX_EsE7VGPyYl3Lx5g?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1XzYouJnkQ5ulV3X3LquANA?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "2027国考齐麟晚自习 链接：https://pan.baidu.com/s/1mPSaQX_EsE7VGPyYl3Lx5g?pwd=v2ir 提取码：v2ir",
+      "context": "2027国考齐麟晚自习 链接：https://pan.baidu.com/s/1XzYouJnkQ5ulV3X3LquANA?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15027,7 +15027,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国考齐麟晚自习 公考类 2027国考齐麟晚自习 链接：https://pan.baidu.com/s/1mPSaQX_EsE7VGPyYl3Lx5g?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1mPSaQX_EsE7VGPyYl3Lx5g?pwd=v2ir"
+      "searchText": "2027国考齐麟晚自习 公考类 2027国考齐麟晚自习 链接：https://pan.baidu.com/s/1XzYouJnkQ5ulV3X3LquANA?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1XzYouJnkQ5ulV3X3LquANA?pwd=vfih"
     },
     {
       "id": "r881",
@@ -15050,10 +15050,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r882",
       "title": "2027国省考大懒猫言语理论课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1vckffKisRwYnkJqEQhFj2g?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/10Gj2B2GCneXQXsaWAcCahw?pwd=5pun",
+      "code": "5pun",
       "section": "公考类",
-      "context": "2027国省考大懒猫言语理论课 链接：https://pan.baidu.com/s/1vckffKisRwYnkJqEQhFj2g?pwd=6a6z 提取码：6a6z",
+      "context": "2027国省考大懒猫言语理论课 链接：https://pan.baidu.com/s/10Gj2B2GCneXQXsaWAcCahw?pwd=5pun 提取码：5pun",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15061,16 +15061,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省考大懒猫言语理论课 公考类 2027国省考大懒猫言语理论课 链接：https://pan.baidu.com/s/1vckffKisRwYnkJqEQhFj2g?pwd=6a6z 提取码：6a6z 6a6z baidu https://pan.baidu.com/s/1vckffKisRwYnkJqEQhFj2g?pwd=6a6z"
+      "searchText": "2027国省考大懒猫言语理论课 公考类 2027国省考大懒猫言语理论课 链接：https://pan.baidu.com/s/10Gj2B2GCneXQXsaWAcCahw?pwd=5pun 提取码：5pun 5pun baidu https://pan.baidu.com/s/10Gj2B2GCneXQXsaWAcCahw?pwd=5pun"
     },
     {
       "id": "r883",
       "title": "2027年国省考相丽君申论解题思维趣学营",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1PTbF5AousrWPk_qLA6NVHQ?pwd=ae9a",
-      "code": "ae9a",
+      "url": "https://pan.baidu.com/s/145Hl1cYZqe9O5N9JKh6Y2w?pwd=7ctd",
+      "code": "7ctd",
       "section": "公考类",
-      "context": "2027年国省考相丽君申论解题思维趣学营 链接：https://pan.baidu.com/s/1PTbF5AousrWPk_qLA6NVHQ?pwd=ae9a 提取码：ae9a",
+      "context": "2027年国省考相丽君申论解题思维趣学营 链接：https://pan.baidu.com/s/145Hl1cYZqe9O5N9JKh6Y2w?pwd=7ctd 提取码：7ctd",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15078,16 +15078,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027年国省考相丽君申论解题思维趣学营 公考类 2027年国省考相丽君申论解题思维趣学营 链接：https://pan.baidu.com/s/1PTbF5AousrWPk_qLA6NVHQ?pwd=ae9a 提取码：ae9a ae9a baidu https://pan.baidu.com/s/1PTbF5AousrWPk_qLA6NVHQ?pwd=ae9a"
+      "searchText": "2027年国省考相丽君申论解题思维趣学营 公考类 2027年国省考相丽君申论解题思维趣学营 链接：https://pan.baidu.com/s/145Hl1cYZqe9O5N9JKh6Y2w?pwd=7ctd 提取码：7ctd 7ctd baidu https://pan.baidu.com/s/145Hl1cYZqe9O5N9JKh6Y2w?pwd=7ctd"
     },
     {
       "id": "r884",
       "title": "政治理论】2027超哥国省考政治理论刷题课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1HG7sxOJ5a1izzzyCvjB_1A?pwd=ah3q",
-      "code": "ah3q",
+      "url": "https://pan.baidu.com/s/1mxs03m2XI4RFk1sSzURdCw?pwd=ne8c",
+      "code": "ne8c",
       "section": "公考类",
-      "context": "政治理论】2027超哥国省考政治理论刷题课 链接：https://pan.baidu.com/s/1HG7sxOJ5a1izzzyCvjB_1A?pwd=ah3q 提取码：ah3q",
+      "context": "政治理论】2027超哥国省考政治理论刷题课 链接：https://pan.baidu.com/s/1mxs03m2XI4RFk1sSzURdCw?pwd=ne8c 提取码：ne8c",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15095,16 +15095,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "政治理论】2027超哥国省考政治理论刷题课 公考类 政治理论】2027超哥国省考政治理论刷题课 链接：https://pan.baidu.com/s/1HG7sxOJ5a1izzzyCvjB_1A?pwd=ah3q 提取码：ah3q ah3q baidu https://pan.baidu.com/s/1HG7sxOJ5a1izzzyCvjB_1A?pwd=ah3q"
+      "searchText": "政治理论】2027超哥国省考政治理论刷题课 公考类 政治理论】2027超哥国省考政治理论刷题课 链接：https://pan.baidu.com/s/1mxs03m2XI4RFk1sSzURdCw?pwd=ne8c 提取码：ne8c ne8c baidu https://pan.baidu.com/s/1mxs03m2XI4RFk1sSzURdCw?pwd=ne8c"
     },
     {
       "id": "r885",
       "title": "2026年钩不了沉大作文专项班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1BEC94YtXqSBrbPE-qavMIQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1-yUAlf7snyndRSs_cpUuQA?pwd=vfih",
+      "code": "vfih",
       "section": "其他类别考试",
-      "context": "2026年钩不了沉大作文专项班 链接：https://pan.baidu.com/s/1BEC94YtXqSBrbPE-qavMIQ?pwd=v2ir 提取码：v2ir",
+      "context": "2026年钩不了沉大作文专项班 链接：https://pan.baidu.com/s/1-yUAlf7snyndRSs_cpUuQA?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15112,7 +15112,7 @@ window.PAN_SEARCH_DATA = {
           "section": "其他类别考试"
         }
       ],
-      "searchText": "2026年钩不了沉大作文专项班 其他类别考试 2026年钩不了沉大作文专项班 链接：https://pan.baidu.com/s/1BEC94YtXqSBrbPE-qavMIQ?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1BEC94YtXqSBrbPE-qavMIQ?pwd=v2ir"
+      "searchText": "2026年钩不了沉大作文专项班 其他类别考试 2026年钩不了沉大作文专项班 链接：https://pan.baidu.com/s/1-yUAlf7snyndRSs_cpUuQA?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1-yUAlf7snyndRSs_cpUuQA?pwd=vfih"
     },
     {
       "id": "r886",
@@ -15135,10 +15135,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r887",
       "title": "半月谈＂四节课＂搞定申论",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/15d45L4xUEKYw7FAtVwNPxg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1Fvta1oCsc08gRqcf0A0CJg?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "半月谈＂四节课＂搞定申论 链接：https://pan.baidu.com/s/15d45L4xUEKYw7FAtVwNPxg?pwd=v2ir 提取码：v2ir",
+      "context": "半月谈＂四节课＂搞定申论 链接：https://pan.baidu.com/s/1Fvta1oCsc08gRqcf0A0CJg?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15146,7 +15146,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "半月谈＂四节课＂搞定申论 公考类 半月谈＂四节课＂搞定申论 链接：https://pan.baidu.com/s/15d45L4xUEKYw7FAtVwNPxg?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/15d45L4xUEKYw7FAtVwNPxg?pwd=v2ir"
+      "searchText": "半月谈＂四节课＂搞定申论 公考类 半月谈＂四节课＂搞定申论 链接：https://pan.baidu.com/s/1Fvta1oCsc08gRqcf0A0CJg?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1Fvta1oCsc08gRqcf0A0CJg?pwd=vfih"
     },
     {
       "id": "r888",
@@ -15169,10 +15169,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r889",
       "title": "2026年钩不了沉大作文刷题班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1V0oS2nK2QqiKCbQE5C_MHg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1hjf0m4hXpXliFChontWR8A?pwd=vfih",
+      "code": "vfih",
       "section": "其他类别考试",
-      "context": "2026年钩不了沉大作文刷题班 链接：https://pan.baidu.com/s/1V0oS2nK2QqiKCbQE5C_MHg?pwd=v2ir 提取码：v2ir",
+      "context": "2026年钩不了沉大作文刷题班 链接：https://pan.baidu.com/s/1hjf0m4hXpXliFChontWR8A?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15180,16 +15180,16 @@ window.PAN_SEARCH_DATA = {
           "section": "其他类别考试"
         }
       ],
-      "searchText": "2026年钩不了沉大作文刷题班 其他类别考试 2026年钩不了沉大作文刷题班 链接：https://pan.baidu.com/s/1V0oS2nK2QqiKCbQE5C_MHg?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1V0oS2nK2QqiKCbQE5C_MHg?pwd=v2ir"
+      "searchText": "2026年钩不了沉大作文刷题班 其他类别考试 2026年钩不了沉大作文刷题班 链接：https://pan.baidu.com/s/1hjf0m4hXpXliFChontWR8A?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1hjf0m4hXpXliFChontWR8A?pwd=vfih"
     },
     {
       "id": "r890",
       "title": "2027考季大懒猫言语刷刷刷直播课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/17PV-8h72IOqn-LT-F2aMZQ?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1vnmNDyGX8SShtjq8x2xPHA?pwd=5pun",
+      "code": "5pun",
       "section": "公考类",
-      "context": "2027考季大懒猫言语刷刷刷直播课 链接：https://pan.baidu.com/s/17PV-8h72IOqn-LT-F2aMZQ?pwd=6a6z 提取码：6a6z",
+      "context": "2027考季大懒猫言语刷刷刷直播课 链接：https://pan.baidu.com/s/1vnmNDyGX8SShtjq8x2xPHA?pwd=5pun 提取码：5pun",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15197,16 +15197,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027考季大懒猫言语刷刷刷直播课 公考类 2027考季大懒猫言语刷刷刷直播课 链接：https://pan.baidu.com/s/17PV-8h72IOqn-LT-F2aMZQ?pwd=6a6z 提取码：6a6z 6a6z baidu https://pan.baidu.com/s/17PV-8h72IOqn-LT-F2aMZQ?pwd=6a6z"
+      "searchText": "2027考季大懒猫言语刷刷刷直播课 公考类 2027考季大懒猫言语刷刷刷直播课 链接：https://pan.baidu.com/s/1vnmNDyGX8SShtjq8x2xPHA?pwd=5pun 提取码：5pun 5pun baidu https://pan.baidu.com/s/1vnmNDyGX8SShtjq8x2xPHA?pwd=5pun"
     },
     {
       "id": "r891",
       "title": "024】2027小P公考国省考数资判系统班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1lKZsRxdAgUVPLK32K9tLYA?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1wndchJTOaMm1fIHScX7trA?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "024】2027小P公考国省考数资判系统班 链接：https://pan.baidu.com/s/1lKZsRxdAgUVPLK32K9tLYA?pwd=v2ir 提取码：v2ir",
+      "context": "024】2027小P公考国省考数资判系统班 链接：https://pan.baidu.com/s/1wndchJTOaMm1fIHScX7trA?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15214,16 +15214,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "024】2027小P公考国省考数资判系统班 公考类 024】2027小P公考国省考数资判系统班 链接：https://pan.baidu.com/s/1lKZsRxdAgUVPLK32K9tLYA?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1lKZsRxdAgUVPLK32K9tLYA?pwd=v2ir"
+      "searchText": "024】2027小P公考国省考数资判系统班 公考类 024】2027小P公考国省考数资判系统班 链接：https://pan.baidu.com/s/1wndchJTOaMm1fIHScX7trA?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1wndchJTOaMm1fIHScX7trA?pwd=vfih"
     },
     {
       "id": "r892",
       "title": "政治理论】2027超哥政治理论时政热点小锦囊",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1dkFur3R8nvyPzfH62P9e1g?pwd=ah3q",
-      "code": "ah3q",
+      "url": "https://pan.baidu.com/s/1cQhMyYmtakWTDrz0pMddkg?pwd=ne8c",
+      "code": "ne8c",
       "section": "公考类",
-      "context": "政治理论】2027超哥政治理论时政热点小锦囊 链接：https://pan.baidu.com/s/1dkFur3R8nvyPzfH62P9e1g?pwd=ah3q 提取码：ah3q",
+      "context": "政治理论】2027超哥政治理论时政热点小锦囊 链接：https://pan.baidu.com/s/1cQhMyYmtakWTDrz0pMddkg?pwd=ne8c 提取码：ne8c",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15231,16 +15231,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "政治理论】2027超哥政治理论时政热点小锦囊 公考类 政治理论】2027超哥政治理论时政热点小锦囊 链接：https://pan.baidu.com/s/1dkFur3R8nvyPzfH62P9e1g?pwd=ah3q 提取码：ah3q ah3q baidu https://pan.baidu.com/s/1dkFur3R8nvyPzfH62P9e1g?pwd=ah3q"
+      "searchText": "政治理论】2027超哥政治理论时政热点小锦囊 公考类 政治理论】2027超哥政治理论时政热点小锦囊 链接：https://pan.baidu.com/s/1cQhMyYmtakWTDrz0pMddkg?pwd=ne8c 提取码：ne8c ne8c baidu https://pan.baidu.com/s/1cQhMyYmtakWTDrz0pMddkg?pwd=ne8c"
     },
     {
       "id": "r893",
       "title": "2027李焕国省事考逻辑判断系统课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1epYp9WRIw5LfSD8sZ2Lafw?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/176NcNCJWmgqxmWAH8JWECQ?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "2027李焕国省事考逻辑判断系统课 链接：https://pan.baidu.com/s/1epYp9WRIw5LfSD8sZ2Lafw?pwd=v2ir 提取码：v2ir",
+      "context": "2027李焕国省事考逻辑判断系统课 链接：https://pan.baidu.com/s/176NcNCJWmgqxmWAH8JWECQ?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15248,16 +15248,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027李焕国省事考逻辑判断系统课 公考类 2027李焕国省事考逻辑判断系统课 链接：https://pan.baidu.com/s/1epYp9WRIw5LfSD8sZ2Lafw?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1epYp9WRIw5LfSD8sZ2Lafw?pwd=v2ir"
+      "searchText": "2027李焕国省事考逻辑判断系统课 公考类 2027李焕国省事考逻辑判断系统课 链接：https://pan.baidu.com/s/176NcNCJWmgqxmWAH8JWECQ?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/176NcNCJWmgqxmWAH8JWECQ?pwd=vfih"
     },
     {
       "id": "r894",
       "title": "言语】2027雨菲言语图文带背800词",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/14JjdqAWuyFbY7SeJxxb8Aw?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1Pt4hYCXMBgLaVlGtwS_Fdw?pwd=5pun",
+      "code": "5pun",
       "section": "公考类",
-      "context": "言语】2027雨菲言语图文带背800词 链接：https://pan.baidu.com/s/14JjdqAWuyFbY7SeJxxb8Aw?pwd=6a6z 提取码：6a6z",
+      "context": "言语】2027雨菲言语图文带背800词 链接：https://pan.baidu.com/s/1Pt4hYCXMBgLaVlGtwS_Fdw?pwd=5pun 提取码：5pun",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15265,16 +15265,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "言语】2027雨菲言语图文带背800词 公考类 言语】2027雨菲言语图文带背800词 链接：https://pan.baidu.com/s/14JjdqAWuyFbY7SeJxxb8Aw?pwd=6a6z 提取码：6a6z 6a6z baidu https://pan.baidu.com/s/14JjdqAWuyFbY7SeJxxb8Aw?pwd=6a6z"
+      "searchText": "言语】2027雨菲言语图文带背800词 公考类 言语】2027雨菲言语图文带背800词 链接：https://pan.baidu.com/s/1Pt4hYCXMBgLaVlGtwS_Fdw?pwd=5pun 提取码：5pun 5pun baidu https://pan.baidu.com/s/1Pt4hYCXMBgLaVlGtwS_Fdw?pwd=5pun"
     },
     {
       "id": "r895",
       "title": "言语】2027雨菲言语选词填空大满贯",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1bqZDh99HzQHZaLBpDvOCMw?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1PI6h9K4XEGdZ-QLcgkLScg?pwd=5pun",
+      "code": "5pun",
       "section": "公考类",
-      "context": "言语】2027雨菲言语选词填空大满贯 链接：https://pan.baidu.com/s/1bqZDh99HzQHZaLBpDvOCMw?pwd=6a6z 提取码：6a6z",
+      "context": "言语】2027雨菲言语选词填空大满贯 链接：https://pan.baidu.com/s/1PI6h9K4XEGdZ-QLcgkLScg?pwd=5pun 提取码：5pun",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15282,16 +15282,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "言语】2027雨菲言语选词填空大满贯 公考类 言语】2027雨菲言语选词填空大满贯 链接：https://pan.baidu.com/s/1bqZDh99HzQHZaLBpDvOCMw?pwd=6a6z 提取码：6a6z 6a6z baidu https://pan.baidu.com/s/1bqZDh99HzQHZaLBpDvOCMw?pwd=6a6z"
+      "searchText": "言语】2027雨菲言语选词填空大满贯 公考类 言语】2027雨菲言语选词填空大满贯 链接：https://pan.baidu.com/s/1PI6h9K4XEGdZ-QLcgkLScg?pwd=5pun 提取码：5pun 5pun baidu https://pan.baidu.com/s/1PI6h9K4XEGdZ-QLcgkLScg?pwd=5pun"
     },
     {
       "id": "r896",
       "title": "X 薛睿（MBA大师）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1JPOY7V1DeVhPixCqS5j54w?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1by6rtTnQ9IDDHXGSfK4uwA?pwd=vfih",
+      "code": "vfih",
       "section": "其他类别考试",
-      "context": "X 薛睿（MBA大师） 链接：https://pan.baidu.com/s/1JPOY7V1DeVhPixCqS5j54w?pwd=v2ir 提取码：v2ir",
+      "context": "X 薛睿（MBA大师） 链接：https://pan.baidu.com/s/1by6rtTnQ9IDDHXGSfK4uwA?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15299,16 +15299,16 @@ window.PAN_SEARCH_DATA = {
           "section": "其他类别考试"
         }
       ],
-      "searchText": "X 薛睿（MBA大师） 其他类别考试 X 薛睿（MBA大师） 链接：https://pan.baidu.com/s/1JPOY7V1DeVhPixCqS5j54w?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1JPOY7V1DeVhPixCqS5j54w?pwd=v2ir"
+      "searchText": "X 薛睿（MBA大师） 其他类别考试 X 薛睿（MBA大师） 链接：https://pan.baidu.com/s/1by6rtTnQ9IDDHXGSfK4uwA?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1by6rtTnQ9IDDHXGSfK4uwA?pwd=vfih"
     },
     {
       "id": "r897",
       "title": "2027郭熙言语高分“十二技",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1yt5he_EwQKvmkYzBEkvc8g?pwd=ujvf",
-      "code": "ujvf",
+      "url": "https://pan.baidu.com/s/1VMmOTFTHHIhASxQdmcsdGQ?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "2027郭熙言语高分“十二技 链接：https://pan.baidu.com/s/1yt5he_EwQKvmkYzBEkvc8g?pwd=ujvf 提取码：ujvf",
+      "context": "2027郭熙言语高分“十二技 链接：https://pan.baidu.com/s/1VMmOTFTHHIhASxQdmcsdGQ?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15316,16 +15316,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027郭熙言语高分“十二技 公考类 2027郭熙言语高分“十二技 链接：https://pan.baidu.com/s/1yt5he_EwQKvmkYzBEkvc8g?pwd=ujvf 提取码：ujvf ujvf baidu https://pan.baidu.com/s/1yt5he_EwQKvmkYzBEkvc8g?pwd=ujvf"
+      "searchText": "2027郭熙言语高分“十二技 公考类 2027郭熙言语高分“十二技 链接：https://pan.baidu.com/s/1VMmOTFTHHIhASxQdmcsdGQ?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1VMmOTFTHHIhASxQdmcsdGQ?pwd=vfih"
     },
     {
       "id": "r898",
       "title": "2027年国省考季袁东申论方法实战班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1VgunvVzgkz9JXpBpMyxeoQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1RJeQut3rtJi722GIfFoJUw?pwd=7ctd",
+      "code": "7ctd",
       "section": "公考类",
-      "context": "2027年国省考季袁东申论方法实战班 链接：https://pan.baidu.com/s/1VgunvVzgkz9JXpBpMyxeoQ?pwd=v2ir 提取码：v2ir",
+      "context": "2027年国省考季袁东申论方法实战班 链接：https://pan.baidu.com/s/1RJeQut3rtJi722GIfFoJUw?pwd=7ctd 提取码：7ctd",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15333,16 +15333,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027年国省考季袁东申论方法实战班 公考类 2027年国省考季袁东申论方法实战班 链接：https://pan.baidu.com/s/1VgunvVzgkz9JXpBpMyxeoQ?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1VgunvVzgkz9JXpBpMyxeoQ?pwd=v2ir"
+      "searchText": "2027年国省考季袁东申论方法实战班 公考类 2027年国省考季袁东申论方法实战班 链接：https://pan.baidu.com/s/1RJeQut3rtJi722GIfFoJUw?pwd=7ctd 提取码：7ctd 7ctd baidu https://pan.baidu.com/s/1RJeQut3rtJi722GIfFoJUw?pwd=7ctd"
     },
     {
       "id": "r899",
       "title": "2027薛睿国省事考图形推理24决",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1tigJk1neknkhUI2yq5BrzQ?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/18_Z2MVhGOEHVvZaBnqMqug?pwd=5pun",
+      "code": "5pun",
       "section": "其他类别考试",
-      "context": "2027薛睿国省事考图形推理24决 链接：https://pan.baidu.com/s/1tigJk1neknkhUI2yq5BrzQ?pwd=6a6z 提取码：6a6z",
+      "context": "2027薛睿国省事考图形推理24决 链接：https://pan.baidu.com/s/18_Z2MVhGOEHVvZaBnqMqug?pwd=5pun 提取码：5pun",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15350,16 +15350,16 @@ window.PAN_SEARCH_DATA = {
           "section": "其他类别考试"
         }
       ],
-      "searchText": "2027薛睿国省事考图形推理24决 其他类别考试 2027薛睿国省事考图形推理24决 链接：https://pan.baidu.com/s/1tigJk1neknkhUI2yq5BrzQ?pwd=6a6z 提取码：6a6z 6a6z baidu https://pan.baidu.com/s/1tigJk1neknkhUI2yq5BrzQ?pwd=6a6z"
+      "searchText": "2027薛睿国省事考图形推理24决 其他类别考试 2027薛睿国省事考图形推理24决 链接：https://pan.baidu.com/s/18_Z2MVhGOEHVvZaBnqMqug?pwd=5pun 提取码：5pun 5pun baidu https://pan.baidu.com/s/18_Z2MVhGOEHVvZaBnqMqug?pwd=5pun"
     },
     {
       "id": "r900",
       "title": "2027天琦申论高分的规则",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1yuCj5YbgLeZirwuiUUhiAQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1OYnma2TeYJ-2T1FVXpChhg?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "2027天琦申论高分的规则 链接：https://pan.baidu.com/s/1yuCj5YbgLeZirwuiUUhiAQ?pwd=v2ir 提取码：v2ir",
+      "context": "2027天琦申论高分的规则 链接：https://pan.baidu.com/s/1OYnma2TeYJ-2T1FVXpChhg?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15367,16 +15367,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027天琦申论高分的规则 公考类 2027天琦申论高分的规则 链接：https://pan.baidu.com/s/1yuCj5YbgLeZirwuiUUhiAQ?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1yuCj5YbgLeZirwuiUUhiAQ?pwd=v2ir"
+      "searchText": "2027天琦申论高分的规则 公考类 2027天琦申论高分的规则 链接：https://pan.baidu.com/s/1OYnma2TeYJ-2T1FVXpChhg?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1OYnma2TeYJ-2T1FVXpChhg?pwd=vfih"
     },
     {
       "id": "r901",
       "title": "2027刘义恒行测判断推理-理论实战",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1PcaCqv-Ku0bv-roQ9Sf51A?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1wL9FTGCuIy7iv1NUSINDIA?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "2027刘义恒行测判断推理-理论实战 链接：https://pan.baidu.com/s/1PcaCqv-Ku0bv-roQ9Sf51A?pwd=v2ir 提取码：v2ir",
+      "context": "2027刘义恒行测判断推理-理论实战 链接：https://pan.baidu.com/s/1wL9FTGCuIy7iv1NUSINDIA?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15384,16 +15384,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027刘义恒行测判断推理-理论实战 公考类 2027刘义恒行测判断推理-理论实战 链接：https://pan.baidu.com/s/1PcaCqv-Ku0bv-roQ9Sf51A?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1PcaCqv-Ku0bv-roQ9Sf51A?pwd=v2ir"
+      "searchText": "2027刘义恒行测判断推理-理论实战 公考类 2027刘义恒行测判断推理-理论实战 链接：https://pan.baidu.com/s/1wL9FTGCuIy7iv1NUSINDIA?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1wL9FTGCuIy7iv1NUSINDIA?pwd=vfih"
     },
     {
       "id": "r902",
       "title": "2027上岸村兰亭论道综A理论筑基",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1PnXuKz9wjI2JfrJ-8WPeZw?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1VTz-o1KKYHHxAg_aOLSIFA?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "2027上岸村兰亭论道综A理论筑基 链接：https://pan.baidu.com/s/1PnXuKz9wjI2JfrJ-8WPeZw?pwd=v2ir 提取码：v2ir",
+      "context": "2027上岸村兰亭论道综A理论筑基 链接：https://pan.baidu.com/s/1VTz-o1KKYHHxAg_aOLSIFA?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15401,16 +15401,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027上岸村兰亭论道综A理论筑基 公考类 2027上岸村兰亭论道综A理论筑基 链接：https://pan.baidu.com/s/1PnXuKz9wjI2JfrJ-8WPeZw?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1PnXuKz9wjI2JfrJ-8WPeZw?pwd=v2ir"
+      "searchText": "2027上岸村兰亭论道综A理论筑基 公考类 2027上岸村兰亭论道综A理论筑基 链接：https://pan.baidu.com/s/1VTz-o1KKYHHxAg_aOLSIFA?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1VTz-o1KKYHHxAg_aOLSIFA?pwd=vfih"
     },
     {
       "id": "r903",
       "title": "2027上岸村王炎数量关系·讲练大满贯",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/162TdCuOhOBstkeO4_dEK1g?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1q6dtRAbPYCANFZJ4l1EOfg?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "2027上岸村王炎数量关系·讲练大满贯 链接：https://pan.baidu.com/s/162TdCuOhOBstkeO4_dEK1g?pwd=v2ir 提取码：v2ir",
+      "context": "2027上岸村王炎数量关系·讲练大满贯 链接：https://pan.baidu.com/s/1q6dtRAbPYCANFZJ4l1EOfg?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15418,16 +15418,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027上岸村王炎数量关系·讲练大满贯 公考类 2027上岸村王炎数量关系·讲练大满贯 链接：https://pan.baidu.com/s/162TdCuOhOBstkeO4_dEK1g?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/162TdCuOhOBstkeO4_dEK1g?pwd=v2ir"
+      "searchText": "2027上岸村王炎数量关系·讲练大满贯 公考类 2027上岸村王炎数量关系·讲练大满贯 链接：https://pan.baidu.com/s/1q6dtRAbPYCANFZJ4l1EOfg?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1q6dtRAbPYCANFZJ4l1EOfg?pwd=vfih"
     },
     {
       "id": "r904",
       "title": "2027陈怀安行测圣经资料分析系统课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1TwVO1Nqs7qXsnHXmpD62yw?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1xKAhv19039-EcnKTVwdVKg?pwd=5pun",
+      "code": "5pun",
       "section": "公考类",
-      "context": "2027陈怀安行测圣经资料分析系统课 链接：https://pan.baidu.com/s/1TwVO1Nqs7qXsnHXmpD62yw?pwd=6a6z 提取码：6a6z",
+      "context": "2027陈怀安行测圣经资料分析系统课 链接：https://pan.baidu.com/s/1xKAhv19039-EcnKTVwdVKg?pwd=5pun 提取码：5pun",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15435,16 +15435,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027陈怀安行测圣经资料分析系统课 公考类 2027陈怀安行测圣经资料分析系统课 链接：https://pan.baidu.com/s/1TwVO1Nqs7qXsnHXmpD62yw?pwd=6a6z 提取码：6a6z 6a6z baidu https://pan.baidu.com/s/1TwVO1Nqs7qXsnHXmpD62yw?pwd=6a6z"
+      "searchText": "2027陈怀安行测圣经资料分析系统课 公考类 2027陈怀安行测圣经资料分析系统课 链接：https://pan.baidu.com/s/1xKAhv19039-EcnKTVwdVKg?pwd=5pun 提取码：5pun 5pun baidu https://pan.baidu.com/s/1xKAhv19039-EcnKTVwdVKg?pwd=5pun"
     },
     {
       "id": "r905",
       "title": "政治常识】2027国省事考小黑政治理论常识全家桶",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1KYa57BB3YuzZ-F6uU_JPiQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/185mdFJlMOpIhdSbstEhefw?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "政治常识】2027国省事考小黑政治理论常识全家桶 链接：https://pan.baidu.com/s/1KYa57BB3YuzZ-F6uU_JPiQ?pwd=v2ir 提取码：v2ir",
+      "context": "政治常识】2027国省事考小黑政治理论常识全家桶 链接：https://pan.baidu.com/s/185mdFJlMOpIhdSbstEhefw?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15452,16 +15452,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "政治常识】2027国省事考小黑政治理论常识全家桶 公考类 政治常识】2027国省事考小黑政治理论常识全家桶 链接：https://pan.baidu.com/s/1KYa57BB3YuzZ-F6uU_JPiQ?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1KYa57BB3YuzZ-F6uU_JPiQ?pwd=v2ir"
+      "searchText": "政治常识】2027国省事考小黑政治理论常识全家桶 公考类 政治常识】2027国省事考小黑政治理论常识全家桶 链接：https://pan.baidu.com/s/185mdFJlMOpIhdSbstEhefw?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/185mdFJlMOpIhdSbstEhefw?pwd=vfih"
     },
     {
       "id": "r906",
       "title": "H 海绵公考",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1OUgZw91OgqinAMTfvivGtA?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1u4mybQdOhzVmzoDV3r-Gug?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "H 海绵公考 链接：https://pan.baidu.com/s/1OUgZw91OgqinAMTfvivGtA?pwd=v2ir 提取码：v2ir",
+      "context": "H 海绵公考 链接：https://pan.baidu.com/s/1u4mybQdOhzVmzoDV3r-Gug?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15469,16 +15469,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "H 海绵公考 公考类 H 海绵公考 链接：https://pan.baidu.com/s/1OUgZw91OgqinAMTfvivGtA?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1OUgZw91OgqinAMTfvivGtA?pwd=v2ir"
+      "searchText": "H 海绵公考 公考类 H 海绵公考 链接：https://pan.baidu.com/s/1u4mybQdOhzVmzoDV3r-Gug?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1u4mybQdOhzVmzoDV3r-Gug?pwd=vfih"
     },
     {
       "id": "r907",
       "title": "2027唐宋算经九章算术数量关系夯基",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/105wAQ9tdvhLYyiohYTbMkg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1B98XNkXntyOJfjHawUpC_Q?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "2027唐宋算经九章算术数量关系夯基 链接：https://pan.baidu.com/s/105wAQ9tdvhLYyiohYTbMkg?pwd=v2ir 提取码：v2ir",
+      "context": "2027唐宋算经九章算术数量关系夯基 链接：https://pan.baidu.com/s/1B98XNkXntyOJfjHawUpC_Q?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15486,7 +15486,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027唐宋算经九章算术数量关系夯基 公考类 2027唐宋算经九章算术数量关系夯基 链接：https://pan.baidu.com/s/105wAQ9tdvhLYyiohYTbMkg?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/105wAQ9tdvhLYyiohYTbMkg?pwd=v2ir"
+      "searchText": "2027唐宋算经九章算术数量关系夯基 公考类 2027唐宋算经九章算术数量关系夯基 链接：https://pan.baidu.com/s/1B98XNkXntyOJfjHawUpC_Q?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1B98XNkXntyOJfjHawUpC_Q?pwd=vfih"
     },
     {
       "id": "r908",
@@ -15509,10 +15509,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r909",
       "title": "2027上岸村林凡资料分析筑基11层",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1-10au2X3zgss-SNB3irOQw?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/16IDw6jz13sUZnkeQg5lT-A?pwd=5pun",
+      "code": "5pun",
       "section": "公考类",
-      "context": "2027上岸村林凡资料分析筑基11层 链接：https://pan.baidu.com/s/1-10au2X3zgss-SNB3irOQw?pwd=6a6z 提取码：6a6z",
+      "context": "2027上岸村林凡资料分析筑基11层 链接：https://pan.baidu.com/s/16IDw6jz13sUZnkeQg5lT-A?pwd=5pun 提取码：5pun",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15520,16 +15520,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027上岸村林凡资料分析筑基11层 公考类 2027上岸村林凡资料分析筑基11层 链接：https://pan.baidu.com/s/1-10au2X3zgss-SNB3irOQw?pwd=6a6z 提取码：6a6z 6a6z baidu https://pan.baidu.com/s/1-10au2X3zgss-SNB3irOQw?pwd=6a6z"
+      "searchText": "2027上岸村林凡资料分析筑基11层 公考类 2027上岸村林凡资料分析筑基11层 链接：https://pan.baidu.com/s/16IDw6jz13sUZnkeQg5lT-A?pwd=5pun 提取码：5pun 5pun baidu https://pan.baidu.com/s/16IDw6jz13sUZnkeQg5lT-A?pwd=5pun"
     },
     {
       "id": "r910",
       "title": "2027四海拾伊数量基础理论课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1Bq6mVLlhHR2vRk86RXL6iQ?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1V36mUfg_6BSTjBjM3UEDSw?pwd=5pun",
+      "code": "5pun",
       "section": "公考类",
-      "context": "2027四海拾伊数量基础理论课 链接：https://pan.baidu.com/s/1Bq6mVLlhHR2vRk86RXL6iQ?pwd=6a6z 提取码：6a6z",
+      "context": "2027四海拾伊数量基础理论课 链接：https://pan.baidu.com/s/1V36mUfg_6BSTjBjM3UEDSw?pwd=5pun 提取码：5pun",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15537,16 +15537,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027四海拾伊数量基础理论课 公考类 2027四海拾伊数量基础理论课 链接：https://pan.baidu.com/s/1Bq6mVLlhHR2vRk86RXL6iQ?pwd=6a6z 提取码：6a6z 6a6z baidu https://pan.baidu.com/s/1Bq6mVLlhHR2vRk86RXL6iQ?pwd=6a6z"
+      "searchText": "2027四海拾伊数量基础理论课 公考类 2027四海拾伊数量基础理论课 链接：https://pan.baidu.com/s/1V36mUfg_6BSTjBjM3UEDSw?pwd=5pun 提取码：5pun 5pun baidu https://pan.baidu.com/s/1V36mUfg_6BSTjBjM3UEDSw?pwd=5pun"
     },
     {
       "id": "r911",
       "title": "2027年国省考袁东申论大作文领跑营",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1sWmU6IpmBoPV3yeLLN2jBw?pwd=ujvf",
-      "code": "ujvf",
+      "url": "https://pan.baidu.com/s/1UwCqGmkpZerMuaS3Y8SrXQ?pwd=7ctd",
+      "code": "7ctd",
       "section": "公考类",
-      "context": "2027年国省考袁东申论大作文领跑营 链接：https://pan.baidu.com/s/1sWmU6IpmBoPV3yeLLN2jBw?pwd=ujvf 提取码：ujvf",
+      "context": "2027年国省考袁东申论大作文领跑营 链接：https://pan.baidu.com/s/1UwCqGmkpZerMuaS3Y8SrXQ?pwd=7ctd 提取码：7ctd",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15554,16 +15554,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027年国省考袁东申论大作文领跑营 公考类 2027年国省考袁东申论大作文领跑营 链接：https://pan.baidu.com/s/1sWmU6IpmBoPV3yeLLN2jBw?pwd=ujvf 提取码：ujvf ujvf baidu https://pan.baidu.com/s/1sWmU6IpmBoPV3yeLLN2jBw?pwd=ujvf"
+      "searchText": "2027年国省考袁东申论大作文领跑营 公考类 2027年国省考袁东申论大作文领跑营 链接：https://pan.baidu.com/s/1UwCqGmkpZerMuaS3Y8SrXQ?pwd=7ctd 提取码：7ctd 7ctd baidu https://pan.baidu.com/s/1UwCqGmkpZerMuaS3Y8SrXQ?pwd=7ctd"
     },
     {
       "id": "r912",
       "title": "2027花生十三逻辑判断600题精讲课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1GU_-O_XWGvpNPQfZkmxx9g?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1lbm-5LwQ_o3n3gswcIeWfg?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "2027花生十三逻辑判断600题精讲课 链接：https://pan.baidu.com/s/1GU_-O_XWGvpNPQfZkmxx9g?pwd=v2ir 提取码：v2ir",
+      "context": "2027花生十三逻辑判断600题精讲课 链接：https://pan.baidu.com/s/1lbm-5LwQ_o3n3gswcIeWfg?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15571,16 +15571,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027花生十三逻辑判断600题精讲课 公考类 2027花生十三逻辑判断600题精讲课 链接：https://pan.baidu.com/s/1GU_-O_XWGvpNPQfZkmxx9g?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1GU_-O_XWGvpNPQfZkmxx9g?pwd=v2ir"
+      "searchText": "2027花生十三逻辑判断600题精讲课 公考类 2027花生十三逻辑判断600题精讲课 链接：https://pan.baidu.com/s/1lbm-5LwQ_o3n3gswcIeWfg?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1lbm-5LwQ_o3n3gswcIeWfg?pwd=vfih"
     },
     {
       "id": "r913",
       "title": "图推】2027刘义恒图推以练代背",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1c-0NqvS-rvwKMyr6qV-7DQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1-a8eZnLCqGr6oyhqToeynA?pwd=vfih",
+      "code": "vfih",
       "section": "其他类别考试",
-      "context": "图推】2027刘义恒图推以练代背 链接：https://pan.baidu.com/s/1c-0NqvS-rvwKMyr6qV-7DQ?pwd=v2ir 提取码：v2ir",
+      "context": "图推】2027刘义恒图推以练代背 链接：https://pan.baidu.com/s/1-a8eZnLCqGr6oyhqToeynA?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15588,16 +15588,16 @@ window.PAN_SEARCH_DATA = {
           "section": "其他类别考试"
         }
       ],
-      "searchText": "图推】2027刘义恒图推以练代背 其他类别考试 图推】2027刘义恒图推以练代背 链接：https://pan.baidu.com/s/1c-0NqvS-rvwKMyr6qV-7DQ?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1c-0NqvS-rvwKMyr6qV-7DQ?pwd=v2ir"
+      "searchText": "图推】2027刘义恒图推以练代背 其他类别考试 图推】2027刘义恒图推以练代背 链接：https://pan.baidu.com/s/1-a8eZnLCqGr6oyhqToeynA?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1-a8eZnLCqGr6oyhqToeynA?pwd=vfih"
     },
     {
       "id": "r914",
       "title": "2026半月谈抄出申论80+第三季",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1oPfmLWZi0h9Z51YGPW7syA?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/11r9hpgWCIl3zHmXpXOk__Q?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "2026半月谈抄出申论80+第三季 链接：https://pan.baidu.com/s/1oPfmLWZi0h9Z51YGPW7syA?pwd=v2ir 提取码：v2ir",
+      "context": "2026半月谈抄出申论80+第三季 链接：https://pan.baidu.com/s/11r9hpgWCIl3zHmXpXOk__Q?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15605,16 +15605,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2026半月谈抄出申论80+第三季 公考类 2026半月谈抄出申论80+第三季 链接：https://pan.baidu.com/s/1oPfmLWZi0h9Z51YGPW7syA?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1oPfmLWZi0h9Z51YGPW7syA?pwd=v2ir"
+      "searchText": "2026半月谈抄出申论80+第三季 公考类 2026半月谈抄出申论80+第三季 链接：https://pan.baidu.com/s/11r9hpgWCIl3zHmXpXOk__Q?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/11r9hpgWCIl3zHmXpXOk__Q?pwd=vfih"
     },
     {
       "id": "r915",
       "title": "2027上岸村王永恒资料分析母题研究",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1jr7DMjJ1LI_ygHNrfowU2Q?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1Iws5lQwaWTr9Oq8iL5gxSA?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "2027上岸村王永恒资料分析母题研究 链接：https://pan.baidu.com/s/1jr7DMjJ1LI_ygHNrfowU2Q?pwd=v2ir 提取码：v2ir",
+      "context": "2027上岸村王永恒资料分析母题研究 链接：https://pan.baidu.com/s/1Iws5lQwaWTr9Oq8iL5gxSA?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15622,7 +15622,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027上岸村王永恒资料分析母题研究 公考类 2027上岸村王永恒资料分析母题研究 链接：https://pan.baidu.com/s/1jr7DMjJ1LI_ygHNrfowU2Q?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1jr7DMjJ1LI_ygHNrfowU2Q?pwd=v2ir"
+      "searchText": "2027上岸村王永恒资料分析母题研究 公考类 2027上岸村王永恒资料分析母题研究 链接：https://pan.baidu.com/s/1Iws5lQwaWTr9Oq8iL5gxSA?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1Iws5lQwaWTr9Oq8iL5gxSA?pwd=vfih"
     },
     {
       "id": "r916",
@@ -15645,10 +15645,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r917",
       "title": "数资】2027牟立志数资夜生活",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/14rgNfG_osAdj4y-tH_MwOA?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1QaD-N7z4AG2JElPBaSsljA?pwd=5pun",
+      "code": "5pun",
       "section": "其他类别考试",
-      "context": "数资】2027牟立志数资夜生活 链接：https://pan.baidu.com/s/14rgNfG_osAdj4y-tH_MwOA?pwd=6a6z 提取码：6a6z",
+      "context": "数资】2027牟立志数资夜生活 链接：https://pan.baidu.com/s/1QaD-N7z4AG2JElPBaSsljA?pwd=5pun 提取码：5pun",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15656,16 +15656,16 @@ window.PAN_SEARCH_DATA = {
           "section": "其他类别考试"
         }
       ],
-      "searchText": "数资】2027牟立志数资夜生活 其他类别考试 数资】2027牟立志数资夜生活 链接：https://pan.baidu.com/s/14rgNfG_osAdj4y-tH_MwOA?pwd=6a6z 提取码：6a6z 6a6z baidu https://pan.baidu.com/s/14rgNfG_osAdj4y-tH_MwOA?pwd=6a6z"
+      "searchText": "数资】2027牟立志数资夜生活 其他类别考试 数资】2027牟立志数资夜生活 链接：https://pan.baidu.com/s/1QaD-N7z4AG2JElPBaSsljA?pwd=5pun 提取码：5pun 5pun baidu https://pan.baidu.com/s/1QaD-N7z4AG2JElPBaSsljA?pwd=5pun"
     },
     {
       "id": "r918",
       "title": "2027王永恒资料分析三合一理论体系课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1VUzstkrtHLkPwzqAQgNLNg?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1uS2iI0PYb9r2HXMsdWMluQ?pwd=5pun",
+      "code": "5pun",
       "section": "公考类",
-      "context": "2027王永恒资料分析三合一理论体系课 链接：https://pan.baidu.com/s/1VUzstkrtHLkPwzqAQgNLNg?pwd=6a6z 提取码：6a6z",
+      "context": "2027王永恒资料分析三合一理论体系课 链接：https://pan.baidu.com/s/1uS2iI0PYb9r2HXMsdWMluQ?pwd=5pun 提取码：5pun",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15673,16 +15673,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027王永恒资料分析三合一理论体系课 公考类 2027王永恒资料分析三合一理论体系课 链接：https://pan.baidu.com/s/1VUzstkrtHLkPwzqAQgNLNg?pwd=6a6z 提取码：6a6z 6a6z baidu https://pan.baidu.com/s/1VUzstkrtHLkPwzqAQgNLNg?pwd=6a6z"
+      "searchText": "2027王永恒资料分析三合一理论体系课 公考类 2027王永恒资料分析三合一理论体系课 链接：https://pan.baidu.com/s/1uS2iI0PYb9r2HXMsdWMluQ?pwd=5pun 提取码：5pun 5pun baidu https://pan.baidu.com/s/1uS2iI0PYb9r2HXMsdWMluQ?pwd=5pun"
     },
     {
       "id": "r919",
       "title": "2027国省事考花生十三行测600题精讲课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1JBouVNAjHL-_iuVh0xVxvw?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1shoCskuRiBvNgYD7BC538w?pwd=vsd2",
+      "code": "vsd2",
       "section": "公考类",
-      "context": "2027国省事考花生十三行测600题精讲课 链接：https://pan.baidu.com/s/1JBouVNAjHL-_iuVh0xVxvw?pwd=v2ir 提取码：v2ir",
+      "context": "2027国省事考花生十三行测600题精讲课 链接：https://pan.baidu.com/s/1shoCskuRiBvNgYD7BC538w?pwd=vsd2 提取码：vsd2",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15690,16 +15690,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省事考花生十三行测600题精讲课 公考类 2027国省事考花生十三行测600题精讲课 链接：https://pan.baidu.com/s/1JBouVNAjHL-_iuVh0xVxvw?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1JBouVNAjHL-_iuVh0xVxvw?pwd=v2ir"
+      "searchText": "2027国省事考花生十三行测600题精讲课 公考类 2027国省事考花生十三行测600题精讲课 链接：https://pan.baidu.com/s/1shoCskuRiBvNgYD7BC538w?pwd=vsd2 提取码：vsd2 vsd2 baidu https://pan.baidu.com/s/1shoCskuRiBvNgYD7BC538w?pwd=vsd2"
     },
     {
       "id": "r920",
       "title": "2027唐宋算经速算思维课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1hOPJzF_PPaOaIZFHY9Kppg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1BAzJNWvc8lLqjY5J3dOVvA?pwd=vfih",
+      "code": "vfih",
       "section": "其他类别考试",
-      "context": "2027唐宋算经速算思维课 链接：https://pan.baidu.com/s/1hOPJzF_PPaOaIZFHY9Kppg?pwd=v2ir 提取码：v2ir",
+      "context": "2027唐宋算经速算思维课 链接：https://pan.baidu.com/s/1BAzJNWvc8lLqjY5J3dOVvA?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15707,16 +15707,16 @@ window.PAN_SEARCH_DATA = {
           "section": "其他类别考试"
         }
       ],
-      "searchText": "2027唐宋算经速算思维课 其他类别考试 2027唐宋算经速算思维课 链接：https://pan.baidu.com/s/1hOPJzF_PPaOaIZFHY9Kppg?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1hOPJzF_PPaOaIZFHY9Kppg?pwd=v2ir"
+      "searchText": "2027唐宋算经速算思维课 其他类别考试 2027唐宋算经速算思维课 链接：https://pan.baidu.com/s/1BAzJNWvc8lLqjY5J3dOVvA?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1BAzJNWvc8lLqjY5J3dOVvA?pwd=vfih"
     },
     {
       "id": "r921",
       "title": "海绵公考】省考十日速通，李焕&楚香凝&韩超&刘亚男",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1nr0SmL23ej9yYeSZ0ej2Qw?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1HQ5EkKxXzG9IsvlFFJVIqg?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "海绵公考】省考十日速通，李焕&楚香凝&韩超&刘亚男 链接：https://pan.baidu.com/s/1nr0SmL23ej9yYeSZ0ej2Qw?pwd=v2ir 提取码：v2ir",
+      "context": "海绵公考】省考十日速通，李焕&楚香凝&韩超&刘亚男 链接：https://pan.baidu.com/s/1HQ5EkKxXzG9IsvlFFJVIqg?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15724,16 +15724,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "海绵公考】省考十日速通，李焕&楚香凝&韩超&刘亚男 公考类 海绵公考】省考十日速通，李焕&楚香凝&韩超&刘亚男 链接：https://pan.baidu.com/s/1nr0SmL23ej9yYeSZ0ej2Qw?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1nr0SmL23ej9yYeSZ0ej2Qw?pwd=v2ir"
+      "searchText": "海绵公考】省考十日速通，李焕&楚香凝&韩超&刘亚男 公考类 海绵公考】省考十日速通，李焕&楚香凝&韩超&刘亚男 链接：https://pan.baidu.com/s/1HQ5EkKxXzG9IsvlFFJVIqg?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1HQ5EkKxXzG9IsvlFFJVIqg?pwd=vfih"
     },
     {
       "id": "r923",
       "title": "2027国省考上岸村行测&申论全家桶",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1QyzwhH7PAHkId3-FFFdULg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1NPz7ekpl2CEl3wvdSru2Mw?pwd=vsd2",
+      "code": "vsd2",
       "section": "公考类",
-      "context": "2027国省考上岸村行测&申论全家桶 链接：https://pan.baidu.com/s/1QyzwhH7PAHkId3-FFFdULg?pwd=v2ir 提取码：v2ir",
+      "context": "2027国省考上岸村行测&申论全家桶 链接：https://pan.baidu.com/s/1NPz7ekpl2CEl3wvdSru2Mw?pwd=vsd2 提取码：vsd2",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -15741,7 +15741,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省考上岸村行测&申论全家桶 公考类 2027国省考上岸村行测&申论全家桶 链接：https://pan.baidu.com/s/1QyzwhH7PAHkId3-FFFdULg?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1QyzwhH7PAHkId3-FFFdULg?pwd=v2ir"
+      "searchText": "2027国省考上岸村行测&申论全家桶 公考类 2027国省考上岸村行测&申论全家桶 链接：https://pan.baidu.com/s/1NPz7ekpl2CEl3wvdSru2Mw?pwd=vsd2 提取码：vsd2 vsd2 baidu https://pan.baidu.com/s/1NPz7ekpl2CEl3wvdSru2Mw?pwd=vsd2"
     },
     {
       "id": "r924",
@@ -19504,10 +19504,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r1145",
       "title": "2027小马哥申论理论+刷题全程班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1ZZtIIaSU2T1lwbMYRjwsgA?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1QmxKjVYM3StcUFmKhXpZtw?pwd=vfih",
+      "code": "vfih",
       "section": "公考类",
-      "context": "2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/1ZZtIIaSU2T1lwbMYRjwsgA?pwd=v2ir 提取码：v2ir",
+      "context": "2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/1QmxKjVYM3StcUFmKhXpZtw?pwd=vfih 提取码：vfih",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -19515,7 +19515,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027小马哥申论理论+刷题全程班 公考类 2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/1ZZtIIaSU2T1lwbMYRjwsgA?pwd=v2ir 提取码：v2ir v2ir baidu https://pan.baidu.com/s/1ZZtIIaSU2T1lwbMYRjwsgA?pwd=v2ir"
+      "searchText": "2027小马哥申论理论+刷题全程班 公考类 2027小马哥申论理论+刷题全程班 链接：https://pan.baidu.com/s/1QmxKjVYM3StcUFmKhXpZtw?pwd=vfih 提取码：vfih vfih baidu https://pan.baidu.com/s/1QmxKjVYM3StcUFmKhXpZtw?pwd=vfih"
     },
     {
       "id": "r1146",
@@ -19572,10 +19572,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r1149",
       "title": "2027年刘文超小马哥行测申论360全程班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1J5dZo3Bb6xauR3lRvj5UWA?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1wB0o9mi6rJwCdcYdaE164A?pwd=vsd2",
+      "code": "vsd2",
       "section": "公考类",
-      "context": "2027年刘文超小马哥行测申论360全程班 链接：https://pan.baidu.com/s/1J5dZo3Bb6xauR3lRvj5UWA?pwd=e36y 提取码：e36y",
+      "context": "2027年刘文超小马哥行测申论360全程班 链接：https://pan.baidu.com/s/1wB0o9mi6rJwCdcYdaE164A?pwd=vsd2 提取码：vsd2",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -19583,7 +19583,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027年刘文超小马哥行测申论360全程班 公考类 2027年刘文超小马哥行测申论360全程班 链接：https://pan.baidu.com/s/1J5dZo3Bb6xauR3lRvj5UWA?pwd=e36y 提取码：e36y e36y baidu https://pan.baidu.com/s/1J5dZo3Bb6xauR3lRvj5UWA?pwd=e36y"
+      "searchText": "2027年刘文超小马哥行测申论360全程班 公考类 2027年刘文超小马哥行测申论360全程班 链接：https://pan.baidu.com/s/1wB0o9mi6rJwCdcYdaE164A?pwd=vsd2 提取码：vsd2 vsd2 baidu https://pan.baidu.com/s/1wB0o9mi6rJwCdcYdaE164A?pwd=vsd2"
     },
     {
       "id": "r1150",
@@ -19946,8 +19946,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1171",
       "title": "2027年国省考相丽君申论解题思维趣学营",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1tkEYFHTTwvSAyRYXY9UZDQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1587S1k2J_BuL8y0WH0vbPw?pwd=vfih",
+      "code": "vfih",
       "section": "后台新增",
       "context": "2027年国省考相丽君申论解题思维趣学营",
       "sources": [
@@ -19957,14 +19957,14 @@ window.PAN_SEARCH_DATA = {
           "section": "后台新增"
         }
       ],
-      "searchText": "2027年国省考相丽君申论解题思维趣学营 后台新增 2027年国省考相丽君申论解题思维趣学营 v2ir baidu https://pan.baidu.com/s/1tkEYFHTTwvSAyRYXY9UZDQ?pwd=v2ir"
+      "searchText": "2027年国省考相丽君申论解题思维趣学营 后台新增 2027年国省考相丽君申论解题思维趣学营 vfih baidu https://pan.baidu.com/s/1587S1k2J_BuL8y0WH0vbPw?pwd=vfih"
     },
     {
       "id": "r1172",
       "title": "2027kiwi申论全程班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1Ra-gA9ySocXRWZe3WFEY1w?pwd=ae9a",
-      "code": "ae9a",
+      "url": "https://pan.baidu.com/s/17oZJihKxqHSz09elR9DQuQ?pwd=7ctd",
+      "code": "7ctd",
       "section": "申论",
       "context": "2027kiwi申论全程班",
       "sources": [
@@ -19974,7 +19974,7 @@ window.PAN_SEARCH_DATA = {
           "section": "申论"
         }
       ],
-      "searchText": "2027kiwi申论全程班 申论 2027kiwi申论全程班 ae9a baidu https://pan.baidu.com/s/1Ra-gA9ySocXRWZe3WFEY1w?pwd=ae9a"
+      "searchText": "2027kiwi申论全程班 申论 2027kiwi申论全程班 7ctd baidu https://pan.baidu.com/s/17oZJihKxqHSz09elR9DQuQ?pwd=7ctd"
     },
     {
       "id": "r1173",
@@ -20014,8 +20014,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1175",
       "title": "2027陈怀安行测圣经资料分析系统课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1XwO1dbB1jauTHq8MXh-ukQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1bM6TTZWZDaQAMxwPba0ixQ?pwd=vfih",
+      "code": "vfih",
       "section": "资料分析",
       "context": "2027陈怀安行测圣经资料分析系统课",
       "sources": [
@@ -20025,7 +20025,7 @@ window.PAN_SEARCH_DATA = {
           "section": "资料分析"
         }
       ],
-      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 v2ir baidu https://pan.baidu.com/s/1XwO1dbB1jauTHq8MXh-ukQ?pwd=v2ir"
+      "searchText": "2027陈怀安行测圣经资料分析系统课 资料分析 2027陈怀安行测圣经资料分析系统课 vfih baidu https://pan.baidu.com/s/1bM6TTZWZDaQAMxwPba0ixQ?pwd=vfih"
     },
     {
       "id": "r1176",
@@ -20388,7 +20388,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1197",
       "title": "2027陈怀安行测圣经判断推理系统课",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027陈怀安行测圣经判断推理系统课",
       "sources": [
@@ -20398,14 +20398,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027陈怀安行测圣经判断推理系统课 百度批量新增 百度网盘批量导入：2027陈怀安行测圣经判断推理系统课 6a6z baidu https://pan.baidu.com/s/1gN4-d2hvCdkXeyd5vl98jg?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1gN4-d2hvCdkXeyd5vl98jg?pwd=6a6z"
+      "searchText": "2027陈怀安行测圣经判断推理系统课 百度批量新增 百度网盘批量导入：2027陈怀安行测圣经判断推理系统课 5pun baidu https://pan.baidu.com/s/1aNkFNZITLfupXp0ww_fLRw?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1aNkFNZITLfupXp0ww_fLRw?pwd=5pun"
     },
     {
       "id": "r1198",
       "title": "2027上岸村天琦申论高分的规则",
       "platform": "baidu",
-      "code": "ae9a",
+      "code": "7ctd",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸村天琦申论高分的规则",
       "sources": [
@@ -20415,8 +20415,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村天琦申论高分的规则 百度批量新增 百度网盘批量导入：2027上岸村天琦申论高分的规则 ae9a baidu https://pan.baidu.com/s/1923YVA423XSUk6i37NQ9Bw?pwd=ae9a",
-      "url": "https://pan.baidu.com/s/1923YVA423XSUk6i37NQ9Bw?pwd=ae9a"
+      "searchText": "2027上岸村天琦申论高分的规则 百度批量新增 百度网盘批量导入：2027上岸村天琦申论高分的规则 7ctd baidu https://pan.baidu.com/s/1qsJ_2_LfOmYtla0BItGagA?pwd=7ctd",
+      "url": "https://pan.baidu.com/s/1qsJ_2_LfOmYtla0BItGagA?pwd=7ctd"
     },
     {
       "id": "r1199",
@@ -20524,7 +20524,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1205",
       "title": "005】2026年马克时政梳理",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：005】2026年马克时政梳理",
       "sources": [
@@ -20534,8 +20534,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "005】2026年马克时政梳理 百度批量新增 百度网盘批量导入：005】2026年马克时政梳理 ah3q baidu https://pan.baidu.com/s/1xOuIQ18jpvhzmwFk9IXEaQ?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/1xOuIQ18jpvhzmwFk9IXEaQ?pwd=ah3q"
+      "searchText": "005】2026年马克时政梳理 百度批量新增 百度网盘批量导入：005】2026年马克时政梳理 ne8c baidu https://pan.baidu.com/s/1DOpO3leYpNsl3xnfW4dicQ?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/1DOpO3leYpNsl3xnfW4dicQ?pwd=ne8c"
     },
     {
       "id": "r1206",
@@ -20575,7 +20575,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1208",
       "title": "李铁合集",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：李铁合集",
       "sources": [
@@ -20585,8 +20585,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "李铁合集 百度批量新增 百度网盘批量导入：李铁合集 ah3q baidu https://pan.baidu.com/s/1grZMfEG65yW6zjyGZnJA8w?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/1grZMfEG65yW6zjyGZnJA8w?pwd=ah3q"
+      "searchText": "李铁合集 百度批量新增 百度网盘批量导入：李铁合集 ne8c baidu https://pan.baidu.com/s/1OAF-bJex5y2-Qj845TGP3w?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/1OAF-bJex5y2-Qj845TGP3w?pwd=ne8c"
     },
     {
       "id": "r1209",
@@ -20660,7 +20660,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1213",
       "title": "王君涛丨27花生十三系统班政治理论听课笔记",
       "platform": "baidu",
-      "code": "e36y",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：王君涛丨27花生十三系统班政治理论听课笔记",
       "sources": [
@@ -20670,14 +20670,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "王君涛丨27花生十三系统班政治理论听课笔记 百度批量新增 百度网盘批量导入：王君涛丨27花生十三系统班政治理论听课笔记 e36y baidu https://pan.baidu.com/s/1PDQPeJBBMBWIyxbZ1fKVRg?pwd=e36y",
-      "url": "https://pan.baidu.com/s/1PDQPeJBBMBWIyxbZ1fKVRg?pwd=e36y"
+      "searchText": "王君涛丨27花生十三系统班政治理论听课笔记 百度批量新增 百度网盘批量导入：王君涛丨27花生十三系统班政治理论听课笔记 vsd2 baidu https://pan.baidu.com/s/184OBWCPjxTlCZZvgNqhOgA?pwd=vsd2",
+      "url": "https://pan.baidu.com/s/184OBWCPjxTlCZZvgNqhOgA?pwd=vsd2"
     },
     {
       "id": "r1214",
       "title": "2026年四海拾伊15天速算训练营【61&62&63期",
       "platform": "baidu",
-      "code": "e36y",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026年四海拾伊15天速算训练营【61&62&63期",
       "sources": [
@@ -20687,14 +20687,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026年四海拾伊15天速算训练营【61&62&63期 百度批量新增 百度网盘批量导入：2026年四海拾伊15天速算训练营【61&62&63期 e36y baidu https://pan.baidu.com/s/139DSKfCr6_JDpj7QGTtOQg?pwd=e36y",
-      "url": "https://pan.baidu.com/s/139DSKfCr6_JDpj7QGTtOQg?pwd=e36y"
+      "searchText": "2026年四海拾伊15天速算训练营【61&62&63期 百度批量新增 百度网盘批量导入：2026年四海拾伊15天速算训练营【61&62&63期 vsd2 baidu https://pan.baidu.com/s/1pkXZOjMpnEduN9ewii973A?pwd=vsd2",
+      "url": "https://pan.baidu.com/s/1pkXZOjMpnEduN9ewii973A?pwd=vsd2"
     },
     {
       "id": "r1215",
       "title": "刷题】花生十三刷题合集",
       "platform": "baidu",
-      "code": "e36y",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：刷题】花生十三刷题合集",
       "sources": [
@@ -20704,14 +20704,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "刷题】花生十三刷题合集 百度批量新增 百度网盘批量导入：刷题】花生十三刷题合集 e36y baidu https://pan.baidu.com/s/1X3b8KF9jijaZTnfR3QPisg?pwd=e36y",
-      "url": "https://pan.baidu.com/s/1X3b8KF9jijaZTnfR3QPisg?pwd=e36y"
+      "searchText": "刷题】花生十三刷题合集 百度批量新增 百度网盘批量导入：刷题】花生十三刷题合集 vsd2 baidu https://pan.baidu.com/s/1EIVCjiwuj6gDkdgnGj_1iA?pwd=vsd2",
+      "url": "https://pan.baidu.com/s/1EIVCjiwuj6gDkdgnGj_1iA?pwd=vsd2"
     },
     {
       "id": "r1216",
       "title": "时政】2025小黑全年时政【zg+上岸村",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：时政】2025小黑全年时政【zg+上岸村",
       "sources": [
@@ -20721,14 +20721,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "时政】2025小黑全年时政【zg+上岸村 百度批量新增 百度网盘批量导入：时政】2025小黑全年时政【zg+上岸村 ah3q baidu https://pan.baidu.com/s/1gdyvcHXCi6VX-Zxpka8Xfg?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/1gdyvcHXCi6VX-Zxpka8Xfg?pwd=ah3q"
+      "searchText": "时政】2025小黑全年时政【zg+上岸村 百度批量新增 百度网盘批量导入：时政】2025小黑全年时政【zg+上岸村 ne8c baidu https://pan.baidu.com/s/14HHIlldyB7eWUxtT6-2CRA?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/14HHIlldyB7eWUxtT6-2CRA?pwd=ne8c"
     },
     {
       "id": "r1217",
       "title": "时政】2026小黑全年时政",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：时政】2026小黑全年时政",
       "sources": [
@@ -20738,14 +20738,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "时政】2026小黑全年时政 百度批量新增 百度网盘批量导入：时政】2026小黑全年时政 ah3q baidu https://pan.baidu.com/s/1Qvx7AdDRYFNY4XHegSZXXQ?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/1Qvx7AdDRYFNY4XHegSZXXQ?pwd=ah3q"
+      "searchText": "时政】2026小黑全年时政 百度批量新增 百度网盘批量导入：时政】2026小黑全年时政 ne8c baidu https://pan.baidu.com/s/1ZG0dE7npRbUCey-zEkkeIg?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/1ZG0dE7npRbUCey-zEkkeIg?pwd=ne8c"
     },
     {
       "id": "r1218",
       "title": "2027小P公考国省考数资判系统班",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027小P公考国省考数资判系统班",
       "sources": [
@@ -20755,8 +20755,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027小P公考国省考数资判系统班 百度批量新增 百度网盘批量导入：2027小P公考国省考数资判系统班 6a6z baidu https://pan.baidu.com/s/1ce7zX21DmKrwIaH78MD9BQ?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1ce7zX21DmKrwIaH78MD9BQ?pwd=6a6z"
+      "searchText": "2027小P公考国省考数资判系统班 百度批量新增 百度网盘批量导入：2027小P公考国省考数资判系统班 5pun baidu https://pan.baidu.com/s/1Rs9SxwqXMaSiX32Zmbp_ng?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1Rs9SxwqXMaSiX32Zmbp_ng?pwd=5pun"
     },
     {
       "id": "r1219",
@@ -22139,7 +22139,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1300",
       "title": "申论】2027站长申论基础班",
       "platform": "baidu",
-      "code": "ae9a",
+      "code": "7ctd",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：申论】2027站长申论基础班",
       "sources": [
@@ -22149,14 +22149,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "申论】2027站长申论基础班 百度批量新增 百度网盘批量导入：申论】2027站长申论基础班 ae9a baidu https://pan.baidu.com/s/16O7OKYgYnba18N4C-k3J2A?pwd=ae9a",
-      "url": "https://pan.baidu.com/s/16O7OKYgYnba18N4C-k3J2A?pwd=ae9a"
+      "searchText": "申论】2027站长申论基础班 百度批量新增 百度网盘批量导入：申论】2027站长申论基础班 7ctd baidu https://pan.baidu.com/s/16TwTnsEH9y1BxhNVZEsOUQ?pwd=7ctd",
+      "url": "https://pan.baidu.com/s/16TwTnsEH9y1BxhNVZEsOUQ?pwd=7ctd"
     },
     {
       "id": "r1301",
       "title": "2027公考名师",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027公考名师",
       "sources": [
@@ -22166,14 +22166,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027公考名师 百度批量新增 百度网盘批量导入：2027公考名师 6a6z baidu https://pan.baidu.com/s/1hEbniuW-A6lOL6KfWWNOQw?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1hEbniuW-A6lOL6KfWWNOQw?pwd=6a6z"
+      "searchText": "2027公考名师 百度批量新增 百度网盘批量导入：2027公考名师 5pun baidu https://pan.baidu.com/s/13YlhXPxtbANIEcGM89iF_w?pwd=5pun",
+      "url": "https://pan.baidu.com/s/13YlhXPxtbANIEcGM89iF_w?pwd=5pun"
     },
     {
       "id": "r1302",
       "title": "袁东丨27申论实战班基础课复盘笔记",
       "platform": "baidu",
-      "code": "ae9a",
+      "code": "7ctd",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：袁东丨27申论实战班基础课复盘笔记",
       "sources": [
@@ -22183,14 +22183,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "袁东丨27申论实战班基础课复盘笔记 百度批量新增 百度网盘批量导入：袁东丨27申论实战班基础课复盘笔记 ae9a baidu https://pan.baidu.com/s/157SIjp4ntf_eIhQyFy_NpQ?pwd=ae9a",
-      "url": "https://pan.baidu.com/s/157SIjp4ntf_eIhQyFy_NpQ?pwd=ae9a"
+      "searchText": "袁东丨27申论实战班基础课复盘笔记 百度批量新增 百度网盘批量导入：袁东丨27申论实战班基础课复盘笔记 7ctd baidu https://pan.baidu.com/s/1APIvGqJew_HV91GhrtejQA?pwd=7ctd",
+      "url": "https://pan.baidu.com/s/1APIvGqJew_HV91GhrtejQA?pwd=7ctd"
     },
     {
       "id": "r1303",
       "title": "2027年袁东申论套题实战班",
       "platform": "baidu",
-      "code": "ae9a",
+      "code": "7ctd",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027年袁东申论套题实战班",
       "sources": [
@@ -22200,14 +22200,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027年袁东申论套题实战班 百度批量新增 百度网盘批量导入：2027年袁东申论套题实战班 ae9a baidu https://pan.baidu.com/s/1B0TxIOe48s6UDIEXjeIBmg?pwd=ae9a",
-      "url": "https://pan.baidu.com/s/1B0TxIOe48s6UDIEXjeIBmg?pwd=ae9a"
+      "searchText": "2027年袁东申论套题实战班 百度批量新增 百度网盘批量导入：2027年袁东申论套题实战班 7ctd baidu https://pan.baidu.com/s/1f6oRszd0YQ6t4yfcxyP9hg?pwd=7ctd",
+      "url": "https://pan.baidu.com/s/1f6oRszd0YQ6t4yfcxyP9hg?pwd=7ctd"
     },
     {
       "id": "r1304",
       "title": "2027上岸村天琦申论大作文技巧课",
       "platform": "baidu",
-      "code": "ae9a",
+      "code": "7ctd",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸村天琦申论大作文技巧课",
       "sources": [
@@ -22217,14 +22217,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村天琦申论大作文技巧课 百度批量新增 百度网盘批量导入：2027上岸村天琦申论大作文技巧课 ae9a baidu https://pan.baidu.com/s/1AtT3EsVTI93SObNXHt5uaw?pwd=ae9a",
-      "url": "https://pan.baidu.com/s/1AtT3EsVTI93SObNXHt5uaw?pwd=ae9a"
+      "searchText": "2027上岸村天琦申论大作文技巧课 百度批量新增 百度网盘批量导入：2027上岸村天琦申论大作文技巧课 7ctd baidu https://pan.baidu.com/s/1-CYdJX3hupzdn4JzUp4Erw?pwd=7ctd",
+      "url": "https://pan.baidu.com/s/1-CYdJX3hupzdn4JzUp4Erw?pwd=7ctd"
     },
     {
       "id": "r1305",
       "title": "综应A】2027年事考超格综A夸夸刷刷题营",
       "platform": "baidu",
-      "code": "e36y",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：综应A】2027年事考超格综A夸夸刷刷题营",
       "sources": [
@@ -22234,14 +22234,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "综应A】2027年事考超格综A夸夸刷刷题营 百度批量新增 百度网盘批量导入：综应A】2027年事考超格综A夸夸刷刷题营 e36y baidu https://pan.baidu.com/s/1RB5Xqtoq7REegg8KEiLCQg?pwd=e36y",
-      "url": "https://pan.baidu.com/s/1RB5Xqtoq7REegg8KEiLCQg?pwd=e36y"
+      "searchText": "综应A】2027年事考超格综A夸夸刷刷题营 百度批量新增 百度网盘批量导入：综应A】2027年事考超格综A夸夸刷刷题营 vsd2 baidu https://pan.baidu.com/s/1KcoSOEsZkicaPXMOlN7Y1Q?pwd=vsd2",
+      "url": "https://pan.baidu.com/s/1KcoSOEsZkicaPXMOlN7Y1Q?pwd=vsd2"
     },
     {
       "id": "r1306",
       "title": "人民日报每日精读（笔记+思维导图版）",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：人民日报每日精读（笔记+思维导图版）",
       "sources": [
@@ -22251,14 +22251,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "人民日报每日精读（笔记+思维导图版） 百度批量新增 百度网盘批量导入：人民日报每日精读（笔记+思维导图版） 6a6z baidu https://pan.baidu.com/s/1kjwquDYZmfDYDbch2TSH_w?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1kjwquDYZmfDYDbch2TSH_w?pwd=6a6z"
+      "searchText": "人民日报每日精读（笔记+思维导图版） 百度批量新增 百度网盘批量导入：人民日报每日精读（笔记+思维导图版） 5pun baidu https://pan.baidu.com/s/1h8w-vNURTHWudy3rEiDPPA?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1h8w-vNURTHWudy3rEiDPPA?pwd=5pun"
     },
     {
       "id": "r1307",
       "title": "2027】袁东合集",
       "platform": "baidu",
-      "code": "ae9a",
+      "code": "7ctd",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027】袁东合集",
       "sources": [
@@ -22268,14 +22268,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027】袁东合集 百度批量新增 百度网盘批量导入：2027】袁东合集 ae9a baidu https://pan.baidu.com/s/1-LTB0p6Bbro1GTGW7O5jZw?pwd=ae9a",
-      "url": "https://pan.baidu.com/s/1-LTB0p6Bbro1GTGW7O5jZw?pwd=ae9a"
+      "searchText": "2027】袁东合集 百度批量新增 百度网盘批量导入：2027】袁东合集 7ctd baidu https://pan.baidu.com/s/1gz4OJ1Hs6O8PZZlEcNrW9w?pwd=7ctd",
+      "url": "https://pan.baidu.com/s/1gz4OJ1Hs6O8PZZlEcNrW9w?pwd=7ctd"
     },
     {
       "id": "r1308",
       "title": "人民日报（成语积累+逻辑填空）",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：人民日报（成语积累+逻辑填空）",
       "sources": [
@@ -22285,14 +22285,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "人民日报（成语积累+逻辑填空） 百度批量新增 百度网盘批量导入：人民日报（成语积累+逻辑填空） 6a6z baidu https://pan.baidu.com/s/1N2-lXVaTtprvkgXrg5mlng?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1N2-lXVaTtprvkgXrg5mlng?pwd=6a6z"
+      "searchText": "人民日报（成语积累+逻辑填空） 百度批量新增 百度网盘批量导入：人民日报（成语积累+逻辑填空） 5pun baidu https://pan.baidu.com/s/1UfcRKc0FvsYyKFMjKBJh_A?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1UfcRKc0FvsYyKFMjKBJh_A?pwd=5pun"
     },
     {
       "id": "r1309",
       "title": "2027苏金朋判断推理系统课（图推逻辑类比定义）",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027苏金朋判断推理系统课（图推逻辑类比定义）",
       "sources": [
@@ -22302,14 +22302,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027苏金朋判断推理系统课（图推逻辑类比定义） 百度批量新增 百度网盘批量导入：2027苏金朋判断推理系统课（图推逻辑类比定义） 6a6z baidu https://pan.baidu.com/s/18G8QhPVhWObEWn9wksamyg?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/18G8QhPVhWObEWn9wksamyg?pwd=6a6z"
+      "searchText": "2027苏金朋判断推理系统课（图推逻辑类比定义） 百度批量新增 百度网盘批量导入：2027苏金朋判断推理系统课（图推逻辑类比定义） 5pun baidu https://pan.baidu.com/s/104BoEAVjCGb_fC2RoPCTOQ?pwd=5pun",
+      "url": "https://pan.baidu.com/s/104BoEAVjCGb_fC2RoPCTOQ?pwd=5pun"
     },
     {
       "id": "r1310",
       "title": "2027国考大懒猫言语刷题课一期",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027国考大懒猫言语刷题课一期",
       "sources": [
@@ -22319,14 +22319,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027国考大懒猫言语刷题课一期 百度批量新增 百度网盘批量导入：2027国考大懒猫言语刷题课一期 6a6z baidu https://pan.baidu.com/s/1fit6-dzZ3fhrHG8RbWL5SA?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1fit6-dzZ3fhrHG8RbWL5SA?pwd=6a6z"
+      "searchText": "2027国考大懒猫言语刷题课一期 百度批量新增 百度网盘批量导入：2027国考大懒猫言语刷题课一期 5pun baidu https://pan.baidu.com/s/1f2yKYkDGnMwRc3qAKQGQMw?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1f2yKYkDGnMwRc3qAKQGQMw?pwd=5pun"
     },
     {
       "id": "r1311",
       "title": "速算】高照抖音速算直播课",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：速算】高照抖音速算直播课",
       "sources": [
@@ -22336,14 +22336,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "速算】高照抖音速算直播课 百度批量新增 百度网盘批量导入：速算】高照抖音速算直播课 6a6z baidu https://pan.baidu.com/s/1BgkKa54G15u_0gMqPHidag?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1BgkKa54G15u_0gMqPHidag?pwd=6a6z"
+      "searchText": "速算】高照抖音速算直播课 百度批量新增 百度网盘批量导入：速算】高照抖音速算直播课 5pun baidu https://pan.baidu.com/s/1PegvMTXX61T0fsi6dpRNow?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1PegvMTXX61T0fsi6dpRNow?pwd=5pun"
     },
     {
       "id": "r1312",
       "title": "2027年袁东申论超大杯刷题提升班",
       "platform": "baidu",
-      "code": "ae9a",
+      "code": "7ctd",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027年袁东申论超大杯刷题提升班",
       "sources": [
@@ -22353,14 +22353,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027年袁东申论超大杯刷题提升班 百度批量新增 百度网盘批量导入：2027年袁东申论超大杯刷题提升班 ae9a baidu https://pan.baidu.com/s/1UKRLj0Je20t6w44mD7R_iw?pwd=ae9a",
-      "url": "https://pan.baidu.com/s/1UKRLj0Je20t6w44mD7R_iw?pwd=ae9a"
+      "searchText": "2027年袁东申论超大杯刷题提升班 百度批量新增 百度网盘批量导入：2027年袁东申论超大杯刷题提升班 7ctd baidu https://pan.baidu.com/s/13hUeEyQrq8k4a2oVyCGlPw?pwd=7ctd",
+      "url": "https://pan.baidu.com/s/13hUeEyQrq8k4a2oVyCGlPw?pwd=7ctd"
     },
     {
       "id": "r1313",
       "title": "人民日报每日晨读（逐字稿+押题范文）",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：人民日报每日晨读（逐字稿+押题范文）",
       "sources": [
@@ -22370,14 +22370,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "人民日报每日晨读（逐字稿+押题范文） 百度批量新增 百度网盘批量导入：人民日报每日晨读（逐字稿+押题范文） 6a6z baidu https://pan.baidu.com/s/18GXJT3tETePDf67xWV-1gQ?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/18GXJT3tETePDf67xWV-1gQ?pwd=6a6z"
+      "searchText": "人民日报每日晨读（逐字稿+押题范文） 百度批量新增 百度网盘批量导入：人民日报每日晨读（逐字稿+押题范文） 5pun baidu https://pan.baidu.com/s/1yH7G7NWLou9t8cdW7ZDEKQ?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1yH7G7NWLou9t8cdW7ZDEKQ?pwd=5pun"
     },
     {
       "id": "r1314",
       "title": "2027龙飞百大图形推理",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027龙飞百大图形推理",
       "sources": [
@@ -22387,14 +22387,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027龙飞百大图形推理 百度批量新增 百度网盘批量导入：2027龙飞百大图形推理 6a6z baidu https://pan.baidu.com/s/1R4X-xuJ--Pn9wXk1hsHyuA?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1R4X-xuJ--Pn9wXk1hsHyuA?pwd=6a6z"
+      "searchText": "2027龙飞百大图形推理 百度批量新增 百度网盘批量导入：2027龙飞百大图形推理 5pun baidu https://pan.baidu.com/s/1nXScijSoWat7rQe9AhUnZw?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1nXScijSoWat7rQe9AhUnZw?pwd=5pun"
     },
     {
       "id": "r1315",
       "title": "2027陈怀安行测圣经资料分析系统课(1)",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027陈怀安行测圣经资料分析系统课(1)",
       "sources": [
@@ -22404,14 +22404,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027陈怀安行测圣经资料分析系统课(1) 百度批量新增 百度网盘批量导入：2027陈怀安行测圣经资料分析系统课(1) 6a6z baidu https://pan.baidu.com/s/11YAmiEeKxvHVlcmjCutUGQ?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/11YAmiEeKxvHVlcmjCutUGQ?pwd=6a6z"
+      "searchText": "2027陈怀安行测圣经资料分析系统课(1) 百度批量新增 百度网盘批量导入：2027陈怀安行测圣经资料分析系统课(1) 5pun baidu https://pan.baidu.com/s/15RYhKJXegWN2NwtzmB-p6A?pwd=5pun",
+      "url": "https://pan.baidu.com/s/15RYhKJXegWN2NwtzmB-p6A?pwd=5pun"
     },
     {
       "id": "r1316",
       "title": "小P丨27资料分析理论课笔记",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：小P丨27资料分析理论课笔记",
       "sources": [
@@ -22421,14 +22421,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "小P丨27资料分析理论课笔记 百度批量新增 百度网盘批量导入：小P丨27资料分析理论课笔记 6a6z baidu https://pan.baidu.com/s/1vBIX-OvQ93R0hg0_3eXabA?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1vBIX-OvQ93R0hg0_3eXabA?pwd=6a6z"
+      "searchText": "小P丨27资料分析理论课笔记 百度批量新增 百度网盘批量导入：小P丨27资料分析理论课笔记 5pun baidu https://pan.baidu.com/s/1qwNlwJlZbQn4r8Au7Y4FFQ?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1qwNlwJlZbQn4r8Au7Y4FFQ?pwd=5pun"
     },
     {
       "id": "r1317",
       "title": "2027瞪哥院长私人定制上岸班",
       "platform": "baidu",
-      "code": "v2ir",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027瞪哥院长私人定制上岸班",
       "sources": [
@@ -22438,14 +22438,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027瞪哥院长私人定制上岸班 百度批量新增 百度网盘批量导入：2027瞪哥院长私人定制上岸班 v2ir baidu https://pan.baidu.com/s/19xWjv1FDIRYm4YzWXfvkkw?pwd=v2ir",
-      "url": "https://pan.baidu.com/s/19xWjv1FDIRYm4YzWXfvkkw?pwd=v2ir"
+      "searchText": "2027瞪哥院长私人定制上岸班 百度批量新增 百度网盘批量导入：2027瞪哥院长私人定制上岸班 vfih baidu https://pan.baidu.com/s/1Itlgx-AOn1Toi1ZVtO9h3w?pwd=vfih",
+      "url": "https://pan.baidu.com/s/1Itlgx-AOn1Toi1ZVtO9h3w?pwd=vfih"
     },
     {
       "id": "r1318",
       "title": "2027杨攀政治理论基础课",
       "platform": "baidu",
-      "code": "v2ir",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027杨攀政治理论基础课",
       "sources": [
@@ -22455,8 +22455,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027杨攀政治理论基础课 百度批量新增 百度网盘批量导入：2027杨攀政治理论基础课 v2ir baidu https://pan.baidu.com/s/1GBdS3GcJYOSYMSxU7HLL3g?pwd=v2ir",
-      "url": "https://pan.baidu.com/s/1GBdS3GcJYOSYMSxU7HLL3g?pwd=v2ir"
+      "searchText": "2027杨攀政治理论基础课 百度批量新增 百度网盘批量导入：2027杨攀政治理论基础课 vfih baidu https://pan.baidu.com/s/1kYRcqvDYLXjtB6xU8YLbLw?pwd=vfih",
+      "url": "https://pan.baidu.com/s/1kYRcqvDYLXjtB6xU8YLbLw?pwd=vfih"
     },
     {
       "id": "r1319",
@@ -22479,7 +22479,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1320",
       "title": "2027杨攀政治理论素养课-精读《求是》",
       "platform": "baidu",
-      "code": "v2ir",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027杨攀政治理论素养课-精读《求是》",
       "sources": [
@@ -22489,8 +22489,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027杨攀政治理论素养课-精读《求是》 百度批量新增 百度网盘批量导入：2027杨攀政治理论素养课-精读《求是》 v2ir baidu https://pan.baidu.com/s/1kkfi4HXmLQLyWgUZx7DvEA?pwd=v2ir",
-      "url": "https://pan.baidu.com/s/1kkfi4HXmLQLyWgUZx7DvEA?pwd=v2ir"
+      "searchText": "2027杨攀政治理论素养课-精读《求是》 百度批量新增 百度网盘批量导入：2027杨攀政治理论素养课-精读《求是》 vfih baidu https://pan.baidu.com/s/1uW0liN6TjfUtJgcTN2c4Sw?pwd=vfih",
+      "url": "https://pan.baidu.com/s/1uW0liN6TjfUtJgcTN2c4Sw?pwd=vfih"
     },
     {
       "id": "r1321",
@@ -22649,7 +22649,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1330",
       "title": "2025李铁全年时政",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2025李铁全年时政",
       "sources": [
@@ -22659,14 +22659,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2025李铁全年时政 百度批量新增 百度网盘批量导入：2025李铁全年时政 ah3q baidu https://pan.baidu.com/s/1WF4oS8naR1qfcMoKIMxQgg?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/1WF4oS8naR1qfcMoKIMxQgg?pwd=ah3q"
+      "searchText": "2025李铁全年时政 百度批量新增 百度网盘批量导入：2025李铁全年时政 ne8c baidu https://pan.baidu.com/s/19KiFiK8NetXEEHgetzbevw?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/19KiFiK8NetXEEHgetzbevw?pwd=ne8c"
     },
     {
       "id": "r1331",
       "title": "2026年晨读",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026年晨读",
       "sources": [
@@ -22676,14 +22676,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026年晨读 百度批量新增 百度网盘批量导入：2026年晨读 ah3q baidu https://pan.baidu.com/s/1IWOgTdCxGhEIrtkl4Q0xyQ?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/1IWOgTdCxGhEIrtkl4Q0xyQ?pwd=ah3q"
+      "searchText": "2026年晨读 百度批量新增 百度网盘批量导入：2026年晨读 ne8c baidu https://pan.baidu.com/s/10pcMYfD1UYP3mbH8zi0Jyg?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/10pcMYfD1UYP3mbH8zi0Jyg?pwd=ne8c"
     },
     {
       "id": "r1332",
       "title": "2025年千君全年时政",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2025年千君全年时政",
       "sources": [
@@ -22693,14 +22693,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2025年千君全年时政 百度批量新增 百度网盘批量导入：2025年千君全年时政 ah3q baidu https://pan.baidu.com/s/13GdJ1UHiRRv23RGoAmNScw?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/13GdJ1UHiRRv23RGoAmNScw?pwd=ah3q"
+      "searchText": "2025年千君全年时政 百度批量新增 百度网盘批量导入：2025年千君全年时政 ne8c baidu https://pan.baidu.com/s/1Nr5-Qnp-AY__9Z_7D2qUkw?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/1Nr5-Qnp-AY__9Z_7D2qUkw?pwd=ne8c"
     },
     {
       "id": "r1333",
       "title": "2026年千君时政月月谈",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026年千君时政月月谈",
       "sources": [
@@ -22710,14 +22710,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026年千君时政月月谈 百度批量新增 百度网盘批量导入：2026年千君时政月月谈 ah3q baidu https://pan.baidu.com/s/1TkSHLVtVR2wlp9xvmbtTRA?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/1TkSHLVtVR2wlp9xvmbtTRA?pwd=ah3q"
+      "searchText": "2026年千君时政月月谈 百度批量新增 百度网盘批量导入：2026年千君时政月月谈 ne8c baidu https://pan.baidu.com/s/1kXrBxUdhuws67NdYcx53Ow?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/1kXrBxUdhuws67NdYcx53Ow?pwd=ne8c"
     },
     {
       "id": "r1334",
       "title": "2026年时政讲练班【CG",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026年时政讲练班【CG",
       "sources": [
@@ -22727,14 +22727,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026年时政讲练班【CG 百度批量新增 百度网盘批量导入：2026年时政讲练班【CG ah3q baidu https://pan.baidu.com/s/1Xovr9JIQ4dxDvSGCaupKKQ?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/1Xovr9JIQ4dxDvSGCaupKKQ?pwd=ah3q"
+      "searchText": "2026年时政讲练班【CG 百度批量新增 百度网盘批量导入：2026年时政讲练班【CG ne8c baidu https://pan.baidu.com/s/1O0pJR0mSpiOgGTop9suecw?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/1O0pJR0mSpiOgGTop9suecw?pwd=ne8c"
     },
     {
       "id": "r1335",
       "title": "2026李铁河南三支一扶全家桶",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026李铁河南三支一扶全家桶",
       "sources": [
@@ -22744,14 +22744,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026李铁河南三支一扶全家桶 百度批量新增 百度网盘批量导入：2026李铁河南三支一扶全家桶 ah3q baidu https://pan.baidu.com/s/1dsanqK8lOt_qQ9EwBcFQGg?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/1dsanqK8lOt_qQ9EwBcFQGg?pwd=ah3q"
+      "searchText": "2026李铁河南三支一扶全家桶 百度批量新增 百度网盘批量导入：2026李铁河南三支一扶全家桶 ne8c baidu https://pan.baidu.com/s/1010JFR2BS2w3GBuSBhH33A?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/1010JFR2BS2w3GBuSBhH33A?pwd=ne8c"
     },
     {
       "id": "r1336",
       "title": "2026李铁全年时政",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026李铁全年时政",
       "sources": [
@@ -22761,14 +22761,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026李铁全年时政 百度批量新增 百度网盘批量导入：2026李铁全年时政 ah3q baidu https://pan.baidu.com/s/1CeD0xau3yY708lZYXCyuzg?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/1CeD0xau3yY708lZYXCyuzg?pwd=ah3q"
+      "searchText": "2026李铁全年时政 百度批量新增 百度网盘批量导入：2026李铁全年时政 ne8c baidu https://pan.baidu.com/s/1CdkZl72EnjPqzC6m70mxbw?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/1CdkZl72EnjPqzC6m70mxbw?pwd=ne8c"
     },
     {
       "id": "r1337",
       "title": "2025秦明全年时政",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2025秦明全年时政",
       "sources": [
@@ -22778,14 +22778,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2025秦明全年时政 百度批量新增 百度网盘批量导入：2025秦明全年时政 ah3q baidu https://pan.baidu.com/s/1wrhv0QdsLzSRuly9h6x-Qw?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/1wrhv0QdsLzSRuly9h6x-Qw?pwd=ah3q"
+      "searchText": "2025秦明全年时政 百度批量新增 百度网盘批量导入：2025秦明全年时政 ne8c baidu https://pan.baidu.com/s/1Pp1C9S-5VW6u-6xxvzL0CQ?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/1Pp1C9S-5VW6u-6xxvzL0CQ?pwd=ne8c"
     },
     {
       "id": "r1338",
       "title": "2026年政治理论&全年时政【JS",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026年政治理论&全年时政【JS",
       "sources": [
@@ -22795,8 +22795,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026年政治理论&全年时政【JS 百度批量新增 百度网盘批量导入：2026年政治理论&全年时政【JS ah3q baidu https://pan.baidu.com/s/1Ewj_PYYdwoT8T2O_TXRMYA?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/1Ewj_PYYdwoT8T2O_TXRMYA?pwd=ah3q"
+      "searchText": "2026年政治理论&全年时政【JS 百度批量新增 百度网盘批量导入：2026年政治理论&全年时政【JS ne8c baidu https://pan.baidu.com/s/15dHjx_1vnXfO2uW-NQzK-g?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/15dHjx_1vnXfO2uW-NQzK-g?pwd=ne8c"
     },
     {
       "id": "r1339",
@@ -22819,7 +22819,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1340",
       "title": "2025年时政讲练班【CG",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2025年时政讲练班【CG",
       "sources": [
@@ -22829,14 +22829,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2025年时政讲练班【CG 百度批量新增 百度网盘批量导入：2025年时政讲练班【CG ah3q baidu https://pan.baidu.com/s/1ZxlpJ4VdQbPg8NYd7ERm8Q?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/1ZxlpJ4VdQbPg8NYd7ERm8Q?pwd=ah3q"
+      "searchText": "2025年时政讲练班【CG 百度批量新增 百度网盘批量导入：2025年时政讲练班【CG ne8c baidu https://pan.baidu.com/s/1dk526C7YdJzrPBy1aRJ_Ow?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/1dk526C7YdJzrPBy1aRJ_Ow?pwd=ne8c"
     },
     {
       "id": "r1341",
       "title": "07】2026年上岸村张薇公安时政点兵营",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：07】2026年上岸村张薇公安时政点兵营",
       "sources": [
@@ -22846,14 +22846,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "07】2026年上岸村张薇公安时政点兵营 百度批量新增 百度网盘批量导入：07】2026年上岸村张薇公安时政点兵营 ah3q baidu https://pan.baidu.com/s/14wLeG4O0-45jie3gOJBQ6Q?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/14wLeG4O0-45jie3gOJBQ6Q?pwd=ah3q"
+      "searchText": "07】2026年上岸村张薇公安时政点兵营 百度批量新增 百度网盘批量导入：07】2026年上岸村张薇公安时政点兵营 ne8c baidu https://pan.baidu.com/s/1xq4rswipuXa7cIRrXNtavQ?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/1xq4rswipuXa7cIRrXNtavQ?pwd=ne8c"
     },
     {
       "id": "r1342",
       "title": "2026秦明时政热点专项课",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026秦明时政热点专项课",
       "sources": [
@@ -22863,8 +22863,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026秦明时政热点专项课 百度批量新增 百度网盘批量导入：2026秦明时政热点专项课 ah3q baidu https://pan.baidu.com/s/1zeVk8RCKCNemYelp3Bwh0Q?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/1zeVk8RCKCNemYelp3Bwh0Q?pwd=ah3q"
+      "searchText": "2026秦明时政热点专项课 百度批量新增 百度网盘批量导入：2026秦明时政热点专项课 ne8c baidu https://pan.baidu.com/s/1696sL4709Df93IyhF1Y5XA?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/1696sL4709Df93IyhF1Y5XA?pwd=ne8c"
     },
     {
       "id": "r1343",
@@ -22938,7 +22938,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1347",
       "title": "2027薛睿公考逻辑必刷678题",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027薛睿公考逻辑必刷678题",
       "sources": [
@@ -22948,14 +22948,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027薛睿公考逻辑必刷678题 百度批量新增 百度网盘批量导入：2027薛睿公考逻辑必刷678题 6a6z baidu https://pan.baidu.com/s/1Rps-A7VIaUxT711qw2hqdA?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1Rps-A7VIaUxT711qw2hqdA?pwd=6a6z"
+      "searchText": "2027薛睿公考逻辑必刷678题 百度批量新增 百度网盘批量导入：2027薛睿公考逻辑必刷678题 5pun baidu https://pan.baidu.com/s/1x1p7s81q1o2ly2SvLVRQPA?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1x1p7s81q1o2ly2SvLVRQPA?pwd=5pun"
     },
     {
       "id": "r1348",
       "title": "2027年公考薛睿逻辑判断系统课",
       "platform": "baidu",
-      "code": "v2ir",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027年公考薛睿逻辑判断系统课",
       "sources": [
@@ -22965,14 +22965,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027年公考薛睿逻辑判断系统课 百度批量新增 百度网盘批量导入：2027年公考薛睿逻辑判断系统课 v2ir baidu https://pan.baidu.com/s/1c1KGUrdLwaiFwGlSAjYd1Q?pwd=v2ir",
-      "url": "https://pan.baidu.com/s/1c1KGUrdLwaiFwGlSAjYd1Q?pwd=v2ir"
+      "searchText": "2027年公考薛睿逻辑判断系统课 百度批量新增 百度网盘批量导入：2027年公考薛睿逻辑判断系统课 vfih baidu https://pan.baidu.com/s/1FKzoRQvylX4m7qmroW2v6g?pwd=vfih",
+      "url": "https://pan.baidu.com/s/1FKzoRQvylX4m7qmroW2v6g?pwd=vfih"
     },
     {
       "id": "r1349",
       "title": "2027年公考薛睿一拖五系统课（实战应用指南）",
       "platform": "baidu",
-      "code": "v2ir",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027年公考薛睿一拖五系统课（实战应用指南）",
       "sources": [
@@ -22982,8 +22982,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027年公考薛睿一拖五系统课（实战应用指南） 百度批量新增 百度网盘批量导入：2027年公考薛睿一拖五系统课（实战应用指南） v2ir baidu https://pan.baidu.com/s/1LAQDenbxWp4xKadufLR-cQ?pwd=v2ir",
-      "url": "https://pan.baidu.com/s/1LAQDenbxWp4xKadufLR-cQ?pwd=v2ir"
+      "searchText": "2027年公考薛睿一拖五系统课（实战应用指南） 百度批量新增 百度网盘批量导入：2027年公考薛睿一拖五系统课（实战应用指南） vfih baidu https://pan.baidu.com/s/1LGIQ8ophZjWdymuz_FIl0w?pwd=vfih",
+      "url": "https://pan.baidu.com/s/1LGIQ8ophZjWdymuz_FIl0w?pwd=vfih"
     },
     {
       "id": "r1350",
@@ -25437,7 +25437,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1494",
       "title": "2027陈怀安行测小课堂",
       "platform": "baidu",
-      "code": "v2ir",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027陈怀安行测小课堂",
       "sources": [
@@ -25447,14 +25447,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027陈怀安行测小课堂 百度批量新增 百度网盘批量导入：2027陈怀安行测小课堂 v2ir baidu https://pan.baidu.com/s/1p-Vb0wSjM2qbecrZS7vzRA?pwd=v2ir",
-      "url": "https://pan.baidu.com/s/1p-Vb0wSjM2qbecrZS7vzRA?pwd=v2ir"
+      "searchText": "2027陈怀安行测小课堂 百度批量新增 百度网盘批量导入：2027陈怀安行测小课堂 vfih baidu https://pan.baidu.com/s/1Be1WAlhZ56Vyv_iTJpOFRA?pwd=vfih",
+      "url": "https://pan.baidu.com/s/1Be1WAlhZ56Vyv_iTJpOFRA?pwd=vfih"
     },
     {
       "id": "r1495",
       "title": "2027国省考季四海公考行测海海刷1期",
       "platform": "baidu",
-      "code": "e36y",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027国省考季四海公考行测海海刷1期",
       "sources": [
@@ -25464,8 +25464,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027国省考季四海公考行测海海刷1期 百度批量新增 百度网盘批量导入：2027国省考季四海公考行测海海刷1期 e36y baidu https://pan.baidu.com/s/1NPwEBk8I6L9uUSp9qsdG2Q?pwd=e36y",
-      "url": "https://pan.baidu.com/s/1NPwEBk8I6L9uUSp9qsdG2Q?pwd=e36y"
+      "searchText": "2027国省考季四海公考行测海海刷1期 百度批量新增 百度网盘批量导入：2027国省考季四海公考行测海海刷1期 vfih baidu https://pan.baidu.com/s/1xEA7zw21BVi9jpAcWV6NIA?pwd=vfih",
+      "url": "https://pan.baidu.com/s/1xEA7zw21BVi9jpAcWV6NIA?pwd=vfih"
     },
     {
       "id": "r1496",
@@ -25556,7 +25556,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1501",
       "title": "2027国考李小北申论系统班",
       "platform": "baidu",
-      "code": "ae9a",
+      "code": "7ctd",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027国考李小北申论系统班",
       "sources": [
@@ -25566,14 +25566,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027国考李小北申论系统班 百度批量新增 百度网盘批量导入：2027国考李小北申论系统班 ae9a baidu https://pan.baidu.com/s/1bmnXAgnf4kkSZDUVxLqhmg?pwd=ae9a",
-      "url": "https://pan.baidu.com/s/1bmnXAgnf4kkSZDUVxLqhmg?pwd=ae9a"
+      "searchText": "2027国考李小北申论系统班 百度批量新增 百度网盘批量导入：2027国考李小北申论系统班 7ctd baidu https://pan.baidu.com/s/1oxnDyWFfdCCphtYn5eKc3g?pwd=7ctd",
+      "url": "https://pan.baidu.com/s/1oxnDyWFfdCCphtYn5eKc3g?pwd=7ctd"
     },
     {
       "id": "r1502",
       "title": "001】2027超格系列（夸夸刷超大杯等）",
       "platform": "baidu",
-      "code": "v2ir",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：001】2027超格系列（夸夸刷超大杯等）",
       "sources": [
@@ -25583,14 +25583,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "001】2027超格系列（夸夸刷超大杯等） 百度批量新增 百度网盘批量导入：001】2027超格系列（夸夸刷超大杯等） v2ir baidu https://pan.baidu.com/s/1JtwMuUjlSZKMIKAGDWq6ug?pwd=v2ir",
-      "url": "https://pan.baidu.com/s/1JtwMuUjlSZKMIKAGDWq6ug?pwd=v2ir"
+      "searchText": "001】2027超格系列（夸夸刷超大杯等） 百度批量新增 百度网盘批量导入：001】2027超格系列（夸夸刷超大杯等） vfih baidu https://pan.baidu.com/s/1WhQCct_fik9pr3YjM7_pmg?pwd=vfih",
+      "url": "https://pan.baidu.com/s/1WhQCct_fik9pr3YjM7_pmg?pwd=vfih"
     },
     {
       "id": "r1503",
       "title": "2027年江苏名优笔试通关专项课",
       "platform": "baidu",
-      "code": "v2ir",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027年江苏名优笔试通关专项课",
       "sources": [
@@ -25600,8 +25600,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027年江苏名优笔试通关专项课 百度批量新增 百度网盘批量导入：2027年江苏名优笔试通关专项课 v2ir baidu https://pan.baidu.com/s/1JGpb5G2rM-VNGXDzNfUN8A?pwd=v2ir",
-      "url": "https://pan.baidu.com/s/1JGpb5G2rM-VNGXDzNfUN8A?pwd=v2ir"
+      "searchText": "2027年江苏名优笔试通关专项课 百度批量新增 百度网盘批量导入：2027年江苏名优笔试通关专项课 vfih baidu https://pan.baidu.com/s/1_FRPjuK7Vc7JrmYzww6-0Q?pwd=vfih",
+      "url": "https://pan.baidu.com/s/1_FRPjuK7Vc7JrmYzww6-0Q?pwd=vfih"
     },
     {
       "id": "r1504",
@@ -25623,7 +25623,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1505",
       "title": "2027图形推理千题册",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027图形推理千题册",
       "sources": [
@@ -25633,14 +25633,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027图形推理千题册 百度批量新增 百度网盘批量导入：2027图形推理千题册 6a6z baidu https://pan.baidu.com/s/1DRuO1sxzkeSiBi-MB3CdWA?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1DRuO1sxzkeSiBi-MB3CdWA?pwd=6a6z"
+      "searchText": "2027图形推理千题册 百度批量新增 百度网盘批量导入：2027图形推理千题册 5pun baidu https://pan.baidu.com/s/1wsOGDoNsaFrxTk9bvvgdvA?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1wsOGDoNsaFrxTk9bvvgdvA?pwd=5pun"
     },
     {
       "id": "r1506",
       "title": "2027类比推理千题册",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027类比推理千题册",
       "sources": [
@@ -25650,14 +25650,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027类比推理千题册 百度批量新增 百度网盘批量导入：2027类比推理千题册 6a6z baidu https://pan.baidu.com/s/1HzGOPuxxrs8LmoPmn-PB2A?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1HzGOPuxxrs8LmoPmn-PB2A?pwd=6a6z"
+      "searchText": "2027类比推理千题册 百度批量新增 百度网盘批量导入：2027类比推理千题册 5pun baidu https://pan.baidu.com/s/1FsFyKGYT4LnH5laH-g7Bxw?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1FsFyKGYT4LnH5laH-g7Bxw?pwd=5pun"
     },
     {
       "id": "r1507",
       "title": "2026版AJGK图推1000题",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026版AJGK图推1000题",
       "sources": [
@@ -25667,14 +25667,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026版AJGK图推1000题 百度批量新增 百度网盘批量导入：2026版AJGK图推1000题 6a6z baidu https://pan.baidu.com/s/1HKigQAeTHkpIiif6PzO2DQ?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1HKigQAeTHkpIiif6PzO2DQ?pwd=6a6z"
+      "searchText": "2026版AJGK图推1000题 百度批量新增 百度网盘批量导入：2026版AJGK图推1000题 5pun baidu https://pan.baidu.com/s/1im1AMFaJRlvY5f-uaexw1Q?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1im1AMFaJRlvY5f-uaexw1Q?pwd=5pun"
     },
     {
       "id": "r1508",
       "title": "2027逻辑填空千题册",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027逻辑填空千题册",
       "sources": [
@@ -25684,14 +25684,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027逻辑填空千题册 百度批量新增 百度网盘批量导入：2027逻辑填空千题册 6a6z baidu https://pan.baidu.com/s/1eG_RlS1BoqHZYdzJqGV59g?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1eG_RlS1BoqHZYdzJqGV59g?pwd=6a6z"
+      "searchText": "2027逻辑填空千题册 百度批量新增 百度网盘批量导入：2027逻辑填空千题册 5pun baidu https://pan.baidu.com/s/1nZxY1GTjA2Pg0s6G91CF4A?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1nZxY1GTjA2Pg0s6G91CF4A?pwd=5pun"
     },
     {
       "id": "r1509",
       "title": "2027语句表达千题册",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027语句表达千题册",
       "sources": [
@@ -25701,14 +25701,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027语句表达千题册 百度批量新增 百度网盘批量导入：2027语句表达千题册 6a6z baidu https://pan.baidu.com/s/1ltEepBR8V2o0QavzUt6O3A?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1ltEepBR8V2o0QavzUt6O3A?pwd=6a6z"
+      "searchText": "2027语句表达千题册 百度批量新增 百度网盘批量导入：2027语句表达千题册 5pun baidu https://pan.baidu.com/s/120_OGxptE3D6oV1luhk82w?pwd=5pun",
+      "url": "https://pan.baidu.com/s/120_OGxptE3D6oV1luhk82w?pwd=5pun"
     },
     {
       "id": "r1510",
       "title": "2027片段阅读千题册",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027片段阅读千题册",
       "sources": [
@@ -25718,14 +25718,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027片段阅读千题册 百度批量新增 百度网盘批量导入：2027片段阅读千题册 6a6z baidu https://pan.baidu.com/s/1Fy-IxSA7yb9e_Bp39v6ifA?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1Fy-IxSA7yb9e_Bp39v6ifA?pwd=6a6z"
+      "searchText": "2027片段阅读千题册 百度批量新增 百度网盘批量导入：2027片段阅读千题册 5pun baidu https://pan.baidu.com/s/13Dm-Fs3oOa6MAg-Z2zlVNA?pwd=5pun",
+      "url": "https://pan.baidu.com/s/13Dm-Fs3oOa6MAg-Z2zlVNA?pwd=5pun"
     },
     {
       "id": "r1511",
       "title": "2027李梦圆申论理筑根基课",
       "platform": "baidu",
-      "code": "v2ir",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027李梦圆申论理筑根基课",
       "sources": [
@@ -25735,14 +25735,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027李梦圆申论理筑根基课 百度批量新增 百度网盘批量导入：2027李梦圆申论理筑根基课 v2ir baidu https://pan.baidu.com/s/16U_JPu8Jp9Jm30AuV_hXqw?pwd=v2ir",
-      "url": "https://pan.baidu.com/s/16U_JPu8Jp9Jm30AuV_hXqw?pwd=v2ir"
+      "searchText": "2027李梦圆申论理筑根基课 百度批量新增 百度网盘批量导入：2027李梦圆申论理筑根基课 vfih baidu https://pan.baidu.com/s/1s6xbBs5NeJXpJrmCuzawEg?pwd=vfih",
+      "url": "https://pan.baidu.com/s/1s6xbBs5NeJXpJrmCuzawEg?pwd=vfih"
     },
     {
       "id": "r1512",
       "title": "2027李梦圆申论0圆精刷营",
       "platform": "baidu",
-      "code": "v2ir",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027李梦圆申论0圆精刷营",
       "sources": [
@@ -25752,14 +25752,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027李梦圆申论0圆精刷营 百度批量新增 百度网盘批量导入：2027李梦圆申论0圆精刷营 v2ir baidu https://pan.baidu.com/s/1hI4MGYGWkLQmKXusR4LuNg?pwd=v2ir",
-      "url": "https://pan.baidu.com/s/1hI4MGYGWkLQmKXusR4LuNg?pwd=v2ir"
+      "searchText": "2027李梦圆申论0圆精刷营 百度批量新增 百度网盘批量导入：2027李梦圆申论0圆精刷营 vfih baidu https://pan.baidu.com/s/1XKGTPeMDbGXiJxdCVMeVOA?pwd=vfih",
+      "url": "https://pan.baidu.com/s/1XKGTPeMDbGXiJxdCVMeVOA?pwd=vfih"
     },
     {
       "id": "r1513",
       "title": "2027年时政是条线理论课（小Y在日记）",
       "platform": "baidu",
-      "code": "ah3q",
+      "code": "ne8c",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027年时政是条线理论课（小Y在日记）",
       "sources": [
@@ -25769,8 +25769,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027年时政是条线理论课（小Y在日记） 百度批量新增 百度网盘批量导入：2027年时政是条线理论课（小Y在日记） ah3q baidu https://pan.baidu.com/s/1pgu5UYvpLpwic7T2xc1wQw?pwd=ah3q",
-      "url": "https://pan.baidu.com/s/1pgu5UYvpLpwic7T2xc1wQw?pwd=ah3q"
+      "searchText": "2027年时政是条线理论课（小Y在日记） 百度批量新增 百度网盘批量导入：2027年时政是条线理论课（小Y在日记） ne8c baidu https://pan.baidu.com/s/1OfcXi6MOpCyNJNMQesDkgg?pwd=ne8c",
+      "url": "https://pan.baidu.com/s/1OfcXi6MOpCyNJNMQesDkgg?pwd=ne8c"
     },
     {
       "id": "r1514",
@@ -25793,7 +25793,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1515",
       "title": "政治理论】2027超格璐璐马原带背刷题",
       "platform": "baidu",
-      "code": "v2ir",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：政治理论】2027超格璐璐马原带背刷题",
       "sources": [
@@ -25803,8 +25803,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "政治理论】2027超格璐璐马原带背刷题 百度批量新增 百度网盘批量导入：政治理论】2027超格璐璐马原带背刷题 v2ir baidu https://pan.baidu.com/s/1jyJ7INeetQlXCkx0bwspSQ?pwd=v2ir",
-      "url": "https://pan.baidu.com/s/1jyJ7INeetQlXCkx0bwspSQ?pwd=v2ir"
+      "searchText": "政治理论】2027超格璐璐马原带背刷题 百度批量新增 百度网盘批量导入：政治理论】2027超格璐璐马原带背刷题 vfih baidu https://pan.baidu.com/s/1P0rLe-WUGjOJS4D12qemLA?pwd=vfih",
+      "url": "https://pan.baidu.com/s/1P0rLe-WUGjOJS4D12qemLA?pwd=vfih"
     },
     {
       "id": "r1516",
@@ -25827,7 +25827,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1517",
       "title": "2027四海拾伊资料海海刷复盘",
       "platform": "baidu",
-      "code": "e36y",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027四海拾伊资料海海刷复盘",
       "sources": [
@@ -25837,8 +25837,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027四海拾伊资料海海刷复盘 百度批量新增 百度网盘批量导入：2027四海拾伊资料海海刷复盘 e36y baidu https://pan.baidu.com/s/17exobPtJOhT8Ss6RJi4M8w?pwd=e36y",
-      "url": "https://pan.baidu.com/s/17exobPtJOhT8Ss6RJi4M8w?pwd=e36y"
+      "searchText": "2027四海拾伊资料海海刷复盘 百度批量新增 百度网盘批量导入：2027四海拾伊资料海海刷复盘 vsd2 baidu https://pan.baidu.com/s/1rwUTW2LB9NNvENMVd-H2gw?pwd=vsd2",
+      "url": "https://pan.baidu.com/s/1rwUTW2LB9NNvENMVd-H2gw?pwd=vsd2"
     },
     {
       "id": "r1518",
@@ -25861,7 +25861,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1519",
       "title": "2027上岸村李陈定义判断方法论",
       "platform": "baidu",
-      "code": "v2ir",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸村李陈定义判断方法论",
       "sources": [
@@ -25871,8 +25871,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村李陈定义判断方法论 百度批量新增 百度网盘批量导入：2027上岸村李陈定义判断方法论 v2ir baidu https://pan.baidu.com/s/1O81sdI1DtOiCoUjpONyGOw?pwd=v2ir",
-      "url": "https://pan.baidu.com/s/1O81sdI1DtOiCoUjpONyGOw?pwd=v2ir"
+      "searchText": "2027上岸村李陈定义判断方法论 百度批量新增 百度网盘批量导入：2027上岸村李陈定义判断方法论 vfih baidu https://pan.baidu.com/s/11VBn1Bz_g9bnd4pdRHtSjA?pwd=vfih",
+      "url": "https://pan.baidu.com/s/11VBn1Bz_g9bnd4pdRHtSjA?pwd=vfih"
     },
     {
       "id": "r1520",
@@ -25895,7 +25895,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1521",
       "title": "2027上岸村林凡资料飞升200题",
       "platform": "baidu",
-      "code": "v2ir",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸村林凡资料飞升200题",
       "sources": [
@@ -25905,14 +25905,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村林凡资料飞升200题 百度批量新增 百度网盘批量导入：2027上岸村林凡资料飞升200题 v2ir baidu https://pan.baidu.com/s/1ByuO0SQaRLTtH8wc3Hj5EQ?pwd=v2ir",
-      "url": "https://pan.baidu.com/s/1ByuO0SQaRLTtH8wc3Hj5EQ?pwd=v2ir"
+      "searchText": "2027上岸村林凡资料飞升200题 百度批量新增 百度网盘批量导入：2027上岸村林凡资料飞升200题 vfih baidu https://pan.baidu.com/s/16e4uvpgUHb92-gExvuTXFg?pwd=vfih",
+      "url": "https://pan.baidu.com/s/16e4uvpgUHb92-gExvuTXFg?pwd=vfih"
     },
     {
       "id": "r1522",
       "title": "Y局政治理论绝技秘籍",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：Y局政治理论绝技秘籍",
       "sources": [
@@ -25922,14 +25922,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "Y局政治理论绝技秘籍 百度批量新增 百度网盘批量导入：Y局政治理论绝技秘籍 6a6z baidu https://pan.baidu.com/s/1LU7pYtA_3EX1MXk-plYicQ?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1LU7pYtA_3EX1MXk-plYicQ?pwd=6a6z"
+      "searchText": "Y局政治理论绝技秘籍 百度批量新增 百度网盘批量导入：Y局政治理论绝技秘籍 5pun baidu https://pan.baidu.com/s/1tf4dm25hg4DzgW3AMGQqKA?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1tf4dm25hg4DzgW3AMGQqKA?pwd=5pun"
     },
     {
       "id": "r1523",
       "title": "青青草原“刷题班”二期",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：青青草原“刷题班”二期",
       "sources": [
@@ -25939,14 +25939,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "青青草原“刷题班”二期 百度批量新增 百度网盘批量导入：青青草原“刷题班”二期 6a6z baidu https://pan.baidu.com/s/1XEAFcXBYAzx47q0EGTPIxw?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1XEAFcXBYAzx47q0EGTPIxw?pwd=6a6z"
+      "searchText": "青青草原“刷题班”二期 百度批量新增 百度网盘批量导入：青青草原“刷题班”二期 5pun baidu https://pan.baidu.com/s/1aJ9Q-2gm-P6uDuDAOCFbCw?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1aJ9Q-2gm-P6uDuDAOCFbCw?pwd=5pun"
     },
     {
       "id": "r1524",
       "title": "Y局DY直播视频录播系列（一）",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：Y局DY直播视频录播系列（一）",
       "sources": [
@@ -25956,14 +25956,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "Y局DY直播视频录播系列（一） 百度批量新增 百度网盘批量导入：Y局DY直播视频录播系列（一） 6a6z baidu https://pan.baidu.com/s/1dv1SG_PQUxleGbr99UMlxQ?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1dv1SG_PQUxleGbr99UMlxQ?pwd=6a6z"
+      "searchText": "Y局DY直播视频录播系列（一） 百度批量新增 百度网盘批量导入：Y局DY直播视频录播系列（一） 5pun baidu https://pan.baidu.com/s/1pSONnwGlTiOKAQNt0mMIjw?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1pSONnwGlTiOKAQNt0mMIjw?pwd=5pun"
     },
     {
       "id": "r1525",
       "title": "Y村通关刷题课一期",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：Y村通关刷题课一期",
       "sources": [
@@ -25973,14 +25973,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "Y村通关刷题课一期 百度批量新增 百度网盘批量导入：Y村通关刷题课一期 6a6z baidu https://pan.baidu.com/s/1qAwr_RkPnmyoo42CWh0EkQ?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1qAwr_RkPnmyoo42CWh0EkQ?pwd=6a6z"
+      "searchText": "Y村通关刷题课一期 百度批量新增 百度网盘批量导入：Y村通关刷题课一期 5pun baidu https://pan.baidu.com/s/13w4hJSR7UMzSrBe4-qfcJg?pwd=5pun",
+      "url": "https://pan.baidu.com/s/13w4hJSR7UMzSrBe4-qfcJg?pwd=5pun"
     },
     {
       "id": "r1526",
       "title": "青青草原“刷题班”三期",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：青青草原“刷题班”三期",
       "sources": [
@@ -25990,14 +25990,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "青青草原“刷题班”三期 百度批量新增 百度网盘批量导入：青青草原“刷题班”三期 6a6z baidu https://pan.baidu.com/s/1ZlwwFdJka8YKKj9HS1hRbA?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1ZlwwFdJka8YKKj9HS1hRbA?pwd=6a6z"
+      "searchText": "青青草原“刷题班”三期 百度批量新增 百度网盘批量导入：青青草原“刷题班”三期 5pun baidu https://pan.baidu.com/s/1Pn3u79435ofoROgqgFzSpQ?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1Pn3u79435ofoROgqgFzSpQ?pwd=5pun"
     },
     {
       "id": "r1527",
       "title": "Y村“小套题”一期",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：Y村“小套题”一期",
       "sources": [
@@ -26007,14 +26007,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "Y村“小套题”一期 百度批量新增 百度网盘批量导入：Y村“小套题”一期 6a6z baidu https://pan.baidu.com/s/1-F0x8hAKH4hX_npo9nHJQg?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1-F0x8hAKH4hX_npo9nHJQg?pwd=6a6z"
+      "searchText": "Y村“小套题”一期 百度批量新增 百度网盘批量导入：Y村“小套题”一期 5pun baidu https://pan.baidu.com/s/1iHvbyCBWd4fgzXkoXg0WJA?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1iHvbyCBWd4fgzXkoXg0WJA?pwd=5pun"
     },
     {
       "id": "r1528",
       "title": "2027羊圈圈不背成语600词",
       "platform": "baidu",
-      "code": "6a6z",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027羊圈圈不背成语600词",
       "sources": [
@@ -26024,14 +26024,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027羊圈圈不背成语600词 百度批量新增 百度网盘批量导入：2027羊圈圈不背成语600词 6a6z baidu https://pan.baidu.com/s/1wq8Lt0AHd8x_PaCB6X7tZA?pwd=6a6z",
-      "url": "https://pan.baidu.com/s/1wq8Lt0AHd8x_PaCB6X7tZA?pwd=6a6z"
+      "searchText": "2027羊圈圈不背成语600词 百度批量新增 百度网盘批量导入：2027羊圈圈不背成语600词 5pun baidu https://pan.baidu.com/s/1qVHeyox4swyBFx6yizeHyQ?pwd=5pun",
+      "url": "https://pan.baidu.com/s/1qVHeyox4swyBFx6yizeHyQ?pwd=5pun"
     },
     {
       "id": "r1529",
       "title": "2027李梦圆申论50题精刷营",
       "platform": "baidu",
-      "code": "ae9a",
+      "code": "7ctd",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027李梦圆申论50题精刷营",
       "sources": [
@@ -26041,8 +26041,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027李梦圆申论50题精刷营 百度批量新增 百度网盘批量导入：2027李梦圆申论50题精刷营 ae9a baidu https://pan.baidu.com/s/16k6zM0rrHeQagTcXBZLngw?pwd=ae9a",
-      "url": "https://pan.baidu.com/s/16k6zM0rrHeQagTcXBZLngw?pwd=ae9a"
+      "searchText": "2027李梦圆申论50题精刷营 百度批量新增 百度网盘批量导入：2027李梦圆申论50题精刷营 7ctd baidu https://pan.baidu.com/s/13clYZH6lOkMYdKi7Of3zPQ?pwd=7ctd",
+      "url": "https://pan.baidu.com/s/13clYZH6lOkMYdKi7Of3zPQ?pwd=7ctd"
     },
     {
       "id": "r1530",
@@ -26065,7 +26065,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1531",
       "title": "言语】2027四海柳岩逻辑填空12天带练领读计划",
       "platform": "baidu",
-      "code": "v2ir",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：言语】2027四海柳岩逻辑填空12天带练领读计划",
       "sources": [
@@ -26075,15 +26075,15 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "言语】2027四海柳岩逻辑填空12天带练领读计划 百度批量新增 百度网盘批量导入：言语】2027四海柳岩逻辑填空12天带练领读计划 v2ir baidu https://pan.baidu.com/s/19IwB2Xr7DlqK3QAhDkRanA?pwd=v2ir",
-      "url": "https://pan.baidu.com/s/19IwB2Xr7DlqK3QAhDkRanA?pwd=v2ir"
+      "searchText": "言语】2027四海柳岩逻辑填空12天带练领读计划 百度批量新增 百度网盘批量导入：言语】2027四海柳岩逻辑填空12天带练领读计划 vfih baidu https://pan.baidu.com/s/1Nu6yPa3Ao_5NE8ufpY6glg?pwd=vfih",
+      "url": "https://pan.baidu.com/s/1Nu6yPa3Ao_5NE8ufpY6glg?pwd=vfih"
     },
     {
       "id": "r1532",
       "title": "政治理论】2027超哥政治理论时政热点小锦囊",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1ih9xeBK9CorRA1tPPoBpeg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/18-nRt8jiy_iA-D22vhjhnA?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：政治理论】2027超哥政治理论时政热点小锦囊",
       "sources": [
@@ -26093,14 +26093,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "政治理论】2027超哥政治理论时政热点小锦囊 百度批量新增 百度网盘批量导入：政治理论】2027超哥政治理论时政热点小锦囊 v2ir baidu https://pan.baidu.com/s/1ih9xeBK9CorRA1tPPoBpeg?pwd=v2ir"
+      "searchText": "政治理论】2027超哥政治理论时政热点小锦囊 百度批量新增 百度网盘批量导入：政治理论】2027超哥政治理论时政热点小锦囊 vfih baidu https://pan.baidu.com/s/18-nRt8jiy_iA-D22vhjhnA?pwd=vfih"
     },
     {
       "id": "r1533",
       "title": "政治理论】2027超哥政治理论时政热点小锦囊",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/18BjAN6SM8_-q5RUvCELN7Q?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1OJT98PLcRNdrZkyBKOoZ_g?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：政治理论】2027超哥政治理论时政热点小锦囊",
       "sources": [
@@ -26110,7 +26110,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "政治理论】2027超哥政治理论时政热点小锦囊 百度批量新增 百度网盘批量导入：政治理论】2027超哥政治理论时政热点小锦囊 e36y baidu https://pan.baidu.com/s/18BjAN6SM8_-q5RUvCELN7Q?pwd=e36y"
+      "searchText": "政治理论】2027超哥政治理论时政热点小锦囊 百度批量新增 百度网盘批量导入：政治理论】2027超哥政治理论时政热点小锦囊 vsd2 baidu https://pan.baidu.com/s/1OJT98PLcRNdrZkyBKOoZ_g?pwd=vsd2"
     },
     {
       "id": "r1534",
@@ -26133,8 +26133,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1535",
       "title": "政治理论】2027超格璐璐马原带背刷题",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1d2h-rwft5dePRHaTv3ufcw?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/10OESs2tOxRKI2wiPi5brkg?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：政治理论】2027超格璐璐马原带背刷题",
       "sources": [
@@ -26144,14 +26144,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "政治理论】2027超格璐璐马原带背刷题 百度批量新增 百度网盘批量导入：政治理论】2027超格璐璐马原带背刷题 e36y baidu https://pan.baidu.com/s/1d2h-rwft5dePRHaTv3ufcw?pwd=e36y"
+      "searchText": "政治理论】2027超格璐璐马原带背刷题 百度批量新增 百度网盘批量导入：政治理论】2027超格璐璐马原带背刷题 vsd2 baidu https://pan.baidu.com/s/10OESs2tOxRKI2wiPi5brkg?pwd=vsd2"
     },
     {
       "id": "r1536",
       "title": "时政】2026小黑全年时政",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1UWnC3G8T3Q48W_w-d-j5Kw?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1kivFX5W2pioNHVIqaivdlg?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：时政】2026小黑全年时政",
       "sources": [
@@ -26161,14 +26161,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "时政】2026小黑全年时政 百度批量新增 百度网盘批量导入：时政】2026小黑全年时政 e36y baidu https://pan.baidu.com/s/1UWnC3G8T3Q48W_w-d-j5Kw?pwd=e36y"
+      "searchText": "时政】2026小黑全年时政 百度批量新增 百度网盘批量导入：时政】2026小黑全年时政 vsd2 baidu https://pan.baidu.com/s/1kivFX5W2pioNHVIqaivdlg?pwd=vsd2"
     },
     {
       "id": "r1537",
       "title": "X 薛睿（MBA大师）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1Ctu44MROr3bT4KSZgSKDsw?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1BTj0FSpxPWur28MjCnMKSw?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：X 薛睿（MBA大师）",
       "sources": [
@@ -26178,14 +26178,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "X 薛睿（MBA大师） 百度批量新增 百度网盘批量导入：X 薛睿（MBA大师） e36y baidu https://pan.baidu.com/s/1Ctu44MROr3bT4KSZgSKDsw?pwd=e36y"
+      "searchText": "X 薛睿（MBA大师） 百度批量新增 百度网盘批量导入：X 薛睿（MBA大师） vsd2 baidu https://pan.baidu.com/s/1BTj0FSpxPWur28MjCnMKSw?pwd=vsd2"
     },
     {
       "id": "r1538",
       "title": "2027上岸村兰亭论道综A理论筑基",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1oVrvpZEwOfEpd-dyzO0ZcQ?pwd=ect4",
-      "code": "ect4",
+      "url": "https://pan.baidu.com/s/15_tYq0MjTzr_-kjibNQ1jA?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸村兰亭论道综A理论筑基",
       "sources": [
@@ -26195,14 +26195,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村兰亭论道综A理论筑基 百度批量新增 百度网盘批量导入：2027上岸村兰亭论道综A理论筑基 ect4 baidu https://pan.baidu.com/s/1oVrvpZEwOfEpd-dyzO0ZcQ?pwd=ect4"
+      "searchText": "2027上岸村兰亭论道综A理论筑基 百度批量新增 百度网盘批量导入：2027上岸村兰亭论道综A理论筑基 vsd2 baidu https://pan.baidu.com/s/15_tYq0MjTzr_-kjibNQ1jA?pwd=vsd2"
     },
     {
       "id": "r1539",
       "title": "H 海绵公考",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1j-h-vdiOn0sPmhd4RrZCYg?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1KUF-LvHLMskfi9RKIMswkg?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：H 海绵公考",
       "sources": [
@@ -26212,14 +26212,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "H 海绵公考 百度批量新增 百度网盘批量导入：H 海绵公考 e36y baidu https://pan.baidu.com/s/1j-h-vdiOn0sPmhd4RrZCYg?pwd=e36y"
+      "searchText": "H 海绵公考 百度批量新增 百度网盘批量导入：H 海绵公考 vsd2 baidu https://pan.baidu.com/s/1KUF-LvHLMskfi9RKIMswkg?pwd=vsd2"
     },
     {
       "id": "r1540",
       "title": "2027国省考季花生十三飞扬系统班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1GXPNT7AJSG8hJy7CXsjPJg?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/17wGgXpGDJ9jQf-6xwGKPXg?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027国省考季花生十三飞扬系统班",
       "sources": [
@@ -26229,7 +26229,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027国省考季花生十三飞扬系统班 百度批量新增 百度网盘批量导入：2027国省考季花生十三飞扬系统班 e36y baidu https://pan.baidu.com/s/1GXPNT7AJSG8hJy7CXsjPJg?pwd=e36y"
+      "searchText": "2027国省考季花生十三飞扬系统班 百度批量新增 百度网盘批量导入：2027国省考季花生十三飞扬系统班 vsd2 baidu https://pan.baidu.com/s/17wGgXpGDJ9jQf-6xwGKPXg?pwd=vsd2"
     },
     {
       "id": "r1541",
@@ -26269,8 +26269,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1543",
       "title": "2027上岸村李陈定义判断方法论",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1Dqvoyrg4q4tE7i2poteWqQ?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1Gurfd1-f35B11t8vLxOgtQ?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸村李陈定义判断方法论",
       "sources": [
@@ -26280,14 +26280,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村李陈定义判断方法论 百度批量新增 百度网盘批量导入：2027上岸村李陈定义判断方法论 e36y baidu https://pan.baidu.com/s/1Dqvoyrg4q4tE7i2poteWqQ?pwd=e36y"
+      "searchText": "2027上岸村李陈定义判断方法论 百度批量新增 百度网盘批量导入：2027上岸村李陈定义判断方法论 vsd2 baidu https://pan.baidu.com/s/1Gurfd1-f35B11t8vLxOgtQ?pwd=vsd2"
     },
     {
       "id": "r1544",
       "title": "2027四海拾伊数量基础理论课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1kBQSz3_ErMsHxXeOBnnz8Q?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1Zd56OTF_dudWjDW946t2Gw?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027四海拾伊数量基础理论课",
       "sources": [
@@ -26297,14 +26297,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027四海拾伊数量基础理论课 百度批量新增 百度网盘批量导入：2027四海拾伊数量基础理论课 v2ir baidu https://pan.baidu.com/s/1kBQSz3_ErMsHxXeOBnnz8Q?pwd=v2ir"
+      "searchText": "2027四海拾伊数量基础理论课 百度批量新增 百度网盘批量导入：2027四海拾伊数量基础理论课 vfih baidu https://pan.baidu.com/s/1Zd56OTF_dudWjDW946t2Gw?pwd=vfih"
     },
     {
       "id": "r1545",
       "title": "2027四海拾伊数量基础理论课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1ZcNP-YQRmzqOm9OM1GCCTA?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1e5TbpDr16_ALoqCBVBmctQ?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027四海拾伊数量基础理论课",
       "sources": [
@@ -26314,14 +26314,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027四海拾伊数量基础理论课 百度批量新增 百度网盘批量导入：2027四海拾伊数量基础理论课 e36y baidu https://pan.baidu.com/s/1ZcNP-YQRmzqOm9OM1GCCTA?pwd=e36y"
+      "searchText": "2027四海拾伊数量基础理论课 百度批量新增 百度网盘批量导入：2027四海拾伊数量基础理论课 vsd2 baidu https://pan.baidu.com/s/1e5TbpDr16_ALoqCBVBmctQ?pwd=vsd2"
     },
     {
       "id": "r1546",
       "title": "政治常识】2027国省事考小黑政治理论常识全家桶",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1q3z3E6eMJQ2fTazmgi8mAw?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1SEcnf7We0_b64JWviFkFIw?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：政治常识】2027国省事考小黑政治理论常识全家桶",
       "sources": [
@@ -26331,14 +26331,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "政治常识】2027国省事考小黑政治理论常识全家桶 百度批量新增 百度网盘批量导入：政治常识】2027国省事考小黑政治理论常识全家桶 e36y baidu https://pan.baidu.com/s/1q3z3E6eMJQ2fTazmgi8mAw?pwd=e36y"
+      "searchText": "政治常识】2027国省事考小黑政治理论常识全家桶 百度批量新增 百度网盘批量导入：政治常识】2027国省事考小黑政治理论常识全家桶 vsd2 baidu https://pan.baidu.com/s/1SEcnf7We0_b64JWviFkFIw?pwd=vsd2"
     },
     {
       "id": "r1547",
       "title": "政治理论】2027超哥国省考政治理论刷题课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1hlikA4Jewmcez5i4W9oMOQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1vJqeMIri5stX6kUkHnkChg?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：政治理论】2027超哥国省考政治理论刷题课",
       "sources": [
@@ -26348,14 +26348,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "政治理论】2027超哥国省考政治理论刷题课 百度批量新增 百度网盘批量导入：政治理论】2027超哥国省考政治理论刷题课 v2ir baidu https://pan.baidu.com/s/1hlikA4Jewmcez5i4W9oMOQ?pwd=v2ir"
+      "searchText": "政治理论】2027超哥国省考政治理论刷题课 百度批量新增 百度网盘批量导入：政治理论】2027超哥国省考政治理论刷题课 vfih baidu https://pan.baidu.com/s/1vJqeMIri5stX6kUkHnkChg?pwd=vfih"
     },
     {
       "id": "r1548",
       "title": "政治理论】2027超哥国省考政治理论刷题课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1P0mkXbFUmn8VWXP0t4doPQ?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1k8o_kynoMm-K1j_L-skv_w?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：政治理论】2027超哥国省考政治理论刷题课",
       "sources": [
@@ -26365,14 +26365,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "政治理论】2027超哥国省考政治理论刷题课 百度批量新增 百度网盘批量导入：政治理论】2027超哥国省考政治理论刷题课 e36y baidu https://pan.baidu.com/s/1P0mkXbFUmn8VWXP0t4doPQ?pwd=e36y"
+      "searchText": "政治理论】2027超哥国省考政治理论刷题课 百度批量新增 百度网盘批量导入：政治理论】2027超哥国省考政治理论刷题课 vsd2 baidu https://pan.baidu.com/s/1k8o_kynoMm-K1j_L-skv_w?pwd=vsd2"
     },
     {
       "id": "r1549",
       "title": "2027国省考季四海公考行测海海刷1期",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/16GLyTJYSc-6okHIuq4DLzw?pwd=ect4",
-      "code": "ect4",
+      "url": "https://pan.baidu.com/s/1H1XBUlJusqyHiqGaWwxGag?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027国省考季四海公考行测海海刷1期",
       "sources": [
@@ -26382,14 +26382,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027国省考季四海公考行测海海刷1期 百度批量新增 百度网盘批量导入：2027国省考季四海公考行测海海刷1期 ect4 baidu https://pan.baidu.com/s/16GLyTJYSc-6okHIuq4DLzw?pwd=ect4"
+      "searchText": "2027国省考季四海公考行测海海刷1期 百度批量新增 百度网盘批量导入：2027国省考季四海公考行测海海刷1期 vsd2 baidu https://pan.baidu.com/s/1H1XBUlJusqyHiqGaWwxGag?pwd=vsd2"
     },
     {
       "id": "r1550",
       "title": "2027上岸村林凡资料飞升200题",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1PcQgM36psZe7XR-j1GroJA?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/14cpkWZ26vYdKAGKy41uFtw?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸村林凡资料飞升200题",
       "sources": [
@@ -26399,14 +26399,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村林凡资料飞升200题 百度批量新增 百度网盘批量导入：2027上岸村林凡资料飞升200题 e36y baidu https://pan.baidu.com/s/1PcQgM36psZe7XR-j1GroJA?pwd=e36y"
+      "searchText": "2027上岸村林凡资料飞升200题 百度批量新增 百度网盘批量导入：2027上岸村林凡资料飞升200题 vsd2 baidu https://pan.baidu.com/s/14cpkWZ26vYdKAGKy41uFtw?pwd=vsd2"
     },
     {
       "id": "r1551",
       "title": "时政】2025小黑全年时政【zg+上岸村",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1mKhOQjDiKvyYK-z8SKEhHg?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/12wIqm3aQV8ys9PZt_uGIRw?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：时政】2025小黑全年时政【zg+上岸村",
       "sources": [
@@ -26416,14 +26416,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "时政】2025小黑全年时政【zg+上岸村 百度批量新增 百度网盘批量导入：时政】2025小黑全年时政【zg+上岸村 e36y baidu https://pan.baidu.com/s/1mKhOQjDiKvyYK-z8SKEhHg?pwd=e36y"
+      "searchText": "时政】2025小黑全年时政【zg+上岸村 百度批量新增 百度网盘批量导入：时政】2025小黑全年时政【zg+上岸村 vsd2 baidu https://pan.baidu.com/s/12wIqm3aQV8ys9PZt_uGIRw?pwd=vsd2"
     },
     {
       "id": "r1552",
       "title": "言语】2027雨菲言语图文带背800词",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1evF7yNZ9meqdJ17VQYwjOw?pwd=ujvf",
-      "code": "ujvf",
+      "url": "https://pan.baidu.com/s/1ln3OJR4AAxWGd52GR5bD_Q?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：言语】2027雨菲言语图文带背800词",
       "sources": [
@@ -26433,14 +26433,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "言语】2027雨菲言语图文带背800词 百度批量新增 百度网盘批量导入：言语】2027雨菲言语图文带背800词 ujvf baidu https://pan.baidu.com/s/1evF7yNZ9meqdJ17VQYwjOw?pwd=ujvf"
+      "searchText": "言语】2027雨菲言语图文带背800词 百度批量新增 百度网盘批量导入：言语】2027雨菲言语图文带背800词 vfih baidu https://pan.baidu.com/s/1ln3OJR4AAxWGd52GR5bD_Q?pwd=vfih"
     },
     {
       "id": "r1553",
       "title": "2027国省考大懒猫言语理论课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1hgKBncwFT5kiOTve_0LigQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1lUbVTYMZOh-2pxmbLzfD7g?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027国省考大懒猫言语理论课",
       "sources": [
@@ -26450,14 +26450,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027国省考大懒猫言语理论课 百度批量新增 百度网盘批量导入：2027国省考大懒猫言语理论课 v2ir baidu https://pan.baidu.com/s/1hgKBncwFT5kiOTve_0LigQ?pwd=v2ir"
+      "searchText": "2027国省考大懒猫言语理论课 百度批量新增 百度网盘批量导入：2027国省考大懒猫言语理论课 vfih baidu https://pan.baidu.com/s/1lUbVTYMZOh-2pxmbLzfD7g?pwd=vfih"
     },
     {
       "id": "r1554",
       "title": "2027国考大懒猫言语刷题课一期",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1etS-CLYJz0h-BIZLHecq2w?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1IaAewLMLZ0khQUlwp6hAZw?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027国考大懒猫言语刷题课一期",
       "sources": [
@@ -26467,7 +26467,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027国考大懒猫言语刷题课一期 百度批量新增 百度网盘批量导入：2027国考大懒猫言语刷题课一期 v2ir baidu https://pan.baidu.com/s/1etS-CLYJz0h-BIZLHecq2w?pwd=v2ir"
+      "searchText": "2027国考大懒猫言语刷题课一期 百度批量新增 百度网盘批量导入：2027国考大懒猫言语刷题课一期 vfih baidu https://pan.baidu.com/s/1IaAewLMLZ0khQUlwp6hAZw?pwd=vfih"
     },
     {
       "id": "r1555",
@@ -26490,8 +26490,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1556",
       "title": "2027王永恒资料分析三合一理论体系课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1DJnO1QsyXY9L71SRAG02Gw?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1jkGEJneolzIJDJGMnsenBw?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027王永恒资料分析三合一理论体系课",
       "sources": [
@@ -26501,7 +26501,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027王永恒资料分析三合一理论体系课 百度批量新增 百度网盘批量导入：2027王永恒资料分析三合一理论体系课 v2ir baidu https://pan.baidu.com/s/1DJnO1QsyXY9L71SRAG02Gw?pwd=v2ir"
+      "searchText": "2027王永恒资料分析三合一理论体系课 百度批量新增 百度网盘批量导入：2027王永恒资料分析三合一理论体系课 vfih baidu https://pan.baidu.com/s/1jkGEJneolzIJDJGMnsenBw?pwd=vfih"
     },
     {
       "id": "r1557",
@@ -26524,8 +26524,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1558",
       "title": "2027薛睿公考逻辑必刷678题",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1-MJXu6bmII3thOQOnQSsEQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1IgQmOuNkz4Ej8ssp-C0cGA?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027薛睿公考逻辑必刷678题",
       "sources": [
@@ -26535,14 +26535,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027薛睿公考逻辑必刷678题 百度批量新增 百度网盘批量导入：2027薛睿公考逻辑必刷678题 v2ir baidu https://pan.baidu.com/s/1-MJXu6bmII3thOQOnQSsEQ?pwd=v2ir"
+      "searchText": "2027薛睿公考逻辑必刷678题 百度批量新增 百度网盘批量导入：2027薛睿公考逻辑必刷678题 vfih baidu https://pan.baidu.com/s/1IgQmOuNkz4Ej8ssp-C0cGA?pwd=vfih"
     },
     {
       "id": "r1559",
       "title": "2027龙飞百大图形推理",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1D6QvhJ8jAN_5tExqvGfEmA?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1HDvvskEauga2w4bWziZmbQ?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027龙飞百大图形推理",
       "sources": [
@@ -26552,14 +26552,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027龙飞百大图形推理 百度批量新增 百度网盘批量导入：2027龙飞百大图形推理 v2ir baidu https://pan.baidu.com/s/1D6QvhJ8jAN_5tExqvGfEmA?pwd=v2ir"
+      "searchText": "2027龙飞百大图形推理 百度批量新增 百度网盘批量导入：2027龙飞百大图形推理 vfih baidu https://pan.baidu.com/s/1HDvvskEauga2w4bWziZmbQ?pwd=vfih"
     },
     {
       "id": "r1560",
       "title": "2027上岸村林凡资料分析筑基11层",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/15naDV3MQVs2XJecLUAgt0w?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1BgxY3-ho8jUytvdMknvvGA?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸村林凡资料分析筑基11层",
       "sources": [
@@ -26569,14 +26569,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村林凡资料分析筑基11层 百度批量新增 百度网盘批量导入：2027上岸村林凡资料分析筑基11层 v2ir baidu https://pan.baidu.com/s/15naDV3MQVs2XJecLUAgt0w?pwd=v2ir"
+      "searchText": "2027上岸村林凡资料分析筑基11层 百度批量新增 百度网盘批量导入：2027上岸村林凡资料分析筑基11层 vfih baidu https://pan.baidu.com/s/1BgxY3-ho8jUytvdMknvvGA?pwd=vfih"
     },
     {
       "id": "r1561",
       "title": "2027苏金朋判断推理系统课（图推逻辑类比定义）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/18agDhxf_vrhN-5Ramt-1KQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1oTSUqCyaq4BYM316N8_phg?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027苏金朋判断推理系统课（图推逻辑类比定义）",
       "sources": [
@@ -26586,14 +26586,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027苏金朋判断推理系统课（图推逻辑类比定义） 百度批量新增 百度网盘批量导入：2027苏金朋判断推理系统课（图推逻辑类比定义） v2ir baidu https://pan.baidu.com/s/18agDhxf_vrhN-5Ramt-1KQ?pwd=v2ir"
+      "searchText": "2027苏金朋判断推理系统课（图推逻辑类比定义） 百度批量新增 百度网盘批量导入：2027苏金朋判断推理系统课（图推逻辑类比定义） vfih baidu https://pan.baidu.com/s/1oTSUqCyaq4BYM316N8_phg?pwd=vfih"
     },
     {
       "id": "r1562",
       "title": "2027陈怀安行测圣经判断推理系统课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1SJDtu8omiQ4Rt6jSiGMX8Q?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1y6uJym3NV9qseQgN2i9pCg?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027陈怀安行测圣经判断推理系统课",
       "sources": [
@@ -26603,7 +26603,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027陈怀安行测圣经判断推理系统课 百度批量新增 百度网盘批量导入：2027陈怀安行测圣经判断推理系统课 v2ir baidu https://pan.baidu.com/s/1SJDtu8omiQ4Rt6jSiGMX8Q?pwd=v2ir"
+      "searchText": "2027陈怀安行测圣经判断推理系统课 百度批量新增 百度网盘批量导入：2027陈怀安行测圣经判断推理系统课 vfih baidu https://pan.baidu.com/s/1y6uJym3NV9qseQgN2i9pCg?pwd=vfih"
     },
     {
       "id": "r1563",
@@ -26626,8 +26626,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1564",
       "title": "2027考季大懒猫言语刷刷刷直播课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1BGWBPCEhvrUKJB8z_YNk4g?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1lPpmbA49pgWejNJqv-YZ1w?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027考季大懒猫言语刷刷刷直播课",
       "sources": [
@@ -26637,7 +26637,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027考季大懒猫言语刷刷刷直播课 百度批量新增 百度网盘批量导入：2027考季大懒猫言语刷刷刷直播课 v2ir baidu https://pan.baidu.com/s/1BGWBPCEhvrUKJB8z_YNk4g?pwd=v2ir"
+      "searchText": "2027考季大懒猫言语刷刷刷直播课 百度批量新增 百度网盘批量导入：2027考季大懒猫言语刷刷刷直播课 vfih baidu https://pan.baidu.com/s/1lPpmbA49pgWejNJqv-YZ1w?pwd=vfih"
     },
     {
       "id": "r1565",
@@ -26660,8 +26660,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1566",
       "title": "数资】2027牟立志数资夜生活",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1RAsd4_g_MvvdRpxtGT2G1A?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/112c1CS9jRnNhdpuuwt1NCQ?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：数资】2027牟立志数资夜生活",
       "sources": [
@@ -26671,14 +26671,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "数资】2027牟立志数资夜生活 百度批量新增 百度网盘批量导入：数资】2027牟立志数资夜生活 v2ir baidu https://pan.baidu.com/s/1RAsd4_g_MvvdRpxtGT2G1A?pwd=v2ir"
+      "searchText": "数资】2027牟立志数资夜生活 百度批量新增 百度网盘批量导入：数资】2027牟立志数资夜生活 vfih baidu https://pan.baidu.com/s/112c1CS9jRnNhdpuuwt1NCQ?pwd=vfih"
     },
     {
       "id": "r1567",
       "title": "2027薛睿国省事考图形推理24决",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1G2NehDDNyqYKPmxKec58Ww?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/19objMYPlisCzSVvP_2Xwmg?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027薛睿国省事考图形推理24决",
       "sources": [
@@ -26688,14 +26688,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027薛睿国省事考图形推理24决 百度批量新增 百度网盘批量导入：2027薛睿国省事考图形推理24决 v2ir baidu https://pan.baidu.com/s/1G2NehDDNyqYKPmxKec58Ww?pwd=v2ir"
+      "searchText": "2027薛睿国省事考图形推理24决 百度批量新增 百度网盘批量导入：2027薛睿国省事考图形推理24决 vfih baidu https://pan.baidu.com/s/19objMYPlisCzSVvP_2Xwmg?pwd=vfih"
     },
     {
       "id": "r1568",
       "title": "言语】2027雨菲言语选词填空大满贯",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1xZe7WJTpeTeO6P6dZ7s-SQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1WBklk8gbkaOfhOqGTf5ANw?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：言语】2027雨菲言语选词填空大满贯",
       "sources": [
@@ -26705,7 +26705,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "言语】2027雨菲言语选词填空大满贯 百度批量新增 百度网盘批量导入：言语】2027雨菲言语选词填空大满贯 v2ir baidu https://pan.baidu.com/s/1xZe7WJTpeTeO6P6dZ7s-SQ?pwd=v2ir"
+      "searchText": "言语】2027雨菲言语选词填空大满贯 百度批量新增 百度网盘批量导入：言语】2027雨菲言语选词填空大满贯 vfih baidu https://pan.baidu.com/s/1WBklk8gbkaOfhOqGTf5ANw?pwd=vfih"
     },
     {
       "id": "r1569",
@@ -26745,8 +26745,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1571",
       "title": "2027上岸村天琦申论大作文技巧课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1VvmqzTXJy8HkKb_L93ab6w?pwd=ujvf",
-      "code": "ujvf",
+      "url": "https://pan.baidu.com/s/1LyWxoYdZHmwgeA42JY-1Fw?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸村天琦申论大作文技巧课",
       "sources": [
@@ -26756,14 +26756,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村天琦申论大作文技巧课 百度批量新增 百度网盘批量导入：2027上岸村天琦申论大作文技巧课 ujvf baidu https://pan.baidu.com/s/1VvmqzTXJy8HkKb_L93ab6w?pwd=ujvf"
+      "searchText": "2027上岸村天琦申论大作文技巧课 百度批量新增 百度网盘批量导入：2027上岸村天琦申论大作文技巧课 vfih baidu https://pan.baidu.com/s/1LyWxoYdZHmwgeA42JY-1Fw?pwd=vfih"
     },
     {
       "id": "r1572",
       "title": "2027国考李小北申论系统班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/19a35532HZ78J78TIhKPYTw?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1Vkn78gPyAAc9JYvAe41Ebw?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027国考李小北申论系统班",
       "sources": [
@@ -26773,14 +26773,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027国考李小北申论系统班 百度批量新增 百度网盘批量导入：2027国考李小北申论系统班 v2ir baidu https://pan.baidu.com/s/19a35532HZ78J78TIhKPYTw?pwd=v2ir"
+      "searchText": "2027国考李小北申论系统班 百度批量新增 百度网盘批量导入：2027国考李小北申论系统班 vfih baidu https://pan.baidu.com/s/1Vkn78gPyAAc9JYvAe41Ebw?pwd=vfih"
     },
     {
       "id": "r1573",
       "title": "2027李梦圆申论50题精刷营",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/12BCWRLTLVdq0CFIG9afOwA?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1iHogQKgR6ZbgKStXjH-5_g?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027李梦圆申论50题精刷营",
       "sources": [
@@ -26790,14 +26790,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027李梦圆申论50题精刷营 百度批量新增 百度网盘批量导入：2027李梦圆申论50题精刷营 v2ir baidu https://pan.baidu.com/s/12BCWRLTLVdq0CFIG9afOwA?pwd=v2ir"
+      "searchText": "2027李梦圆申论50题精刷营 百度批量新增 百度网盘批量导入：2027李梦圆申论50题精刷营 vfih baidu https://pan.baidu.com/s/1iHogQKgR6ZbgKStXjH-5_g?pwd=vfih"
     },
     {
       "id": "r1574",
       "title": "2027年时政是条线理论课（小Y在日记）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1EYyNk01zxrIn3ZXKcRAuxA?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/15QqcXNkRqgTAeWTr-J7QDQ?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027年时政是条线理论课（小Y在日记）",
       "sources": [
@@ -26807,14 +26807,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027年时政是条线理论课（小Y在日记） 百度批量新增 百度网盘批量导入：2027年时政是条线理论课（小Y在日记） v2ir baidu https://pan.baidu.com/s/1EYyNk01zxrIn3ZXKcRAuxA?pwd=v2ir"
+      "searchText": "2027年时政是条线理论课（小Y在日记） 百度批量新增 百度网盘批量导入：2027年时政是条线理论课（小Y在日记） vfih baidu https://pan.baidu.com/s/15QqcXNkRqgTAeWTr-J7QDQ?pwd=vfih"
     },
     {
       "id": "r1575",
       "title": "申论】2027站长申论基础班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1rp7TmjrzKqbVbS86jIVYFw?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/19KMwzlhRQtn-Qq5UjVt4DA?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：申论】2027站长申论基础班",
       "sources": [
@@ -26824,7 +26824,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "申论】2027站长申论基础班 百度批量新增 百度网盘批量导入：申论】2027站长申论基础班 v2ir baidu https://pan.baidu.com/s/1rp7TmjrzKqbVbS86jIVYFw?pwd=v2ir"
+      "searchText": "申论】2027站长申论基础班 百度批量新增 百度网盘批量导入：申论】2027站长申论基础班 vfih baidu https://pan.baidu.com/s/19KMwzlhRQtn-Qq5UjVt4DA?pwd=vfih"
     },
     {
       "id": "r1576",
@@ -26847,8 +26847,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1577",
       "title": "2027年袁东申论套题实战班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1K-oJBZTUqooRB0kf5-z0yg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1eoSZR0SuOYKg6Na6aSoNXg?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027年袁东申论套题实战班",
       "sources": [
@@ -26858,7 +26858,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027年袁东申论套题实战班 百度批量新增 百度网盘批量导入：2027年袁东申论套题实战班 v2ir baidu https://pan.baidu.com/s/1K-oJBZTUqooRB0kf5-z0yg?pwd=v2ir"
+      "searchText": "2027年袁东申论套题实战班 百度批量新增 百度网盘批量导入：2027年袁东申论套题实战班 vfih baidu https://pan.baidu.com/s/1eoSZR0SuOYKg6Na6aSoNXg?pwd=vfih"
     },
     {
       "id": "r1578",
@@ -26949,8 +26949,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1583",
       "title": "行测申论】2027超格行测+申论（五合一）超大杯刷题营（精讲桶）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1SK6zojW_3lmsSi9OVm-qGQ?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1UxDcOgF3-42c-irdmQs_8Q?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：行测申论】2027超格行测+申论（五合一）超大杯刷题营（精讲桶）",
       "sources": [
@@ -26960,14 +26960,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论（五合一）超大杯刷题营（精讲桶） 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（五合一）超大杯刷题营（精讲桶） e36y baidu https://pan.baidu.com/s/1SK6zojW_3lmsSi9OVm-qGQ?pwd=e36y"
+      "searchText": "行测申论】2027超格行测+申论（五合一）超大杯刷题营（精讲桶） 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（五合一）超大杯刷题营（精讲桶） vsd2 baidu https://pan.baidu.com/s/1UxDcOgF3-42c-irdmQs_8Q?pwd=vsd2"
     },
     {
       "id": "r1584",
       "title": "行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题（实战桶）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1xnZBmP1lvv_dTZsseatT7w?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1CLmhGNfO3nUMScfT6BOR4Q?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题（实战桶）",
       "sources": [
@@ -26977,14 +26977,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题（实战桶） 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题（实战桶） e36y baidu https://pan.baidu.com/s/1xnZBmP1lvv_dTZsseatT7w?pwd=e36y"
+      "searchText": "行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题（实战桶） 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题（实战桶） vsd2 baidu https://pan.baidu.com/s/1CLmhGNfO3nUMScfT6BOR4Q?pwd=vsd2"
     },
     {
       "id": "r1585",
       "title": "行政执法】2027超格阿萌省考行政执法专业课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1DDizTIU7JJWGTLJqg1Usvw?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1Q_rXVqNZ_pnqAoOmnra-Lw?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：行政执法】2027超格阿萌省考行政执法专业课",
       "sources": [
@@ -26994,14 +26994,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "行政执法】2027超格阿萌省考行政执法专业课 百度批量新增 百度网盘批量导入：行政执法】2027超格阿萌省考行政执法专业课 v2ir baidu https://pan.baidu.com/s/1DDizTIU7JJWGTLJqg1Usvw?pwd=v2ir"
+      "searchText": "行政执法】2027超格阿萌省考行政执法专业课 百度批量新增 百度网盘批量导入：行政执法】2027超格阿萌省考行政执法专业课 vfih baidu https://pan.baidu.com/s/1Q_rXVqNZ_pnqAoOmnra-Lw?pwd=vfih"
     },
     {
       "id": "r1586",
       "title": "行政执法】2027超格阿萌省考行政执法专业课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1NSe4WBO5nq2T0CZ9FXoviQ?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1qwkYX4Xf9xI7w5SOzM68JA?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：行政执法】2027超格阿萌省考行政执法专业课",
       "sources": [
@@ -27011,14 +27011,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "行政执法】2027超格阿萌省考行政执法专业课 百度批量新增 百度网盘批量导入：行政执法】2027超格阿萌省考行政执法专业课 e36y baidu https://pan.baidu.com/s/1NSe4WBO5nq2T0CZ9FXoviQ?pwd=e36y"
+      "searchText": "行政执法】2027超格阿萌省考行政执法专业课 百度批量新增 百度网盘批量导入：行政执法】2027超格阿萌省考行政执法专业课 vsd2 baidu https://pan.baidu.com/s/1qwkYX4Xf9xI7w5SOzM68JA?pwd=vsd2"
     },
     {
       "id": "r1587",
       "title": "行测申论】2027超格行测+申论（五合一）酷酷刷刷题营（实战桶）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1_-6E56DChMVxK0cKoXO79w?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1IEIqjtPrJR6lf8msqbEnhg?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：行测申论】2027超格行测+申论（五合一）酷酷刷刷题营（实战桶）",
       "sources": [
@@ -27028,14 +27028,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论（五合一）酷酷刷刷题营（实战桶） 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（五合一）酷酷刷刷题营（实战桶） e36y baidu https://pan.baidu.com/s/1_-6E56DChMVxK0cKoXO79w?pwd=e36y"
+      "searchText": "行测申论】2027超格行测+申论（五合一）酷酷刷刷题营（实战桶） 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（五合一）酷酷刷刷题营（实战桶） vsd2 baidu https://pan.baidu.com/s/1IEIqjtPrJR6lf8msqbEnhg?pwd=vsd2"
     },
     {
       "id": "r1588",
       "title": "行测申论】2027超格行测+申论（六合一）实战公考理论速讲（实战桶）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1WJx0eV9mHJ1SjBs-U1mAOg?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/148lrNE_YjSVvdYUod3Ri8Q?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：行测申论】2027超格行测+申论（六合一）实战公考理论速讲（实战桶）",
       "sources": [
@@ -27045,14 +27045,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论（六合一）实战公考理论速讲（实战桶） 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（六合一）实战公考理论速讲（实战桶） e36y baidu https://pan.baidu.com/s/1WJx0eV9mHJ1SjBs-U1mAOg?pwd=e36y"
+      "searchText": "行测申论】2027超格行测+申论（六合一）实战公考理论速讲（实战桶） 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（六合一）实战公考理论速讲（实战桶） vsd2 baidu https://pan.baidu.com/s/148lrNE_YjSVvdYUod3Ri8Q?pwd=vsd2"
     },
     {
       "id": "r1589",
       "title": "行测申论】2027超格行测+申论（六合一）理论实战班（精讲桶）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1wOGZQcQ8wSWDbyzSI_fmbA?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1ji22zo59lZACVn5p-JVzBw?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：行测申论】2027超格行测+申论（六合一）理论实战班（精讲桶）",
       "sources": [
@@ -27062,14 +27062,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论（六合一）理论实战班（精讲桶） 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（六合一）理论实战班（精讲桶） e36y baidu https://pan.baidu.com/s/1wOGZQcQ8wSWDbyzSI_fmbA?pwd=e36y"
+      "searchText": "行测申论】2027超格行测+申论（六合一）理论实战班（精讲桶） 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（六合一）理论实战班（精讲桶） vsd2 baidu https://pan.baidu.com/s/1ji22zo59lZACVn5p-JVzBw?pwd=vsd2"
     },
     {
       "id": "r1590",
       "title": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营（精讲桶）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1jBHUnwMWupojphU9ZElmMw?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1owLMA8NyFDyCMZ0hLoFUBQ?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：行测申论】2027超格行测+申论（五合一）夸夸刷刷题营（精讲桶）",
       "sources": [
@@ -27079,14 +27079,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营（精讲桶） 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（五合一）夸夸刷刷题营（精讲桶） e36y baidu https://pan.baidu.com/s/1jBHUnwMWupojphU9ZElmMw?pwd=e36y"
+      "searchText": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营（精讲桶） 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（五合一）夸夸刷刷题营（精讲桶） vsd2 baidu https://pan.baidu.com/s/1owLMA8NyFDyCMZ0hLoFUBQ?pwd=vsd2"
     },
     {
       "id": "r1591",
       "title": "综应D】2027超格全国事业单位全程班D类（职测+综应）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1zEKZkuc1FvkYPXzdOy3egg?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/19CCRMvScDPzBzXVRdTsdCg?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：综应D】2027超格全国事业单位全程班D类（职测+综应）",
       "sources": [
@@ -27096,14 +27096,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "综应D】2027超格全国事业单位全程班D类（职测+综应） 百度批量新增 百度网盘批量导入：综应D】2027超格全国事业单位全程班D类（职测+综应） e36y baidu https://pan.baidu.com/s/1zEKZkuc1FvkYPXzdOy3egg?pwd=e36y"
+      "searchText": "综应D】2027超格全国事业单位全程班D类（职测+综应） 百度批量新增 百度网盘批量导入：综应D】2027超格全国事业单位全程班D类（职测+综应） vsd2 baidu https://pan.baidu.com/s/19CCRMvScDPzBzXVRdTsdCg?pwd=vsd2"
     },
     {
       "id": "r1592",
       "title": "2027薛睿逻辑328判断推理专题强化课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1JFObpDUPBOJYezdKud6noQ?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/18LIXQVVlPXX5Rlg2cETn7Q?pwd=5pun",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027薛睿逻辑328判断推理专题强化课",
       "sources": [
@@ -27113,7 +27113,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027薛睿逻辑328判断推理专题强化课 百度批量新增 百度网盘批量导入：2027薛睿逻辑328判断推理专题强化课 6a6z baidu https://pan.baidu.com/s/1JFObpDUPBOJYezdKud6noQ?pwd=6a6z"
+      "searchText": "2027薛睿逻辑328判断推理专题强化课 百度批量新增 百度网盘批量导入：2027薛睿逻辑328判断推理专题强化课 5pun baidu https://pan.baidu.com/s/18LIXQVVlPXX5Rlg2cETn7Q?pwd=5pun"
     },
     {
       "id": "r1593",
@@ -27136,8 +27136,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1594",
       "title": "2027年岳飞资料分析理论技巧班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1Q3gGxUfseQfHmPfyFZa3cw?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1z7FKYt9XJFe0aJ6_R-tkvg?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027年岳飞资料分析理论技巧班",
       "sources": [
@@ -27147,7 +27147,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027年岳飞资料分析理论技巧班 百度批量新增 百度网盘批量导入：2027年岳飞资料分析理论技巧班 v2ir baidu https://pan.baidu.com/s/1Q3gGxUfseQfHmPfyFZa3cw?pwd=v2ir"
+      "searchText": "2027年岳飞资料分析理论技巧班 百度批量新增 百度网盘批量导入：2027年岳飞资料分析理论技巧班 vfih baidu https://pan.baidu.com/s/1z7FKYt9XJFe0aJ6_R-tkvg?pwd=vfih"
     },
     {
       "id": "r1595",
@@ -27170,8 +27170,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1596",
       "title": "2027上岸村章晓铭图形推理1000题",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1rGa2YWFqlqjrZWUTbktbcA?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1JliU7-X7eT5EeBehj5DRSA?pwd=5pun",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸村章晓铭图形推理1000题",
       "sources": [
@@ -27181,14 +27181,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村章晓铭图形推理1000题 百度批量新增 百度网盘批量导入：2027上岸村章晓铭图形推理1000题 6a6z baidu https://pan.baidu.com/s/1rGa2YWFqlqjrZWUTbktbcA?pwd=6a6z"
+      "searchText": "2027上岸村章晓铭图形推理1000题 百度批量新增 百度网盘批量导入：2027上岸村章晓铭图形推理1000题 5pun baidu https://pan.baidu.com/s/1JliU7-X7eT5EeBehj5DRSA?pwd=5pun"
     },
     {
       "id": "r1597",
       "title": "2027上岸村章晓铭图形推理1000题",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1aZb-yO63kfimqfoGNaHGSQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/15EzzNRBIAT2EQ59ALxCe4w?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸村章晓铭图形推理1000题",
       "sources": [
@@ -27198,14 +27198,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村章晓铭图形推理1000题 百度批量新增 百度网盘批量导入：2027上岸村章晓铭图形推理1000题 v2ir baidu https://pan.baidu.com/s/1aZb-yO63kfimqfoGNaHGSQ?pwd=v2ir"
+      "searchText": "2027上岸村章晓铭图形推理1000题 百度批量新增 百度网盘批量导入：2027上岸村章晓铭图形推理1000题 vfih baidu https://pan.baidu.com/s/15EzzNRBIAT2EQ59ALxCe4w?pwd=vfih"
     },
     {
       "id": "r1598",
       "title": "速算】2026牟立志 老牟深算-速算大练兵",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/17H76n-wwbVCeYwdIttcKWA?pwd=ujvf",
-      "code": "ujvf",
+      "url": "https://pan.baidu.com/s/1y4l2kpHK_KtgUDkhk7Nxug?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：速算】2026牟立志 老牟深算-速算大练兵",
       "sources": [
@@ -27215,7 +27215,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "速算】2026牟立志 老牟深算-速算大练兵 百度批量新增 百度网盘批量导入：速算】2026牟立志 老牟深算-速算大练兵 ujvf baidu https://pan.baidu.com/s/17H76n-wwbVCeYwdIttcKWA?pwd=ujvf"
+      "searchText": "速算】2026牟立志 老牟深算-速算大练兵 百度批量新增 百度网盘批量导入：速算】2026牟立志 老牟深算-速算大练兵 vfih baidu https://pan.baidu.com/s/1y4l2kpHK_KtgUDkhk7Nxug?pwd=vfih"
     },
     {
       "id": "r1599",
@@ -27255,8 +27255,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1601",
       "title": "2027草莓熊广东公考申论全程班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1VaVwQr3TXuLM6khAhxisng?pwd=ujvf",
-      "code": "ujvf",
+      "url": "https://pan.baidu.com/s/1LpMjXAti_EYxdSqZIt8sbw?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027草莓熊广东公考申论全程班",
       "sources": [
@@ -27266,14 +27266,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027草莓熊广东公考申论全程班 百度批量新增 百度网盘批量导入：2027草莓熊广东公考申论全程班 ujvf baidu https://pan.baidu.com/s/1VaVwQr3TXuLM6khAhxisng?pwd=ujvf"
+      "searchText": "2027草莓熊广东公考申论全程班 百度批量新增 百度网盘批量导入：2027草莓熊广东公考申论全程班 vfih baidu https://pan.baidu.com/s/1LpMjXAti_EYxdSqZIt8sbw?pwd=vfih"
     },
     {
       "id": "r1602",
       "title": "2027年国省考相丽君申论政治素养刷题班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1ZY7saFe-VcOG1cwLUzziIg?pwd=ae9a",
-      "code": "ae9a",
+      "url": "https://pan.baidu.com/s/1m5m1jxPqD8TKPOY9tbLOdg?pwd=7ctd",
+      "code": "7ctd",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027年国省考相丽君申论政治素养刷题班",
       "sources": [
@@ -27283,14 +27283,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027年国省考相丽君申论政治素养刷题班 百度批量新增 百度网盘批量导入：2027年国省考相丽君申论政治素养刷题班 ae9a baidu https://pan.baidu.com/s/1ZY7saFe-VcOG1cwLUzziIg?pwd=ae9a"
+      "searchText": "2027年国省考相丽君申论政治素养刷题班 百度批量新增 百度网盘批量导入：2027年国省考相丽君申论政治素养刷题班 7ctd baidu https://pan.baidu.com/s/1m5m1jxPqD8TKPOY9tbLOdg?pwd=7ctd"
     },
     {
       "id": "r1603",
       "title": "2027四海龙飞图推海海刷1期复盘",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1FqeqyDRzWe1vVKhtd6PUwQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1N8CrJpKeU2MmOF40sbFlpA?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027四海龙飞图推海海刷1期复盘",
       "sources": [
@@ -27300,7 +27300,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027四海龙飞图推海海刷1期复盘 百度批量新增 百度网盘批量导入：2027四海龙飞图推海海刷1期复盘 v2ir baidu https://pan.baidu.com/s/1FqeqyDRzWe1vVKhtd6PUwQ?pwd=v2ir"
+      "searchText": "2027四海龙飞图推海海刷1期复盘 百度批量新增 百度网盘批量导入：2027四海龙飞图推海海刷1期复盘 vfih baidu https://pan.baidu.com/s/1N8CrJpKeU2MmOF40sbFlpA?pwd=vfih"
     },
     {
       "id": "r1604",
@@ -27323,8 +27323,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1605",
       "title": "2027上岸村行测5000题",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1_k5weqGNMuStJRnYUqBBDw?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/1V3BpanZZJE6zDorPqZIOBQ?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸村行测5000题",
       "sources": [
@@ -27334,7 +27334,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村行测5000题 百度批量新增 百度网盘批量导入：2027上岸村行测5000题 e36y baidu https://pan.baidu.com/s/1_k5weqGNMuStJRnYUqBBDw?pwd=e36y"
+      "searchText": "2027上岸村行测5000题 百度批量新增 百度网盘批量导入：2027上岸村行测5000题 vsd2 baidu https://pan.baidu.com/s/1V3BpanZZJE6zDorPqZIOBQ?pwd=vsd2"
     },
     {
       "id": "r1606",
@@ -27374,8 +27374,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1608",
       "title": "2027逻辑判断千题册",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1fl6MjSxG6eQllFNr8cyh2g?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1KxIDfQqe7_T9SXO-RX9DdQ?pwd=5pun",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027逻辑判断千题册",
       "sources": [
@@ -27385,14 +27385,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027逻辑判断千题册 百度批量新增 百度网盘批量导入：2027逻辑判断千题册 6a6z baidu https://pan.baidu.com/s/1fl6MjSxG6eQllFNr8cyh2g?pwd=6a6z"
+      "searchText": "2027逻辑判断千题册 百度批量新增 百度网盘批量导入：2027逻辑判断千题册 5pun baidu https://pan.baidu.com/s/1KxIDfQqe7_T9SXO-RX9DdQ?pwd=5pun"
     },
     {
       "id": "r1609",
       "title": "2027语句表达千题册(1)",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1yw6XJDDlxOKm56uhEW7oKw?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1UTKsz8FzpPdI9cmHaLHPfw?pwd=5pun",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027语句表达千题册(1)",
       "sources": [
@@ -27402,14 +27402,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027语句表达千题册(1) 百度批量新增 百度网盘批量导入：2027语句表达千题册(1) 6a6z baidu https://pan.baidu.com/s/1yw6XJDDlxOKm56uhEW7oKw?pwd=6a6z"
+      "searchText": "2027语句表达千题册(1) 百度批量新增 百度网盘批量导入：2027语句表达千题册(1) 5pun baidu https://pan.baidu.com/s/1UTKsz8FzpPdI9cmHaLHPfw?pwd=5pun"
     },
     {
       "id": "r1610",
       "title": "2027国考大懒猫言语刷题课二期",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1B-azxCX3_z8mdhahcECcqg?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1Nhcjxd2hQAzRdYn1L15WxQ?pwd=5pun",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027国考大懒猫言语刷题课二期",
       "sources": [
@@ -27419,14 +27419,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027国考大懒猫言语刷题课二期 百度批量新增 百度网盘批量导入：2027国考大懒猫言语刷题课二期 6a6z baidu https://pan.baidu.com/s/1B-azxCX3_z8mdhahcECcqg?pwd=6a6z"
+      "searchText": "2027国考大懒猫言语刷题课二期 百度批量新增 百度网盘批量导入：2027国考大懒猫言语刷题课二期 5pun baidu https://pan.baidu.com/s/1Nhcjxd2hQAzRdYn1L15WxQ?pwd=5pun"
     },
     {
       "id": "r1611",
       "title": "2027国考大懒猫言语刷题课二期",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1A5wXAA-ZdNrXKsKndUz_FA?pwd=ujvf",
-      "code": "ujvf",
+      "url": "https://pan.baidu.com/s/1fr0b7X3DB4YUt-ru80kZxg?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027国考大懒猫言语刷题课二期",
       "sources": [
@@ -27436,14 +27436,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027国考大懒猫言语刷题课二期 百度批量新增 百度网盘批量导入：2027国考大懒猫言语刷题课二期 ujvf baidu https://pan.baidu.com/s/1A5wXAA-ZdNrXKsKndUz_FA?pwd=ujvf"
+      "searchText": "2027国考大懒猫言语刷题课二期 百度批量新增 百度网盘批量导入：2027国考大懒猫言语刷题课二期 vfih baidu https://pan.baidu.com/s/1fr0b7X3DB4YUt-ru80kZxg?pwd=vfih"
     },
     {
       "id": "r1612",
       "title": "2027逻辑填空千题册(1)",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1nUj5-liHrbzTu3wKM0iErg?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1yBGvsJulAp852yJcTL32Tg?pwd=5pun",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027逻辑填空千题册(1)",
       "sources": [
@@ -27453,14 +27453,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027逻辑填空千题册(1) 百度批量新增 百度网盘批量导入：2027逻辑填空千题册(1) 6a6z baidu https://pan.baidu.com/s/1nUj5-liHrbzTu3wKM0iErg?pwd=6a6z"
+      "searchText": "2027逻辑填空千题册(1) 百度批量新增 百度网盘批量导入：2027逻辑填空千题册(1) 5pun baidu https://pan.baidu.com/s/1yBGvsJulAp852yJcTL32Tg?pwd=5pun"
     },
     {
       "id": "r1613",
       "title": "2027国考大懒猫言语刷题课一期(1)",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/12F7kZBLhBAHM22kyClct-A?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/19FQEvJ1lYklxOhqO9H1CVw?pwd=5pun",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027国考大懒猫言语刷题课一期(1)",
       "sources": [
@@ -27470,14 +27470,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027国考大懒猫言语刷题课一期(1) 百度批量新增 百度网盘批量导入：2027国考大懒猫言语刷题课一期(1) 6a6z baidu https://pan.baidu.com/s/12F7kZBLhBAHM22kyClct-A?pwd=6a6z"
+      "searchText": "2027国考大懒猫言语刷题课一期(1) 百度批量新增 百度网盘批量导入：2027国考大懒猫言语刷题课一期(1) 5pun baidu https://pan.baidu.com/s/19FQEvJ1lYklxOhqO9H1CVw?pwd=5pun"
     },
     {
       "id": "r1614",
       "title": "2027片段阅读千题册(1)",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1PmLq_yEjbLuzsZqJ6ZOqAg?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1dwFX7PmUYQ0MHPUnpYYVkA?pwd=5pun",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027片段阅读千题册(1)",
       "sources": [
@@ -27487,14 +27487,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027片段阅读千题册(1) 百度批量新增 百度网盘批量导入：2027片段阅读千题册(1) 6a6z baidu https://pan.baidu.com/s/1PmLq_yEjbLuzsZqJ6ZOqAg?pwd=6a6z"
+      "searchText": "2027片段阅读千题册(1) 百度批量新增 百度网盘批量导入：2027片段阅读千题册(1) 5pun baidu https://pan.baidu.com/s/1dwFX7PmUYQ0MHPUnpYYVkA?pwd=5pun"
     },
     {
       "id": "r1615",
       "title": "2027类比推理千题册(1)",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1JT0uE1Zww_83Zt3JrehtAw?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1IhNrEYLKO2LLm3YsfXgh_w?pwd=5pun",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027类比推理千题册(1)",
       "sources": [
@@ -27504,14 +27504,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027类比推理千题册(1) 百度批量新增 百度网盘批量导入：2027类比推理千题册(1) 6a6z baidu https://pan.baidu.com/s/1JT0uE1Zww_83Zt3JrehtAw?pwd=6a6z"
+      "searchText": "2027类比推理千题册(1) 百度批量新增 百度网盘批量导入：2027类比推理千题册(1) 5pun baidu https://pan.baidu.com/s/1IhNrEYLKO2LLm3YsfXgh_w?pwd=5pun"
     },
     {
       "id": "r1616",
       "title": "2027图形推理千题册(1)",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1aHeHHJLSi0lsJFZKocqpqg?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1jDD5eSvuFwwF69dz-jn8Ww?pwd=5pun",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027图形推理千题册(1)",
       "sources": [
@@ -27521,14 +27521,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027图形推理千题册(1) 百度批量新增 百度网盘批量导入：2027图形推理千题册(1) 6a6z baidu https://pan.baidu.com/s/1aHeHHJLSi0lsJFZKocqpqg?pwd=6a6z"
+      "searchText": "2027图形推理千题册(1) 百度批量新增 百度网盘批量导入：2027图形推理千题册(1) 5pun baidu https://pan.baidu.com/s/1jDD5eSvuFwwF69dz-jn8Ww?pwd=5pun"
     },
     {
       "id": "r1617",
       "title": "2026版AJGK图推1000题(1)",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1tsa8n0NSWxPlUN6a6POpWg?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1Ln5PmQaCj0gfAKiyF2kyLQ?pwd=5pun",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2026版AJGK图推1000题(1)",
       "sources": [
@@ -27538,7 +27538,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2026版AJGK图推1000题(1) 百度批量新增 百度网盘批量导入：2026版AJGK图推1000题(1) 6a6z baidu https://pan.baidu.com/s/1tsa8n0NSWxPlUN6a6POpWg?pwd=6a6z"
+      "searchText": "2026版AJGK图推1000题(1) 百度批量新增 百度网盘批量导入：2026版AJGK图推1000题(1) 5pun baidu https://pan.baidu.com/s/1Ln5PmQaCj0gfAKiyF2kyLQ?pwd=5pun"
     },
     {
       "id": "r1618",
@@ -28530,8 +28530,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1676",
       "title": "2027白鹭申论扎马步特训营2.0",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1OUvfjAkctn7T0d6t6x9cwg?pwd=ae9a",
-      "code": "ae9a",
+      "url": "https://pan.baidu.com/s/1U8JJgR79J8VkMaGXptSLXA?pwd=7ctd",
+      "code": "7ctd",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027白鹭申论扎马步特训营2.0",
       "sources": [
@@ -28541,14 +28541,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027白鹭申论扎马步特训营2.0 百度批量新增 百度网盘批量导入：2027白鹭申论扎马步特训营2.0 ae9a baidu https://pan.baidu.com/s/1OUvfjAkctn7T0d6t6x9cwg?pwd=ae9a"
+      "searchText": "2027白鹭申论扎马步特训营2.0 百度批量新增 百度网盘批量导入：2027白鹭申论扎马步特训营2.0 7ctd baidu https://pan.baidu.com/s/1U8JJgR79J8VkMaGXptSLXA?pwd=7ctd"
     },
     {
       "id": "r1677",
       "title": "B 白鹭",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1a-ClhF02lyAuypJ2thLOLw?pwd=ae9a",
-      "code": "ae9a",
+      "url": "https://pan.baidu.com/s/1EaL_CytUWS7ptNCWc2J_zQ?pwd=7ctd",
+      "code": "7ctd",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：B 白鹭",
       "sources": [
@@ -28558,7 +28558,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "B 白鹭 百度批量新增 百度网盘批量导入：B 白鹭 ae9a baidu https://pan.baidu.com/s/1a-ClhF02lyAuypJ2thLOLw?pwd=ae9a"
+      "searchText": "B 白鹭 百度批量新增 百度网盘批量导入：B 白鹭 7ctd baidu https://pan.baidu.com/s/1EaL_CytUWS7ptNCWc2J_zQ?pwd=7ctd"
     },
     {
       "id": "r1678",
@@ -28581,8 +28581,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1679",
       "title": "2027白鹭申论扎马步特训营2.0",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1xfF-r7zFatLcFhfuTQO8ow?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1qqauPVN7c4L-eY4ELk9U9A?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027白鹭申论扎马步特训营2.0",
       "sources": [
@@ -28592,14 +28592,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027白鹭申论扎马步特训营2.0 百度批量新增 百度网盘批量导入：2027白鹭申论扎马步特训营2.0 v2ir baidu https://pan.baidu.com/s/1xfF-r7zFatLcFhfuTQO8ow?pwd=v2ir"
+      "searchText": "2027白鹭申论扎马步特训营2.0 百度批量新增 百度网盘批量导入：2027白鹭申论扎马步特训营2.0 vfih baidu https://pan.baidu.com/s/1qqauPVN7c4L-eY4ELk9U9A?pwd=vfih"
     },
     {
       "id": "r1680",
       "title": "Z 张弓（上岸村）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1C7t99E2BmniXmL-AmIXEFw?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1ELs7ptcVsJYQ3pUu7tYmow?pwd=5pun",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：Z 张弓（上岸村）",
       "sources": [
@@ -28609,14 +28609,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "Z 张弓（上岸村） 百度批量新增 百度网盘批量导入：Z 张弓（上岸村） 6a6z baidu https://pan.baidu.com/s/1C7t99E2BmniXmL-AmIXEFw?pwd=6a6z"
+      "searchText": "Z 张弓（上岸村） 百度批量新增 百度网盘批量导入：Z 张弓（上岸村） 5pun baidu https://pan.baidu.com/s/1ELs7ptcVsJYQ3pUu7tYmow?pwd=5pun"
     },
     {
       "id": "r1681",
       "title": "2027四海葛蓉逻辑填空刷题精讲",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1JmKkgL-Z-sJpRGRsTjNtYg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/11hPwUV42PBCIVtKWgFcisQ?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027四海葛蓉逻辑填空刷题精讲",
       "sources": [
@@ -28626,14 +28626,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027四海葛蓉逻辑填空刷题精讲 百度批量新增 百度网盘批量导入：2027四海葛蓉逻辑填空刷题精讲 v2ir baidu https://pan.baidu.com/s/1JmKkgL-Z-sJpRGRsTjNtYg?pwd=v2ir"
+      "searchText": "2027四海葛蓉逻辑填空刷题精讲 百度批量新增 百度网盘批量导入：2027四海葛蓉逻辑填空刷题精讲 vfih baidu https://pan.baidu.com/s/11hPwUV42PBCIVtKWgFcisQ?pwd=vfih"
     },
     {
       "id": "r1682",
       "title": "2027岳飞资料分析理论技巧班",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1Oeqf9SYKMospB4-yn0Nsdg?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/10kyoyfwJqZmQO2TxDHesNg?pwd=5pun",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027岳飞资料分析理论技巧班",
       "sources": [
@@ -28643,7 +28643,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027岳飞资料分析理论技巧班 百度批量新增 百度网盘批量导入：2027岳飞资料分析理论技巧班 6a6z baidu https://pan.baidu.com/s/1Oeqf9SYKMospB4-yn0Nsdg?pwd=6a6z"
+      "searchText": "2027岳飞资料分析理论技巧班 百度批量新增 百度网盘批量导入：2027岳飞资料分析理论技巧班 5pun baidu https://pan.baidu.com/s/10kyoyfwJqZmQO2TxDHesNg?pwd=5pun"
     },
     {
       "id": "r1683",
@@ -28666,8 +28666,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1684",
       "title": "2027上岸村邓健资料分析满分健解",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1fOlV4_AR-oGNsaBpQMJqug?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1SLPUNVsZMoeqEu8vXQhj2A?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸村邓健资料分析满分健解",
       "sources": [
@@ -28677,14 +28677,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村邓健资料分析满分健解 百度批量新增 百度网盘批量导入：2027上岸村邓健资料分析满分健解 v2ir baidu https://pan.baidu.com/s/1fOlV4_AR-oGNsaBpQMJqug?pwd=v2ir"
+      "searchText": "2027上岸村邓健资料分析满分健解 百度批量新增 百度网盘批量导入：2027上岸村邓健资料分析满分健解 vfih baidu https://pan.baidu.com/s/1SLPUNVsZMoeqEu8vXQhj2A?pwd=vfih"
     },
     {
       "id": "r1685",
       "title": "2027上岸村张弓言语选词大典",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1NiHr1jY0RkhYT0GGc3sEQA?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1xfuVokEKCqpDKuNr7UMTIg?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸村张弓言语选词大典",
       "sources": [
@@ -28694,14 +28694,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村张弓言语选词大典 百度批量新增 百度网盘批量导入：2027上岸村张弓言语选词大典 v2ir baidu https://pan.baidu.com/s/1NiHr1jY0RkhYT0GGc3sEQA?pwd=v2ir"
+      "searchText": "2027上岸村张弓言语选词大典 百度批量新增 百度网盘批量导入：2027上岸村张弓言语选词大典 vfih baidu https://pan.baidu.com/s/1xfuVokEKCqpDKuNr7UMTIg?pwd=vfih"
     },
     {
       "id": "r1686",
       "title": "2027国省考逻辑不楠判断推理理论课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1HDnaSDEq20Tb8xkkfYQVdQ?pwd=ujvf",
-      "code": "",
+      "url": "https://pan.baidu.com/s/1FxlmPW007oXP9d_437F0mQ?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027国省考逻辑不楠判断推理理论课",
       "sources": [
@@ -28711,14 +28711,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027国省考逻辑不楠判断推理理论课 百度批量新增 百度网盘批量导入：2027国省考逻辑不楠判断推理理论课 baidu https://pan.baidu.com/s/1HDnaSDEq20Tb8xkkfYQVdQ?pwd=ujvf"
+      "searchText": "2027国省考逻辑不楠判断推理理论课 百度批量新增 百度网盘批量导入：2027国省考逻辑不楠判断推理理论课 vfih baidu https://pan.baidu.com/s/1FxlmPW007oXP9d_437F0mQ?pwd=vfih"
     },
     {
       "id": "r1687",
       "title": "2027岳飞资料分析每日速算练习",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1vRMMcZg7vOkLYCnFMsOLfA?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1lc1Iqt_k59BHd_1GX5fVUg?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027岳飞资料分析每日速算练习",
       "sources": [
@@ -28728,14 +28728,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027岳飞资料分析每日速算练习 百度批量新增 百度网盘批量导入：2027岳飞资料分析每日速算练习 v2ir baidu https://pan.baidu.com/s/1vRMMcZg7vOkLYCnFMsOLfA?pwd=v2ir"
+      "searchText": "2027岳飞资料分析每日速算练习 百度批量新增 百度网盘批量导入：2027岳飞资料分析每日速算练习 vfih baidu https://pan.baidu.com/s/1lc1Iqt_k59BHd_1GX5fVUg?pwd=vfih"
     },
     {
       "id": "r1688",
       "title": "图推】2027刘义恒图形推理700题",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1pI_MSL4I2DqpDbgSF2F-gg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/18W85H62p19hri3ErU79CIg?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：图推】2027刘义恒图形推理700题",
       "sources": [
@@ -28745,14 +28745,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "图推】2027刘义恒图形推理700题 百度批量新增 百度网盘批量导入：图推】2027刘义恒图形推理700题 v2ir baidu https://pan.baidu.com/s/1pI_MSL4I2DqpDbgSF2F-gg?pwd=v2ir"
+      "searchText": "图推】2027刘义恒图形推理700题 百度批量新增 百度网盘批量导入：图推】2027刘义恒图形推理700题 vfih baidu https://pan.baidu.com/s/18W85H62p19hri3ErU79CIg?pwd=vfih"
     },
     {
       "id": "r1689",
       "title": "科推】2027超格科学推理（适用于广东、北京、上海地区）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1nneywMJx81ZN4JPIRk-6YA?pwd=e36y",
-      "code": "e36y",
+      "url": "https://pan.baidu.com/s/11_MI5Yy2ONCZaxqUrd8dNA?pwd=vsd2",
+      "code": "vsd2",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：科推】2027超格科学推理（适用于广东、北京、上海地区）",
       "sources": [
@@ -28762,14 +28762,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "科推】2027超格科学推理（适用于广东、北京、上海地区） 百度批量新增 百度网盘批量导入：科推】2027超格科学推理（适用于广东、北京、上海地区） e36y baidu https://pan.baidu.com/s/1nneywMJx81ZN4JPIRk-6YA?pwd=e36y"
+      "searchText": "科推】2027超格科学推理（适用于广东、北京、上海地区） 百度批量新增 百度网盘批量导入：科推】2027超格科学推理（适用于广东、北京、上海地区） vsd2 baidu https://pan.baidu.com/s/11_MI5Yy2ONCZaxqUrd8dNA?pwd=vsd2"
     },
     {
       "id": "r1690",
       "title": "2027天晓申论理论课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1-16Ylcz-OvJh_Y7f3gfwIw?pwd=ae9a",
-      "code": "ae9a",
+      "url": "https://pan.baidu.com/s/19uZACvVuLHVoN6dzAVHBww?pwd=7ctd",
+      "code": "7ctd",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027天晓申论理论课",
       "sources": [
@@ -28779,14 +28779,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027天晓申论理论课 百度批量新增 百度网盘批量导入：2027天晓申论理论课 ae9a baidu https://pan.baidu.com/s/1-16Ylcz-OvJh_Y7f3gfwIw?pwd=ae9a"
+      "searchText": "2027天晓申论理论课 百度批量新增 百度网盘批量导入：2027天晓申论理论课 7ctd baidu https://pan.baidu.com/s/19uZACvVuLHVoN6dzAVHBww?pwd=7ctd"
     },
     {
       "id": "r1691",
       "title": "2027天晓申论理论课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1FPbvfwhnqg4YzYOJ6GnQHA?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1lFtXzh7H45yVMPQdtNP9nA?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027天晓申论理论课",
       "sources": [
@@ -28796,7 +28796,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027天晓申论理论课 百度批量新增 百度网盘批量导入：2027天晓申论理论课 v2ir baidu https://pan.baidu.com/s/1FPbvfwhnqg4YzYOJ6GnQHA?pwd=v2ir"
+      "searchText": "2027天晓申论理论课 百度批量新增 百度网盘批量导入：2027天晓申论理论课 vfih baidu https://pan.baidu.com/s/1lFtXzh7H45yVMPQdtNP9nA?pwd=vfih"
     },
     {
       "id": "r1692",
@@ -28819,8 +28819,8 @@ window.PAN_SEARCH_DATA = {
       "id": "r1693",
       "title": "2027薛睿公考一拖五系统课（实战应用指南）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1xXrjPA1Arc6XN6_ywyhLXw?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1AlKgaYqSG1AttZk4NrJr6Q?pwd=5pun",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027薛睿公考一拖五系统课（实战应用指南）",
       "sources": [
@@ -28830,14 +28830,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027薛睿公考一拖五系统课（实战应用指南） 百度批量新增 百度网盘批量导入：2027薛睿公考一拖五系统课（实战应用指南） 6a6z baidu https://pan.baidu.com/s/1xXrjPA1Arc6XN6_ywyhLXw?pwd=6a6z"
+      "searchText": "2027薛睿公考一拖五系统课（实战应用指南） 百度批量新增 百度网盘批量导入：2027薛睿公考一拖五系统课（实战应用指南） 5pun baidu https://pan.baidu.com/s/1AlKgaYqSG1AttZk4NrJr6Q?pwd=5pun"
     },
     {
       "id": "r1694",
       "title": "2027薛睿公考逻辑判断系统课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1vUjOHxrQeoli8KmdZt57tA?pwd=6a6z",
-      "code": "6a6z",
+      "url": "https://pan.baidu.com/s/1b2BfrPDWP-1DGMpX0c-WNA?pwd=5pun",
+      "code": "5pun",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027薛睿公考逻辑判断系统课",
       "sources": [
@@ -28847,14 +28847,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027薛睿公考逻辑判断系统课 百度批量新增 百度网盘批量导入：2027薛睿公考逻辑判断系统课 6a6z baidu https://pan.baidu.com/s/1vUjOHxrQeoli8KmdZt57tA?pwd=6a6z"
+      "searchText": "2027薛睿公考逻辑判断系统课 百度批量新增 百度网盘批量导入：2027薛睿公考逻辑判断系统课 5pun baidu https://pan.baidu.com/s/1b2BfrPDWP-1DGMpX0c-WNA?pwd=5pun"
     },
     {
       "id": "r1695",
       "title": "数资】2027牟立志 志哥数资晚自习",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1rvM94KpNgi6PjagJfa3g1w?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1nf5Ur7LxEzTBk5BM7JMXmQ?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：数资】2027牟立志 志哥数资晚自习",
       "sources": [
@@ -28864,14 +28864,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "数资】2027牟立志 志哥数资晚自习 百度批量新增 百度网盘批量导入：数资】2027牟立志 志哥数资晚自习 v2ir baidu https://pan.baidu.com/s/1rvM94KpNgi6PjagJfa3g1w?pwd=v2ir"
+      "searchText": "数资】2027牟立志 志哥数资晚自习 百度批量新增 百度网盘批量导入：数资】2027牟立志 志哥数资晚自习 vfih baidu https://pan.baidu.com/s/1nf5Ur7LxEzTBk5BM7JMXmQ?pwd=vfih"
     },
     {
       "id": "r1696",
       "title": "2027考季四海公考君涛政治理论专项突破",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1JRfukggYP2y2-iAjmEgztA?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1PnVPuP4e44d75tQCTapNlQ?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027考季四海公考君涛政治理论专项突破",
       "sources": [
@@ -28881,14 +28881,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027考季四海公考君涛政治理论专项突破 百度批量新增 百度网盘批量导入：2027考季四海公考君涛政治理论专项突破 v2ir baidu https://pan.baidu.com/s/1JRfukggYP2y2-iAjmEgztA?pwd=v2ir"
+      "searchText": "2027考季四海公考君涛政治理论专项突破 百度批量新增 百度网盘批量导入：2027考季四海公考君涛政治理论专项突破 vfih baidu https://pan.baidu.com/s/1PnVPuP4e44d75tQCTapNlQ?pwd=vfih"
     },
     {
       "id": "r1697",
       "title": "2027考季四海花生十三飞扬套题冲刺1期",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1v3SbyNMCh2znBAAL1NsIFQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1HpLfJLLq2SfN6VL9wVVSGA?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027考季四海花生十三飞扬套题冲刺1期",
       "sources": [
@@ -28898,14 +28898,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027考季四海花生十三飞扬套题冲刺1期 百度批量新增 百度网盘批量导入：2027考季四海花生十三飞扬套题冲刺1期 v2ir baidu https://pan.baidu.com/s/1v3SbyNMCh2znBAAL1NsIFQ?pwd=v2ir"
+      "searchText": "2027考季四海花生十三飞扬套题冲刺1期 百度批量新增 百度网盘批量导入：2027考季四海花生十三飞扬套题冲刺1期 vfih baidu https://pan.baidu.com/s/1HpLfJLLq2SfN6VL9wVVSGA?pwd=vfih"
     },
     {
       "id": "r1698",
       "title": "言语】2027雨菲言语选词填空600题",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1QUGUion-Ixay12H081OUGg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1dJzS9jqaDkgJCvXmyPqvBQ?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：言语】2027雨菲言语选词填空600题",
       "sources": [
@@ -28915,14 +28915,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "言语】2027雨菲言语选词填空600题 百度批量新增 百度网盘批量导入：言语】2027雨菲言语选词填空600题 v2ir baidu https://pan.baidu.com/s/1QUGUion-Ixay12H081OUGg?pwd=v2ir"
+      "searchText": "言语】2027雨菲言语选词填空600题 百度批量新增 百度网盘批量导入：言语】2027雨菲言语选词填空600题 vfih baidu https://pan.baidu.com/s/1dJzS9jqaDkgJCvXmyPqvBQ?pwd=vfih"
     },
     {
       "id": "r1699",
       "title": "2027超格程日升广东省考逻辑判断600题",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1yXx1Ulm1Y--sXepeEyKxcw?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1WE3AFzJkLzOlMxKM-33tYg?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027超格程日升广东省考逻辑判断600题",
       "sources": [
@@ -28932,14 +28932,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027超格程日升广东省考逻辑判断600题 百度批量新增 百度网盘批量导入：2027超格程日升广东省考逻辑判断600题 v2ir baidu https://pan.baidu.com/s/1yXx1Ulm1Y--sXepeEyKxcw?pwd=v2ir"
+      "searchText": "2027超格程日升广东省考逻辑判断600题 百度批量新增 百度网盘批量导入：2027超格程日升广东省考逻辑判断600题 vfih baidu https://pan.baidu.com/s/1WE3AFzJkLzOlMxKM-33tYg?pwd=vfih"
     },
     {
       "id": "r1700",
       "title": "2027上岸樱桃园广东申论系统课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1ngkF7ouXhpwf2JliSngU1Q?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1AAJfJo77zSE_KCzrrgOnRA?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸樱桃园广东申论系统课",
       "sources": [
@@ -28949,14 +28949,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸樱桃园广东申论系统课 百度批量新增 百度网盘批量导入：2027上岸樱桃园广东申论系统课 v2ir baidu https://pan.baidu.com/s/1ngkF7ouXhpwf2JliSngU1Q?pwd=v2ir"
+      "searchText": "2027上岸樱桃园广东申论系统课 百度批量新增 百度网盘批量导入：2027上岸樱桃园广东申论系统课 vfih baidu https://pan.baidu.com/s/1AAJfJo77zSE_KCzrrgOnRA?pwd=vfih"
     },
     {
       "id": "r1701",
       "title": "政治理论】2027超哥政治理论背诵手册（早自习）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1FQTKqnAqfWYQw4N2NEvprQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1Q6LbKx_VZ4ZT1u9USgB8-w?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：政治理论】2027超哥政治理论背诵手册（早自习）",
       "sources": [
@@ -28966,14 +28966,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "政治理论】2027超哥政治理论背诵手册（早自习） 百度批量新增 百度网盘批量导入：政治理论】2027超哥政治理论背诵手册（早自习） v2ir baidu https://pan.baidu.com/s/1FQTKqnAqfWYQw4N2NEvprQ?pwd=v2ir"
+      "searchText": "政治理论】2027超哥政治理论背诵手册（早自习） 百度批量新增 百度网盘批量导入：政治理论】2027超哥政治理论背诵手册（早自习） vfih baidu https://pan.baidu.com/s/1Q6LbKx_VZ4ZT1u9USgB8-w?pwd=vfih"
     },
     {
       "id": "r1702",
       "title": "2027小张申论系统课【第24期",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/13CD-KltgZnF2IhUhAdp0TQ?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1mjCFjd_2vGdjkhNyxCLnXQ?pwd=7ctd",
+      "code": "7ctd",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027小张申论系统课【第24期",
       "sources": [
@@ -28983,14 +28983,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027小张申论系统课【第24期 百度批量新增 百度网盘批量导入：2027小张申论系统课【第24期 v2ir baidu https://pan.baidu.com/s/13CD-KltgZnF2IhUhAdp0TQ?pwd=v2ir"
+      "searchText": "2027小张申论系统课【第24期 百度批量新增 百度网盘批量导入：2027小张申论系统课【第24期 7ctd baidu https://pan.baidu.com/s/1mjCFjd_2vGdjkhNyxCLnXQ?pwd=7ctd"
     },
     {
       "id": "r1703",
       "title": "2027年时政是条线思维课（小Y在日记）",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1QuuKUsmlew9JMWavZfFDkg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1VkjfpgmQIenx7Mh3dxbR7A?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027年时政是条线思维课（小Y在日记）",
       "sources": [
@@ -29000,14 +29000,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027年时政是条线思维课（小Y在日记） 百度批量新增 百度网盘批量导入：2027年时政是条线思维课（小Y在日记） v2ir baidu https://pan.baidu.com/s/1QuuKUsmlew9JMWavZfFDkg?pwd=v2ir"
+      "searchText": "2027年时政是条线思维课（小Y在日记） 百度批量新增 百度网盘批量导入：2027年时政是条线思维课（小Y在日记） vfih baidu https://pan.baidu.com/s/1VkjfpgmQIenx7Mh3dxbR7A?pwd=vfih"
     },
     {
       "id": "r1704",
       "title": "政治理论押题",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1FbD7fCpAkEGp4OhWFrSoHg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1hlQ9rVZeYtGnUAip9mGIOg?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：政治理论押题",
       "sources": [
@@ -29017,14 +29017,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "政治理论押题 百度批量新增 百度网盘批量导入：政治理论押题 v2ir baidu https://pan.baidu.com/s/1FbD7fCpAkEGp4OhWFrSoHg?pwd=v2ir"
+      "searchText": "政治理论押题 百度批量新增 百度网盘批量导入：政治理论押题 vfih baidu https://pan.baidu.com/s/1hlQ9rVZeYtGnUAip9mGIOg?pwd=vfih"
     },
     {
       "id": "r1705",
       "title": "2027陈怀安行测圣经言语理解系统课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1iDpsXCExvRjBlwFRxMcTtg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1noRWOMfkqzYM473tLXFP-Q?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027陈怀安行测圣经言语理解系统课",
       "sources": [
@@ -29034,14 +29034,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027陈怀安行测圣经言语理解系统课 百度批量新增 百度网盘批量导入：2027陈怀安行测圣经言语理解系统课 v2ir baidu https://pan.baidu.com/s/1iDpsXCExvRjBlwFRxMcTtg?pwd=v2ir"
+      "searchText": "2027陈怀安行测圣经言语理解系统课 百度批量新增 百度网盘批量导入：2027陈怀安行测圣经言语理解系统课 vfih baidu https://pan.baidu.com/s/1noRWOMfkqzYM473tLXFP-Q?pwd=vfih"
     },
     {
       "id": "r1706",
       "title": "2027年杨柳岸申论系统课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/10ru5KNwk51uvaQY7WJEFzg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1ZqDThIt5dTGHqxxR8kf5lw?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027年杨柳岸申论系统课",
       "sources": [
@@ -29051,14 +29051,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027年杨柳岸申论系统课 百度批量新增 百度网盘批量导入：2027年杨柳岸申论系统课 v2ir baidu https://pan.baidu.com/s/10ru5KNwk51uvaQY7WJEFzg?pwd=v2ir"
+      "searchText": "2027年杨柳岸申论系统课 百度批量新增 百度网盘批量导入：2027年杨柳岸申论系统课 vfih baidu https://pan.baidu.com/s/1ZqDThIt5dTGHqxxR8kf5lw?pwd=vfih"
     },
     {
       "id": "r1707",
       "title": "2027dudu广东省考申论系统课",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/12AT0qE-SS5Mv8Bn_klCrTg?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1o645SMFG79ujjNK1HZcpJw?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027dudu广东省考申论系统课",
       "sources": [
@@ -29068,14 +29068,14 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027dudu广东省考申论系统课 百度批量新增 百度网盘批量导入：2027dudu广东省考申论系统课 v2ir baidu https://pan.baidu.com/s/12AT0qE-SS5Mv8Bn_klCrTg?pwd=v2ir"
+      "searchText": "2027dudu广东省考申论系统课 百度批量新增 百度网盘批量导入：2027dudu广东省考申论系统课 vfih baidu https://pan.baidu.com/s/1o645SMFG79ujjNK1HZcpJw?pwd=vfih"
     },
     {
       "id": "r1708",
       "title": "科学推理合集",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1JDHC-0keZNWTz3QHeWSQ6A?pwd=v2ir",
-      "code": "v2ir",
+      "url": "https://pan.baidu.com/s/1U31TjvveyPDu_W-5prrDHg?pwd=vfih",
+      "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：科学推理合集",
       "sources": [
@@ -29085,7 +29085,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "科学推理合集 百度批量新增 百度网盘批量导入：科学推理合集 v2ir baidu https://pan.baidu.com/s/1JDHC-0keZNWTz3QHeWSQ6A?pwd=v2ir"
+      "searchText": "科学推理合集 百度批量新增 百度网盘批量导入：科学推理合集 vfih baidu https://pan.baidu.com/s/1U31TjvveyPDu_W-5prrDHg?pwd=vfih"
     },
     {
       "id": "r1709",
@@ -29137,6 +29137,142 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "2027四海葛蓉逻辑填空刷题精讲 夸克批量新增 夸克网盘批量导入：2027四海葛蓉逻辑填空刷题精讲 quark https://pan.quark.cn/s/7d4c322ed9ba"
+    },
+    {
+      "id": "r1712",
+      "title": "2027年袁东申论领跑营冲刺预测班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1jQOOJ3EVpW5pfPLB10fMdw?pwd=7ctd",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027年袁东申论领跑营冲刺预测班",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 82,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027年袁东申论领跑营冲刺预测班 百度批量新增 百度网盘批量导入：2027年袁东申论领跑营冲刺预测班 baidu https://pan.baidu.com/s/1jQOOJ3EVpW5pfPLB10fMdw?pwd=7ctd"
+    },
+    {
+      "id": "r1713",
+      "title": "2027年国省考季袁东申论方法实战班",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1xass2hBESqsyvfipu1bN_Q?pwd=vfih",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027年国省考季袁东申论方法实战班",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 734,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027年国省考季袁东申论方法实战班 百度批量新增 百度网盘批量导入：2027年国省考季袁东申论方法实战班 baidu https://pan.baidu.com/s/1xass2hBESqsyvfipu1bN_Q?pwd=vfih"
+    },
+    {
+      "id": "r1714",
+      "title": "2027年国省考袁东申论大作文领跑营",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1MZ83Gq-_14liVf-Y4iWbhA?pwd=vfih",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027年国省考袁东申论大作文领跑营",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 530,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027年国省考袁东申论大作文领跑营 百度批量新增 百度网盘批量导入：2027年国省考袁东申论大作文领跑营 baidu https://pan.baidu.com/s/1MZ83Gq-_14liVf-Y4iWbhA?pwd=vfih"
+    },
+    {
+      "id": "r1715",
+      "title": "2027年袁东申论超大杯刷题提升班(1)",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/18lFcrfIyE9sTjViK3DkigQ?pwd=7ctd",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027年袁东申论超大杯刷题提升班(1)",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 106,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027年袁东申论超大杯刷题提升班(1) 百度批量新增 百度网盘批量导入：2027年袁东申论超大杯刷题提升班(1) baidu https://pan.baidu.com/s/18lFcrfIyE9sTjViK3DkigQ?pwd=7ctd"
+    },
+    {
+      "id": "r1716",
+      "title": "2027小张申论系统课【第24期",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/11P7LjfJjqyCd8h2s1fyBXw?pwd=vfih",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027小张申论系统课【第24期",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 422,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027小张申论系统课【第24期 百度批量新增 百度网盘批量导入：2027小张申论系统课【第24期 baidu https://pan.baidu.com/s/11P7LjfJjqyCd8h2s1fyBXw?pwd=vfih"
+    },
+    {
+      "id": "r1717",
+      "title": "2027年袁东申论套题实战班(1)",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1GugQ29iBFsnsQa6wTVgtZw?pwd=7ctd",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027年袁东申论套题实战班(1)",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 162,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027年袁东申论套题实战班(1) 百度批量新增 百度网盘批量导入：2027年袁东申论套题实战班(1) baidu https://pan.baidu.com/s/1GugQ29iBFsnsQa6wTVgtZw?pwd=7ctd"
+    },
+    {
+      "id": "r1718",
+      "title": "2027年小黑求是杂志100题",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1_QXZK-DviuADEhbLSgwLeA?pwd=vfih",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：2027年小黑求是杂志100题",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 374,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "2027年小黑求是杂志100题 百度批量新增 百度网盘批量导入：2027年小黑求是杂志100题 baidu https://pan.baidu.com/s/1_QXZK-DviuADEhbLSgwLeA?pwd=vfih"
+    },
+    {
+      "id": "r1719",
+      "title": "11】2027年小黑政治理论强化500题系列",
+      "platform": "baidu",
+      "url": "https://pan.baidu.com/s/1zAWTlmLXhJmhMhekPMyhjg?pwd=vfih",
+      "code": "",
+      "section": "百度批量新增",
+      "context": "百度网盘批量导入：11】2027年小黑政治理论强化500题系列",
+      "sources": [
+        {
+          "file": "admin-bulk-baidu",
+          "line": 554,
+          "section": "百度批量新增"
+        }
+      ],
+      "searchText": "11】2027年小黑政治理论强化500题系列 百度批量新增 百度网盘批量导入：11】2027年小黑政治理论强化500题系列 baidu https://pan.baidu.com/s/1zAWTlmLXhJmhMhekPMyhjg?pwd=vfih"
     }
   ]
 };
