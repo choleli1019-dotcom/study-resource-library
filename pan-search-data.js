@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-10-15T09:41:10.226Z",
+  "generatedAt": "2026-10-15T09:41:20.046Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -20235,7 +20235,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1188",
       "title": "2027超格行测+申论全家桶课程（实战桶）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/b2f303be81b9",
+      "url": "https://pan.quark.cn/s/8f97bc0271b0",
       "code": "",
       "section": "后台新增",
       "context": "2027超格行测+申论全家桶课程（实战桶）",
@@ -20246,7 +20246,7 @@ window.PAN_SEARCH_DATA = {
           "section": "后台新增"
         }
       ],
-      "searchText": "2027超格行测+申论全家桶课程（实战桶） 后台新增 2027超格行测+申论全家桶课程（实战桶） server/data/extra-links.json"
+      "searchText": "2027超格行测+申论全家桶课程（实战桶） 后台新增 2027超格行测+申论全家桶课程（实战桶） quark https://pan.quark.cn/s/8f97bc0271b0"
     },
     {
       "id": "r1189",
@@ -20303,7 +20303,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1192",
       "title": "2027超格事业单位综应A理论实战班（小乐）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/8f97bc0271b0",
+      "url": "https://pan.quark.cn/s/2f34608996f8",
       "code": "",
       "section": "后台新增",
       "context": "2027超格事业单位综应A理论实战班（小乐）",
@@ -20314,7 +20314,7 @@ window.PAN_SEARCH_DATA = {
           "section": "后台新增"
         }
       ],
-      "searchText": "2027超格事业单位综应A理论实战班（小乐） 后台新增 2027超格事业单位综应A理论实战班（小乐） quark https://pan.quark.cn/s/8f97bc0271b0"
+      "searchText": "2027超格事业单位综应A理论实战班（小乐） 后台新增 2027超格事业单位综应A理论实战班（小乐） server/data/extra-links.json"
     },
     {
       "id": "r1193",
