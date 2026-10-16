@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-10-14T03:51:29.633Z",
+  "generatedAt": "2026-10-15T09:41:29.774Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -20218,7 +20218,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1187",
       "title": "2027超格行测+申论全家桶课程（精讲桶）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/082e5c3f13a3",
+      "url": "https://pan.quark.cn/s/8f97bc0271b0",
       "code": "",
       "section": "后台新增",
       "context": "2027超格行测+申论全家桶课程（精讲桶）",
@@ -20229,7 +20229,7 @@ window.PAN_SEARCH_DATA = {
           "section": "后台新增"
         }
       ],
-      "searchText": "2027超格行测+申论全家桶课程（精讲桶） 后台新增 2027超格行测+申论全家桶课程（精讲桶） server/data/extra-links.json"
+      "searchText": "2027超格行测+申论全家桶课程（精讲桶） 后台新增 2027超格行测+申论全家桶课程（精讲桶） quark https://pan.quark.cn/s/8f97bc0271b0"
     },
     {
       "id": "r1188",
