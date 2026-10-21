@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-10-17T00:47:42.498Z",
+  "generatedAt": "2026-10-21T07:41:24.987Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -9,9 +9,9 @@ window.PAN_SEARCH_DATA = {
       "total": 1240
     },
     "unique": {
-      "quark": 1122,
+      "quark": 1133,
       "baidu": 596,
-      "total": 1718
+      "total": 1729
     },
     "duplicate": {
       "quark": 0,
@@ -1297,10 +1297,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r73",
       "title": "2027国省考季花生十三飞扬系统班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/8a9f5e043d6d",
+      "url": "https://pan.quark.cn/s/6692817fb61c",
       "code": "",
       "section": "公考类",
-      "context": "2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/8a9f5e043d6d",
+      "context": "2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/6692817fb61c",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1308,16 +1308,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省考季花生十三飞扬系统班 公考类 2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/8a9f5e043d6d quark https://pan.quark.cn/s/8a9f5e043d6d"
+      "searchText": "2027国省考季花生十三飞扬系统班 公考类 2027国省考季花生十三飞扬系统班 链接：https://pan.quark.cn/s/6692817fb61c quark https://pan.quark.cn/s/6692817fb61c"
     },
     {
       "id": "r74",
       "title": "2027国省事考花生十三行测600题精讲课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/5745770fc5ac",
+      "url": "https://pan.quark.cn/s/b603d9832adb",
       "code": "",
       "section": "公考类",
-      "context": "2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/5745770fc5ac",
+      "context": "2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/b603d9832adb",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1325,7 +1325,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省事考花生十三行测600题精讲课 公考类 2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/5745770fc5ac quark https://pan.quark.cn/s/5745770fc5ac"
+      "searchText": "2027国省事考花生十三行测600题精讲课 公考类 2027国省事考花生十三行测600题精讲课 链接：https://pan.quark.cn/s/b603d9832adb quark https://pan.quark.cn/s/b603d9832adb"
     },
     {
       "id": "r75",
@@ -2249,10 +2249,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r129",
       "title": "2027国省考上岸村行测&申论全家桶",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/e49e340d7248",
+      "url": "https://pan.quark.cn/s/8281dfde2e31",
       "code": "",
       "section": "公考类",
-      "context": "2027国省考上岸村行测&申论全家桶 链接：https://pan.quark.cn/s/e49e340d7248",
+      "context": "2027国省考上岸村行测&申论全家桶 链接：https://pan.quark.cn/s/8281dfde2e31",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2260,16 +2260,16 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027国省考上岸村行测&申论全家桶 公考类 2027国省考上岸村行测&申论全家桶 链接：https://pan.quark.cn/s/e49e340d7248 quark https://pan.quark.cn/s/e49e340d7248"
+      "searchText": "2027国省考上岸村行测&申论全家桶 公考类 2027国省考上岸村行测&申论全家桶 链接：https://pan.quark.cn/s/8281dfde2e31 quark https://pan.quark.cn/s/8281dfde2e31"
     },
     {
       "id": "r130",
       "title": "2027上岸村兰亭论道综A理论筑基",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/04257b64980e",
+      "url": "https://pan.quark.cn/s/b5fc054da2ad",
       "code": "",
       "section": "公考类",
-      "context": "2027上岸村兰亭论道综A理论筑基 链接：https://pan.quark.cn/s/04257b64980e",
+      "context": "2027上岸村兰亭论道综A理论筑基 链接：https://pan.quark.cn/s/b5fc054da2ad",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -2277,7 +2277,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027上岸村兰亭论道综A理论筑基 公考类 2027上岸村兰亭论道综A理论筑基 链接：https://pan.quark.cn/s/04257b64980e quark https://pan.quark.cn/s/04257b64980e"
+      "searchText": "2027上岸村兰亭论道综A理论筑基 公考类 2027上岸村兰亭论道综A理论筑基 链接：https://pan.quark.cn/s/b5fc054da2ad quark https://pan.quark.cn/s/b5fc054da2ad"
     },
     {
       "id": "r131",
@@ -2606,7 +2606,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r150",
       "title": "政治理论】2027超哥国省考政治理论刷题课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/3889ad43c303",
+      "url": "https://pan.quark.cn/s/5adfa0b9f56a",
       "code": "",
       "section": "公考类",
       "context": "夸克网盘批量导入：政治理论】2027超哥国省考政治理论刷题课",
@@ -2617,13 +2617,13 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "政治理论】2027超哥国省考政治理论刷题课 公考类 夸克网盘批量导入：政治理论】2027超哥国省考政治理论刷题课 quark https://pan.quark.cn/s/3889ad43c303"
+      "searchText": "政治理论】2027超哥国省考政治理论刷题课 公考类 夸克网盘批量导入：政治理论】2027超哥国省考政治理论刷题课 quark https://pan.quark.cn/s/5adfa0b9f56a"
     },
     {
       "id": "r151",
       "title": "政治理论】2027超哥政治理论时政热点小锦囊",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/d8bbb019631a",
+      "url": "https://pan.quark.cn/s/f8ebda3b8762",
       "code": "",
       "section": "公考类",
       "context": "夸克网盘批量导入：政治理论】2027超哥政治理论时政热点小锦囊",
@@ -2634,7 +2634,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "政治理论】2027超哥政治理论时政热点小锦囊 公考类 夸克网盘批量导入：政治理论】2027超哥政治理论时政热点小锦囊 quark https://pan.quark.cn/s/d8bbb019631a"
+      "searchText": "政治理论】2027超哥政治理论时政热点小锦囊 公考类 夸克网盘批量导入：政治理论】2027超哥政治理论时政热点小锦囊 quark https://pan.quark.cn/s/f8ebda3b8762"
     },
     {
       "id": "r152",
@@ -2674,7 +2674,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r154",
       "title": "综应A】2027超格事业单位综应A理论实战班（小乐）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/c568cad0bd71",
+      "url": "https://pan.quark.cn/s/d702cac91f3b",
       "code": "",
       "section": "事业单位",
       "context": "夸克网盘批量导入：综应A】2027超格事业单位综应A理论实战班（小乐）",
@@ -2685,7 +2685,7 @@ window.PAN_SEARCH_DATA = {
           "section": "事业单位"
         }
       ],
-      "searchText": "综应A】2027超格事业单位综应A理论实战班（小乐） 事业单位 夸克网盘批量导入：综应A】2027超格事业单位综应A理论实战班（小乐） quark https://pan.quark.cn/s/c568cad0bd71"
+      "searchText": "综应A】2027超格事业单位综应A理论实战班（小乐） 事业单位 夸克网盘批量导入：综应A】2027超格事业单位综应A理论实战班（小乐） quark https://pan.quark.cn/s/d702cac91f3b"
     },
     {
       "id": "r155",
@@ -2708,7 +2708,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r156",
       "title": "言语】2027超格言语理解逻辑填空400词",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/2a0d324d1a6e",
+      "url": "https://pan.quark.cn/s/22ac7fa204f6",
       "code": "",
       "section": "公考类",
       "context": "夸克网盘批量导入：言语】2027超格言语理解逻辑填空400词",
@@ -2719,13 +2719,13 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "言语】2027超格言语理解逻辑填空400词 公考类 夸克网盘批量导入：言语】2027超格言语理解逻辑填空400词 quark https://pan.quark.cn/s/2a0d324d1a6e"
+      "searchText": "言语】2027超格言语理解逻辑填空400词 公考类 夸克网盘批量导入：言语】2027超格言语理解逻辑填空400词 quark https://pan.quark.cn/s/22ac7fa204f6"
     },
     {
       "id": "r157",
       "title": "时政】2027超哥事业编三支考前时政最后50题",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/409d9029dc03",
+      "url": "https://pan.quark.cn/s/e070aa8beb50",
       "code": "",
       "section": "事业单位",
       "context": "夸克网盘批量导入：时政】2027超哥事业编三支考前时政最后50题",
@@ -2736,13 +2736,13 @@ window.PAN_SEARCH_DATA = {
           "section": "事业单位"
         }
       ],
-      "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业单位 夸克网盘批量导入：时政】2027超哥事业编三支考前时政最后50题 quark https://pan.quark.cn/s/409d9029dc03"
+      "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业单位 夸克网盘批量导入：时政】2027超哥事业编三支考前时政最后50题 quark https://pan.quark.cn/s/e070aa8beb50"
     },
     {
       "id": "r158",
       "title": "数资】2027牟立志数资夜生活",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/785d34530864",
+      "url": "https://pan.quark.cn/s/94c54206aebe",
       "code": "",
       "section": "其他类别考试",
       "context": "夸克网盘批量导入：数资】2027牟立志数资夜生活",
@@ -2753,13 +2753,13 @@ window.PAN_SEARCH_DATA = {
           "section": "其他类别考试"
         }
       ],
-      "searchText": "数资】2027牟立志数资夜生活 其他类别考试 夸克网盘批量导入：数资】2027牟立志数资夜生活 quark https://pan.quark.cn/s/785d34530864"
+      "searchText": "数资】2027牟立志数资夜生活 其他类别考试 夸克网盘批量导入：数资】2027牟立志数资夜生活 quark https://pan.quark.cn/s/94c54206aebe"
     },
     {
       "id": "r159",
       "title": "图推】2027刘义恒图推以练代背",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/5e5cad9078d9",
+      "url": "https://pan.quark.cn/s/6580acc5e198",
       "code": "",
       "section": "其他类别考试",
       "context": "夸克网盘批量导入：图推】2027刘义恒图推以练代背",
@@ -2770,13 +2770,13 @@ window.PAN_SEARCH_DATA = {
           "section": "其他类别考试"
         }
       ],
-      "searchText": "图推】2027刘义恒图推以练代背 其他类别考试 夸克网盘批量导入：图推】2027刘义恒图推以练代背 quark https://pan.quark.cn/s/5e5cad9078d9"
+      "searchText": "图推】2027刘义恒图推以练代背 其他类别考试 夸克网盘批量导入：图推】2027刘义恒图推以练代背 quark https://pan.quark.cn/s/6580acc5e198"
     },
     {
       "id": "r160",
       "title": "综应A】2027超格事业单位综应A理论实战班（王一一）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/ec1a9b8ef493",
+      "url": "https://pan.quark.cn/s/c023a26d4e15",
       "code": "",
       "section": "事业单位",
       "context": "夸克网盘批量导入：综应A】2027超格事业单位综应A理论实战班（王一一）",
@@ -2787,7 +2787,7 @@ window.PAN_SEARCH_DATA = {
           "section": "事业单位"
         }
       ],
-      "searchText": "综应A】2027超格事业单位综应A理论实战班（王一一） 事业单位 夸克网盘批量导入：综应A】2027超格事业单位综应A理论实战班（王一一） quark https://pan.quark.cn/s/ec1a9b8ef493"
+      "searchText": "综应A】2027超格事业单位综应A理论实战班（王一一） 事业单位 夸克网盘批量导入：综应A】2027超格事业单位综应A理论实战班（王一一） quark https://pan.quark.cn/s/c023a26d4e15"
     },
     {
       "id": "r161",
@@ -20167,7 +20167,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1184",
       "title": "时政】2027超哥事业编三支考前时政最后50题",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/409d9029dc03",
+      "url": "https://pan.quark.cn/s/e070aa8beb50",
       "code": "",
       "section": "事业编",
       "context": "夸克网盘批量导入：时政】2027超哥事业编三支考前时政最后50题",
@@ -20178,7 +20178,7 @@ window.PAN_SEARCH_DATA = {
           "section": "事业编"
         }
       ],
-      "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业编 夸克网盘批量导入：时政】2027超哥事业编三支考前时政最后50题 quark https://pan.quark.cn/s/409d9029dc03"
+      "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业编 夸克网盘批量导入：时政】2027超哥事业编三支考前时政最后50题 quark https://pan.quark.cn/s/e070aa8beb50"
     },
     {
       "id": "r1185",
@@ -21486,8 +21486,8 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "综应A】2027年事考超格综A夸夸刷刷题营 夸克批量新增 夸克网盘批量导入：综应A】2027年事考超格综A夸夸刷刷题营 quark https://pan.quark.cn/s/7c190ca35ad7",
-      "url": "https://pan.quark.cn/s/7c190ca35ad7"
+      "searchText": "综应A】2027年事考超格综A夸夸刷刷题营 夸克批量新增 夸克网盘批量导入：综应A】2027年事考超格综A夸夸刷刷题营 quark https://pan.quark.cn/s/7eb690231664",
+      "url": "https://pan.quark.cn/s/7eb690231664"
     },
     {
       "id": "r1262",
@@ -21520,8 +21520,8 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "图推】2027刘义恒图推大拖把 夸克批量新增 夸克网盘批量导入：图推】2027刘义恒图推大拖把 quark https://pan.quark.cn/s/ff79ce17be3b",
-      "url": "https://pan.quark.cn/s/ff79ce17be3b"
+      "searchText": "图推】2027刘义恒图推大拖把 夸克批量新增 夸克网盘批量导入：图推】2027刘义恒图推大拖把 quark https://pan.quark.cn/s/a490a9a350ae",
+      "url": "https://pan.quark.cn/s/a490a9a350ae"
     },
     {
       "id": "r1264",
@@ -21595,7 +21595,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1268",
       "title": "时政】2027超哥事业编三支考前时政最后50题",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/409d9029dc03",
+      "url": "https://pan.quark.cn/s/e070aa8beb50",
       "code": "",
       "section": "事业编",
       "context": "夸克网盘批量导入：时政】2027超哥事业编三支考前时政最后50题",
@@ -21606,7 +21606,7 @@ window.PAN_SEARCH_DATA = {
           "section": "事业编"
         }
       ],
-      "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业编 夸克网盘批量导入：时政】2027超哥事业编三支考前时政最后50题 quark https://pan.quark.cn/s/409d9029dc03"
+      "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业编 夸克网盘批量导入：时政】2027超哥事业编三支考前时政最后50题 quark https://pan.quark.cn/s/e070aa8beb50"
     },
     {
       "id": "r1269",
@@ -21629,7 +21629,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1270",
       "title": "时政】2027超哥事业编三支考前时政最后50题",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/409d9029dc03",
+      "url": "https://pan.quark.cn/s/e070aa8beb50",
       "code": "",
       "section": "事业编",
       "context": "时政】2027超哥事业编三支考前时政最后50题",
@@ -21640,7 +21640,7 @@ window.PAN_SEARCH_DATA = {
           "section": "事业编"
         }
       ],
-      "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业编 时政】2027超哥事业编三支考前时政最后50题 quark https://pan.quark.cn/s/409d9029dc03"
+      "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业编 时政】2027超哥事业编三支考前时政最后50题 quark https://pan.quark.cn/s/e070aa8beb50"
     },
     {
       "id": "r1271",
@@ -22598,7 +22598,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1327",
       "title": "时政】2027超哥事业编三支考前时政最后50题",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/409d9029dc03",
+      "url": "https://pan.quark.cn/s/e070aa8beb50",
       "code": "",
       "section": "事业编",
       "context": "时政】2027超哥事业编三支考前时政最后50题",
@@ -22609,7 +22609,7 @@ window.PAN_SEARCH_DATA = {
           "section": "事业编"
         }
       ],
-      "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业编 时政】2027超哥事业编三支考前时政最后50题 quark https://pan.quark.cn/s/409d9029dc03"
+      "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业编 时政】2027超哥事业编三支考前时政最后50题 quark https://pan.quark.cn/s/e070aa8beb50"
     },
     {
       "id": "r1328",
@@ -24451,7 +24451,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1436",
       "title": "时政】2027超哥事业编三支考前时政最后50题",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/409d9029dc03",
+      "url": "https://pan.quark.cn/s/e070aa8beb50",
       "code": "",
       "section": "事业编",
       "context": "时政】2027超哥事业编三支考前时政最后50题",
@@ -24462,7 +24462,7 @@ window.PAN_SEARCH_DATA = {
           "section": "事业编"
         }
       ],
-      "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业编 时政】2027超哥事业编三支考前时政最后50题 quark https://pan.quark.cn/s/409d9029dc03"
+      "searchText": "时政】2027超哥事业编三支考前时政最后50题 事业编 时政】2027超哥事业编三支考前时政最后50题 quark https://pan.quark.cn/s/e070aa8beb50"
     },
     {
       "id": "r1437",
@@ -26898,7 +26898,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1580",
       "title": "政治理论】2027超格璐璐马原带背刷题",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/6364eb8da32b",
+      "url": "https://pan.quark.cn/s/48e115c758d2",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：政治理论】2027超格璐璐马原带背刷题",
@@ -26909,13 +26909,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "政治理论】2027超格璐璐马原带背刷题 夸克批量新增 夸克网盘批量导入：政治理论】2027超格璐璐马原带背刷题 quark https://pan.quark.cn/s/6364eb8da32b"
+      "searchText": "政治理论】2027超格璐璐马原带背刷题 夸克批量新增 夸克网盘批量导入：政治理论】2027超格璐璐马原带背刷题 quark https://pan.quark.cn/s/48e115c758d2"
     },
     {
       "id": "r1581",
       "title": "申论】2027超格文聪申论素材积累课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/24b027436227",
+      "url": "https://pan.quark.cn/s/83e5a45cbf3e",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：申论】2027超格文聪申论素材积累课",
@@ -26926,13 +26926,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "申论】2027超格文聪申论素材积累课 夸克批量新增 夸克网盘批量导入：申论】2027超格文聪申论素材积累课 quark https://pan.quark.cn/s/24b027436227"
+      "searchText": "申论】2027超格文聪申论素材积累课 夸克批量新增 夸克网盘批量导入：申论】2027超格文聪申论素材积累课 quark https://pan.quark.cn/s/83e5a45cbf3e"
     },
     {
       "id": "r1582",
       "title": "2027国省考季四海公考行测海海刷1期",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/afbc22ba61dd",
+      "url": "https://pan.quark.cn/s/a043ae34ecbf",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：2027国省考季四海公考行测海海刷1期",
@@ -26943,7 +26943,7 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "2027国省考季四海公考行测海海刷1期 夸克批量新增 夸克网盘批量导入：2027国省考季四海公考行测海海刷1期 quark https://pan.quark.cn/s/afbc22ba61dd"
+      "searchText": "2027国省考季四海公考行测海海刷1期 夸克批量新增 夸克网盘批量导入：2027国省考季四海公考行测海海刷1期 quark https://pan.quark.cn/s/a043ae34ecbf"
     },
     {
       "id": "r1583",
@@ -27561,7 +27561,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1619",
       "title": "速算】2027牟立志 老牟深算-速算大练兵2.0",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/339ce359c99b",
+      "url": "https://pan.quark.cn/s/b3799616a5bf",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：速算】2027牟立志 老牟深算-速算大练兵2.0",
@@ -27572,13 +27572,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "速算】2027牟立志 老牟深算-速算大练兵2.0 夸克批量新增 夸克网盘批量导入：速算】2027牟立志 老牟深算-速算大练兵2.0 quark https://pan.quark.cn/s/339ce359c99b"
+      "searchText": "速算】2027牟立志 老牟深算-速算大练兵2.0 夸克批量新增 夸克网盘批量导入：速算】2027牟立志 老牟深算-速算大练兵2.0 quark https://pan.quark.cn/s/b3799616a5bf"
     },
     {
       "id": "r1620",
       "title": "行测申论】2027超格行测+申论（六合一）理论实战班（精讲桶）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/762590bc062d",
+      "url": "https://pan.quark.cn/s/349d48141d0d",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：行测申论】2027超格行测+申论（六合一）理论实战班（精讲桶）",
@@ -27589,13 +27589,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论（六合一）理论实战班（精讲桶） 夸克批量新增 夸克网盘批量导入：行测申论】2027超格行测+申论（六合一）理论实战班（精讲桶） quark https://pan.quark.cn/s/762590bc062d"
+      "searchText": "行测申论】2027超格行测+申论（六合一）理论实战班（精讲桶） 夸克批量新增 夸克网盘批量导入：行测申论】2027超格行测+申论（六合一）理论实战班（精讲桶） quark https://pan.quark.cn/s/349d48141d0d"
     },
     {
       "id": "r1621",
       "title": "行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题（实战桶）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/48211781b706",
+      "url": "https://pan.quark.cn/s/eb19cf4cb1fe",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题（实战桶）",
@@ -27606,13 +27606,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题（实战桶） 夸克批量新增 夸克网盘批量导入：行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题（实战桶） quark https://pan.quark.cn/s/48211781b706"
+      "searchText": "行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题（实战桶） 夸克批量新增 夸克网盘批量导入：行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题（实战桶） quark https://pan.quark.cn/s/eb19cf4cb1fe"
     },
     {
       "id": "r1622",
       "title": "行测申论】2027超格行测+申论（六合一）实战公考理论速讲（实战桶）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/48fb90d31784",
+      "url": "https://pan.quark.cn/s/0b913c336854",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：行测申论】2027超格行测+申论（六合一）实战公考理论速讲（实战桶）",
@@ -27623,13 +27623,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论（六合一）实战公考理论速讲（实战桶） 夸克批量新增 夸克网盘批量导入：行测申论】2027超格行测+申论（六合一）实战公考理论速讲（实战桶） quark https://pan.quark.cn/s/48fb90d31784"
+      "searchText": "行测申论】2027超格行测+申论（六合一）实战公考理论速讲（实战桶） 夸克批量新增 夸克网盘批量导入：行测申论】2027超格行测+申论（六合一）实战公考理论速讲（实战桶） quark https://pan.quark.cn/s/0b913c336854"
     },
     {
       "id": "r1623",
       "title": "行测申论】2027超格行测+申论（五合一）超大杯刷题营（精讲桶）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/dbafaac783af",
+      "url": "https://pan.quark.cn/s/12375cf813b0",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：行测申论】2027超格行测+申论（五合一）超大杯刷题营（精讲桶）",
@@ -27640,13 +27640,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论（五合一）超大杯刷题营（精讲桶） 夸克批量新增 夸克网盘批量导入：行测申论】2027超格行测+申论（五合一）超大杯刷题营（精讲桶） quark https://pan.quark.cn/s/dbafaac783af"
+      "searchText": "行测申论】2027超格行测+申论（五合一）超大杯刷题营（精讲桶） 夸克批量新增 夸克网盘批量导入：行测申论】2027超格行测+申论（五合一）超大杯刷题营（精讲桶） quark https://pan.quark.cn/s/12375cf813b0"
     },
     {
       "id": "r1624",
       "title": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营（精讲桶）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/04bb6e38a959",
+      "url": "https://pan.quark.cn/s/b470bc6cb8ea",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：行测申论】2027超格行测+申论（五合一）夸夸刷刷题营（精讲桶）",
@@ -27657,13 +27657,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营（精讲桶） 夸克批量新增 夸克网盘批量导入：行测申论】2027超格行测+申论（五合一）夸夸刷刷题营（精讲桶） quark https://pan.quark.cn/s/04bb6e38a959"
+      "searchText": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营（精讲桶） 夸克批量新增 夸克网盘批量导入：行测申论】2027超格行测+申论（五合一）夸夸刷刷题营（精讲桶） quark https://pan.quark.cn/s/b470bc6cb8ea"
     },
     {
       "id": "r1625",
       "title": "行测申论】2027超格行测+申论（五合一）酷酷刷刷题营（实战桶）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/56ca44082903",
+      "url": "https://pan.quark.cn/s/56b4ccbf0d27",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：行测申论】2027超格行测+申论（五合一）酷酷刷刷题营（实战桶）",
@@ -27674,13 +27674,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论（五合一）酷酷刷刷题营（实战桶） 夸克批量新增 夸克网盘批量导入：行测申论】2027超格行测+申论（五合一）酷酷刷刷题营（实战桶） quark https://pan.quark.cn/s/56ca44082903"
+      "searchText": "行测申论】2027超格行测+申论（五合一）酷酷刷刷题营（实战桶） 夸克批量新增 夸克网盘批量导入：行测申论】2027超格行测+申论（五合一）酷酷刷刷题营（实战桶） quark https://pan.quark.cn/s/56b4ccbf0d27"
     },
     {
       "id": "r1626",
       "title": "行政执法】2027超格阿萌省考行政执法专业课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/5f55e0942a90",
+      "url": "https://pan.quark.cn/s/e4d369227e99",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：行政执法】2027超格阿萌省考行政执法专业课",
@@ -27691,13 +27691,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "行政执法】2027超格阿萌省考行政执法专业课 夸克批量新增 夸克网盘批量导入：行政执法】2027超格阿萌省考行政执法专业课 quark https://pan.quark.cn/s/5f55e0942a90"
+      "searchText": "行政执法】2027超格阿萌省考行政执法专业课 夸克批量新增 夸克网盘批量导入：行政执法】2027超格阿萌省考行政执法专业课 quark https://pan.quark.cn/s/e4d369227e99"
     },
     {
       "id": "r1627",
       "title": "言语】2027超格四诗风雅颂言语百题带刷",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/ae65957e1938",
+      "url": "https://pan.quark.cn/s/d862f25345db",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：言语】2027超格四诗风雅颂言语百题带刷",
@@ -27708,13 +27708,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "言语】2027超格四诗风雅颂言语百题带刷 夸克批量新增 夸克网盘批量导入：言语】2027超格四诗风雅颂言语百题带刷 quark https://pan.quark.cn/s/ae65957e1938"
+      "searchText": "言语】2027超格四诗风雅颂言语百题带刷 夸克批量新增 夸克网盘批量导入：言语】2027超格四诗风雅颂言语百题带刷 quark https://pan.quark.cn/s/d862f25345db"
     },
     {
       "id": "r1628",
       "title": "综应A】2027年事考超格综A超大杯刷题营",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/503935836acf",
+      "url": "https://pan.quark.cn/s/c859aff769e3",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：综应A】2027年事考超格综A超大杯刷题营",
@@ -27725,13 +27725,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "综应A】2027年事考超格综A超大杯刷题营 夸克批量新增 夸克网盘批量导入：综应A】2027年事考超格综A超大杯刷题营 quark https://pan.quark.cn/s/503935836acf"
+      "searchText": "综应A】2027年事考超格综A超大杯刷题营 夸克批量新增 夸克网盘批量导入：综应A】2027年事考超格综A超大杯刷题营 quark https://pan.quark.cn/s/c859aff769e3"
     },
     {
       "id": "r1629",
       "title": "综应B】2027年事考超格综B超大杯刷题营",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/c6ee143f947f",
+      "url": "https://pan.quark.cn/s/3fb626a958bb",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：综应B】2027年事考超格综B超大杯刷题营",
@@ -27742,13 +27742,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "综应B】2027年事考超格综B超大杯刷题营 夸克批量新增 夸克网盘批量导入：综应B】2027年事考超格综B超大杯刷题营 quark https://pan.quark.cn/s/c6ee143f947f"
+      "searchText": "综应B】2027年事考超格综B超大杯刷题营 夸克批量新增 夸克网盘批量导入：综应B】2027年事考超格综B超大杯刷题营 quark https://pan.quark.cn/s/3fb626a958bb"
     },
     {
       "id": "r1630",
       "title": "综应C】2027年事考超格综C超大杯刷题营",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/8f5fba8289ac",
+      "url": "https://pan.quark.cn/s/f918ae575708",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：综应C】2027年事考超格综C超大杯刷题营",
@@ -27759,13 +27759,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "综应C】2027年事考超格综C超大杯刷题营 夸克批量新增 夸克网盘批量导入：综应C】2027年事考超格综C超大杯刷题营 quark https://pan.quark.cn/s/8f5fba8289ac"
+      "searchText": "综应C】2027年事考超格综C超大杯刷题营 夸克批量新增 夸克网盘批量导入：综应C】2027年事考超格综C超大杯刷题营 quark https://pan.quark.cn/s/f918ae575708"
     },
     {
       "id": "r1631",
       "title": "综应D】2027超格全国事业单位全程班D类（职测+综应）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/f3936b311d15",
+      "url": "https://pan.quark.cn/s/1c75b46e5370",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：综应D】2027超格全国事业单位全程班D类（职测+综应）",
@@ -27776,7 +27776,7 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "综应D】2027超格全国事业单位全程班D类（职测+综应） 夸克批量新增 夸克网盘批量导入：综应D】2027超格全国事业单位全程班D类（职测+综应） quark https://pan.quark.cn/s/f3936b311d15"
+      "searchText": "综应D】2027超格全国事业单位全程班D类（职测+综应） 夸克批量新增 夸克网盘批量导入：综应D】2027超格全国事业单位全程班D类（职测+综应） quark https://pan.quark.cn/s/1c75b46e5370"
     },
     {
       "id": "r1632",
@@ -27799,7 +27799,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1633",
       "title": "2027上岸村行测5000题",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/9ea5677c1989",
+      "url": "https://pan.quark.cn/s/13ccd991dd78",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：2027上岸村行测5000题",
@@ -27810,13 +27810,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "2027上岸村行测5000题 夸克批量新增 夸克网盘批量导入：2027上岸村行测5000题 quark https://pan.quark.cn/s/9ea5677c1989"
+      "searchText": "2027上岸村行测5000题 夸克批量新增 夸克网盘批量导入：2027上岸村行测5000题 quark https://pan.quark.cn/s/13ccd991dd78"
     },
     {
       "id": "r1634",
       "title": "2027上岸村黑马言语理解实战500题",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/24732b933ea3",
+      "url": "https://pan.quark.cn/s/b0798c3ae0db",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：2027上岸村黑马言语理解实战500题",
@@ -27827,7 +27827,7 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "2027上岸村黑马言语理解实战500题 夸克批量新增 夸克网盘批量导入：2027上岸村黑马言语理解实战500题 quark https://pan.quark.cn/s/24732b933ea3"
+      "searchText": "2027上岸村黑马言语理解实战500题 夸克批量新增 夸克网盘批量导入：2027上岸村黑马言语理解实战500题 quark https://pan.quark.cn/s/b0798c3ae0db"
     },
     {
       "id": "r1635",
@@ -28105,7 +28105,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1651",
       "title": "政治常识】2027国省事考小黑政治理论常识全家桶",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/27816f5aa1d2",
+      "url": "https://pan.quark.cn/s/3a62337d4c3a",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：政治常识】2027国省事考小黑政治理论常识全家桶",
@@ -28116,13 +28116,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "政治常识】2027国省事考小黑政治理论常识全家桶 夸克批量新增 夸克网盘批量导入：政治常识】2027国省事考小黑政治理论常识全家桶 quark https://pan.quark.cn/s/27816f5aa1d2"
+      "searchText": "政治常识】2027国省事考小黑政治理论常识全家桶 夸克批量新增 夸克网盘批量导入：政治常识】2027国省事考小黑政治理论常识全家桶 quark https://pan.quark.cn/s/3a62337d4c3a"
     },
     {
       "id": "r1652",
       "title": "公基】2026事业编三支小黑公基考前冲刺班",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/3508910ce0b3",
+      "url": "https://pan.quark.cn/s/be67b73e4784",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：公基】2026事业编三支小黑公基考前冲刺班",
@@ -28133,13 +28133,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "公基】2026事业编三支小黑公基考前冲刺班 夸克批量新增 夸克网盘批量导入：公基】2026事业编三支小黑公基考前冲刺班 quark https://pan.quark.cn/s/3508910ce0b3"
+      "searchText": "公基】2026事业编三支小黑公基考前冲刺班 夸克批量新增 夸克网盘批量导入：公基】2026事业编三支小黑公基考前冲刺班 quark https://pan.quark.cn/s/be67b73e4784"
     },
     {
       "id": "r1653",
       "title": "时政】2026小黑事业编三支考前必刷50题",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/43da197f0888",
+      "url": "https://pan.quark.cn/s/97a5d8624eaf",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：时政】2026小黑事业编三支考前必刷50题",
@@ -28150,7 +28150,7 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "时政】2026小黑事业编三支考前必刷50题 夸克批量新增 夸克网盘批量导入：时政】2026小黑事业编三支考前必刷50题 quark https://pan.quark.cn/s/43da197f0888"
+      "searchText": "时政】2026小黑事业编三支考前必刷50题 夸克批量新增 夸克网盘批量导入：时政】2026小黑事业编三支考前必刷50题 quark https://pan.quark.cn/s/97a5d8624eaf"
     },
     {
       "id": "r1654",
@@ -29091,7 +29091,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1709",
       "title": "2027考季四海公考君涛政治理论专项突破",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/6b988ff74941",
+      "url": "https://pan.quark.cn/s/f48aec6fbe5f",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：2027考季四海公考君涛政治理论专项突破",
@@ -29102,13 +29102,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "2027考季四海公考君涛政治理论专项突破 夸克批量新增 夸克网盘批量导入：2027考季四海公考君涛政治理论专项突破 quark https://pan.quark.cn/s/6b988ff74941"
+      "searchText": "2027考季四海公考君涛政治理论专项突破 夸克批量新增 夸克网盘批量导入：2027考季四海公考君涛政治理论专项突破 quark https://pan.quark.cn/s/f48aec6fbe5f"
     },
     {
       "id": "r1710",
       "title": "2027考季四海花生十三飞扬套题冲刺1期",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/47278e62f4b3",
+      "url": "https://pan.quark.cn/s/c714fd587766",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：2027考季四海花生十三飞扬套题冲刺1期",
@@ -29119,13 +29119,13 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "2027考季四海花生十三飞扬套题冲刺1期 夸克批量新增 夸克网盘批量导入：2027考季四海花生十三飞扬套题冲刺1期 quark https://pan.quark.cn/s/47278e62f4b3"
+      "searchText": "2027考季四海花生十三飞扬套题冲刺1期 夸克批量新增 夸克网盘批量导入：2027考季四海花生十三飞扬套题冲刺1期 quark https://pan.quark.cn/s/c714fd587766"
     },
     {
       "id": "r1711",
       "title": "2027四海葛蓉逻辑填空刷题精讲",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/7d4c322ed9ba",
+      "url": "https://pan.quark.cn/s/e70a7d8c09ac",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：2027四海葛蓉逻辑填空刷题精讲",
@@ -29136,7 +29136,7 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "2027四海葛蓉逻辑填空刷题精讲 夸克批量新增 夸克网盘批量导入：2027四海葛蓉逻辑填空刷题精讲 quark https://pan.quark.cn/s/7d4c322ed9ba"
+      "searchText": "2027四海葛蓉逻辑填空刷题精讲 夸克批量新增 夸克网盘批量导入：2027四海葛蓉逻辑填空刷题精讲 quark https://pan.quark.cn/s/e70a7d8c09ac"
     },
     {
       "id": "r1712",
@@ -29273,6 +29273,193 @@ window.PAN_SEARCH_DATA = {
         }
       ],
       "searchText": "11】2027年小黑政治理论强化500题系列 百度批量新增 百度网盘批量导入：11】2027年小黑政治理论强化500题系列 baidu https://pan.baidu.com/s/1zAWTlmLXhJmhMhekPMyhjg?pwd=vfih"
+    },
+    {
+      "id": "r1720",
+      "title": "图推】2027刘义恒图形推理700题",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/96bc61ac8934",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：图推】2027刘义恒图形推理700题",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 2,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "图推】2027刘义恒图形推理700题 夸克批量新增 夸克网盘批量导入：图推】2027刘义恒图形推理700题 quark https://pan.quark.cn/s/96bc61ac8934"
+    },
+    {
+      "id": "r1721",
+      "title": "政治理论】2027超哥政治理论背诵手册（早自习）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/e7ea97e043ef",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：政治理论】2027超哥政治理论背诵手册（早自习）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 5,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "政治理论】2027超哥政治理论背诵手册（早自习） 夸克批量新增 夸克网盘批量导入：政治理论】2027超哥政治理论背诵手册（早自习） quark https://pan.quark.cn/s/e7ea97e043ef"
+    },
+    {
+      "id": "r1722",
+      "title": "数资】2027牟立志 志哥数资晚自习",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/77a1ac9059ca",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：数资】2027牟立志 志哥数资晚自习",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 17,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "数资】2027牟立志 志哥数资晚自习 夸克批量新增 夸克网盘批量导入：数资】2027牟立志 志哥数资晚自习 quark https://pan.quark.cn/s/77a1ac9059ca"
+    },
+    {
+      "id": "r1723",
+      "title": "政治理论】2026下事业单位联考超哥政治理论考前最后50题",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/2133a7086344",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：政治理论】2026下事业单位联考超哥政治理论考前最后50题",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 20,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "政治理论】2026下事业单位联考超哥政治理论考前最后50题 夸克批量新增 夸克网盘批量导入：政治理论】2026下事业单位联考超哥政治理论考前最后50题 quark https://pan.quark.cn/s/2133a7086344"
+    },
+    {
+      "id": "r1724",
+      "title": "图推】2026下事业单位联考刘义恒图推考前点睛",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/432f595f1160",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：图推】2026下事业单位联考刘义恒图推考前点睛",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 26,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "图推】2026下事业单位联考刘义恒图推考前点睛 夸克批量新增 夸克网盘批量导入：图推】2026下事业单位联考刘义恒图推考前点睛 quark https://pan.quark.cn/s/432f595f1160"
+    },
+    {
+      "id": "r1725",
+      "title": "数推】2027仲春之阳数字推理讲练集（理论+刷题）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/4c90bd759de9",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：数推】2027仲春之阳数字推理讲练集（理论+刷题）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 29,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "数推】2027仲春之阳数字推理讲练集（理论+刷题） 夸克批量新增 夸克网盘批量导入：数推】2027仲春之阳数字推理讲练集（理论+刷题） quark https://pan.quark.cn/s/4c90bd759de9"
+    },
+    {
+      "id": "r1726",
+      "title": "科推】2027超格科学推理（适用于广东、北京、上海地区）",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/41e42e0a5d55",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：科推】2027超格科学推理（适用于广东、北京、上海地区）",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 53,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "科推】2027超格科学推理（适用于广东、北京、上海地区） 夸克批量新增 夸克网盘批量导入：科推】2027超格科学推理（适用于广东、北京、上海地区） quark https://pan.quark.cn/s/41e42e0a5d55"
+    },
+    {
+      "id": "r1727",
+      "title": "政治理论】2027国省考小黑政治理论强化刷题500题",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/0a5192882507",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：政治理论】2027国省考小黑政治理论强化刷题500题",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 131,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "政治理论】2027国省考小黑政治理论强化刷题500题 夸克批量新增 夸克网盘批量导入：政治理论】2027国省考小黑政治理论强化刷题500题 quark https://pan.quark.cn/s/0a5192882507"
+    },
+    {
+      "id": "r1728",
+      "title": "政治理论】2027国省考小黑新思想马原要点100题",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/9a11f7e5da26",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：政治理论】2027国省考小黑新思想马原要点100题",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 134,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "政治理论】2027国省考小黑新思想马原要点100题 夸克批量新增 夸克网盘批量导入：政治理论】2027国省考小黑新思想马原要点100题 quark https://pan.quark.cn/s/9a11f7e5da26"
+    },
+    {
+      "id": "r1729",
+      "title": "政治理论】2027国省事考小黑《求是》杂志必刷100题",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/f1f69e9cde30",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：政治理论】2027国省事考小黑《求是》杂志必刷100题",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 137,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "政治理论】2027国省事考小黑《求是》杂志必刷100题 夸克批量新增 夸克网盘批量导入：政治理论】2027国省事考小黑《求是》杂志必刷100题 quark https://pan.quark.cn/s/f1f69e9cde30"
+    },
+    {
+      "id": "r1730",
+      "title": "政治理论】2027国省考小黑政治理论历年真题精选100题",
+      "platform": "quark",
+      "url": "https://pan.quark.cn/s/3765ce1e0dc0",
+      "code": "",
+      "section": "夸克批量新增",
+      "context": "夸克网盘批量导入：政治理论】2027国省考小黑政治理论历年真题精选100题",
+      "sources": [
+        {
+          "file": "admin-bulk-quark",
+          "line": 140,
+          "section": "夸克批量新增"
+        }
+      ],
+      "searchText": "政治理论】2027国省考小黑政治理论历年真题精选100题 夸克批量新增 夸克网盘批量导入：政治理论】2027国省考小黑政治理论历年真题精选100题 quark https://pan.quark.cn/s/3765ce1e0dc0"
     }
   ]
 };
