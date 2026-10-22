@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-10-21T07:41:24.987Z",
+  "generatedAt": "2026-10-22T13:28:56.431Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -14880,10 +14880,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r872",
       "title": "27国省考名师课程",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/17AZyvgC-LigcguAUyyn5_Q?pwd=21sk",
+      "url": "https://pan.baidu.com/s/1Yi4PHztUbPf6WR4anw8kjQ?pwd=rnhx",
       "code": "21sk",
       "section": "公考类",
-      "context": "27国省考名师课程 链接：https://pan.baidu.com/s/17AZyvgC-LigcguAUyyn5_Q?pwd=21sk 提取码：21sk",
+      "context": "27国省考名师课程 链接：https://pan.baidu.com/s/1Yi4PHztUbPf6WR4anw8kjQ?pwd=rnhx 提取码：21sk",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -14891,7 +14891,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "27国省考名师课程 公考类 27国省考名师课程 链接：https://pan.baidu.com/s/17AZyvgC-LigcguAUyyn5_Q?pwd=21sk 提取码：21sk 21sk baidu https://pan.baidu.com/s/17AZyvgC-LigcguAUyyn5_Q?pwd=21sk"
+      "searchText": "27国省考名师课程 公考类 27国省考名师课程 链接：https://pan.baidu.com/s/1Yi4PHztUbPf6WR4anw8kjQ?pwd=rnhx 提取码：21sk 21sk baidu https://pan.baidu.com/s/1Yi4PHztUbPf6WR4anw8kjQ?pwd=rnhx"
     },
     {
       "id": "r873",
