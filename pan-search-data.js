@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-10-22T13:28:56.431Z",
+  "generatedAt": "2026-10-23T08:21:33.823Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -14778,10 +14778,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r866",
       "title": "27判断推理",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1bbAbW7Jq8jTXVSXnIwxJ4w?pwd=21sk",
+      "url": "https://pan.baidu.com/s/1NwsZFH21C8vPnFXHymZeMQ?pwd=pnrs",
       "code": "21sk",
       "section": "公考类",
-      "context": "27判断推理 链接：https://pan.baidu.com/s/1bbAbW7Jq8jTXVSXnIwxJ4w?pwd=21sk 提取码：21sk",
+      "context": "27判断推理 链接：https://pan.baidu.com/s/1NwsZFH21C8vPnFXHymZeMQ?pwd=pnrs 提取码：21sk",
       "sources": [
         {
           "file": "百度网盘链接.txt",
@@ -14789,7 +14789,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "27判断推理 公考类 27判断推理 链接：https://pan.baidu.com/s/1bbAbW7Jq8jTXVSXnIwxJ4w?pwd=21sk 提取码：21sk 21sk baidu https://pan.baidu.com/s/1bbAbW7Jq8jTXVSXnIwxJ4w?pwd=21sk"
+      "searchText": "27判断推理 公考类 27判断推理 链接：https://pan.baidu.com/s/1NwsZFH21C8vPnFXHymZeMQ?pwd=pnrs 提取码：21sk 21sk baidu https://pan.baidu.com/s/1NwsZFH21C8vPnFXHymZeMQ?pwd=pnrs"
     },
     {
       "id": "r867",
