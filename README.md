@@ -1,5 +1,15 @@
 # 学习资源库
 
+## 网盘更新记录
+
+首页“百度网盘更新记录”“夸克网盘更新记录”按发布批次展示当时提交的全部链接和已有提取码。可切换批次、搜索本批资料、直接打开网盘，或复制本批全部链接；即使正在搜索筛选，复制按钮仍复制整批。浏览器不允许自动复制时展示完整文案供手动复制。
+
+后台批量更新百度或夸克链接成功时，将当批链接快照与搜索数据一起提交到 GitHub 的 `pan-search-data.js`，保存在 `updateBatches` 字段中。相同内容不会重复建批次；同名的不同链接会在记录中保留。旧批次保留当时的链接，后续替换不会改写旧记录。功能上线前的历史不自动推测；2026-10-27 的百度 229 条已按原始文本补录。夸克同名资料的搜索库匹配规则保持现有行为，记录保留所有提交链接。
+
+公开接口：`GET /api/update-batches?platform=baidu|quark` 返回批次摘要，附加 `&id=<batch-id>` 返回整批链接，不要求登录。读取失败时页面可使用已加载的记录，并提示最新记录暂时无法获取。历史链接可能失效，记录不代表链接有效性验证。
+
+前端同步 `index.html`、`update-history.js`、`update-history.css`、`pan-search-data.js`；后端同步 `server/analytics-server.js`、`server/update-batches.js`、`server/Dockerfile` 后重建容器。验证：`node scripts/test-update-batches.cjs`、`node scripts/test-update-history-ui.cjs`（隔离临时数据与模拟 GitHub/剪贴板，不写正式资料；后者支持 `PLAYWRIGHT_MODULE_PATH`、`TEST_BROWSER_PATH`）。
+
 这是一个用于整理备考学习入口的静态导航页面，主要用于个人学习、资料索引和链接归档。
 
 在线访问：

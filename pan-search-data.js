@@ -29852,5 +29852,1159 @@ window.PAN_SEARCH_DATA = {
       ],
       "searchText": "数推】2027仲春之阳数字推理讲练集（理论+刷题） 百度批量新增 百度网盘批量导入：数推】2027仲春之阳数字推理讲练集（理论+刷题） jhf6 baidu https://pan.baidu.com/s/1ujHo6gYa3ldvOr9sWRvSLA?pwd=jhf6"
     }
+  ],
+  "updateBatches": [
+    {
+      "id": "baidu-95277b65d7a2453f594746b3",
+      "platform": "baidu",
+      "publishedAt": "2026-10-27T08:19:34Z",
+      "entries": [
+        {
+          "title": "2026李铁河南三支一扶全家桶",
+          "url": "https://pan.baidu.com/s/1s9VnK6cqv90IiN-EPrVTWg?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "2026李铁全年时政",
+          "url": "https://pan.baidu.com/s/1CQGvh6M5ay2YWOZh6CeodQ?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "政治理论】2027超哥国省考政治理论刷题课",
+          "url": "https://pan.baidu.com/s/19EY22hYL71LGQkBr4WVXyA?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "2025年时政讲练班【CG",
+          "url": "https://pan.baidu.com/s/1LCYdpb0B_7RqDHmYC8y0lg?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "2027四海冯泽政治理论带背",
+          "url": "https://pan.baidu.com/s/1q7IUC2prnUUXLof0eeM0Lg?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "2026年时政讲练班【CG",
+          "url": "https://pan.baidu.com/s/1D9ka2RsGOTI8flc-ItLvDg?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "2025年千君全年时政",
+          "url": "https://pan.baidu.com/s/1GPtr45ASYlcTLN2zdvV5Sg?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "政治理论】2027超哥政治理论时政热点小锦囊",
+          "url": "https://pan.baidu.com/s/1aJP5IDcdKZt24iZ9Xi0vvg?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "2026秦明时政热点专项课",
+          "url": "https://pan.baidu.com/s/1qBFvB5hIM85rkrOza_gUow?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "2026年晨读",
+          "url": "https://pan.baidu.com/s/1Nmc1CYhCK68d-PUy-STfwQ?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "2026年千君时政月月谈",
+          "url": "https://pan.baidu.com/s/1PxCt_2MB5njRyfTAOyMEBw?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "2025秦明全年时政",
+          "url": "https://pan.baidu.com/s/16_vvPf7r5fsmJZoI4v9-oQ?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "2027年时政是条线理论课（小Y在日记）",
+          "url": "https://pan.baidu.com/s/1pIYXhRzZbK1aG7yoN-3kcQ?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "005】2026年马克时政梳理",
+          "url": "https://pan.baidu.com/s/1c2ZBBLm--JjOVdTLCNjoPw?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "2026年政治理论&全年时政【JS",
+          "url": "https://pan.baidu.com/s/1Y1N7693KyRhjm7j_bFYASg?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "2025李铁全年时政",
+          "url": "https://pan.baidu.com/s/1X8292U5mJeoCdrfmFCg0qQ?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "07】2026年上岸村张薇公安时政点兵营",
+          "url": "https://pan.baidu.com/s/1RKvRgrVnw-OaLz9IlyjVQg?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "李铁合集",
+          "url": "https://pan.baidu.com/s/11ZG_FvmJ8Y0NxpaYxn-0Iw?pwd=m5nm",
+          "code": "m5nm"
+        },
+        {
+          "title": "2027年国省考相丽君申论解题思维趣学营",
+          "url": "https://pan.baidu.com/s/1P3cfI4BDlAzRj4Li_XM-6Q?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027年袁东申论超大杯刷题提升班(1)",
+          "url": "https://pan.baidu.com/s/1nxRe-RyKKJy48oNCxMRq7g?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027小马哥申论理论+刷题全程班",
+          "url": "https://pan.baidu.com/s/1JkNO88cnrTUQg1EtmHNslQ?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027国考陈老司申论行政执法专项",
+          "url": "https://pan.baidu.com/s/17sGnA4CXdzZ4Y8o_zPuTTA?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027小张申论系统课【第24期",
+          "url": "https://pan.baidu.com/s/1zZlpb8A2opGZFooYkyC4kw?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027年袁东申论超大杯刷题提升班",
+          "url": "https://pan.baidu.com/s/1nCzVuOmuSB_wUqvuFERWnA?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "袁东丨27申论实战班基础课复盘笔记",
+          "url": "https://pan.baidu.com/s/1HWVroI_25tJ6idw6KEdhhA?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027年袁东申论套题实战班(1)",
+          "url": "https://pan.baidu.com/s/114mpR4RLbvLmGzz_2IiP3w?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027年袁东申论套题实战班",
+          "url": "https://pan.baidu.com/s/1kbeJGeXCTFXChhm2XG1xbA?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "申论】2027站长申论基础班",
+          "url": "https://pan.baidu.com/s/1Oq3kgBy2MDRm5_5DBxgxvA?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027李梦圆申论50题精刷营",
+          "url": "https://pan.baidu.com/s/10OuKP3b2z6SFEW0Fyqjlhw?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027公考隔壁班王老师申论速成通关课：“手把手”教你零基础到高分",
+          "url": "https://pan.baidu.com/s/1WKmsFmVJT3avM8-LZfGCjQ?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027国考李小北申论系统班",
+          "url": "https://pan.baidu.com/s/1SgLBmw_M7gmx_pMJ3IYW4w?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027】袁东合集",
+          "url": "https://pan.baidu.com/s/1--A1MYgdvP-NX1dIe6GP5A?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027年国省考袁东申论大作文领跑营",
+          "url": "https://pan.baidu.com/s/1aTGpEwFK8W72sBg_yoNdfw?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027上岸村天琦申论高分的规则",
+          "url": "https://pan.baidu.com/s/1Tclq5Riv1W6UG9juf7rqUA?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027小张申论系统课【第24期】(1)",
+          "url": "https://pan.baidu.com/s/1d_0CreCJAeB6hk45Vpx28w?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2026下天晓事业单位综A考前佛脚班",
+          "url": "https://pan.baidu.com/s/1YQW_q2Vb8ktlHg2wQZnxYw?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027年国省考相丽君申论政治素养刷题班",
+          "url": "https://pan.baidu.com/s/1giOJlW0bhLTqjxGN9Sd2xg?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "B 白鹭",
+          "url": "https://pan.baidu.com/s/1DRywC41Bq_rYq-obVSNATQ?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027国考陈老司申论上岸计划",
+          "url": "https://pan.baidu.com/s/11v3siC4yvcga3NmSzMIxxA?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027年国省考季袁东申论方法实战班",
+          "url": "https://pan.baidu.com/s/1PlTctuIBhumT0_-VUY5AIg?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027kiwi申论全程班",
+          "url": "https://pan.baidu.com/s/1ZJCPX3ZLxzBZMY55_Jasww?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027天晓申论理论课",
+          "url": "https://pan.baidu.com/s/1CGdJtSKQYxIXF9s4qHEBPQ?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027年袁东申论领跑营冲刺预测班",
+          "url": "https://pan.baidu.com/s/1D4ZwFPBPGO8dayFoD9442g?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "2027白鹭申论扎马步特训营2.0",
+          "url": "https://pan.baidu.com/s/1xbzqXDWUBAeFm7IprqrAtw?pwd=mfb8",
+          "code": "mfb8"
+        },
+        {
+          "title": "Y村“小套题”一期",
+          "url": "https://pan.baidu.com/s/14tJHJjORINQ9Y4yucn1DQA?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "言语】2027雨菲言语图文带背800词",
+          "url": "https://pan.baidu.com/s/1fqpMecX7LlotwGRvg-thqQ?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027小P公考国省考数资判系统班",
+          "url": "https://pan.baidu.com/s/1kLXWxZTimS9fB6rFR_pg5g?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027薛睿公考一拖五系统课（实战应用指南）",
+          "url": "https://pan.baidu.com/s/1lH_3VvHJ1negv4hh7Xuvew?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "Y局政治理论绝技秘籍",
+          "url": "https://pan.baidu.com/s/1TWlMKHEkiaIc7BRx8ly4Qw?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027羊圈圈不背成语600词",
+          "url": "https://pan.baidu.com/s/19ECt8q2nm5LplwLdHNyKIA?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027语句表达千题册",
+          "url": "https://pan.baidu.com/s/1AbAgWAfU96p6z7iC50pllw?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027薛睿公考逻辑判断系统课",
+          "url": "https://pan.baidu.com/s/1pJAUDtiKywQeAI6j1uOBcg?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027四海拾伊数量基础理论课",
+          "url": "https://pan.baidu.com/s/1bryvOdBVbY6tItRt1rOU8Q?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027类比推理千题册(1)",
+          "url": "https://pan.baidu.com/s/1Sl1UoODyhBOfz8n_hbreLw?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027王永恒资料分析三合一理论体系课",
+          "url": "https://pan.baidu.com/s/1lNfzeygi7v6kCVft1eERIA?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027苏金朋判断推理系统课（图推逻辑类比定义）",
+          "url": "https://pan.baidu.com/s/109juOgG4DdrRbczzWXrusA?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027国考大懒猫言语刷题课一期(1)",
+          "url": "https://pan.baidu.com/s/1REXHnyvPBAGAvYMC2Nu1LA?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "速算】高照抖音速算直播课",
+          "url": "https://pan.baidu.com/s/1Z4yQQmmZCiXR_42QFJzrrg?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027图形推理千题册",
+          "url": "https://pan.baidu.com/s/1uPfXB3KUwYqauxviEaq27Q?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027薛睿国省事考图形推理24决",
+          "url": "https://pan.baidu.com/s/1a2I3pNrpbyQc9WyHl8yUeA?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027龙飞百大图形推理",
+          "url": "https://pan.baidu.com/s/1QhQGgxxytBqGDRFAye0qXQ?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027逻辑填空千题册",
+          "url": "https://pan.baidu.com/s/1ioAJKhb3Up_WEMMxt2gFXA?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "小P丨27资料分析理论课笔记",
+          "url": "https://pan.baidu.com/s/1HQhUpbAz77Z4-chVTIcgKQ?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "人民日报（成语积累+逻辑填空）",
+          "url": "https://pan.baidu.com/s/1HSyedGHhCSxq-77iI-z5og?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027国考大懒猫言语刷题课二期",
+          "url": "https://pan.baidu.com/s/1N1p_gxbrYlBxbyV0WXDtEA?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "Z 朱曦",
+          "url": "https://pan.baidu.com/s/1CvqDNgeQdZKkzWy6NNA8rw?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2026版AJGK图推1000题",
+          "url": "https://pan.baidu.com/s/1IhXYTY7oihdRu82wmHwivQ?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027四海拾伊数量关系刷题课",
+          "url": "https://pan.baidu.com/s/1f4-vO-B-DKxzUF3PSfrUjA?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027陈怀安行测圣经判断推理系统课",
+          "url": "https://pan.baidu.com/s/1cE9lvHoUT6zUGHbwt94WcA?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027图形推理千题册(1)",
+          "url": "https://pan.baidu.com/s/1yNe-Om32ADurOc-A_jjeTw?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027类比推理千题册",
+          "url": "https://pan.baidu.com/s/1MefXlzrz_nL4bpSdYV7v9w?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "言语】2027雨菲言语选词填空大满贯",
+          "url": "https://pan.baidu.com/s/1EzGxJA9lfH3rVf_fsMkaTw?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027岳飞资料分析理论技巧班",
+          "url": "https://pan.baidu.com/s/1m-Sh-8vKaZR-by4fQcE9vQ?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "青青草原“刷题班”三期",
+          "url": "https://pan.baidu.com/s/16Df2gYtXV0mwak2LIj0ekQ?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027考季大懒猫言语刷刷刷直播课",
+          "url": "https://pan.baidu.com/s/1nwtt2_GTNyh64UxkXPL0hw?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "人民日报每日晨读（逐字稿+押题范文）",
+          "url": "https://pan.baidu.com/s/1AAUBvpmd3UvSsvPsPgjsCQ?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "人民日报每日精读（笔记+思维导图版）",
+          "url": "https://pan.baidu.com/s/1GHZ6L_plhtRGrjVIE_BZVQ?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027语句表达千题册(1)",
+          "url": "https://pan.baidu.com/s/15ScqMdA0bJJyXzFhCBTyVQ?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027逻辑填空千题册(1)",
+          "url": "https://pan.baidu.com/s/1kaiQOPr6u6s89eIec-02FA?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027国省考大懒猫言语理论课",
+          "url": "https://pan.baidu.com/s/17G6V3zcV2jEd1Jfdw6dFoA?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027上岸村章晓铭图形推理1000题",
+          "url": "https://pan.baidu.com/s/1qqksHoahCDT71LzSh8Dr-g?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "Z 张弓（上岸村）",
+          "url": "https://pan.baidu.com/s/1QGlXqNoMmKHh6TcJdfTfzQ?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027片段阅读千题册",
+          "url": "https://pan.baidu.com/s/1rM4y2TS2kPwIaIYAE-I0tg?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2026版AJGK图推1000题(1)",
+          "url": "https://pan.baidu.com/s/1MHXMfZZndq8iD6xFQXOKtg?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027公考名师",
+          "url": "https://pan.baidu.com/s/1GYafo-H94qmIyQGcYAMMlQ?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027片段阅读千题册(1)",
+          "url": "https://pan.baidu.com/s/1AHQzdDXB39nW5dg7ZgjMxA?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027薛睿逻辑328判断推理专题强化课",
+          "url": "https://pan.baidu.com/s/1KfsNplRcxpA6zbGXOCNSrw?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027陈怀安行测圣经资料分析系统课(1)",
+          "url": "https://pan.baidu.com/s/1DNSr5YvDXYjUTiEEkqujug?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027薛睿公考逻辑必刷678题",
+          "url": "https://pan.baidu.com/s/16brnSHi0tKrvDFzXaNOoFQ?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027陈怀安行测圣经资料分析系统课",
+          "url": "https://pan.baidu.com/s/1uj047Ha30E8Eqr7cROHKew?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027四海拾伊数量基础理论课(1)",
+          "url": "https://pan.baidu.com/s/1LCTfQc6rGDKSg1Y4zKhBuw?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "Y村通关刷题课一期",
+          "url": "https://pan.baidu.com/s/1nmzMGz4zCU4cadM54OmFZQ?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "数资】2027牟立志数资夜生活",
+          "url": "https://pan.baidu.com/s/1Uup0XnfRI4lTeOkyXqUmmQ?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027逻辑判断千题册",
+          "url": "https://pan.baidu.com/s/1s4sCrB8nMJdBWbJRC9NW5w?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "青青草原“刷题班”二期",
+          "url": "https://pan.baidu.com/s/17afvdDnKo5BsM66VejJxLQ?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "Y局DY直播视频录播系列（一）",
+          "url": "https://pan.baidu.com/s/1MJ6v246nxZGkP1iT1Ql2og?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "2027国考大懒猫言语刷题课一期",
+          "url": "https://pan.baidu.com/s/15hWOrllpjUUzjifXUUZKiw?pwd=ixpg",
+          "code": "ixpg"
+        },
+        {
+          "title": "001】2027超格系列（夸夸刷超大杯等）",
+          "url": "https://pan.baidu.com/s/1KzniT_ZCSqNtoIsJdFcOVw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027杨攀政治理论素养课-精读《求是》",
+          "url": "https://pan.baidu.com/s/1IvbL4LsThuKTyWtSSPXYxA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027上岸村邓健资料分析200题",
+          "url": "https://pan.baidu.com/s/1f-FRYk76edP9hHb9agoTwA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "X 薛睿（MBA大师）",
+          "url": "https://pan.baidu.com/s/1b8RjSp2icN7fIwiHK-2Fzg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "政治理论】2027超哥政治理论时政热点小锦囊",
+          "url": "https://pan.baidu.com/s/1EnhgkZYqLa5RYu2uYjMyHA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027年国省考相丽君申论解题思维趣学营",
+          "url": "https://pan.baidu.com/s/1Uk58TqK8YK23OWbbxBG1kQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "政治理论】2027超格璐璐马原带背刷题",
+          "url": "https://pan.baidu.com/s/1ydjmGdDcY33quyJPU6te4A?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027国考陈老司申论上岸计划",
+          "url": "https://pan.baidu.com/s/1JgTC08IHPHgHNYVdLUCeTQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027天晓申论理论课",
+          "url": "https://pan.baidu.com/s/1VIg6D9MgT_TBGYuRl-uZ0g?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027国考齐麟晚自习",
+          "url": "https://pan.baidu.com/s/1zCPOMap3ODbh7RI5iA28TA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027上岸村兰亭论道综A理论筑基",
+          "url": "https://pan.baidu.com/s/1rOLbG64V40lbBeutla3zTQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027草莓熊广东公考申论全程班",
+          "url": "https://pan.baidu.com/s/1hfbjKMnK1kzjTooLMAwELQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027行测王山东分王行测实战方法课",
+          "url": "https://pan.baidu.com/s/1-4iAzRAEZqFrFvCyC7TnBw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "11】2027年小黑政治理论强化500题系列",
+          "url": "https://pan.baidu.com/s/1M0EmePfNNrwaNlIOXOH8Aw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027陈怀安行测圣经言语理解系统课",
+          "url": "https://pan.baidu.com/s/16NAZ-LdEQSxlS2SEiy23uw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027超哥政治理论背诵手册【早自习",
+          "url": "https://pan.baidu.com/s/1m8bB8BLcl1T4UV5LimLZEg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027kiwi申论全程班",
+          "url": "https://pan.baidu.com/s/1gsOq4n_V71CuTCh76-2X0w?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "图推】2027刘义恒图形推理700题",
+          "url": "https://pan.baidu.com/s/1_4ww-M6jJChOa8hX4qjvYA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027国考陈老司申论行政执法专项",
+          "url": "https://pan.baidu.com/s/1Ylb3CEcMvpuwL19YlNmufg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027年时政是条线时政课（小Y在日记）",
+          "url": "https://pan.baidu.com/s/1_WW7PgICsNbiy0jz3eeaew?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027白鹭申论扎马步特训营2.0",
+          "url": "https://pan.baidu.com/s/1bfmjpIUnq3SJa2WntJyHjQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027年时政是条线理论课（小Y在日记）",
+          "url": "https://pan.baidu.com/s/1VCajtWJiPjCSFvgbnQMyzw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027郭熙言语高分“十二技",
+          "url": "https://pan.baidu.com/s/1lzmU01yAPtGdFvHb7oWHKA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027杨攀政治理论基础课",
+          "url": "https://pan.baidu.com/s/1IfBFEK7aMJ6UtVGKAvo-Eg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027年国省考、选调笔试基础通关课【JS",
+          "url": "https://pan.baidu.com/s/15FYOEdoOaf0PajD4THayVQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "27年刘义恒刘义恒理论实战课后思维导图",
+          "url": "https://pan.baidu.com/s/1m0Tw5T4P2VSg7pKSvVI35g?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027上岸村王永恒资料分析母题研究",
+          "url": "https://pan.baidu.com/s/1Kdv7pTWEPabLLJLToQOUgQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "半月谈＂四节课＂搞定申论",
+          "url": "https://pan.baidu.com/s/1CDmrtj05CJODEyh3k52O0Q?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027考季四海花生十三飞扬套题冲刺1期",
+          "url": "https://pan.baidu.com/s/1PiagGpU3kGCu7hx6BAxhfw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027上岸村天琦申论高分的规则",
+          "url": "https://pan.baidu.com/s/1jdsMOr2LhB8ghw8meu-tPg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027上岸村王炎数量关系·讲练大满贯",
+          "url": "https://pan.baidu.com/s/13_XtZGI1Lv83mIQUfos5ZQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027陈怀安行测小课堂",
+          "url": "https://pan.baidu.com/s/1fLLzzjkvwwjAkNFfF-IInA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2026年钩不了沉大作文刷题班",
+          "url": "https://pan.baidu.com/s/1o0AvafrojWLtii23mDU0ng?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "政治理论】2027超哥政治理论背诵手册（早自习）",
+          "url": "https://pan.baidu.com/s/1M0m-zjzRsUMOKFvUTNZSpA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027上岸村李陈定义判断方法论",
+          "url": "https://pan.baidu.com/s/1trrNSNSOrN8G4_v0aWx62Q?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027陈怀安行测圣经判断推理系统课",
+          "url": "https://pan.baidu.com/s/1Utj2TyGWzWtdR5IecPMRnA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027上岸村张弓言语选词大典",
+          "url": "https://pan.baidu.com/s/1Yy89skuqZpBYQngWXMQmxQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027年杨柳岸申论系统课",
+          "url": "https://pan.baidu.com/s/13rLX_pdg8VCMwFfp4XhMig?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027刘义恒行测判断推理-理论实战",
+          "url": "https://pan.baidu.com/s/1w67UbAoq7R8brUbXJH4HKQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027国省事考花生十三行测600题精讲课",
+          "url": "https://pan.baidu.com/s/10WvUeRjYJKfDsKnAy9hV7w?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027年袁东申论超大杯刷题提升班",
+          "url": "https://pan.baidu.com/s/1Hy60v4DRxryvWvVYJjgWTw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027年刘文超小马哥行测申论360全程班",
+          "url": "https://pan.baidu.com/s/1W_Ad8QYWISCmVnN_gyNirA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027杨攀政治理论实战冲刺课",
+          "url": "https://pan.baidu.com/s/1n48e0DyoehQekIfNrOdG6g?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "言语】2027雨菲言语选词填空600题",
+          "url": "https://pan.baidu.com/s/18wXHoMfT5q7YxBzMefP8GA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "024】2027小P公考国省考数资判系统班",
+          "url": "https://pan.baidu.com/s/15yecNucKeFSAkKMl6PsmyA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027国省考上岸村天琦申论母题爆破班（100题）",
+          "url": "https://pan.baidu.com/s/1Fp2_0Zm8pQXXabYhkFUkdg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027四海葛蓉逻辑填空刷题精讲",
+          "url": "https://pan.baidu.com/s/1b0_Yk-8ZKRb1aWuNN2R2yA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "科学推理合集",
+          "url": "https://pan.baidu.com/s/1MSTAGGGQ_Cu3VmHERxixUg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "言语】2027四海柳岩逻辑填空12天带练领读计划",
+          "url": "https://pan.baidu.com/s/1JmPsiOKIyQpYoG5W0aPXHQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027年国省考相丽君申论政治素养刷题班",
+          "url": "https://pan.baidu.com/s/1q8jeUec8mYZvZugQb5rg-g?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027薛睿公考逻辑必刷678题",
+          "url": "https://pan.baidu.com/s/1Q00GFQ6aEwymhXIWgcXNcA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "行政执法】2027超格阿萌省考行政执法专业课",
+          "url": "https://pan.baidu.com/s/1sXZVPp8rw1jSIOXiri4flw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027李梦圆申论50题精刷营",
+          "url": "https://pan.baidu.com/s/1tywvu1GdwY1754U2Gn7mdQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027岳飞资料分析每日速算练习",
+          "url": "https://pan.baidu.com/s/1yGv48OD6L50Byy6CNea49A?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027上岸村天琦申论大作文技巧课",
+          "url": "https://pan.baidu.com/s/1cn0pRUjo5EeIQNWhNZYu6w?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027李焕国省事考逻辑判断系统课",
+          "url": "https://pan.baidu.com/s/1gA3mpi9EkD_fqW27-Bo86A?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "政治理论押题",
+          "url": "https://pan.baidu.com/s/17kvQBSxWAaO4-llOo30MvA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027国省考逻辑不楠判断推理理论课",
+          "url": "https://pan.baidu.com/s/1uwIxlJBeorHQq12mUyZJeA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027年国省考袁东申论大作文领跑营",
+          "url": "https://pan.baidu.com/s/1GgpKzOP4_KE2XbDvLHYFIg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027上岸樱桃园广东申论系统课",
+          "url": "https://pan.baidu.com/s/1DdSERpC_Lco_G3Yb6Aua0g?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027年公考薛睿逻辑判断系统课",
+          "url": "https://pan.baidu.com/s/14UJPJTOGXj-nv78M5QoYog?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027行测王山东分王政治理论蒙题技巧",
+          "url": "https://pan.baidu.com/s/179ODz74mRc7uDEt8uZF1Dg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027薛睿国省事考图形推理24决",
+          "url": "https://pan.baidu.com/s/1IAHLbGJPhx_hPbg4dePflg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027四海龙飞图推海海刷1期复盘",
+          "url": "https://pan.baidu.com/s/1JGTF3tKsdG_qhQxj-JA2cQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027小马哥申论理论+刷题全程班",
+          "url": "https://pan.baidu.com/s/1270d0qKKE-0b0YS7J0YoUg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027国考大懒猫言语刷题课一期",
+          "url": "https://pan.baidu.com/s/1UeuVYKBLlGs5w1wgnZtjng?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2026半月谈抄出申论80+第三季",
+          "url": "https://pan.baidu.com/s/1sza8NRQspG2ry2v-R8SpFQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027四海拾伊数量关系刷题课",
+          "url": "https://pan.baidu.com/s/1iCgTf6Mn8QgRfFU1Rcf1Uw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027小张申论系统课【第24期",
+          "url": "https://pan.baidu.com/s/1NS1rHaH7TQHkTXx7G54Q6w?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027李梦圆申论0圆精刷营",
+          "url": "https://pan.baidu.com/s/1wVprWMYy3N-UMIyL8V1trw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027国考大懒猫言语刷题课二期",
+          "url": "https://pan.baidu.com/s/1Fxk86dB60c6tUsKTgygPFg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "申论】2027站长申论基础班",
+          "url": "https://pan.baidu.com/s/1axZM9CacrVelDuF7NOzDfQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027苏金朋判断推理系统课（图推逻辑类比定义）",
+          "url": "https://pan.baidu.com/s/15mPMddrsx2qmsLrPhIZ3kw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027国省考季花生十三飞扬系统班",
+          "url": "https://pan.baidu.com/s/1Hw3MlB231canBSvCqa2p5w?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027年江苏名优笔试通关专项课",
+          "url": "https://pan.baidu.com/s/1PfTyx6Ai6ZW-BNH4hhobjg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "107】2027邓健资料分析200题",
+          "url": "https://pan.baidu.com/s/1-FF8PYXbuyKq9gjWJ1-R2w?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027花生十三逻辑判断600题精讲课",
+          "url": "https://pan.baidu.com/s/1sQoXbAVqsetI9qvn0T7E_g?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "言语】2027雨菲言语选词填空大满贯",
+          "url": "https://pan.baidu.com/s/1qY3P_72I3LL3VeaoIBpweg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027年岳飞资料分析理论技巧班",
+          "url": "https://pan.baidu.com/s/1PP6kf8qojEJJwZr_houhDQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027考季大懒猫言语刷刷刷直播课",
+          "url": "https://pan.baidu.com/s/1AjSTCO0VppQ6RdRmPl7jHA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027瞪哥院长私人定制上岸班",
+          "url": "https://pan.baidu.com/s/1MyRbLLkGIYIVBD_LQetPlg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027上岸村林凡资料分析筑基11层",
+          "url": "https://pan.baidu.com/s/1i9fnM5LKG4zovKox3qSkug?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027dudu广东省考申论系统课",
+          "url": "https://pan.baidu.com/s/1Cnre1NzKbUUGhTW9uqOoyQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027龙飞百大图形推理",
+          "url": "https://pan.baidu.com/s/1A-8x9EJ9QG8sqwmpy1hXYA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027上岸村黑马言语理解实战500题",
+          "url": "https://pan.baidu.com/s/1rECfntmX1J0C8cF1pgbvTw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027国省考大懒猫言语理论课",
+          "url": "https://pan.baidu.com/s/1fFcakL5xCqGcot2GOC0PDw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027年袁东申论领跑营冲刺预测班",
+          "url": "https://pan.baidu.com/s/15-gIWVJj8WnbhVOZm2lcOQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "海绵公考】省考十日速通，李焕&楚香凝&韩超&刘亚男",
+          "url": "https://pan.baidu.com/s/1fKBMFerkWCm7bgmntWyq9w?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027考季四海公考君涛政治理论专项突破",
+          "url": "https://pan.baidu.com/s/1ki2NJ-ciiOL_bLExPbVQDw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027李梦圆申论理筑根基课",
+          "url": "https://pan.baidu.com/s/1-MgPOxlmxhJGK9Zy0faMZg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027薛睿逻辑328判断推理专题强化课",
+          "url": "https://pan.baidu.com/s/1jK0v0yAhcp9r3D0jWlS0kQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027陈怀安行测圣经资料分析系统课",
+          "url": "https://pan.baidu.com/s/1qfyhhSVeYbe0r_VLuIK1Bw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "白鹭国考申论真题讲解",
+          "url": "https://pan.baidu.com/s/1U8aaOBg36Ky5__tAX4WdOg?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "Z 朱曦",
+          "url": "https://pan.baidu.com/s/13Ew3ftOcQpb-WRzQ0gIr1A?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027年时政是条线思维课（小Y在日记）",
+          "url": "https://pan.baidu.com/s/1kJrWli848ZrVBsaUsITa8A?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027年国省考季袁东申论方法实战班",
+          "url": "https://pan.baidu.com/s/1HDlVVj-iIVReLMtpvj7I4g?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027唐宋算经速算思维课",
+          "url": "https://pan.baidu.com/s/1eSpbpGVOSwiM9xxcPO1wpw?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027白鹭申论破题阵突破营2.0",
+          "url": "https://pan.baidu.com/s/1S46DZ7RI55jo1MSTMK9j-A?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "2027王永恒资料分析三合一理论体系课",
+          "url": "https://pan.baidu.com/s/1ZHJ026C5gS8GOwaUhXfhRQ?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "数推】2027仲春之阳数字推理讲练集（理论+刷题）",
+          "url": "https://pan.baidu.com/s/1ujHo6gYa3ldvOr9sWRvSLA?pwd=jhf6",
+          "code": "jhf6"
+        },
+        {
+          "title": "科推】2027超格科学推理（适用于广东、北京、上海地区）",
+          "url": "https://pan.baidu.com/s/1-gahlm6O-7NwXzSQiywfIg?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "行测申论】2027超格行测+申论（五合一）酷酷刷刷题营（实战桶）",
+          "url": "https://pan.baidu.com/s/1g2lBLS2I5Hk6SLa_Q8zgng?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "综应D】2027超格全国事业单位全程班D类（职测+综应）",
+          "url": "https://pan.baidu.com/s/1mz1jxHmK0eGF49yHqPDXRg?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "政治常识】2027国省事考小黑政治理论常识全家桶",
+          "url": "https://pan.baidu.com/s/1Bs0vPoCH7oqz4tppwdxryg?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "政治理论】2027超格璐璐马原带背刷题",
+          "url": "https://pan.baidu.com/s/1jh-7p7Jio5j9IG02Pt-TIw?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "2027国省考季四海公考行测海海刷1期",
+          "url": "https://pan.baidu.com/s/1qj9MO4Uw6HXPNpfBm9-ZAg?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "刷题】花生十三刷题合集",
+          "url": "https://pan.baidu.com/s/1Zpvu770lpVEzx3Jtn4oysA?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "H 海绵公考",
+          "url": "https://pan.baidu.com/s/148yGUE9_Jb4pxarba7TJ9w?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "2027上岸村林凡资料飞升200题",
+          "url": "https://pan.baidu.com/s/1DBY-GrukTmXaCQzbBv5fKQ?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "2026年四海拾伊15天速算训练营【61&62&63期",
+          "url": "https://pan.baidu.com/s/1FkgKwMaxHxWzui0sVpybYg?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "王君涛丨27花生十三系统班政治理论听课笔记",
+          "url": "https://pan.baidu.com/s/1BUZ0wr-Tzym7VzQDWF1dTQ?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "2027四海拾伊资料海海刷复盘(1)",
+          "url": "https://pan.baidu.com/s/1TxtyAaOWZWcZi4z5A1W62Q?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "政治理论】2027超哥国省考政治理论刷题课",
+          "url": "https://pan.baidu.com/s/17OOl8ejycfjl5hAKsjrJzQ?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "行测申论】2027超格行测+申论（六合一）实战公考理论速讲（实战桶）",
+          "url": "https://pan.baidu.com/s/1UPbkfqAo7TeoELiOWpSPkg?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "行测申论】2027超格行测+申论（五合一）夸夸刷刷题营（精讲桶）",
+          "url": "https://pan.baidu.com/s/1W5s1h1qalnE5qFJqX0VZ2A?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "行测申论】2027超格行测+申论（五合一）超大杯刷题营（精讲桶）",
+          "url": "https://pan.baidu.com/s/1QnwwfF2-S7NaxEtWYZZPsA?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "2027四海拾伊资料海海刷复盘",
+          "url": "https://pan.baidu.com/s/16fcBGGz5swRyLNLxJUuV5w?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "行测申论】2027超格行测+申论（六合一）实战公考疯狂刷2500题（实战桶）",
+          "url": "https://pan.baidu.com/s/1ho-XT0HTUB30MRJvV1YEzQ?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "2027上岸村兰亭论道综A理论筑基",
+          "url": "https://pan.baidu.com/s/1uPj79--7TBiJMGid8JvM1Q?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "2027四海拾伊数量基础理论课",
+          "url": "https://pan.baidu.com/s/1bJq7hEDGCqhmSuGeGbbUyQ?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "2027年刘文超小马哥行测申论360全程班",
+          "url": "https://pan.baidu.com/s/1pwhyon7XGVljkRYSfgyiXw?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "X 薛睿（MBA大师）",
+          "url": "https://pan.baidu.com/s/1aF8z2m_N3yvjDuHdomvguw?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "综应A】2027年事考超格综A夸夸刷刷题营",
+          "url": "https://pan.baidu.com/s/1126IddydFg4FeXQfdR9YrA?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "2027上岸村行测5000题",
+          "url": "https://pan.baidu.com/s/1B1AUenKq83gbYZNQoUulTQ?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "2027四海龙飞图推海海刷1期复盘",
+          "url": "https://pan.baidu.com/s/1H6J46KVHUOpUSUcUkq1Arw?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "2027上岸村李陈定义判断方法论",
+          "url": "https://pan.baidu.com/s/1c-6-EEdUBO3pguBw5WbyDA?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "2027国省考季花生十三飞扬系统班",
+          "url": "https://pan.baidu.com/s/1DiVrOHJzoqaG2Ex2jvpaHA?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "2027国省事考花生十三行测600题精讲课",
+          "url": "https://pan.baidu.com/s/1jzsCXR5tCctP5VWw7ja86w?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "2027国省考季四海公考行测海海刷1期(1)",
+          "url": "https://pan.baidu.com/s/1vECFdRXVIqf_6ALc5fP_wA?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "行政执法】2027超格阿萌省考行政执法专业课",
+          "url": "https://pan.baidu.com/s/1hn7dhX29XZOPtDeaxEdIqA?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "政治理论】2027超哥政治理论时政热点小锦囊",
+          "url": "https://pan.baidu.com/s/1g2MSdxLJW7Hd5dB1seMThA?pwd=f6q1",
+          "code": "f6q1"
+        },
+        {
+          "title": "行测申论】2027超格行测+申论（六合一）理论实战班（精讲桶）",
+          "url": "https://pan.baidu.com/s/1iuXOBBRj_tcHtg65b26zOw?pwd=f6q1",
+          "code": "f6q1"
+        }
+      ]
+    }
   ]
 };
