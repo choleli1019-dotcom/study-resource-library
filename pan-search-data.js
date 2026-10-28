@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-10-28T12:48:42.744Z",
+  "generatedAt": "2026-10-28T12:49:04.886Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -21714,7 +21714,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1275",
       "title": "花生十三合集(含飞扬申论)",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/52cc2d0358b7",
+      "url": "https://pan.quark.cn/s/ddafd2a51aa5",
       "code": "",
       "section": "后台新增",
       "context": "花生十三合集(含飞扬申论)",
@@ -21725,7 +21725,7 @@ window.PAN_SEARCH_DATA = {
           "section": "后台新增"
         }
       ],
-      "searchText": "花生十三合集(含飞扬申论) 后台新增 花生十三合集(含飞扬申论) quark https://pan.quark.cn/s/52cc2d0358b7"
+      "searchText": "花生十三合集(含飞扬申论) 后台新增 花生十三合集(含飞扬申论) server/data/extra-links.json"
     },
     {
       "id": "r1276",
@@ -21765,7 +21765,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1278",
       "title": "成语】2026花生十三高频成语+高频实词800词（含解析）",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/fc72d9233e67",
+      "url": "https://pan.quark.cn/s/52cc2d0358b7",
       "code": "",
       "section": "夸克批量新增",
       "context": "夸克网盘批量导入：成语】2026花生十三高频成语+高频实词800词（含解析）",
@@ -21776,7 +21776,7 @@ window.PAN_SEARCH_DATA = {
           "section": "夸克批量新增"
         }
       ],
-      "searchText": "成语】2026花生十三高频成语+高频实词800词（含解析） 夸克批量新增 夸克网盘批量导入：成语】2026花生十三高频成语+高频实词800词（含解析） quark https://pan.quark.cn/s/fc72d9233e67"
+      "searchText": "成语】2026花生十三高频成语+高频实词800词（含解析） 夸克批量新增 夸克网盘批量导入：成语】2026花生十三高频成语+高频实词800词（含解析） quark https://pan.quark.cn/s/52cc2d0358b7"
     },
     {
       "id": "r1279",
