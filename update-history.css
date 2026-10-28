@@ -1,0 +1,37 @@
+#top .hero .hero-copy .update-history-entries { display:flex; flex-wrap:wrap; gap:10px; margin-top:18px; order:4; }
+#top .hero .hero-copy .update-history-entries button { display:flex; flex-direction:column; gap:5px; flex:1 1 190px; min-width:0; padding:13px 16px; border:1px solid rgba(83,120,94,.3); border-radius:13px; background:rgba(250,252,243,.76); color:#285a48; text-align:left; font:inherit; font-size:14px; font-weight:600; cursor:pointer; }
+#top .hero .hero-copy .update-history-entries button span { color:#526b5e; font-size:12px; font-weight:400; }
+body:not(.theme-light) #top .hero .hero-copy .update-history-entries button { background:rgba(26,51,39,.82); color:#eef2d4; border-color:rgba(230,233,185,.3); }
+body:not(.theme-light) #top .hero .hero-copy .update-history-entries button span { color:#cad7c7; }
+.update-history-dialog { box-sizing:border-box; width:min(820px,calc(100% - 24px)); max-height:calc(100dvh - 32px); overflow:auto; padding:24px; border:1px solid var(--line-strong,#b7c6b9); border-radius:22px; background:var(--surface-strong,#fff); color:var(--text,#243b32); box-shadow:0 24px 80px #0005; }
+.update-history-dialog::backdrop { background:rgba(11,27,20,.6); }
+.update-history-dialog header { display:flex; align-items:center; justify-content:space-between; gap:12px; }
+.update-history-dialog h2 { margin:6px 0; font-size:23px; }
+.update-history-kicker { font-size:12px; color:var(--muted,#687a70); }
+.update-history-dialog button { font:inherit; cursor:pointer; color:inherit; }
+.update-history-dialog [data-history-close] { background:transparent; border:0; width:44px; height:44px; font-size:30px; }
+.update-history-tabs { display:flex; gap:8px; margin:20px 0 12px; }
+.update-history-tabs button { padding:10px 18px; border:1px solid var(--line-strong,#b7c6b9); border-radius:10px; background:var(--surface-soft,#f4f7f0); }
+.update-history-tabs [aria-pressed="true"] { background:#28715e; color:#fff; border-color:#28715e; }
+.update-history-hint { font-size:13px; line-height:1.8; color:var(--muted,#687a70); }
+.update-history-tools { display:flex; align-items:end; gap:12px; margin:18px 0; }
+.update-history-tools label { flex:1; min-width:0; }
+.update-history-dialog label { display:block; font-size:13px; }
+.update-history-dialog select,.update-history-dialog input,.update-history-dialog textarea { box-sizing:border-box; width:100%; min-width:0; margin-top:7px; padding:12px; border:1px solid var(--line-strong,#b7c6b9); border-radius:10px; font:inherit; font-size:16px; background:var(--surface-soft,#f4f7f0); color:inherit; }
+.update-history-dialog [data-history-copy] { border:1px solid #28715e; border-radius:10px; padding:12px 16px; background:#28715e; color:#fff; min-height:46px; }
+.update-history-dialog button:disabled { opacity:.5; cursor:default; }
+.update-history-status { min-height:22px; margin:14px 0; font-size:13px; line-height:1.8; color:var(--muted,#687a70); }
+.update-history-status button { margin-left:8px; }
+.update-history-list { display:grid; gap:10px; }
+.update-history-list article { min-width:0; padding:16px; border:1px solid var(--line,#d6dfd5); border-radius:13px; background:var(--surface-soft,#f4f7f0); }
+.update-history-item-head { display:flex; align-items:baseline; gap:10px; }
+.update-history-item-head > span { color:var(--muted,#687a70); font-size:12px; }
+.update-history-list h3 { margin:0 0 10px; font-size:15px; line-height:1.7; overflow-wrap:anywhere; }
+.update-history-list a { color:var(--accent,#28715e); font-size:13px; overflow-wrap:anywhere; }
+body:not(.theme-light) .update-history-dialog .update-history-list a:not(.update-history-open) { color:#a9daca; }
+.update-history-list footer { display:flex; align-items:center; justify-content:space-between; gap:12px; margin-top:12px; font-size:13px; }
+.update-history-list .update-history-open { color:#fff; background:#28715e; padding:8px 12px; border-radius:8px; text-decoration:none; white-space:nowrap; }
+.update-history-fallback { margin-top:18px; }
+.update-history-fallback textarea { resize:vertical; line-height:1.8; }
+.update-history-dialog :focus-visible, [data-update-history]:focus-visible { outline:3px solid #c69738; outline-offset:3px; }
+@media(max-width:560px) { .update-history-dialog { padding:18px; } .update-history-dialog h2 { font-size:20px; } .update-history-tools { flex-direction:column; align-items:stretch; } .update-history-list article { padding:13px; } }

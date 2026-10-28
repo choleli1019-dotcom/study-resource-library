@@ -2,6 +2,7 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 const crypto = require("crypto");
+const { appendBatch, publicBatches } = require("./update-batches");
 
 const PORT = Number(process.env.PORT || 3000);
 const SERVICE_NAME = process.env.SERVICE_NAME || "study-resource-api";
@@ -1090,11 +1091,12 @@ function parseBulkBaiduText(rawText) {
 async function readGitHubPanSearchDataFile() {
   const config = assertGitHubConfig();
   const ghPath = encodeGitHubPath(config.dataPath);
-  const fileData = await githubRequest(`/repos/${config.owner}/${config.repo}/contents/${ghPath}?ref=${encodeURIComponent(config.branch)}`);
+  const fileData = await githubRequest(`/repos/${config.owner}/${config.repo}/contents/${ghPath}?ref=${encodeURIComponent(config.branch)}&t=${Date.now()}`);
   if (!fileData || fileData.type !== "file" || !fileData.sha) {
     throw new Error("GitHub 返回的 pan-search-data.js 文件信息不完整");
   }
-  const currentContent = await readGitHubFileContent(fileData);
+  // Read this exact blob for large files; a branch download URL may still serve a previous version.
+  const currentContent = await readGitHubFileContent({ ...fileData, download_url: null });
   const panData = extractPanSearchData(currentContent);
   panData.items = Array.isArray(panData.items) ? panData.items : [];
   return { config, ghPath, fileData, panData };
@@ -1104,7 +1106,7 @@ function createBulkBaiduNewItem(record, nextId, defaultSection) {
   const title = String(record.title || "未命名百度资料").trim();
   const section = String(defaultSection || "百度批量新增").trim() || "百度批量新增";
   const context = `百度网盘批量导入：${title}`;
-  const code = String(record.code || "").trim();
+  const code = String(record.newCode || record.code || "").trim();
   const url = String(record.newUrl || record.url || "").trim();
   if (!url) throw new Error(`百度批量新增“${title}”缺少有效链接，已停止提交`);
   return {
@@ -1301,6 +1303,20 @@ function refreshSearchTextForBulkBaidu(item) {
   item.searchText = [item.title, item.section, item.context, item.code, item.platform, item.url].filter(Boolean).join(" ");
 }
 
+let updateBatchesCache = null;
+let updateBatchesPending = null;
+async function loadPublicUpdateBatches() {
+  if (updateBatchesCache && Date.now() - updateBatchesCache.loadedAt < 30000) return updateBatchesCache.batches;
+  if (!updateBatchesPending) {
+    updateBatchesPending = readGitHubPanSearchDataFile().then(({ panData }) => {
+      const batches = publicBatches(panData);
+      updateBatchesCache = { loadedAt: Date.now(), batches };
+      return batches;
+    }).finally(() => { updateBatchesPending = null; });
+  }
+  return updateBatchesPending;
+}
+
 async function applyBulkBaiduLinks(rawText, defaultSection = "百度批量新增", mode = "safe") {
   const { config, ghPath, fileData, panData } = await readGitHubPanSearchDataFile();
   const plan = createBaiduBulkPlan(rawText, panData, defaultSection);
@@ -1339,6 +1355,7 @@ async function applyBulkBaiduLinks(rawText, defaultSection = "百度批量新增
     panData.items.push(item);
   });
 
+  appendBatch(panData, "baidu", parseBulkBaiduText(rawText).records);
   refreshPanSearchTotalsAfterReplacement(panData);
   const updatedContent = formatPanSearchData(panData);
   const putData = await githubRequest(`/repos/${config.owner}/${config.repo}/contents/${ghPath}`, {
@@ -1353,6 +1370,7 @@ async function applyBulkBaiduLinks(rawText, defaultSection = "百度批量新增
   });
 
   githubResourceSummaryCache = null;
+  updateBatchesCache = null;
   return {
     ok: true,
     ...serializeBaiduBulkPlan(plan),
@@ -1570,6 +1588,7 @@ async function applyBulkQuarkLinks(rawText, defaultSection = "夸克批量新增
     panData.items.push(item);
   });
 
+  appendBatch(panData, "quark", parseBulkQuarkText(rawText).records);
   refreshPanSearchTotalsAfterReplacement(panData);
   const updatedContent = formatPanSearchData(panData);
   const putData = await githubRequest(`/repos/${config.owner}/${config.repo}/contents/${ghPath}`, {
@@ -1584,6 +1603,7 @@ async function applyBulkQuarkLinks(rawText, defaultSection = "夸克批量新增
   });
 
   githubResourceSummaryCache = null;
+  updateBatchesCache = null;
   return {
     ok: true,
     ...serializeQuarkBulkPlan(plan),
@@ -2696,6 +2716,22 @@ const server = http.createServer(async (req, res) => {
 
   if (req.method === "GET" && url.pathname === "/api/site-notice") {
     return send(res, req, 200, { ok: true, notice: readSiteNotice() });
+  }
+  if (req.method === "GET" && url.pathname === "/api/update-batches") {
+    try {
+      const platform = url.searchParams.get("platform");
+      if (platform && !["baidu", "quark"].includes(platform)) return send(res, req, 400, { ok: false, error: "未知网盘类型" }, { "Cache-Control": "no-store" });
+      const all = await loadPublicUpdateBatches();
+      const batches = all.filter(batch => !platform || batch.platform === platform);
+      const id = url.searchParams.get("id");
+      if (id) {
+        const batch = batches.find(row => row.id === id);
+        return send(res, req, batch ? 200 : 404, batch ? { ok: true, batch } : { ok: false, error: "未找到更新批次" }, { "Cache-Control": "no-store" });
+      }
+      return send(res, req, 200, { ok: true, batches: batches.map(({ entries, ...batch }) => batch) }, { "Cache-Control": "no-store" });
+    } catch (_) {
+      return send(res, req, 503, { ok: false, error: "更新记录暂时无法加载，请稍后重试" }, { "Cache-Control": "no-store" });
+    }
   }
   if (req.method === "GET" && url.pathname === "/api/shore-letter") return send(res, req, 200, { ok: true, letter: readShoreLetter() });
   if (req.method === "GET" && url.pathname === "/api/public-insights") {
