@@ -1,0 +1,259 @@
+/* Homepage visual layer. Loaded last to resolve the older theme overrides.
+   Keep these tokens local so resource dialogs and the study room are unaffected. */
+body.home-clarity {
+  --home-surface: rgba(246, 249, 244, .96);
+  --home-nav: rgba(239, 246, 239, .97);
+  --home-inset: #edf3eb;
+  --home-input: #ffffff;
+  --home-title: #213e32;
+  --home-text: #304d3f;
+  --home-muted: #526b5d;
+  --home-accent: #24664f;
+  --home-active: #dfede1;
+  --home-button: #2b6b53;
+  --home-button-hover: #235b46;
+  --home-border: #c4d4c6;
+  --home-ring: #438668;
+}
+
+body.home-clarity:not(.theme-light) {
+  --home-surface: rgba(19, 39, 30, .95);
+  --home-nav: rgba(19, 39, 30, .98);
+  --home-inset: #1e382b;
+  --home-input: #10271c;
+  --home-title: #f1f5ed;
+  --home-text: #d7e3d7;
+  --home-muted: #b6cbbb;
+  --home-accent: #b8ddc3;
+  --home-active: #294b38;
+  --home-button: #36755b;
+  --home-button-hover: #408068;
+  --home-border: #4f6857;
+  --home-ring: #9fd4b1;
+}
+
+/* A steady reading surface still leaves the forest visible around each card. */
+html body.home-clarity #top .hero :is(.hero-copy, .hero-live-panel, #focusCompanion),
+html body.home-clarity #top .hero .hero-side-column #focusCompanion,
+html body.home-clarity #top .hero #studyCompanion :is(.countdown-wall, .daily-learning-sign, .drift-bottle-board) {
+  background: var(--home-surface) !important;
+  border-color: var(--home-border) !important;
+  color: var(--home-text) !important;
+  box-shadow: 0 14px 32px rgba(9, 26, 18, .16), inset 0 1px 0 rgba(255, 255, 255, .05) !important;
+  -webkit-backdrop-filter: blur(20px) saturate(105%) !important;
+  backdrop-filter: blur(20px) saturate(105%) !important;
+}
+html body.home-clarity #top .hero #studyCompanion :is(.countdown-wall, .daily-learning-sign, .drift-bottle-board)::after {
+  opacity: .06 !important;
+}
+
+/* Navigation uses the same green interaction palette as the search controls. */
+html body.home-clarity #appShell .sidebar {
+  background: var(--home-nav) !important;
+  border-color: var(--home-border) !important;
+}
+html body.home-clarity #appShell .sidebar :is(.brand strong, .nav-link, .nav-link > span:last-child, .theme-toggle-text) {
+  color: var(--home-text) !important;
+  text-shadow: none !important;
+}
+html body.home-clarity #appShell .sidebar :is(.brand-mark, .nav-link > span:first-child, .theme-toggle) {
+  background: var(--home-inset) !important;
+  border-color: var(--home-border) !important;
+  color: var(--home-accent) !important;
+  box-shadow: none !important;
+}
+html body.home-clarity #appShell .sidebar .nav-link:is(.active, :hover) {
+  background: var(--home-active) !important;
+  color: var(--home-accent) !important;
+}
+html body.home-clarity #appShell .sidebar .nav-link:is(.active, :hover) > span {
+  color: var(--home-accent) !important;
+}
+html body.home-clarity #appShell .sidebar .theme-toggle-knob {
+  background: var(--home-accent) !important;
+  box-shadow: none !important;
+}
+
+/* Use real text colors for hierarchy, instead of dimming whole text groups. */
+html body.home-clarity #top .hero .hero-copy h1 {
+  color: var(--home-title) !important;
+  text-shadow: none !important;
+}
+html body.home-clarity #top .hero .hero-copy h1 span {
+  color: var(--home-accent) !important;
+  opacity: 1 !important;
+}
+html body.home-clarity #top .hero .hero-copy > p:not(.hero-blessing),
+html body.home-clarity #top .hero .hero-copy .eyebrow :is(span, i),
+html body.home-clarity #top .hero :is(.search-idle-terms, .search-idle-terms > span, .search-idle-terms button, .search-idle-meta, .search-idle-meta span, .search-shortcut) {
+  color: var(--home-muted) !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
+html body.home-clarity #top .hero .hero-copy > p:not(.eyebrow):not(.hero-blessing) {
+  font-size: 15px !important;
+}
+html body.home-clarity #top .hero .search-idle-meta { font-size: 12px !important; }
+html body.home-clarity #top .hero .search-box {
+  background: var(--home-input) !important;
+  border-color: var(--home-border) !important;
+  box-shadow: 0 5px 16px rgba(8, 24, 16, .08) !important;
+}
+html body.home-clarity #top .hero .search-box input { color: var(--home-title) !important; }
+html body.home-clarity #top .hero .search-box input::placeholder,
+html body.home-clarity #top .hero .search-box .search-icon {
+  color: var(--home-muted) !important;
+  opacity: 1 !important;
+}
+html body.home-clarity #top .hero .search-box:focus-within {
+  border-color: var(--home-ring) !important;
+  box-shadow: 0 0 0 3px var(--home-active) !important;
+}
+html body.home-clarity #top .hero .search-box button,
+html body.home-clarity #top #focusCompanion #focusPrimary {
+  color: #ffffff !important;
+  background: var(--home-button) !important;
+  border-color: var(--home-button) !important;
+  text-shadow: none !important;
+}
+html body.home-clarity #top .hero .search-box button:hover,
+html body.home-clarity #top #focusCompanion #focusPrimary:hover:not(:disabled) {
+  background: var(--home-button-hover) !important;
+}
+
+/* The request entry stays available without competing with the search button. */
+html body.home-clarity #top .hero .resource-request-entry {
+  gap: 8px 10px !important;
+  margin-top: 14px !important;
+  font-size: 13px !important;
+  line-height: 1.6 !important;
+}
+html body.home-clarity #top .hero .resource-request-entry > span { color: var(--home-muted) !important; }
+html body.home-clarity #top .hero .resource-request-entry button,
+html body.home-clarity #top .hero .update-history-entries button {
+  background: var(--home-inset) !important;
+  border: 1px solid var(--home-border) !important;
+  color: var(--home-accent) !important;
+  box-shadow: none !important;
+  text-shadow: none !important;
+}
+html body.home-clarity #top .hero .resource-request-entry button {
+  padding: 7px 11px !important;
+  font-size: 13px !important;
+  font-weight: 500 !important;
+}
+html body.home-clarity #top .hero .update-history-entries button span,
+html body.home-clarity #top .hero .hero-actions :is(a, button, .personal-favorites-count) {
+  color: var(--home-muted) !important;
+  font-size: 13px !important;
+  opacity: 1 !important;
+}
+html body.home-clarity #top .hero .resource-request-entry button:hover,
+html body.home-clarity #top .hero .update-history-entries button:hover {
+  background: var(--home-active) !important;
+  border-color: var(--home-ring) !important;
+}
+html body.home-clarity #top .hero .personal-favorites-count { background: var(--home-inset) !important; }
+html body.home-clarity #top .hero .search-discovery.is-searching {
+  background: var(--home-inset) !important;
+  border-color: var(--home-border) !important;
+}
+html body.home-clarity #top .hero .search-discovery :is(h3, p, strong, button, button span, button b) {
+  color: var(--home-text) !important;
+  opacity: 1 !important;
+}
+html body.home-clarity #top .hero .search-discovery :is(.search-view-all, .search-suggest-item > span:first-child) {
+  color: var(--home-accent) !important;
+}
+
+/* Announcement and companion text share the same foreground levels. */
+html body.home-clarity #top .hero .hero-live-panel :is(p, span, b, strong, small),
+html body.home-clarity #top #focusCompanion :is(h2, label, #focusTimer, #focusStatus),
+html body.home-clarity #top .hero #studyCompanion :is(h2, #dailyLearningSign, .drift-bottle-message) {
+  color: var(--home-text) !important;
+  text-shadow: none !important;
+}
+html body.home-clarity #top .hero .hero-live-panel :is(.hero-live-services small, .site-global-online),
+html body.home-clarity #top #focusCompanion :is(#focusToday, #focusPlan, #focusHint, #focusSubjectHint, #focusPresence, .focus-export-row > span),
+html body.home-clarity #top .hero #studyCompanion :is(.companion-kicker, .companion-heading p, #dailyLearningSignMeta, .drift-bottle-hint, .countdown-list span, .countdown-list small) {
+  color: var(--home-muted) !important;
+  opacity: 1 !important;
+  text-shadow: none !important;
+}
+html body.home-clarity #top .hero .hero-live-panel :is(.hero-live-header, .hero-live-services, .hero-live-services > span),
+html body.home-clarity #top #focusCompanion .focus-export-row,
+html body.home-clarity #top .hero #studyCompanion .drift-bottle-track {
+  border-color: var(--home-border) !important;
+}
+html body.home-clarity #top .hero .hero-live-panel .hero-live-services > span > i {
+  background: var(--home-button) !important;
+  border-color: var(--home-border) !important;
+  box-shadow: none !important;
+}
+html body.home-clarity #top .hero .hero-live-panel :is(.hero-live-status > b, p > span),
+html body.home-clarity #top #focusCompanion :is(button, select),
+html body.home-clarity #top #focusCompanion #focusSubject,
+html body.home-clarity #top .hero #studyCompanion :is(.drift-bottle-button, .drift-bottle-message, .countdown-list article) {
+  color: var(--home-text) !important;
+  background: var(--home-inset) !important;
+  border-color: var(--home-border) !important;
+  text-shadow: none !important;
+}
+html body.home-clarity #top #focusCompanion :is(#focusToday, #focusPlan, #focusPresence, #focusSubjectHint, .focus-export-row > span) {
+  font-size: 12px !important;
+  line-height: 1.6 !important;
+}
+html body.home-clarity #top #focusCompanion [data-focus-minutes][aria-pressed='true'] {
+  background: var(--home-active) !important;
+  border-color: var(--home-ring) !important;
+  color: var(--home-accent) !important;
+}
+html body.home-clarity #top #focusCompanion #focusProgress { background: var(--home-inset) !important; }
+html body.home-clarity #top #focusCompanion #focusProgress::after { background: var(--home-accent) !important; }
+html body.home-clarity #top .hero #studyCompanion .countdown-list strong { color: var(--home-accent) !important; }
+
+/* Keep the portrait and quotation in a bounded column, clear of the heading. */
+html body.home-clarity #top .hero .hero-copy .hero-motto-companion {
+  position: static !important;
+  gap: 10px !important;
+  color: var(--home-muted) !important;
+}
+html body.home-clarity #top .hero .hero-copy .hero-motto-portrait {
+  width: 76px !important;
+  height: 114px !important;
+}
+html body.home-clarity #top .hero .hero-copy #heroMotto {
+  font-size: 18px !important;
+  line-height: 1.65 !important;
+  letter-spacing: .04em !important;
+}
+html body.home-clarity #top .hero .hero-copy .hero-motto-author { font-size: 12px !important; }
+@media (min-width: 601px) {
+  html body.home-clarity #top .hero .hero-copy {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) auto;
+    column-gap: 22px;
+  }
+  html body.home-clarity #top .hero .hero-copy > .eyebrow { grid-area: 1 / 1; }
+  html body.home-clarity #top .hero .hero-copy > h1 { grid-area: 2 / 1; min-width: 0; }
+  html body.home-clarity #top .hero .hero-copy > p:not(.eyebrow):not(.hero-blessing) { grid-area: 3 / 1; min-width: 0; }
+  html body.home-clarity #top .hero .hero-copy .hero-motto-companion { grid-area: 1 / 2 / 4 / 3; align-self: center; max-width: 100%; margin: 0; }
+  html body.home-clarity #top .hero .hero-copy .hero-search { grid-area: 4 / 1 / 5 / -1; min-width: 0; }
+  html body.home-clarity #top .hero .hero-copy .hero-actions { grid-area: 5 / 1 / 6 / -1; }
+  html body.home-clarity #top .hero .hero-copy .update-history-entries { grid-area: 6 / 1 / 7 / -1; }
+}
+@media (min-width: 601px) and (max-width: 1350px) {
+  html body.home-clarity #top .hero .hero-copy .hero-motto-portrait { width: 60px !important; height: 90px !important; }
+  html body.home-clarity #top .hero .hero-copy #heroMotto { font-size: 16px !important; }
+}
+@media (max-width: 600px) {
+  html body.home-clarity #top .hero .hero-copy .hero-motto-portrait { width: 48px !important; height: 72px !important; }
+  html body.home-clarity #top .hero .hero-copy #heroMotto { font-size: 16px !important; }
+  html body.home-clarity #top .hero .hero-copy .hero-motto-author { margin-top: 3px; }
+}
+
+html body.home-clarity #top .hero :is(button, a, select):focus-visible,
+html body.home-clarity #appShell .sidebar :is(button, a):focus-visible {
+  outline: 2px solid var(--home-ring) !important;
+  outline-offset: 3px !important;
+}
