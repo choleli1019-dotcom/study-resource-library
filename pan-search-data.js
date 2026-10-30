@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-10-28T12:49:04.886Z",
+  "generatedAt": "2026-10-30T07:14:17.253Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -28666,7 +28666,7 @@ window.PAN_SEARCH_DATA = {
       "id": "r1684",
       "title": "2027上岸村邓健资料分析满分健解",
       "platform": "baidu",
-      "url": "https://pan.baidu.com/s/1SLPUNVsZMoeqEu8vXQhj2A?pwd=vfih",
+      "url": "https://pan.baidu.com/s/1Vf63gnlYy6Enmi1pPiJa8w?pwd=c9h7",
       "code": "vfih",
       "section": "百度批量新增",
       "context": "百度网盘批量导入：2027上岸村邓健资料分析满分健解",
@@ -28677,7 +28677,7 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "2027上岸村邓健资料分析满分健解 百度批量新增 百度网盘批量导入：2027上岸村邓健资料分析满分健解 vfih baidu https://pan.baidu.com/s/1SLPUNVsZMoeqEu8vXQhj2A?pwd=vfih"
+      "searchText": "2027上岸村邓健资料分析满分健解 百度批量新增 百度网盘批量导入：2027上岸村邓健资料分析满分健解 vfih baidu https://pan.baidu.com/s/1Vf63gnlYy6Enmi1pPiJa8w?pwd=c9h7"
     },
     {
       "id": "r1685",
