@@ -1,5 +1,5 @@
 window.PAN_SEARCH_DATA = {
-  "generatedAt": "2026-10-30T07:14:35.874Z",
+  "generatedAt": "2026-10-30T07:15:13.737Z",
   "sourceDir": "F:/DeskTop/网盘链接.txt; C:/Users/zhiwu/.codex/attachments/5fe01c05-d295-45d7-93b9-e083ff9e2f7e/pasted-text.txt; F:/DeskTop/国省考电子资料/百度网盘链接.txt",
   "missingSources": [],
   "totals": {
@@ -1348,10 +1348,10 @@ window.PAN_SEARCH_DATA = {
       "id": "r76",
       "title": "2027花生十三资料分析600题精讲课",
       "platform": "quark",
-      "url": "https://pan.quark.cn/s/c455722b86a8",
+      "url": "https://pan.quark.cn/s/c4764042cb36",
       "code": "",
       "section": "公考类",
-      "context": "2027花生十三资料分析600题精讲课 链接：https://pan.quark.cn/s/c455722b86a8",
+      "context": "2027花生十三资料分析600题精讲课 链接：https://pan.quark.cn/s/c4764042cb36",
       "sources": [
         {
           "file": "网盘链接.txt",
@@ -1359,7 +1359,7 @@ window.PAN_SEARCH_DATA = {
           "section": "公考类"
         }
       ],
-      "searchText": "2027花生十三资料分析600题精讲课 公考类 2027花生十三资料分析600题精讲课 链接：https://pan.quark.cn/s/c455722b86a8 quark https://pan.quark.cn/s/c455722b86a8"
+      "searchText": "2027花生十三资料分析600题精讲课 公考类 2027花生十三资料分析600题精讲课 链接：https://pan.quark.cn/s/c4764042cb36 quark https://pan.quark.cn/s/c4764042cb36"
     },
     {
       "id": "r77",
@@ -25786,8 +25786,8 @@ window.PAN_SEARCH_DATA = {
           "section": "百度批量新增"
         }
       ],
-      "searchText": "行测申论】2027超格行测+申论（五合一）超大杯刷题营 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（五合一）超大杯刷题营 bssm baidu https://pan.baidu.com/s/1Vf63gnlYy6Enmi1pPiJa8w?pwd=c9h7",
-      "url": "https://pan.baidu.com/s/1Vf63gnlYy6Enmi1pPiJa8w?pwd=c9h7"
+      "searchText": "行测申论】2027超格行测+申论（五合一）超大杯刷题营 百度批量新增 百度网盘批量导入：行测申论】2027超格行测+申论（五合一）超大杯刷题营 bssm baidu https://pan.baidu.com/s/1VLY7n4sLQElKhoMs3mnetQ?pwd=bssm",
+      "url": "https://pan.baidu.com/s/1VLY7n4sLQElKhoMs3mnetQ?pwd=bssm"
     },
     {
       "id": "r1515",
