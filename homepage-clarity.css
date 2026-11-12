@@ -346,3 +346,17 @@ html body.home-clarity #appShell #sectionNav .nav-link:hover .nav-icon { backgro
 html body.home-clarity #appShell #sectionNav .more-nav-item { display: flex; align-items: center; gap: 10px; }
 html body.home-clarity #appShell #sectionNav summary::marker { content: ''; }
 html body.home-clarity #appShell #sectionNav summary::-webkit-details-marker { display: none; }
+
+/* Long notices scroll inside the card instead of pushing the companion down. */
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice {
+  height: auto !important; min-height: 0 !important; justify-content: flex-start !important;
+}
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice > p { gap: 8px !important; min-height: 0 !important; }
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice > p > .site-notice-message {
+  max-height: 150px !important; overflow-y: auto !important; overflow-x: hidden !important;
+  padding-right: 10px !important; scrollbar-width: thin; scrollbar-color: var(--home-accent) transparent;
+  line-height: 1.7 !important;
+}
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice .site-notice-message:focus-visible {
+  outline: 2px solid var(--home-ring); outline-offset: 3px;
+}

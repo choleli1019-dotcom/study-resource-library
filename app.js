@@ -2079,7 +2079,7 @@ function renderSiteNotice(notice) {
   panel.classList.add("has-site-notice");
   panel.classList.toggle("notice-maintenance", tone === "maintenance");
   panel.classList.toggle("notice-recovered", tone === "recovered");
-  copy.innerHTML = `<span>${labels[tone]}</span><strong>${title}</strong><small class="site-notice-message">${message}</small>${time ? `<time class="site-notice-time">${time} 发布</time>` : ""}`;
+  copy.innerHTML = `<span>${labels[tone]}</span><strong>${title}</strong><small class="site-notice-message" tabindex="0" role="region" aria-label="公告正文，可滚动阅读">${message}</small>${time ? `<time class="site-notice-time">${time} 发布</time>` : ""}`;
 }
 
 async function loadSiteNotice() {
