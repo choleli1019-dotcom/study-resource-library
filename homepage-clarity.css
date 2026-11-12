@@ -311,3 +311,67 @@ html body.home-clarity #top #overview .overview-card .section-open-button:hover 
   color: #fff !important;
   background: var(--home-button) !important;
 }
+
+/* Announcements are documents, not a single status line. */
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice > p {
+  display: flex !important; flex-direction: column !important; align-items: stretch !important;
+  gap: 12px !important; width: 100% !important; max-width: none !important;
+  height: auto !important; max-height: none !important; overflow: visible !important;
+  text-align: left !important; white-space: normal !important;
+}
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice > p > * {
+  position: static !important; width: auto !important; margin: 0 !important;
+  max-height: none !important; overflow: visible !important; -webkit-line-clamp: unset !important;
+}
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice > p > span { align-self: flex-start !important; }
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice .site-notice-message {
+  display: block !important; white-space: pre-wrap !important; overflow-wrap: anywhere !important;
+  font-size: 15px !important; line-height: 1.85 !important; letter-spacing: normal !important;
+}
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice .site-notice-time {
+  display: block !important; font-size: 12px !important; color: var(--home-muted) !important;
+}
+
+/* Consistent, scalable navigation pictograms. */
+html body.home-clarity #appShell #sectionNav .nav-icon {
+  display: inline-flex !important; align-items: center !important; justify-content: center !important;
+  flex: 0 0 36px !important; width: 36px !important; height: 36px !important;
+  border-radius: 12px !important; color: var(--home-accent) !important;
+  background: transparent !important;
+}
+html body.home-clarity #appShell #sectionNav .nav-icon svg { display: block; width: 21px; height: 21px; }
+html body.home-clarity #appShell #sectionNav .nav-link { gap: 8px !important; border-radius: 16px !important; }
+html body.home-clarity #appShell #sectionNav .nav-link.active .nav-icon,
+html body.home-clarity #appShell #sectionNav .nav-link:hover .nav-icon { background: var(--home-inset) !important; }
+html body.home-clarity #appShell #sectionNav .more-nav-item { display: flex; align-items: center; gap: 10px; }
+html body.home-clarity #appShell #sectionNav summary::marker { content: ''; }
+html body.home-clarity #appShell #sectionNav summary::-webkit-details-marker { display: none; }
+
+/* Long notices scroll inside the card instead of pushing the companion down. */
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice {
+  height: auto !important; min-height: 0 !important; justify-content: flex-start !important;
+}
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice > p { gap: 8px !important; min-height: 0 !important; }
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice > p > .site-notice-message {
+  max-height: 150px !important; overflow-y: auto !important; overflow-x: hidden !important;
+  padding-right: 10px !important; scrollbar-width: thin; scrollbar-color: var(--home-accent) transparent;
+  line-height: 1.7 !important;
+}
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice .site-notice-message:focus-visible {
+  outline: 2px solid var(--home-ring); outline-offset: 3px;
+}
+
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice > p > .notice-reading-actions {
+  display: flex !important; align-items: center !important; justify-content: space-between !important;
+  align-self: stretch !important; gap: 8px !important; padding: 0 !important; background: none !important;
+}
+.notice-scroll-hint { font-size: 12px; color: var(--home-muted); }
+.notice-read-full { border: 0; border-radius: 8px; padding: 6px 10px; background: var(--home-button); color: #fff; font: inherit; font-size: 13px; cursor: pointer; }
+html body #siteNoticeDialog { box-sizing: border-box; width: min(640px, calc(100vw - 32px)); max-height: 82dvh; padding: 24px; border: 1px solid #cbd8d0; border-radius: 20px; background: #f7faf7; color: #263b31; box-shadow: 0 24px 80px #0005; }
+html body:not(.theme-light) #siteNoticeDialog { background: #202d27; color: #edf5ef; border-color: #4b6355; }
+#siteNoticeDialog::backdrop { background: #101c1780; backdrop-filter: blur(5px); }
+#siteNoticeDialog header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
+#siteNoticeDialog h2 { margin: 0; font-size: 20px; line-height: 1.5; }
+#siteNoticeDialog form { flex-shrink: 0; }
+#siteNoticeDialog button { padding: 7px 12px; border: 1px solid #809a8b66; border-radius: 8px; background: transparent; color: inherit; cursor: pointer; }
+#siteNoticeDialog .notice-reader-body { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 16px; line-height: 1.85; }

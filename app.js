@@ -358,6 +358,18 @@ function trackResourceClick(event) {
   });
 }
 
+function navigationIcon(id) {
+  const paths = {
+    home: '<path d="m3 10 9-7 9 7v10a1 1 0 0 1-1 1h-5v-7H9v7H4a1 1 0 0 1-1-1Z"/>',
+    study: '<circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/>',
+    start: '<path d="M4 5h6l2 2h8v13H4Z"/><path d="M8 11h8M8 15h5"/>',
+    civil: '<path d="m3 9 9-6 9 6H3ZM5 10v8m7-8v8m7-8v8M3 21h18"/>',
+    teacher: '<path d="m2 9 10-5 10 5-10 5ZM6 11v6q6 5 12 0v-6M22 9v7"/>',
+    more: '<rect x="3" y="3" width="7" height="7" rx="2"/><rect x="14" y="3" width="7" height="7" rx="2"/><rect x="3" y="14" width="7" height="7" rx="2"/><rect x="14" y="14" width="7" height="7" rx="2"/>'
+  };
+  return `<svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${paths[id] || '<path d="M4 4h6l2 2 2-2h6v16h-6l-2 2-2-2H4ZM12 6v16"/>'}</svg>`;
+}
+
 function renderNav() {
   const nav = document.querySelector("#sectionNav");
   const primaryIds = ["start", "civil", "teacher"];
@@ -371,18 +383,18 @@ function renderNav() {
 
   nav.innerHTML = `
     <a class="nav-link active" href="#top">
-      <span>⌂</span>
+      <span class="nav-icon">${navigationIcon("home")}</span>
       <span>首页</span>
     </a>
     <a class="nav-link" href="study-room.html">
-      <span>◷</span>
+      <span class="nav-icon">${navigationIcon("study")}</span>
       <span>上岸自习室</span>
     </a>
     ${primary
       .map(
         (section) => `
           <a class="nav-link" href="#${section.id}">
-            <span>${section.icon}</span>
+            <span class="nav-icon">${navigationIcon(section.id)}</span>
             <span>${titleMap[section.id] || section.title}</span>
           </a>
         `
@@ -390,7 +402,7 @@ function renderNav() {
       .join("")}
     <details class="more-nav">
       <summary class="nav-link">
-        <span>•••</span>
+        <span class="nav-icon">${navigationIcon("more")}</span>
         <span>更多分类</span>
       </summary>
       <div class="more-nav-menu">
@@ -398,7 +410,7 @@ function renderNav() {
           .map(
             (section) => `
               <a class="more-nav-item" href="#${section.id}" data-menu-section="${section.id}">
-                <span>${section.icon}</span>
+                <span class="nav-icon">${navigationIcon(section.id)}</span>
                 <strong>${section.title}</strong>
               </a>
             `
@@ -2062,13 +2074,45 @@ function renderSiteNotice(notice) {
   const tone = ["notice", "maintenance", "recovered"].includes(notice.tone) ? notice.tone : "notice";
   const labels = { notice: "网站公告", maintenance: "维护中", recovered: "已恢复" };
   const title = panSearchEscapeHtml(notice.title || "资料库公告");
-  const message = panSearchEscapeHtml(notice.message || "请留意最新资料说明。");
+  const message = panSearchEscapeHtml(notice.message || "请留意最新资料说明。").replace(/\*\*([^*\n]+)\*\*/g, "<b>$1</b>");
   const time = formatSiteNoticeTime(notice.updatedAt);
   panel.classList.add("has-site-notice");
   panel.classList.toggle("notice-maintenance", tone === "maintenance");
   panel.classList.toggle("notice-recovered", tone === "recovered");
-  copy.innerHTML = `<span>${labels[tone]}</span><strong>${title}</strong><small>${message}${time ? ` · ${time} 发布` : ""}</small>`;
+  copy.innerHTML = `<span>${labels[tone]}</span><strong>${title}</strong><small class="site-notice-message" tabindex="0" role="region" aria-label="公告正文，可滚动阅读">${message}</small><span class="notice-reading-actions"><small class="notice-scroll-hint"></small><button type="button" class="notice-read-full">查看完整公告 ↗</button></span>${time ? `<time class="site-notice-time">${time} 发布</time>` : ""}`;
 }
+
+// Delegation keeps the reader available after notice refreshes.
+document.addEventListener("click", (event) => {
+  const trigger = event.target.closest(".notice-read-full");
+  if (!trigger) return;
+  let dialog = document.getElementById("siteNoticeDialog");
+  if (!dialog) {
+    dialog = document.createElement("dialog");
+    dialog.id = "siteNoticeDialog";
+    dialog.setAttribute("aria-labelledby", "siteNoticeDialogTitle");
+    document.body.append(dialog);
+    dialog.addEventListener("click", (e) => { if (e.target === dialog) dialog.close(); });
+    dialog.addEventListener("close", () => trigger.focus());
+  }
+  const notice = window.__studyResourceSiteNotice || {};
+  const title = panSearchEscapeHtml(notice.title || "网站公告");
+  const body = panSearchEscapeHtml(notice.message || "").replace(/\*\*([^*\n]+)\*\*/g, "<b>$1</b>");
+  dialog.innerHTML = `<header><h2 id="siteNoticeDialogTitle">${title}</h2><form method="dialog"><button aria-label="关闭公告" autofocus>关闭 ✕</button></form></header><div class="notice-reader-body">${body}</div>`;
+  dialog.showModal();
+});
+
+function updateNoticeScrollHint() {
+  const body = document.querySelector(".site-notice-message");
+  const hint = document.querySelector(".notice-scroll-hint");
+  if (!body || !hint) return;
+  hint.textContent = body.scrollHeight > body.clientHeight + 2
+    ? (body.scrollTop + body.clientHeight >= body.scrollHeight - 3 ? "已读到底" : "↓ 下滑继续阅读") : "";
+}
+document.addEventListener("scroll", (event) => {
+  if (event.target.matches?.(".site-notice-message")) updateNoticeScrollHint();
+}, true);
+window.addEventListener("resize", updateNoticeScrollHint);
 
 async function loadSiteNotice() {
   if (!serverApiBase) return;
@@ -2077,6 +2121,7 @@ async function loadSiteNotice() {
     if (!response.ok) return;
     const data = await response.json();
     renderSiteNotice(data?.notice || {});
+    requestAnimationFrame(updateNoticeScrollHint);
   } catch (_) {
     // Keep the default online copy when the notice service is unavailable.
   }

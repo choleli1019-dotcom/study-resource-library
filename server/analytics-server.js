@@ -42,7 +42,7 @@ function normalizeSiteNotice(raw) {
     active: input.active === true,
     tone,
     title: boundedText(input.title, 80),
-    message: boundedText(input.message, 220),
+    message: boundedText(input.message, 4000),
     updatedAt: input.updatedAt || null
   };
 }
@@ -2542,7 +2542,7 @@ function renderAdminPage(stats, token, notice = {}, resourceSummary = null) {
           <label class="full"><span><input type="checkbox" name="active" ${siteNotice.active ? "checked" : ""} /> 在首页显示此公告</span></label>
           <label>公告状态<select name="tone"><option value="notice" ${siteNotice.tone === "notice" ? "selected" : ""}>公告</option><option value="maintenance" ${siteNotice.tone === "maintenance" ? "selected" : ""}>维护中</option><option value="recovered" ${siteNotice.tone === "recovered" ? "selected" : ""}>已恢复</option></select></label>
           <label>公告标题<input name="title" maxlength="80" value="${escapeHtml(siteNotice.title)}" placeholder="例如：百度网盘部分资料维护中" /></label>
-          <label class="full">说明<textarea name="message" maxlength="220" placeholder="例如：已在逐条修复，夸克和飞书资料可正常使用。">${escapeHtml(siteNotice.message)}</textarea></label>
+          <label class="full">说明（支持换行、空行；用 **文字** 加粗）<textarea name="message" rows="14" maxlength="4000" placeholder="例如：已在逐条修复，夸克和飞书资料可正常使用。">${escapeHtml(siteNotice.message)}</textarea></label>
           <div class="full"><button type="submit">保存并发布公告</button></div>
         </form>
         <p class="hint">取消勾选“在首页显示此公告”后保存，即可恢复首页默认文案。公告不需要改前端代码，发布后会自动显示在首页在线状态面板。</p>
