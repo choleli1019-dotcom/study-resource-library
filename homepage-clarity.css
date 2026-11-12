@@ -360,3 +360,18 @@ html body.home-clarity #top .hero .hero-live-panel.has-site-notice > p > .site-n
 html body.home-clarity #top .hero .hero-live-panel.has-site-notice .site-notice-message:focus-visible {
   outline: 2px solid var(--home-ring); outline-offset: 3px;
 }
+
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice > p > .notice-reading-actions {
+  display: flex !important; align-items: center !important; justify-content: space-between !important;
+  align-self: stretch !important; gap: 8px !important; padding: 0 !important; background: none !important;
+}
+.notice-scroll-hint { font-size: 12px; color: var(--home-muted); }
+.notice-read-full { border: 0; border-radius: 8px; padding: 6px 10px; background: var(--home-button); color: #fff; font: inherit; font-size: 13px; cursor: pointer; }
+html body #siteNoticeDialog { box-sizing: border-box; width: min(640px, calc(100vw - 32px)); max-height: 82dvh; padding: 24px; border: 1px solid #cbd8d0; border-radius: 20px; background: #f7faf7; color: #263b31; box-shadow: 0 24px 80px #0005; }
+html body:not(.theme-light) #siteNoticeDialog { background: #202d27; color: #edf5ef; border-color: #4b6355; }
+#siteNoticeDialog::backdrop { background: #101c1780; backdrop-filter: blur(5px); }
+#siteNoticeDialog header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 18px; }
+#siteNoticeDialog h2 { margin: 0; font-size: 20px; line-height: 1.5; }
+#siteNoticeDialog form { flex-shrink: 0; }
+#siteNoticeDialog button { padding: 7px 12px; border: 1px solid #809a8b66; border-radius: 8px; background: transparent; color: inherit; cursor: pointer; }
+#siteNoticeDialog .notice-reader-body { white-space: pre-wrap; overflow-wrap: anywhere; font-size: 16px; line-height: 1.85; }

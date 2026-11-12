@@ -2079,8 +2079,40 @@ function renderSiteNotice(notice) {
   panel.classList.add("has-site-notice");
   panel.classList.toggle("notice-maintenance", tone === "maintenance");
   panel.classList.toggle("notice-recovered", tone === "recovered");
-  copy.innerHTML = `<span>${labels[tone]}</span><strong>${title}</strong><small class="site-notice-message" tabindex="0" role="region" aria-label="公告正文，可滚动阅读">${message}</small>${time ? `<time class="site-notice-time">${time} 发布</time>` : ""}`;
+  copy.innerHTML = `<span>${labels[tone]}</span><strong>${title}</strong><small class="site-notice-message" tabindex="0" role="region" aria-label="公告正文，可滚动阅读">${message}</small><span class="notice-reading-actions"><small class="notice-scroll-hint"></small><button type="button" class="notice-read-full">查看完整公告 ↗</button></span>${time ? `<time class="site-notice-time">${time} 发布</time>` : ""}`;
 }
+
+// Delegation keeps the reader available after notice refreshes.
+document.addEventListener("click", (event) => {
+  const trigger = event.target.closest(".notice-read-full");
+  if (!trigger) return;
+  let dialog = document.getElementById("siteNoticeDialog");
+  if (!dialog) {
+    dialog = document.createElement("dialog");
+    dialog.id = "siteNoticeDialog";
+    dialog.setAttribute("aria-labelledby", "siteNoticeDialogTitle");
+    document.body.append(dialog);
+    dialog.addEventListener("click", (e) => { if (e.target === dialog) dialog.close(); });
+    dialog.addEventListener("close", () => trigger.focus());
+  }
+  const notice = window.__studyResourceSiteNotice || {};
+  const title = panSearchEscapeHtml(notice.title || "网站公告");
+  const body = panSearchEscapeHtml(notice.message || "").replace(/\*\*([^*\n]+)\*\*/g, "<b>$1</b>");
+  dialog.innerHTML = `<header><h2 id="siteNoticeDialogTitle">${title}</h2><form method="dialog"><button aria-label="关闭公告" autofocus>关闭 ✕</button></form></header><div class="notice-reader-body">${body}</div>`;
+  dialog.showModal();
+});
+
+function updateNoticeScrollHint() {
+  const body = document.querySelector(".site-notice-message");
+  const hint = document.querySelector(".notice-scroll-hint");
+  if (!body || !hint) return;
+  hint.textContent = body.scrollHeight > body.clientHeight + 2
+    ? (body.scrollTop + body.clientHeight >= body.scrollHeight - 3 ? "已读到底" : "↓ 下滑继续阅读") : "";
+}
+document.addEventListener("scroll", (event) => {
+  if (event.target.matches?.(".site-notice-message")) updateNoticeScrollHint();
+}, true);
+window.addEventListener("resize", updateNoticeScrollHint);
 
 async function loadSiteNotice() {
   if (!serverApiBase) return;
@@ -2089,6 +2121,7 @@ async function loadSiteNotice() {
     if (!response.ok) return;
     const data = await response.json();
     renderSiteNotice(data?.notice || {});
+    requestAnimationFrame(updateNoticeScrollHint);
   } catch (_) {
     // Keep the default online copy when the notice service is unavailable.
   }
