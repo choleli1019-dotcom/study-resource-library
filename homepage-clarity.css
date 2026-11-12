@@ -311,3 +311,38 @@ html body.home-clarity #top #overview .overview-card .section-open-button:hover 
   color: #fff !important;
   background: var(--home-button) !important;
 }
+
+/* Announcements are documents, not a single status line. */
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice > p {
+  display: flex !important; flex-direction: column !important; align-items: stretch !important;
+  gap: 12px !important; width: 100% !important; max-width: none !important;
+  height: auto !important; max-height: none !important; overflow: visible !important;
+  text-align: left !important; white-space: normal !important;
+}
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice > p > * {
+  position: static !important; width: auto !important; margin: 0 !important;
+  max-height: none !important; overflow: visible !important; -webkit-line-clamp: unset !important;
+}
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice > p > span { align-self: flex-start !important; }
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice .site-notice-message {
+  display: block !important; white-space: pre-wrap !important; overflow-wrap: anywhere !important;
+  font-size: 15px !important; line-height: 1.85 !important; letter-spacing: normal !important;
+}
+html body.home-clarity #top .hero .hero-live-panel.has-site-notice .site-notice-time {
+  display: block !important; font-size: 12px !important; color: var(--home-muted) !important;
+}
+
+/* Consistent, scalable navigation pictograms. */
+html body.home-clarity #appShell #sectionNav .nav-icon {
+  display: inline-flex !important; align-items: center !important; justify-content: center !important;
+  flex: 0 0 36px !important; width: 36px !important; height: 36px !important;
+  border-radius: 12px !important; color: var(--home-accent) !important;
+  background: transparent !important;
+}
+html body.home-clarity #appShell #sectionNav .nav-icon svg { display: block; width: 21px; height: 21px; }
+html body.home-clarity #appShell #sectionNav .nav-link { gap: 8px !important; border-radius: 16px !important; }
+html body.home-clarity #appShell #sectionNav .nav-link.active .nav-icon,
+html body.home-clarity #appShell #sectionNav .nav-link:hover .nav-icon { background: var(--home-inset) !important; }
+html body.home-clarity #appShell #sectionNav .more-nav-item { display: flex; align-items: center; gap: 10px; }
+html body.home-clarity #appShell #sectionNav summary::marker { content: ''; }
+html body.home-clarity #appShell #sectionNav summary::-webkit-details-marker { display: none; }
